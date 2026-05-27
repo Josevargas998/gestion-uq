@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import { TIPOS } from '../data';
 
 export default function BancoPares({ solicitudes }) {
   const [busqueda, setBusqueda] = useState('');
@@ -86,6 +87,14 @@ export default function BancoPares({ solicitudes }) {
     const map = new Map(); // titulo normalizado → producto consolidado
 
     solicitudesFiltradas.forEach(sol => {
+      // Filtrar productos que no necesitan evaluación externa
+      const tienePares = sol.pares_ext && Array.isArray(sol.pares_ext) && sol.pares_ext.some(p => p.nombre && p.nombre.trim() !== '' && p.nombre.toUpperCase() !== 'BUSCANDO PARES');
+      const tipoDef = TIPOS[sol.tipo];
+      // Si el tipo es directo/informe y NO se le ha asignado un par manualmente, lo saltamos
+      const necesitaPares = tipoDef && (tipoDef.ruta === 'externos' || tipoDef.ruta === 'internos' || tipoDef.ruta === 'cei');
+      
+      if (!tienePares && !necesitaPares) return;
+
       const tituloKey = (sol.titulo || '').trim().toUpperCase();
       if (!tituloKey || tituloKey === 'SIN TÍTULO') return;
 
