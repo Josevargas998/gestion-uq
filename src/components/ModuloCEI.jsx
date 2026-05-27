@@ -689,7 +689,6 @@ function PanelSesionesCei({ user }) {
                     <div style={{ fontWeight:700, fontSize:20, color:'var(--uq-blue)' }}>{parseFloat(s.pts_totales || 0).toFixed(1)}</div>
                     <div style={{ color:'var(--muted)', fontWeight: 500 }}>Puntos</div>
                   </div>
-                  </div>
                 </div>
                 <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
                   {s.estado === 'abierta' && user?.rol !== 'lectura' && (
