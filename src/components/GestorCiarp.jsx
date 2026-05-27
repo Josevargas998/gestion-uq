@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { TIPOS } from '../data.js';
 import { exportarCIARP } from '../utils/exportCiarp.js';
+import { cerrarYAbrirSesionCiarp } from '../utils/api.js';
 import { normalizeActaKey } from '../helpers.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
 import { useNotification } from '../context/NotificationContext.jsx';
@@ -186,6 +187,23 @@ function TablaProductos({ lista, onSelect, onEliminar, user }) {
 function VistaSesionCiarp({ acta, productos, onSelect, onEliminar, user }) {
   const parsed = parseActaLabel(acta);
   const [catTab, setCatTab] = useState('todos');
+  const [cerrando, setCerrando] = useState(false);
+
+  const puedeCrear = user?.rol === 'admin' || user?.rol === 'tecnico';
+
+  async function handleCerrar() {
+    if (!window.confirm(`¿Estás seguro de cerrar la sesión CIARP ${parsed.label}? Esta acción cerrará la sesión actual y creará automáticamente la siguiente.`)) return;
+    try {
+      setCerrando(true);
+      const id = `CIARP-${parsed.year}-${String(parsed.num).padStart(2, '0')}`;
+      await cerrarYAbrirSesionCiarp(id);
+      alert('Sesión cerrada correctamente. La nueva sesión ha sido creada y asignada automáticamente.');
+    } catch (err) {
+      alert('Error: ' + err.message);
+    } finally {
+      setCerrando(false);
+    }
+  }
 
   const aprobados   = productos.filter(s => s.estado === 'aprobado');
   const rechazados  = productos.filter(s => s.estado === 'rechazado');
@@ -238,14 +256,23 @@ function VistaSesionCiarp({ acta, productos, onSelect, onEliminar, user }) {
             <div style={{ fontSize: 12, opacity: 0.9, fontWeight: 500 }}>Puntos asig.</div>
           </div>
         </div>
-        {aprobados.length > 0 && (
-          <button onClick={() => exportarCIARP(aprobados, [], parsed.label)}
-            style={{ padding: '10px 16px', background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', borderRadius: 10, color: '#fff', fontWeight: 600, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
-            onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.25)'}
-            onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}>
-            <Download size={16} /> Exportar Informe
-          </button>
-        )}
+        <div style={{ display: 'flex', gap: 10 }}>
+          {puedeCrear && (
+            <button onClick={handleCerrar} disabled={cerrando}
+              style={{ padding: '10px 16px', background: 'var(--p)', border: 'none', borderRadius: 10, color: '#fff', fontWeight: 600, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
+              title="Cerrar esta sesión y abrir la siguiente automáticamente">
+              {cerrando ? '⏳' : '🔄'} Cerrar CIARP
+            </button>
+          )}
+          {aprobados.length > 0 && (
+            <button onClick={() => exportarCIARP(aprobados, [], parsed.label)}
+              style={{ padding: '10px 16px', background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', borderRadius: 10, color: '#fff', fontWeight: 600, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
+              onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.25)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}>
+              <Download size={16} /> Exportar Informe
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Tabs por categoría Decreto 1279 */}
