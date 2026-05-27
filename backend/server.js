@@ -400,6 +400,17 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
     const tipo = sol.tipo || 'revista_a1';
     const idPrefix = tipo === 'ascenso' ? 'ASC' : 'PROD';
     const id  = `SOL-${new Date().getFullYear()}-${idPrefix}-${hex}`;
+
+    // Ensure docente exists to satisfy foreign key constraint
+    if (sol.cedula && sol.docente) {
+      await query(
+        `INSERT INTO docentes (cedula, nombre, correo, programa, facultad)
+         VALUES ($1, $2, $3, $4, $5)
+         ON CONFLICT (cedula) DO NOTHING`,
+        [sol.cedula, sol.docente, sol.correo || null, sol.programa || null, sol.facultad || null]
+      );
+    }
+
     const { rows } = await query(
       `INSERT INTO solicitudes
          (id, coautor, cedula, docente, tipo, titulo, revista,
@@ -473,6 +484,16 @@ app.put('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (req, 
     if (!sol.sesion_ciarp_id && sol.acta_ciarp) {
       const { rows: ciarpRows } = await query('SELECT id FROM sesiones_ciarp WHERE acta_label = $1 LIMIT 1', [sol.acta_ciarp]);
       if (ciarpRows.length > 0) sol.sesion_ciarp_id = ciarpRows[0].id;
+    }
+
+    // Ensure docente exists to satisfy foreign key constraint
+    if (sol.cedula && sol.docente) {
+      await query(
+        `INSERT INTO docentes (cedula, nombre, correo, programa, facultad)
+         VALUES ($1, $2, $3, $4, $5)
+         ON CONFLICT (cedula) DO NOTHING`,
+        [sol.cedula, sol.docente, sol.correo || null, sol.programa || null, sol.facultad || null]
+      );
     }
 
     const { rows } = await query(
