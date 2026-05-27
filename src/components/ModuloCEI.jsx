@@ -8,6 +8,8 @@ import { useSolicitudes } from '../context/SolicitudesContext.jsx';
 import { useNotification } from '../context/NotificationContext.jsx';
 import ConfirmDialog from './ConfirmDialog.jsx';
 import { useDocentesIndex } from '../hooks/useDocentesData.js';
+import PdfUploader from './PdfUploader.jsx';
+import { Paperclip, Save } from 'lucide-react';
 import { 
   CheckCircle, XCircle, AlertTriangle, Landmark, Hourglass, 
   ClipboardList, Inbox, GraduationCap, Briefcase, FileText, 
@@ -889,7 +891,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
   });
 
   function handleAgregarParExt() {
-    setParesExtEdit([...paresExtEdit, { nombre: '', estado: 'pendiente' }]);
+    setParesExtEdit([...paresExtEdit, { nombre: '', perfil: '', cvlac_url: '', cvlac_nombre: '', memo_envio: '', fecha_envio: '', estado: 'pendiente' }]);
   }
   function handleEliminarParExt(idx) {
     setParesExtEdit(paresExtEdit.filter((_, i) => i !== idx));
@@ -897,6 +899,12 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
   function handleParExtChange(idx, field, val) {
     const newPares = [...paresExtEdit];
     newPares[idx][field] = val;
+    setParesExtEdit(newPares);
+  }
+  function handleCvlacUpload(idx, result) {
+    const newPares = [...paresExtEdit];
+    newPares[idx].cvlac_url    = result.url    || result.fileUrl || '';
+    newPares[idx].cvlac_nombre = result.nombre || result.fileName || '';
     setParesExtEdit(newPares);
   }
 
@@ -1108,47 +1116,81 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
             {/* ── PANEL DE PARES — solo Asistente/Admin ── */}
             {(isAdmin || isAsistente) && (
               <div style={{ marginBottom: 20, borderBottom: '1px dashed var(--border)', paddingBottom: 16 }}>
-                <h4 style={{ margin: '0 0 10px 0', fontSize: 13, fontWeight: 700, color: 'var(--uq-blue)', display: 'flex', alignItems: 'center', gap: 6 }}>
+                <h4 style={{ margin: '0 0 14px 0', fontSize: 13, fontWeight: 700, color: 'var(--uq-blue)', display: 'flex', alignItems: 'center', gap: 6 }}>
                   <User size={16} /> Pares Evaluadores
                 </h4>
                 {isPlanta ? (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
                     {paresExtEdit.map((p, i) => (
-                      <div key={i} style={{ background: 'var(--bg)', padding: 10, borderRadius: 8, border: '1px solid var(--border)' }}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
-                          <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--uq-blue)' }}>Par Externo {i + 1}</span>
-                          <button type="button" onClick={() => handleEliminarParExt(i)} style={{ background: 'none', border: 'none', color: '#dc2626', cursor: 'pointer' }}><Trash2 size={14} /></button>
-                        </div>
-                        <input value={p.nombre} onChange={e => handleParExtChange(i, 'nombre', e.target.value)} placeholder="Nombre completo" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, marginBottom: 6, outline: 'none', boxSizing: 'border-box' }} />
-                        <input value={p.perfil || ''} onChange={e => handleParExtChange(i, 'perfil', e.target.value)} placeholder="Institución / Especialidad" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, marginBottom: 6, outline: 'none', boxSizing: 'border-box' }} />
-                        
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6, marginBottom: 6 }}>
-                          <input value={p.cvlac || ''} onChange={e => handleParExtChange(i, 'cvlac', e.target.value)} placeholder="Link CvLAC" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
-                          <input value={p.link_hv || ''} onChange={e => handleParExtChange(i, 'link_hv', e.target.value)} placeholder="Link Hoja de Vida" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                      <div key={i} style={{ background: '#f8f9ff', paddingBottom: 14, paddingTop: 14, paddingLeft: 14, paddingRight: 14, borderRadius: 10, border: '1px solid #c7d7fc' }}>
+                        {/* Header del par */}
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
+                          <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--uq-blue)' }}>Par Evaluador {i + 1}</span>
+                          <button type="button" onClick={() => handleEliminarParExt(i)}
+                            style={{ background: '#fef2f2', border: '1px solid #fecaca', color: '#dc2626', borderRadius: 6, padding: '4px 10px', fontSize: 11, fontWeight: 700, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 4 }}>
+                            <Trash2 size={12} /> Quitar
+                          </button>
                         </div>
 
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 6, marginBottom: 6 }}>
+                        {/* Nombre */}
+                        <div style={{ marginBottom: 8 }}>
+                          <label style={{ fontSize: 11, fontWeight: 600, color: 'var(--muted)', display: 'block', marginBottom: 3 }}>NOMBRE COMPLETO *</label>
+                          <input value={p.nombre} onChange={e => handleParExtChange(i, 'nombre', e.target.value)}
+                            placeholder="Nombre del par evaluador"
+                            style={{ width: '100%', padding: '8px 10px', borderRadius: 7, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                        </div>
+
+                        {/* Perfil / Institución */}
+                        <div style={{ marginBottom: 8 }}>
+                          <label style={{ fontSize: 11, fontWeight: 600, color: 'var(--muted)', display: 'block', marginBottom: 3 }}>PERFIL ACADÉMICO / INSTITUCIÓN / ESPECIALIDAD</label>
+                          <textarea value={p.perfil || ''} onChange={e => handleParExtChange(i, 'perfil', e.target.value)}
+                            placeholder="Universidad, área de conocimiento, título académico" rows={2}
+                            style={{ width: '100%', padding: '8px 10px', borderRadius: 7, border: '1px solid var(--border)', fontSize: 12, outline: 'none', resize: 'vertical', boxSizing: 'border-box' }} />
+                        </div>
+
+                        {/* CVLAC PDF */}
+                        <div style={{ marginBottom: 10 }}>
+                          <label style={{ fontSize: 11, fontWeight: 600, color: 'var(--muted)', display: 'flex', alignItems: 'center', gap: 4, marginBottom: 6 }}>
+                            <Paperclip size={12} /> HOJA DE VIDA MINCIENCIAS (CVLAC)
+                          </label>
+                          <PdfUploader
+                            key={p.cvlac_nombre || `cvlac-cei-${i}`}
+                            customName={`CVLAC_CEI_${(p.nombre || `Par${i+1}`).replace(/\s+/g,'_')}_${sol.id}`}
+                            folder="cvlac"
+                            initialFile={p.cvlac_url ? { nombre: p.cvlac_nombre || 'CVLAC.pdf', url: p.cvlac_url } : null}
+                            onUploadSuccess={(res) => handleCvlacUpload(i, res)}
+                            label="Subir PDF (Hoja de Vida)"
+                          />
+                        </div>
+
+                        {/* Memo + Fecha */}
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, marginBottom: 8 }}>
                           <div>
-                            <label style={{ fontSize: 10, color: 'var(--muted)', display: 'block', marginBottom: 2 }}>N° Memo Envío</label>
-                            <input value={p.memo_envio || ''} onChange={e => handleParExtChange(i, 'memo_envio', e.target.value)} placeholder="N° Memo" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                            <label style={{ fontSize: 11, fontWeight: 600, color: 'var(--muted)', display: 'block', marginBottom: 3 }}>N° MEMO INVITACIÓN AL PAR</label>
+                            <input value={p.memo_envio || ''} onChange={e => handleParExtChange(i, 'memo_envio', e.target.value)}
+                              placeholder="N° Memorando"
+                              style={{ width: '100%', padding: '8px 10px', borderRadius: 7, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
                           </div>
                           <div>
-                            <label style={{ fontSize: 10, color: 'var(--muted)', display: 'block', marginBottom: 2 }}>Fecha Envío</label>
-                            <input type="date" value={p.fecha_envio || ''} onChange={e => handleParExtChange(i, 'fecha_envio', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
-                          </div>
-                          <div>
-                            <label style={{ fontSize: 10, color: 'var(--muted)', display: 'block', marginBottom: 2 }}>Fecha Límite</label>
-                            <input type="date" value={p.fecha_limite || ''} onChange={e => handleParExtChange(i, 'fecha_limite', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                            <label style={{ fontSize: 11, fontWeight: 600, color: 'var(--muted)', display: 'block', marginBottom: 3 }}>FECHA INVITACIÓN AL PAR</label>
+                            <input type="date" value={p.fecha_envio || ''} onChange={e => handleParExtChange(i, 'fecha_envio', e.target.value)}
+                              style={{ width: '100%', padding: '8px 10px', borderRadius: 7, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
                           </div>
                         </div>
 
-                        <select value={p.estado} onChange={e => handleParExtChange(i, 'estado', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', marginBottom: 6, boxSizing: 'border-box' }}>
-                          <option value="pendiente">⏳ Pendiente</option>
-                          <option value="recibido">✅ Evaluación recibida</option>
-                        </select>
+                        {/* Estado */}
+                        <div style={{ marginBottom: 6 }}>
+                          <label style={{ fontSize: 11, fontWeight: 600, color: 'var(--muted)', display: 'block', marginBottom: 3 }}>ESTADO</label>
+                          <select value={p.estado} onChange={e => handleParExtChange(i, 'estado', e.target.value)}
+                            style={{ width: '100%', padding: '8px 10px', borderRadius: 7, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }}>
+                            <option value="pendiente">⏳ Pendiente</option>
+                            <option value="recibido">✅ Evaluación recibida</option>
+                          </select>
+                        </div>
 
                         {p.estado === 'recibido' && (
-                          <select value={p.concepto || ''} onChange={e => handleParExtChange(i, 'concepto', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid #16a34a', background: '#f0fdf4', color: '#166534', fontSize: 12, outline: 'none', boxSizing: 'border-box', fontWeight: 600 }}>
+                          <select value={p.concepto || ''} onChange={e => handleParExtChange(i, 'concepto', e.target.value)}
+                            style={{ width: '100%', padding: '8px 10px', borderRadius: 7, border: '1px solid #16a34a', background: '#f0fdf4', color: '#166534', fontSize: 12, outline: 'none', boxSizing: 'border-box', fontWeight: 600 }}>
                             <option value="">(Seleccionar Concepto)</option>
                             <option value="Aprobado">🟢 Aprobado</option>
                             <option value="Aprobado con correcciones menores">🟡 Aprobado con correcciones menores</option>
@@ -1158,9 +1200,26 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
                         )}
                       </div>
                     ))}
-                    <button type="button" onClick={handleAgregarParExt} style={{ padding: '8px', borderRadius: 8, border: '1px dashed var(--uq-blue)', background: 'transparent', color: 'var(--uq-blue)', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
-                      + Añadir Par Externo
+
+                    <button type="button" onClick={handleAgregarParExt}
+                      style={{ padding: '10px', borderRadius: 10, border: '2px dashed var(--uq-blue)', background: 'transparent', color: 'var(--uq-blue)', fontSize: 13, fontWeight: 700, cursor: 'pointer', transition: 'background .2s' }}
+                      onMouseEnter={e => e.currentTarget.style.background = '#e7f1fb'}
+                      onMouseLeave={e => e.currentTarget.style.background = 'transparent'}>
+                      + Añadir Par Evaluador
                     </button>
+
+                    {paresExtEdit.length > 0 && (
+                      <button type="button"
+                        onClick={() => {
+                          /* El guardado real se hace en handleSave; este solo hace submit del form */
+                          document.getElementById('cei-save-form')?.requestSubmit?.() || handleSave({ preventDefault: () => {} });
+                        }}
+                        style={{ padding: '11px', borderRadius: 10, background: 'var(--uq-blue)', border: 'none', color: '#fff', fontSize: 13, fontWeight: 700, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, transition: 'background .2s' }}
+                        onMouseEnter={e => e.currentTarget.style.background = '#0d3d6e'}
+                        onMouseLeave={e => e.currentTarget.style.background = 'var(--uq-blue)'}>
+                        <Save size={15} /> Guardar Pares y Enviar Invitaciones
+                      </button>
+                    )}
                   </div>
                 ) : (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 10, background: 'var(--bg)', padding: 12, borderRadius: 8, border: '1px solid var(--border)' }}>
@@ -1210,7 +1269,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
               </div>
             )}
 
-            <form onSubmit={handleSave} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+            <form id="cei-save-form" onSubmit={handleSave} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
 
               {/* ── Campos operativos (todos los roles que editan) ── */}
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
