@@ -325,200 +325,6 @@ export function formatName(fullname) {
   const surnames = words.slice(0, 2).join(' ');
   const names = words.slice(2).join(' ');
   return `${names} ${surnames}`;
-  // General cleanups
-  return result
-    .replace(/UniQuind\udbe0y/g, 'UniQuindío y')
-    .replace(/Quind\udbe0para/g, 'Quindío para')
-    .replace(/Semiolog\ud860/g, 'Semiología ');
-}
-
-/**
- * Normaliza los datos de una solicitud/fila provenientes de la BD para la app.
- * @param {Object} row - Objeto crudo de la base de datos.
- * @returns {Object|null} Objeto de solicitud normalizado o null si row es nulo.
- */
-export function normalizeRow(row) {
-  if (!row) return null;
-  return {
-    id:             row.id,
-    docente:        cleanText(row.docente || 'Sin autor'),
-    coautor:        cleanText(row.coautor || ''),
-    cedula:         row.cedula          || '',
-    programa:       cleanText(row.programa || 'Sin programa'),
-    facultad:       cleanText(row.facultad || 'Sin facultad'),
-    docente_pts_acumulados: row.docente_pts_acumulados !== undefined ? Number(row.docente_pts_acumulados) : null,
-    docente_pts_titulos_exp: row.docente_pts_titulos_exp !== undefined ? Number(row.docente_pts_titulos_exp) : null,
-    docente_pts_total_salarial: row.docente_pts_total_salarial !== undefined ? Number(row.docente_pts_total_salarial) : null,
-    docente_lugar_expedicion: cleanText(row.docente_lugar_expedicion || '________'),
-    dedicacion:     row.dedicacion      || '',
-    tipo:           (() => {
-      const t = row.tipo || 'articulo_indexado';
-      // Normaliza tipos viejos de BD al nuevo esquema unificado
-      const norm = {
-        revista_a1: 'articulo_indexado', revista_a2: 'articulo_indexado',
-        revista_b: 'articulo_indexado',  revista_indexada: 'articulo_indexado',
-        revista_no_indexada: 'articulo_no_indexado',
-        // 'titulo' y 'titulo_academico' son el mismo concepto en la BD
-        titulo: 'titulo_academico',
-        // 'tesis' es alias de 'direccion_tesis'
-        tesis: 'direccion_tesis',
-        // 'posdoctorado' (BD) y 'postdoctorado' (nuevo) → mismo tipo
-        postdoctorado: 'posdoctorado',
-      };
-      return norm[t] || t;
-    })(),
-    titulo:         cleanText(row.titulo || '(Sin título)'),
-    revista:        cleanText(row.revista || ''),
-    fecha:          row.fecha           || new Date().toISOString().split('T')[0],
-    etapa:          row.etapa           || 'recibida',
-    estado:         row.estado          || 'en_proceso',
-    pts_sug:        Math.max(0, Number(row.pts_sug)  || 0),
-    pts_asig:       row.pts_asig != null ? Math.max(0, Number(row.pts_asig)) : null,
-    correo:         row.correo          || '',
-    notas:          row.notas           || '',
-    acta_ciarp:     row.acta_ciarp      || null,
-    pares_ext:      row.pares_ext       || undefined,
-    pares_int:      row.pares_int       || undefined,
-    timeline:       Array.isArray(row.timeline) ? row.timeline : [],
-    memoEnvioInt:   row.memo_envio_int  || row.memoEnvioInt  || '',
-    fechaEnvioInt:  row.fecha_envio_int || row.fechaEnvioInt || '',
-    memoReciboInt:  row.memo_recibo_int || row.memoReciboInt || '',
-    fechaReciboInt: row.fecha_recibo_int|| row.fechaReciboInt|| '',
-    memoEnvioExt:   row.memo_envio_ext  || row.memoEnvioExt  || '',
-    created_at:     row.created_at,
-    updated_at:     row.updated_at,
-  };
-}
-
-/**
- * Normaliza los datos de un docente provenientes de la BD para la app.
- * @param {Object} row - Objeto crudo del docente.
- * @returns {Object|null} Objeto del docente normalizado.
- */
-export function normalizeDocente(row) {
-  if (!row) return null;
-  const tope       = Number(row.tope)       || 0;
-  const diferencia = Number(row.diferencia) || 0;
-  const historial  = row.historial || {};
-
-  const especializacion = cleanText(row.especializacion || '');
-  const maestria        = cleanText(row.maestria        || '');
-  const doctorado       = cleanText(row.doctorado       || '');
-  const titulos = [especializacion, maestria, doctorado].filter(t => t && t.trim() !== '');
-  const escolaridad = titulos.length > 0
-    ? titulos[titulos.length - 1]
-    : cleanText(row.escolaridad || '');
-
-  return {
-    no:                row.no             || 0,
-    cedula:            row.cedula         || '',
-    nombre:            cleanText(row.nombre || ''),
-    facultad:          cleanText(row.facultad || ''),
-    programa:          cleanText(row.programa || ''),
-    categoria:         cleanText(row.categoria || ''),
-    escolaridad,
-    especializacion,
-    maestria,
-    doctorado,
-    titulosAcademicos: titulos,
-    dedicacion:        row.dedicacion     || '',
-    fechaIngreso:      row.fecha_ingreso  || '',
-    ptsAcumulados:     Number(row.pts_acumulados)     || 0,
-    tope,
-    diferencia,
-    ptsFavor:          Number(row.pts_favor)          || 0,
-    ptsCiarp1_2026:    Number(row.pts_ciarp1_2026)    || 0,
-    ptsTitulosExp:     Number(row.pts_titulos_exp)    || 0,
-    ptsTotalSalarial:  Number(row.pts_total_salarial) || 0,
-    topeLibros:        Number(row.tope_libros)        || 0,
-    topeSoftware:      Number(row.tope_software)      || 0,
-    historial,
-    comision:          cleanText(row.comision || ''),
-    observacion:       cleanText(row.observacion || ''),
-    correo:            row.correo         || '',
-    estado:            row.estado         || 'ACTIVO',
-  };
-}
-
-/**
- * Normaliza claves de actas de CIARP (por ejemplo, "6- 29/08/2025" o "6/2025" -> "6/2025").
- * @param {string} raw - Valor de acta de la base de datos.
- * @returns {string} Clave canónica de acta (NUM/AÑO).
- */
-export function normalizeActaKey(raw) {
-  if (!raw) return '';
-  const str = String(raw).trim();
-  const numbers = str.match(/\d+/g);
-  if (numbers && numbers.length >= 2) {
-    const firstNum = parseInt(numbers[0], 10);
-    let year = '';
-    for (let i = numbers.length - 1; i >= 0; i--) {
-      if (numbers[i].length === 4) {
-        year = numbers[i];
-        break;
-      }
-    }
-    if (year) return `${firstNum}/${year}`;
-  }
-  const m = str.match(/(\d+)[^\d]*(\d{4})/);
-  if (m) return `${parseInt(m[1], 10)}/${m[2]}`;
-  return str;
-}
-
-/**
- * Limpia y normaliza el nombre de un programa académico.
- * Remueve prefijos como 'DIRECCION DEL PROGRAMA DE' o códigos numéricos,
- * y sufijos como '(DIURNA)' o '(NOCTURNA)', retornando el texto limpio en mayúsculas.
- * @param {string} prog - Nombre original del programa.
- * @returns {string} Nombre del programa normalizado y limpio.
- */
-export function cleanProgramaName(prog) {
-  if (!prog) return 'SIN PROGRAMA';
-  let cleaned = prog.trim();
-  
-  // Eliminar números al inicio (ej. "410 ", "411 ")
-  cleaned = cleaned.replace(/^\d+\s+/, '');
-  
-  // Eliminar prefijos (insensitivo a mayúsculas/minúsculas)
-  const prefixes = [
-    /^DIRECCI[OÓ]N\s+DEL\s+PROGRAMA\s+DE\s+/i,
-    /^DIRECCI[OÓ]N\s+PROGRAMA\s+DE\s+/i,
-    /^DIRECCI[OÓ]N\s+DEL\s+PROGRAMA\s+/i,
-    /^DIRECCI[OÓ]N\s+PROGRAMA\s+/i,
-    /^PROGRAMA\s+DE\s+/i,
-    /^PROGRAMA\s+/i,
-    /^FACULTAD\s+DE\s+/i
-  ];
-  
-  for (const regex of prefixes) {
-    cleaned = cleaned.replace(regex, '');
-  }
-  
-  // Eliminar sufijos (insensitivo a mayúsculas/minúsculas)
-  const suffixes = [
-    /\s*\((DIURNA?|NOCTURNA?|DIURNO|NOCTURNO)\)$/i,
-    /\s+(DIURNA?|NOCTURNA?|DIURNO|NOCTURNO)$/i
-  ];
-  
-  for (const regex of suffixes) {
-    cleaned = cleaned.replace(regex, '');
-  }
-  
-  return cleaned.trim().toUpperCase();
-}
-
-/**
- * Reordena un nombre de "APELLIDO1 APELLIDO2 NOMBRE1 NOMBRE2" a "NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2"
- */
-export function formatName(fullname) {
-  if (!fullname) return '';
-  const words = fullname.trim().split(' ').filter(w => w);
-  if (words.length <= 2) return fullname; // Ej: "Perez Juan"
-  
-  // Asumimos que los dos primeros son apellidos (común en BD de nómina)
-  const surnames = words.slice(0, 2).join(' ');
-  const names = words.slice(2).join(' ');
-  return `${names} ${surnames}`;
 }
 
 /**
@@ -528,21 +334,18 @@ export function matchDropdownOption(rawStr, optionsArray) {
   if (!rawStr) return '';
   const cleanedRaw = cleanProgramaName(rawStr).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
 
-  // 1. Búsqueda exacta primero
   for (const opt of optionsArray) {
     const cleanedOpt = opt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
     if (cleanedRaw === cleanedOpt) return opt;
   }
 
-  // 2. Búsqueda por subcadena: revisamos las opciones más largas primero
-  // Así evitamos que "Física" coincida dentro de "Licenciatura en Educación Física"
   const sortedOptions = [...optionsArray].sort((a, b) => b.length - a.length);
   for (const opt of sortedOptions) {
     const cleanedOpt = opt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
     if (cleanedRaw.includes(cleanedOpt) || cleanedOpt.includes(cleanedRaw)) {
-      return opt; // Retorna el valor EXACTO del select (con tildes, mayúsculas/minúsculas)
+      return opt;
     }
   }
   
-  return rawStr; // Si no hay coincidencia, retorna lo que había
+  return rawStr;
 }
