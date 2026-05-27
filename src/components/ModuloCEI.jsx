@@ -478,7 +478,17 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
                   <Search size={14} style={{ position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: 'var(--muted)' }} />
                   <input
                     value={nuevaQuery}
-                    onChange={e => { setNuevaQuery(e.target.value); setShowNuevaSuggest(true); if (!e.target.value) { setNuevaDocenteCargado(false); setNuevaForm(f => ({ ...f, docente: '', cedula: '', correo: '', programa: '', facultad: '' })); } }}
+                    onChange={e => { 
+                      const val = e.target.value;
+                      setNuevaQuery(val); 
+                      setShowNuevaSuggest(true); 
+                      if (nuevaDocenteCargado) { 
+                        setNuevaDocenteCargado(false); 
+                        setNuevaForm(f => ({ ...f, docente: val, cedula: '', correo: '', programa: '', facultad: '', tipoContrato: '', dedicacion: '', escolaridad: '', categoriaActual: '' })); 
+                      } else {
+                        setNuevaForm(f => ({ ...f, docente: val }));
+                      }
+                    }}
                     placeholder="Nombre o cédula del docente..."
                     style={{ width: '100%', padding: '10px 14px 10px 36px', borderRadius: 10, border: `1px solid ${nuevaDocenteCargado ? '#15803d' : 'var(--border)'}`, fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }}
                   />
