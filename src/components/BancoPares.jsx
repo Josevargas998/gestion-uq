@@ -4,16 +4,22 @@ export default function BancoPares({ solicitudes }) {
   const [busqueda, setBusqueda] = useState('');
   const [anio, setAnio] = useState(''); // Filtro por año
 
+  const getYearFromSol = (sol) => {
+    const match = sol.id?.match(/(20\d{2})/);
+    if (match) return match[1];
+    return (sol.fecha || '').split('-')[0] || '';
+  };
+
   // Extraer años disponibles
   const years = useMemo(() => {
-    const ys = new Set(solicitudes.map(s => (s.fecha || '').split('-')[0]).filter(Boolean));
+    const ys = new Set(solicitudes.map(getYearFromSol).filter(y => y.length === 4));
     return Array.from(ys).sort().reverse();
   }, [solicitudes]);
 
   // Filtrar solicitudes por el año seleccionado
   const solicitudesFiltradas = useMemo(() => {
     if (!anio) return solicitudes;
-    return solicitudes.filter(s => (s.fecha || '').startsWith(anio));
+    return solicitudes.filter(s => getYearFromSol(s) === anio);
   }, [solicitudes, anio]);
   
   // Extraer todos los pares de las solicitudes (filtradas)
