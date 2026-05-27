@@ -75,7 +75,25 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
     : [];
 
   function pickNuevaDocente(d) {
-    setNuevaForm(f => ({ ...f, docente: d.nombre, cedula: d.cedula, programa: d.programa || '', facultad: d.facultad || '', correo: d.correo || '' }));
+    let escolaridadCalculada = 'Pregrado';
+    if (d.doctorado) escolaridadCalculada = 'Doctorado';
+    else if (d.maestria) escolaridadCalculada = 'Maestría';
+    else if (d.especializacion) escolaridadCalculada = 'Especialización';
+
+    let cat = d.categoriaActual || 'ASISTENTE';
+    
+    setNuevaForm(f => ({
+      ...f,
+      docente: d.nombre,
+      cedula: d.cedula,
+      programa: d.programa || '',
+      facultad: d.facultad || '',
+      correo: d.correo || '',
+      categoriaActual: cat.toUpperCase(),
+      tipoContrato: 'Planta', // Asumimos planta al venir de la base de datos
+      dedicacion: d.dedicacion || 'Tiempo Completo',
+      escolaridad: escolaridadCalculada,
+    }));
     setNuevaQuery(d.nombre);
     setShowNuevaSuggest(false);
     setNuevaDocenteCargado(true);
@@ -163,20 +181,43 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
   }), [solicitudesAscenso, listosCEI, enProceso]);
 
   if (selected) return (
-    <DetalleCEI 
-      sol={selected} 
-      onBack={() => setSelected(null)} 
-      onUpdate={async (updatedSol) => {
-        const res = await actualizar(updatedSol);
-        if (res.success) {
-          setSelected(res.sol);
-          success('Solicitud CEI actualizada con éxito');
-        } else {
-          showError('Error al actualizar la solicitud CEI');
-        }
-      }} 
-      user={user}
-    />
+    <>
+      <DetalleCEI 
+        sol={selected} 
+        onBack={() => setSelected(null)} 
+        onUpdate={async (updatedSol) => {
+          const res = await actualizar(updatedSol);
+          if (res.success) {
+            setSelected(res.sol);
+            success('Solicitud CEI actualizada con éxito');
+          } else {
+            showError('Error al actualizar la solicitud CEI');
+          }
+        }} 
+        onEliminar={() => setSolicitudAEliminar(selected)}
+        user={user}
+      />
+      <ConfirmDialog
+        open={!!solicitudAEliminar}
+        title="Eliminar Solicitud de Ascenso"
+        message={`¿Estás seguro de eliminar permanentemente la solicitud de ascenso de ${solicitudAEliminar?.docente || 'este docente'}? Esta acción es irreversible.`}
+        confirmLabel="Sí, eliminar"
+        cancelLabel="Cancelar"
+        onConfirm={async () => {
+          if (solicitudAEliminar) {
+            const res = await eliminar(solicitudAEliminar.id);
+            if (res?.success) {
+              success('Solicitud de ascenso eliminada con éxito');
+              setSolicitudAEliminar(null);
+              setSelected(null);
+            } else {
+              showError("No se pudo eliminar la solicitud.");
+            }
+          }
+        }}
+        onCancel={() => setSolicitudAEliminar(null)}
+      />
+    </>
   );
 
   const tabBtn = (key, label, count, activeColor = 'var(--uq-blue)') => (
@@ -268,7 +309,7 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
         <div style={{ flex: 1 }} />
 
         {/* Botón Nueva Solicitud de Ascenso */}
-        {(user?.rol === 'admin' || user?.rol === 'tecnico') && (
+        {(user?.rol === 'admin' || user?.rol === 'asistente' || user?.rol === 'lectura' || user?.rol === 'tecnico') && (
           <button
             onClick={() => setShowNuevaModal(true)}
             style={{ padding: '10px 18px', borderRadius: 10, background: 'var(--uq-blue)', color: '#fff', border: 'none', fontWeight: 600, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
@@ -478,6 +519,22 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
                   style={{ width: '100%', padding: '9px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none', resize: 'vertical' }} />
               </div>
 
+              <div>
+                <label style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, display: 'block', marginBottom: 4 }}>Tipo de trabajo</label>
+                <select value={nuevaForm.tipoTrabajo} onChange={e => setNuevaForm(f => ({ ...f, tipoTrabajo: e.target.value }))}
+                  style={{ width: '100%', padding: '9px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }}>
+                  <option value="Trabajo escrito">Trabajo escrito</option>
+                  <option value="Artículo científico">Artículo científico</option>
+                  <option value="Libros de texto">Libros de texto</option>
+                  <option value="Libros de investigación">Libros de investigación</option>
+                  <option value="Libros de ensayos">Libros de ensayos</option>
+                  <option value="Libros producto de un proyecto de extensión">Libros producto de un proyecto de extensión</option>
+                  <option value="Creación artística">Creación artística</option>
+                  <option value="Otro">Otro</option>
+                  <option value="Ascenso">Ascenso (Genérico)</option>
+                </select>
+              </div>
+
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
                 <div>
                   <label style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, display: 'block', marginBottom: 4 }}>Categoría actual</label>
@@ -548,6 +605,7 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
             if (res?.success) {
               success('Solicitud de ascenso eliminada con éxito');
               setSolicitudAEliminar(null);
+              if (selected && selected.id === solicitudAEliminar.id) setSelected(null);
             } else {
               showError("No se pudo eliminar la solicitud.");
             }
@@ -771,7 +829,7 @@ function PanelSesionesCei({ user }) {
 
 
 /* ── Detalle de solicitud CEI ─────────────────── */
-function DetalleCEI({ sol, onBack, onUpdate, user }) {
+function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
   const info = parseCeiInfo(sol.notas);
   const badge = getEtapaBadge(sol.etapa, sol.estado);
   const tipoBadge = getTipoContratoBadge(info.tipo_contrato);
@@ -809,6 +867,28 @@ function DetalleCEI({ sol, onBack, onUpdate, user }) {
   // Sessions List State
   const [sesiones, setSesiones] = useState([]);
   const [guardando, setGuardando] = useState(false);
+
+  // Pares Evaluadores
+  const isPlanta = (tipoContrato || '').toLowerCase().includes('planta');
+  const [paresExtEdit, setParesExtEdit] = useState((sol.pares_ext || []).map(p => ({ ...p })));
+  const [paresIntEdit, setParesIntEdit] = useState(sol.pares_int || {
+    nombres: '',
+    memo_envio: '',
+    fecha_envio: '',
+    estado: 'pendiente'
+  });
+
+  function handleAgregarParExt() {
+    setParesExtEdit([...paresExtEdit, { nombre: '', estado: 'pendiente' }]);
+  }
+  function handleEliminarParExt(idx) {
+    setParesExtEdit(paresExtEdit.filter((_, i) => i !== idx));
+  }
+  function handleParExtChange(idx, field, val) {
+    const newPares = [...paresExtEdit];
+    newPares[idx][field] = val;
+    setParesExtEdit(newPares);
+  }
 
   useEffect(() => {
     fetchSesionesCei()
@@ -870,14 +950,20 @@ function DetalleCEI({ sol, onBack, onUpdate, user }) {
       correo,
       facultad,
       programa,
-      titulo
+      titulo,
+      pares_ext: isPlanta ? paresExtEdit : [],
+      pares_int: !isPlanta ? paresIntEdit : null,
     };
 
     await onUpdate(updatedSol);
     setGuardando(false);
   };
 
-  const canEdit = user?.rol === 'admin' || user?.rol === 'tecnico';
+  const isAdmin     = user?.rol === 'admin';
+  const isTecnico   = user?.rol === 'tecnico';
+  const isAsistente = user?.rol === 'asistente' || user?.rol === 'lectura';
+  const canEdit     = isAdmin || isTecnico || isAsistente;
+  const [showMetaEdit, setShowMetaEdit] = useState(false);
 
   return (
     <div style={{ padding: '24px 32px', maxWidth: 1400, margin: '0 auto' }}>
@@ -1006,61 +1092,134 @@ function DetalleCEI({ sol, onBack, onUpdate, user }) {
         {canEdit && (
           <div style={{ background: 'var(--surface)', borderRadius: 20, border: '1px solid var(--border)', padding: '24px', boxShadow: 'var(--shadow-md)', alignSelf: 'start' }}>
             <h3 style={{ margin: '0 0 20px 0', fontSize: 16, fontWeight: 700, color: 'var(--text)', display: 'flex', alignItems: 'center', gap: 8, borderBottom: '1px solid var(--border)', paddingBottom: 12 }}>
-              <Scale size={20} color="var(--uq-blue)" /> Procesar Ascenso (CEI)
+              <Scale size={20} color="var(--uq-blue)" /> {isTecnico ? 'Procesar Ascenso (CEI)' : 'Gestión CEI'}
             </h3>
-            
-            <form onSubmit={handleSave} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-              
-              <div>
-                <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Docente</label>
-                <input value={docente} onChange={e => setDocente(e.target.value)} required
-                  style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-              </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Cédula</label>
-                  <input value={cedula} onChange={e => setCedula(e.target.value)} required
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                </div>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Correo</label>
-                  <input value={correo} onChange={e => setCorreo(e.target.value)} required
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                </div>
-              </div>
+            {/* ── PANEL DE PARES — solo Asistente/Admin ── */}
+            {(isAdmin || isAsistente) && (
+              <div style={{ marginBottom: 20, borderBottom: '1px dashed var(--border)', paddingBottom: 16 }}>
+                <h4 style={{ margin: '0 0 10px 0', fontSize: 13, fontWeight: 700, color: 'var(--uq-blue)', display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <User size={16} /> Pares Evaluadores
+                </h4>
+                {isPlanta ? (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                    {paresExtEdit.map((p, i) => (
+                      <div key={i} style={{ background: 'var(--bg)', padding: 10, borderRadius: 8, border: '1px solid var(--border)' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
+                          <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--uq-blue)' }}>Par Externo {i + 1}</span>
+                          <button type="button" onClick={() => handleEliminarParExt(i)} style={{ background: 'none', border: 'none', color: '#dc2626', cursor: 'pointer' }}><Trash2 size={14} /></button>
+                        </div>
+                        <input value={p.nombre} onChange={e => handleParExtChange(i, 'nombre', e.target.value)} placeholder="Nombre completo" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, marginBottom: 6, outline: 'none', boxSizing: 'border-box' }} />
+                        <input value={p.perfil || ''} onChange={e => handleParExtChange(i, 'perfil', e.target.value)} placeholder="Institución / Especialidad" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, marginBottom: 6, outline: 'none', boxSizing: 'border-box' }} />
+                        
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6, marginBottom: 6 }}>
+                          <input value={p.cvlac || ''} onChange={e => handleParExtChange(i, 'cvlac', e.target.value)} placeholder="Link CvLAC" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                          <input value={p.link_hv || ''} onChange={e => handleParExtChange(i, 'link_hv', e.target.value)} placeholder="Link Hoja de Vida" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                        </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Programa</label>
-                  <input value={programa} onChange={e => setPrograma(e.target.value)} required
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                </div>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Facultad</label>
-                  <input value={facultad} onChange={e => setFacultad(e.target.value)} required
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                </div>
-              </div>
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 6, marginBottom: 6 }}>
+                          <div>
+                            <label style={{ fontSize: 10, color: 'var(--muted)', display: 'block', marginBottom: 2 }}>N° Memo Envío</label>
+                            <input value={p.memo_envio || ''} onChange={e => handleParExtChange(i, 'memo_envio', e.target.value)} placeholder="N° Memo" style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                          </div>
+                          <div>
+                            <label style={{ fontSize: 10, color: 'var(--muted)', display: 'block', marginBottom: 2 }}>Fecha Envío</label>
+                            <input type="date" value={p.fecha_envio || ''} onChange={e => handleParExtChange(i, 'fecha_envio', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                          </div>
+                          <div>
+                            <label style={{ fontSize: 10, color: 'var(--muted)', display: 'block', marginBottom: 2 }}>Fecha Límite</label>
+                            <input type="date" value={p.fecha_limite || ''} onChange={e => handleParExtChange(i, 'fecha_limite', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }} />
+                          </div>
+                        </div>
 
-              <div>
-                <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Título del trabajo presentado</label>
-                <textarea value={titulo} onChange={e => setTitulo(e.target.value)} rows={2} required
-                  style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none', resize: 'vertical' }} />
-              </div>
+                        <select value={p.estado} onChange={e => handleParExtChange(i, 'estado', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', marginBottom: 6, boxSizing: 'border-box' }}>
+                          <option value="pendiente">⏳ Pendiente</option>
+                          <option value="recibido">✅ Evaluación recibida</option>
+                        </select>
 
+                        {p.estado === 'recibido' && (
+                          <select value={p.concepto || ''} onChange={e => handleParExtChange(i, 'concepto', e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid #16a34a', background: '#f0fdf4', color: '#166534', fontSize: 12, outline: 'none', boxSizing: 'border-box', fontWeight: 600 }}>
+                            <option value="">(Seleccionar Concepto)</option>
+                            <option value="Aprobado">🟢 Aprobado</option>
+                            <option value="Aprobado con correcciones menores">🟡 Aprobado con correcciones menores</option>
+                            <option value="Aprobado con correcciones mayores">🟠 Aprobado con correcciones mayores</option>
+                            <option value="Rechazado">🔴 Rechazado</option>
+                          </select>
+                        )}
+                      </div>
+                    ))}
+                    <button type="button" onClick={handleAgregarParExt} style={{ padding: '8px', borderRadius: 8, border: '1px dashed var(--uq-blue)', background: 'transparent', color: 'var(--uq-blue)', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
+                      + Añadir Par Externo
+                    </button>
+                  </div>
+                ) : (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 10, background: 'var(--bg)', padding: 12, borderRadius: 8, border: '1px solid var(--border)' }}>
+                    <div>
+                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Pares Internos (enviados por la Facultad)</label>
+                      <textarea value={paresIntEdit?.nombres || ''} onChange={e => setParesIntEdit({ ...paresIntEdit, nombres: e.target.value })} placeholder="Ej: Dr. Juan Pérez, Dra. Maria Gómez" rows={2} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none', resize: 'vertical', boxSizing: 'border-box' }} />
+                    </div>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
+                      <div>
+                        <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>N° Memo Envío</label>
+                        <input value={paresIntEdit?.memo_envio || ''} onChange={e => setParesIntEdit({ ...paresIntEdit, memo_envio: e.target.value })} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none' }} />
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Fecha Envío</label>
+                        <input type="date" value={paresIntEdit?.fecha_envio || ''} onChange={e => setParesIntEdit({ ...paresIntEdit, fecha_envio: e.target.value })} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none' }} />
+                      </div>
+                    </div>
+                    <div>
+                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Estado</label>
+                      <select value={paresIntEdit?.estado || 'pendiente'} onChange={e => setParesIntEdit({ ...paresIntEdit, estado: e.target.value })} style={{ width: '100%', padding: '6px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, outline: 'none' }}>
+                        <option value="pendiente">⏳ Pendiente</option>
+                        <option value="aprobado">✅ Evaluación recibida</option>
+                      </select>
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* ── Ver Pares (solo Técnico, solo lectura) ── */}
+            {isTecnico && (paresExtEdit.length > 0 || paresIntEdit?.nombres) && (
+              <div style={{ marginBottom: 16, padding: '12px 14px', background: '#f0f4ff', borderRadius: 10, border: '1px solid #c7d7fc', fontSize: 12 }}>
+                <div style={{ fontWeight: 700, color: 'var(--uq-blue)', marginBottom: 6, display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <User size={14} /> Pares asignados por el Asistente
+                </div>
+                {isPlanta ? (
+                  paresExtEdit.map((p, i) => (
+                    <div key={i} style={{ marginBottom: 4 }}>
+                      <strong>Par {i+1}:</strong> {p.nombre || '—'}
+                      {p.estado === 'recibido' && <span style={{ marginLeft: 8, color: '#15803d', fontWeight: 700 }}>✅ Recibido</span>}
+                      {p.estado !== 'recibido' && <span style={{ marginLeft: 8, color: '#d97706' }}>⏳ Pendiente</span>}
+                    </div>
+                  ))
+                ) : (
+                  <div>{paresIntEdit?.nombres || '—'}</div>
+                )}
+              </div>
+            )}
+
+            <form onSubmit={handleSave} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+
+              {/* ── Campos operativos (todos los roles que editan) ── */}
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
                 <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Etapa actual</label>
-                  <select value={etapa} onChange={e => setEtapa(e.target.value)}
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }}>
-                    <option value="recibida">📥 Recibida</option>
-                    <option value="clasificada">📁 Clasificada</option>
-                    <option value="pares_externos">👥 Evaluando pares</option>
-                    <option value="informe">🏛️ Listo para CEI</option>
-                    <option value="resolucion">📄 Resolución</option>
-                    <option value="archivada">📦 Archivada</option>
-                  </select>
+                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Etapa actual (Automática)</label>
+                  <div style={{
+                    width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', 
+                    fontSize: 13, background: 'var(--bg)', color: 'var(--text)', 
+                    display: 'flex', alignItems: 'center', gap: 8, fontWeight: 600
+                  }}>
+                    {etapa === 'recibida' && <>📥 Recibida</>}
+                    {etapa === 'clasificada' && <>📁 Clasificada</>}
+                    {etapa === 'pares_internos' && <>🔄 Evaluando pares internos</>}
+                    {etapa === 'pares_externos' && <>👥 Evaluando pares externos</>}
+                    {etapa === 'informe' && <span style={{ color: '#0369a1' }}>🏛️ Informe CEI (Lista para evaluar)</span>}
+                    {etapa === 'cei' && <span style={{ color: '#15803d' }}>✅ En CEI</span>}
+                    {etapa === 'resolucion' && <>📄 Resolución</>}
+                    {etapa === 'archivada' && <>📦 Archivada</>}
+                  </div>
                 </div>
                 <div>
                   <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Estado</label>
@@ -1093,82 +1252,161 @@ function DetalleCEI({ sol, onBack, onUpdate, user }) {
                 </div>
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Categoría docente</label>
-                  <select value={categoriaActual} onChange={e => setCategoriaActual(e.target.value)}
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }}>
-                    <option value="TITULAR">TITULAR</option>
-                    <option value="ASOCIADO">ASOCIADO</option>
-                    <option value="ASISTENTE">ASISTENTE</option>
-                    <option value="AUXILIAR">AUXILIAR</option>
-                  </select>
-                </div>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Tipo de contrato</label>
-                  <input value={tipoContrato} onChange={e => setTipoContrato(e.target.value)}
-                    placeholder="Ej: Planta"
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                </div>
-              </div>
-
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Dedicación</label>
-                  <input value={dedicacion} onChange={e => setDedicacion(e.target.value)}
-                    placeholder="Ej: Tiempo Completo"
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                </div>
-                <div>
-                  <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Escolaridad</label>
-                  <input value={escolaridad} onChange={e => setEscolaridad(e.target.value)}
-                    placeholder="Ej: Doctorado"
-                    style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                </div>
-              </div>
-
-              <div style={{ borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
-                <h4 style={{ margin: '0 0 10px 0', fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>Proyección de Resoluciones</h4>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                  <div>
-                    <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Ascenso CEI</label>
-                    <input value={resAscenso} onChange={e => setResAscenso(e.target.value)} placeholder="Ej: Res. 4520 de 2026"
-                      style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                  </div>
-                  <div>
-                    <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Puntos CIARP</label>
-                    <input value={resPuntos} onChange={e => setResPuntos(e.target.value)} placeholder="Ej: Res. 4521 de 2026"
-                      style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
-                  </div>
-                  <div>
-                    <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Pago Evaluadores</label>
-                    <input value={resPago} onChange={e => setResPago(e.target.value)} placeholder="Ej: Res. 1205 de 2026"
-                      style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+              {/* ── Resoluciones (solo técnico / admin) ── */}
+              {(isTecnico || isAdmin) && (
+                <div style={{ borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
+                  <h4 style={{ margin: '0 0 10px 0', fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>Proyección de Resoluciones</h4>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                    <div>
+                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Ascenso CEI</label>
+                      <input value={resAscenso} onChange={e => setResAscenso(e.target.value)} placeholder="Ej: Res. 4520 de 2026"
+                        style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                    </div>
+                    <div>
+                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Puntos CIARP</label>
+                      <input value={resPuntos} onChange={e => setResPuntos(e.target.value)} placeholder="Ej: Res. 4521 de 2026"
+                        style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                    </div>
+                    <div>
+                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Pago Evaluadores</label>
+                      <input value={resPago} onChange={e => setResPago(e.target.value)} placeholder="Ej: Res. 1205 de 2026"
+                        style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
 
+              {/* ── Notas de seguimiento ── */}
               <div style={{ borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
                 <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Notas de seguimiento / alertas</label>
                 <textarea value={notasSeguimiento} onChange={e => setNotasSeguimiento(e.target.value)} rows={3} placeholder="Escribe observaciones aquí..."
                   style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none', resize: 'vertical' }} />
               </div>
 
-              <button type="submit" disabled={guardando}
-                style={{
-                  width: '100%', marginTop: 8, padding: '12px', borderRadius: 10,
-                  background: 'var(--uq-blue)', color: '#fff',
-                  border: 'none', fontWeight: 600, fontSize: 13, cursor: 'pointer',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
-                  transition: 'background .2s'
-                }}
-                onMouseEnter={e => e.currentTarget.style.background = 'var(--uq-blue-dk)'}
-                onMouseLeave={e => e.currentTarget.style.background = 'var(--uq-blue)'}
-              >
-                {guardando ? <Hourglass size={16} /> : <CheckCircle size={16} />}
-                {guardando ? 'Guardando Cambios...' : 'Guardar Cambios CEI'}
-              </button>
+              {/* ── Editar metadatos (colapsable, solo admin/asistente) ── */}
+              {(isAdmin || isAsistente) && (
+                <div style={{ borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
+                  <button type="button" onClick={() => setShowMetaEdit(v => !v)}
+                    style={{ background: 'none', border: 'none', color: 'var(--muted)', fontSize: 12, cursor: 'pointer', fontWeight: 600, padding: 0, display: 'flex', alignItems: 'center', gap: 4 }}>
+                    {showMetaEdit ? '▲' : '▼'} {showMetaEdit ? 'Ocultar metadatos' : 'Editar metadatos del docente'}
+                  </button>
+                  {showMetaEdit && (
+                    <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                      <div>
+                        <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Docente</label>
+                        <input value={docente} onChange={e => setDocente(e.target.value)}
+                          style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                      </div>
+                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Cédula</label>
+                          <input value={cedula} onChange={e => setCedula(e.target.value)}
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                        </div>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Correo</label>
+                          <input value={correo} onChange={e => setCorreo(e.target.value)}
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                        </div>
+                      </div>
+                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Programa</label>
+                          <input value={programa} onChange={e => setPrograma(e.target.value)}
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                        </div>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Facultad</label>
+                          <input value={facultad} onChange={e => setFacultad(e.target.value)}
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                        </div>
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Título del trabajo presentado</label>
+                        <textarea value={titulo} onChange={e => setTitulo(e.target.value)} rows={2}
+                          style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none', resize: 'vertical' }} />
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Tipo de trabajo</label>
+                        <select value={tipoTrabajo} onChange={e => setTipoTrabajo(e.target.value)}
+                          style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }}>
+                          <option value="Trabajo escrito">Trabajo escrito</option>
+                          <option value="Artículo científico">Artículo científico</option>
+                          <option value="Libros de texto">Libros de texto</option>
+                          <option value="Libros de investigación">Libros de investigación</option>
+                          <option value="Libros de ensayos">Libros de ensayos</option>
+                          <option value="Libros producto de un proyecto de extensión">Libros producto de un proyecto de extensión</option>
+                          <option value="Creación artística">Creación artística</option>
+                          <option value="Otro">Otro</option>
+                        </select>
+                      </div>
+                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Categoría docente</label>
+                          <select value={categoriaActual} onChange={e => setCategoriaActual(e.target.value)}
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }}>
+                            <option value="TITULAR">TITULAR</option>
+                            <option value="ASOCIADO">ASOCIADO</option>
+                            <option value="ASISTENTE">ASISTENTE</option>
+                            <option value="AUXILIAR">AUXILIAR</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Tipo de contrato</label>
+                          <input value={tipoContrato} onChange={e => setTipoContrato(e.target.value)} placeholder="Ej: Planta"
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                        </div>
+                      </div>
+                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Dedicación</label>
+                          <input value={dedicacion} onChange={e => setDedicacion(e.target.value)} placeholder="Ej: Tiempo Completo"
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                        </div>
+                        <div>
+                          <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'var(--muted)', marginBottom: 6 }}>Escolaridad</label>
+                          <input value={escolaridad} onChange={e => setEscolaridad(e.target.value)} placeholder="Ej: Doctorado"
+                            style={{ width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
 
+              <div style={{ display: 'flex', gap: 12, marginTop: 8 }}>
+                <button type="submit" disabled={guardando}
+                  style={{
+                    flex: 1, padding: '12px', borderRadius: 10,
+                    background: 'var(--uq-blue)', color: '#fff',
+                    border: 'none', fontWeight: 600, fontSize: 13, cursor: 'pointer',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                    transition: 'background .2s'
+                  }}
+                  onMouseEnter={e => e.currentTarget.style.background = 'var(--uq-blue-dk)'}
+                  onMouseLeave={e => e.currentTarget.style.background = 'var(--uq-blue)'}
+                >
+                  {guardando ? <Hourglass size={16} /> : <CheckCircle size={16} />}
+                  {guardando ? 'Guardando Cambios...' : 'Guardar Cambios CEI'}
+                </button>
+              </div>
+
+              {/* Botón de eliminar para asistentes y admin */}
+              {(isAdmin || isAsistente) && (
+                <div style={{ marginTop: 8, textAlign: 'center' }}>
+                  <button type="button" onClick={onEliminar}
+                    style={{
+                      background: 'transparent', color: '#dc2626', border: 'none', cursor: 'pointer',
+                      fontSize: 12, fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 6,
+                      padding: '8px 16px', borderRadius: 8, transition: 'background .2s'
+                    }}
+                    onMouseEnter={e => e.currentTarget.style.background = '#fef2f2'}
+                    onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+                  >
+                    <Trash2 size={14} /> Eliminar esta solicitud
+                  </button>
+                </div>
+              )}
             </form>
           </div>
         )}

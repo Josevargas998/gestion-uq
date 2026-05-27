@@ -31,7 +31,7 @@ export function generarDocumento(tipo, sol) {
           <tr><td style="padding: 8px; border: 1px solid #ccc; background: #f9f9f9;"><strong>Título:</strong></td><td style="padding: 8px; border: 1px solid #ccc;">${sol.titulo}</td></tr>
           ${sol.revista ? `<tr><td style="padding: 8px; border: 1px solid #ccc; background: #f9f9f9;"><strong>Revista:</strong></td><td style="padding: 8px; border: 1px solid #ccc;">${sol.revista}</td></tr>` : ''}
         </table>
-        <p>Lo anterior, con el fin de continuar el trámite de asignación de puntos salariales amparado en el <strong>Acuerdo Superior No.012 del 2009</strong> y el Decreto 1279 de 2002.</p>
+        <p>Lo anterior, con el fin de continuar el trámite de ${sol.tipo === 'ascenso' ? 'ascenso en el escalafón' : 'asignación de puntaje salarial'} amparado en el <strong>Acuerdo Superior No.012 del 2009</strong> y el Decreto 1279 de 2002.</p>
         <p>Agradecemos emitir su concepto técnico correspondiente en un plazo de <strong>30 días calendario, improrrogable</strong> a partir de la fecha.</p>
         <p><strong>Anexos:</strong> 3 archivos que contienen el producto académico, soportes y la solicitud formal.</p>
       </div>

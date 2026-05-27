@@ -113,7 +113,7 @@ export default function ListaSolicitudes({ solicitudes, onSelect, user, setNav, 
           {titulo === 'Resoluciones' && (
             <button className="btn btn-blue" onClick={handleGenerarResoluciones}>📄 Generar Resoluciones</button>
           )}
-          {user?.rol === 'admin' && (
+          {(user?.rol === 'admin' || user?.rol === 'asistente' || user?.rol === 'lectura') && (
             <button className="btn btn-p" onClick={() => setNav('nueva')}>➕ Nueva Solicitud</button>
           )}
         </div>
