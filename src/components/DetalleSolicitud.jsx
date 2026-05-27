@@ -9,6 +9,7 @@ import Decreto1279Panel from './Decreto1279Panel.jsx';
 import DatosProductoPanel from './DatosProductoPanel.jsx';
 import { enviarNotificacionCIARP, previsualizarCorreoCIARP } from '../utils/emailNotificacion.js';
 import { useSolicitudes } from '../context/SolicitudesContext';
+import { fetchSesionesCiarp } from '../utils/api.js';
 
 // ── Modal para ver concepto de evaluación ────────────────────────────────────
 function ConceptoModal({ par, num, onClose }) {
@@ -233,24 +234,16 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
   const ctx = useSolicitudes();
   const solicitudes = ctx?.solicitudes || [];
 
-  const actasHistoricas = React.useMemo(() => {
-    const actas = solicitudes
-      .map(s => s.acta_ciarp)
-      .filter(a => a && typeof a === 'string' && a.includes('/'));
-    if (actas.length === 0) return { ultimo: null, proximo: null };
-    
-    actas.sort((a, b) => {
-      const [numA, yearA] = a.split('/').map(Number);
-      const [numB, yearB] = b.split('/').map(Number);
-      if (yearA !== yearB) return yearB - yearA;
-      return numB - numA;
-    });
-    
-    const ultimo = actas[0];
-    const [num, year] = ultimo.split('/').map(Number);
-    const proximo = `${num + 1}/${year}`;
-    return { ultimo, proximo };
-  }, [solicitudes]);
+  const [sesionAbierta, setSesionAbierta] = React.useState(null);
+
+  React.useEffect(() => {
+    fetchSesionesCiarp().then(data => {
+      if (data && data.length > 0) {
+        const abierta = data.find(s => s.estado === 'abierta');
+        if (abierta) setSesionAbierta(abierta.acta_label);
+      }
+    }).catch(console.error);
+  }, []);
 
   const t = TIPOS[sol.tipo] || {};
 
@@ -1039,10 +1032,9 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
                 <div>
                   <label style={{color:'var(--info)'}}>ACTA / AÑO CIARP</label>
                   <input value={actaCiarp} onChange={e => { setActaCiarp(e.target.value); setSaved(false); }} placeholder="Ej: 1/2026" />
-                  {actasHistoricas.ultimo && (
+                  {sesionAbierta && (
                     <div style={{marginTop:6, display:'flex', gap:6, flexWrap:'wrap'}}>
-                      <button type="button" onClick={() => {setActaCiarp(actasHistoricas.ultimo); setSaved(false);}} style={{fontSize:10, background:'#e3f0ff', color:'#1565c0', border:'1px solid #1565c0', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Usar actual: {actasHistoricas.ultimo}</button>
-                      <button type="button" onClick={() => {setActaCiarp(actasHistoricas.proximo); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Siguiente: {actasHistoricas.proximo}</button>
+                      <button type="button" onClick={() => {setActaCiarp(sesionAbierta); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Sugerido (Abierta): {sesionAbierta}</button>
                     </div>
                   )}
                   <div style={{marginTop:12}}>
@@ -1109,10 +1101,9 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
             <div>
               <label style={{ color: 'var(--info)' }}>ACTA / AÑO CIARP</label>
               <input value={actaCiarp} onChange={e => { setActaCiarp(e.target.value); setSaved(false); }} placeholder="Ej: 1/2026" />
-              {actasHistoricas.ultimo && (
+              {sesionAbierta && (
                 <div style={{marginTop:6, display:'flex', gap:6, flexWrap:'wrap'}}>
-                  <button type="button" onClick={() => {setActaCiarp(actasHistoricas.ultimo); setSaved(false);}} style={{fontSize:10, background:'#e3f0ff', color:'#1565c0', border:'1px solid #1565c0', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Usar actual: {actasHistoricas.ultimo}</button>
-                  <button type="button" onClick={() => {setActaCiarp(actasHistoricas.proximo); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Siguiente: {actasHistoricas.proximo}</button>
+                  <button type="button" onClick={() => {setActaCiarp(sesionAbierta); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Sugerido (Abierta): {sesionAbierta}</button>
                 </div>
               )}
               <div style={{ marginTop: 12 }}>
