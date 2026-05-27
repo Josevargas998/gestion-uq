@@ -386,7 +386,7 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
     setLoadingDetalles(true);
     fetchSolicitudes({ cedula: doc.cedula, paginar: false }).then(async (res) => {
       const filtered = (res?.data || []).filter(s => 
-        s.cedula === doc.cedula && 
+        String(s.cedula) === String(doc.cedula) && 
         !['titulo', 'experiencia_docente', 'experiencia_calificada', 'categoria_academica', 'ascenso'].includes(s.tipo) &&
         s.tipo && !s.tipo.startsWith('exp')
       );
