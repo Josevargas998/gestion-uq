@@ -4,7 +4,7 @@ import { TIPOS } from '../data.js';
 import { badgeEtapa, labelEtapa, normalizeActaKey } from '../helpers.js';
 import {
   fetchSesionesCiarp, createSesionCiarp, getSiguienteNumeroCiarp,
-  getInformeSesionCiarp,
+  getInformeSesionCiarp, cerrarYAbrirSesionCiarp
 } from '../utils/api.js';
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
@@ -190,6 +190,18 @@ function PanelSesionesCiarp({ user }) {
 
   useEffect(() => { cargarSesiones(); }, [cargarSesiones]);
 
+  async function handleCerrarYAbrir(sesion) {
+    if (!window.confirm(`¿Estás seguro de cerrar la sesión CIARP ${sesion.acta_label}? Esta acción cerrará la sesión actual y creará automáticamente la siguiente.`)) return;
+    try {
+      setLoading(true);
+      await cerrarYAbrirSesionCiarp(sesion.id);
+      cargarSesiones();
+    } catch (err) {
+      alert('Error: ' + err.message);
+      setLoading(false);
+    }
+  }
+
   async function descargarInforme(sesion) {
     setDescargando(prev => ({ ...prev, [sesion.id]: true }));
     try {
@@ -276,10 +288,18 @@ function PanelSesionesCiarp({ user }) {
                     <div style={{ color:'var(--muted)' }}>Puntos</div>
                   </div>
                 </div>
-                <button className="btn btn-gh" onClick={() => descargarInforme(s)} disabled={isLoad}
-                  title={`Descargar informe Excel de ${s.acta_label}`}>
-                  {isLoad ? '⏳' : '📥'} Excel
-                </button>
+                <div style={{ display:'flex', gap:8, alignItems:'center' }}>
+                  {s.estado === 'abierta' && puedeCrear && (
+                    <button className="btn btn-p" onClick={() => handleCerrarYAbrir(s)} disabled={isLoad}
+                      title="Cerrar esta sesión y abrir la siguiente automáticamente" style={{ padding: '6px 12px', fontSize: 12 }}>
+                      🔄 Cerrar CIARP
+                    </button>
+                  )}
+                  <button className="btn btn-gh" onClick={() => descargarInforme(s)} disabled={isLoad}
+                    title={`Descargar informe Excel de ${s.acta_label}`} style={{ padding: '6px 12px', fontSize: 12 }}>
+                    {isLoad ? '⏳' : '📥'} Excel
+                  </button>
+                </div>
               </div>
             );
           })}

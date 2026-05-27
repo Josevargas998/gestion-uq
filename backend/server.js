@@ -837,6 +837,37 @@ app.put('/api/sesiones-ciarp/:id', verifyToken, requireAdminOrTecnico, async (re
   } catch (err) { next(err); }
 });
 
+// POST /api/sesiones-ciarp/:id/cerrar-y-abrir — Cierra la sesión actual y abre la siguiente automáticamente
+app.post('/api/sesiones-ciarp/:id/cerrar-y-abrir', verifyToken, requireAdminOrTecnico, async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    
+    // 1. Cerrar la sesión actual
+    const { rows: currRows } = await query(
+      `UPDATE sesiones_ciarp SET estado = 'cerrada' WHERE id = $1 RETURNING *`, [id]
+    );
+    if (!currRows.length) return res.status(404).json({ error: 'Sesión no encontrada' });
+    const curSes = currRows[0];
+    
+    // 2. Crear la siguiente sesión
+    const anio = curSes.anio || new Date().getFullYear();
+    const { rows: last } = await query(
+      'SELECT COALESCE(MAX(numero), 0) + 1 AS siguiente FROM sesiones_ciarp WHERE anio = $1', [anio]
+    );
+    const num = last[0].siguiente;
+    const newId = `CIARP-${anio}-${String(num).padStart(2, '0')}`;
+    const acta_label = `${num}/${anio}`;
+    
+    const { rows: newRows } = await query(
+      `INSERT INTO sesiones_ciarp (id, numero, anio, acta_label, estado) VALUES ($1,$2,$3,$4,'abierta') RETURNING *`,
+      [newId, num, anio, acta_label]
+    );
+    
+    await registrarAuditoria(req, 'CERRAR_Y_ABRIR_CIARP', { closed: id, opened: newId });
+    res.json({ closed: curSes, opened: newRows[0] });
+  } catch (err) { next(err); }
+});
+
 // ─────────────────────────────────────────────────────────────
 // SESIONES CEI — CRUD y descarga de informe
 // ─────────────────────────────────────────────────────────────
@@ -928,6 +959,37 @@ app.put('/api/sesiones-cei/:id', verifyToken, requireAdminOrTecnico, async (req,
     );
     if (!rows.length) return res.status(404).json({ error: 'Sesión no encontrada' });
     res.json(rows[0]);
+  } catch (err) { next(err); }
+});
+
+// POST /api/sesiones-cei/:id/cerrar-y-abrir — Cierra la sesión actual y abre la siguiente automáticamente
+app.post('/api/sesiones-cei/:id/cerrar-y-abrir', verifyToken, requireAdminOrTecnico, async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    
+    // 1. Cerrar la sesión actual
+    const { rows: currRows } = await query(
+      `UPDATE sesiones_cei SET estado = 'cerrada' WHERE id = $1 RETURNING *`, [id]
+    );
+    if (!currRows.length) return res.status(404).json({ error: 'Sesión no encontrada' });
+    const curSes = currRows[0];
+    
+    // 2. Crear la siguiente sesión
+    const anio = curSes.anio || new Date().getFullYear();
+    const { rows: last } = await query(
+      'SELECT COALESCE(MAX(numero), 0) + 1 AS siguiente FROM sesiones_cei WHERE anio = $1', [anio]
+    );
+    const num = last[0].siguiente;
+    const newId = `CEI-${anio}-${String(num).padStart(2, '0')}`;
+    const acta_label = `${num}/${anio}`;
+    
+    const { rows: newRows } = await query(
+      `INSERT INTO sesiones_cei (id, numero, anio, acta_label, estado) VALUES ($1,$2,$3,$4,'abierta') RETURNING *`,
+      [newId, num, anio, acta_label]
+    );
+    
+    await registrarAuditoria(req, 'CERRAR_Y_ABRIR_CEI', { closed: id, opened: newId });
+    res.json({ closed: curSes, opened: newRows[0] });
   } catch (err) { next(err); }
 });
 

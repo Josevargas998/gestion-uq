@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import {
   fetchSesionesCei, createSesionCei, getSiguienteNumeroCei,
-  getInformeSesionCei,
+  getInformeSesionCei, cerrarYAbrirSesionCei
 } from '../utils/api.js';
 import { exportarCIARP } from '../utils/exportCiarp.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
@@ -579,6 +579,18 @@ function PanelSesionesCei({ user }) {
       .finally(() => setLoading(false));
   }, []);
 
+  async function handleCerrarYAbrir(sesion) {
+    if (!window.confirm(`¿Estás seguro de cerrar la sesión CEI ${sesion.acta_label}? Esta acción cerrará la sesión actual y creará automáticamente la siguiente.`)) return;
+    try {
+      setLoading(true);
+      await cerrarYAbrirSesionCei(sesion.id);
+      cargarSesiones();
+    } catch (err) {
+      alert('Error: ' + err.message);
+      setLoading(false);
+    }
+  }
+
   useEffect(() => { cargarSesiones(); }, [cargarSesiones]);
 
   // Auto-sugerir número al abrir modal
@@ -677,14 +689,25 @@ function PanelSesionesCei({ user }) {
                     <div style={{ fontWeight:700, fontSize:20, color:'var(--uq-blue)' }}>{parseFloat(s.pts_totales || 0).toFixed(1)}</div>
                     <div style={{ color:'var(--muted)', fontWeight: 500 }}>Puntos</div>
                   </div>
+                  </div>
                 </div>
-                <button onClick={() => descargarInforme(s)} disabled={isLoad}
-                  style={{ padding:'8px 16px', borderRadius:10, border:'1px solid var(--border)', background:'var(--bg)', color: 'var(--text)',
-                           fontSize:13, cursor:'pointer', fontWeight:600, display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
-                  onMouseEnter={e => e.currentTarget.style.background = 'var(--surface)'}
-                  onMouseLeave={e => e.currentTarget.style.background = 'var(--bg)'}>
-                  {isLoad ? <Hourglass size={16}/> : <Download size={16}/>} Excel
-                </button>
+                <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+                  {s.estado === 'abierta' && user?.rol !== 'lectura' && (
+                    <button onClick={() => handleCerrarYAbrir(s)} disabled={isLoad}
+                      title="Cerrar esta sesión y abrir la siguiente automáticamente"
+                      style={{ padding:'8px 16px', borderRadius:10, border:'none', background:'var(--p)', color: '#fff',
+                               fontSize:13, cursor:'pointer', fontWeight:600, display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}>
+                      🔄 Cerrar CEI
+                    </button>
+                  )}
+                  <button onClick={() => descargarInforme(s)} disabled={isLoad}
+                    style={{ padding:'8px 16px', borderRadius:10, border:'1px solid var(--border)', background:'var(--bg)', color: 'var(--text)',
+                             fontSize:13, cursor:'pointer', fontWeight:600, display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
+                    onMouseEnter={e => e.currentTarget.style.background = 'var(--surface)'}
+                    onMouseLeave={e => e.currentTarget.style.background = 'var(--bg)'}>
+                    {isLoad ? '⏳ Generando...' : '📥 Descargar Excel'}
+                  </button>
+                </div>
               </div>
             );
           })}
@@ -790,9 +813,18 @@ function DetalleCEI({ sol, onBack, onUpdate, user }) {
 
   useEffect(() => {
     fetchSesionesCei()
-      .then(data => setSesiones(data || []))
+      .then(data => {
+        setSesiones(data || []);
+        if (!sesionCeiId) {
+          const abierta = data?.find(s => s.estado === 'abierta');
+          if (abierta) {
+            setSesionCeiId(abierta.id);
+            setActaCiarp(abierta.acta_label);
+          }
+        }
+      })
       .catch(console.error);
-  }, []);
+  }, [sesionCeiId]);
 
   // Sync acta_ciarp when session changes
   const handleSesionChange = (id) => {

@@ -174,7 +174,13 @@ export default function ModuloReconocimientos({ user }) {
   // Cargar lista de sesiones
   useEffect(() => {
     fetchSesionesCiarp()
-      .then(data => setSesiones(data || []))
+      .then(data => {
+        setSesiones(data || []);
+        const abierta = data?.find(s => s.estado === 'abierta');
+        if (abierta) {
+          setSesionSeleccionada(abierta.id);
+        }
+      })
       .catch(e => console.error("Error cargando sesiones CIARP:", e));
   }, []);
 

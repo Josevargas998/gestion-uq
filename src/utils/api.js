@@ -243,7 +243,21 @@ export async function fetchEstadisticas() {
 
 /** Lista todas las sesiones CIARP con totales de solicitudes */
 export async function fetchSesionesCiarp() {
-  return apiFetch('/api/sesiones-ciarp');
+  const res = await fetch(`${API_URL}/api/sesiones-ciarp`, getAuthHeaders());
+  if (!res.ok) throw new Error('Error al cargar sesiones');
+  return res.json();
+}
+
+export async function cerrarYAbrirSesionCiarp(id) {
+  const res = await fetch(`${API_URL}/api/sesiones-ciarp/${id}/cerrar-y-abrir`, {
+    ...getAuthHeaders(),
+    method: 'POST'
+  });
+  if (!res.ok) {
+    const errorData = await res.json().catch(() => ({}));
+    throw new Error(errorData.error || 'Error al cerrar y abrir sesión');
+  }
+  return res.json();
 }
 
 /** Número sugerido para la próxima sesión del año */
@@ -282,6 +296,18 @@ export async function updateSesionCiarp(id, datos) {
 /** Lista todas las sesiones CEI con totales */
 export async function fetchSesionesCei() {
   return apiFetch('/api/sesiones-cei');
+}
+
+export async function cerrarYAbrirSesionCei(id) {
+  const res = await fetch(`${API_URL}/api/sesiones-cei/${id}/cerrar-y-abrir`, {
+    ...getAuthHeaders(),
+    method: 'POST'
+  });
+  if (!res.ok) {
+    const errorData = await res.json().catch(() => ({}));
+    throw new Error(errorData.error || 'Error al cerrar y abrir sesión');
+  }
+  return res.json();
 }
 
 /** Número sugerido para la próxima sesión CEI del año */
