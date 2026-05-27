@@ -390,6 +390,12 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
       return res.status(400).json({ error: validTope.error });
     }
 
+    // Auto-resolver sesion_ciarp_id si no viene
+    if (!sol.sesion_ciarp_id && sol.acta_ciarp) {
+      const { rows: ciarpRows } = await query('SELECT id FROM sesiones_ciarp WHERE acta_label = $1 LIMIT 1', [sol.acta_ciarp]);
+      if (ciarpRows.length > 0) sol.sesion_ciarp_id = ciarpRows[0].id;
+    }
+
     const hex = crypto.randomUUID().replace(/-/g, '').slice(0, 8);
     const tipo = sol.tipo || 'revista_a1';
     const idPrefix = tipo === 'ascenso' ? 'ASC' : 'PROD';
@@ -399,8 +405,8 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
          (id, coautor, cedula, docente, tipo, titulo, revista,
           fecha, etapa, estado, pts_sug, pts_asig, correo, notas, acta_ciarp,
           pares_ext, pares_int, timeline, memo_envio_int, fecha_envio_int,
-          memo_recibo_int, fecha_recibo_int, memo_envio_ext, datos_prod)
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24)
+          memo_recibo_int, fecha_recibo_int, memo_envio_ext, datos_prod, sesion_ciarp_id, sesion_cei_id)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25,$26)
        RETURNING *`,
       [
         id, sol.coautor || null, sol.cedula || null,
@@ -416,7 +422,8 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
         sol.memoEnvioInt  || null, sol.fechaEnvioInt  || null,
         sol.memoReciboInt || null, sol.fechaReciboInt || null,
         sol.memoEnvioExt  || null,
-        sol.datos_prod ? JSON.stringify(sol.datos_prod) : '{}'
+        sol.datos_prod ? JSON.stringify(sol.datos_prod) : '{}',
+        sol.sesion_ciarp_id || null, sol.sesion_cei_id || null
       ]
     );
 
@@ -463,13 +470,19 @@ app.put('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (req, 
       return res.status(400).json({ error: validTope.error });
     }
 
+    // Auto-resolver sesion_ciarp_id si no viene
+    if (!sol.sesion_ciarp_id && sol.acta_ciarp) {
+      const { rows: ciarpRows } = await query('SELECT id FROM sesiones_ciarp WHERE acta_label = $1 LIMIT 1', [sol.acta_ciarp]);
+      if (ciarpRows.length > 0) sol.sesion_ciarp_id = ciarpRows[0].id;
+    }
+
     const { rows } = await query(
       `UPDATE solicitudes SET
          coautor=$2, cedula=$3, docente=$4, tipo=$5, titulo=$6, revista=$7, fecha=$8, 
          etapa=$9, estado=$10, pts_sug=$11, pts_asig=$12, correo=$13, notas=$14, 
          acta_ciarp=$15, pares_ext=$16, pares_int=$17, timeline=$18, 
          memo_envio_int=$19, fecha_envio_int=$20, memo_recibo_int=$21, 
-         fecha_recibo_int=$22, memo_envio_ext=$23, datos_prod=$24
+         fecha_recibo_int=$22, memo_envio_ext=$23, datos_prod=$24, sesion_ciarp_id=$25, sesion_cei_id=$26
        WHERE id=$1 RETURNING *`,
       [
         req.params.id, sol.coautor || null, sol.cedula || null,
@@ -485,7 +498,8 @@ app.put('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (req, 
         sol.memoEnvioInt  || null, sol.fechaEnvioInt  || null,
         sol.memoReciboInt || null, sol.fechaReciboInt || null,
         sol.memoEnvioExt  || null,
-        sol.datos_prod ? JSON.stringify(sol.datos_prod) : '{}'
+        sol.datos_prod ? JSON.stringify(sol.datos_prod) : '{}',
+        sol.sesion_ciarp_id || null, sol.sesion_cei_id || null
       ]
     );
     if (!rows.length) return res.status(404).json({ error: 'Solicitud no encontrada' });
