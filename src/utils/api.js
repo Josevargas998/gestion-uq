@@ -249,15 +249,9 @@ export async function fetchSesionesCiarp() {
 }
 
 export async function cerrarYAbrirSesionCiarp(id) {
-  const res = await fetch(`${API_URL}/api/sesiones-ciarp/${id}/cerrar-y-abrir`, {
-    ...getAuthHeaders(),
+  return apiFetch(`/api/sesiones-ciarp/${encodeURIComponent(id)}/cerrar-y-abrir`, {
     method: 'POST'
   });
-  if (!res.ok) {
-    const errorData = await res.json().catch(() => ({}));
-    throw new Error(errorData.error || 'Error al cerrar y abrir sesión');
-  }
-  return res.json();
 }
 
 /** Número sugerido para la próxima sesión del año */
@@ -299,15 +293,9 @@ export async function fetchSesionesCei() {
 }
 
 export async function cerrarYAbrirSesionCei(id) {
-  const res = await fetch(`${API_URL}/api/sesiones-cei/${id}/cerrar-y-abrir`, {
-    ...getAuthHeaders(),
+  return apiFetch(`/api/sesiones-cei/${encodeURIComponent(id)}/cerrar-y-abrir`, {
     method: 'POST'
   });
-  if (!res.ok) {
-    const errorData = await res.json().catch(() => ({}));
-    throw new Error(errorData.error || 'Error al cerrar y abrir sesión');
-  }
-  return res.json();
 }
 
 /** Número sugerido para la próxima sesión CEI del año */
