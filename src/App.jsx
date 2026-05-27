@@ -59,7 +59,7 @@ function PageLoader() {
 export default function App() {
   const { user, logout } = useAuth();
   const {
-    solicitudes, solicitudesProductividad, solicitudesAscenso,
+    solicitudes, solicitudesProductividad, solicitudesAscenso, solicitudesCiarp,
     crear, actualizar, eliminar,
   } = useSolicitudes();
   const { success, error: showError } = useNotification();
@@ -181,7 +181,7 @@ export default function App() {
         });
 
       case 'gestion_ciarp':
-        return W(GestorCiarp, { user, solicitudes: solicitudesProductividad, onSelect: handleSelect, setNav });
+        return W(GestorCiarp, { user, solicitudes: solicitudesCiarp, onSelect: handleSelect, setNav });
 
       case 'resoluciones':
         return W(Resoluciones, { solicitudes: solicitudesProductividad, onSelect: handleSelect });

@@ -126,10 +126,14 @@ export function SolicitudesProvider({ children }) {
     () => solicitudes.filter(s => s.tipo === 'ascenso'),
     [solicitudes]
   );
+  const solicitudesCiarp = useMemo(
+    () => solicitudes.filter(s => s.tipo !== 'ascenso'),
+    [solicitudes]
+  );
 
   return (
     <SolicitudesContext.Provider value={{
-      solicitudes, solicitudesProductividad, solicitudesAscenso,
+      solicitudes, solicitudesProductividad, solicitudesAscenso, solicitudesCiarp,
       loading, error, saving, saveMsg,
       actualizar, crear, eliminar, importar, recargar: load,
     }}>
