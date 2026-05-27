@@ -2,12 +2,25 @@ import React, { useMemo, useState } from 'react';
 
 export default function BancoPares({ solicitudes }) {
   const [busqueda, setBusqueda] = useState('');
+  const [anio, setAnio] = useState(''); // Filtro por año
+
+  // Extraer años disponibles
+  const years = useMemo(() => {
+    const ys = new Set(solicitudes.map(s => (s.fecha || '').split('-')[0]).filter(Boolean));
+    return Array.from(ys).sort().reverse();
+  }, [solicitudes]);
+
+  // Filtrar solicitudes por el año seleccionado
+  const solicitudesFiltradas = useMemo(() => {
+    if (!anio) return solicitudes;
+    return solicitudes.filter(s => (s.fecha || '').startsWith(anio));
+  }, [solicitudes, anio]);
   
-  // Extraer todos los pares de todas las solicitudes
+  // Extraer todos los pares de las solicitudes (filtradas)
   const paresData = useMemo(() => {
     const map = new Map(); // key: nombre (normalizado), value: objeto consolidado
 
-    solicitudes.forEach(sol => {
+    solicitudesFiltradas.forEach(sol => {
       if (!sol.pares_ext || !Array.isArray(sol.pares_ext)) return;
       
       sol.pares_ext.forEach((par, idx) => {
@@ -60,13 +73,13 @@ export default function BancoPares({ solicitudes }) {
     });
     
     return Array.from(map.values()).sort((a, b) => a.nombre.localeCompare(b.nombre));
-  }, [solicitudes]);
+  }, [solicitudesFiltradas]);
 
   // Extraer agrupado por producto (titulo) – consolida co-autores y pares
   const productosData = useMemo(() => {
     const map = new Map(); // titulo normalizado → producto consolidado
 
-    solicitudes.forEach(sol => {
+    solicitudesFiltradas.forEach(sol => {
       const tituloKey = (sol.titulo || '').trim().toUpperCase();
       if (!tituloKey || tituloKey === 'SIN TÍTULO') return;
 
@@ -155,16 +168,10 @@ export default function BancoPares({ solicitudes }) {
         };
       })
       .sort((a, b) => b.id.localeCompare(a.id));
-  }, [solicitudes]);
+  }, [solicitudesFiltradas]);
 
 
-  const [modoAgrupacion, setModoAgrupacion] = useState('producto'); // 'producto' | 'par' | 'pagos'
-
-  const filtradosPares = paresData.filter(p => 
-    p.nombre.includes(busqueda.toUpperCase()) || 
-    p.institucion.toUpperCase().includes(busqueda.toUpperCase()) ||
-    p.perfil.toUpperCase().includes(busqueda.toUpperCase())
-  );
+  const [modoAgrupacion, setModoAgrupacion] = useState('producto'); // 'producto' | 'pagos'
 
   const filtradosProductos = productosData.filter(p => 
     p.titulo.toUpperCase().includes(busqueda.toUpperCase()) ||
@@ -184,8 +191,8 @@ export default function BancoPares({ solicitudes }) {
       .filter(par => par.nombre.includes(busqueda.toUpperCase()) || par.institucion.toUpperCase().includes(busqueda.toUpperCase()));
   }, [paresData, busqueda]);
 
-  const totalCount = modoAgrupacion === 'par' ? paresData.length : modoAgrupacion === 'pagos' ? filtradosPagos.length : productosData.length;
-  const totalLabel = modoAgrupacion === 'par' ? 'Pares Registrados' : modoAgrupacion === 'pagos' ? 'Listos para Pago' : 'Productos con Pares';
+  const totalCount = modoAgrupacion === 'pagos' ? filtradosPagos.length : productosData.length;
+  const totalLabel = modoAgrupacion === 'pagos' ? 'Listos para Pago' : 'Productos con Pares';
 
   const copyToClipboard = (link) => {
     navigator.clipboard.writeText(link);
@@ -216,21 +223,25 @@ export default function BancoPares({ solicitudes }) {
       <div style={{ display: 'flex', gap: 16, marginBottom: 24, flexWrap: 'wrap' }}>
         <input 
           className="input" 
-          placeholder={modoAgrupacion === 'par' ? "🔍 Buscar por nombre del par, institución..." : "🔍 Buscar por producto, docente o par..."} 
+          placeholder="🔍 Buscar por producto, docente o par..." 
           value={busqueda} 
           onChange={e => setBusqueda(e.target.value)} 
           style={{ flex: 1, maxWidth: 500, fontSize: 14, padding: '10px 16px', borderRadius: 24 }}
         />
-        <div style={{ display: 'flex', background: '#f1f3f5', borderRadius: 24, padding: 4, flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', background: '#f1f3f5', borderRadius: 24, padding: 4, flexWrap: 'wrap', gap: 4 }}>
+          <select 
+            value={anio} 
+            onChange={e => setAnio(e.target.value)}
+            style={{ padding: '8px 16px', borderRadius: 20, fontSize: 13, fontWeight: 700, background: '#fff', border: 'none', color: 'var(--text)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', cursor: 'pointer', outline: 'none' }}
+          >
+            <option value="">📅 Todos los años</option>
+            {years.map(y => <option key={y} value={y}>📅 {y}</option>)}
+          </select>
+
           <button 
             onClick={() => setModoAgrupacion('producto')}
             style={{ padding: '8px 16px', borderRadius: 20, fontSize: 13, fontWeight: 700, background: modoAgrupacion === 'producto' ? '#fff' : 'transparent', color: modoAgrupacion === 'producto' ? 'var(--text)' : 'var(--muted)', boxShadow: modoAgrupacion === 'producto' ? '0 2px 4px rgba(0,0,0,0.05)' : 'none', border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}>
             📚 Agrupar por Producto
-          </button>
-          <button 
-            onClick={() => setModoAgrupacion('par')}
-            style={{ padding: '8px 16px', borderRadius: 20, fontSize: 13, fontWeight: 700, background: modoAgrupacion === 'par' ? '#fff' : 'transparent', color: modoAgrupacion === 'par' ? 'var(--text)' : 'var(--muted)', boxShadow: modoAgrupacion === 'par' ? '0 2px 4px rgba(0,0,0,0.05)' : 'none', border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}>
-            👥 Agrupar por Par Evaluador
           </button>
           <button 
             onClick={() => setModoAgrupacion('pagos')}
@@ -240,7 +251,7 @@ export default function BancoPares({ solicitudes }) {
         </div>
       </div>
 
-      {(modoAgrupacion === 'par' ? filtradosPares.length === 0 : modoAgrupacion === 'pagos' ? filtradosPagos.length === 0 : filtradosProductos.length === 0) ? (
+      {(modoAgrupacion === 'pagos' ? filtradosPagos.length === 0 : filtradosProductos.length === 0) ? (
         <div style={{ textAlign: 'center', padding: '40px 20px', background: '#f8f9fa', borderRadius: 12, border: '1px dashed #ccc' }}>
           <div style={{ fontSize: 32, marginBottom: 12 }}>🕵️‍♂️</div>
           <div style={{ fontSize: 16, fontWeight: 700, color: 'var(--muted)' }}>No se encontraron pares evaluadores</div>
@@ -248,78 +259,7 @@ export default function BancoPares({ solicitudes }) {
         </div>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: 20 }}>
-          {modoAgrupacion === 'par' && filtradosPares.map((par, i) => (
-            <div key={i} className="card" style={{ padding: 20, display: 'flex', flexDirection: 'column' }}>
-              <div style={{ display: 'flex', gap: 12, marginBottom: 12, alignItems: 'flex-start' }}>
-                <div style={{ width: 44, height: 44, borderRadius: '50%', background: 'linear-gradient(135deg, var(--g) 0%, var(--gp) 100%)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 18, fontWeight: 800, flexShrink: 0 }}>
-                  {par.nombre.charAt(0)}
-                </div>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontWeight: 800, fontSize: 15, color: 'var(--text)', lineHeight: 1.2, marginBottom: 4 }}>{par.nombre}</div>
-                  {par.institucion && <div style={{ fontSize: 12, color: '#1a5fa8', fontWeight: 700, marginBottom: 2 }}>🎓 {par.institucion}</div>}
-                  {par.cvlac_url && <a href={par.cvlac_url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: 'var(--info)' }}>🔗 Ver Hoja de Vida (CVLAC) PDF ↗</a>}
-                </div>
-              </div>
-              
-              {par.perfil && (
-                <div style={{ background: '#f8f9fa', padding: 12, borderRadius: 8, fontSize: 12, color: 'var(--text2)', marginBottom: 16, border: '1px solid var(--border)', flex: 1 }}>
-                  <div style={{ fontSize: 10, fontWeight: 800, color: 'var(--muted)', textTransform: 'uppercase', marginBottom: 4 }}>Perfil / Especialidad</div>
-                  <div style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }} title={par.perfil}>
-                    {par.perfil}
-                  </div>
-                </div>
-              )}
 
-              <div>
-                <div style={{ fontSize: 11, fontWeight: 800, color: 'var(--muted)', textTransform: 'uppercase', marginBottom: 8 }}>Historial de Evaluaciones ({par.evaluaciones.length})</div>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                  {par.evaluaciones.map((ev, j) => {
-                    const entregado = ev.estado === 'recibido';
-                    return (
-                      <div key={j} style={{ background: '#fff', border: '1px solid var(--border)', padding: 10, borderRadius: 8 }}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 4 }}>
-                          <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--g)', maxWidth: '70%', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{ev.id_solicitud}</span>
-                          <span className={`badge ${entregado ? 'bg' : 'ba'}`} style={{ fontSize: 9, padding: '2px 6px' }}>
-                            {entregado ? '✅ Recibido' : '⏳ Pendiente'}
-                          </span>
-                        </div>
-                        <div style={{ fontSize: 11, color: 'var(--text)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }} title={ev.titulo}>
-                          📘 {ev.titulo}
-                        </div>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 6, alignItems: 'center' }}>
-                          <span style={{ fontSize: 10, color: 'var(--muted)' }}>👤 {ev.docente.split(' ')[0]} {ev.docente.split(' ')[1] || ''}</span>
-                          
-                          {!entregado && ev.dias !== null && (
-                            <span style={{ fontSize: 10, fontWeight: 700, color: ev.dias > 30 ? 'var(--danger)' : '#1a5fa8' }}>
-                              ⏱ {ev.dias} días
-                            </span>
-                          )}
-                          {entregado && ev.puntaje && (
-                            <span style={{ fontSize: 10, fontWeight: 700, color: 'var(--g)' }}>⭐ {ev.puntaje} pts</span>
-                          )}
-                          {entregado && ev.concepto_url && (
-                            <a href={ev.concepto_url} target="_blank" rel="noreferrer" style={{ fontSize: 10, color: 'var(--info)', fontWeight: 700 }}>📥 Ver Evaluación</a>
-                          )}
-                        </div>
-                        <div style={{ marginTop: 8 }}>
-                          {ev.cvlac_url ? (
-                            <a href={ev.cvlac_url} target="_blank" rel="noreferrer"
-                              style={{ display: 'block', textAlign: 'center', width: '100%', background: '#e7f1fb', border: '1px solid #1a5fa8', color: '#1a5fa8', padding: '4px', borderRadius: 6, fontSize: 10, fontWeight: 800, textDecoration: 'none' }}>
-                              📄 PDF del Par Evaluador
-                            </a>
-                          ) : (
-                            <span style={{ display: 'block', textAlign: 'center', width: '100%', background: '#f5f5f5', border: '1px dashed #ccc', color: '#999', padding: '4px', borderRadius: 6, fontSize: 10, fontWeight: 800 }}>
-                              Sin PDF
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-          ))}
 
           {modoAgrupacion === 'producto' && filtradosProductos.map((prod, i) => {
             const paresReales = prod.pares.filter(Boolean).length;
