@@ -243,9 +243,7 @@ export async function fetchEstadisticas() {
 
 /** Lista todas las sesiones CIARP con totales de solicitudes */
 export async function fetchSesionesCiarp() {
-  const res = await fetch(`${API_URL}/api/sesiones-ciarp`, getAuthHeaders());
-  if (!res.ok) throw new Error('Error al cargar sesiones');
-  return res.json();
+  return apiFetch('/api/sesiones-ciarp');
 }
 
 export async function cerrarYAbrirSesionCiarp(id) {
