@@ -1,0 +1,52 @@
+{
+  "cedula": "16205139",
+  "tipoDoc": "CC",
+  "nombre": "OSPINA GOMEZ GUSTAVO ADOLFO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "ospina@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=OSPINA%20GOMEZ%20GUSTAVO%20ADOLFO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 390.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 350.3,
+    "2021": 360.3,
+    "2022": 370.3,
+    "2023": 380.3,
+    "2024": 390.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS QUIMICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "17-09-1992",
+      "puntos": 80,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION TECNOLOGIA QUIMICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-01-1976",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

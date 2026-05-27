@@ -1,0 +1,59 @@
+{
+  "cedula": "1094901176",
+  "tipoDoc": "CC",
+  "nombre": "RAMIREZ JIMENEZ DIEGO FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "ramirez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "20-02-2023",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RAMIREZ%20JIMENEZ%20DIEGO%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 375.3,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 335.3,
+    "2021": 345.3,
+    "2022": 355.3,
+    "2023": 365.3,
+    "2024": 375.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-2013",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>29-07-2010",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGO EN ELECTRӎICA"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-2013",
+      "puntos": 178,
+      "resolucion": "45139.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

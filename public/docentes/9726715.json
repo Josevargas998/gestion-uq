@@ -1,0 +1,66 @@
+{
+  "cedula": "9726715",
+  "tipoDoc": "CC",
+  "nombre": "SAZA RAMIREZ NOLBEDIR",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SEGURIDAD Y SALUD EN EL TRABAJO",
+  "email": "saza@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SAZA%20RAMIREZ%20NOLBEDIR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 307.6,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 267.6,
+    "2021": 277.6,
+    "2022": 287.6,
+    "2023": 297.6,
+    "2024": 307.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "FUNDACION UNIVERSITARIA DEL AREA ANDINA",
+      "tituloSnies": "Especializaci󮼯td>15-09-2006",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA EN SALUD OCUPACIONAL"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-06-2005",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN PREVENCION DE RIESGOS LABORALES",
+      "tituloSnies": "Maestria",
+      "fecha": "16-09-2019",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MEDICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-2014",
+      "puntos": 183,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

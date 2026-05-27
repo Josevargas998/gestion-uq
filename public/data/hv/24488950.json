@@ -1,0 +1,102 @@
+{
+  "cedula": "24488950",
+  "tipoDoc": "CC",
+  "nombre": "GONZALEZ DE SCHROEDER MARIA MERCEDES",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "29952.999814814815",
+  "estado": "ACTIVO",
+  "email": "gonzalez@uniquindio.edu.co",
+  "puntosAsignados": 629.8,
+  "ptosProductividad": 77,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 589.8,
+    "2021": 599.8,
+    "2022": 609.8,
+    "2023": 619.8,
+    "2024": 629.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especialización15-10-1999",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "39478.999814814815",
+      "puntos": 20
+    },
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39478.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "19-12-2006",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA",
+      "tituloSnies": "Especialización31-12-1996",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "ENVIRONMENTAL SURVEILLANCE OF POLIOVIRUSES IN ARMENIA, COLOMBIA BEFORE TRIVALENT ORAL POLIO VACCINE CESSATION",
+        "issn": "1999-4915",
+        "revista": "VIRUSES",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2021",
+        "titulo": "OBESIDAD E INFLAMACIӎ EN ESTUDIANTES DE UNA UNIVERSIDAD PڂLICA COLOMBIANA",
+        "issn": "2539-3596",
+        "revista": "REVISTA DE SALUD PڂLICA",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2022",
+        "titulo": "VIGILANCIA AMBIENTAL DE LA CIRCULACIӎ DE POLIOVIRUS EN TRES MUNICIPIOS CONSIDERADOS COMO PUNTO TRANSITORIO DE MIGRANTES EN COLOMBIA 2017-2019",
+        "issn": "0123-9392",
+        "revista": "INFECTIO",
+        "categoria": "B",
+        "puntos": 1.6,
+        "resolucion": "10471"
+      },
+      {
+        "año": "2022",
+        "titulo": "HEPATITIS E VIRUS: A REVIEW OF THE CURRENT STATUS AND PERSPECTIVES",
+        "issn": "0123-9392",
+        "revista": "INFECTIO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10471"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

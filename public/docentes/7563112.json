@@ -1,0 +1,80 @@
+{
+  "cedula": "7563112",
+  "tipoDoc": "CC",
+  "nombre": "MONTOYA LOPEZ JAIRO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "montoya@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MONTOYA%20LOPEZ%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 511.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 471.2,
+    "2021": 481.2,
+    "2022": 491.2,
+    "2023": 501.2,
+    "2024": 511.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-07-2011",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-07-2011",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-12-1999",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>14-12-2004",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA EN DOCENCIA UNIVERSITARIA"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-12-1999",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>16-09-1994",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGO EN QUIMICA DE PRODUCTOS VEGETALES"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

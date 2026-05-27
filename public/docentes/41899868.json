@@ -1,0 +1,52 @@
+{
+  "cedula": "41899868",
+  "tipoDoc": "CC",
+  "nombre": "CABRERA CADAVID MARTHA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "cabrera@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CABRERA%20CADAVID%20MARTHA%20PATRICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 317.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 277.6,
+    "2021": 287.6,
+    "2022": 297.6,
+    "2023": 307.6,
+    "2024": 317.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1987",
+      "puntos": 183,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD MILITAR\"NUEVA GRANADA\"",
+      "tituloSnies": "Especializaci󮼯td>02-03-1993",
+      "fecha": "45",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PATOLOGIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

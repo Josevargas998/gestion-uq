@@ -1,0 +1,66 @@
+{
+  "cedula": "51802215",
+  "tipoDoc": "CC",
+  "nombre": "FERNADEZ RINCON CARMEN AYDE",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "fernadez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=FERNADEZ%20RINCON%20CARMEN%20AYDE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 543,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 503,
+    "2021": 513,
+    "2022": 523,
+    "2023": 533,
+    "2024": 543
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ȐROFESIONAL ENSALUD OCUPACIONAL HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "36287.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-08-2005",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "CORPORACION UNIVERSITARIA DEL CARIBE",
+      "tituloSnies": "Especializaci󮼯td>11-10-2001",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALISTA EN INVESTIGACION APLICADA A LA EDUCACION"
+    },
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "32148.999814814815",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

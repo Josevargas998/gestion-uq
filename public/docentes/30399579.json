@@ -1,0 +1,37 @@
+{
+  "cedula": "30399579",
+  "tipoDoc": "CC",
+  "nombre": "GLORIA MARCELA CORREA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "gloria@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GLORIA%20MARCELA%20CORREA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 305.3,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 265.3,
+    "2021": 275.3,
+    "2022": 285.3,
+    "2023": 295.3,
+    "2024": 305.3
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

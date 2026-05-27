@@ -1,0 +1,78 @@
+{
+  "cedula": "41916725",
+  "tipoDoc": "CC",
+  "nombre": "ROMAN VALENCIA BERLY",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION FINANCIERA (CICLO PROFESIONAL)",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "roman@uniquindio.edu.co",
+  "puntosAsignados": 332.3,
+  "ptosProductividad": 225,
+  "topeMaximo": 52,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 292.3,
+    "2021": 302.3,
+    "2022": 312.3,
+    "2023": 322.3,
+    "2024": 332.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>29-10-2004",
+      "fecha": "",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR FINANCIERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-11-2004",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION ECONOMICA Y FINANCIERA",
+      "tituloSnies": "Maestria",
+      "fecha": "41611.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "DESIGN OF A STRATEGIC MODEL FOR MITIGATION OF ADMINISTRATIVE AND FINANCIAL RISKS IN HEALTH SMES FOR COLOMBIA",
+        "issn": "1841-2394",
+        "revista": "LINGUISTIC AND PHILOSOPHICAL INVESTIGATIONS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1110"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Aplicaciones financieras y estructura del sistema financiero colombiano. Observaciones para Colombia",
+        "puntos": 11.7,
+        "resolucion": "143"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Excel financiero. Aplicaciones prᣴicas desde lo bᳩco y para la toma de decisiones",
+        "puntos": 9.3,
+        "resolucion": "1110"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

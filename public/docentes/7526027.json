@@ -1,0 +1,59 @@
+{
+  "cedula": "7526027",
+  "tipoDoc": "CC",
+  "nombre": "LONDOÑ OROZCO JAIRO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "CIENCIAS DE LA INFORMACION Y LA DOCUMENTACION BIBLIOTECOLOGIA Y ARCHIVISTICA",
+  "email": "londoñ@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2006-07-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LONDO%C3%91%20OROZCO%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 0,
+  "topeMaximo": 96,
+  "puntosDisponibles": 96,
+  "historial": {
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE TECNOLOGIA EDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "30835.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ CONVENIO UNIQUINDIO",
+      "tituloSnies": "Especializaci󮼯td>07-06-1991",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN COMPUTACION PARA LA DOCENCIA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACIӎ EDUCATIVA",
+      "tituloSnies": "Maestria",
+      "fecha": "26-04-1999",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

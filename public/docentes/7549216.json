@@ -1,0 +1,66 @@
+{
+  "cedula": "7549216",
+  "tipoDoc": "CC",
+  "nombre": "OCAMPO SEPULVEDA GABRIEL",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "ocampo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=OCAMPO%20SEPULVEDA%20GABRIEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 438.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 398.2,
+    "2021": 408.2,
+    "2022": 418.2,
+    "2023": 428.2,
+    "2024": 438.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-1995",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "24-06-2005",
+      "puntos": 40,
+      "resolucion": "42801.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-1995",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

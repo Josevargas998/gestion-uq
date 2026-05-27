@@ -1,0 +1,118 @@
+{
+  "cedula": "24580571",
+  "tipoDoc": "CC",
+  "nombre": "SUAREZ ALBA LEONILDE",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "39084.999814814815",
+  "estado": "ACTIVO",
+  "email": "suarez@uniquindio.edu.co",
+  "puntosAsignados": 476.4,
+  "ptosProductividad": 419,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 436.4,
+    "2021": 446.4,
+    "2022": 456.4,
+    "2023": 466.4,
+    "2024": 476.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DESARROLLO SOSTENIBLE Y MEDIO AMBIENTE",
+      "tituloSnies": "Maestria",
+      "fecha": "29-02-2008",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización12-12-1996",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "DOCTOR EN EDUCACION AMBIENTAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "41700.999814814815",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "LICENCIADO EN PROMOCION DE LA COMUNIDAD",
+      "tituloSnies": "Universitaria",
+      "fecha": "34310.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "CONCEPCIONES DE LOS PROFESORES SOBRE LA ENSEсNZA DEL USO SOSTENIBLE DEL AGUA EN EDUCACIӎ MEDIA. EL PAUJIL CAQUETl AMAZOŃ COLOMBIANA",
+        "issn": "2665-5837",
+        "revista": "CONOCIMIENTO GLOBAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9844"
+      },
+      {
+        "año": "2023",
+        "titulo": "PROPUESTA CURRICULAR SISTɍICA PARA PROMOVER LA GESTIӎ ESCOLAR DEL USO ADECUADO DEL AGUA EN LA AMAZONIA COLOMBIANA",
+        "issn": "2215-7360",
+        "revista": "AGLALA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "11979"
+      },
+      {
+        "año": "2024",
+        "titulo": "SCHOOL MANAGEMENT IN PROMOTING SECONDARY STUDENTS' ATTITUDES ON WATER SUSTAINABILITY. EL PAUJIL CAQUETl COLOMBIAN AMAZON",
+        "issn": "2500-9338",
+        "revista": "FACE REVISTA DE LA FACULTAD DE CIENCIAS ECONӍICAS Y EMPRESARIALES DE LA UNIVERSIDAD DE PAMPLONA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13479"
+      },
+      {
+        "año": "2024",
+        "titulo": "CURR̓ULO SISTɍICO PARA LA ENSEсNZA DE LA SOSTENIBILIDAD DEL AGUA DE LA AMAZONIA COLOMBIANA",
+        "issn": "2346-0806",
+        "revista": "SOPHIA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "13479"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroInvestigacion",
+        "titulo": "EL DIBUJO EN LA PERCEPCIӎ AMBIENTAL DE LOS NINS: UNA EXPERIENCIA EN CALARCl QUIND͏, COLOMBIA",
+        "puntos": 17.5,
+        "resolucion": "7414"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroTexto",
+        "titulo": "La dimensi󮠡mbiental en la ense񡮺a universitaria. De la teor\ud860a la prᣴica",
+        "puntos": 13.2,
+        "resolucion": "13479"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Disonancias del paisaje: anᬩsis socioecosist魩co del paisaje cultural cafetero",
+        "puntos": 9.4,
+        "resolucion": "928"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cedula": "24949442",
+  "tipoDoc": "CC",
+  "nombre": "MEJIA LOPEZ SHIRLEY",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "mejia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1986-01-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MEJIA%20LOPEZ%20SHIRLEY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 283.8,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 243.8,
+    "2021": 253.8,
+    "2022": 263.8,
+    "2023": 273.8,
+    "2024": 283.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN NUTRICION Y DIETETICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-02-1979",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

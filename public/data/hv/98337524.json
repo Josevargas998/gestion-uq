@@ -1,0 +1,81 @@
+{
+  "cedula": "98337524",
+  "tipoDoc": "CC",
+  "nombre": "CASTILLO CHAMORRO JOSE",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "36893.999814814815",
+  "estado": "ACTIVO",
+  "email": "castillo@uniquindio.edu.co",
+  "puntosAsignados": 523.7,
+  "ptosProductividad": 57,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 483.70000000000005,
+    "2021": 493.70000000000005,
+    "2022": 503.70000000000005,
+    "2023": 513.7,
+    "2024": 523.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS FISICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "39579.999814814815",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "LICENCIADO EN FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-01-1995",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "36495.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "PROPIEDADES DIELɃTRICAS DE ASFALTOS: REVISIӎ",
+        "issn": "0124-8170",
+        "revista": "CIENCIA E INGENIEŔ NEOGRANADINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9837"
+      },
+      {
+        "año": "2022",
+        "titulo": "THE CRYSTALLIZATION PHENOMENON ON A MODIFIED PHOSPHATE GLASS INTERPRETED THROUGH THE CORRELATION BETWEEN THE A.C. ELECTRICAL BEHAVIOUR AND THE NON ISOTHERMAL NUCLEATION",
+        "issn": "0921-5107",
+        "revista": "MATERIALS SCIENCE AND ENGINEERING B",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "9837"
+      },
+      {
+        "año": "2023",
+        "titulo": "THERMAL BEHAVIOR OF PORCINE BIOGENIC HYDROXYAPATITE: AN IN-SITU IMPEDANCE SPECTROSCOPY STUDY",
+        "issn": "2352-4928",
+        "revista": "MATERIALS TODAY COMMUNICATIONS",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "12025"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

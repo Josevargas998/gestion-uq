@@ -1,0 +1,59 @@
+{
+  "cedula": "9727322",
+  "tipoDoc": "CC",
+  "nombre": "MARTINEZ PLAZAS MARIO ANDRES",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "ARTES VISUALES",
+  "email": "martinez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MARTINEZ%20PLAZAS%20MARIO%20ANDRES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 281,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 241,
+    "2021": 251,
+    "2022": 261,
+    "2023": 271,
+    "2024": 281
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-02-2009",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "29-12-2020",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-02-2009",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

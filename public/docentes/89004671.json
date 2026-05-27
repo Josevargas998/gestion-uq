@@ -1,0 +1,59 @@
+{
+  "cedula": "89004671",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA TORRES SERGIO AUGUSTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "cardona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-09-2006",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARDONA%20TORRES%20SERGIO%20AUGUSTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 924.8,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 884.8,
+    "2021": 894.8,
+    "2022": 904.8,
+    "2023": 914.8,
+    "2024": 924.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-08-2001",
+      "puntos": 178,
+      "resolucion": "19-09-2006"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2012",
+      "puntos": 40,
+      "resolucion": "15-04-2013"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE SAN BUENAVENTURA",
+      "tituloSnies": "Especializaci󮼯td>15-04-2005",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PROCESOS PARA EL DESARROLLO DE SOFTWARE"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

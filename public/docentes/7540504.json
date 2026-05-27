@@ -1,0 +1,59 @@
+{
+  "cedula": "7540504",
+  "tipoDoc": "CC",
+  "nombre": "JIMENEZ CLEVES GONZALO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "jimenez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-07-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=JIMENEZ%20CLEVES%20GONZALO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 633.5,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 593.5,
+    "2021": 603.5,
+    "2022": 613.5,
+    "2023": 623.5,
+    "2024": 633.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "TOPOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1985",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>02-11-1989",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN COMPUTACIӎ PARA LA DOCENCIA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA DE SISTEMAS",
+      "tituloSnies": "Maestria",
+      "fecha": "28-05-2004",
+      "puntos": 40,
+      "resolucion": "20-10-2004"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

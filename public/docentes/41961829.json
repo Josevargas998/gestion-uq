@@ -1,0 +1,52 @@
+{
+  "cedula": "41961829",
+  "tipoDoc": "CC",
+  "nombre": "BLACH VARGAS DIANA",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "blach@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BLACH%20VARGAS%20DIANA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 477.96,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 437.96,
+    "2021": 447.96,
+    "2022": 457.96,
+    "2023": 467.96,
+    "2024": 477.96
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-09-2007",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-09-2007",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

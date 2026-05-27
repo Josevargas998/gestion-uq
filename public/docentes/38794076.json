@@ -1,0 +1,52 @@
+{
+  "cedula": "38794076",
+  "tipoDoc": "CC",
+  "nombre": "CORTES GALLEGO MӎICA MAŔ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "cortes@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-09-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CORTES%20GALLEGO%20M%D3%8EICA%20MAR%CD%81&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 366.2,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 326.2,
+    "2021": 336.2,
+    "2022": 346.2,
+    "2023": 356.2,
+    "2024": 366.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-02-2006",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ASISTENCIA E INVESTIGACION SANITARIA",
+      "tituloSnies": "Maestria",
+      "fecha": "40550.999814814815",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

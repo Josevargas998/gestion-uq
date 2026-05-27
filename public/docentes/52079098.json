@@ -1,0 +1,52 @@
+{
+  "cedula": "52079098",
+  "tipoDoc": "CC",
+  "nombre": "MOLINA RICO LIGIA JANETH",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "email": "molina@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "31-07-2008",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MOLINA%20RICO%20LIGIA%20JANETH&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 464.3,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 424.3,
+    "2021": 434.3,
+    "2022": 444.3,
+    "2023": 454.3,
+    "2024": 464.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOǴ",
+      "tituloSnies": "Universitaria",
+      "fecha": "35102.999814814815",
+      "puntos": 178,
+      "resolucion": "39579.999814814815"
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS BIOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "15-09-2005",
+      "puntos": 40,
+      "resolucion": "39579.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

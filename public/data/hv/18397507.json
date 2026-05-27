@@ -1,0 +1,90 @@
+{
+  "cedula": "18397507",
+  "tipoDoc": "CC",
+  "nombre": "SEPULVEDA RODRIGUEZ LUIS EDUARDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "sepulveda@uniquindio.edu.co",
+  "puntosAsignados": 602.9,
+  "ptosProductividad": 82,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 562.9,
+    "2021": 572.9,
+    "2022": 582.9,
+    "2023": 592.9,
+    "2024": 602.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-04-2004",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN SOFTWARE LIBRE",
+      "tituloSnies": "Maestria",
+      "fecha": "17-12-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-04-2004",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "STUDY-BASED SYSTEMATIC MAPPING ANALYSIS OF CLOUD TECHNOLOGIES FOR LEVERAGING IT RESOURCE AND SERVICE MANAGEMENT: THE CASE STUDY OF THE SCIENCE GATEWAY APPROACH",
+        "issn": "1570-7873",
+        "revista": "JOURNAL OF GRID COMPUTING",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "9823"
+      },
+      {
+        "año": "2023",
+        "titulo": "A SURVEY OF VIRTUALIZATION TECHNOLOGIES: TOWARDS A NEW TAXONOMIC PROPOSAL",
+        "issn": "2248-8723",
+        "revista": "INGENIEŔ E INVESTIGACIӎ",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "11983"
+      },
+      {
+        "año": "2023",
+        "titulo": "SMS-BUILDER: AN ADAPTIVE SOFTWARE TOOL FOR BUILDING SYSTEMATIC MAPPING STUDIES",
+        "issn": "2352-7110",
+        "revista": "SOFTWAREX",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "11983"
+      },
+      {
+        "año": "2023",
+        "titulo": "IMPLEMENTACIӎ DE ALGORITMOS PARA CALCULAR EL CONVEX HULL",
+        "issn": "1909-8367",
+        "revista": "ENTRE CIENCIA E INGENIEŔ",
+        "categoria": "C",
+        "puntos": 1,
+        "resolucion": "11983"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

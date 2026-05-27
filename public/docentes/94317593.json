@@ -1,0 +1,59 @@
+{
+  "cedula": "94317593",
+  "tipoDoc": "CC",
+  "nombre": "JIMENEZ TRUJILLO WILMER DIEGO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "jimenez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2005-10-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=JIMENEZ%20TRUJILLO%20WILMER%20DIEGO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 400.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 360.2,
+    "2021": 370.2,
+    "2022": 380.2,
+    "2023": 390.2,
+    "2024": 400.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO EN ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-02-2001",
+      "puntos": 178,
+      "resolucion": "38565.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "44205.999814814815",
+      "puntos": 40,
+      "resolucion": "44266.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>29-02-2008",
+      "fecha": "20",
+      "puntos": 39635.999814814815,
+      "resolucion": "ESPECIALISTA EN RADIOCOMUNICACIONES"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

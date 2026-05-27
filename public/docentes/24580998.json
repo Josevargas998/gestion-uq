@@ -1,0 +1,52 @@
+{
+  "cedula": "24580998",
+  "tipoDoc": "CC",
+  "nombre": "DIAZ CRUZ MARIA CONSTANZA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "diaz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "31-07-2008",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DIAZ%20CRUZ%20MARIA%20CONSTANZA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 511.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 471.8,
+    "2021": 481.8,
+    "2022": 491.8,
+    "2023": 501.8,
+    "2024": 511.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1993",
+      "puntos": 178,
+      "resolucion": "31-07-2008"
+    },
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-03-2007",
+      "puntos": 40,
+      "resolucion": "31-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

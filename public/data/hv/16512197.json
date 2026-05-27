@@ -1,0 +1,101 @@
+{
+  "cedula": "16512197",
+  "tipoDoc": "CC",
+  "nombre": "ROMERO CUERO EDWIN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "romero@uniquindio.edu.co",
+  "puntosAsignados": 388.5,
+  "ptosProductividad": 472,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 348.5,
+    "2021": 358.5,
+    "2022": 368.5,
+    "2023": 378.5,
+    "2024": 388.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-09-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-09-2002",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-09-2002",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "DESARROLLO DE UN CONJUNTO DE MӄILOS DIDCTICOS DE ELECTRӎICA BSICA BAJO ESTNDARES 5 Y 6 DEL CDIO",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10661"
+      },
+      {
+        "año": "2024",
+        "titulo": "ANLISIS DE CARACTER͓TICAS QUE INFLUYEN EN LA DESERCIӎ ESTUDIANTIL EN EL CONTEXTO DE UNA UNIVERSIDAD LATINOAMERICANA",
+        "issn": "1794-1237",
+        "revista": "REVISTA EIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13410"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos y enfoque prᣴico del modelado de procesos de negocio como apoyo a la gesti󮠯rganizac",
+        "puntos": 12.2,
+        "resolucion": "10661"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "M鴯dos num鲩cos con MatLab para ingenieros",
+        "puntos": 12.1,
+        "resolucion": "12297"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Complejidad computacional y algoritmia",
+        "puntos": 7.4,
+        "resolucion": "10661"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Gesti󮠤e informaci󮠹 anᬩsis de datos aplicando metodolog\ud873, t飮icas y herramientas",
+        "puntos": 14.3,
+        "resolucion": "72"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

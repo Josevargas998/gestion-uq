@@ -1,0 +1,52 @@
+{
+  "cedula": "4377450",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA RIOS ALEJANDRO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20RIOS%20ALEJANDRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 383.3,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 343.3,
+    "2021": 353.3,
+    "2022": 363.3,
+    "2023": 373.3,
+    "2024": 383.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37936.999814814815",
+      "puntos": 178,
+      "resolucion": "22-01-2010"
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "39486.999814814815",
+      "puntos": 40,
+      "resolucion": "22-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "19278126",
+  "tipoDoc": "CC",
+  "nombre": "RODRIGUEZ RODRIGUEZ GUILLERMO ALFONSO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "rodriguez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RODRIGUEZ%20RODRIGUEZ%20GUILLERMO%20ALFONSO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 333.1,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 293.1,
+    "2021": 303.1,
+    "2022": 313.1,
+    "2023": 323.1,
+    "2024": 333.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especializaci󮼯td>14-03-1991",
+      "fecha": "60",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN CIRUGIA GENERAL"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-01-1983",
+      "puntos": 183,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "cedula": "76316780",
+  "tipoDoc": "CC",
+  "nombre": "BERMUDEZ OROZCO HECTOR FABIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "24-01-2005",
+  "estado": "ACTIVO",
+  "email": "bermudez@uniquindio.edu.co",
+  "puntosAsignados": 785.4,
+  "ptosProductividad": 297,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 745.4,
+    "2021": 755.4,
+    "2022": 765.4,
+    "2023": 775.4,
+    "2024": 785.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Maestria",
+      "fecha": "21-07-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO EN ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-02-2000",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "LIVE VIDEO-STREAMING EVALUATION USING THE ITU-T P.1203 QOE MODEL IN LTE NETWORKS",
+        "issn": "1389-1286",
+        "revista": "REVISTA COMPUTER NETWOKS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7649"
+      },
+      {
+        "año": "2020",
+        "titulo": "STATISTICAL VALIDATION OF AN LTE EMULATION TOOL USING LIVE VIDEO STREAMING OVER RELIABLE TRANSPORT PROTOCOLS",
+        "issn": "1018-4864",
+        "revista": "REVISTA TELECOMMUNICATIONS SYSTEM",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7649"
+      },
+      {
+        "año": "2021",
+        "titulo": "INDOOR PROPAGATION MODELS FOR EMULATED LTE NETWORKS",
+        "issn": "1751-8628",
+        "revista": "IET COMMUNICATIONS",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2022",
+        "titulo": "QOE ESTIMATION FOR DIFFERENT ADAPTIVE STREAMING TECHNIQUES IN MOBILE NETWORKS",
+        "issn": "0122-1701",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9833"
+      },
+      {
+        "año": "2022",
+        "titulo": "CHARACTERIZATION OF TRAFFIC FOR LIVE VIDEO STREAMING SERVICES ON DASH IN 4G NETWORKS BASED ON SYNTACTIC ANALYZERS",
+        "issn": "0121-750X",
+        "revista": "INGENIEŔ",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9833"
+      },
+      {
+        "año": "2025",
+        "titulo": "AUTOMATIC DETECTION OF STALLING EVENTS USING MACHINE LEARNING ALGORITHMS",
+        "issn": "1841-9844",
+        "revista": "INTERNATIONAL JOURNAL OF COMPUTERS COMMUNICATIONS & CONTROL",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "1435"
+      },
+      {
+        "año": "2025",
+        "titulo": "DIMENSIONAL ASSESSMENT OF BIOLOGICAL RISK IN NURSING STAFF IN A HOSPITAL IN ARMENIA ? COLOMBIA",
+        "issn": "0121-7577",
+        "revista": "HACIA LA PROMOCIӎ DE LA SALUD",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1105"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Modelado de trᦩco: Un enfoque desde la calidad de la Experiencia",
+        "puntos": 18.2,
+        "resolucion": "67"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cedula": "1094897168",
+  "tipoDoc": "CC",
+  "nombre": "MONDRAGON SANCHEZ EDNA JOHANA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "mondragon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MONDRAGON%20SANCHEZ%20EDNA%20JOHANA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 424.7,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 384.7,
+    "2021": 394.7,
+    "2022": 404.7,
+    "2023": 414.7,
+    "2024": 424.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ENFERMERA",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-07-2012",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

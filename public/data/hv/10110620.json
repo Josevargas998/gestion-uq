@@ -1,0 +1,78 @@
+{
+  "cedula": "10110620",
+  "tipoDoc": "CC",
+  "nombre": "MOSQUERA MOSQUERA JULIO CESAR",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "39545.999814814815",
+  "estado": "ACTIVO",
+  "email": "mosquera@uniquindio.edu.co",
+  "puntosAsignados": 664,
+  "ptosProductividad": 68,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 624,
+    "2021": 634,
+    "2022": 644,
+    "2023": 654,
+    "2024": 664
+  },
+  "titulos": [
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-01-1991",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE NARIN",
+      "tituloSnies": "Especialización30-12-2001",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS FISICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "39755.999814814815",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "MAGISTER EN FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "31-12-2001",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "DEVELOPMENT OF AN ACOUSTO-OPTIC SYSTEM FOR HYPERSPECTRAL IMAGE SEGMENTATION",
+        "issn": "0860-8229",
+        "revista": "METROLOGY AND MEASUREMENT SYSTEMS",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "7397"
+      },
+      {
+        "año": "2021",
+        "titulo": "NON-INVASIVE METHODOLOGY FOR THE STUDY OF WOUND HEALING PROCESS USING SPECTRAL IMAGES",
+        "issn": "1548-0992",
+        "revista": "IEEE LATIN AMERICA TRANSACTIONS",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "8673"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

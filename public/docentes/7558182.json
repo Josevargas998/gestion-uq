@@ -1,0 +1,52 @@
+{
+  "cedula": "7558182",
+  "tipoDoc": "CC",
+  "nombre": "JARAMILLO LOTERO RAFAEL ALEXANDER",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS DISTANCIA",
+  "email": "jaramillo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=JARAMILLO%20LOTERO%20RAFAEL%20ALEXANDER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 322.4,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 282.4,
+    "2021": 292.4,
+    "2022": 302.4,
+    "2023": 312.4,
+    "2024": 322.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-09-2000",
+      "puntos": 178,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "43080.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "cedula": "75064983",
+  "tipoDoc": "CC",
+  "nombre": "DIAZ ARENAS PEDRO FELIPE",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "26-07-2010",
+  "estado": "ACTIVO",
+  "email": "diaz@uniquindio.edu.co",
+  "puntosAsignados": 578,
+  "ptosProductividad": 184,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 538,
+    "2021": 548,
+    "2022": 558,
+    "2023": 568,
+    "2024": 578
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACIӎ EDUCATIVA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2007",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN COMUNICACIӎ EN RADIO Y TELEVISIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-2003",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "PERCEPCIӎ LABORAL DE LOS PROFESIONALES EN COMUNICACIӎ Y SU PERSPECTIVA DE INSERCIӎ: CASO EJE CAFETERO",
+        "issn": "2216-135X",
+        "revista": "REVISTA ENCUENTROS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8138"
+      },
+      {
+        "año": "2022",
+        "titulo": "IMGENES DEL NARCOTRFICO. 20 ADAPTACIONES AUDIOVISUALES DE LA FIGURA DE PABLO ESCOBAR EN EL SIGLO XXI. USOS DE MATERIAL DE ARCHIVO EN PRODUCCIONES DE NARCO-FICCIӎ Y DOCUMENTAL",
+        "issn": "2227-1465",
+        "revista": "REVISTA DE COMUNICACIӎ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "9841"
+      },
+      {
+        "año": "2023",
+        "titulo": "IMAGINARIOS URBANOS DEL POSCONFLICTO: ANLISIS PERIOD͓TICO DE LA REVISTA SEMANA DURANTE EL POSACUERDO EN MUNICIPIOS CORDILLERANOS DEL DEPARTAMENTO DEL QUIND͏ - COLOMBIA",
+        "issn": "2248-4086",
+        "revista": "ANAGRAMAS RUMBOS Y SENTIDOS DE LA COMUNICACIӎ",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "12026"
+      },
+      {
+        "año": "2025",
+        "titulo": "ANALYSIS OF THE MEDIA DISCOURSE DURING THE COVERAGE OF THE MANDATORY CONFINEMENT PRODUCED BY THE COVID-19 HEALTH EMERGENCY IN COLOMBIA IN 2020",
+        "issn": "2471-0849",
+        "revista": "ANALYSIS AND METAPHYSICS",
+        "categoria": "A1",
+        "puntos": 9,
+        "resolucion": "1375"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Aproximaci󮠡 la teor\ud860de los imaginarios en Armando Silva",
+        "puntos": 12.8,
+        "resolucion": "1375"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Comunicaci󮬠resiliencia y remediaci󮺠Nuevos retos, nuevas rutas",
+        "puntos": 2.1,
+        "resolucion": "1375"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

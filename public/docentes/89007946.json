@@ -1,0 +1,59 @@
+{
+  "cedula": "89007946",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ GIRALDO CARLOS ANDRɓ",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS PRESENCIAL",
+  "email": "garć@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARC%CD%81%20GIRALDO%20CARLOS%20ANDR%C9%93&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 355.7,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 315.7,
+    "2021": 325.7,
+    "2022": 335.7,
+    "2023": 345.7,
+    "2024": 355.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "16-09-2019",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-12-2002",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "16-09-2019",
+      "puntos": 40,
+      "resolucion": "44958.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

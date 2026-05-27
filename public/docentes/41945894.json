@@ -1,0 +1,66 @@
+{
+  "cedula": "41945894",
+  "tipoDoc": "CC",
+  "nombre": "JARAMILLO VALBUENA SONIA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "jaramillo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2005-10-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=JARAMILLO%20VALBUENA%20SONIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 951,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 911,
+    "2021": 921,
+    "2022": 931,
+    "2023": 941,
+    "2024": 951
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-04-2002",
+      "puntos": 178,
+      "resolucion": "38565.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN SOFTWARE LIBRE",
+      "tituloSnies": "Maestria",
+      "fecha": "27-03-2009",
+      "puntos": 40,
+      "resolucion": "40062.999814814815"
+    },
+    {
+      "tituloNacional": "OTRA UNIVERSIDAD",
+      "tituloSnies": "Especializaci󮼯td>02-11-2007",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIOA INFORMATICA"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-04-2002",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cedula": "18495531",
+  "tipoDoc": "CC",
+  "nombre": "GUTIERREZ ROBLEDO RAMON",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "ZOOTECNIA",
+  "email": "gutierrez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GUTIERREZ%20ROBLEDO%20RAMON&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 287.6,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 247.60000000000002,
+    "2021": 257.6,
+    "2022": 267.6,
+    "2023": 277.6,
+    "2024": 287.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO AGRONOMO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-12-1996",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

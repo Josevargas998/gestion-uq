@@ -1,0 +1,186 @@
+{
+  "cedula": "94287028",
+  "tipoDoc": "CC",
+  "nombre": "AGUILLON OSMA JOHANNY",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45170.999814814815",
+  "estado": "ACTIVO",
+  "email": "aguillon@uniquindio.edu.co",
+  "puntosAsignados": 482.5,
+  "ptosProductividad": 273,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 442.5,
+    "2021": 452.5,
+    "2022": 462.5,
+    "2023": 472.5,
+    "2024": 482.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "20-09-2011",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-05-2005",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-05-2005",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "CHEMICAL COMPOSITION OF MANGO (MANGIFERA INDICA L.) FRUIT: NUTRITIONAL AND PHYTOCHEMICAL COMPOUNDS",
+        "issn": "1664-462X",
+        "revista": "REVISTA FRONTIERS IN PLANT SCIENCE",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "NIVELES DE ESTRADIOL EN NINS Y JӖENES Y SU RELACIӎ CON GɎERO, EDAD, PRESIӎ ARTERIAL, L͐IDOS PLASMTICOS Y POLIMORFISMO XBAI DEL RECEPTOR DE ESTRӇENOS",
+        "issn": "1657-9550",
+        "revista": "BIOSALUD",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "CYTOTOXIC AND APOPTOTIC ACTIVITIES OF THE AQUEOUS FRUIT EXTRACT OF PASSIFLORA EDULIS SIMS VAR FLAVICARPA IN AN IN VITRO MODEL OF HUMAN COLON CANCER",
+        "issn": "0975-7384",
+        "revista": "JOURNAL OF CHEMICAL AND PHARMACEUTICAL RESEARCH",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "MODELOS CELULARES HEPTICOS PARA EL ESTUDIO DEL METABOLISMO DE LOS L͐IDOS. REVISIӎ DE LITERATURA",
+        "issn": "0120-0011",
+        "revista": "REVISTA DE LA FACULTAD DE MEDICINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "INHIBITION OF CELL PROLIFERATION AND INDUCTION OF CELL CYCLE ARREST IN COLON CANCER CELLS BY LYOPHILIZED MANGO ( MANGIFERA INDICA L.) PULP EXTRACT",
+        "issn": "2287-8602",
+        "revista": "PREVENTIVE NUTRITION AND FOOD SCIENCE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2023",
+        "titulo": "EVALUATION OF ANTIBACTERIAL ACTIVITY OF EXTRACT AND ESSENTIAL OIL OF TAGETES PATULA L. IN VITRO AGAINST RALSTONIA SOLANACEARUM BIOVAR 2",
+        "issn": "0323-5408",
+        "revista": "ARCHIVES OF PHYTOPATHOLOGY AND PLANT PROTECTION",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "POLIMORFISMO M235T DEL ANGIOTENSINӇENO, POLIMORFISMO I/D DEL GEN DE LA ECA Y LA ACTIVIDAD DE LA ENZIMA EN MUJERES GESTANTES",
+        "issn": "0120-4173",
+        "revista": "REVISTA DE LA ASOCIACIӎ COLOMBIANA DE CIENCIAS BIOLӇICAS - A.C.C.B.",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "BIOLOGICAL ACTIVITY OF PASSIFLORA EDULIS F. FLAVICARPA ETHANOLIC LEAVES EXTRACT ON HUMAN COLONIC ADENOCARCINOMA CELLS",
+        "issn": "2231-3354",
+        "revista": "REVISTA JOURNAL OF APPLIED PHARMACEUTICAL SCIENCE",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "IMPACT OF IN VITRO GASTROINTESTINAL DIGESTION ON THE BIOACCESSIBILITY AND ANTIOXIDANT CAPACITY OF BIOACTIVE COMPOUNDS FROM PASSION FRUIT (PASSIFLORA EDULIS) LEAVES AND JUICE EXTRACTS",
+        "issn": "1745-4514",
+        "revista": "REVISTA JOURNAL OF FOOD BIOCHEMESTRY",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "ACTIVIDAD ANTIOXIDANTE Y ANTIPROLIFERATIVA DE EXTRACTOS ETANOLICO Y ACUOSO DE LAS HOJAS Y EL JUGO DEL FRUTO DE PASSIFLORA EDULIS",
+        "issn": "0124-4108",
+        "revista": "PERSPECTIVAS EN NUTRICION HUMANA",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "EFFECT OF THE ETHANOLIC EXTRACT OF PASSIFLORA EDULIS F. FLAVICARPA LEAVES ON VIABILITY, CYTOTOXICITY AND APOPTOSIS OF COLON CANCER CELL LINES",
+        "issn": "0975-7384",
+        "revista": "JOURNAL OF CHEMICAL AND PHARMACEUTICAL RESEARCH",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2023",
+        "titulo": "SERUM CONCENTRATION AND POLYMORPHISMS OF APOLIPOPROTEINS A-I AND B, AND RISK OF CORONARY ARTERY DISEASE",
+        "issn": "2410-2822",
+        "revista": "COSMOS SCHOLARS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10687"
+      },
+      {
+        "año": "2024",
+        "titulo": "IDENTIFICATION OF POTENTIAL BIOACTIVE COMPOUNDS OF PASSIFLORA EDULIS LEAF EXTRACT AGAINST COLO ADENOCARCINOMA CELLS",
+        "issn": "2405-5808",
+        "revista": "BIOCHEMISTRY AND BIOPHYSICS REPORTS",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "13404"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Descripci󮬠caracter\udcf4icas y beneficios de Passiflora edulis: parchita, fruto de la pasi󮬠maracu",
+        "puntos": 5.5,
+        "resolucion": "12039"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2025",
+        "titulo": "PREMIO NACIONAL MEJOR TRABAJO EN EL REA DE CIENCIAS BIOMɄICAS \"DOCTOR CARLOS CORREDOR PEREIRA\"",
+        "puntos": 10,
+        "resolucion": "1101"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "cedula": "4376943",
+  "tipoDoc": "CC",
+  "nombre": "ACOSTA MINOLI CESAR AUGUSTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "acosta@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2004-10-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ACOSTA%20MINOLI%20CESAR%20AUGUSTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 918.3,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 878.3,
+    "2021": 888.3,
+    "2022": 898.3,
+    "2023": 908.3,
+    "2024": 918.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-1999",
+      "puntos": 178,
+      "resolucion": "38139.999814814815"
+    },
+    {
+      "tituloNacional": "MAG͓TER EN ENSEсNZA DE LA MATEMTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-06-2003",
+      "puntos": 40,
+      "resolucion": "38139.999814814815"
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "31-08-2009",
+      "puntos": 20,
+      "resolucion": "40521.999814814815"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-04-2011",
+      "puntos": 80,
+      "resolucion": "13-09-2011"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-07-1999",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

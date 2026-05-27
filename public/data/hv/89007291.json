@@ -1,0 +1,82 @@
+{
+  "cedula": "89007291",
+  "tipoDoc": "CC",
+  "nombre": "MUNZ GUTIERREZ PABLO ANDRES",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "39084.999814814815",
+  "estado": "ACTIVO",
+  "email": "munz@uniquindio.edu.co",
+  "puntosAsignados": 529.8,
+  "ptosProductividad": 152,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 489.79999999999995,
+    "2021": 499.79999999999995,
+    "2022": 509.79999999999995,
+    "2023": 519.8,
+    "2024": 529.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA ELECTRICA",
+      "tituloSnies": "Maestria",
+      "fecha": "20-02-2006",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-07-2000",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "ELECTROENCEPHALOGRAPHIC SOURCE LOCALIZATION BASED ON ENHANCED EMPIRICAL MODE DECOMPOSITION",
+        "issn": "1819-656X",
+        "revista": "IAENG- INTERNATIONAL JOURNAL OF COMPUTER SCIENCE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7413"
+      },
+      {
+        "año": "2021",
+        "titulo": "LOW-DENSITY EEG FOR NEURAL ACTIVITY RECONSTRUCTION USING MULTIVARIATE EMPIRICAL MODE DECOMPOSITION",
+        "issn": "1662-453X",
+        "revista": "FRONTIERS IN NEUROSCIENCE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8116"
+      },
+      {
+        "año": "2024",
+        "titulo": "A SYSTEMATIC LITERATURE REVIEW ON RAPID CONTROL PROTOTYPING APPLICATIONS",
+        "issn": "1932-8540",
+        "revista": "REVISTA IBEROAMERICANA DE TECNOLOǴS DEL APRENDIZAJE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13478"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2023",
+        "titulo": "LABWEBUQ",
+        "puntos": 6.5,
+        "resolucion": "10946"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

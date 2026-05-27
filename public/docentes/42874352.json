@@ -1,0 +1,52 @@
+{
+  "cedula": "42874352",
+  "tipoDoc": "CC",
+  "nombre": "DUARTE GANDICA IRENE",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "duarte@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1993-02-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DUARTE%20GANDICA%20IRENE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 504.1,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 464.1,
+    "2021": 474.1,
+    "2022": 484.1,
+    "2023": 494.1,
+    "2024": 504.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MATEMTICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "31384.999814814815",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "29-07-1991",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

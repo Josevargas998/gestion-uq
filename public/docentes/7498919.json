@@ -1,0 +1,59 @@
+{
+  "cedula": "7498919",
+  "tipoDoc": "CC",
+  "nombre": "ECHEVERRI LEMUS GILBERTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "echeverri@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1973-12-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ECHEVERRI%20LEMUS%20GILBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 557.8,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 517.8,
+    "2021": 527.8,
+    "2022": 537.8,
+    "2023": 547.8,
+    "2024": 557.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>09-12-1994",
+      "fecha": "20",
+      "puntos": 35377.999814814815,
+      "resolucion": "ESPECIALISTA EN COMPUTACIӎ PARA LA DOCENCIA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "26-08-2005",
+      "puntos": 40,
+      "resolucion": "23-09-2005"
+    },
+    {
+      "tituloNacional": "INGENIERO MECNICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26306.999814814815",
+      "puntos": 178,
+      "resolucion": "35377.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

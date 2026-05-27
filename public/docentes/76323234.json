@@ -1,0 +1,59 @@
+{
+  "cedula": "76323234",
+  "tipoDoc": "CC",
+  "nombre": "CAMPO MUÑZ WILMAR YESID",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "campo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CAMPO%20MU%C3%91Z%20WILMAR%20YESID&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 951.4,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 911.4,
+    "2021": 921.4,
+    "2022": 931.4,
+    "2023": 941.4,
+    "2024": 951.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA AREA TELEMATICA",
+      "tituloSnies": "Maestria",
+      "fecha": "31-07-2009",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA TELEMATICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-05-2014",
+      "puntos": 80,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "INGENIERO EN ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-09-1998",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

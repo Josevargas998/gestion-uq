@@ -1,0 +1,45 @@
+{
+  "cedula": "30283722",
+  "tipoDoc": "CC",
+  "nombre": "LONDOÑ FRANCO ANGELA LILIANA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "londoñ@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1994-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LONDO%C3%91%20FRANCO%20ANGELA%20LILIANA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 585.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 545.4,
+    "2021": 555.4,
+    "2022": 565.4,
+    "2023": 575.4,
+    "2024": 585.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN MEDICINA PREVENTIVA Y SALUD PUBLICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "18-06-2003",
+      "puntos": 80,
+      "resolucion": "14-12-2006"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

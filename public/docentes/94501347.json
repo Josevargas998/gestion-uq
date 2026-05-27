@@ -1,0 +1,52 @@
+{
+  "cedula": "94501347",
+  "tipoDoc": "CC",
+  "nombre": "ACEVEDO CARVAJAL JUAN MANUEL",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "acevedo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ACEVEDO%20CARVAJAL%20JUAN%20MANUEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 494.2,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 454.2,
+    "2021": 464.2,
+    "2022": 474.2,
+    "2023": 484.2,
+    "2024": 494.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN FILOSOF́ Y LETRAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "37966.999814814815",
+      "puntos": 178,
+      "resolucion": "41699.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN LITERATURA",
+      "tituloSnies": "Maestria",
+      "fecha": "17-12-2008",
+      "puntos": 40,
+      "resolucion": "41699.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

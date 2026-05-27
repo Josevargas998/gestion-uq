@@ -1,0 +1,88 @@
+{
+  "cedula": "7554040",
+  "tipoDoc": "CC",
+  "nombre": "HOYOS WALTEROS HERNAN",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "TECNOLOGIA EN GESTION FINANCIERA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "39545.999814814815",
+  "estado": "ACTIVO",
+  "email": "hoyos@uniquindio.edu.co",
+  "puntosAsignados": 599.2,
+  "ptosProductividad": 423,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 559.2,
+    "2021": 569.2,
+    "2022": 579.2,
+    "2023": 589.2,
+    "2024": 599.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>10-12-2004",
+      "fecha": "",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR FINANCIERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-09-2006",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "THE INTEGRAL MANAGEMENT OF THE TERRITORY. NECESSARY CONDITION FOR SUSTAINABLE DEVELOPMENT",
+        "issn": "1464-2859",
+        "revista": "FUEL CELLS BULLETIN",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1110"
+      },
+      {
+        "año": "2025",
+        "titulo": "DESIGN OF A STRATEGIC MODEL FOR MITIGATION OF ADMINISTRATIVE AND FINANCIAL RISKS IN HEALTH SMES FOR COLOMBIA",
+        "issn": "1841-2394",
+        "revista": "LINGUISTIC AND PHILOSOPHICAL INVESTIGATIONS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1110"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Valoraci󮠹 cuantificaci󮠤el capital humano en las universidades, como una forma de gesti󮠤el c",
+        "puntos": 13.4,
+        "resolucion": "8143"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Metodolog\ud860de la Investigaci󮮠La Oportunidad de Investigar Cualitativamente: Una Gu\ud860para el Inv",
+        "puntos": 13.6,
+        "resolucion": "8143"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Contraposici󮠥ntre los intereses de las organizaciones, la sociedad y los prop󳩴os de la sustent",
+        "puntos": 12.3,
+        "resolucion": "143"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

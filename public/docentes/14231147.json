@@ -1,0 +1,59 @@
+{
+  "cedula": "14231147",
+  "tipoDoc": "CC",
+  "nombre": "CARMONA SUAREZ EDGAR JAVIER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "carmona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "26-07-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARMONA%20SUAREZ%20EDGAR%20JAVIER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 944.5,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 904.5,
+    "2021": 914.5,
+    "2022": 924.5,
+    "2023": 934.5,
+    "2024": 944.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-1993",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "DOCTOR EN TECNOLOGIAS DE LA INFORMACIӎ",
+      "tituloSnies": "Doctorado",
+      "fecha": "18-01-2008",
+      "puntos": 80,
+      "resolucion": "39579.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA COMPUTACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "30-08-1999",
+      "puntos": 40,
+      "resolucion": "16-02-2000"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "cedula": "7561086",
+  "tipoDoc": "CC",
+  "nombre": "CASTRO ROJAS LUIS FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "18-07-2005",
+  "estado": "ACTIVO",
+  "email": "castro@uniquindio.edu.co",
+  "puntosAsignados": 582.6,
+  "ptosProductividad": 573,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 542.6,
+    "2021": 552.6,
+    "2022": 562.6,
+    "2023": 572.6,
+    "2024": 582.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INSTRUMENTACION FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "29-05-2009",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especialización29-06-2001",
+      "fecha": "20",
+      "puntos": 38570.999814814815
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "23-11-2015",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-1996",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "ESTADO DE PROGRESO EN EL DESARROLLO DE PROYECTOS SOFTWARE APOYADO POR SEMAT Y QFD",
+        "issn": "0718-3291",
+        "revista": "INGENIARE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "11983"
+      },
+      {
+        "año": "2024",
+        "titulo": "ANLISIS DE CARACTER͓TICAS QUE INFLUYEN EN LA DESERCIӎ ESTUDIANTIL EN EL CONTEXTO DE UNA UNIVERSIDAD LATINOAMERICANA",
+        "issn": "1794-1237",
+        "revista": "REVISTA EIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13410"
+      },
+      {
+        "año": "2024",
+        "titulo": "INTEGRATION OF THE SOFTWARE ENGINEERING THEORY AND THE QUALITY FUNCTION DEPLOYMENT METHODOLOGY FOR SUPPORTING THE MEASUREMENT OF THE STATE OF PROGRESS IN SOFTWARE PROJECTS",
+        "issn": "2027-5846",
+        "revista": "INGENIEŔS USBMED",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13410"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos y enfoque prᣴico del modelado de procesos de negocio como apoyo a la gesti󮠯rganizac",
+        "puntos": 12.2,
+        "resolucion": "8129"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Aplicaci󮠤el m鴯do y teor\ud860de la ingenier\ud860del software y la metodolog\ud860de despliegue de la fu",
+        "puntos": 15.3,
+        "resolucion": "11983"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Gesti󮠤e informaci󮠹 anᬩsis de datos aplicando metodolog\ud873, t飮icas y herramientas",
+        "puntos": 14.3,
+        "resolucion": "72"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Visualizaci󮠹 anᬩsis exploratorio de datos",
+        "puntos": 14.1,
+        "resolucion": "1434"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cedula": "24580502",
+  "tipoDoc": "CC",
+  "nombre": "CEBALLOS RINCON OLGA INES",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "ceballos@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CEBALLOS%20RINCON%20OLGA%20INES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 531.8,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 491.79999999999995,
+    "2021": 501.79999999999995,
+    "2022": 511.79999999999995,
+    "2023": 521.8,
+    "2024": 531.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "36347.999814814815",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

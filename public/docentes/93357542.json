@@ -1,0 +1,59 @@
+{
+  "cedula": "93357542",
+  "tipoDoc": "CC",
+  "nombre": "LOZANO BOTACHE JORGE PRUDENCIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "lozano@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LOZANO%20BOTACHE%20JORGE%20PRUDENCIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 508,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 468,
+    "2021": 478,
+    "2022": 488,
+    "2023": 498,
+    "2024": 508
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL TOLIMA",
+      "tituloSnies": "Especializaci󮼯td>30-03-2001",
+      "fecha": "20",
+      "puntos": 41699.999814814815,
+      "resolucion": "ESPECIALISTA EN FILOSOFIA"
+    },
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL CON ENFASIS EN COMUNICACION COMUNITARIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "37966.999814814815",
+      "puntos": 178,
+      "resolucion": "41699.999814814815"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-05-2013",
+      "puntos": 120,
+      "resolucion": "41699.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

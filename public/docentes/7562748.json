@@ -1,0 +1,66 @@
+{
+  "cedula": "7562748",
+  "tipoDoc": "CC",
+  "nombre": "PARDO SANTAMARIA RUBEN DARIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "pardo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PARDO%20SANTAMARIA%20RUBEN%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 409.3,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 369.3,
+    "2021": 379.3,
+    "2022": 389.3,
+    "2023": 399.3,
+    "2024": 409.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS SOCIALES",
+      "tituloSnies": "Doctorado",
+      "fecha": "39390.999814814815",
+      "puntos": 80,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN PROMOCION DE LA COMUNIDAD",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-07-2001",
+      "puntos": 178,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especializaci󮼯td>17-07-2000",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA PUBLICA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN SOCIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "38028.999814814815",
+      "puntos": 40,
+      "resolucion": "19-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

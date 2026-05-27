@@ -1,0 +1,70 @@
+{
+  "cedula": "16185584",
+  "tipoDoc": "CC",
+  "nombre": "SNCHEZ MUNZ OSCAR EDUARDO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "41584.999814814815",
+  "estado": "ACTIVO",
+  "email": "snchez@uniquindio.edu.co",
+  "puntosAsignados": 517.5,
+  "ptosProductividad": 90,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 477.5,
+    "2021": 487.5,
+    "2022": 497.5,
+    "2023": 507.5,
+    "2024": 517.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "24-09-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CUNDINAMARCA",
+      "tituloSnies": "Especialización03-03-2008",
+      "fecha": "20",
+      "puntos": 41460.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "EFFECT OF A SHOCK MICRO-CYCLE ON BIOCHEMICAL MARKERS IN UNIVERSITY SOCCER PLAYERS",
+        "issn": "1661-7827",
+        "revista": "INTERNATIONAL JOURNAL OF ENVIRONMENTAL RESEARCH AND PUBLIC HEALTH",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "9825"
+      }
+    ],
+    "libros": [],
+    "premios": [
+      {
+        "año": "2022",
+        "titulo": "PREMIO A MEJOR PӓTER NACIONAL",
+        "puntos": 7.5,
+        "resolucion": "9825"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

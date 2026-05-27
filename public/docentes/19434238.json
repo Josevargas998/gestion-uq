@@ -1,0 +1,59 @@
+{
+  "cedula": "19434238",
+  "tipoDoc": "CC",
+  "nombre": "CARDENAS SANTAMARIA FABIO HERNAN",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "cardenas@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "18-09-1996",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARDENAS%20SANTAMARIA%20FABIO%20HERNAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 359.7,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 319.7,
+    "2021": 329.7,
+    "2022": 339.7,
+    "2023": 349.7,
+    "2024": 359.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD MILITAR\"NUEVA GRANADA\"",
+      "tituloSnies": "Especializaci󮼯td>23-02-1990",
+      "fecha": "45",
+      "puntos": 35407.999814814815,
+      "resolucion": "ESPECIALISTA EN ANESTESIOLOGIA"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-12-1984",
+      "puntos": 183,
+      "resolucion": "35407.999814814815"
+    },
+    {
+      "tituloNacional": "FUNDACION UNIVERSITARIA DE CIENCIAS DE LA SALUD",
+      "tituloSnies": "Especializaci󮼯td>23-03-2006",
+      "fecha": "15",
+      "puntos": 40521.999814814815,
+      "resolucion": "ESPECIALISTA EN MEDICINA CRITICA Y CUIDADO INTENSIVO"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

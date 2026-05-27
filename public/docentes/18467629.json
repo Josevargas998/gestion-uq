@@ -1,0 +1,66 @@
+{
+  "cedula": "18467629",
+  "tipoDoc": "CC",
+  "nombre": "MIOLINA ZAPATA JORGE ELIECER",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "miolina@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MIOLINA%20ZAPATA%20JORGE%20ELIECER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 385.8,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 345.8,
+    "2021": 355.8,
+    "2022": 365.8,
+    "2023": 375.8,
+    "2024": 385.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-01-2006",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD EL BOSQUE",
+      "tituloSnies": "Especializaci󮼯td>24-03-2010",
+      "fecha": "20",
+      "puntos": 44958.999814814815,
+      "resolucion": "ESPECIALISTA EN FILOSOFIA DE LA CIENCIA"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-09-2001",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-01-2006",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

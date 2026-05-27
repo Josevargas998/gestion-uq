@@ -1,0 +1,66 @@
+{
+  "cedula": "1094911213",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA BOTERO JACQUELINE",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20BOTERO%20JACQUELINE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 437,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 397,
+    "2021": 407,
+    "2022": 417,
+    "2023": 427,
+    "2024": 437
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-05-2015",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-05-2015",
+      "puntos": 40,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-03-2012",
+      "puntos": 178,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-03-2012",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "7555343",
+  "tipoDoc": "CC",
+  "nombre": "MORALES OSORIO CARLOS ALVEIRO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "email": "morales@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "22-06-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MORALES%20OSORIO%20CARLOS%20ALVEIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 492.2,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 452.2,
+    "2021": 462.2,
+    "2022": 472.2,
+    "2023": 482.2,
+    "2024": 492.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN PEDAGOGIA REEDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-06-1990",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACIӎ Y DESARROLLO COMUNITARIO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-06-1999",
+      "puntos": 40,
+      "resolucion": "36319.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

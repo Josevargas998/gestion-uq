@@ -1,0 +1,59 @@
+{
+  "cedula": "70042140",
+  "tipoDoc": "CC",
+  "nombre": "TABORDA ALBERTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "taborda@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TABORDA%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 363.3,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 323.3,
+    "2021": 333.3,
+    "2022": 343.3,
+    "2023": 353.3,
+    "2024": 363.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-02-1979",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "18-12-2009",
+      "puntos": 40,
+      "resolucion": "22-12-2009"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>16-10-1998",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACIӎ DE EMPRESAS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

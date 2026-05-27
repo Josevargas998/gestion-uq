@@ -1,0 +1,84 @@
+{
+  "cedula": "52079098",
+  "tipoDoc": "CC",
+  "nombre": "MOLINA RICO LIGIA JANETH",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "31-07-2008",
+  "estado": "ACTIVO",
+  "email": "molina@uniquindio.edu.co",
+  "puntosAsignados": 464.3,
+  "ptosProductividad": 91,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 424.3,
+    "2021": 434.3,
+    "2022": 444.3,
+    "2023": 454.3,
+    "2024": 464.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOǴ",
+      "tituloSnies": "Universitaria",
+      "fecha": "35102.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS BIOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "15-09-2005",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "TRANSFORMACIONES TERRITORIALES, MUDANZAS Y CAMBIOS EN SERVICIOS ECOSISTɍICOS, ARMENIA, COLOMBIA",
+        "issn": "2216-1201",
+        "revista": "REVISTA COLOMBIANA DE CIENCIAS SOCIALES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7402"
+      },
+      {
+        "año": "2021",
+        "titulo": "MAPEO Y CARACTERIZACIӎ DE SERVICIOS ECOSISTɍICOS EN FINCAS CULTIVADAS CON PLTANO, QUIND͏, COLOMBIA (SEPTIEMBRE 2019)",
+        "issn": "2344-7214",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8127"
+      },
+      {
+        "año": "2022",
+        "titulo": "IZACIӎ DE AGRICULTORES Y ESTRATEGIAS CONDUCENTES A POL͔ICAS PڂLICAS EN EL EJE CAFETERO COLOMBIANO",
+        "issn": "2216-1201",
+        "revista": "REVISTA COLOMBIANA DE CIENCIAS SOCIALES",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "9824"
+      },
+      {
+        "año": "2022",
+        "titulo": "Differential impact of altitude and a plantain cultivation system on soil macroinvertebrates in the Colombian Coffee Region",
+        "issn": "0929-1393",
+        "revista": "APPLIED SOIL ECOLOGY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "9824"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

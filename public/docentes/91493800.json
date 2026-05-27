@@ -1,0 +1,52 @@
+{
+  "cedula": "91493800",
+  "tipoDoc": "CC",
+  "nombre": "SANCHEZ LOPEZ ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "sanchez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SANCHEZ%20LOPEZ%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 349.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 309.6,
+    "2021": 319.6,
+    "2022": 329.6,
+    "2023": 339.6,
+    "2024": 349.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-03-2007",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-10-2002",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

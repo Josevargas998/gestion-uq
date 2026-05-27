@@ -1,0 +1,92 @@
+{
+  "cedula": "41941200",
+  "tipoDoc": "CC",
+  "nombre": "GAITAN BUITRAGO MARIA HELENA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "MEDIO TIEMPO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "40216.999814814815",
+  "estado": "ACTIVO",
+  "email": "gaitan@uniquindio.edu.co",
+  "puntosAsignados": 456.1,
+  "ptosProductividad": 167,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 416.1,
+    "2021": 426.1,
+    "2022": 436.1,
+    "2023": 446.1,
+    "2024": 456.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especialización06-09-2007",
+      "fecha": "40",
+      "puntos": 40216.999814814815
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-06-2001",
+      "puntos": 183
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "THE MEANING OF HIPPOCRATIC OATH FOR GERMAN AND COLOMBIAN MEDICAL STUDENTS",
+        "issn": "1612-3174",
+        "revista": "GMS GERMAN MEDICAL SCIENCE",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2025",
+        "titulo": "INUSUAL CAUSA DE OBSTRUCCIӎ INTESTINAL SIN ANTECEDENTES QUIRڒGICO: ENCAPSULACIӎ PERITONEAL CONGɎITA",
+        "issn": "0327-5019",
+        "revista": "REVISTA MɄICA DE ROSARIO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1376"
+      },
+      {
+        "año": "2025",
+        "titulo": "HABILIDADES TɃNICAS EN SUTURAS EVALUADAS CON OSATS, COMPARANDO DIFERENTES MɔODOS DE INSTRUCCIӎ Y ACOMPAсMIENTO",
+        "issn": "1575-1813",
+        "revista": "EDUCACIӎ MɄICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1047"
+      },
+      {
+        "año": "2025",
+        "titulo": "THE AGE OF ARTIFICIAL INTELLIGENCE AND ITS IMPACT ON LEARNING SURGICAL SKILLS: IS IT THE FUTURE OF SURGERY?",
+        "issn": "2250-639X",
+        "revista": "REVISTA ARGENTINA DE CIRUǴ",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "1204"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Propuesta de unidad didᣴica para la Cirug\ud860General: la empat\ud860como proceso constructivista",
+        "puntos": 13.7,
+        "resolucion": "12110"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

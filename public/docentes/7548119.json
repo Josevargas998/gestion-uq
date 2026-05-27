@@ -1,0 +1,59 @@
+{
+  "cedula": "7548119",
+  "tipoDoc": "CC",
+  "nombre": "MARMOLEJO CARDONA MARIO ALBERTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "marmolejo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MARMOLEJO%20CARDONA%20MARIO%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 497.2,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 457.2,
+    "2021": 467.2,
+    "2022": 477.2,
+    "2023": 487.2,
+    "2024": 497.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>26-06-1998",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1988",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "39457.999814814815",
+      "puntos": 40,
+      "resolucion": "39579.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

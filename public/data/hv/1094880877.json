@@ -1,0 +1,116 @@
+{
+  "cedula": "1094880877",
+  "tipoDoc": "CC",
+  "nombre": "VELA SAAVEDRA JHONATAN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "vela@uniquindio.edu.co",
+  "puntosAsignados": 356.8,
+  "ptosProductividad": 722,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 316.8,
+    "2021": 326.8,
+    "2022": 336.8,
+    "2023": 346.8,
+    "2024": 356.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-2009",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-2009",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "REGRESO PROGRESIVO A LA PRESENCIALIDAD EN TIEMPOS DE POST-PANDEMIA: EL CASO DE UN PROGRAMA DE LICENCIATURA EN LENGUAS MODERNAS DE UNA UNIVERSIDAD PڂLICA COLOMBIANA",
+        "issn": "2590-9215",
+        "revista": "PERSPECTIVAS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "11980"
+      },
+      {
+        "año": "2025",
+        "titulo": "HABILIDADES DEL SIGLO XXI Y ESTRATEGIAS COMUNICATIVAS: UNA OPORTUNIDAD PARA EL DESARROLLO DE LA COMPETENCIA COMUNICATIVA EN INGLɓ",
+        "issn": "2346-0806",
+        "revista": "SOPHIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1046"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Implementaci󮠤el programa integral de biling𩳭o Quind\udbe0biling𥠹 competitivo (2018-2019)",
+        "puntos": 6.9,
+        "resolucion": "11980"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Planning content and languaje integrated learning / Planificaci󮠤el aprendizaje integrado de conte",
+        "puntos": 14.4,
+        "resolucion": "11980"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Project based learning as a booster of oral skills in the efl classroom",
+        "puntos": 13.7,
+        "resolucion": "11980"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Gamificaci󮮠Gamifying 21st Century Practices to Improve EFL LearnersԠOral Production",
+        "puntos": 12.4,
+        "resolucion": "13471"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Repair Work. A pedagogical proposal to enhance writing skills and independent work",
+        "puntos": 10.7,
+        "resolucion": "13471"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Improving writing skills through. Metacognitive strategies to enhance the process of writing",
+        "puntos": 11.9,
+        "resolucion": "13471"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Unlocking communication: building bridges with metacognitive strategies to enhance oral interaction",
+        "puntos": 11,
+        "resolucion": "1381"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "7544368",
+  "tipoDoc": "CC",
+  "nombre": "DUQUE VALENCIA JORGE LUIS",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "duque@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1994-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DUQUE%20VALENCIA%20JORGE%20LUIS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 430.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 390.6,
+    "2021": 400.6,
+    "2022": 410.6,
+    "2023": 420.6,
+    "2024": 430.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-12-1988",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>24-06-1999",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALIZACION EN GERENCIA DE SERVICIOS DE SALUD"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DOCENCIA UNIVERSITARIA",
+      "tituloSnies": "Maestria",
+      "fecha": "39482.999814814815",
+      "puntos": 40,
+      "resolucion": "13-06-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

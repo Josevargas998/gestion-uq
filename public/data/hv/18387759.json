@@ -1,0 +1,71 @@
+{
+  "cedula": "18387759",
+  "tipoDoc": "CC",
+  "nombre": "HERRERA PINEDA JORGE HERNAN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "41122.999814814815",
+  "estado": "ACTIVO",
+  "email": "herrera@uniquindio.edu.co",
+  "puntosAsignados": 319,
+  "ptosProductividad": 135,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 279,
+    "2021": 289,
+    "2022": 299,
+    "2023": 309,
+    "2024": 319
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL FRANCES LENGUA EXTRANJERA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-04-1993",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD EL BOSQUE",
+      "tituloSnies": "Especialización31-12-1992",
+      "fecha": "20",
+      "puntos": 41061.999814814815
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-07-1985",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "GLOTOPOL͔ICA, GESTELL Y MONOTECNOLOǴ EN EL MARCO COMڎ EUROPEO DE REFERENCIA PARA LAS LENGUAS",
+        "issn": "1390-7603",
+        "revista": "REVISTA CIENCIAS PEDAGӇICAS E INNOVACIӎ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1046"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Identidad narrativa y lenguas culturales extrajeras",
+        "puntos": 13.2,
+        "resolucion": "10954"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

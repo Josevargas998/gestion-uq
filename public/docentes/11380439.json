@@ -1,0 +1,59 @@
+{
+  "cedula": "11380439",
+  "tipoDoc": "CC",
+  "nombre": "VILLAMIZAR VARGAS RAFAEL HUMBERTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SEGURIDAD Y SALUD EN EL TRABAJO",
+  "email": "villamizar@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VILLAMIZAR%20VARGAS%20RAFAEL%20HUMBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 459.5,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 419.5,
+    "2021": 429.5,
+    "2022": 439.5,
+    "2023": 449.5,
+    "2024": 459.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD LIBRE",
+      "tituloSnies": "Especializaci󮼯td>27-03-2001",
+      "fecha": "20",
+      "puntos": 42801.999814814815,
+      "resolucion": "ESPECIALISTA EN SALUD OCUPACIONAL GERENCIA DEL CONTROL DE RIESGOS"
+    },
+    {
+      "tituloNacional": "INGENIERO QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-11-1989",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "25-05-2012",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

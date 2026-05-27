@@ -1,0 +1,52 @@
+{
+  "cedula": "10210263",
+  "tipoDoc": "CC",
+  "nombre": "NARANJO OCAMPO JOSɠALEJANDRO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "naranjo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "15-02-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=NARANJO%20OCAMPO%20JOS%C9%A0ALEJANDRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 329.5,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 289.5,
+    "2021": 299.5,
+    "2022": 309.5,
+    "2023": 319.5,
+    "2024": 329.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>06-07-2000",
+      "fecha": "20",
+      "puntos": 36837.999814814815,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "26306.999814814815",
+      "puntos": 178,
+      "resolucion": "35377.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

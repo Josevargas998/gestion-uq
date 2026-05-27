@@ -1,0 +1,59 @@
+{
+  "cedula": "10126831",
+  "tipoDoc": "CC",
+  "nombre": "QUINTERO ECHEVERRI JOSE MANUEL",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "quintero@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=QUINTERO%20ECHEVERRI%20JOSE%20MANUEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 336.8,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 296.8,
+    "2021": 306.8,
+    "2022": 316.8,
+    "2023": 326.8,
+    "2024": 336.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "41122.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>14-12-1994",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGO EN TOPOGRAFIA"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "41122.999814814815",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

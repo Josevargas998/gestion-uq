@@ -1,0 +1,45 @@
+{
+  "cedula": "41913187",
+  "tipoDoc": "CC",
+  "nombre": "ARANGO MEDINA DEICY",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "arango@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ARANGO%20MEDINA%20DEICY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 537.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 497.20000000000005,
+    "2021": 507.20000000000005,
+    "2022": 517.2,
+    "2023": 527.2,
+    "2024": 537.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-04-2000",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

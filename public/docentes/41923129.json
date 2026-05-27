@@ -1,0 +1,52 @@
+{
+  "cedula": "41923129",
+  "tipoDoc": "CC",
+  "nombre": "MORALES VASCO MARIA LEONOR",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "morales@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "16-01-2009",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MORALES%20VASCO%20MARIA%20LEONOR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 430.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 390.6,
+    "2021": 400.6,
+    "2022": 410.6,
+    "2023": 420.6,
+    "2024": 430.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN PROMOCIӎ DE LA COMUNIDAD",
+      "tituloSnies": "Universitaria",
+      "fecha": "34310.999814814815",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "30-06-1999",
+      "puntos": 40,
+      "resolucion": "20-01-2005"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

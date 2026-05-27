@@ -1,0 +1,59 @@
+{
+  "cedula": "94286282",
+  "tipoDoc": "CC",
+  "nombre": "CANDELA URIBE CHRISTIAN ANDRES",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "candela@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CANDELA%20URIBE%20CHRISTIAN%20ANDRES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 765,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 725,
+    "2021": 735,
+    "2022": 745,
+    "2023": 755,
+    "2024": 765
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 178,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "MAESTRO EN COMERCIO ELECTRONICO",
+      "tituloSnies": "Maestria",
+      "fecha": "20-08-2008",
+      "puntos": 40,
+      "resolucion": "19-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

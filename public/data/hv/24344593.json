@@ -1,0 +1,145 @@
+{
+  "cedula": "24344593",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA HERNANDEZ LEIDY CAROLINA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "cardona@uniquindio.edu.co",
+  "puntosAsignados": 540.9,
+  "ptosProductividad": 330,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 500.9,
+    "2021": 510.9,
+    "2022": 520.9,
+    "2023": 530.9,
+    "2024": 540.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN CIENCIAS SOCIALES",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-02-2010",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "ANLISIS ENVOLVENTE DE DATOS PARA OPTIMIZAR EL PROCESO DE ACREDITACIӎ DE ALTA CALIDAD DEL PROGRAMA TRABAJO SOCIAL DE LA UNIVERSIDAD DEL QUIND͏, COLOMBIA",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2023",
+        "titulo": "CARACTERIZACIӎ DE UN REACTOR ELECTROQU͍ICO OPERANDO EN MODO GALVANOSTTICO PARA LA RECUPERACIӎ DE BALOS AGOTADOS DE MORDENTADO",
+        "issn": "0718-3305",
+        "revista": "INGENIARE",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2023",
+        "titulo": "LA EDUCACIӎ AMBIENTAL COMO ESTRATEGIA NECESARIA PARA LA PLANIFICACIӎ DE NUEVOS ENFOQUES REGIONALES EN EL DEPARTAMENTO DEL META",
+        "issn": "2346-0806",
+        "revista": "SOPHIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2023",
+        "titulo": "MODELO PREDICTIVO DE LA EDUCACIӎ AMBIENTAL PARA LA CUENCA DEL R͏ MELځ, MUNICIPIO DE PUERTO LӐEZ, META",
+        "issn": "1909-4841",
+        "revista": "REVISTA TUMBAGA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2023",
+        "titulo": "THE IMPACT OF USING A PROTON EXCHANGE MEMBRANE ON ALKINE FUEL CELL PERFORMANCE",
+        "issn": "0120-6230",
+        "revista": "REVISTA FACULTAD DE INGENIERIA UNIVERSIDAD DE ANTIOQUIA",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2023",
+        "titulo": "ESTUDIO HIDRODINMICO DE UN REACTOR ELECTROQU͍ICO PARA EL RECICLAJE Y CRISTALIZACIӎ DE GALIO, INDIO Y ANTIMONIO PROVENIENTES DE LA FABRICACIӎ DE PEL̓ULAS SEMICONDUCTORAS",
+        "issn": "2216-118x",
+        "revista": "REVISTA TUMBAGA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2023",
+        "titulo": "ANALISIS DE LA ELECTROTRANSFORMACION DE LIGNINA EN LA GUADUA \"ANGUSTIFOLIA JUNTH\" DEL QUIND͏",
+        "issn": "0121-7488",
+        "revista": "REVISTA CIENCIA EN DESARROLLO",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2023",
+        "titulo": "VARIACIӎ EN LAS PROPIEDADES BROMATOLӇICAS DE TRES TIPOS DE PASTURAS PARA USO GANADERO EN EL DISTRITO DE CONSERVACIӎ SUELOS BARBAS BREMEN",
+        "issn": "2500-5782",
+        "revista": "REVISTA DE INVESTIGACIONES DE LA UNIVERSIDAD DEL QUINDIO",
+        "categoria": "C",
+        "puntos": 9,
+        "resolucion": "10777"
+      },
+      {
+        "año": "2025",
+        "titulo": "PARTICIPATORY AND COLLABORATIVE ETHNOGRAPHIES: RESEARCH HORIZONS TO DEMOCRATIZE KNOWLEDGE",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1438"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "La educaci󮠡mbiental como apuesta para el desarrollo regional sostenible",
+        "puntos": 10,
+        "resolucion": "11979"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "La identidad territorial: caminar la paz en escenarios de posconflicto",
+        "puntos": 11.1,
+        "resolucion": "11979"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Modelo gerencial para fortalecer los procesos educativos",
+        "puntos": 12.4,
+        "resolucion": "11979"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

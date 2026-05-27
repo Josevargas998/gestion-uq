@@ -1,0 +1,45 @@
+{
+  "cedula": "89007517",
+  "tipoDoc": "CC",
+  "nombre": "GARZON BARRERO JULIAN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "garzon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARZON%20BARRERO%20JULIAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 578.5,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 538.5,
+    "2021": 548.5,
+    "2022": 558.5,
+    "2023": 568.5,
+    "2024": 578.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>12-03-1999",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNӌOGO EN TOPOGRAF́"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

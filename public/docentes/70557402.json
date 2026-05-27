@@ -1,0 +1,66 @@
+{
+  "cedula": "70557402",
+  "tipoDoc": "CC",
+  "nombre": "RAMIREZ RIVAS IVAN DARIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "ramirez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "20-02-2012",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RAMIREZ%20RIVAS%20IVAN%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 514.5,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 474.5,
+    "2021": 484.5,
+    "2022": 494.5,
+    "2023": 504.5,
+    "2024": 514.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CORPORACION UNIVERSITARIA DE IBAGUE",
+      "tituloSnies": "Especializaci󮼯td>23-08-2000",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALISTA EN AUTOMATIZACION INDUSTRIAL"
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA DE PROCESOS",
+      "tituloSnies": "Doctorado",
+      "fecha": "40148.999814814815",
+      "puntos": 80,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "40154.999814814815",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN AUTOMATIZACION",
+      "tituloSnies": "Maestria",
+      "fecha": "37933.999814814815",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

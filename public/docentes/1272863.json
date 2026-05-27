@@ -1,0 +1,73 @@
+{
+  "cedula": "1272863",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA ZULUAGA GILBERTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20ZULUAGA%20GILBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 341.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 301.9,
+    "2021": 311.9,
+    "2022": 321.9,
+    "2023": 331.9,
+    "2024": 341.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especializaci󮼯td>12-12-2004",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN MEDICINA CRITICA Y CUIDADO INTENSIVO"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1996",
+      "puntos": 183,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-06-2005",
+      "puntos": 40,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-06-2005",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MEDICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "35410.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

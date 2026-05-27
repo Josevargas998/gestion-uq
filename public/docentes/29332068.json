@@ -1,0 +1,59 @@
+{
+  "cedula": "29332068",
+  "tipoDoc": "CC",
+  "nombre": "ARRUBLA FRANCO MARIBETH",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION FINANCIERA",
+  "email": "arrubla@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ARRUBLA%20FRANCO%20MARIBETH&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 521.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 481.6,
+    "2021": 491.6,
+    "2022": 501.6,
+    "2023": 511.6,
+    "2024": 521.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1993",
+      "puntos": 178,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-11-2007",
+      "puntos": 40,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especializaci󮼯td>14-11-2001",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DOCENCIA UNIVERSITARIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

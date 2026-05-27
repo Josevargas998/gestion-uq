@@ -1,0 +1,66 @@
+{
+  "cedula": "14241527",
+  "tipoDoc": "CC",
+  "nombre": "ALDANA BERMUDEZ ELIECER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "aldana@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "18-03-2003",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ALDANA%20BERMUDEZ%20ELIECER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 844.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 804.4,
+    "2021": 814.4,
+    "2022": 824.4,
+    "2023": 834.4,
+    "2024": 844.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-06-1988",
+      "puntos": 178,
+      "resolucion": "37957.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD SANTO TOMAS",
+      "tituloSnies": "Especializaci󮼯td>30-09-1993",
+      "fecha": "20",
+      "puntos": 37957.999814814815,
+      "resolucion": "ESPECIALISTA EN DOCENCIA UNIVERSITARIA"
+    },
+    {
+      "tituloNacional": "DOCTOR EN EDUCACION MATEMATICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "14-06-2011",
+      "puntos": 80,
+      "resolucion": "23-11-2011"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "34588.999814814815",
+      "puntos": 40,
+      "resolucion": "37957.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "cedula": "24580502",
+  "tipoDoc": "CC",
+  "nombre": "CEBALLOS RINCON OLGA INES",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "ceballos@uniquindio.edu.co",
+  "puntosAsignados": 531.8,
+  "ptosProductividad": 670,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 491.79999999999995,
+    "2021": 501.79999999999995,
+    "2022": 511.79999999999995,
+    "2023": 521.8,
+    "2024": 531.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "36347.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "BRECHAS ENTRE COMPETENCIAS PROFESIONALES, LABORALES DE CONTADUŔ PڂLICA, ADMINISTRACIӎ DE NEGOCIOS EN UNIVERSIDAD DEL QUIND͏",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10468"
+      },
+      {
+        "año": "2024",
+        "titulo": "LA EDUCACIӎ PUNTO INICIAL DE LA FORMACIӎ PARA EL DESARROLLO SOSTENIBLE Y SUSTENTABLE",
+        "issn": "2619-4244",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2025",
+        "titulo": "BIOACCOUNTING MEASUREMENT OF ENVIRONMENTAL ASSETS: BEYOND ENVIRONMENTAL ACCOUNTING",
+        "issn": "2049-372X",
+        "revista": "MEDITARI ACCOUNTANCY RESEARCH",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1433"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroEnsayo",
+        "titulo": "Dimensi󮠤e brechas laborales entre las competencias profesionales y laborales de egresados de los",
+        "puntos": 14.3,
+        "resolucion": "7394"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroEnsayo",
+        "titulo": "Los modelos de negocio Fintech y su aplicaci󮠡 la generaci󮠤e valor de las pymes?",
+        "puntos": 10.1,
+        "resolucion": "7394"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Metodolog\ud860y t飮icas estad\udcf4icas asistidas por computador para realizar una auditor\ud860de datos ba",
+        "puntos": 16,
+        "resolucion": "8675"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Uso de herramientas tecnol󧩣as como apoyo a la soluci󮠤e problemas matemᴩcos para estudiantes",
+        "puntos": 12.9,
+        "resolucion": "12023"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Herramientas tecnol󧩣as abiertas para la econom\ud87a un enfoque prᴩco con cᬣulo diferencial",
+        "puntos": 12.9,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "M鴯dos estad\udcf4icos para contadores. Un enfoque prᣴico con SPSS",
+        "puntos": 13.1,
+        "resolucion": "1065"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

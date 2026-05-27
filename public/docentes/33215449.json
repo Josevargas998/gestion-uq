@@ -1,0 +1,59 @@
+{
+  "cedula": "33215449",
+  "tipoDoc": "CC",
+  "nombre": "MENDEZ PARRA ROSA MAŔ",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "mendez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MENDEZ%20PARRA%20ROSA%20MAR%CC%81&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 468.9,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 428.9,
+    "2021": 438.9,
+    "2022": 448.9,
+    "2023": 458.9,
+    "2024": 468.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "30-09-2005",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-12-1999",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "30-09-2005",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

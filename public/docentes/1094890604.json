@@ -1,0 +1,45 @@
+{
+  "cedula": "1094890604",
+  "tipoDoc": "CC",
+  "nombre": "VILLA ZABALA CRISTIAN CAMILO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "villa@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VILLA%20ZABALA%20CRISTIAN%20CAMILO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 564.8,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 524.8,
+    "2021": 534.8,
+    "2022": 544.8,
+    "2023": 554.8,
+    "2024": 564.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39793.999814814815",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

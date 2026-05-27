@@ -1,0 +1,66 @@
+{
+  "cedula": "7561197",
+  "tipoDoc": "CC",
+  "nombre": "CANO SALDAс LEONARDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "cano@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2002-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CANO%20SALDA%D1%81%20LEONARDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 491.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 451.8,
+    "2021": 461.8,
+    "2022": 471.8,
+    "2023": 481.8,
+    "2024": 491.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA CIVIL",
+      "tituloSnies": "Doctorado",
+      "fecha": "40152.999814814815",
+      "puntos": 80,
+      "resolucion": "22-12-2009"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "15-03-1997",
+      "puntos": 40,
+      "resolucion": "28-11-2001"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-04-1995",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-05-1995",
+      "puntos": 178,
+      "resolucion": "28-11-2001"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

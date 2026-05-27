@@ -1,0 +1,59 @@
+{
+  "cedula": "7558022",
+  "tipoDoc": "CC",
+  "nombre": "PULGARIN GIRALDO ROBINSON",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "pulgarin@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2001-01-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PULGARIN%20GIRALDO%20ROBINSON&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 545.49,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 505.49,
+    "2021": 515.49,
+    "2022": 525.49,
+    "2023": 535.49,
+    "2024": 545.49
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-05-1996",
+      "puntos": 178,
+      "resolucion": "29-09-2001"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>16-10-2008",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACIӎ DE EMPRESAS"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD MILITAR\"NUEVA GRANADA\"",
+      "tituloSnies": "Especializaci󮼯td>29-03-2001",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN AUDITORIA DE SISTEMAS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cedula": "9730805",
+  "tipoDoc": "CC",
+  "nombre": "ALDANA GUTIERREZ JORGE ALEJANDRO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "aldana@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ALDANA%20GUTIERREZ%20JORGE%20ALEJANDRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 380.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 340.9,
+    "2021": 350.9,
+    "2022": 360.9,
+    "2023": 370.9,
+    "2024": 380.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERIA ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especializaci󮼯td>16-08-2006",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALIZACIӎ EN GERENCIA PARA INGENIEROS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

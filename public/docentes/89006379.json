@@ -1,0 +1,59 @@
+{
+  "cedula": "89006379",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ MERCHN VICTOR HUGO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "garć@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2004-10-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARC%CD%81%20MERCHN%20VICTOR%20HUGO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 548.8,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 508.79999999999995,
+    "2021": 518.8,
+    "2022": 528.8,
+    "2023": 538.8,
+    "2024": 548.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR DEL PROGRAMA DE GENETICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "26-03-2012",
+      "puntos": 80,
+      "resolucion": "41040.999814814815"
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS BIOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "23-05-2003",
+      "puntos": 40,
+      "resolucion": "38139.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1998",
+      "puntos": 178,
+      "resolucion": "38139.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

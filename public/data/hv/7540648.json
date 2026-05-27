@@ -1,0 +1,66 @@
+{
+  "cedula": "7540648",
+  "tipoDoc": "CC",
+  "nombre": "DUQUE ARANGO JOHN JAIRO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "duque@uniquindio.edu.co",
+  "puntosAsignados": 401.3,
+  "ptosProductividad": 278,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 361.3,
+    "2021": 371.3,
+    "2022": 381.3,
+    "2023": 391.3,
+    "2024": 401.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "TOPOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1985",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "SISTEMA DE RECUPERACIӎ DE INFORMACIӎ APOYADO EN WEB SEMNTICA",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8117"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Topograf\ud860Bᳩca",
+        "puntos": 13.7,
+        "resolucion": "7654"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Estudios de movimiento de tierra",
+        "puntos": 13.3,
+        "resolucion": "9822"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

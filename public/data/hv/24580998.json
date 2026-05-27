@@ -1,0 +1,62 @@
+{
+  "cedula": "24580998",
+  "tipoDoc": "CC",
+  "nombre": "DIAZ CRUZ MARIA CONSTANZA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "31-07-2008",
+  "estado": "ACTIVO",
+  "email": "diaz@uniquindio.edu.co",
+  "puntosAsignados": 511.8,
+  "ptosProductividad": 269,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 471.8,
+    "2021": 481.8,
+    "2022": 491.8,
+    "2023": 501.8,
+    "2024": 511.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1993",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-03-2007",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Elementos de la valoraci󮠤e empresas",
+        "puntos": 12.4,
+        "resolucion": "12023"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Mercados financieros en el ᭢ito organizacional",
+        "puntos": 14.5,
+        "resolucion": "1065"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

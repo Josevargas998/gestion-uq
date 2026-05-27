@@ -1,0 +1,59 @@
+{
+  "cedula": "18397507",
+  "tipoDoc": "CC",
+  "nombre": "SEPULVEDA RODRIGUEZ LUIS EDUARDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "sepulveda@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SEPULVEDA%20RODRIGUEZ%20LUIS%20EDUARDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 602.9,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 562.9,
+    "2021": 572.9,
+    "2022": 582.9,
+    "2023": 592.9,
+    "2024": 602.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-04-2004",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MAGISTER EN SOFTWARE LIBRE",
+      "tituloSnies": "Maestria",
+      "fecha": "17-12-2010",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-04-2004",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

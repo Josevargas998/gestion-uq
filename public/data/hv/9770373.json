@@ -1,0 +1,127 @@
+{
+  "cedula": "9770373",
+  "tipoDoc": "CC",
+  "nombre": "NAVARRO PEREZ ALVARO ANDRES",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "navarro@uniquindio.edu.co",
+  "puntosAsignados": 441.5,
+  "ptosProductividad": 583,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 401.5,
+    "2021": 411.5,
+    "2022": 421.5,
+    "2023": 431.5,
+    "2024": 441.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39793.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39793.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN AUTOMATIZACION",
+      "tituloSnies": "Maestria",
+      "fecha": "42196.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "INFLUENCIA DEL CONTENIDO DE HUMEDAD Y SALES EN LAS PROPIEDADES DIELɃTRICAS DE LA CARNE DE BOVINO",
+        "issn": "2539-4142",
+        "revista": "AGRONOMIA COLOMBIANA",
+        "categoria": "A2",
+        "puntos": 7.2,
+        "resolucion": "7129"
+      },
+      {
+        "año": "2020",
+        "titulo": "PROGRAMACIӎ POR DEMOSTRACIӎ DEL AGARRE DE OBJETOS EMPLEANDO TɃNICAS BASADAS EN MODELO DE MEZCLAS DE GAUSIANAS",
+        "issn": "0122-1701",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7129"
+      },
+      {
+        "año": "2020",
+        "titulo": "PLATAFORMA DE MONITOREO DE VARIABLES F͓ICAS CON DSPICߓ",
+        "issn": "0122-1701",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "A1",
+        "puntos": 3,
+        "resolucion": "7129"
+      },
+      {
+        "año": "2020",
+        "titulo": "VIABILIDAD DE UTILIZACIӎ DE VISIӎ ARTIFICIAL EN LA DETERMINACIӎ DE FRESCURA DE CARNE DE BOVINO",
+        "issn": "2539-4142",
+        "revista": "AGRONOMIA COLOMBIANA",
+        "categoria": "A2",
+        "puntos": 7.2,
+        "resolucion": "7129"
+      },
+      {
+        "año": "2020",
+        "titulo": "CONSTRUCCIӎ DE UN SISTEMA DE INSTRUMENTACIӎ PARA LA MEDICIӎ DE LA TEMPERATURA, PH Y OX͇ENO DISUELTO PRESENTES EN LA PISCICULTURA BAJO CONDICIONES DE ESTANQUE ARTIFICIAL",
+        "issn": "0122-1701",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "A1",
+        "puntos": 3,
+        "resolucion": "7129"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "?Lenguaje C con ejemplos de aplicaci󮠥n electr󮩣a",
+        "puntos": 14.3,
+        "resolucion": "7129"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos de microcontroladores AVR y PIC",
+        "puntos": 12.4,
+        "resolucion": "7129"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [
+      {
+        "año": "2020",
+        "titulo": "",
+        "puntos": 14.8,
+        "resolucion": "ߐOR MEDIO DE LA CUAL SE RESUELVE RECURSO DE REPOSICIӎ EN SUBSIDIO APELACIӎ CONTRA LA RESOLUCIӎ DE RECTOŔ NO.6990 DEL 3 DE FEBRERO DEL AN 2020߼/td>06-05-2020"
+      },
+      {
+        "año": "2023",
+        "titulo": "",
+        "puntos": 10,
+        "resolucion": "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES A UNOS DOCENTES DE CARRERA, ADSCRITOS AL PROGRAMA DE INGENIEŔ ELECTRӎICA, CONFORME AL DECRETO 1279 DEL AN 2002"
+      }
+    ]
+  }
+}

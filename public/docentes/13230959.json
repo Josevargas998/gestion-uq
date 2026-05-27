@@ -1,0 +1,52 @@
+{
+  "cedula": "13230959",
+  "tipoDoc": "CC",
+  "nombre": "JAIMES ALBA JESړ ELIECER",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "jaimes@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1975-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=JAIMES%20ALBA%20JES%DA%93%20ELIECER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 0,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ADMINISTRADOR DE EMPRESAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-11-1980",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FINANCIERAS Y DE SISTEMAS",
+      "tituloSnies": "Maestria",
+      "fecha": "36773.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

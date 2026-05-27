@@ -1,0 +1,45 @@
+{
+  "cedula": "34536538",
+  "tipoDoc": "CC",
+  "nombre": "LӐEZ CARDOZO LILIA INɓ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "GERONTOLOGIA",
+  "email": "lӑez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=L%D3%90EZ%20CARDOZO%20LILIA%20IN%C9%93&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 449.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 409.8,
+    "2021": 419.8,
+    "2022": 429.8,
+    "2023": 439.8,
+    "2024": 449.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "28-02-1997",
+      "puntos": 40,
+      "resolucion": "42801.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

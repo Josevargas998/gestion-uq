@@ -1,0 +1,66 @@
+{
+  "cedula": "7555178",
+  "tipoDoc": "CC",
+  "nombre": "LӐEZ GARĆ JORGE ALBERTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "email": "lӑez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "31-07-2008",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=L%D3%90EZ%20GARC%CD%81%20JORGE%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 524.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 484.79999999999995,
+    "2021": 494.79999999999995,
+    "2022": 504.79999999999995,
+    "2023": 514.8,
+    "2024": 524.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-12-1994",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>29-10-1999",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD AUTӎOMA DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>25-09-1999",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECILISTA EN EDUMTICA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-08-2005",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

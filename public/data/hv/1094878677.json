@@ -1,0 +1,115 @@
+{
+  "cedula": "1094878677",
+  "tipoDoc": "CC",
+  "nombre": "HERNNDEZ CARVAJAL ANDRES MAURICIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "CIENCIAS DE LA INFORMACION Y LA DOCUMENTACION BIBLIOTECOLOGIA Y ARCHIVISTICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "14-06-2023",
+  "estado": "ACTIVO",
+  "email": "hernndez@uniquindio.edu.co",
+  "puntosAsignados": 490.8,
+  "ptosProductividad": 603,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 450.8,
+    "2021": 460.8,
+    "2022": 470.8,
+    "2023": 480.8,
+    "2024": 490.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-04-2008",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "17-12-2014",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL - PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-04-2008",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "PROPUESTA METODOLӇICA PARA EL ANLISIS DE LA VIDEO POL͔ICA DIGITAL DESDE LA PERSPECTIVA DEL ANLISIS DEL FILM",
+        "issn": "2216-135X",
+        "revista": "ENCUENTROS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "960"
+      },
+      {
+        "año": "2025",
+        "titulo": "DANZAS AUTӃTONAS DEL EJE CAFETERO COLOMBIANO: EXPLORANDO IDENTIDAD, INVESTIGACIӎ-CREACIӎ Y CONEXIONES INTERGENERACIONALES",
+        "issn": "2145-0706",
+        "revista": "CALLE 14: REVISTA DE INVESTIGACIӎ EN EL CAMPO DEL ARTE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "960"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Los memes: Una posibilidad para mejorar la comprensi󮠬ectora de cuentos cortos",
+        "puntos": 11.6,
+        "resolucion": "12295"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Pantallas: El Poder del Audiovisual en la Pol\udd29ca",
+        "puntos": 14.6,
+        "resolucion": "68"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Prᣴicas de lectura en la educaci󮠣ontemporᮥa: entre lo impreso y lo digital",
+        "puntos": 14.6,
+        "resolucion": "1440"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "La cocraci󮠥n espacios acad魩cos: el caso de Ootros Generos Audiovisuales",
+        "puntos": 14.1,
+        "resolucion": "68"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "El podcast: una propuesta de producci󮠹 pedagog\ud860sonora para expandir la mente",
+        "puntos": 3.3,
+        "resolucion": "1440"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2025",
+        "titulo": "PREMIO CANAL ZOOM EN LA CATEGOŔ, CONTENIDO EDUCATIVO INNOVADOR",
+        "puntos": 10,
+        "resolucion": "960"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

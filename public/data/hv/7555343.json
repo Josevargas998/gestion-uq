@@ -1,0 +1,76 @@
+{
+  "cedula": "7555343",
+  "tipoDoc": "CC",
+  "nombre": "MORALES OSORIO CARLOS ALVEIRO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "22-06-1993",
+  "estado": "ACTIVO",
+  "email": "morales@uniquindio.edu.co",
+  "puntosAsignados": 492.2,
+  "ptosProductividad": 424,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 452.2,
+    "2021": 462.2,
+    "2022": 472.2,
+    "2023": 482.2,
+    "2024": 492.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN PEDAGOGIA REEDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-06-1990",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACIӎ Y DESARROLLO COMUNITARIO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-06-1999",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Evaluaci󮠤ocente y control",
+        "puntos": 13.8,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Las Identidades Narrativas de los Docentes Universitarios",
+        "puntos": 14.5,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "La Experiencia art\udcf4ica en los procesos de subjetivaci󮠤e estudiantes y profesores de un programa",
+        "puntos": 12.9,
+        "resolucion": "10475"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Reformas educativas y sus repercusiones en Colombia",
+        "puntos": 12,
+        "resolucion": "10475"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

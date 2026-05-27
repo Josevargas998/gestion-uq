@@ -1,0 +1,86 @@
+{
+  "cedula": "79851951",
+  "tipoDoc": "CC",
+  "nombre": "VALENCIA MINA WILLIAM",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "20-11-2014",
+  "estado": "ACTIVO",
+  "email": "valencia@uniquindio.edu.co",
+  "puntosAsignados": 351.4,
+  "ptosProductividad": 565,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 311.4,
+    "2021": 321.4,
+    "2022": 331.4,
+    "2023": 341.4,
+    "2024": 351.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA SISMICA E INGENIERIA SISMOLOGICA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-05-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "COMPRESSIVE PERFORMANCE OF SQUARE AND LOW-STRENGTH CONCRETE COLUMNS RETROFITTED WITH EXTERNALLY-BONDED CFRP",
+        "issn": "3524-928",
+        "revista": "MATERIALS TODAY COMMUNICATIONS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7399"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Seismic and Structural Vibrations: A Wave Physics Approach",
+        "puntos": 13.6,
+        "resolucion": "1372"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Anᬩsis y dise񯠤e edificios en concreto reforzado",
+        "puntos": 14.3,
+        "resolucion": "65"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡l Anᬩsis Matricial de Estructuras con IA",
+        "puntos": 14.2,
+        "resolucion": "1372"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Mecᮩca de Materiales",
+        "puntos": 13.2,
+        "resolucion": "65"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

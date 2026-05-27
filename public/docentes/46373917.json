@@ -1,0 +1,59 @@
+{
+  "cedula": "46373917",
+  "tipoDoc": "CC",
+  "nombre": "ANA PATRICIA PEREZ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "ana@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ANA%20PATRICIA%20PEREZ&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 316.2,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 276.2,
+    "2021": 286.2,
+    "2022": 296.2,
+    "2023": 306.2,
+    "2024": 316.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "22-04-2014",
+      "puntos": 40,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-07-1999",
+      "puntos": 178,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD SANTIAGO DE CALI",
+      "tituloSnies": "Especializaci󮼯td>04-06-2010",
+      "fecha": "20",
+      "puntos": 43891.999814814815,
+      "resolucion": "ESPECIALISTA EN DOCENCIA PARA LA EDUCACION SUPERIOR"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

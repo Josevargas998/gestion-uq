@@ -1,0 +1,59 @@
+{
+  "cedula": "33816860",
+  "tipoDoc": "CC",
+  "nombre": "VɌEZ YSIS",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "vɍez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2013-11-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=V%C9%8CEZ%20YSIS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 318.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 278.2,
+    "2021": 288.2,
+    "2022": 298.2,
+    "2023": 308.2,
+    "2024": 318.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 178,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "25-04-2009",
+      "puntos": 40,
+      "resolucion": "41460.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

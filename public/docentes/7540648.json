@@ -1,0 +1,45 @@
+{
+  "cedula": "7540648",
+  "tipoDoc": "CC",
+  "nombre": "DUQUE ARANGO JOHN JAIRO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "duque@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DUQUE%20ARANGO%20JOHN%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 401.3,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 361.3,
+    "2021": 371.3,
+    "2022": 381.3,
+    "2023": 391.3,
+    "2024": 401.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "TOPOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1985",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

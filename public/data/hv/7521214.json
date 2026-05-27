@@ -1,0 +1,75 @@
+{
+  "cedula": "7521214",
+  "tipoDoc": "CC",
+  "nombre": "SNCHEZ JOSɠREINEL",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "35827.999814814815",
+  "estado": "ACTIVO",
+  "email": "snchez@uniquindio.edu.co",
+  "puntosAsignados": 506.6,
+  "ptosProductividad": 426,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 466.6,
+    "2021": 476.6,
+    "2022": 486.6,
+    "2023": 496.6,
+    "2024": 506.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN FILOSOFIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "17-03-2009",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "35283.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN FILOSOF́",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-1986",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Los Animales en el Mundo de Don Quijote",
+        "puntos": 14.9,
+        "resolucion": "8134"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Ensayos liminales sobre filosof\ud860moral",
+        "puntos": 13.1,
+        "resolucion": "9838"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "La ciudadan\ud860algoritmizada. Un ensayo sobre el impacto de las nuevas tecnolog\ud873 en la vida civil,",
+        "puntos": 14.6,
+        "resolucion": "64"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

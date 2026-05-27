@@ -1,0 +1,184 @@
+{
+  "cedula": "98380743",
+  "tipoDoc": "CC",
+  "nombre": "TARAPUEZ CHAMORRO EDWIN",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "38778.999814814815",
+  "estado": "ACTIVO",
+  "email": "tarapuez@uniquindio.edu.co",
+  "puntosAsignados": 976.1,
+  "ptosProductividad": 381,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 936.1,
+    "2021": 946.1,
+    "2022": 956.1,
+    "2023": 966.1,
+    "2024": 976.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-06-1996",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especialización30-09-1999",
+      "fecha": "10",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE NARIN",
+      "tituloSnies": "Especialización08-03-2000",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "INTENCIӎ EMPRENDEDORA EN COLOMBIA: EL CASO DE LOS ESTUDIANTES DE MAESTŔ EN ADMINISTRACIӎ",
+        "issn": "0120-8160",
+        "revista": "ESCUELA DE ADMINISTRACIӎ DE NEGOCIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7394"
+      },
+      {
+        "año": "2020",
+        "titulo": "IDENTIDAD Y MANIFESTACIONES CULTURALES DEL DEPARTAMENTO DEL QUIND͏ EN EL CONTEXTO DEL PAISAJE CULTURAL CAFETERO DE COLOMBIA",
+        "issn": "1139-7861",
+        "revista": "CUADERNOS DE TURISMO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7394"
+      },
+      {
+        "año": "2021",
+        "titulo": "SOCIAL NORMS AND ENTREPRENEURIAL INTENTION IN UNIVERSITY RESEARCHERS IN COLOMBIA",
+        "issn": "2256-5078",
+        "revista": "CUADERNOS DE ADMINISTRACIӎ",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8137"
+      },
+      {
+        "año": "2021",
+        "titulo": "INTEGRACIӎ PRODUCTIVA Y DESARROLLO DEL TURISMO CULTURAL",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8137"
+      },
+      {
+        "año": "2021",
+        "titulo": "INSTITUCIONES E INTENCIӎ EMPRENDEDORA",
+        "issn": "2145-5147",
+        "revista": "DESARROLLO GERENCIAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8137"
+      },
+      {
+        "año": "2022",
+        "titulo": "INTENCIӎ EMPRESARIAL Y DIMENSIONES CULTURALES EN ESTUDIANTES DE MAESTŔ EN ADMINISTRACIӎ EN COLOMBIA",
+        "issn": "2539-0554",
+        "revista": "TENDENCIAS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "9840"
+      },
+      {
+        "año": "2022",
+        "titulo": "APPLICATION OF A FUZZY SYSTEM TO THE ANALYSIS OF ENTREPRENEURIAL INTENTION IN COLOMBIA",
+        "issn": "2067-4082",
+        "revista": "JOURNAL OF URBAN AND REGIONAL ANALYSIS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9840"
+      },
+      {
+        "año": "2023",
+        "titulo": "LA INTENCIӎ EMPRENDEDORA D ELOS CIENT͆ICOS UNIVERSITARIOS EN COLOMBIA",
+        "issn": "2422-3182",
+        "revista": "REVISTA CEA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12023"
+      },
+      {
+        "año": "2024",
+        "titulo": "LA CALIDAD DEL TRABAJO EN COLOMBIA: UNA PREOCUPACIӎ NACIONAL",
+        "issn": "0124-8693",
+        "revista": "TENDENCIAS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2024",
+        "titulo": "DIRECCIONADORES DE FUTURO EN EL TURISMO DE NATURALEZA",
+        "issn": "2145-5147",
+        "revista": "DESARROLLO GERENCIAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2024",
+        "titulo": "A MULTILEVEL APPROACH TO UNDERSTANDING THE RELATIONSHIP BETWEEN ENTREPRENEURSHIP AND THE URBAN ENVIRONMENT: EMPIRICAL EVIDENCE FROM COLOMBIA",
+        "issn": "1886-516X",
+        "revista": "REVISTA DE METODOS CUANTITATIVOS PARA LA ECONOMIA Y LA EMPRESA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2025",
+        "titulo": "PREDICTING ENTREPRENEURIAL INTENTION IN COLOMBIAN ACADEMICS: A MACHINE LEARNING APPROACH",
+        "issn": "2053-4604",
+        "revista": "JOURNAL OF ENTREPRENEURSHIP IN EMERGING ECONOMIES",
+        "categoria": "A1",
+        "puntos": 4.5,
+        "resolucion": "1065"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Turismo Quindiano e identidad cultural",
+        "puntos": 12.5,
+        "resolucion": "10468"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Visi󮠰rospectiva del turismo de naturaleza. Quind\udbe02035",
+        "puntos": 11.9,
+        "resolucion": "12023"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2021",
+        "titulo": "PRIMER PUESTO EN EL TEMA DE INVESTIGACIӎ: ?COMPETITIVIDAD Y ESTRATEGIA ORGANIZACIONAL?",
+        "puntos": 15,
+        "resolucion": "8137"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

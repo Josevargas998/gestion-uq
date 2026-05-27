@@ -1,0 +1,52 @@
+{
+  "cedula": "41959302",
+  "tipoDoc": "CC",
+  "nombre": "MORENO SERNA LINA MARIA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "moreno@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MORENO%20SERNA%20LINA%20MARIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 474,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 434,
+    "2021": 444,
+    "2022": 454,
+    "2023": 464,
+    "2024": 474
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DE LAS LENGUAS Y DE LAS CULTURAS",
+      "tituloSnies": "Maestria",
+      "fecha": "43291.999814814815",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-02-2006",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "cedula": "89004182",
+  "tipoDoc": "CC",
+  "nombre": "URREA GIRALDO JORGE EDUARDO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "urrea@uniquindio.edu.co",
+  "puntosAsignados": 592.2,
+  "ptosProductividad": 562,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 552.2,
+    "2021": 562.2,
+    "2022": 572.2,
+    "2023": 582.2,
+    "2024": 592.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especialización28-04-2009",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACION DIGITAL",
+      "tituloSnies": "Maestria",
+      "fecha": "20-06-2013",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-10-1998",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN COMUNICACION SOCIAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "44657.999814814815",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "LENGUAJE Y CONTENIDO AUDIOVISUAL DE LOS PROGRAMAS EN INTERNET FRENTE A LOS PROGRAMAS DE TELEVISIӎ CONVENCIONAL",
+        "issn": "1794-4449",
+        "revista": "LASALLISTA DE INVESTIGACIӎ",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10689"
+      },
+      {
+        "año": "2023",
+        "titulo": "TELERREALIDAD Y TELEVISIӎ DE LO QUE NOS RODEA: SU CONTRIBUCIӎ A LA CULTURA",
+        "issn": "2539-3812",
+        "revista": "REVISTA MIRADAS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10689"
+      },
+      {
+        "año": "2025",
+        "titulo": "DANZAS AUTӃTONAS DEL EJE CAFETERO COLOMBIANO: EXPLORANDO IDENTIDAD, INVESTIGACIӎ-CREACIӎ Y CONEXIONES INTERGENERACIONALES",
+        "issn": "2145-0706",
+        "revista": "CALLE 14: REVISTA DE INVESTIGACIӎ EN EL CAMPO DEL ARTE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1033"
+      },
+      {
+        "año": "2025",
+        "titulo": "PROPUESTA METODOLӇICA PARA EL ANLISIS DE LA VIDEO POL͔ICA DIGITAL DESDE LA PERSPECTIVA DEL ANLISIS DEL FILM",
+        "issn": "2216-135X",
+        "revista": "ENCUENTROS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1033"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Pantallas: El Poder del Audiovisual en la Pol\udd29ca",
+        "puntos": 14.6,
+        "resolucion": "70"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Mirar la comunicaci󮠤esde las regiones",
+        "puntos": 17,
+        "resolucion": "1033"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "La cocraci󮠥n espacios acad魩cos: el caso de Ootros Generos Audiovisuales",
+        "puntos": 14.1,
+        "resolucion": "70"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2025",
+        "titulo": "PREMIO CANAL ZOOM EN LA CATEGOŔ, CONTENIDO EDUCATIVO INNOVADOR",
+        "puntos": 10,
+        "resolucion": "1033"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [
+      {
+        "año": "2023",
+        "titulo": "",
+        "puntos": 10.3,
+        "resolucion": "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES A UNOS DOCENTES DE CARRERA ADSCRITOS AL PROGRAMA DE COMUNICACIӎ SOCIAL Y PERIODISMO, CONFORME AL CONTENIDO DEL DECRETO 1279 DEL AN 2002"
+      },
+      {
+        "año": "2023",
+        "titulo": "",
+        "puntos": 9.8,
+        "resolucion": "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES A UNOS DOCENTES DE CARRERA ADSCRITOS AL PROGRAMA DE COMUNICACIӎ SOCIAL Y PERIODISMO, CONFORME AL CONTENIDO DEL DECRETO 1279 DEL AN 2002"
+      },
+      {
+        "año": "2025",
+        "titulo": "",
+        "puntos": 2.1,
+        "resolucion": "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES A UN DOCENTE DE CARRERA ADSCRITO AL PROGRAMA DE COMUNICACIӎ SOCIAL Y PERIODISMO, CONFORME AL CONTENIDO DEL DECRETO 1279 DEL AN 2002"
+      }
+    ],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "cedula": "29332068",
+  "tipoDoc": "CC",
+  "nombre": "ARRUBLA FRANCO MARIBETH",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION FINANCIERA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "25-01-2010",
+  "estado": "ACTIVO",
+  "email": "arrubla@uniquindio.edu.co",
+  "puntosAsignados": 521.6,
+  "ptosProductividad": 486,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 481.6,
+    "2021": 491.6,
+    "2022": 501.6,
+    "2023": 511.6,
+    "2024": 521.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1993",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-11-2007",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especialización14-11-2001",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Relaci󮠤e propiedad y desiciones de financiaci󮺠Caso prᣴico en la empresas familiares Pymes de",
+        "puntos": 9.5,
+        "resolucion": "12103"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Decisiones de Inversi󮠰ara empresas familiares Pymes: Caso prᣴico en las empresas familiares Pym",
+        "puntos": 13.5,
+        "resolucion": "12305"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Presupuesto para empresas industriales. Enfoque de planeaci󮠹 control",
+        "puntos": 13.4,
+        "resolucion": "12305"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Educaci󮠆inanciera: Mis finanzas personales",
+        "puntos": 12.2,
+        "resolucion": "10818"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

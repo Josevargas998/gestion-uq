@@ -1,0 +1,59 @@
+{
+  "cedula": "19164898",
+  "tipoDoc": "CC",
+  "nombre": "GOMEZ BARRERA MILTON",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "gomez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1990-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GOMEZ%20BARRERA%20MILTON&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 435.8,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 395.8,
+    "2021": 405.8,
+    "2022": 415.8,
+    "2023": 425.8,
+    "2024": 435.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>15-09-2005",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN BIOMATEMATICAS"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FARMACOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "24-06-2010",
+      "puntos": 40,
+      "resolucion": "40521.999814814815"
+    },
+    {
+      "tituloNacional": "QUIMICO FARMACEUTICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-08-1983",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

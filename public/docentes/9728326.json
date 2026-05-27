@@ -1,0 +1,73 @@
+{
+  "cedula": "9728326",
+  "tipoDoc": "CC",
+  "nombre": "VELEZ RAMIREZ RUBEN ANTONIO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "velez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VELEZ%20RAMIREZ%20RUBEN%20ANTONIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 388.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 348.9,
+    "2021": 358.9,
+    "2022": 368.9,
+    "2023": 378.9,
+    "2024": 388.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-2005",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "ESCUELA DE ADMINISTRACION DE NEGOCIOS",
+      "tituloSnies": "Especializaci󮼯td>02-11-2007",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA DE NEGOCIOS INTERNACIONALES"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "21-03-2018",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "21-03-2018",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-2005",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

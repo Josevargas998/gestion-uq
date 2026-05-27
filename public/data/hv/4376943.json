@@ -1,0 +1,183 @@
+{
+  "cedula": "4376943",
+  "tipoDoc": "CC",
+  "nombre": "ACOSTA MINOLI CESAR AUGUSTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "38261.999814814815",
+  "estado": "ACTIVO",
+  "email": "acosta@uniquindio.edu.co",
+  "puntosAsignados": 918.3,
+  "ptosProductividad": 369,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 878.3,
+    "2021": 888.3,
+    "2022": 898.3,
+    "2023": 908.3,
+    "2024": 918.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-1999",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAG͓TER EN ENSEсNZA DE LA MATEMTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-06-2003",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "31-08-2009",
+      "puntos": 20
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-04-2011",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-07-1999",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "INFLUENCIA DE UN SOFTWARE EDUCATIVO EN LA CONSOLIDACIӎ DEL APRENDIZAJE DE SUPERFICIES CUDRICAS",
+        "issn": "2665-3184",
+        "revista": "TECNɬ EPISTEME Y DIDAXIS: TED",
+        "categoria": "C",
+        "puntos": 8,
+        "resolucion": "11214"
+      },
+      {
+        "año": "2023",
+        "titulo": "A SPECTRAL ELEMENT METHOD TO COMPUTE APPROXIMATIONS OF THE ANISOTROPIC DIFFUSION OPERATOR WITH BIDIMENSIONAL TENSOR COEFFICIENT",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "11214"
+      },
+      {
+        "año": "2023",
+        "titulo": "SIMULATION OF POLLUTANTS TRANSPORT IN RIVERS AND ITS EFFECT ON THE DYNAMICS OF A SPECIES BY A HIGH ORDER METHOD",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "11214"
+      },
+      {
+        "año": "2023",
+        "titulo": "MODELING THE DYNAMICS OF TOTAL SUSPENDED SOLIDS IN A MOUNTAIN BASIN USING NETWORK THEORY",
+        "issn": "1535-1467",
+        "revista": "RIVER RESEARCH AND APPLICATIONS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "11214"
+      },
+      {
+        "año": "2023",
+        "titulo": "GENETIC ALGORITHMS FOR MATHEMATICAL OPTIMIZATION",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "11214"
+      },
+      {
+        "año": "2023",
+        "titulo": "ESTIMATION OF THE DISPERSION PARAMETER IN A POPULATION DYNAMICS MODEL OF THE COFFEE BERRY BORER (HYPOTHENEMUS HAMPEI)",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "11214"
+      },
+      {
+        "año": "2023",
+        "titulo": "SIMULATION MODEL FOR THE DYNAMICS OF DENGUE WITH ASYMPTOMATIC TRANSMISSION AND THE EFFECT OF TEMPERATURE",
+        "issn": "2046-1402",
+        "revista": "F1000RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12108"
+      },
+      {
+        "año": "2023",
+        "titulo": "USE OF NETWORK THEORY TO MODEL WATER QUALITY PARAMETERS IN A HYDROLOGICAL NETWORK",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "11214"
+      },
+      {
+        "año": "2023",
+        "titulo": "ANALYSIS OF THE REPLANTING OF BANANA HILLS WITH INFECTION BY THE BACTERIUM RALSTONIA SOLANACEARUM PHILOTYPE II RACE 2 AND ECONOMIC LOSSES",
+        "issn": "2046-1402",
+        "revista": "F1000RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12108"
+      },
+      {
+        "año": "2024",
+        "titulo": "ANALYSIS OF MOKO DISEASE PROPAGATION ON PLANTAIN (MUSA AAB SIMMONDS) THROUGH A MODEL BASED ON SYSTEM DYNAMICS",
+        "issn": "0929-1873",
+        "revista": "EUROPEAN JOURNAL OF PLANT PATHOLOGY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "13473"
+      },
+      {
+        "año": "2024",
+        "titulo": "COMPARATIVE STUDY OF DISPERSION CURVES FOR LAMB WAVES USING ANALYTICAL SOLUTIONS AND SEMI-ANALYTICAL METHODS",
+        "issn": "2076-3417",
+        "revista": "APPLIED SCIENCES (SWITZERLAND)",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13473"
+      },
+      {
+        "año": "2025",
+        "titulo": "APPLYING KRIGING GEOSTASTICAL TECHNIQUE TO MODEL PARAMETERS OF WTHER CUALITY, TSS, AND PH IN A SECTION OF THE QUINDIO RIVER, COLOMBIA",
+        "issn": "2216-0353",
+        "revista": "MUNDO FESC",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "100"
+      },
+      {
+        "año": "2025",
+        "titulo": "IOT-BASED TECHNOLOGY FOR THE COFFEE DRYING PROCESS DATA ANALYSIS OF SMALL FARMERS",
+        "issn": "0121-1129",
+        "revista": "FACULTAD DE INGENIEŔ",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "1035"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

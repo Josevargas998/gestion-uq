@@ -1,0 +1,167 @@
+{
+  "cedula": "89004671",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA TORRES SERGIO AUGUSTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "25-09-2006",
+  "estado": "ACTIVO",
+  "email": "cardona@uniquindio.edu.co",
+  "puntosAsignados": 924.8,
+  "ptosProductividad": 835,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 884.8,
+    "2021": 894.8,
+    "2022": 904.8,
+    "2023": 914.8,
+    "2024": 924.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-08-2001",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2012",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE SAN BUENAVENTURA",
+      "tituloSnies": "Especialización15-04-2005",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PERFORMANCE EVALUATION OF DIFFERENT CLUSTERING ALGORITHMS FOR DATA STREAMS",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2021",
+        "titulo": "߂ARRERAS O CONTEXTO EDUCATIVO? DIFERENTES FACTORES QUE RESTRINGEN EN EL USO DE LAS TECNOLOǴS DE LA INFORMACIӎ Y COMUNICACIӎ (TIC)",
+        "issn": "1646-9895",
+        "revista": "RISTI REVISTA IBɒICA DE SISTEMAS E TECNOLOGIAS DE INFORMAǃO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8129"
+      },
+      {
+        "año": "2021",
+        "titulo": "IMPLEMENTACIӎ Y VALIDACIӎ DE UNA ARQUITECTURA PARA UN ENTORNO VIRTUAL ADAPTATIVO",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8129"
+      },
+      {
+        "año": "2023",
+        "titulo": "APLICACIӎ DE TɃNICAS DE MINEŔ DE TEXTOS PARA EL RECONOCIMIENTO DE PATRONES EN ANLISIS DE DISTRESS ENTREVISTA CORPUS DAIC-WOZ",
+        "issn": "2197-5523",
+        "revista": "JOURNAL OF NAMIBIAN STUDIES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "11983"
+      },
+      {
+        "año": "2025",
+        "titulo": "INSTRUMENTS FOR EVALUATING COMPUTATIONAL THINKING: A SYSTEMATIC REVIEW",
+        "issn": "0123-7799",
+        "revista": "TECNOLӇICAS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1102"
+      },
+      {
+        "año": "2025",
+        "titulo": "REVISIӎ SISTEMTICA DE LA INTEGRACIӎ Y LA RELACIӎ ENTRE EL PENSAMIENTO COMPUTACIONAL Y LAS MATEMTICAS EN LOS PRIMEROS ANS ESCOLARES",
+        "issn": "1794-1237",
+        "revista": "REVISTA EIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1102"
+      },
+      {
+        "año": "2025",
+        "titulo": "SYSTEMATIC REVIEW OF INSTRUMENTS TO ASSESS COMPUTATIONAL THINKING IN EARLY YEARS OF SCHOOLING",
+        "issn": "2227-7102",
+        "revista": "EDUCATION SCIENCES",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "titulo": "DEFINICIONES DEL PENSAMIENTO COMPUTACIONAL UNA REVISIӎ DE LA LITERATURA",
+        "issn": "1794-1237",
+        "revista": "REVISTA EIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1102"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "L󧩣a de programaci󮠵sando orientaci󮠡 objetos y Java",
+        "puntos": 6.8,
+        "resolucion": "7650"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos de estructura de datos en java",
+        "puntos": 14.1,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡 la Programaci󮠥n Python",
+        "puntos": 14.1,
+        "resolucion": "7420"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "ANALIZADOR DE SENTIMIENTOS",
+        "puntos": 14.3,
+        "resolucion": "7650"
+      },
+      {
+        "año": "2021",
+        "titulo": "O-CLUSTERING",
+        "puntos": 14.3,
+        "resolucion": "8129"
+      },
+      {
+        "año": "2021",
+        "titulo": "O-SEARCH",
+        "puntos": 6.4,
+        "resolucion": "8129"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

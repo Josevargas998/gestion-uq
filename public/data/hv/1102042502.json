@@ -1,0 +1,77 @@
+{
+  "cedula": "1102042502",
+  "tipoDoc": "CC",
+  "nombre": "REYES GALEANO CRISTIAN CAMILO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "reyes@uniquindio.edu.co",
+  "puntosAsignados": 336.5,
+  "ptosProductividad": 699,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 296.5,
+    "2021": 306.5,
+    "2022": 316.5,
+    "2023": 326.5,
+    "2024": 336.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-09-2019",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "C'est mieux ensemble",
+        "puntos": 13.7,
+        "resolucion": "12159"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Improving writing skills through. Metacognitive strategies to enhance the process of writing",
+        "puntos": 11.9,
+        "resolucion": "13471"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroTexto",
+        "titulo": "Parle-m鴲age: pour parler en apprenant",
+        "puntos": 14.8,
+        "resolucion": "13471"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Siembra, florece, transforma: Diᬯgo de saberes y apuestas de transformaci󮠰ara la ense񡮺a de l",
+        "puntos": 14.6,
+        "resolucion": "1046"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Rural Voices: Ingl鳠y ruralidad, Una apuesta con identidad!",
+        "puntos": 14.9,
+        "resolucion": "1381"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

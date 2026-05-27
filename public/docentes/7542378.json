@@ -1,0 +1,59 @@
+{
+  "cedula": "7542378",
+  "tipoDoc": "CC",
+  "nombre": "OLIVARES CASTRO RUBEN DARIO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "olivares@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "25-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=OLIVARES%20CASTRO%20RUBEN%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 332.7,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 292.7,
+    "2021": 302.7,
+    "2022": 312.7,
+    "2023": 322.7,
+    "2024": 332.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "32510.999814814815",
+      "puntos": 183,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "LA UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO",
+      "tituloSnies": "Especializaci󮼯td>18-03-1993",
+      "fecha": "45",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ORTOPEDIA Y TRAUMATOLOGIA"
+    },
+    {
+      "tituloNacional": "SUBSECRETARIA DE REGULACION Y FOMENTO SANITARIO",
+      "tituloSnies": "Especializaci󮼯td>28-04-1993",
+      "fecha": "15",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN CIRUGIA DE MANO"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

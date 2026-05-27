@@ -1,0 +1,59 @@
+{
+  "cedula": "24478396",
+  "tipoDoc": "CC",
+  "nombre": "ROMERO RESTREPO MIRYAM",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "romero@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ROMERO%20RESTREPO%20MIRYAM&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 438.2,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 398.2,
+    "2021": 408.2,
+    "2022": 418.2,
+    "2023": 428.2,
+    "2024": 438.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especializaci󮼯td>16-03-1999",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DERECHO COMERCIAL"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>09-06-2000",
+      "fecha": "20",
+      "puntos": 36837.999814814815,
+      "resolucion": "ESPECIALISTA EN CONTROL FISCAL PARA ENTIDADES PUBLICAS"
+    },
+    {
+      "tituloNacional": "ABOGADO",
+      "tituloSnies": "Universitaria",
+      "fecha": "35041.999814814815",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

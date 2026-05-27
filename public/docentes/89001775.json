@@ -1,0 +1,59 @@
+{
+  "cedula": "89001775",
+  "tipoDoc": "CC",
+  "nombre": "MONSALVE DURANGO ELKIN ANIBAL",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "monsalve@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MONSALVE%20DURANGO%20ELKIN%20ANIBAL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 407,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 367,
+    "2021": 377,
+    "2022": 387,
+    "2023": 397,
+    "2024": 407
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA SANITARIA Y AMBIENTAL",
+      "tituloSnies": "Maestria",
+      "fecha": "16-12-2005",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-06-2000",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especializaci󮼯td>23-08-2002",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALISTA EN INGENIERIA SANITARIA Y AMBIENTAL"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

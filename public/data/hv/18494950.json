@@ -1,0 +1,55 @@
+{
+  "cedula": "18494950",
+  "tipoDoc": "CC",
+  "nombre": "ARBOLEDA AUDRITO CARLOS JULIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "fechaIngreso": "37257.999814814815",
+  "estado": "ACTIVO",
+  "email": "arboleda@uniquindio.edu.co",
+  "puntosAsignados": 332.3,
+  "ptosProductividad": 129,
+  "topeMaximo": 52,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 292.3,
+    "2021": 302.3,
+    "2022": 312.3,
+    "2023": 322.3,
+    "2024": 332.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-05-1993",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "15-03-1997",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Din᭩ca Estructural de Sistemas de un grado de libertad: Un enfoque prᣴico",
+        "puntos": 12.9,
+        "resolucion": "9834"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

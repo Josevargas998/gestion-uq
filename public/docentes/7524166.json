@@ -1,0 +1,59 @@
+{
+  "cedula": "7524166",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ DE OSSA JOHN JAIRO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "garć@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARC%CD%81%20DE%20OSSA%20JOHN%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 506,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 466,
+    "2021": 476,
+    "2022": 486,
+    "2023": 496,
+    "2024": 506
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>26-06-1997",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR QUIMICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-11-1981",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "31-05-2002",
+      "puntos": 40,
+      "resolucion": "37352.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

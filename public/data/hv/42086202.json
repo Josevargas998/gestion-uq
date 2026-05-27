@@ -1,0 +1,108 @@
+{
+  "cedula": "42086202",
+  "tipoDoc": "CC",
+  "nombre": "TORRES CASTAN ANA GLADYS",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "torres@uniquindio.edu.co",
+  "puntosAsignados": 613.2,
+  "ptosProductividad": 834,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 573.2,
+    "2021": 583.2,
+    "2022": 593.2,
+    "2023": 603.2,
+    "2024": 613.2
+  },
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "ANLISIS DE LA APLICABILIDAD DE LOS BENEFICIOS TRIBUTARIOS TERRITORIALES Y SU INCIDENCIA FINANCIERA EN LAS PYMES DEL MUNICIPIO DE CIRCASIA, DEPARTAMENTO DEL QUIND͏, ENTRE LOS ANS GRAVABLES 2015 Y 2020",
+        "issn": "2323-0886",
+        "revista": "CRITERIO LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "12023"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "El impuesto a las ventas (IVA) en Colombia",
+        "puntos": 14,
+        "resolucion": "8675"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "R駩men sancionatorio tributario aplicable en Colombia",
+        "puntos": 14.3,
+        "resolucion": "10950"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Informaci󮠥x󧥮a. A񯠧ravable 2022 a presentar en el 2023",
+        "puntos": 14.3,
+        "resolucion": "12300"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "R駩men simple de tributaci󮠳imple en Colombia",
+        "puntos": 7,
+        "resolucion": "12300"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Impuesto a las ganancias para personas jur\ud929cas en Colombia",
+        "puntos": 13.7,
+        "resolucion": "12300"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Tributaci󮠳obre la renta y el patrimonio para personas naturales en Colombia",
+        "puntos": 12.9,
+        "resolucion": "10950"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Fundamentos tributarios de los impuestos de carᣴer municipal en Colombia",
+        "puntos": 13.5,
+        "resolucion": "75"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Anᬩsis del aprovechamiento de los beneficios tributarios aplicados pr las empresas PYMES del depar",
+        "puntos": 10.8,
+        "resolucion": "75"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2021",
+        "titulo": "PRIMER PUESTO EN EL TEMA DE INVESTIGACIӎ: ?SUSTENTABILIDAD Y RESPONSABILIDAD SOCIAL EMPRESARIAL?",
+        "puntos": 15,
+        "resolucion": "8675"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

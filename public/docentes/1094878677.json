@@ -1,0 +1,59 @@
+{
+  "cedula": "1094878677",
+  "tipoDoc": "CC",
+  "nombre": "HERNNDEZ CARVAJAL ANDRES MAURICIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "CIENCIAS DE LA INFORMACION Y LA DOCUMENTACION BIBLIOTECOLOGIA Y ARCHIVISTICA",
+  "email": "hernndez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "14-06-2023",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HERNNDEZ%20CARVAJAL%20ANDRES%20MAURICIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 490.8,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 450.8,
+    "2021": 460.8,
+    "2022": 470.8,
+    "2023": 480.8,
+    "2024": 490.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-04-2008",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "17-12-2014",
+      "puntos": 40,
+      "resolucion": "44958.999814814815"
+    },
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL - PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-04-2008",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

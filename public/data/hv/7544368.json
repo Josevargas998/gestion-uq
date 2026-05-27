@@ -1,0 +1,68 @@
+{
+  "cedula": "7544368",
+  "tipoDoc": "CC",
+  "nombre": "DUQUE VALENCIA JORGE LUIS",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "MEDIO TIEMPO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "34335.999814814815",
+  "estado": "ACTIVO",
+  "email": "duque@uniquindio.edu.co",
+  "puntosAsignados": 430.6,
+  "ptosProductividad": 254,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 390.6,
+    "2021": 400.6,
+    "2022": 410.6,
+    "2023": 420.6,
+    "2024": 430.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-12-1988",
+      "puntos": 183
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especialización24-06-1999",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN DOCENCIA UNIVERSITARIA",
+      "tituloSnies": "Maestria",
+      "fecha": "39482.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Semiología respiratoria integral",
+        "puntos": 12.8,
+        "resolucion": "12110"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroTexto",
+        "titulo": "Crónica de una pandemia. De la UniQuindío y el Quindío para el mundo",
+        "puntos": 12.6,
+        "resolucion": "13475"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

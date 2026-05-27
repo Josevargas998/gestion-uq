@@ -1,0 +1,59 @@
+{
+  "cedula": "7551802",
+  "tipoDoc": "CC",
+  "nombre": "CASTAхDA PATIÑ JUAN CARLOS",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "ARTES VISUALES",
+  "email": "castaхda@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "30-04-2020",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CASTA%D1%85DA%20PATI%C3%91%20JUAN%20CARLOS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 436.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 396.1,
+    "2021": 406.1,
+    "2022": 416.1,
+    "2023": 426.1,
+    "2024": 436.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "13-12-2013",
+      "puntos": 40,
+      "resolucion": "30-04-2020"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN TECNOLOGIA EDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34223.999814814815",
+      "puntos": 178,
+      "resolucion": "30-04-2020"
+    },
+    {
+      "tituloNacional": "DOCTOR EN EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "25-11-2016",
+      "puntos": 80,
+      "resolucion": "30-04-2020"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

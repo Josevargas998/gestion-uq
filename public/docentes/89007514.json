@@ -1,0 +1,73 @@
+{
+  "cedula": "89007514",
+  "tipoDoc": "CC",
+  "nombre": "MARIN HURTADO JORGE IVAN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "marin@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2001-01-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MARIN%20HURTADO%20JORGE%20IVAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 574.1,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 534.1,
+    "2021": 544.1,
+    "2022": 554.1,
+    "2023": 564.1,
+    "2024": 574.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "16-12-2004",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "16-12-2004",
+      "puntos": 40,
+      "resolucion": "38570.999814814815"
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA ELECTRICA Y DE COMPUTADORES",
+      "tituloSnies": "Doctorado",
+      "fecha": "40975.999814814815",
+      "puntos": 80,
+      "resolucion": "41732.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 178,
+      "resolucion": "26-09-2001"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

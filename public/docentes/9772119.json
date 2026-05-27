@@ -1,0 +1,59 @@
+{
+  "cedula": "9772119",
+  "tipoDoc": "CC",
+  "nombre": "ZAMBRANO VALENCIA JUAN DAVID",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "zambrano@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ZAMBRANO%20VALENCIA%20JUAN%20DAVID&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 416.9,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 376.9,
+    "2021": 386.9,
+    "2022": 396.9,
+    "2023": 406.9,
+    "2024": 416.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "24-08-2015",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>19-04-2010",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ENSEсNZA DE LA LITERATURA"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ESPAÑL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-05-2008",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

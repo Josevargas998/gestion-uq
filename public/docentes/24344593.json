@@ -1,0 +1,45 @@
+{
+  "cedula": "24344593",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA HERNANDEZ LEIDY CAROLINA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "cardona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARDONA%20HERNANDEZ%20LEIDY%20CAROLINA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 540.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 500.9,
+    "2021": 510.9,
+    "2022": 520.9,
+    "2023": 530.9,
+    "2024": 540.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN CIENCIAS SOCIALES",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-02-2010",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

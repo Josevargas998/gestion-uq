@@ -1,0 +1,52 @@
+{
+  "cedula": "41494489",
+  "tipoDoc": "CC",
+  "nombre": "CAMARGO MARTINEZ ZAHYRA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "camargo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CAMARGO%20MARTINEZ%20ZAHYRA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 1042.7,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 1002.7,
+    "2021": 1012.7,
+    "2022": 1022.7,
+    "2023": 1032.7,
+    "2024": 1042.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN LITERATURA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-07-1988",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "DOCTOR EN DIDCTICA DE LAS LENGUAS Y LA LITERARURA",
+      "tituloSnies": "Doctorado",
+      "fecha": "39051.999814814815",
+      "puntos": 80,
+      "resolucion": "13-12-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

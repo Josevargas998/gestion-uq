@@ -1,0 +1,59 @@
+{
+  "cedula": "18416179",
+  "tipoDoc": "CC",
+  "nombre": "POLANIA OBANDO LUIS FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "polania@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "27-04-2007",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=POLANIA%20OBANDO%20LUIS%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 415.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 375.6,
+    "2021": 385.6,
+    "2022": 395.6,
+    "2023": 405.6,
+    "2024": 415.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DE ANTIOQUIA",
+      "tituloSnies": "Especializaci󮼯td>22-06-2004",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN EVALUACIӎ SOCIOECONӍICA DE PROYECTOS"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "38477.999814814815",
+      "puntos": 40,
+      "resolucion": "20-03-2007"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "13-03-1996",
+      "puntos": 178,
+      "resolucion": "20-03-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

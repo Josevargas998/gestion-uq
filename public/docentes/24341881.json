@@ -1,0 +1,59 @@
+{
+  "cedula": "24341881",
+  "tipoDoc": "CC",
+  "nombre": "LONDOÑ BURITICA DIANA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "londoñ@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-02-2012",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LONDO%C3%91%20BURITICA%20DIANA%20PATRICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 334.7,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 294.7,
+    "2021": 304.7,
+    "2022": 314.7,
+    "2023": 324.7,
+    "2024": 334.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN SALUD PUBLICA",
+      "tituloSnies": "Maestria",
+      "fecha": "40673.999814814815",
+      "puntos": 40,
+      "resolucion": "20-02-2012"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especializaci󮼯td>22-12-2006",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PROMOCION DE LA SALUD"
+    },
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-06-2003",
+      "puntos": 178,
+      "resolucion": "20-02-2012"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "70420310",
+  "tipoDoc": "CC",
+  "nombre": "GӍEZ GONZLEZ EDGAR ARTURO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "gӎez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-05-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=G%D3%8DEZ%20GONZLEZ%20EDGAR%20ARTURO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 561.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 521.8,
+    "2021": 531.8,
+    "2022": 541.8,
+    "2023": 551.8,
+    "2024": 561.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "38271.999814814815",
+      "puntos": 178,
+      "resolucion": "29-02-2012"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS FISICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "22-07-2010",
+      "puntos": 120,
+      "resolucion": "29-02-2012"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

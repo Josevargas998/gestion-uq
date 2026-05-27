@@ -1,0 +1,52 @@
+{
+  "cedula": "10161105",
+  "tipoDoc": "CC",
+  "nombre": "RUIZ OCHOA PEDRO ANTONIO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "ruiz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RUIZ%20OCHOA%20PEDRO%20ANTONIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 507.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 467.3,
+    "2021": 477.3,
+    "2022": 487.3,
+    "2023": 497.3,
+    "2024": 507.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-10-1977",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "30-10-1981",
+      "puntos": 40,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

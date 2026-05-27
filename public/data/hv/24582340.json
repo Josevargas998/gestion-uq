@@ -1,0 +1,147 @@
+{
+  "cedula": "24582340",
+  "tipoDoc": "CC",
+  "nombre": "ESPITIA PEс ESPERANZA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "espitia@uniquindio.edu.co",
+  "puntosAsignados": 464.2,
+  "ptosProductividad": 846,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 424.2,
+    "2021": 434.2,
+    "2022": 444.2,
+    "2023": 454.2,
+    "2024": 464.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIN",
+      "tituloSnies": "Especialización04-11-2004",
+      "fecha": "20",
+      "puntos": 44958.999814814815
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD NARIN",
+      "tituloSnies": "Especialización04-11-2004",
+      "fecha": "",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "MINEŔ SOBRE STEAMS DE DATOS: UNA NUEVA ESTRATEGIA PARA AFIANZAR RELACIONES DE CONFIANZA EN EL MUNDO EMPRESARIAL",
+        "issn": "0798-1015",
+        "revista": "REVISTA ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10774"
+      },
+      {
+        "año": "2023",
+        "titulo": "ESTADO DE PROGRESO EN EL DESARROLLO DE PROYECTOS SOFTWARE APOYADO POR SEMAT Y QFD",
+        "issn": "0718-3291",
+        "revista": "INGENIARE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "11983"
+      },
+      {
+        "año": "2024",
+        "titulo": "INTEGRATION OF THE SOFTWARE ENGINEERING THEORY AND THE QUALITY FUNCTION DEPLOYMENT METHODOLOGY FOR SUPPORTING THE MEASUREMENT OF THE STATE OF PROGRESS IN SOFTWARE PROJECTS",
+        "issn": "2027-5846",
+        "revista": "INGENIEŔS USBMED",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13410"
+      },
+      {
+        "año": "2024",
+        "titulo": "ANLISIS DE CARACTER͓TICAS QUE INFLUYEN EN LA DESERCIӎ ESTUDIANTIL EN EL CONTEXTO DE UNA UNIVERSIDAD LATINOAMERICANA",
+        "issn": "1794-1237",
+        "revista": "REVISTA EIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13410"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Aprenda Java Fᣩlmente",
+        "puntos": 6,
+        "resolucion": "10774"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "ESTRUCTURAS DE DATOS EN JAVA",
+        "puntos": 4.2,
+        "resolucion": "10774"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Gesti󮠤e proyectos con Microsoft Project",
+        "puntos": 3.6,
+        "resolucion": "10774"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos y enfoque prᣴico del modelado de procesos de negocio como apoyo a la gesti󮠯rganizac",
+        "puntos": 12.2,
+        "resolucion": "10774"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Aplicaci󮠤el m鴯do y teor\ud860de la ingenier\ud860del software y la metodolog\ud860de despliegue de la fu",
+        "puntos": 15.3,
+        "resolucion": "11983"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Visualizaci󮠹 anᬩsis exploratorio de datos",
+        "puntos": 14.1,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Gesti󮠤e informaci󮠹 anᬩsis de datos aplicando metodolog\ud873, t飮icas y herramientas",
+        "puntos": 14.3,
+        "resolucion": "72"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2023",
+        "titulo": "DESARROLLO DE UN PROTOTIPO FUNCIONAL DE SOFTWARE PARA LA ADMINISTRACIӎ DE PROYECTOS SCRUM PARA LA E",
+        "puntos": 6.2,
+        "resolucion": "10774"
+      },
+      {
+        "año": "2023",
+        "titulo": "PROTOTIPO DE UN PROYECTOR DE EJECUTABLES PARA PLATAFORMAS WN32",
+        "puntos": 11.9,
+        "resolucion": "10774"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

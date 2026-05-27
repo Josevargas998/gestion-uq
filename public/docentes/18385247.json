@@ -1,0 +1,66 @@
+{
+  "cedula": "18385247",
+  "tipoDoc": "CC",
+  "nombre": "RAM͒EZ LOZANO JAMES",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "ram͒ez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2004-10-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RAM%CD%92EZ%20LOZANO%20JAMES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 672.9,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 632.9,
+    "2021": 642.9,
+    "2022": 652.9,
+    "2023": 662.9,
+    "2024": 672.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especializaci󮼯td>15-12-2000",
+      "fecha": "20",
+      "puntos": 38139.999814814815,
+      "resolucion": "ESPECIALISTA EN FINANZAS"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "31-12-2002",
+      "puntos": 30,
+      "resolucion": "38139.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE LA AMAZONIA",
+      "tituloSnies": "Especializaci󮼯td>25-05-2001",
+      "fecha": "10",
+      "puntos": 38139.999814814815,
+      "resolucion": "ESPECIALISTA EN GERENCIA TRIBUTARIA"
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-06-1983",
+      "puntos": 178,
+      "resolucion": "38139.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

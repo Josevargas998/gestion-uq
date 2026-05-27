@@ -1,0 +1,73 @@
+{
+  "cedula": "9732960",
+  "tipoDoc": "CC",
+  "nombre": "QUINTERO CASTAÑ VICTOR DUMAR",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "quintero@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=QUINTERO%20CASTA%C3%91%20VICTOR%20DUMAR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 808.5,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 768.5,
+    "2021": 778.5,
+    "2022": 788.5,
+    "2023": 798.5,
+    "2024": 808.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-07-2011",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-07-2011",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>15-12-2005",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA Y MERCADEO"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

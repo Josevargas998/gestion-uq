@@ -1,0 +1,52 @@
+{
+  "cedula": "25283616",
+  "tipoDoc": "CC",
+  "nombre": "VALENCIA ROJAS MONICA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "valencia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VALENCIA%20ROJAS%20MONICA%20PATRICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 422.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 382.8,
+    "2021": 392.8,
+    "2022": 402.8,
+    "2023": 412.8,
+    "2024": 422.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "BIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-03-2014",
+      "puntos": 178,
+      "resolucion": "43986.999814814815"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS AMBIENTALES",
+      "tituloSnies": "Doctorado",
+      "fecha": "41984.999814814815",
+      "puntos": 120,
+      "resolucion": "43986.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

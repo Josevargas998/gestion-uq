@@ -1,0 +1,84 @@
+{
+  "cedula": "42007084",
+  "tipoDoc": "CC",
+  "nombre": "VALENCIA CASTRILLLON MARTHA LUZ",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "36900.999814814815",
+  "estado": "ACTIVO",
+  "email": "valencia@uniquindio.edu.co",
+  "puntosAsignados": 487.4,
+  "ptosProductividad": 178,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 447.4,
+    "2021": 457.4,
+    "2022": 467.4,
+    "2023": 477.4,
+    "2024": 487.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-07-1990",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "21-03-2017",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "25-05-2001",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especialización14-12-1995",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "IMPLEMENTACIӎ Y VALIDACIӎ DE UNA ARQUITECTURA PARA UN ENTORNO VIRTUAL ADAPTATIVO",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8909"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "La investigaci󮠥n el Doctorado en Ciencias de la Educaci󮭒UDECOLOMBIA. Tomo IV",
+        "puntos": 2.8,
+        "resolucion": "9830"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Teor\ud86c investigaci󮠹 aplicaciones de la conciencia metaling𭳴ica en procesos de formaci󮠢ilin",
+        "puntos": 14.2,
+        "resolucion": "1381"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "7523648",
+  "tipoDoc": "CC",
+  "nombre": "CORREA VALENCIA CARLOS IVAN",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "email": "correa@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2010-02-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CORREA%20VALENCIA%20CARLOS%20IVAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 546.7,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 506.70000000000005,
+    "2021": 516.7,
+    "2022": 526.7,
+    "2023": 536.7,
+    "2024": 546.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "38355.999814814815",
+      "puntos": 40,
+      "resolucion": "40216.999814814815"
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-09-1991",
+      "puntos": 178,
+      "resolucion": "40216.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>29-11-2000",
+      "fecha": "20",
+      "puntos": 40216.999814814815,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACIӎ DE EMPRESAS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

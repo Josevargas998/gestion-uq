@@ -1,0 +1,75 @@
+{
+  "cedula": "30394707",
+  "tipoDoc": "CC",
+  "nombre": "MARIN ARANGO ZAIRA TATIANA",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "41699.999814814815",
+  "estado": "ACTIVO",
+  "email": "marin@uniquindio.edu.co",
+  "puntosAsignados": 495.2,
+  "ptosProductividad": 96,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 455.2,
+    "2021": 465.2,
+    "2022": 475.2,
+    "2023": 485.2,
+    "2024": 495.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE ALIMENTOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "37656.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIA Y TECNOLOGIA DE ALIMENTOS",
+      "tituloSnies": "Maestria",
+      "fecha": "30-07-2009",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "VIABILITY OF LACTOBACILLUS CASEI ATCC 393 AND PROPERTIES IN ANDEAN BLACKBERRY SUSPENSIONS WITH PROBIOTIC AND PREBIOTIC CHARACTERISTICS",
+        "issn": "0012-7353",
+        "revista": "DYNA",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2024",
+        "titulo": "BIOFORTIFIED ANDEAN BLACKBERRY (RUBUS GLAUCUS BENTH) POWDER WITH LACTICASEIBACILLUS CASEI: PROCESS AND FORMULATION EFFECTS",
+        "issn": "2046-1402",
+        "revista": "F1000RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "EFFECT OF STORAGE ON THE QUALITY OF ANDEAN BLACKBERRY (RUBUS GLAUCUS BENTH) POWDER BIOFORTIFIED WITH LACTICASEIBACILLUS CASEI ATCC393",
+        "issn": "2214-2894",
+        "revista": "FOOD PACKAGING AND SHELF LIFE",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "13405"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cedula": "41913187",
+  "tipoDoc": "CC",
+  "nombre": "ARANGO MEDINA DEICY",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "arango@uniquindio.edu.co",
+  "puntosAsignados": 537.2,
+  "ptosProductividad": 250,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 497.20000000000005,
+    "2021": 507.20000000000005,
+    "2022": 517.2,
+    "2023": 527.2,
+    "2024": 537.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-04-2000",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2024",
+        "titulo": "ANLISIS DEL CONTENIDO DE LAS DEFINICIONES DE CONTABILIDAD",
+        "issn": "1852-4184",
+        "revista": "SABERES",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13407"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Dise񯠤e una herramienta prototipo para la evaluaci󮠤e las prᣴicas de gobierno corporativo y co",
+        "puntos": 13.2,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Caracterizaci󮠤el marco normativo y las prᣴicas de gobernanza en entidades sin ᮩmo de lucro en",
+        "puntos": 11.5,
+        "resolucion": "1065"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

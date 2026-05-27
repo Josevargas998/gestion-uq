@@ -1,0 +1,45 @@
+{
+  "cedula": "79400867",
+  "tipoDoc": "CC",
+  "nombre": "MANTILLA MELUK HUGO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "mantilla@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2013-11-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MANTILLA%20MELUK%20HUGO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 538,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 498,
+    "2021": 508,
+    "2022": 518,
+    "2023": 528,
+    "2024": 538
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "BIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36230.999814814815",
+      "puntos": 178,
+      "resolucion": "41460.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

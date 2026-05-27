@@ -1,0 +1,45 @@
+{
+  "cedula": "7545283",
+  "tipoDoc": "CC",
+  "nombre": "PULGARIN GIRALDO WILLIAM",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "pulgarin@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PULGARIN%20GIRALDO%20WILLIAM&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 315.3,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 275.3,
+    "2021": 285.3,
+    "2022": 295.3,
+    "2023": 305.3,
+    "2024": 315.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>10-11-2000",
+      "fecha": "20",
+      "puntos": 42801.999814814815,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACIӎ DE EMPRESAS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

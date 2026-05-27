@@ -1,0 +1,59 @@
+{
+  "cedula": "1094947500",
+  "tipoDoc": "CC",
+  "nombre": "TORRES QUINTERO LAURA LICETH",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS PRESENCIAL",
+  "email": "torres@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TORRES%20QUINTERO%20LAURA%20LICETH&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 362.6,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 322.6,
+    "2021": 332.6,
+    "2022": 342.6,
+    "2023": 352.6,
+    "2024": 362.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ADMINISTRADOR DE NEGOCIOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-08-2015",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR DE NEGOCIOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-08-2015",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "22-06-2018",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "7520464",
+  "tipoDoc": "CC",
+  "nombre": "COLORADO TORRES HUMBERTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "colorado@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1975-01-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=COLORADO%20TORRES%20HUMBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 890.7,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 850.7,
+    "2021": 860.7,
+    "2022": 870.7,
+    "2023": 880.7,
+    "2024": 890.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "28642.999814814815",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "30287.999814814815",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

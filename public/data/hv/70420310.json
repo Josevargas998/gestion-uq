@@ -1,0 +1,93 @@
+{
+  "cedula": "70420310",
+  "tipoDoc": "CC",
+  "nombre": "GӍEZ GONZLEZ EDGAR ARTURO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "41031.999814814815",
+  "estado": "ACTIVO",
+  "email": "gӎez@uniquindio.edu.co",
+  "puntosAsignados": 561.8,
+  "ptosProductividad": 87,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 521.8,
+    "2021": 531.8,
+    "2022": 541.8,
+    "2023": 551.8,
+    "2024": 561.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "38271.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS FISICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "22-07-2010",
+      "puntos": 120
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "THE STRANGE ATTRACTION PHENOMENON IN CQED: THE INTERMEDIATE QUANTUM COUPLING REGIME",
+        "issn": "0030-4026",
+        "revista": "OPTIK - INTERNATIONAL JOURNAL FOR LIGHT AND ELECTRON OPTICS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7397"
+      },
+      {
+        "año": "2020",
+        "titulo": "IMPACT OF A TOPOLOGICAL DEFECT AND RASHBA SPIN-ORBIT INTERACTION ON THE THERMO-MAGNETIC AND OPTICAL PROPERTIES OF A 2D SEMICONDUCTOR QUANTUM DOT WITH GAUSSIAN CONFINEMENT",
+        "issn": "1386-9477",
+        "revista": "PHYSICA E: LOW-DIMENSIONAL SYSTEMS AND NANOSTRUCTURES",
+        "categoria": "A2",
+        "puntos": 4.5,
+        "resolucion": "7397"
+      },
+      {
+        "año": "2023",
+        "titulo": "MAGNETIC CONTROL OF BIEXCITONS IN A QUANTUM DOT-CAVITY SYSTEM",
+        "issn": "0375-9601",
+        "revista": "PHYSICS LETTERS A",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10815"
+      },
+      {
+        "año": "2023",
+        "titulo": "FORMATION OF SPECTRAL TRIPLETS INDUCED BY PARITY DEFORMATION IN A QUANTUM DOT?CAVITY SYSTEM",
+        "issn": "0921-4526",
+        "revista": "PHYSICA B-CONDENSED MATTER",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10815"
+      },
+      {
+        "año": "2023",
+        "titulo": "ENTANGLEMENT GENERATION BETWEEN TWO SOLID-STATE QUBITS MEDIATED BY MICROWAVE PHOTONS",
+        "issn": "0375-9601",
+        "revista": "PHYSICS LETTERS A",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10815"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

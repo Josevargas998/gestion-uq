@@ -1,0 +1,151 @@
+{
+  "cedula": "89006379",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ MERCHN VICTOR HUGO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "38261.999814814815",
+  "estado": "ACTIVO",
+  "email": "garć@uniquindio.edu.co",
+  "puntosAsignados": 548.8,
+  "ptosProductividad": 285,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 508.79999999999995,
+    "2021": 518.8,
+    "2022": 528.8,
+    "2023": 538.8,
+    "2024": 548.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR DEL PROGRAMA DE GENETICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "26-03-2012",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS BIOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "23-05-2003",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1998",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "FROM KEYSTONE SPECIES TO CONSERVATION GENETICS OF WAX PALM CEROXYLON QUINDIUENSE IN THE LARGEST WILD POPULATIONS OF COLOMBIA AND SELECTED NEIGHBORING EX SITU PLANT COLLECTIONS",
+        "issn": "0960-3115",
+        "revista": "BIODIVERSITY AND CONSERVATION",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "BIRDS VS BRICKS: PATTERNS OF SPECIES DIVERSITY IN RESPONSE TO URBANIZATION IN A NEOTROPICAL",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "INCIDENCE OF DEFORMITIES AND VARIATION IN SHAPE OF MENTUM AND WING OF CHIRONOMUS COLUMBIENSIS (DIPTERA, CHIRONOMIDAE) AS TOOLS TO ASSESS AQUATIC CONTAMINATION",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2021",
+        "titulo": "EFFECTS OF ACADEMIC DEGREE AND DISCIPLINE ON RELIGIOUS AND EVOLUTIONARY VIEWS IN CHILE AND COLOMBIA",
+        "issn": "0591-2385",
+        "revista": "ZYGON JOURNAL OF RELIGION & SCIENCE",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2021",
+        "titulo": "EFFECT OF ALTITUDE ON WING METRIC VARIATION OF AEDES AEGYPTI (DIPTERA: CULICIDAE) IN A REGION OF THE COLOMBIAN CENTRAL ANDES",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2022",
+        "titulo": "URBANIZATION IS ASSOCIATED TO A LOSS OF PHYLOGENETIC DIVERSITY OF BIRDS IN A MEDIUM SIZE CITY ON THE ANDES OF COLOMBIA, SOUTH AMERICA",
+        "issn": "1744-5140",
+        "revista": "STUDIES ON NEOTROPICAL FAUNA AND ENVIRONMENT",
+        "categoria": "A2",
+        "puntos": 3,
+        "resolucion": "9842"
+      },
+      {
+        "año": "2023",
+        "titulo": "GOCOMPARE: AN R PACKAGE TO COMPARE FUNCTIONAL ENRICHMENT ANALYSIS BETWEEN TWO SPECIES",
+        "issn": "0888-7543",
+        "revista": "GENOMICS",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2024",
+        "titulo": "HUMAN POPULATION DENSITY INFLUENCES GENETIC DIVERSITY OF TWO RATTUS SPECIES WORLDWIDE: A MACROGENETIC APPROACH",
+        "issn": "2073-4425",
+        "revista": "GENES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2025",
+        "titulo": "MITOCHONDRIAL, NUCLEAR AND MORPHOLOGICAL DIFFERENTIATION IN THE SWIMMING CRAB LIOCARCINUS DEPURATOR ALONG THE ATLANTIC-MEDITERRANEAN TRANSITION",
+        "issn": "2045-2322",
+        "revista": "SCIENTIFIC REPORTS",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "COLLETOTRICHUM SPECIES ASSOCIATED WITH ANTHRACNOSE DISEASE ON MANGO (MANGIFERA INDICA L.) CV. AZڃAR IN COLOMBIA",
+        "issn": "1715-2992",
+        "revista": "CANADIAN JOURNAL OF PLANT PATHOLOGY",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "1439"
+      }
+    ],
+    "libros": [],
+    "premios": [
+      {
+        "año": "2020",
+        "titulo": "TERCER PUESTO A LA MEJOR PONENCIA ORAL EN EL MARCO DEL VII SIMPOSIO COLOMBIANO DE BIOLOǴ EVOLUTIVA",
+        "puntos": 15,
+        "resolucion": "7391"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

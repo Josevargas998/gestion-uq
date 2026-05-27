@@ -1,0 +1,158 @@
+{
+  "cedula": "66736378",
+  "tipoDoc": "CC",
+  "nombre": "LOANGO CHAMORRO NELSY",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "39084.999814814815",
+  "estado": "ACTIVO",
+  "email": "loango@uniquindio.edu.co",
+  "puntosAsignados": 599.7,
+  "ptosProductividad": 210,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 559.7,
+    "2021": 569.7,
+    "2022": 579.7,
+    "2023": 589.7,
+    "2024": 599.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-06-2005",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-04-1995",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-04-1995",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especialización30-08-2002",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "BIOLOGICAL ACTIVITY OF PASSIFLORA EDULIS F. FLAVICARPA ETHANOLIC LEAVES EXTRACT ON HUMAN COLONIC ADENOCARCINOMA CELLS",
+        "issn": "2231-3354",
+        "revista": "REVISTA JOURNAL OF APPLIED PHARMACEUTICAL SCIENCE",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "IMPACT OF IN VITRO GASTROINTESTINAL DIGESTION ON THE BIOACCESSIBILITY AND ANTIOXIDANT CAPACITY OF BIOACTIVE COMPOUNDS FROM PASSION FRUIT (PASSIFLORA EDULIS) LEAVES AND JUICE EXTRACTS",
+        "issn": "1745-4514",
+        "revista": "REVISTA JOURNAL OF FOOD BIOCHEMESTRY",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "MODELOS CELULARES HEPTICOS PARA EL ESTUDIO DEL METABOLISMO DE LOS L͐IDOS. REVISIӎ DE LITERATURA",
+        "issn": "0120-0011",
+        "revista": "REVISTA DE LA FACULTAD DE MEDICINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "CHEMICAL COMPOSITION OF MANGO (MANGIFERA INDICA L.) FRUIT: NUTRITIONAL AND PHYTOCHEMICAL COMPOUNDS",
+        "issn": "1664-462X",
+        "revista": "REVISTA FRONTIERS IN PLANT SCIENCE",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2022",
+        "titulo": "EVALUATION OF ANTIBACTERIAL ACTIVITY OF EXTRACT AND ESSENTIAL OIL OF TAGETES PATULA L. IN VITRO AGAINST RALSTONIA SOLANACEARUM BIOVAR 2",
+        "issn": "0323-5408",
+        "revista": "ARCHIVES OF PHYTOPATHOLOGY AND PLANT PROTECTION",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "9842"
+      },
+      {
+        "año": "2022",
+        "titulo": "ARYLESTERASE ACTIVITY OF PARAOXONASE 1 (PON1) ON HDL3 AND HDL2: RELATIONSHIP WITH Q192R, C-108T, AND L55M POLYMORPHISMS",
+        "issn": "2405-5808",
+        "revista": "BIOCHEMISTRY AND BIOPHYSICS REPORTS",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "9842"
+      },
+      {
+        "año": "2024",
+        "titulo": "IDENTIFICATION OF POTENTIAL BIOACTIVE COMPOUNDS OF PASSIFLORA EDULIS LEAF EXTRACT AGAINST COLO ADENOCARCINOMA CELLS",
+        "issn": "2405-5808",
+        "revista": "BIOCHEMISTRY AND BIOPHYSICS REPORTS",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2025",
+        "titulo": "EFECTOS DEL EJERCICIO COMBINADO (AERӂICO Y DE FUERZA) SOBRE LA COMPOSICIӎ CORPORAL Y LA CONDICIӎ F͓ICA DE PACIENTES Y SOBREVIVIENTES DE CNCER DE MAMA. UNA REVISIӎ SISTEMTICA DE ENSAYOS CL͎ICOS (EFFECTS OF COMBINED EXERCISE (AEROBIC AND RESISTANCE) ON BODY COMPOSITION AND PHYSICAL CONDITION IN BREAST CANCER PATIENTS AND SURVIVORS. A SYSTEMATIC REVIEW OF CLINICAL TRIALS)",
+        "issn": "1579-1726",
+        "revista": "RETOS NUEVAS TENDENCIAS EN EDUCACIӎ F͓ICA DEPORTE Y RECREACIӎ",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "MODULACIӎ POR PASSIFLORA EDULIS DE TRIGLICɒIDOS Y COLESTEROL INTRACELULARES EN L͎EAS CELULARES DE CNCER COLORRECTAL SW480 Y SUS DERIVADAS METASTSICAS (SW620)",
+        "issn": "0717-7917",
+        "revista": "BOLET͎ LATINOAMERICANO Y DEL CARIBE DE PLANTAS MEDICINALES Y AROMTICAS",
+        "categoria": "B",
+        "puntos": 2.7,
+        "resolucion": "1101"
+      },
+      {
+        "año": "2025",
+        "titulo": "PHYTOCHEMICALS AND COLORECTAL CANCER: ABOUT POLYPHENOLS",
+        "issn": "0717-7917",
+        "revista": "BOLET͎ LATINOAMERICANO Y DEL CARIBE DE PLANTAS MEDICINALES Y AROMTICAS",
+        "categoria": "B",
+        "puntos": 2.7,
+        "resolucion": "1439"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Descripci󮬠caracter\udcf4icas y beneficios de Passiflora edulis: parchita, fruto de la pasi󮬠maracu",
+        "puntos": 5.5,
+        "resolucion": "12039"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

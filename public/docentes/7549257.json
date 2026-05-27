@@ -1,0 +1,66 @@
+{
+  "cedula": "7549257",
+  "tipoDoc": "CC",
+  "nombre": "GOMEZ MARIN JORGE ENRIQUE",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "gomez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "20-09-2000",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GOMEZ%20MARIN%20JORGE%20ENRIQUE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 1017.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 977.3,
+    "2021": 987.3,
+    "2022": 997.3,
+    "2023": 1007.3,
+    "2024": 1017.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1990",
+      "puntos": 183,
+      "resolucion": "31-08-2000"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "18-07-1997",
+      "puntos": 80,
+      "resolucion": "31-08-2000"
+    },
+    {
+      "tituloNacional": "MAGISTER EN MEDICINA TROPICAL",
+      "tituloSnies": "Maestria",
+      "fecha": "23-09-1993",
+      "puntos": 40,
+      "resolucion": "31-08-2000"
+    },
+    {
+      "tituloNacional": "POST DOCTORAT EN IMPLEMENTACION DE UN BANCO DE DATOS ESPECTRALESPOR LA TECNICA FTIR",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-12-1998",
+      "puntos": 10,
+      "resolucion": "31-08-2000"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "24602147",
+  "tipoDoc": "CC",
+  "nombre": "CARVAJAL OROZCO NELLY",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION FINANCIERA",
+  "email": "carvajal@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARVAJAL%20OROZCO%20NELLY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 346.7,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 306.7,
+    "2021": 316.7,
+    "2022": 326.7,
+    "2023": 336.7,
+    "2024": 346.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "33117.999814814815",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION FINANCIERA",
+      "tituloSnies": "Maestria",
+      "fecha": "41586.999814814815",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE MEDELLIN",
+      "tituloSnies": "Especializaci󮼯td>01-12-2011",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN FINANZAS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

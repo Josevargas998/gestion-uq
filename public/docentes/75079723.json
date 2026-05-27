@@ -1,0 +1,59 @@
+{
+  "cedula": "75079723",
+  "tipoDoc": "CC",
+  "nombre": "AYALA ZULUAGA JOSE ENVER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "email": "ayala@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=AYALA%20ZULUAGA%20JOSE%20ENVER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 589.3,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 549.3,
+    "2021": 559.3,
+    "2022": 569.3,
+    "2023": 579.3,
+    "2024": 589.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-10-2006",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "17-12-2007",
+      "puntos": 80,
+      "resolucion": "41732.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y RECREACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-01-2000",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cedula": "7535884",
+  "tipoDoc": "CC",
+  "nombre": "MURILLO WILLS HECTOR",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "murillo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1989-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MURILLO%20WILLS%20HECTOR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 349.7,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 309.7,
+    "2021": 319.7,
+    "2022": 329.7,
+    "2023": 339.7,
+    "2024": 349.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1986",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

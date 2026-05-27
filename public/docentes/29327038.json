@@ -1,0 +1,45 @@
+{
+  "cedula": "29327038",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO PELAEZ MARTHA CECILIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "giraldo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GIRALDO%20PELAEZ%20MARTHA%20CECILIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 408.5,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 368.5,
+    "2021": 378.5,
+    "2022": 388.5,
+    "2023": 398.5,
+    "2024": 408.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

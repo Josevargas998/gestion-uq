@@ -1,0 +1,100 @@
+{
+  "cedula": "24809412",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO CORREA MARIA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS DISTANCIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "giraldo@uniquindio.edu.co",
+  "puntosAsignados": 532.3,
+  "ptosProductividad": 419,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 492.29999999999995,
+    "2021": 502.29999999999995,
+    "2022": 512.3,
+    "2023": 522.3,
+    "2024": 532.3
+  },
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "INTENCIӎ EMPRENDEDORA EN COLOMBIA: EL CASO DE LOS ESTUDIANTES DE MAESTŔ EN ADMINISTRACIӎ",
+        "issn": "1208-160",
+        "revista": "REVISTA ESCUELA DE ADMINISTRACIӎ DE NEGOCIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7390"
+      },
+      {
+        "año": "2021",
+        "titulo": "RESPONSABILIDAD AMBIENTAL COMO ESTRATEGIA COMPETITIVA DE LAS ORGANIZACIONES",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8676"
+      },
+      {
+        "año": "2022",
+        "titulo": "PROTECCIӎ DEL MEDIO AMBIENTE EN ALOJAMIENTOS RURALES DEL DEPARTAMENTO DEL QUIND͏",
+        "issn": "0124-0099",
+        "revista": "REVISTA DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "10470"
+      },
+      {
+        "año": "2025",
+        "titulo": "CARACTERIZACIӎ DE EMPRESAS DE BASE BIOTECNOLӇICA EN EL EJE CAFETERO",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "826"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Competitividad y gesti󮠥mpresarial, Modelo gesti󮠥mpresarial (MGE)",
+        "puntos": 10.1,
+        "resolucion": "8676"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Competencias de la educaci󮠳uperior y la relaci󮠣on el paradigma de la complejidad",
+        "puntos": 14.8,
+        "resolucion": "826"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Didᣴica para la ense񡮺a de la admnistraci󮠹 las finanzas en la educaci󮠳uperior",
+        "puntos": 13.1,
+        "resolucion": "826"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2025",
+        "titulo": "GANADORA DE LA CATEGOŔ \"MAESTRO DE MAESTROS\"",
+        "puntos": 10,
+        "resolucion": "826"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

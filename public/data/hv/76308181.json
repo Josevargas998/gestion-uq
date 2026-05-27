@@ -1,0 +1,117 @@
+{
+  "cedula": "76308181",
+  "tipoDoc": "CC",
+  "nombre": "CUENU CABEZAS FERNANDO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "37257.999814814815",
+  "estado": "ACTIVO",
+  "email": "cuenu@uniquindio.edu.co",
+  "puntosAsignados": 548.1,
+  "ptosProductividad": 122,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 508.1,
+    "2021": 518.1,
+    "2022": 528.1,
+    "2023": 538.1,
+    "2024": 548.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-11-1995",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS QUIMICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "40673.999814814815",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "24-03-2000",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "SYNTHESIS, STRUCTURAL CHARACTERIZATION, AND THEORETICAL STUDIES OF NEW PYRAZOLE (E)-2-{[(5-(TERT-BUTYL)-1H-PYRAZOL-3-YL)IMINO]METHYL}PHENOL AND (E)-2-{[(1-(4-BROMOPHENYL)-3- TERT-BUTYL)-1H-PYRAZOL-5-YL] IMINO]METHYL}PHENOL",
+        "issn": "0022-2860",
+        "revista": "REVISTA JOURNAL OF MOLECULAR STRUCTURE",
+        "categoria": "B",
+        "puntos": 1.7,
+        "resolucion": "7653"
+      },
+      {
+        "año": "2022",
+        "titulo": "SYNTHESIS, STRUCTURAL CHARACTERIZATION, AND IN VITRO AND IN SILICO ANTIFUNGAL EVALUATION OF AZO-AZOMETHINE PYRAZOLES (PHN2(PHOH)CHN(C3N2(CH3)3)PHR, R = H OR NO2)",
+        "issn": "1420-3049",
+        "revista": "MOLECULES",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "9829"
+      },
+      {
+        "año": "2022",
+        "titulo": "HYBRID MATERIAL BY ANCHORING A RUTHENIUM (II) IMINE COMPLEX TO SIO2: PREPARATION, CHARACTERIZATION AND DFT STUDIES",
+        "issn": "2046-2069",
+        "revista": "RSC ADVANCES",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "9829"
+      },
+      {
+        "año": "2022",
+        "titulo": "SYNTHESIS AND ANTIFUNGAL ACTIVITY OF NITROPHENYL PYRAZOLE SUBSTITUTED SCHIFF BASES",
+        "issn": "0022-2860",
+        "revista": "JOURNAL OF MOLECULAR STRUCTURE",
+        "categoria": "A2",
+        "puntos": 3,
+        "resolucion": "9829"
+      },
+      {
+        "año": "2023",
+        "titulo": "CRYSTALLINE DERIVATIVES OF DIPYRAZOLO-1,5-DIAZOCINE AND DIPYRAZOLOPYRIMIDINE: A CASE OF UNEXPECTED SYNTHESIS AND ISOSTRUCTURAL POLYMORPHISM",
+        "issn": "2073-4352",
+        "revista": "CRYTALS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12027"
+      },
+      {
+        "año": "2025",
+        "titulo": "SYNTHESIS AND CHARACTERIZATION OF NEW BASES DERIVED FROM NITROPHENYLPYRAZOLES, COORDINATION TO PALLADIUM AND ANTIFUNGAL ACTIVITY AND CATALYTIC ACTIVITY IN MIZOROKI?HECK REACTIONS",
+        "issn": "2073-4344",
+        "revista": "CATALYSTS",
+        "categoria": "A2",
+        "puntos": 3,
+        "resolucion": "984"
+      },
+      {
+        "año": "2025",
+        "titulo": "FORMATION OF C?C AND C?N BONDS THROUGH PRIMARY ALCOHOL OXIDATION CATALYZED BY RUTHENIUM(II) POCOP PINCER COMPLEXES",
+        "issn": "1099-0739",
+        "revista": "APPLIED ORGANOMETALLIC CHEMISTRY",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "1384"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

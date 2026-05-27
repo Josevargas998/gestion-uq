@@ -1,0 +1,59 @@
+{
+  "cedula": "15435040",
+  "tipoDoc": "CC",
+  "nombre": "RESTREPO PATIÑ MEDARDO DE JESUS",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "email": "restrepo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RESTREPO%20PATI%C3%91%20MEDARDO%20DE%20JESUS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 412.4,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 372.4,
+    "2021": 382.4,
+    "2022": 392.4,
+    "2023": 402.4,
+    "2024": 412.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ECONOMIA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-10-2005",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MASTER UNIVERSITARIO EN INVESTIGACION EN ECONOMIA APLICADA",
+      "tituloSnies": "Maestria",
+      "fecha": "20-11-2012",
+      "puntos": 20,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-08-2000",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

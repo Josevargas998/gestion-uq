@@ -1,0 +1,52 @@
+{
+  "cedula": "24347314",
+  "tipoDoc": "CC",
+  "nombre": "VELA MURILLO NORMA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "vela@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VELA%20MURILLO%20NORMA%20PATRICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 416.7,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 376.7,
+    "2021": 386.7,
+    "2022": 396.7,
+    "2023": 406.7,
+    "2024": 416.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "TRABAJADOR SOCIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "37628.999814814815",
+      "puntos": 178,
+      "resolucion": "40944.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN TERRITORIO CONFLICTO Y CULTURA",
+      "tituloSnies": "Maestria",
+      "fecha": "15-07-2011",
+      "puntos": 40,
+      "resolucion": "40944.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cedula": "7527497",
+  "tipoDoc": "CC",
+  "nombre": "MONTES SALAZAR CARLOS ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "montes@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2009-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MONTES%20SALAZAR%20CARLOS%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 1061.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 1021.5999999999999,
+    "2021": 1031.6,
+    "2022": 1041.6,
+    "2023": 1051.6,
+    "2024": 1061.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>31-07-1998",
+      "fecha": "10",
+      "puntos": 38139.999814814815,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACIӎ FINANCIERA"
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-03-1984",
+      "puntos": 178,
+      "resolucion": "38139.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD AUTONOMA DE BUCARAMANGA",
+      "tituloSnies": "Especializaci󮼯td>28-04-1995",
+      "fecha": "20",
+      "puntos": 38139.999814814815,
+      "resolucion": "ESPECIALISTA EN REVISORIA FISCAL Y AUDITORIA EXTERNA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "27-10-2006",
+      "puntos": 30,
+      "resolucion": "14-12-2006"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

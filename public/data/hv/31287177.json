@@ -1,0 +1,153 @@
+{
+  "cedula": "31287177",
+  "tipoDoc": "CC",
+  "nombre": "LANDAZURI PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "28-04-1987",
+  "estado": "ACTIVO",
+  "email": "landazuri@uniquindio.edu.co",
+  "puntosAsignados": 1018,
+  "ptosProductividad": 274,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 978,
+    "2021": 988,
+    "2022": 998,
+    "2023": 1008,
+    "2024": 1018
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR BIOLOGIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-1980",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "17-02-1995",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "DISLIPIDEMIA Y RELACIӎ CON ENFERMEDAD TIROIDEA EN AGRICULTORES DE LA ZONA CAFETERA",
+        "issn": "2248-6054",
+        "revista": "ACTA MɄICA COLOMBIANA",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2020",
+        "titulo": "CHEMICAL COMPOSITION OF MANGO (MANGIFERA INDICA L.) FRUIT: NUTRITIONAL AND PHYTOCHEMICAL COMPOUNDS",
+        "issn": "1664-462X",
+        "revista": "REVISTA FRONTIERS IN PLANT SCIENCE",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2020",
+        "titulo": "MODELOS CELULARES HEPTICOS PARA EL ESTUDIO DEL METABOLISMO DE LOS L͐IDOS. REVISIӎ DE LITERATURA",
+        "issn": "0120-0011",
+        "revista": "REVISTA DE LA FACULTAD DE MEDICINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2021",
+        "titulo": "DETERMINATION OF ORGANOCHLORINE AND ORGANOPHOSPHORUS RESIDUES IN SURFACE WATERS FROM THE COFFEE ZONE IN QUIND͏, COLOMBIA",
+        "issn": "1532-4109",
+        "revista": "JOURNAL OF ENVIRONMENTAL SCIENCE AND HEALTH, PART B",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2022",
+        "titulo": "ARYLESTERASE ACTIVITY OF PARAOXONASE 1 (PON1) ON HDL3 AND HDL2: RELATIONSHIP WITH Q192R, C-108T, AND L55M POLYMORPHISMS",
+        "issn": "2405-5808",
+        "revista": "BIOCHEMISTRY AND BIOPHYSICS REPORTS",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "9828"
+      },
+      {
+        "año": "2022",
+        "titulo": "EFFECT OF A SHOCK MICRO-CYCLE ON BIOCHEMICAL MARKERS IN UNIVERSITY SOCCER PLAYERS",
+        "issn": "1660-4601",
+        "revista": "INTERNATIONAL JOURNAL OF ENVIRONMENTAL RESEARCH AND PUBLIC HEALTH",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9828"
+      },
+      {
+        "año": "2023",
+        "titulo": "MARCADORES BIOQU͍ICOS DE ESTRɓ OXIDATIVO EN JUGADORAS UNIVERSITARIAS DE VOLEIBOL. EFECTO DEL CONSUMO DE PASSIFLORA EDULIS (BIOCHEMICAL MARKERS OF OXIDATIVE STRESS IN FEMALE VOLLEYBALL PLAYERS. EFFECT OF CONSUMPTION OF PASSIFLORA EDULIS)",
+        "issn": "1579-1726",
+        "revista": "RETOS",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "12110"
+      },
+      {
+        "año": "2025",
+        "titulo": "PHYTOCHEMICALS AND COLORECTAL CANCER: ABOUT POLYPHENOLS",
+        "issn": "0717-7917",
+        "revista": "BOLET͎ LATINOAMERICANO Y DEL CARIBE DE PLANTAS MEDICINALES Y AROMTICAS",
+        "categoria": "B",
+        "puntos": 2.7,
+        "resolucion": "1376"
+      },
+      {
+        "año": "2025",
+        "titulo": "MODULACIӎ POR PASSIFLORA EDULIS DE TRIGLICɒIDOS Y COLESTEROL INTRACELULARES EN L͎EAS CELULARES DE CNCER COLORRECTAL SW480 Y SUS DERIVADAS METASTSICAS (SW620)",
+        "issn": "0717-7917",
+        "revista": "BOLET͎ LATINOAMERICANO Y DEL CARIBE DE PLANTAS MEDICINALES Y AROMTICAS",
+        "categoria": "B",
+        "puntos": 2.7,
+        "resolucion": "1047"
+      },
+      {
+        "año": "2025",
+        "titulo": "EFECTOS DEL EJERCICIO COMBINADO (AERӂICO Y DE FUERZA) SOBRE LA COMPOSICIӎ CORPORAL Y LA CONDICIӎ F͓ICA DE PACIENTES Y SOBREVIVIENTES DE CNCER DE MAMA. UNA REVISIӎ SISTEMTICA DE ENSAYOS CL͎ICOS (EFFECTS OF COMBINED EXERCISE (AEROBIC AND RESISTANCE) ON BODY COMPOSITION AND PHYSICAL CONDITION IN BREAST CANCER PATIENTS AND SURVIVORS. A SYSTEMATIC REVIEW OF CLINICAL TRIALS)",
+        "issn": "1579-1726",
+        "revista": "RETOS NUEVAS TENDENCIAS EN EDUCACIӎ F͓ICA DEPORTE Y RECREACIӎ",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "1376"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Descripci󮬠caracter\udcf4icas y beneficios de Passiflora edulis: parchita, fruto de la pasi󮬠maracu",
+        "puntos": 5.5,
+        "resolucion": "12110"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2022",
+        "titulo": "MEJOR POSTER NACIONAL",
+        "puntos": 7.5,
+        "resolucion": "10471"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

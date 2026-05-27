@@ -1,0 +1,63 @@
+{
+  "cedula": "29327038",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO PELAEZ MARTHA CECILIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "giraldo@uniquindio.edu.co",
+  "puntosAsignados": 408.5,
+  "ptosProductividad": 422,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 368.5,
+    "2021": 378.5,
+    "2022": 388.5,
+    "2023": 398.5,
+    "2024": 408.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroEnsayo",
+        "titulo": "Dimensi󮠤e brechas laborales entre las competencias profesionales y laborales de egresados de los",
+        "puntos": 14.3,
+        "resolucion": "7394"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Conceptualizaci󮠹 prᣴica de la Contabilidad, Tomo III Estructura de Inversi󮠤e Activos",
+        "puntos": 14.4,
+        "resolucion": "8675"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Conceptualizaci󮠹 prᣴica de la Contabilidad, Tomo II Constituci󮠤e Empresas y su Ciclo Contabl",
+        "puntos": 13.5,
+        "resolucion": "8675"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

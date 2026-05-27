@@ -1,0 +1,100 @@
+{
+  "cedula": "1094882594",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA PATIN JHOJAN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "cardona@uniquindio.edu.co",
+  "puntosAsignados": 425.9,
+  "ptosProductividad": 468,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 385.9,
+    "2021": 395.9,
+    "2022": 405.9,
+    "2023": 415.9,
+    "2024": 425.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-2010",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-2010",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "SENTIDOS QUE LE OTORGAN LOS MAESTROS A LA MOTRICIDAD COMO UN SABER PARA LA ENSEсNZA",
+        "issn": "0120-677X",
+        "revista": "EDUCACION FISICA Y DEPORTES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10691"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Cultura f\udce9ca: Marco L󧩣o de sus Ქas afines",
+        "puntos": 9.3,
+        "resolucion": "10691"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "MAGMA DOCENTE: Licenciados en educaci𮠦isica: en Expansion y Virtud Laboral",
+        "puntos": 13.1,
+        "resolucion": "10691"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Actividad f\udce9ca, formaci󮠹 espacio para la salud en la universidad",
+        "puntos": 13,
+        "resolucion": "74"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Masaje deportivo: fundamentos y aplicaciones prᣴicas",
+        "puntos": 10.7,
+        "resolucion": "1382"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Del pensamiento motriz, al pensamiento formal: 21 logros evidenciados desde la epistemolog\ud860gen鴩c",
+        "puntos": 15,
+        "resolucion": "1382"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Sedentarismo y actividad f\udce9ca hacia una configuraci󮠤e la cultura f\udce9ca para la salud: perspect",
+        "puntos": 10.1,
+        "resolucion": "74"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

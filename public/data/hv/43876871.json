@@ -1,0 +1,159 @@
+{
+  "cedula": "43876871",
+  "tipoDoc": "CC",
+  "nombre": "AGUDELO LAVERDE LINA MARCELA",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "20-11-2014",
+  "estado": "ACTIVO",
+  "email": "agudelo@uniquindio.edu.co",
+  "puntosAsignados": 600.6,
+  "ptosProductividad": 580,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 560.6,
+    "2021": 570.6,
+    "2022": 580.6,
+    "2023": 590.6,
+    "2024": 600.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE ALIMENTOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-2004",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "ELABORACIӎ DE PRODUCTOS TIPO TALLAR͎ LIBRES DE GLUTEN Y EVALUACIӎ DE SUS PROPIEDADES FISICOQU͍ICAS",
+        "issn": "0123-4226",
+        "revista": "U.D.C.A ACTUALIDAD Y DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2021",
+        "titulo": "RELATIVE HUMIDITY EFFECT ON ENCAPSULATION PROPERTIES OF COPRODUCTS OBTAINED FROM WET MILLING OF AMARANTH GRAIN",
+        "issn": "1692-3561",
+        "revista": "BIOTECNOLOǴ EN EL SECTOR AGROPECUARIO Y AGROINDUSTRIAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2021",
+        "titulo": "STRUCTURAL AND THERMAL PROPERTIES OF THE AMARANTH STARCH GRANULE OBTAINED BY HIGH-IMPACT WET MILLING",
+        "issn": "2194-5764",
+        "revista": "INTERNATIONAL JOURNAL OF FOOD ENGINEERING",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2022",
+        "titulo": "COMBINATION OF METHODS AS ALTERNATIVE TO MAINTAIN THE PHYSICAL-CHEMICAL PROPERTIES AND MICROBIOLOGICAL CONTENT OF HASS AVOCADO PULP DURING STORAGE",
+        "issn": "2212-4292",
+        "revista": "FOOD BIOSCIENCE",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "9835"
+      },
+      {
+        "año": "2023",
+        "titulo": "PHYSICOCHEMICAL, RHEOLOGICAL AND STRUCTURAL PROPERTIES OF FLOURS FROM SIX QUINOA CULTIVARS GROWN IN COLOMBIA",
+        "issn": "2571-581X",
+        "revista": "FRONTIERS IN SUSTAINABLE FOOD SYSTEMS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12160"
+      },
+      {
+        "año": "2023",
+        "titulo": "CHARACTERIZATION OF BY-PRODUCTS WITH HIGH FAT CONTENT DERIVED FROM THE PRODUCTION OF BOVINE GELATIN",
+        "issn": "2046-1402",
+        "revista": "F1000RESEARCH",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "12160"
+      },
+      {
+        "año": "2024",
+        "titulo": "BIOFORTIFIED ANDEAN BLACKBERRY (RUBUS GLAUCUS BENTH) POWDER WITH LACTICASEIBACILLUS CASEI: PROCESS AND FORMULATION EFFECTS",
+        "issn": "2046-1402",
+        "revista": "F1000RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "TECHNO-FUNCTIONAL PROPERTIES OF GLUTEN-FREE PASTA FROM HYPERPROTEIN QUINOA FLOUR",
+        "issn": "2405-8440",
+        "revista": "HELIYON",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "PHYSICAL, SENSORIAL, AND PHYSICOCHEMICAL CHARACTERISTICS OF ARABICA COFFEE DRIED UNDER TWO SOLAR BRIGHTNESS CONDITIONS",
+        "issn": "2227-9717",
+        "revista": "PROCESSES",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "EFFECT OF STORAGE ON THE QUALITY OF ANDEAN BLACKBERRY (RUBUS GLAUCUS BENTH) POWDER BIOFORTIFIED WITH LACTICASEIBACILLUS CASEI ATCC393",
+        "issn": "2214-2894",
+        "revista": "FOOD PACKAGING AND SHELF LIFE",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2025",
+        "titulo": "ALTERNATIVE DRYING METHOD FOR CHONTADURO PULP (BACTRIS GASIPAES) BY PULSED MICROWAVES: PHYSICOCHEMICAL ANALYSIS AND KINETIC MODEL",
+        "issn": "2772-5022",
+        "revista": "APPLIED FOOD RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1374"
+      },
+      {
+        "año": "2025",
+        "titulo": "EXTRACTION OF BIOACTIVE COMPOUNDS FROM PECAN NUTSHELL: AN ADDED-VALUE AND LOW-COST ALTERNATIVE FOR AN INDUSTRIAL WASTE",
+        "issn": "0308-8146",
+        "revista": "FOOD CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1103"
+      },
+      {
+        "año": "2025",
+        "titulo": "CACAY SEED CAKE FLOUR (CARYODENDRON ORINOCENSE KARST), PHYSICAL, FUNCTIONAL, RHEOLOGICAL AND STRUCTURAL PROPERTIES",
+        "issn": "2666-8335",
+        "revista": "FUTURE FOODS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1103"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

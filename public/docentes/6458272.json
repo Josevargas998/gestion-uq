@@ -1,0 +1,66 @@
+{
+  "cedula": "6458272",
+  "tipoDoc": "CC",
+  "nombre": "ANGEL LӐEZ RUBEN DARIO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "angel@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "16-01-2009",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ANGEL%20L%D3%90EZ%20RUBEN%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 364.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 324.6,
+    "2021": 334.6,
+    "2022": 344.6,
+    "2023": 354.6,
+    "2024": 364.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-08-2005",
+      "puntos": 20,
+      "resolucion": "23-09-2005"
+    },
+    {
+      "tituloNacional": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA",
+      "tituloSnies": "Especializaci󮼯td>08-03-1996",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GESTIӎ Y PLANIFICACIӎ DEL DESARROLLO URBANO Y REGIONAL"
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR DE EMPRESAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-11-1983",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA",
+      "tituloSnies": "Especializaci󮼯td>15-12-1992",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACION PUBLICA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

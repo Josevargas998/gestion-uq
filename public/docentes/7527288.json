@@ -1,0 +1,52 @@
+{
+  "cedula": "7527288",
+  "tipoDoc": "CC",
+  "nombre": "VERA CASTRO FERNANDO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "vera@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "28-08-1989",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VERA%20CASTRO%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 333.4,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 293.4,
+    "2021": 303.4,
+    "2022": 313.4,
+    "2023": 323.4,
+    "2024": 333.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-12-1984",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "LA UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO",
+      "tituloSnies": "Especializaci󮼯td>27-10-1988",
+      "fecha": "45",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDIATŔ"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

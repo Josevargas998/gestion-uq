@@ -1,0 +1,157 @@
+{
+  "cedula": "18390797",
+  "tipoDoc": "CC",
+  "nombre": "ABELLO MUNZ CARLOS ALBERTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "38903.999814814815",
+  "estado": "ACTIVO",
+  "email": "abello@uniquindio.edu.co",
+  "puntosAsignados": 819.8,
+  "ptosProductividad": 414,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 779.8,
+    "2021": 789.8,
+    "2022": 799.8,
+    "2023": 809.8,
+    "2024": 819.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>27-10-2006",
+      "fecha": "",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización21-12-2001",
+      "fecha": "20",
+      "puntos": 38873.999814814815
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-12-1994",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-12-1994",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "AN APPROACH TO THE STABILITY OF THE CHEN SYSTEM THROUGH HURWITZ POLYNOMIALS",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9827"
+      },
+      {
+        "año": "2022",
+        "titulo": "AN APPROACH TO THE NOTIONS OF THE TOPOLOGY OF METRIC SPACES THROUGH ANIMATIONS IN GEOGEBRA",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9827"
+      },
+      {
+        "año": "2023",
+        "titulo": "AN APPROACH TO THE STABILITY OF THE GAUSE-LOTKA-VOLTERRA COMPETITION ECOLOGICAL MODEL USING THE ROUTH-HURWITZ CRITERION",
+        "issn": "0258-2724",
+        "revista": "JOURNAL OF SOUTHWEST JIAOTONG UNIVERSITY",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12108"
+      },
+      {
+        "año": "2023",
+        "titulo": "ON THE DYNAMICS OF THE HODGKIN-HUXLEY NEURAL MODEL: A STABLE ANALYSIS USING HURWITZ POLYNOMIALS",
+        "issn": "0258-2724",
+        "revista": "JOURNAL OF SOUTHWEST JIAOTONG UNIVERSITY",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12108"
+      },
+      {
+        "año": "2023",
+        "titulo": "SIMULATION MODEL FOR THE DYNAMICS OF DENGUE WITH ASYMPTOMATIC TRANSMISSION AND THE EFFECT OF TEMPERATURE",
+        "issn": "2046-1402",
+        "revista": "F1000RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12108"
+      },
+      {
+        "año": "2024",
+        "titulo": "MODELO MATEMTICO PARA EL CONTROL DE LA TRANSMISIӎ PARALELA DEL COVID-19 POR INDIVIDUOS SINTOMTICOS Y ASINTOMTICOS",
+        "issn": "1900-4699",
+        "revista": "REVISTA FACULTAD DE CIENCIAS BSICAS",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "13473"
+      },
+      {
+        "año": "2024",
+        "titulo": "TOPOLOGY OF METRIC SPACES: A LOOK THROUGH GEOGEBRA",
+        "issn": "0258-2724",
+        "revista": "XINAN JIAOTONG DAXUE XUEBAO/JOURNAL OF SOUTHWEST JIAOTONG UNIVERSITY",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13473"
+      },
+      {
+        "año": "2024",
+        "titulo": "CHARACTERIZATION OF NON-ORIENTABLE SURFACES USING GEOGEBRA",
+        "issn": "1674-2974",
+        "revista": "HUNAN DAXUE XUEBAO/JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13473"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2021",
+        "titulo": "APLICACIONES DE LA INTEGRAL",
+        "puntos": 7.9,
+        "resolucion": "8679"
+      },
+      {
+        "año": "2025",
+        "titulo": "RESOLUCIӎ DE TRINGULOS",
+        "puntos": 9,
+        "resolucion": "1395"
+      },
+      {
+        "año": "2025",
+        "titulo": "GENTEX 24",
+        "puntos": 8.8,
+        "resolucion": "1395"
+      },
+      {
+        "año": "2025",
+        "titulo": "GENDOCSOFT",
+        "puntos": 8.4,
+        "resolucion": "1395"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

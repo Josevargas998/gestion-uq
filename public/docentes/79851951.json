@@ -1,0 +1,52 @@
+{
+  "cedula": "79851951",
+  "tipoDoc": "CC",
+  "nombre": "VALENCIA MINA WILLIAM",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "valencia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "20-11-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VALENCIA%20MINA%20WILLIAM&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 351.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 311.4,
+    "2021": 321.4,
+    "2022": 331.4,
+    "2023": 341.4,
+    "2024": 351.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA SISMICA E INGENIERIA SISMOLOGICA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-05-2010",
+      "puntos": 40,
+      "resolucion": "20-11-2014"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 178,
+      "resolucion": "20-11-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

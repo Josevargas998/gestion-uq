@@ -1,0 +1,52 @@
+{
+  "cedula": "18494950",
+  "tipoDoc": "CC",
+  "nombre": "ARBOLEDA AUDRITO CARLOS JULIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "arboleda@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2002-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ARBOLEDA%20AUDRITO%20CARLOS%20JULIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 332.3,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 292.3,
+    "2021": 302.3,
+    "2022": 312.3,
+    "2023": 322.3,
+    "2024": 332.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-05-1993",
+      "puntos": 178,
+      "resolucion": "37206.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "15-03-1997",
+      "puntos": 40,
+      "resolucion": "37206.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

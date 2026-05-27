@@ -1,0 +1,59 @@
+{
+  "cedula": "31288995",
+  "tipoDoc": "CC",
+  "nombre": "GIRON VANDERHUCK MARIA DE LAS MERCEDES",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "email": "giron@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1994-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GIRON%20VANDERHUCK%20MARIA%20DE%20LAS%20MERCEDES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 570,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 530,
+    "2021": 540,
+    "2022": 550,
+    "2023": 560,
+    "2024": 570
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "BIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-06-1984",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "DOCTOR EN ECOLOGIA Y MEDIO AMBIENTE",
+      "tituloSnies": "Doctorado",
+      "fecha": "37989.999814814815",
+      "puntos": 80,
+      "resolucion": "39027.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "33919.999814814815",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "cedula": "41935858",
+  "tipoDoc": "CC",
+  "nombre": "LӐEZ CASTAхDA LINA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "41122.999814814815",
+  "estado": "ACTIVO",
+  "email": "lӑez@uniquindio.edu.co",
+  "puntosAsignados": 414.1,
+  "ptosProductividad": 281,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 374.1,
+    "2021": 384.1,
+    "2022": 394.1,
+    "2023": 404.1,
+    "2024": 414.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "31-12-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especialización23-10-2009",
+      "fecha": "20",
+      "puntos": 41061.999814814815
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Conceptualizaci󮠹 prᣴica de la Contabilidad, Tomo III Estructura de Inversi󮠤e Activos",
+        "puntos": 14.4,
+        "resolucion": "8675"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "R駩men Tributario Especial en Colombia",
+        "puntos": 13.7,
+        "resolucion": "1065"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

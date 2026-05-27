@@ -1,0 +1,52 @@
+{
+  "cedula": "89006026",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ REINOSO PEDRO LEӎ",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "garć@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2007-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARC%CD%81%20REINOSO%20PEDRO%20LE%D3%8E&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 367.4,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 327.4,
+    "2021": 337.4,
+    "2022": 347.4,
+    "2023": 357.4,
+    "2024": 367.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-09-1998",
+      "puntos": 178,
+      "resolucion": "28-02-2007"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "16-09-2000",
+      "puntos": 40,
+      "resolucion": "28-02-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

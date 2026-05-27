@@ -1,0 +1,59 @@
+{
+  "cedula": "7522089",
+  "tipoDoc": "CC",
+  "nombre": "OSSA BOTERO JORGE RAUL",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "ossa@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=OSSA%20BOTERO%20JORGE%20RAUL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 384.2,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 344.2,
+    "2021": 354.2,
+    "2022": 364.2,
+    "2023": 374.2,
+    "2024": 384.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-06-1987",
+      "puntos": 183,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especializaci󮼯td>05-03-1993",
+      "fecha": "40",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN MICROBIOLOǴ MɄICA"
+    },
+    {
+      "tituloNacional": "OTRA UNIVERSIDAD",
+      "tituloSnies": "Especializaci󮼯td>31-12-1987",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GESTIӎ Y PLANIFICACIӎ DEL DESARROLLO URBANO Y REGIONAL"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "16747204",
+  "tipoDoc": "CC",
+  "nombre": "IBARGUEN OCAMPO FRANCISCO JAVIER",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "ibarguen@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-09-2001",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=IBARGUEN%20OCAMPO%20FRANCISCO%20JAVIER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 374,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 334,
+    "2021": 344,
+    "2022": 354,
+    "2023": 364,
+    "2024": 374
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRICISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-03-1995",
+      "puntos": 178,
+      "resolucion": "25-09-2001"
+    },
+    {
+      "tituloNacional": "MAGISTER EN AUTOMATICA",
+      "tituloSnies": "Maestria",
+      "fecha": "29-11-2002",
+      "puntos": 40,
+      "resolucion": "18-12-2002"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

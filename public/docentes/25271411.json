@@ -1,0 +1,59 @@
+{
+  "cedula": "25271411",
+  "tipoDoc": "CC",
+  "nombre": "URIBE ALVAREZ GRACIELA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "uribe@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2015-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=URIBE%20ALVAREZ%20GRACIELA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 584.3,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 544.3,
+    "2021": 554.3,
+    "2022": 564.3,
+    "2023": 574.3,
+    "2024": 584.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN DIDCTICA DE LAS LENGUAS Y LA LITERARURA",
+      "tituloSnies": "Doctorado",
+      "fecha": "25-04-2007",
+      "puntos": 120,
+      "resolucion": "26-01-2015"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LITERATURA Y LENGUA ESPAÑLA",
+      "tituloSnies": "Universitaria",
+      "fecha": "28189.999814814815",
+      "puntos": 178,
+      "resolucion": "26-01-2015"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>08-12-1994",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ENSEсNZA DE LA LITERATURA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

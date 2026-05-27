@@ -1,0 +1,66 @@
+{
+  "cedula": "18492637",
+  "tipoDoc": "CC",
+  "nombre": "TORO ZAPATA HERNAN DARIO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "toro@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TORO%20ZAPATA%20HERNAN%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 581.9,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 541.9,
+    "2021": 551.9,
+    "2022": 561.9,
+    "2023": 571.9,
+    "2024": 581.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "24-09-2010",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-02-2005",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "24-09-2010",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-02-2005",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

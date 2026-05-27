@@ -1,0 +1,45 @@
+{
+  "cedula": "1128386459",
+  "tipoDoc": "CC",
+  "nombre": "MUÑZ ARROYAVE ELKIN ARGIRO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "email": "muñz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MU%C3%91Z%20ARROYAVE%20ELKIN%20ARGIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 471.7,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 431.7,
+    "2021": 441.7,
+    "2022": 451.7,
+    "2023": 461.7,
+    "2024": 471.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-04-2009",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

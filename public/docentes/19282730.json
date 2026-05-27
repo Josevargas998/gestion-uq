@@ -1,0 +1,52 @@
+{
+  "cedula": "19282730",
+  "tipoDoc": "CC",
+  "nombre": "BAYONA ZORRO ADOLFO LEON",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "bayona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1989-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BAYONA%20ZORRO%20ADOLFO%20LEON&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 360.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 320.9,
+    "2021": 330.9,
+    "2022": 340.9,
+    "2023": 350.9,
+    "2024": 360.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "29588.999814814815",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>01-06-1988",
+      "fecha": "60",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ENDOCRINOLOGIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

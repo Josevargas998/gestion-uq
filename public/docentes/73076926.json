@@ -1,0 +1,45 @@
+{
+  "cedula": "73076926",
+  "tipoDoc": "CC",
+  "nombre": "RUIZ HOYOS BAYRON MANUEL",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "ruiz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "2011-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RUIZ%20HOYOS%20BAYRON%20MANUEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 434.9,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 394.9,
+    "2021": 404.9,
+    "2022": 414.9,
+    "2023": 424.9,
+    "2024": 434.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especializaci󮼯td>11-04-1994",
+      "fecha": "15",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DOCENCIA UNIVERSITARIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "cedula": "1094885534",
+  "tipoDoc": "CC",
+  "nombre": "TABARES RAMIREZ CARLOS ANDRES",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "tabares@uniquindio.edu.co",
+  "puntosAsignados": 558.6,
+  "ptosProductividad": 824,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 518.6,
+    "2021": 528.6,
+    "2022": 538.6,
+    "2023": 548.6,
+    "2024": 558.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-2010",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-2010",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "CONCEPCIONES SOBRE DIVERSIDAD, DE LOS ESTUDIANTES DE LA FACULTAD DE EDUCACIӎ DE LA UNIVERSIDAD DEL QUIND͏",
+        "issn": "1657-4672",
+        "revista": "PLUMILLA EDUCATIVA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10682"
+      },
+      {
+        "año": "2023",
+        "titulo": "CONCEPCIONES DE CONFLICTO ESCOLAR: UN ESTUDIO DEL CONFLICTO DESDE LA PERSPECTIVA DE LOS ESTUDIANTES",
+        "issn": "2500-5782",
+        "revista": "REVISTA DE INVESTIGACIONES UNIVERSIDAD DEL QUIND͏",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "12306"
+      },
+      {
+        "año": "2024",
+        "titulo": "TRAS LAS HUELLAS DE LA FORMACIӎ CIUDADANA EN EL CONTEXTO ESCOLAR EN COLOMBIA (FOLLOWING THE FOOTSTEPS OF CITIZENSHIP FORMATION IN THE CONTEXT OF THE SCHOOL IN COLOMBIA)",
+        "issn": "1579-1726",
+        "revista": "RETOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13412"
+      },
+      {
+        "año": "2025",
+        "titulo": "SABERES Y PERCEPCIONES FRENTE AL MASAJE DEPORTIVO DE EQUIPOS REPRESENTATIVOS DE DEPORTES DE CONJUNTO PROFESIONAL DEL DEPARTAMENTO DEL QUIND͏ (COLOMBIA) (KNOWLEDGE AND PERCEPTIONS OF PROFESSIONAL TEAM ATHLETES IN QUIND͏ (COLOMBIA) REGARDING SPORTS MASSAGE)",
+        "issn": "1579-1726",
+        "revista": "RETOS NUEVAS TENDENCIAS EN EDUCACIӎ F͓ICA DEPORTE Y RECREACIӎ",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1382"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Educaci󮠰ara la ciudadan\ud860en tiempos constituyentes: Cap\udd35lo 12 Ciudadan\ud860en Movimiento. Posibi",
+        "puntos": 1,
+        "resolucion": "12306"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Augurio de la prᣴica profesional pedag󧩣a para licenciados en la Educaci󮠆\udce9ca",
+        "puntos": 7.6,
+        "resolucion": "10682"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "ENSEсNZA BSICA Y SUPERIOR",
+        "puntos": 13.1,
+        "resolucion": "10682"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Perfiles antropom鴲icos y de condiciones f\udce9cas motrices",
+        "puntos": 11.6,
+        "resolucion": "10682"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "MAGMA DOCENTE: Licenciados en educaci𮠦isica: en Expansion y Virtud Laboral",
+        "puntos": 13.1,
+        "resolucion": "10682"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Actividad f\udce9ca, formaci󮠹 espacio para la salud en la universidad",
+        "puntos": 13,
+        "resolucion": "74"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Movimiento en interacci󮺠conceptos, manifestaciones, conjeturas para el Educador F\udce9co",
+        "puntos": 11.9,
+        "resolucion": "1382"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Masaje deportivo: fundamentos y aplicaciones prᣴicas",
+        "puntos": 10.7,
+        "resolucion": "1382"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Sedentarismo y actividad f\udce9ca hacia una configuraci󮠤e la cultura f\udce9ca para la salud: perspect",
+        "puntos": 10.1,
+        "resolucion": "74"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

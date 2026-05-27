@@ -1,0 +1,52 @@
+{
+  "cedula": "7532473",
+  "tipoDoc": "CC",
+  "nombre": "HERNANDEZ RODRIGUEZ LEONARDO ALONSO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "hernandez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-01-2005",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HERNANDEZ%20RODRIGUEZ%20LEONARDO%20ALONSO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 372.4,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 332.4,
+    "2021": 342.4,
+    "2022": 352.4,
+    "2023": 362.4,
+    "2024": 372.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FINANCIERAS Y DE SISTEMAS",
+      "tituloSnies": "Maestria",
+      "fecha": "33975.999814814815",
+      "puntos": 40,
+      "resolucion": "20-01-2005"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-05-1981",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

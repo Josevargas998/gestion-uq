@@ -1,0 +1,52 @@
+{
+  "cedula": "41941200",
+  "tipoDoc": "CC",
+  "nombre": "GAITAN BUITRAGO MARIA HELENA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "gaitan@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "2010-02-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GAITAN%20BUITRAGO%20MARIA%20HELENA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 456.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 416.1,
+    "2021": 426.1,
+    "2022": 436.1,
+    "2023": 446.1,
+    "2024": 456.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especializaci󮼯td>06-09-2007",
+      "fecha": "40",
+      "puntos": 40216.999814814815,
+      "resolucion": "ESPECIALISTA EN CIRUGIA GENERAL"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-06-2001",
+      "puntos": 183,
+      "resolucion": "40216.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

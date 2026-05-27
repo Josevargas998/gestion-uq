@@ -1,0 +1,59 @@
+{
+  "cedula": "7522684",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO GIRALDO GERMAN ANTONIO",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "giraldo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1995-05-10",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GIRALDO%20GIRALDO%20GERMAN%20ANTONIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 955.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 915.3,
+    "2021": 925.3,
+    "2022": 935.3,
+    "2023": 945.3,
+    "2024": 955.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN TECNOLOGIA DE ALIMENTOS",
+      "tituloSnies": "Doctorado",
+      "fecha": "37630.999814814815",
+      "puntos": 80,
+      "resolucion": "14-12-2006"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ALIMENTACIӎ Y NUTRICIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "16-12-1983",
+      "puntos": 40,
+      "resolucion": "34976.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR QUIMICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-10-1981",
+      "puntos": 178,
+      "resolucion": "34976.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

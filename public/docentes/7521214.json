@@ -1,0 +1,59 @@
+{
+  "cedula": "7521214",
+  "tipoDoc": "CC",
+  "nombre": "SNCHEZ JOSɠREINEL",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "snchez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SNCHEZ%20JOS%C9%A0REINEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 506.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 466.6,
+    "2021": 476.6,
+    "2022": 486.6,
+    "2023": 496.6,
+    "2024": 506.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN FILOSOFIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "17-03-2009",
+      "puntos": 80,
+      "resolucion": "40062.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "35283.999814814815",
+      "puntos": 40,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN FILOSOF́",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-1986",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

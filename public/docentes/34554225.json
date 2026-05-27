@@ -1,0 +1,59 @@
+{
+  "cedula": "34554225",
+  "tipoDoc": "CC",
+  "nombre": "GUZMAN MELENDEZ MARIA ROSA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "guzman@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-01-2005",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GUZMAN%20MELENDEZ%20MARIA%20ROSA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 333,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 293,
+    "2021": 303,
+    "2022": 313,
+    "2023": 323,
+    "2024": 333
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL CAUCA",
+      "tituloSnies": "Especializaci󮼯td>03-05-1996",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN INGENIERIA DE VIAS TERRESTRES"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-12-1994",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA DE VIAS TERRESTRES",
+      "tituloSnies": "Maestria",
+      "fecha": "38296.999814814815",
+      "puntos": 40,
+      "resolucion": "20-01-2005"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

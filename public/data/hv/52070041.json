@@ -1,0 +1,103 @@
+{
+  "cedula": "52070041",
+  "tipoDoc": "CC",
+  "nombre": "LEAL LARRARTE SANDRA ADRIANA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "27-03-2006",
+  "estado": "ACTIVO",
+  "email": "leal@uniquindio.edu.co",
+  "puntosAsignados": 580.4,
+  "ptosProductividad": 652,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 540.4,
+    "2021": 550.4,
+    "2022": 560.4,
+    "2023": 570.4,
+    "2024": 580.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34648.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DISTRITAL\"FRANCISCO JOSE DE CALDAS\"",
+      "tituloSnies": "Especialización11-04-2003",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA COMUNICACION",
+      "tituloSnies": "Maestria",
+      "fecha": "16-05-2008",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Transhumanismo y cultura",
+        "puntos": 3.2,
+        "resolucion": "8138"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Lo intercultural como problema social /educativo en Am鲩ca Latina",
+        "puntos": 11,
+        "resolucion": "9841"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Virtualidad y narraciones de ciudad",
+        "puntos": 13.4,
+        "resolucion": "10467"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Salud y Vejez: Una reflexi󮠥xistencial",
+        "puntos": 13.9,
+        "resolucion": "10467"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "El cuerpo oculto de los maniquis",
+        "puntos": 6.6,
+        "resolucion": "10953"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "El retrato del envejecimiento",
+        "puntos": 13.8,
+        "resolucion": "70"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Percepciones sociales y culturales de la vejeces en personas mayores",
+        "puntos": 13.2,
+        "resolucion": "70"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

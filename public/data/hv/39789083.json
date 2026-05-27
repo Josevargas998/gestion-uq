@@ -1,0 +1,65 @@
+{
+  "cedula": "39789083",
+  "tipoDoc": "CC",
+  "nombre": "CABEZA ACEVEDO NANCY YOMARA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "25-01-2010",
+  "estado": "ACTIVO",
+  "email": "cabeza@uniquindio.edu.co",
+  "puntosAsignados": 361.7,
+  "ptosProductividad": 146,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 321.7,
+    "2021": 331.7,
+    "2022": 341.7,
+    "2023": 351.7,
+    "2024": 361.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-12-1994",
+      "puntos": 183
+    },
+    {
+      "tituloNacional": "COLEGIO MAYOR DE NUESTRA SENRA DEL ROSARIO",
+      "tituloSnies": "Especialización09-02-2000",
+      "fecha": "40",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "OCULAR TOXOCARIASIS IN PARASITOLOGY CONSULTATION IN QUIND͏, COLOMBIA: DESCRIPTION OF CASES AND CONTACT STUDIES",
+        "issn": "1465-3664",
+        "revista": "JOURNAL OF TROPICAL PEDIATRICS",
+        "categoria": "A2",
+        "puntos": 1.8,
+        "resolucion": "8121"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Semiología respiratoria integral",
+        "puntos": 12.8,
+        "resolucion": "12110"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

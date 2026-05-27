@@ -1,0 +1,99 @@
+{
+  "cedula": "89007946",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ GIRALDO CARLOS ANDRɓ",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS PRESENCIAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "garć@uniquindio.edu.co",
+  "puntosAsignados": 355.7,
+  "ptosProductividad": 525,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 315.7,
+    "2021": 325.7,
+    "2022": 335.7,
+    "2023": 345.7,
+    "2024": 355.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "16-09-2019",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-12-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "16-09-2019",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "PROPUESTA METODOLӇICA PARA EL ANLISIS DE LA VIDEO POL͔ICA DIGITAL DESDE LA PERSPECTIVA DEL ANLISIS DEL FILM",
+        "issn": "2216-135X",
+        "revista": "ENCUENTROS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1045"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Pantallas: El Poder del Audiovisual en la Pol\udd29ca",
+        "puntos": 14.6,
+        "resolucion": "79"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Impulsando la innovaci󮠯rganizacional a trav鳠de la gesti󮠤el conocimiento",
+        "puntos": 13.4,
+        "resolucion": "1045"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Aplicaciones financieras y estructura del sistema financiero colombiano. Observaciones para Colombia",
+        "puntos": 11.7,
+        "resolucion": "79"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Ensayos uniquindianos sobre econom\ud860y sociedad. Efectos del narcotrᦩco en la econom\ud860y en la soc",
+        "puntos": 8.7,
+        "resolucion": "79"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Excel financiero. Aplicaciones prᣴicas desde lo bᳩco y para la toma de decisiones",
+        "puntos": 3.3,
+        "resolucion": "1045"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

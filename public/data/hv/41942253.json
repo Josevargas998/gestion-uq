@@ -1,0 +1,88 @@
+{
+  "cedula": "41942253",
+  "tipoDoc": "CC",
+  "nombre": "CASTRO BENAVIDES LINA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "CIENCIAS DE LA INFORMACION Y LA DOCUMENTACION BIBLIOTECOLOGIA Y ARCHIVISTICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41647.999814814815",
+  "estado": "ACTIVO",
+  "email": "castro@uniquindio.edu.co",
+  "puntosAsignados": 507.4,
+  "ptosProductividad": 201,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 467.4,
+    "2021": 477.4,
+    "2022": 487.4,
+    "2023": 497.4,
+    "2024": 507.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "41553.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "DIGITAL TRANSFORMATION IN HIGHER EDUCATION INSTITUTIONS: A SYSTEMATIC LITERATURE REVIEW",
+        "issn": "1424-8220",
+        "revista": "SENSORS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8139"
+      },
+      {
+        "año": "2023",
+        "titulo": "ESCENARIOS DE LA DOCENCIA FRENTE A LA TRANSFORMACIӎ DIGITAL DE LAS INSTITUCIONES DE EDUCACIӎ SUPERIOR",
+        "issn": "2444-8729",
+        "revista": "EDUCATION IN THE KNOWLEDGE SOCIETY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12024"
+      },
+      {
+        "año": "2023",
+        "titulo": "MEASURING DIGITAL TRANSFORMATION IN HIGHER EDUCATION INSTITUTIONS ? CONTENT VALIDITY INSTRUMENT",
+        "issn": "2210-8327",
+        "revista": "APPLIED COMPUTING AND INFORMATICS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12024"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2021",
+        "titulo": "GESTOR DE INFORMACIӎ ESPACIAL DEL CATLOGO DE SISMOS DEL OBSERVATORIO SISMOLӇICO DE LA UNIVERSIDAD",
+        "puntos": 4.3,
+        "resolucion": "8139"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

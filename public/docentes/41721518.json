@@ -1,0 +1,59 @@
+{
+  "cedula": "41721518",
+  "tipoDoc": "CC",
+  "nombre": "PINZON FANDIÑ MAGDA IVONNE",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "pinzon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1987-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PINZON%20FANDI%C3%91%20MAGDA%20IVONNE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 769.5,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 729.5,
+    "2021": 739.5,
+    "2022": 749.5,
+    "2023": 759.5,
+    "2024": 769.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE ALIMENTOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1986",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS",
+      "tituloSnies": "Doctorado",
+      "fecha": "25-07-2000",
+      "puntos": 120,
+      "resolucion": "13-12-2007"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>15-09-1995",
+      "fecha": "20",
+      "puntos": 35014.999814814815,
+      "resolucion": "ESPECIALISTA EN ECONOMIA CAFETERA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

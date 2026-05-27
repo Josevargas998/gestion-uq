@@ -1,0 +1,73 @@
+{
+  "cedula": "7528714",
+  "tipoDoc": "CC",
+  "nombre": "CHACON RAMIREZ CARLOS ALBERTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "email": "chacon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2004-09-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CHACON%20RAMIREZ%20CARLOS%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 498.2,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 458.2,
+    "2021": 468.2,
+    "2022": 478.2,
+    "2023": 488.2,
+    "2024": 498.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "40673.999814814815",
+      "puntos": 80,
+      "resolucion": "23-11-2011"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR BIOLOGIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-06-1982",
+      "puntos": 178,
+      "resolucion": "38139.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>10-11-1995",
+      "fecha": "20",
+      "puntos": 38139.999814814815,
+      "resolucion": "ESPECIALISTA EN EDUCACION AMBIENTAL"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "17-12-2003",
+      "puntos": 30,
+      "resolucion": "27-05-2004"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD SANTIAGO DE CALI",
+      "tituloSnies": "Especializaci󮼯td>25-07-2001",
+      "fecha": "10",
+      "puntos": 38139.999814814815,
+      "resolucion": "ESPECIALISTA EN GERENCIA AMBIENTAL Y DESARROLLO SOSTENIBLE"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

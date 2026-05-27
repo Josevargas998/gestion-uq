@@ -1,0 +1,66 @@
+{
+  "cedula": "41893527",
+  "tipoDoc": "CC",
+  "nombre": "NIETO CARDENAS OLGA ALICIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "nieto@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=NIETO%20CARDENAS%20OLGA%20ALICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 555.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 515.6,
+    "2021": 525.6,
+    "2022": 535.6,
+    "2023": 545.6,
+    "2024": 555.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-12-1988",
+      "puntos": 183,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "41528.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-12-2009",
+      "puntos": 80,
+      "resolucion": "41732.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN SALUD PUBLICA",
+      "tituloSnies": "Maestria",
+      "fecha": "33643.999814814815",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

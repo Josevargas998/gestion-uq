@@ -1,0 +1,59 @@
+{
+  "cedula": "89005354",
+  "tipoDoc": "CC",
+  "nombre": "GUTIERREZ ZULUAGA HEILLER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "gutierrez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GUTIERREZ%20ZULUAGA%20HEILLER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 553.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 513.2,
+    "2021": 523.2,
+    "2022": 533.2,
+    "2023": 543.2,
+    "2024": 553.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>31-12-1998",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA Y DOCENCIA UNIVERSITARIA"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-1999",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "24-01-2005",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

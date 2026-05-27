@@ -1,0 +1,52 @@
+{
+  "cedula": "7547521",
+  "tipoDoc": "CC",
+  "nombre": "GAVIRIA RINCON GERMAN",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "gaviria@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "19-08-1992",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GAVIRIA%20RINCON%20GERMAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 412.4,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 372.4,
+    "2021": 382.4,
+    "2022": 392.4,
+    "2023": 402.4,
+    "2024": 412.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-12-1985",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "LA UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO",
+      "tituloSnies": "Especializaci󮼯td>03-04-1987",
+      "fecha": "60",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN UROLOGIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

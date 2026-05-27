@@ -1,0 +1,119 @@
+{
+  "cedula": "41945894",
+  "tipoDoc": "CC",
+  "nombre": "JARAMILLO VALBUENA SONIA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "38626.999814814815",
+  "estado": "ACTIVO",
+  "email": "jaramillo@uniquindio.edu.co",
+  "puntosAsignados": 951,
+  "ptosProductividad": 753,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 911,
+    "2021": 921,
+    "2022": 931,
+    "2023": 941,
+    "2024": 951
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-04-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN SOFTWARE LIBRE",
+      "tituloSnies": "Maestria",
+      "fecha": "27-03-2009",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "OTRA UNIVERSIDAD",
+      "tituloSnies": "Especialización02-11-2007",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-04-2002",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PERFORMANCE EVALUATION OF DIFFERENT CLUSTERING ALGORITHMS FOR DATA STREAMS",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2021",
+        "titulo": "IMPLEMENTACIӎ Y VALIDACIӎ DE UNA ARQUITECTURA PARA UN ENTORNO VIRTUAL ADAPTATIVO",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 4.5,
+        "resolucion": "8129"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos de estructura de datos en java",
+        "puntos": 14.1,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡 la Programaci󮠥n Python",
+        "puntos": 14.1,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "L󧩣a de programaci󮠵sando orientaci󮠡 objetos y Java",
+        "puntos": 6.8,
+        "resolucion": "7650"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "ANALIZADOR DE SENTIMIENTOS",
+        "puntos": 14.3,
+        "resolucion": "7650"
+      },
+      {
+        "año": "2021",
+        "titulo": "O-CLUSTERING",
+        "puntos": 14.3,
+        "resolucion": "8129"
+      },
+      {
+        "año": "2021",
+        "titulo": "O-SEARCH",
+        "puntos": 6.4,
+        "resolucion": "8129"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

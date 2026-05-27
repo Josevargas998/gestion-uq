@@ -1,0 +1,66 @@
+{
+  "cedula": "41912331",
+  "tipoDoc": "CC",
+  "nombre": "GOMEZ YEPES MILENA ELIZABETH",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SALUD OCUPACIONAL",
+  "email": "gomez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-02-2004",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GOMEZ%20YEPES%20MILENA%20ELIZABETH&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 462,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 422,
+    "2021": 432,
+    "2022": 442,
+    "2023": 452,
+    "2024": 462
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD LIBRE",
+      "tituloSnies": "Especializaci󮼯td>01-12-2000",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN SALUD OCUPACIONAL GERENCIA DEL CONTROL DE RIESGOS"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "36197.999814814815",
+      "puntos": 178,
+      "resolucion": "20-02-2004"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-06-1999",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA INDUSTRIAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "40219.999814814815",
+      "puntos": 120,
+      "resolucion": "23-11-2011"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

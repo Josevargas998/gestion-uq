@@ -1,0 +1,52 @@
+{
+  "cedula": "31287177",
+  "tipoDoc": "CC",
+  "nombre": "LANDAZURI PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "landazuri@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "28-04-1987",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LANDAZURI%20PATRICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 1018,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 978,
+    "2021": 988,
+    "2022": 998,
+    "2023": 1008,
+    "2024": 1018
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR BIOLOGIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-1980",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "17-02-1995",
+      "puntos": 40,
+      "resolucion": "35014.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

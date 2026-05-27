@@ -1,0 +1,66 @@
+{
+  "cedula": "89004182",
+  "tipoDoc": "CC",
+  "nombre": "URREA GIRALDO JORGE EDUARDO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "urrea@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=URREA%20GIRALDO%20JORGE%20EDUARDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 592.2,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 552.2,
+    "2021": 562.2,
+    "2022": 572.2,
+    "2023": 582.2,
+    "2024": 592.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especializaci󮼯td>28-04-2009",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN TELEVISION"
+    },
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACION DIGITAL",
+      "tituloSnies": "Maestria",
+      "fecha": "20-06-2013",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-10-1998",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "DOCTOR EN COMUNICACION SOCIAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "44657.999814814815",
+      "puntos": 80,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

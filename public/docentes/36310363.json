@@ -1,0 +1,37 @@
+{
+  "cedula": "36310363",
+  "tipoDoc": "CC",
+  "nombre": "FLOREZ LAISECA ADRIANA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "email": "florez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=FLOREZ%20LAISECA%20ADRIANA%20MARIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 379.4,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 339.4,
+    "2021": 349.4,
+    "2022": 359.4,
+    "2023": 369.4,
+    "2024": 379.4
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

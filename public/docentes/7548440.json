@@ -1,0 +1,52 @@
+{
+  "cedula": "7548440",
+  "tipoDoc": "CC",
+  "nombre": "GOMEZ SANTOS CESAR AUGUSTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "GERONTOLOGIA",
+  "email": "gomez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GOMEZ%20SANTOS%20CESAR%20AUGUSTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 445.5,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 405.5,
+    "2021": 415.5,
+    "2022": 425.5,
+    "2023": 435.5,
+    "2024": 445.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "GERONTOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1992",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MASTER EN ECONOMIA SOCIAL Y DIRECCION DE ENTIDADES SIN ANIMO DE LUCRO",
+      "tituloSnies": "Maestria",
+      "fecha": "37540.999814814815",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

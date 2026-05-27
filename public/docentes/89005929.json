@@ -1,0 +1,73 @@
+{
+  "cedula": "89005929",
+  "tipoDoc": "CC",
+  "nombre": "CARMONA TABARES PAULO CESAR",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "carmona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-01-2005",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARMONA%20TABARES%20PAULO%20CESAR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 582.3,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 542.3,
+    "2021": 552.3,
+    "2022": 562.3,
+    "2023": 572.3,
+    "2024": 582.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-1997",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    },
+    {
+      "tituloNacional": "DOCTOR EN MATEMATICA APLICADA",
+      "tituloSnies": "Doctorado",
+      "fecha": "40918.999814814815",
+      "puntos": 80,
+      "resolucion": "41405.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "25-06-2004",
+      "puntos": 40,
+      "resolucion": "20-01-2005"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "25-06-2004",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-09-1997",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

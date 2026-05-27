@@ -1,0 +1,66 @@
+{
+  "cedula": "89000816",
+  "tipoDoc": "CC",
+  "nombre": "OROZCO GONZLEZ RICHARD JAMES",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "orozco@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=OROZCO%20GONZLEZ%20RICHARD%20JAMES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 303.8,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 263.8,
+    "2021": 273.8,
+    "2022": 283.8,
+    "2023": 293.8,
+    "2024": 303.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICINA",
+      "tituloSnies": "Universitaria",
+      "fecha": "38476.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN MORFOLOGIA HUMANA ENFASIS EN ANATOMIA",
+      "tituloSnies": "Maestria",
+      "fecha": "41555.999814814815",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 183,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "MEDICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

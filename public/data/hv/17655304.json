@@ -1,0 +1,162 @@
+{
+  "cedula": "17655304",
+  "tipoDoc": "CC",
+  "nombre": "SNCHEZ MUNZ JUAN CARLOS",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41122.999814814815",
+  "estado": "ACTIVO",
+  "email": "snchez@uniquindio.edu.co",
+  "puntosAsignados": 945.2,
+  "ptosProductividad": 1359,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 905.2,
+    "2021": 915.2,
+    "2022": 925.2,
+    "2023": 935.2,
+    "2024": 945.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DE SAN BUENAVENTURA",
+      "tituloSnies": "Especialización20-08-2004",
+      "fecha": "20",
+      "puntos": 41061.999814814815
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1998",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "39974.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "LITERACIDAD PSICAGӇICA: NOTAS SOBRE LITERACIDAD, CR͔ICA Y FORMACIӎ",
+        "issn": "2256-3202",
+        "revista": "REVISTA GUILLERMO DE OCKHAM",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "827"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Sentido de la investigaci󮠥n educaci󮠦\udce9ca",
+        "puntos": 14.2,
+        "resolucion": "7403"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "La preparaci󮠦\udce9ca en futbolistas prejuveniles",
+        "puntos": 6.7,
+        "resolucion": "7403"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "La preparaci󮠦\udce9ca en atletas infantiles",
+        "puntos": 14.1,
+        "resolucion": "7403"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Universidad: educaci󮠦\udce9ca y recreaci󮮠Contexto de las actividades recreo - deportivas",
+        "puntos": 13.1,
+        "resolucion": "8665"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Praxis docente en la bᳩca secundaria propuesta para mitigar el conflicto",
+        "puntos": 13.1,
+        "resolucion": "8665"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Procesos evaluativos de los docentes en la educaci󮠢ᳩca primaria",
+        "puntos": 8.8,
+        "resolucion": "8665"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Ethos: Augurio de la actividad fisica y los deportes",
+        "puntos": 12.6,
+        "resolucion": "10948"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Ontos - Logos - Telos de la educaci󮠳uperior",
+        "puntos": 14.6,
+        "resolucion": "827"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Resignificaci󮠤e los sentidos del ser profesional: un escenario del bien - estar formativo",
+        "puntos": 14,
+        "resolucion": "827"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Prᣴica y docencia: Indagaci󮠰or los escenarios vitales en la transformaci󮠳ocial del licenciad",
+        "puntos": 6.1,
+        "resolucion": "827"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Aciertos y desaciertos: una mirada cr\udd29ca a las prᣴicas pedag󧩣as en el nivel preescolar",
+        "puntos": 13.5,
+        "resolucion": "1382"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Del pensamiento motriz, al pensamiento formal: 21 logros evidenciados desde la epistemolog\ud860gen鴩c",
+        "puntos": 15,
+        "resolucion": "1382"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Expresiones didᣴicas y pedag󧩣as de la actividad f\udce9ca y el deporte",
+        "puntos": 15,
+        "resolucion": "827"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Una Psicopedag\ud860para la diversidad, la educaci󮠆\udce9ca y el deporte",
+        "puntos": 13.9,
+        "resolucion": "827"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

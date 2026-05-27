@@ -1,0 +1,59 @@
+{
+  "cedula": "41916725",
+  "tipoDoc": "CC",
+  "nombre": "ROMAN VALENCIA BERLY",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION FINANCIERA (CICLO PROFESIONAL)",
+  "email": "roman@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ROMAN%20VALENCIA%20BERLY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 332.3,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 292.3,
+    "2021": 302.3,
+    "2022": 312.3,
+    "2023": 322.3,
+    "2024": 332.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>29-10-2004",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGO EN GESTIӎ BANCARIA Y FINANCIERA"
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR FINANCIERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-11-2004",
+      "puntos": 178,
+      "resolucion": "24-01-2023"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION ECONOMICA Y FINANCIERA",
+      "tituloSnies": "Maestria",
+      "fecha": "41611.999814814815",
+      "puntos": 40,
+      "resolucion": "24-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

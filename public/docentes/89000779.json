@@ -1,0 +1,73 @@
+{
+  "cedula": "89000779",
+  "tipoDoc": "CC",
+  "nombre": "MEJIA SOTO EUTIMIO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "mejia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2006-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MEJIA%20SOTO%20EUTIMIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 1205.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 1165.6,
+    "2021": 1175.6,
+    "2022": 1185.6,
+    "2023": 1195.6,
+    "2024": 1205.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DE ANTIOQUIA",
+      "tituloSnies": "Especializaci󮼯td>03-12-2004",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA SOCIAL"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DESARROLLO SOSTENIBLE Y MEDIO AMBIENTE",
+      "tituloSnies": "Maestria",
+      "fecha": "18-12-2010",
+      "puntos": 40,
+      "resolucion": "13-09-2011"
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36200.999814814815",
+      "puntos": 178,
+      "resolucion": "23-02-2006"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "13-10-2004",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOSOFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-2004",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "41939761",
+  "tipoDoc": "CC",
+  "nombre": "OSPINA MARULANDA LILIANA PATRICIA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "ospina@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=OSPINA%20MARULANDA%20LILIANA%20PATRICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 508.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 468.8,
+    "2021": 478.8,
+    "2022": 488.8,
+    "2023": 498.8,
+    "2024": 508.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-06-1998",
+      "puntos": 178,
+      "resolucion": "40189.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "15-04-2005",
+      "puntos": 40,
+      "resolucion": "40189.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

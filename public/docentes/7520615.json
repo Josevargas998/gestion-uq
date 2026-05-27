@@ -1,0 +1,59 @@
+{
+  "cedula": "7520615",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ RODRIGUEZ WILLIAM",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "garć@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "30-08-1983",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARC%CC%81%20RODRIGUEZ%20WILLIAM&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 567.3,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 527.3,
+    "2021": 537.3,
+    "2022": 547.3,
+    "2023": 557.3,
+    "2024": 567.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN CIENCIAS SOCIALES",
+      "tituloSnies": "Universitaria",
+      "fecha": "28922.999814814815",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>22-02-1990",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ECONOMIA CAFETERA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DOCENCIA UNIVERSITARIA",
+      "tituloSnies": "Maestria",
+      "fecha": "31-12-1991",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

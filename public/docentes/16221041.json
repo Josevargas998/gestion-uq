@@ -1,0 +1,59 @@
+{
+  "cedula": "16221041",
+  "tipoDoc": "CC",
+  "nombre": "HOYOS GUTIERREZ JOSE GABRIEL",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "hoyos@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "18-05-1995",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HOYOS%20GUTIERREZ%20JOSE%20GABRIEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 550.8,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 510.79999999999995,
+    "2021": 520.8,
+    "2022": 530.8,
+    "2023": 540.8,
+    "2024": 550.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA ELECTRICA",
+      "tituloSnies": "Maestria",
+      "fecha": "38057.999814814815",
+      "puntos": 40,
+      "resolucion": "16-12-2004"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especializaci󮼯td>12-02-1999",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN AUTOMATIZACION INDUSTRIAL"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRICISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-01-1993",
+      "puntos": 178,
+      "resolucion": "34976.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

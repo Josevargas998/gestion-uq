@@ -1,0 +1,52 @@
+{
+  "cedula": "7552224",
+  "tipoDoc": "CC",
+  "nombre": "BERRIO MUÑZ JOAQUIN ELIER",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "berrio@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BERRIO%20MU%C3%91Z%20JOAQUIN%20ELIER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 353,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 313,
+    "2021": 323,
+    "2022": 333,
+    "2023": 343,
+    "2024": 353
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especializaci󮼯td>29-01-1999",
+      "fecha": "40",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DERMATOLOGIA"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-1991",
+      "puntos": 183,
+      "resolucion": "19-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

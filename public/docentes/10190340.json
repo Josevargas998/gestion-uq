@@ -1,0 +1,52 @@
+{
+  "cedula": "10190340",
+  "tipoDoc": "CC",
+  "nombre": "VILLA ZAPATA DUMAR ANTONIO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "villa@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1973-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VILLA%20ZAPATA%20DUMAR%20ANTONIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 1068.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 1028.4,
+    "2021": 1038.4,
+    "2022": 1048.4,
+    "2023": 1058.4,
+    "2024": 1068.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1972",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "23-10-1980",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

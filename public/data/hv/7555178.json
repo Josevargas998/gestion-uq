@@ -1,0 +1,88 @@
+{
+  "cedula": "7555178",
+  "tipoDoc": "CC",
+  "nombre": "LӐEZ GARĆ JORGE ALBERTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "31-07-2008",
+  "estado": "ACTIVO",
+  "email": "lӑez@uniquindio.edu.co",
+  "puntosAsignados": 524.8,
+  "ptosProductividad": 433,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 484.79999999999995,
+    "2021": 494.79999999999995,
+    "2022": 504.79999999999995,
+    "2023": 514.8,
+    "2024": 524.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-12-1994",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización29-10-1999",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD AUTӎOMA DE COLOMBIA",
+      "tituloSnies": "Especialización25-09-1999",
+      "fecha": "",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-08-2005",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Metodolog\ud860de la Investigaci󮮠La Oportunidad de Investigar Cualitativamente: Una Gu\ud860para el Inv",
+        "puntos": 13.6,
+        "resolucion": "8126"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "El ocio en clave padag󧩣a. Un estudio comprensivo hacia el conocimiento y desarrollo escolar.",
+        "puntos": 14.9,
+        "resolucion": "8665"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Valoraci󮠹 cuantificaci󮠤el capital humano en las universidades, como una forma de gesti󮠤el c",
+        "puntos": 13.4,
+        "resolucion": "8126"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Aproximaci󮠡 la teor\ud860de los imaginarios en Armando Silva",
+        "puntos": 14,
+        "resolucion": "1382"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

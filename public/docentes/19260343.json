@@ -1,0 +1,52 @@
+{
+  "cedula": "19260343",
+  "tipoDoc": "CC",
+  "nombre": "BOTIA SILVA NESTOR RICARDO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "botia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1993-01-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BOTIA%20SILVA%20NESTOR%20RICARDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 380,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 340,
+    "2021": 350,
+    "2022": 360,
+    "2023": 370,
+    "2024": 380
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD MILITAR\"NUEVA GRANADA\"",
+      "tituloSnies": "Especializaci󮼯td>23-02-1990",
+      "fecha": "60",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN UROLOGIA"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-06-1981",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

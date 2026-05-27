@@ -1,0 +1,59 @@
+{
+  "cedula": "7511867",
+  "tipoDoc": "CC",
+  "nombre": "URREA HENAO JAIRO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "urrea@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2002-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=URREA%20HENAO%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 346.5,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 306.5,
+    "2021": 316.5,
+    "2022": 326.5,
+    "2023": 336.5,
+    "2024": 346.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "17-11-2000",
+      "puntos": 40,
+      "resolucion": "14-12-2001"
+    },
+    {
+      "tituloNacional": "MAGISTER EN LINGډSTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-06-2014",
+      "puntos": 20,
+      "resolucion": "16-09-2014"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-10-1985",
+      "puntos": 178,
+      "resolucion": "14-12-2001"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

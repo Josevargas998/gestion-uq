@@ -1,0 +1,52 @@
+{
+  "cedula": "7555284",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ OCAMPO CARLOS ARTURO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "garć@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARC%CD%81%20OCAMPO%20CARLOS%20ARTURO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 338.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 298.6,
+    "2021": 308.6,
+    "2022": 318.6,
+    "2023": 328.6,
+    "2024": 338.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "35676.999814814815",
+      "puntos": 178,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "18-09-1999",
+      "puntos": 40,
+      "resolucion": "19-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

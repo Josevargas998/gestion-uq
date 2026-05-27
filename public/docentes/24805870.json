@@ -1,0 +1,59 @@
+{
+  "cedula": "24805870",
+  "tipoDoc": "CC",
+  "nombre": "SALAZAR SALAZAR MARLENY",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "email": "salazar@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-10-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SALAZAR%20SALAZAR%20MARLENY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 586.8,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 546.8,
+    "2021": 556.8,
+    "2022": 566.8,
+    "2023": 576.8,
+    "2024": 586.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR BIOLOGIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "29595.999814814815",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "40794.999814814815",
+      "puntos": 120,
+      "resolucion": "23-11-2011"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD CATOLICA DE MANIZALES",
+      "tituloSnies": "Especializaci󮼯td>27-03-1998",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN MICROBIOLOGIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

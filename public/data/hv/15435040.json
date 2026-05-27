@@ -1,0 +1,63 @@
+{
+  "cedula": "15435040",
+  "tipoDoc": "CC",
+  "nombre": "RESTREPO PATIN MEDARDO DE JESUS",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "restrepo@uniquindio.edu.co",
+  "puntosAsignados": 412.4,
+  "ptosProductividad": 75,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 372.4,
+    "2021": 382.4,
+    "2022": 392.4,
+    "2023": 402.4,
+    "2024": 412.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ECONOMIA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-10-2005",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "MASTER UNIVERSITARIO EN INVESTIGACION EN ECONOMIA APLICADA",
+      "tituloSnies": "Maestria",
+      "fecha": "20-11-2012",
+      "puntos": 20
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-08-2000",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "ARE NON-FUNGIBLE PAYMENTS ATTRACTIVE WHEN THEY REDUCE RISK EXPOSURE? EVIDENCE FROM COLOMBIA",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1107"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

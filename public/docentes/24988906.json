@@ -1,0 +1,59 @@
+{
+  "cedula": "24988906",
+  "tipoDoc": "CC",
+  "nombre": "SALCEDO ECHEVERRI GLADYS ELENA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "salcedo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-02-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SALCEDO%20ECHEVERRI%20GLADYS%20ELENA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 577,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 537,
+    "2021": 547,
+    "2022": 557,
+    "2023": 567,
+    "2024": 577
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN ESTADISTICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "24-03-2008",
+      "puntos": 80,
+      "resolucion": "39579.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-06-1991",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ESTADISTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "26-03-1999",
+      "puntos": 40,
+      "resolucion": "37104.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

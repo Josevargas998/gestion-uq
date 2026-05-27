@@ -1,0 +1,52 @@
+{
+  "cedula": "7503647",
+  "tipoDoc": "CC",
+  "nombre": "SALAZAR SALAZAR ORLANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "salazar@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1977-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SALAZAR%20SALAZAR%20ORLANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 573.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 533.4,
+    "2021": 543.4,
+    "2022": 553.4,
+    "2023": 563.4,
+    "2024": 573.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO MECNICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "27883.999814814815",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CENTRALES HIDROELECTRICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "32753.999814814815",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "cedula": "24347314",
+  "tipoDoc": "CC",
+  "nombre": "VELA MURILLO NORMA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "41122.999814814815",
+  "estado": "ACTIVO",
+  "email": "vela@uniquindio.edu.co",
+  "puntosAsignados": 416.7,
+  "ptosProductividad": 41,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 376.7,
+    "2021": 386.7,
+    "2022": 396.7,
+    "2023": 406.7,
+    "2024": 416.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "TRABAJADOR SOCIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "37628.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN TERRITORIO CONFLICTO Y CULTURA",
+      "tituloSnies": "Maestria",
+      "fecha": "15-07-2011",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "PODERES EN MOVIMIENTO: MOVILIZACIӎ SOCIAL Y MODULACIӎ DEL TERRITORIO. EL CASO DEL MUNICIPIO DE CAJAMARCA (TOLIMA)",
+        "issn": "0121-4705",
+        "revista": "ANLISIS POL͔ICO",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "8114"
+      },
+      {
+        "año": "2023",
+        "titulo": "GEOMETŔS DEL PODER: CONTEXTOS LABORALES EN LAS UNIVERSIDADES PڂLICAS COLOMBIANAS",
+        "issn": "0121-7550",
+        "revista": "NӍADAS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "11979"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Debates contemporᮥos: Resistencia al patriarcado, Paz y Econom\ud873 para la vida",
+        "puntos": 2.1,
+        "resolucion": "9844"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

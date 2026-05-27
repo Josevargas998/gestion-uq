@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta name="description" content="Sistema de Gestión de Productividad Docente – Oficina de Asuntos Profesorales, Universidad del Quindío" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#006B3F" />
+
+    <!-- Seguridad: Content Security Policy [S4] -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline';
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com;
+        connect-src 'self'
+          https://*.supabase.co
+          wss://*.supabase.co
+          https://www.googleapis.com
+          https://emailjs.com
+          https://api.emailjs.com;
+        img-src 'self' data: blob:;
+        frame-ancestors 'none';
+      "
+    />
+
+    <!-- Seguridad: prevenir clickjacking -->
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <!-- Seguridad: no sniff MIME type -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
+    <title>Gestión Productividad Docente · Universidad del Quindío</title>
+
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Accesibilidad: skip to content [U11] -->
+    <a
+      href="#main-content"
+      style="
+        position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;
+        background:#006B3F; color:#fff; padding:8px 16px; border-radius:4px; font-family:Nunito,sans-serif;
+      "
+      onfocus="this.style.left='8px';this.style.width='auto';this.style.height='auto';"
+      onblur="this.style.left='-9999px';this.style.width='1px';this.style.height='1px';"
+    >Ir al contenido principal</a>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

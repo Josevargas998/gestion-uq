@@ -1,0 +1,59 @@
+{
+  "cedula": "41935858",
+  "tipoDoc": "CC",
+  "nombre": "LӐEZ CASTAхDA LINA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "lӑez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=L%D3%90EZ%20CASTA%D1%85DA%20LINA%20MARIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 414.1,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 374.1,
+    "2021": 384.1,
+    "2022": 394.1,
+    "2023": 404.1,
+    "2024": 414.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "31-12-2010",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>23-10-2009",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA Y DOCENCIA UNIVERSITARIA"
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

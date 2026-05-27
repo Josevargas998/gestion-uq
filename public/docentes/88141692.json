@@ -1,0 +1,52 @@
+{
+  "cedula": "88141692",
+  "tipoDoc": "CC",
+  "nombre": "VILA ORTEGA JOSE JOAQUIN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "vila@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "15-05-1995",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VILA%20ORTEGA%20JOSE%20JOAQUIN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 503.4,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 463.4,
+    "2021": 473.4,
+    "2022": 483.4,
+    "2023": 493.4,
+    "2024": 503.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MOSCOW STATE UNIVERSITY OF GEODESY AND CARTOGRAPHY",
+      "tituloSnies": "Especializaci󮼯td>11-03-2005",
+      "fecha": "120",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GEOINFORMATICA"
+    },
+    {
+      "tituloNacional": "INGENIERO CARTOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "33913.999814814815",
+      "puntos": 178,
+      "resolucion": "34976.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

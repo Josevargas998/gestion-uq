@@ -1,0 +1,52 @@
+{
+  "cedula": "7535611",
+  "tipoDoc": "CC",
+  "nombre": "ZULUAGA GALLEGO JORGE",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "zuluaga@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1994-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ZULUAGA%20GALLEGO%20JORGE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 350.7,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 310.7,
+    "2021": 320.7,
+    "2022": 330.7,
+    "2023": 340.7,
+    "2024": 350.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FARMACOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "30-09-1993",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-12-1988",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

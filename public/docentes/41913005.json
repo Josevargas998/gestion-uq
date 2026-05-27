@@ -1,0 +1,45 @@
+{
+  "cedula": "41913005",
+  "tipoDoc": "CC",
+  "nombre": "MEJIA CASTELLANOS LUZ AMPARO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "mejia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MEJIA%20CASTELLANOS%20LUZ%20AMPARO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 494.7,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 454.7,
+    "2021": 464.7,
+    "2022": 474.7,
+    "2023": 484.7,
+    "2024": 494.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-07-1997",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

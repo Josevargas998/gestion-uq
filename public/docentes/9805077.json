@@ -1,0 +1,52 @@
+{
+  "cedula": "9805077",
+  "tipoDoc": "CC",
+  "nombre": "BOTERO ECHEVERRI GUSTAVO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN OBRAS CIVILES",
+  "email": "botero@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BOTERO%20ECHEVERRI%20GUSTAVO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 453.4,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 413.4,
+    "2021": 423.4,
+    "2022": 433.4,
+    "2023": 443.4,
+    "2024": 453.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>03-12-1998",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA DE EMPRESAS CONSTRUCTORAS"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-02-1988",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

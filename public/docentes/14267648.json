@@ -1,0 +1,52 @@
+{
+  "cedula": "14267648",
+  "tipoDoc": "CC",
+  "nombre": "VILLALOBOS NIETO GUSTAVO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "villalobos@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "18-03-1986",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VILLALOBOS%20NIETO%20GUSTAVO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 604.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 564.3,
+    "2021": 574.3,
+    "2022": 584.3,
+    "2023": 594.3,
+    "2024": 604.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO CATASTRAL Y GEODESTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "30927.999814814815",
+      "puntos": 178,
+      "resolucion": "35377.999814814815"
+    },
+    {
+      "tituloNacional": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA",
+      "tituloSnies": "Especializaci󮼯td>08-03-1996",
+      "fecha": "20",
+      "puntos": 35377.999814814815,
+      "resolucion": "ESPECIALISTA EN GESTIӎ Y PLANIFICACIӎ DEL DESARROLLO URBANO Y REGIONAL"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

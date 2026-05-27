@@ -1,0 +1,37 @@
+{
+  "cedula": "9866770",
+  "tipoDoc": "CC",
+  "nombre": "FLӒEZ GLVEZ JORGE HERNN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "flӓez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=FL%D3%92EZ%20GLVEZ%20JORGE%20HERNN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 423.4,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 383.4,
+    "2021": 393.4,
+    "2022": 403.4,
+    "2023": 413.4,
+    "2024": 423.4
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

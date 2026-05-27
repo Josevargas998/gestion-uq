@@ -1,0 +1,99 @@
+{
+  "cedula": "25156982",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO MAR͎ LUCERO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "39545.999814814815",
+  "estado": "ACTIVO",
+  "email": "giraldo@uniquindio.edu.co",
+  "puntosAsignados": 434.6,
+  "ptosProductividad": 343,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 394.6,
+    "2021": 404.6,
+    "2022": 414.6,
+    "2023": 424.6,
+    "2024": 434.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN CIENCIAS SOCIALES",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-11-1986",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización27-04-1995",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACIӎ EDUCATIVA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2007",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "LAS CONFIGURACIONES DE LA CONVIVENCIA Y SUS IMAGINARIOS: ESTUDIO EN TRES BARRIOS DE ARMENIA (QUIND͏)",
+        "issn": "0123-8418",
+        "revista": "TERRITORIOS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8138"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Transhumanismo y cultura",
+        "puntos": 3.2,
+        "resolucion": "8138"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Debates contemporᮥos: Resistencia al patriarcado, Paz y Econom\ud873 para la vida",
+        "puntos": 2.1,
+        "resolucion": "9841"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Lo intercultural como problema social /educativo en Am鲩ca Latina",
+        "puntos": 12,
+        "resolucion": "9841"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Virtualidad y narraciones de ciudad",
+        "puntos": 13.4,
+        "resolucion": "10467"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "La comedia en el cine colombiano",
+        "puntos": 14.1,
+        "resolucion": "1375"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

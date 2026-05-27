@@ -1,0 +1,52 @@
+{
+  "cedula": "16206040",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA ARIAS OSCAR MARINO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1995-11-04",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20ARIAS%20OSCAR%20MARINO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 627.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 587.3,
+    "2021": 597.3,
+    "2022": 607.3,
+    "2023": 617.3,
+    "2024": 627.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-04-1977",
+      "puntos": 178,
+      "resolucion": "34976.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-1984",
+      "puntos": 40,
+      "resolucion": "34976.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

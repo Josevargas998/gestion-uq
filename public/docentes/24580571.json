@@ -1,0 +1,66 @@
+{
+  "cedula": "24580571",
+  "tipoDoc": "CC",
+  "nombre": "SUAREZ ALBA LEONILDE",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "suarez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2007-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SUAREZ%20ALBA%20LEONILDE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 476.4,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 436.4,
+    "2021": 446.4,
+    "2022": 456.4,
+    "2023": 466.4,
+    "2024": 476.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DESARROLLO SOSTENIBLE Y MEDIO AMBIENTE",
+      "tituloSnies": "Maestria",
+      "fecha": "29-02-2008",
+      "puntos": 40,
+      "resolucion": "13-06-2008"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>12-12-1996",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN EDUCACION AMBIENTAL"
+    },
+    {
+      "tituloNacional": "DOCTOR EN EDUCACION AMBIENTAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "41700.999814814815",
+      "puntos": 80,
+      "resolucion": "16-09-2014"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN PROMOCION DE LA COMUNIDAD",
+      "tituloSnies": "Universitaria",
+      "fecha": "34310.999814814815",
+      "puntos": 178,
+      "resolucion": "28-02-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

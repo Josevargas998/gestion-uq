@@ -1,0 +1,52 @@
+{
+  "cedula": "52105400",
+  "tipoDoc": "CC",
+  "nombre": "HERNANDEZ MOLINA MAGDA YAZMIN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "hernandez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HERNANDEZ%20MOLINA%20MAGDA%20YAZMIN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 308,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 268,
+    "2021": 278,
+    "2022": 288,
+    "2023": 298,
+    "2024": 308
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-1995",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "30-10-2009",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

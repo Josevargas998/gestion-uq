@@ -1,0 +1,52 @@
+{
+  "cedula": "18397252",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA USUGA JORGE MARIO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "31-07-2008",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20USUGA%20JORGE%20MARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 582.7,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 542.7,
+    "2021": 552.7,
+    "2022": 562.7,
+    "2023": 572.7,
+    "2024": 582.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAG͓TER EN ENSEсNZA DE LA MATEMTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "38054.999814814815",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-1999",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

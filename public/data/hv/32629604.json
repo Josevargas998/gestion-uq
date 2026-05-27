@@ -1,0 +1,114 @@
+{
+  "cedula": "32629604",
+  "tipoDoc": "CC",
+  "nombre": "LOAIZA VILLALBA NEIRA DEL CARMEN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "22-01-2008",
+  "estado": "ACTIVO",
+  "email": "loaiza@uniquindio.edu.co",
+  "puntosAsignados": 602.7,
+  "ptosProductividad": 66,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 562.7,
+    "2021": 572.7,
+    "2022": 582.7,
+    "2023": 592.7,
+    "2024": 602.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL FRANCES LENGUA EXTRANJERA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-04-1993",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "42715.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOLOǴ E IDIOMAS INGLES ESPANL",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-11-1983",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "DOS VISIONES DEL CURR̓ULO EN LA FORMACIӎ BILING܅",
+        "issn": "2256-1536",
+        "revista": "BOLET͎ REDIPE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8125"
+      },
+      {
+        "año": "2021",
+        "titulo": "ENSEсR Y EDUCAR ACERCAMIENTOS MESOAXIOLӇICOS, COMPRENSIVO EDIFICADOR, RADICAL INCLUSIVO Y DE LA ALTERIDAD",
+        "issn": "2256-1536",
+        "revista": "REVISTA BOLET͎ REDIPE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8664"
+      },
+      {
+        "año": "2022",
+        "titulo": "ESTILOS DE APRENDIZAJE INTERCULTURALES(SENSIBILIDAD INTERCULTURAL) Y MODALIDADES EN LA CARTA ARGUMENTATIVA EN ESTUDIANTES BILING܅S DE LICENCIATURA EN LENGUAS MODERNAS DE UNA UNIVERSIDAD COLOMBIANA Y FRANCESA",
+        "issn": "2256-1536",
+        "revista": "REVISTA BOLET͎ REDIPE",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9830"
+      },
+      {
+        "año": "2022",
+        "titulo": "Promoting autonomous learning through the EDMODO platform, flipped classroom and learning styles",
+        "issn": "2256-1536",
+        "revista": "REVISTA BOLET͎ REDIPE",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9830"
+      },
+      {
+        "año": "2024",
+        "titulo": "DESARROLLO DE LA MEMORIA DE TRABAJO EN LA COMPETENCIA ESCRITA BILING܅",
+        "issn": "2389-7856",
+        "revista": "PRAXIS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13471"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "La investigaci󮠥n el Doctorado en Ciencias de la Educaci󮭒UDECOLOMBIA. Tomo IV",
+        "puntos": 2.8,
+        "resolucion": "9830"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "CMEA Modelos educativos: retos para los docentes en la diversidad de contextos en formaci󮮠Colecci",
+        "puntos": 13,
+        "resolucion": "9830"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

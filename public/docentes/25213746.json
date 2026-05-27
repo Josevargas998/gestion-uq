@@ -1,0 +1,59 @@
+{
+  "cedula": "25213746",
+  "tipoDoc": "CC",
+  "nombre": "MEJ́ ESCOBAR BIBIANA MAGALY",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "mej́@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-07-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MEJ%CD%81%20ESCOBAR%20BIBIANA%20MAGALY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 422.7,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 382.7,
+    "2021": 392.7,
+    "2022": 402.7,
+    "2023": 412.7,
+    "2024": 422.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PSICOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-07-2000",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE LA SABANA",
+      "tituloSnies": "Especializaci󮼯td>12-12-2001",
+      "fecha": "20",
+      "puntos": 42801.999814814815,
+      "resolucion": "ESPECIALISTA EN DESARROLLO PERSONAL Y FAMILIAR"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "24-02-2006",
+      "puntos": 40,
+      "resolucion": "42801.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

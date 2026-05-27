@@ -1,0 +1,59 @@
+{
+  "cedula": "16204654",
+  "tipoDoc": "CC",
+  "nombre": "ARIAS SERNA DIEGO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "arias@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1987-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ARIAS%20SERNA%20DIEGO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 659.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 619.4,
+    "2021": 629.4,
+    "2022": 639.4,
+    "2023": 649.4,
+    "2024": 659.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-11-1982",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS FISICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "36931.999814814815",
+      "puntos": 120,
+      "resolucion": "37869.999814814815"
+    },
+    {
+      "tituloNacional": "INSTITUTO POLITECNICO NACIONAL",
+      "tituloSnies": "Especializaci󮼯td>15-08-1986",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN INGENIERIA ELECTRICA OPCION CONTROL"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

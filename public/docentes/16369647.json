@@ -1,0 +1,66 @@
+{
+  "cedula": "16369647",
+  "tipoDoc": "CC",
+  "nombre": "DE LA ROSA BOBADILLA JHON JAIME",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "de@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2013-11-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DE%20LA%20ROSA%20BOBADILLA%20JHON%20JAIME&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 509.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 469.8,
+    "2021": 479.8,
+    "2022": 489.8,
+    "2023": 499.8,
+    "2024": 509.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS SOCIALES NINEZ Y JUVENTUD",
+      "tituloSnies": "Doctorado",
+      "fecha": "28-10-2019",
+      "puntos": 80,
+      "resolucion": "43535.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "39274.999814814815",
+      "puntos": 40,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "GERONTOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-08-1995",
+      "puntos": 178,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especializaci󮼯td>24-04-1997",
+      "fecha": "20",
+      "puntos": 41460.999814814815,
+      "resolucion": "ESPECIALISTA EN TRABAJO SOCIAL FAMILIAR"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

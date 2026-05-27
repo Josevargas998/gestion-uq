@@ -1,0 +1,66 @@
+{
+  "cedula": "93381654",
+  "tipoDoc": "CC",
+  "nombre": "GORDILLO DELGADO FERNANDO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "gordillo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "23-02-2004",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GORDILLO%20DELGADO%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 771.1,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 731.1,
+    "2021": 741.1,
+    "2022": 751.1,
+    "2023": 761.1,
+    "2024": 771.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN TECNOLOGIA AVANZADDA",
+      "tituloSnies": "Doctorado",
+      "fecha": "20-06-2012",
+      "puntos": 80,
+      "resolucion": "17-09-2013"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "31-03-2001",
+      "puntos": 40,
+      "resolucion": "20-10-2004"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34883.999814814815",
+      "puntos": 178,
+      "resolucion": "20-02-2004"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL TOLIMA",
+      "tituloSnies": "Especializaci󮼯td>12-12-1997",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN FISICA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

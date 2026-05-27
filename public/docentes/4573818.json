@@ -1,0 +1,52 @@
+{
+  "cedula": "4573818",
+  "tipoDoc": "CC",
+  "nombre": "HURTADO TOBON LUIS HERNANDO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "hurtado@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1973-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HURTADO%20TOBON%20LUIS%20HERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 775.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 735.6,
+    "2021": 745.6,
+    "2022": 755.6,
+    "2023": 765.6,
+    "2024": 775.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ESTADISTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-1976",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1972",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

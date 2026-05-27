@@ -1,0 +1,66 @@
+{
+  "cedula": "42007084",
+  "tipoDoc": "CC",
+  "nombre": "VALENCIA CASTRILLLON MARTHA LUZ",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "valencia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2001-01-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VALENCIA%20CASTRILLLON%20MARTHA%20LUZ&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 487.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 447.4,
+    "2021": 457.4,
+    "2022": 467.4,
+    "2023": 477.4,
+    "2024": 487.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-07-1990",
+      "puntos": 178,
+      "resolucion": "26-09-2001"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "21-03-2017",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "25-05-2001",
+      "puntos": 40,
+      "resolucion": "26-09-2001"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especializaci󮼯td>14-12-1995",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DIDACTICA DEL INGLES"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

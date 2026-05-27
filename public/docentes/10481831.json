@@ -1,0 +1,59 @@
+{
+  "cedula": "10481831",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA OLARTE PEDRO PABLO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "email": "cardona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-03-2006",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARDONA%20OLARTE%20PEDRO%20PABLO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 388.5,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 348.5,
+    "2021": 358.5,
+    "2022": 368.5,
+    "2023": 378.5,
+    "2024": 388.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "18-12-2004",
+      "puntos": 80,
+      "resolucion": "24-03-2006"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN QU͍ICA Y BIOLOǴ",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-09-1985",
+      "puntos": 178,
+      "resolucion": "24-03-2006"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "13-08-1992",
+      "puntos": 40,
+      "resolucion": "24-03-2006"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

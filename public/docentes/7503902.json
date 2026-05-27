@@ -1,0 +1,59 @@
+{
+  "cedula": "7503902",
+  "tipoDoc": "CC",
+  "nombre": "ARANGO POSADA EDUARDO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "arango@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1975-05-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ARANGO%20POSADA%20EDUARDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 720.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 680.6,
+    "2021": 690.6,
+    "2022": 700.6,
+    "2023": 710.6,
+    "2024": 720.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-11-1974",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>28-02-1985",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ORIENTACION ESCOLAR"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "25-07-1986",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

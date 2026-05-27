@@ -1,0 +1,44 @@
+{
+  "cedula": "9866770",
+  "tipoDoc": "CC",
+  "nombre": "FLӒEZ GLVEZ JORGE HERNN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "flӓez@uniquindio.edu.co",
+  "puntosAsignados": 423.4,
+  "ptosProductividad": 75,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 383.4,
+    "2021": 393.4,
+    "2022": 403.4,
+    "2023": 413.4,
+    "2024": 423.4
+  },
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "CYCLIC RESPONSE OF FIBRE REINFORCED DENSE SAND",
+        "issn": "2214-3912",
+        "revista": "TRANSPORTATION GEOTECHNICS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12299"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

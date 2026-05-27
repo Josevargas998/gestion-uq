@@ -1,0 +1,52 @@
+{
+  "cedula": "41922558",
+  "tipoDoc": "CC",
+  "nombre": "TORRES VARGAS OLGA LUCIA",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "torres@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TORRES%20VARGAS%20OLGA%20LUCIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 785.9,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 745.9,
+    "2021": 755.9,
+    "2022": 765.9,
+    "2023": 775.9,
+    "2024": 785.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-2003",
+      "puntos": 178,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "DOCTOR EN TECNOLOGIA DE ALIMENTOS",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-01-2008",
+      "puntos": 120,
+      "resolucion": "19-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "19277772",
+  "tipoDoc": "CC",
+  "nombre": "PINZON SANCHEZ GUSTAVO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "pinzon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1988-06-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PINZON%20SANCHEZ%20GUSTAVO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 431.7,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 391.7,
+    "2021": 401.7,
+    "2022": 411.7,
+    "2023": 421.7,
+    "2024": 431.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN SOCIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "36139.999814814815",
+      "puntos": 40,
+      "resolucion": "14-12-1998"
+    },
+    {
+      "tituloNacional": "SOCIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "31268.999814814815",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

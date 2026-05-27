@@ -1,0 +1,52 @@
+{
+  "cedula": "14972100",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA BOTERO HUBERT",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "cardona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "19-09-1996",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARDONA%20BOTERO%20HUBERT&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 310.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 270.1,
+    "2021": 280.1,
+    "2022": 290.1,
+    "2023": 300.1,
+    "2024": 310.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>19-04-2002",
+      "fecha": "20",
+      "puntos": 37352.999814814815,
+      "resolucion": "ESPECIALISTA EN ORIENTACION ESCOLAR"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-12-1983",
+      "puntos": 178,
+      "resolucion": "35407.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

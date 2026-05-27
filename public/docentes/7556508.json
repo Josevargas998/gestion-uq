@@ -1,0 +1,59 @@
+{
+  "cedula": "7556508",
+  "tipoDoc": "CC",
+  "nombre": "VILLA RAMIREZ RIGOBERTO",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "ZOOTECNIA",
+  "email": "villa@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VILLA%20RAMIREZ%20RIGOBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 342.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 302.8,
+    "2021": 312.8,
+    "2022": 322.8,
+    "2023": 332.8,
+    "2024": 342.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1998",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1998",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA VEGETAL",
+      "tituloSnies": "Maestria",
+      "fecha": "22-09-2014",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

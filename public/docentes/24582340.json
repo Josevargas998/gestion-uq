@@ -1,0 +1,52 @@
+{
+  "cedula": "24582340",
+  "tipoDoc": "CC",
+  "nombre": "ESPITIA PEс ESPERANZA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "espitia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ESPITIA%20PE%D1%81%20ESPERANZA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 464.2,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 424.2,
+    "2021": 434.2,
+    "2022": 444.2,
+    "2023": 454.2,
+    "2024": 464.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>04-11-2004",
+      "fecha": "20",
+      "puntos": 44958.999814814815,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACIӎ DE EMPRESAS"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>04-11-2004",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ADMINISTRACION DE EMPRESAS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

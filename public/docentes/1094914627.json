@@ -1,0 +1,45 @@
+{
+  "cedula": "1094914627",
+  "tipoDoc": "CC",
+  "nombre": "ARISTIZABAL TORO ANDRES FELIPE",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "email": "aristizabal@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2024-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ARISTIZABAL%20TORO%20ANDRES%20FELIPE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 324.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 284.6,
+    "2021": 294.6,
+    "2022": 304.6,
+    "2023": 314.6,
+    "2024": 324.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-12-2015",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

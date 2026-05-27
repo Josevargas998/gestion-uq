@@ -1,0 +1,52 @@
+{
+  "cedula": "4533218",
+  "tipoDoc": "CC",
+  "nombre": "OSSA PIZANO DAVID ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "ossa@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "16-02-1994",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=OSSA%20PIZANO%20DAVID%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 370,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 330,
+    "2021": 340,
+    "2022": 350,
+    "2023": 360,
+    "2024": 370
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30106.999814814815",
+      "puntos": 183,
+      "resolucion": "22-02-1995"
+    },
+    {
+      "tituloNacional": "LA UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO",
+      "tituloSnies": "Especializaci󮼯td>19-07-1990",
+      "fecha": "75",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDIATŔ"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cedula": "41948811",
+  "tipoDoc": "CC",
+  "nombre": "RUIZ GAONA ALEXANDRA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "ruiz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RUIZ%20GAONA%20ALEXANDRA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 713.3,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 673.3,
+    "2021": 683.3,
+    "2022": 693.3,
+    "2023": 703.3,
+    "2024": 713.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAESTRO EN COMERCIO ELECTRONICO",
+      "tituloSnies": "Maestria",
+      "fecha": "20-08-2008",
+      "puntos": 40,
+      "resolucion": "22-01-2010"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 178,
+      "resolucion": "22-01-2010"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA TELEMATICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "43778.999814814815",
+      "puntos": 80,
+      "resolucion": "43535.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

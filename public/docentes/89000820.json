@@ -1,0 +1,59 @@
+{
+  "cedula": "89000820",
+  "tipoDoc": "CC",
+  "nombre": "SERNA RESTREPO JHON ALEXANDER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "serna@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-07-08",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SERNA%20RESTREPO%20JHON%20ALEXANDER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 319,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 279,
+    "2021": 289,
+    "2022": 299,
+    "2023": 309,
+    "2024": 319
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-1995",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "30-07-2010",
+      "puntos": 40,
+      "resolucion": "41859.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-1995",
+      "puntos": 178,
+      "resolucion": "41859.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

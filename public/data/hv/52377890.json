@@ -1,0 +1,62 @@
+{
+  "cedula": "52377890",
+  "tipoDoc": "CC",
+  "nombre": "MOLANO NIN ALBA CAROLINA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "molano@uniquindio.edu.co",
+  "puntosAsignados": 441.9,
+  "ptosProductividad": 81,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 401.9,
+    "2021": 411.9,
+    "2022": 421.9,
+    "2023": 431.9,
+    "2024": 441.9
+  },
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "DIFERENCIAS ENTRE PREGUNTAS DE PROFESORES DE CIENCIAS NATURALES EN ZONA URBANA Y RURAL DE ARMENIA, QUIND͏",
+        "issn": "2323-0126",
+        "revista": "TECNɬ EPISTEME Y DIDAXIS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10813"
+      },
+      {
+        "año": "2023",
+        "titulo": "TESTING ASSUMPTIONS OF THE DRAW-A-SCIENTIST-TEST (DAST): DO STEREOTYPED VIEWS AFFECT CAREER ASPIRATIONS?",
+        "issn": "1464-5289",
+        "revista": "INTERNATIONAL JOURNAL OF SCIENCE EDUCATION",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12034"
+      },
+      {
+        "año": "2023",
+        "titulo": "߃ӍO FORMULAN PREGUNTAS LOS DOCENTES DE CIENCIAS NATURALES EN ARMENIA, QUIND͏?",
+        "issn": "2323-0126",
+        "revista": "TECNɬ EPISTEME Y DIDAXIS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10813"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "cedula": "1094911213",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA BOTERO JACQUELINE",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "garcia@uniquindio.edu.co",
+  "puntosAsignados": 437,
+  "ptosProductividad": 633,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 397,
+    "2021": 407,
+    "2022": 417,
+    "2023": 427,
+    "2024": 437
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-05-2015",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-05-2015",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-03-2012",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-03-2012",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "LA INFLUENCIA LING܍STICA DEL ESPANL Y EL FRANCɓ EN EL APRENDIZAJE DEL INGLɓ",
+        "issn": "0120-3916",
+        "revista": "REVISTA COLOMBIANA DE EDUCACIӎ",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "6985"
+      },
+      {
+        "año": "2021",
+        "titulo": "DOS VISIONES DEL CURR̓ULO EN LA FORMACIӎ BILING܅",
+        "issn": "2256-1536",
+        "revista": "BOLET͎ REDIPE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8125"
+      },
+      {
+        "año": "2022",
+        "titulo": "Promoting autonomous learning through the EDMODO platform, flipped classroom and learning styles",
+        "issn": "2256-1536",
+        "revista": "REVISTA BOLET͎ REDIPE",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9830"
+      },
+      {
+        "año": "2022",
+        "titulo": "ASPECTOS PSICOSOCIALES Y CONDICIONES EDUCATIVAS DE DOCENTES DE LENGUA EN FORMACIӎ DURANTE EL CONFINAMIENTO POR LA PANDEMIA DE COVID-19",
+        "issn": "0123-3432",
+        "revista": "͋ALA, REVISTA DE LENGUAJE Y CULTURA",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9830"
+      },
+      {
+        "año": "2024",
+        "titulo": "DESARROLLO DE LA MEMORIA DE TRABAJO EN LA COMPETENCIA ESCRITA BILING܅",
+        "issn": "2389-7856",
+        "revista": "PRAXIS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13471"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "la influencia de las lenguas previas en la Adquisici󮠤e una tercera Lengua: Una Experiencia Invest",
+        "puntos": 13.3,
+        "resolucion": "7404"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Project based learning as a booster of oral skills in the efl classroom",
+        "puntos": 13.7,
+        "resolucion": "11980"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Teor\ud86c investigaci󮠹 aplicaciones de la conciencia metaling𭳴ica en procesos de formaci󮠢ilin",
+        "puntos": 14.2,
+        "resolucion": "1381"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Fundamentos epistemol󧩣os de la competencia comunicativa intercultural",
+        "puntos": 13.5,
+        "resolucion": "1381"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "METACOGNITION APP",
+        "puntos": 5.2,
+        "resolucion": "6985"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

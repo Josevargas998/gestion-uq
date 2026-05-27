@@ -1,0 +1,70 @@
+{
+  "cedula": "18399636",
+  "tipoDoc": "CC",
+  "nombre": "LOPEZ PARRADO ALEXANDER",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "25-01-2010",
+  "estado": "ACTIVO",
+  "email": "lopez@uniquindio.edu.co",
+  "puntosAsignados": 501.2,
+  "ptosProductividad": 147,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 461.2,
+    "2021": 471.2,
+    "2022": 481.2,
+    "2023": 491.2,
+    "2024": 501.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-09-2002",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-09-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especialización25-04-2009",
+      "fecha": "40",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "TESTBED FOR SUB-NYQUIST WIDEBAND SPECTRUM MONITORING",
+        "issn": "2248-4094",
+        "revista": "INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8115"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2023",
+        "titulo": "SIMDSP PARA ANDROID",
+        "puntos": 14.3,
+        "resolucion": "10945"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

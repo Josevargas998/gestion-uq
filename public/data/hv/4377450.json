@@ -1,0 +1,75 @@
+{
+  "cedula": "4377450",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA RIOS ALEJANDRO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "25-01-2010",
+  "estado": "ACTIVO",
+  "email": "garcia@uniquindio.edu.co",
+  "puntosAsignados": 383.3,
+  "ptosProductividad": 63,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 343.3,
+    "2021": 353.3,
+    "2022": 363.3,
+    "2023": 373.3,
+    "2024": 383.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37936.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "39486.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "DETERMINATION OF ORGANOCHLORINE AND ORGANOPHOSPHORUS RESIDUES IN SURFACE WATERS FROM THE COFFEE ZONE IN QUIND͏, COLOMBIA",
+        "issn": "1532-4109",
+        "revista": "JOURNAL OF ENVIRONMENTAL SCIENCE AND HEALTH, PART B",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8682"
+      },
+      {
+        "año": "2023",
+        "titulo": "PRESENCE OF PHYLLOQUINONE IN THE INTRAERYTHROCYTIC STAGES OF PLASMODIUM FALCIPARUM",
+        "issn": "2235-2988",
+        "revista": "FRONTIERS IN CELLULAR AND INFECTION MICROBIOLOGY",
+        "categoria": "A1",
+        "puntos": 2.5,
+        "resolucion": "12027"
+      },
+      {
+        "año": "2024",
+        "titulo": "PLASMODIUM FALCIPARUM COQ2 GENE ENCODES A FUNCTIONAL 4-HYDROXYBENZOATE POLYPRENYLTRANSFERASE",
+        "issn": "1574-6968",
+        "revista": "FEMS MICROBIOLOGY LETTERS",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "13477"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

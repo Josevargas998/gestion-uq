@@ -1,0 +1,94 @@
+{
+  "cedula": "24488507",
+  "tipoDoc": "CC",
+  "nombre": "RESTREPO CORTES BEATRIZ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "21-07-1993",
+  "estado": "ACTIVO",
+  "email": "restrepo@uniquindio.edu.co",
+  "puntosAsignados": 531.2,
+  "ptosProductividad": 132,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 491.20000000000005,
+    "2021": 501.20000000000005,
+    "2022": 511.20000000000005,
+    "2023": 521.2,
+    "2024": 531.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR QUIMICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-02-1979",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "13-08-2003",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "39758.999814814815",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especialización30-08-2002",
+      "fecha": "20",
+      "puntos": 37569.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "DISLIPIDEMIA Y RELACIӎ CON ENFERMEDAD TIROIDEA EN AGRICULTORES DE LA ZONA CAFETERA",
+        "issn": "2248-6054",
+        "revista": "ACTA MɄICA COLOMBIANA",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2020",
+        "titulo": "CHEMICAL COMPOSITION OF MANGO (MANGIFERA INDICA L.) FRUIT: NUTRITIONAL AND PHYTOCHEMICAL COMPOUNDS",
+        "issn": "1664-462X",
+        "revista": "REVISTA FRONTIERS IN PLANT SCIENCE",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2021",
+        "titulo": "DETERMINATION OF ORGANOCHLORINE AND ORGANOPHOSPHORUS RESIDUES IN SURFACE WATERS FROM THE COFFEE ZONE IN QUIND͏, COLOMBIA",
+        "issn": "1532-4109",
+        "revista": "JOURNAL OF ENVIRONMENTAL SCIENCE AND HEALTH, PART B",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8121"
+      }
+    ],
+    "libros": [],
+    "premios": [
+      {
+        "año": "2022",
+        "titulo": "MEJOR POSTER NACIONAL",
+        "puntos": 7.5,
+        "resolucion": "10471"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

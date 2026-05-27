@@ -1,0 +1,66 @@
+{
+  "cedula": "7554769",
+  "tipoDoc": "CC",
+  "nombre": "MARIN RIOS LUIS FERNANDO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "email": "marin@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "18-09-1996",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MARIN%20RIOS%20LUIS%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 551.7,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 511.70000000000005,
+    "2021": 521.7,
+    "2022": 531.7,
+    "2023": 541.7,
+    "2024": 551.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN PEDAGOGIA REEDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-05-1993",
+      "puntos": 178,
+      "resolucion": "18-09-1996"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>18-12-1996",
+      "fecha": "20",
+      "puntos": 35704.999814814815,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "27-11-2008",
+      "puntos": 20,
+      "resolucion": "39579.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>09-10-2001",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN EDUCACION AMBIENTAL"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "76308181",
+  "tipoDoc": "CC",
+  "nombre": "CUENU CABEZAS FERNANDO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "cuenu@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2002-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CUENU%20CABEZAS%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 548.1,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 508.1,
+    "2021": 518.1,
+    "2022": 528.1,
+    "2023": 538.1,
+    "2024": 548.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-11-1995",
+      "puntos": 178,
+      "resolucion": "28-11-2001"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS QUIMICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "40673.999814814815",
+      "puntos": 80,
+      "resolucion": "23-11-2011"
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "24-03-2000",
+      "puntos": 40,
+      "resolucion": "28-11-2001"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

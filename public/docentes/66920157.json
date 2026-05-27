@@ -1,0 +1,52 @@
+{
+  "cedula": "66920157",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA CARDENAS DELLY ROCIO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20CARDENAS%20DELLY%20ROCIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 454.6,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 414.6,
+    "2021": 424.6,
+    "2022": 434.6,
+    "2023": 444.6,
+    "2024": 454.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-10-2005",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "BIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36110.999814814815",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

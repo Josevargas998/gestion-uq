@@ -1,0 +1,59 @@
+{
+  "cedula": "24571354",
+  "tipoDoc": "CC",
+  "nombre": "HENAO BURITICA ADIELA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "henao@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HENAO%20BURITICA%20ADIELA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 358.6,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 318.6,
+    "2021": 328.6,
+    "2022": 338.6,
+    "2023": 348.6,
+    "2024": 358.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>09-11-2000",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALIZACION EN EDUCACION PARA LA SALUD"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ENFERMERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "16-11-2000",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1982",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

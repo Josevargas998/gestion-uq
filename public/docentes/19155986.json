@@ -1,0 +1,52 @@
+{
+  "cedula": "19155986",
+  "tipoDoc": "CC",
+  "nombre": "VASQUEZ PINZON JUAN URIEL",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "vasquez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "15-09-1975",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VASQUEZ%20PINZON%20JUAN%20URIEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 0,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS MATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "24-06-1983",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MATEMATICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "27585.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cedula": "89001416",
+  "tipoDoc": "CC",
+  "nombre": "PRIAS BARRAGAN JHON JAIRO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "prias@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PRIAS%20BARRAGAN%20JHON%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 729.5,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 689.5,
+    "2021": 699.5,
+    "2022": 709.5,
+    "2023": 719.5,
+    "2024": 729.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "27-02-2004",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "27-02-2004",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

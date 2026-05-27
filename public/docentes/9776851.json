@@ -1,0 +1,59 @@
+{
+  "cedula": "9776851",
+  "tipoDoc": "CC",
+  "nombre": "MORA ROA GUSTAVO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "mora@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-02-2004",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MORA%20ROA%20GUSTAVO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 594.4,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 554.4,
+    "2021": 564.4,
+    "2022": 574.4,
+    "2023": 584.4,
+    "2024": 594.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "28-09-2007",
+      "puntos": 40,
+      "resolucion": "13-12-2007"
+    },
+    {
+      "tituloNacional": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA",
+      "tituloSnies": "Especializaci󮼯td>08-03-1996",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GESTIӎ Y PLANIFICACIӎ DEL DESARROLLO URBANO Y REGIONAL"
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "13-07-1984",
+      "puntos": 178,
+      "resolucion": "20-02-2004"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "cedula": "7532303",
+  "tipoDoc": "CC",
+  "nombre": "BUSTAMANTE GUTIERREZ CARLOS ALFONSO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "35827.999814814815",
+  "estado": "ACTIVO",
+  "email": "bustamante@uniquindio.edu.co",
+  "puntosAsignados": 735.8,
+  "ptosProductividad": 1601,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 695.8,
+    "2021": 705.8,
+    "2022": 715.8,
+    "2023": 725.8,
+    "2024": 735.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "29-08-2003",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización18-12-1996",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "PSICOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-03-1988",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Sentido de la investigaci󮠥n educaci󮠦\udce9ca",
+        "puntos": 14.2,
+        "resolucion": "7407"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Las emociones, Un Camino Hacia la Madurez Cognitiva del infante",
+        "puntos": 12.8,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Proceso Atencional. Un camino hacia la madurez cognitiva del infante",
+        "puntos": 11.1,
+        "resolucion": "8122"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "El Proceso de la Memoria, Un Camino Hacia la Madurez Cognitiva del infante",
+        "puntos": 13.7,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Universidad: educaci󮠦\udce9ca y recreaci󮮠Contexto de las actividades recreo - deportivas",
+        "puntos": 8.5,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Perspectiva Sensoperceptual. Un camino hacia la madurez cognitiva del infante",
+        "puntos": 12.9,
+        "resolucion": "8122"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Manifestaciones del yo: Un camino hacia la madurez cognitiva del infante",
+        "puntos": 14.6,
+        "resolucion": "10475"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "El acto motivacional: Un camino hacia la madurez cognitiva del infante",
+        "puntos": 14.4,
+        "resolucion": "10475"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Familias e infancias",
+        "puntos": 14.9,
+        "resolucion": "12109"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Una mirada al sentido del desarrollo moral en las infancias",
+        "puntos": 6.1,
+        "resolucion": "98"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Movimiento en interacci󮺠conceptos, manifestaciones, conjeturas para el Educador F\udce9co",
+        "puntos": 11.9,
+        "resolucion": "1380"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Aciertos y desaciertos: una mirada cr\udd29ca a las prᣴicas pedag󧩣as en el nivel preescolar",
+        "puntos": 8.1,
+        "resolucion": "1380"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Del pensamiento motriz, al pensamiento formal: 21 logros evidenciados desde la epistemolog\ud860gen鴩c",
+        "puntos": 15,
+        "resolucion": "1380"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Una Psicopedag\ud860para la diversidad, la educaci󮠆\udce9ca y el deporte",
+        "puntos": 13.9,
+        "resolucion": "98"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Expresiones didᣴicas y pedag󧩣as de la actividad f\udce9ca y el deporte",
+        "puntos": 15,
+        "resolucion": "98"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "cedula": "41897201",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO CARDENAS LUZ STELLA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "35827.999814814815",
+  "estado": "ACTIVO",
+  "email": "giraldo@uniquindio.edu.co",
+  "puntosAsignados": 494.4,
+  "ptosProductividad": 112,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 454.4,
+    "2021": 464.4,
+    "2022": 474.4,
+    "2023": 484.4,
+    "2024": 494.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "27-11-2008",
+      "puntos": 20
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE CIENCIAS SOCIALES AREA MAYOR GEOGRAFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-06-1987",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización25-08-2000",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización07-06-1991",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "EL IMPACTO DE LA LITERATURA EN EL DESARROLLO DEL VOCABULARIO COMPRENSIVO EN LA EDUCACIӎ INICIAL",
+        "issn": "0124-5821",
+        "revista": "VIRTUAL UNIVERSIDAD CATӌICA DEL NORTE",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7407"
+      },
+      {
+        "año": "2021",
+        "titulo": "ENSEсNZA Y APRENDIZAJE DEL RAZONAMIENTO DEDUCTIVO E INDUCTIVO MEDIANTE LAS CIENCIAS NATURALES",
+        "issn": "0124-2121",
+        "revista": "EDUCACIӎ Y HUMANISMO",
+        "categoria": "A1",
+        "puntos": 8,
+        "resolucion": "8122"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Desarrollo del Pensamiento Deductivo e Inductivo a Trav鳠de las Ciencias Naturales en el 5Рde la E",
+        "puntos": 9.6,
+        "resolucion": "8680"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

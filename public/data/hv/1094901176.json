@@ -1,0 +1,115 @@
+{
+  "cedula": "1094901176",
+  "tipoDoc": "CC",
+  "nombre": "RAMIREZ JIMENEZ DIEGO FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "20-02-2023",
+  "estado": "ACTIVO",
+  "email": "ramirez@uniquindio.edu.co",
+  "puntosAsignados": 375.3,
+  "ptosProductividad": 117,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 335.3,
+    "2021": 345.3,
+    "2022": 355.3,
+    "2023": 365.3,
+    "2024": 375.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-2013",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>29-07-2010",
+      "fecha": "",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-2013",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "CLASIFICACION DE PATOLOGIAS PRESENTES EN LA COLUMNA VERTEBRAL MEDIANTE TECNICAS DE MAQUINAS DE APRENDIZAJE/CLASSIFICATION OF PATHOLOGIES PRESENT IN THE SPINAL COLUMN THROUGH LEARNING MACHINERY TECHNIQUES/CLASSIFICACAO DE PATOLOGIAS PRESENTES NA COLUNA VERTEBRAL POR MEIO DE TECNICAS DE APRENDIZADO DE MAQUINAS.",
+        "issn": "1900-3102",
+        "revista": "REVISTA INGENIEŔ SOLIDARIA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10795"
+      },
+      {
+        "año": "2023",
+        "titulo": "SISTEMA DE MEDICIӎ Y CONTROL DE TEMPERATURA PARA UN PROTOTIPO DE PLANTA DE TRATAMIENTO DE AGUAS RESIDUALES",
+        "issn": "2344-8652",
+        "revista": "INVESTIGACIӎ E INNOVACIӎ EN INGENIEŔS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10795"
+      },
+      {
+        "año": "2023",
+        "titulo": "SISTEMA DE MEDICIӎ Y VISUALIZACIӎ DE POTENCIAL DE HIDRӇENO PARA UN PROTOTIPO DE PLANTA DE TRATAMIENTO DE AGUAS RESIDUALES USANDO LODOS ACTIVOS",
+        "issn": "1900-8260",
+        "revista": "REVISTA EDUCACIӎ EN INGENIEŔ",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "10795"
+      },
+      {
+        "año": "2024",
+        "titulo": "A SYSTEMATIC LITERATURE REVIEW ON RAPID CONTROL PROTOTYPING APPLICATIONS",
+        "issn": "1932-8540",
+        "revista": "REVISTA IBEROAMERICANA DE TECNOLOǴS DEL APRENDIZAJE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13411"
+      },
+      {
+        "año": "2025",
+        "titulo": "VISUALIZATION AND CONTROL SYSTEM FOR A WASTEWATER LABORATORY PLANT WITH BIOLOGICAL TREATMENT",
+        "issn": "1909-7735",
+        "revista": "CIENCIA E INGENIEŔ NEOGRANADINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1105"
+      },
+      {
+        "año": "2025",
+        "titulo": "EXPERIMENTAL DESIGN AND SIMULATION OF A FLY-CUTTING PLANT FOR ACADEMIC ENVIRONMENT PRACTICES",
+        "issn": "2075-1702",
+        "revista": "MACHINES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1435"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2023",
+        "titulo": "LABWEBUQ",
+        "puntos": 6.5,
+        "resolucion": "10795"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

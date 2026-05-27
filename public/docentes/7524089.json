@@ -1,0 +1,45 @@
+{
+  "cedula": "7524089",
+  "tipoDoc": "CC",
+  "nombre": "RUIZ HAMBRA OSCAR AUGUSTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "ruiz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RUIZ%20HAMBRA%20OSCAR%20AUGUSTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 281.1,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 241.10000000000002,
+    "2021": 251.10000000000002,
+    "2022": 261.1,
+    "2023": 271.1,
+    "2024": 281.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1983",
+      "puntos": 183,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

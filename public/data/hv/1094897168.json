@@ -1,0 +1,167 @@
+{
+  "cedula": "1094897168",
+  "tipoDoc": "CC",
+  "nombre": "MONDRAGON SANCHEZ EDNA JOHANA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "mondragon@uniquindio.edu.co",
+  "puntosAsignados": 424.7,
+  "ptosProductividad": 212,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 384.7,
+    "2021": 394.7,
+    "2022": 404.7,
+    "2023": 414.7,
+    "2024": 424.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "ENFERMERA",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-07-2012",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "THE DIMENSIONS OF THE HUMAN BEING AND NURSING CARE IN THE PANDEMIC CONTEXT OF COVID-19",
+        "issn": "1414-8145",
+        "revista": "ESCOLA ANNA NERY REVISTA DE ENFERMAGEM",
+        "categoria": "B",
+        "puntos": 2.6,
+        "resolucion": "8135"
+      },
+      {
+        "año": "2022",
+        "titulo": "PROCESO DE TRABAJO DE ENFERMEŔ EN LA ATENCIӎ PRIMARIA DE SALUD: ESTUDIO OBSERVACIONAL",
+        "issn": "1794-9831",
+        "revista": "REVISTA CIENCIA Y CUIDADO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "9839"
+      },
+      {
+        "año": "2022",
+        "titulo": "ACTIONS TO PREVENT SEXUAL VIOLENCE AGAINST ADOLESCENTS: AN INTEGRATIVE LITERATURE REVIEW",
+        "issn": "1984-0446",
+        "revista": "REVISTA BRASILEIRA DE ENFERMAGEM",
+        "categoria": "B",
+        "puntos": 2.7,
+        "resolucion": "9839"
+      },
+      {
+        "año": "2022",
+        "titulo": "IMPACTO DO ACORDO DE PAZ NOS DETERMINANTES SOCIAIS DA SAڄE NA COLԍBIA",
+        "issn": "0034-7167",
+        "revista": "REVISTA BRASILEIRA DE ENFERMAGEM",
+        "categoria": "B",
+        "puntos": 2.7,
+        "resolucion": "9839"
+      },
+      {
+        "año": "2022",
+        "titulo": "NURSING SITUATION ?THE ART OF CARING DURING THE PROCESS OF GRIEF?",
+        "issn": "2216-0973",
+        "revista": "REVISTA CUIDARTE",
+        "categoria": "B",
+        "puntos": 2.4,
+        "resolucion": "9839"
+      },
+      {
+        "año": "2022",
+        "titulo": "CONSUMO DE CIGARRILLOS EN ESTUDIANTES DE TɃNICO AUXILIAR DE ENFERMEŔ EN TEZIUTLN EN TIEMPOS DE EVALUACIӎ",
+        "issn": "1138-7262",
+        "revista": "METAS DE ENFERMEŔ",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "9839"
+      },
+      {
+        "año": "2023",
+        "titulo": "CONOCIMIENTO DIDCTICO DE CONTENIDO EN EL MARCO DE LA ENSEсNZA PARA LA COMPRENSIӎ DE LA EDUCACIӎ F͓ICA ESCOLAR",
+        "issn": "1579-1726",
+        "revista": "RETOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12104"
+      },
+      {
+        "año": "2023",
+        "titulo": "HEALTH INEQUALITIES AMONG HOMELESS ADOLESCENTS",
+        "issn": "1518-8345",
+        "revista": "REVISTA LATINO-AMERICANA DE ENFERMAGEM",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12104"
+      },
+      {
+        "año": "2023",
+        "titulo": "EDUCATIONAL TECHNOLOGY FOR INFANTS? FAMILIES TO IDENTIFY WARNING SIGNS: A VALIDATION STUDY",
+        "issn": "1984-0446",
+        "revista": "REVISTA BRASILEIRA DE ENFERMAGEM",
+        "categoria": "B",
+        "puntos": 2,
+        "resolucion": "12104"
+      },
+      {
+        "año": "2023",
+        "titulo": "REFLECTIONS ON NURSING AND COVID-19 IN LIGHT OF HEALTH EDUCATION",
+        "issn": "1984-0446",
+        "revista": "REVISTA BRASILEIRA DE ENFERMAGEM",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "12104"
+      },
+      {
+        "año": "2023",
+        "titulo": "QUALITATIVE RESEARCH IN NURSING: BIBLIOMETRIC STUDY",
+        "issn": "1052-0147",
+        "revista": "QUALITATIVE REPORT",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "12104"
+      },
+      {
+        "año": "2023",
+        "titulo": "THE NURSE?S WORK PROCESS IN PRIMARY HEALTH CARE: AN INTEGRATIVE REVIEW",
+        "issn": "0121-7577",
+        "revista": "HACIA LA PROMOCIӎ DE LA SALUD",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12104"
+      },
+      {
+        "año": "2025",
+        "titulo": "PREVENTING SEXUAL VIOLENCE IN ADOLESCENCE: DIGITAL BOOKLET CONSTRUCTION AND VALIDITY",
+        "issn": "0103-2100",
+        "revista": "ACTA PAULISTA DE ENFERMAGEM",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "1108"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Investigaci󮠣ualitativa en enfermer\ud860y salud: Bases filos󦩣as, te󲩣as y metodol󧩣as",
+        "puntos": 13,
+        "resolucion": "73"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

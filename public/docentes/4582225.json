@@ -1,0 +1,52 @@
+{
+  "cedula": "4582225",
+  "tipoDoc": "CC",
+  "nombre": "SANCHEZ VALLEJO GREGORIO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "sanchez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "17-05-1995",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SANCHEZ%20VALLEJO%20GREGORIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 482,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 442,
+    "2021": 452,
+    "2022": 462,
+    "2023": 472,
+    "2024": 482
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-12-1985",
+      "puntos": 183,
+      "resolucion": "34976.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especializaci󮼯td>26-07-1990",
+      "fecha": "45",
+      "puntos": 34976.999814814815,
+      "resolucion": "ESPECIALISTA EN MEDICINA INTERNA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

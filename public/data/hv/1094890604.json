@@ -1,0 +1,222 @@
+{
+  "cedula": "1094890604",
+  "tipoDoc": "CC",
+  "nombre": "VILLA ZABALA CRISTIAN CAMILO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "villa@uniquindio.edu.co",
+  "puntosAsignados": 564.8,
+  "ptosProductividad": 367,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 524.8,
+    "2021": 534.8,
+    "2022": 544.8,
+    "2023": 554.8,
+    "2024": 564.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39793.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "UNIQUE CATANIONIC VESICLES AS A POTENTIAL ?NANO-TAXI? FOR DRUG DELIVERY SYSTEMS. IN VITRO AND IN VIVO BIOCOMPATIBILITY EVALUATION",
+        "issn": "2046-2069",
+        "revista": "RSC ADVANCES",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "SYNTHESIS OF SILVER NANOPARTICLES, INFLUENCE OF CAPPING AGENTS, AND DEPENDENCE ON SIZE AND SHAPE: A REVIEW",
+        "issn": "2215-1532",
+        "revista": "ENVIRONMENTAL NANOTECHNOLOGY, MONITORING AND MANAGEMENT",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "ALOE VERA GEL EDIBLE COATING FOR SHELF LIFE AND ANTIOXIDANT PROPRIETIES PRESERVATION OF ANDEAN BLACKBERRY",
+        "issn": "2227-9717",
+        "revista": "PROCESSES",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "MOLECULARLY IMPRINTED POLYMERS FOR FOOD APPLICATIONS: A REVIEW",
+        "issn": "0924-2244",
+        "revista": "TRENDS IN FOOD SCIENCE AND TECHNOLOGY",
+        "categoria": "A1",
+        "puntos": 6,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "CITRIC-ACID MODIFIED BANANA STARCH NANOPARTICLES AS A NOVEL VEHICLE FOR ߭CAROTENE DELIVERY",
+        "issn": "0022-5142",
+        "revista": "JOURNAL OF THE SCIENCE OF FOOD AND AGRICULTURE",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "COMPARISON OF THE RELEASE KINETICS OF BIOACTIVE MOLECULES FROM NATIVE AND MODIFIED STARCH NANOPARTICLES INTO FOOD AND GASTRIC SIMULANTS",
+        "issn": "0038-9056",
+        "revista": "STARCH",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "CHARACTERIZATION OF ALOE VERA-BANANA STARCH COMPOSITE FILMS REINFORCED WITH CURCUMIN-LOADED STARCH NANOPARTICLES",
+        "issn": "2213-3291",
+        "revista": "FOOD STRUCTURE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "PHYSICOCHEMICAL AND RHEOLOGICAL PROPERTIES OF PUREES BASED ON MAFAFA (XANTHOSOMA ROBUSTUM) AND QUINOA (CHENOPODIUM QUINOA WILLD) WITH THE ADDITION OF CRYOPROTECTANS.",
+        "issn": "0022-4901",
+        "revista": "JOURNAL OF TEXTURE STUDIES",
+        "categoria": "A2",
+        "puntos": 2.7,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "ZNO AND ZNO/CAO NANOPARTICLES IN ALGINATE FILMS. SYNTHESIS, MECHANICAL CHARACTERIZATION, BARRIER PROPERTIES AND RELEASE KINETICS",
+        "issn": "0023-6438",
+        "revista": "LWT FOOD SCIENCE AND TECHNOLOGY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "MOLECULAR SIEVES FOR FOOD APPLICATIONS: A REVIEW",
+        "issn": "0924-2244",
+        "revista": "TRENDS IN FOOD SCIENCE & TECHNOLOGY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "JOURNAL OF PHYSICS: CONFERENCE SERIES PAPER ? THE FOLLOWING ARTICLE ISOPEN ACCESS SYNTHESIS AND CHARACTERIZATION OF STARCH STABILIZED AG NANOPARTICLES. EFFECT OF THE CRYSTALLINE STRUCTURE OF STARCH",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "MECHANIL BARRIER, AND COLOR PROPERTIES OF BANANA STARCH EDIBLE FILMS INCORPORATED WITH NANOEMULSIONS OF LEMONGRASS AND ROSEMARY ESSENTIAL OILS",
+        "issn": "1082-0132",
+        "revista": "FOOD SCIENCE AND TECHNOLOGY INTERNATIONAL",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "CATANIONIC REVERSE MICELLES AS AN OPTIMAL MICROENVIRONMENT TO ALTER THE WATER ELECTRON DONOR CAPACITY IN A SN2 REACTION",
+        "issn": "0533-1153",
+        "revista": "THE JOURNAL OF ORGANIC AND PHARMACEUTICAL CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "ANALYSIS AND MODELING OF MECHANICAL AND BARRIER PROPERTIES OF ARRACACHA STARCH-CHITOSAN COMPOSITE BIODEGRADABLE FILMS",
+        "issn": "1566-2543",
+        "revista": "JOURNAL OF POLYMERS AND THE ENVIRONMENT",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "CHEMICAL, STRUCTURAL, AND THERMAL CHARACTERIZATION OF STARCHES FROM FOUR YELLOW ARRACACHA (ARRACACIA XANTHORRIZA) ROOTS PRODUCED IN COLOMBIA",
+        "issn": "2405-8440",
+        "revista": "HELIYON",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "ZEOLITES FOR FOOD APPLICATIONS: A REVIEW",
+        "issn": "2212-4306",
+        "revista": "FOOD BIOSCIENCE",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "DEVELOPMENT OF ACTIVE EDIBLE FILMS MADE FROM BANANA STARCH AND CURCUMIN-LOADED NANOEMULSIONS",
+        "issn": "1873-7072",
+        "revista": "FOOD CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "DATA FROM THE SYNTHESIS AND CHARACTERIZATION OF BANANA STARCH NANOPARTICLES FROM DIFFERENT BOTANICAL VARIETIES",
+        "issn": "2352-3409",
+        "revista": "DATA IN BRIEF",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "BIOACTIVE FOOD COATING: A REVIEW",
+        "issn": "1999-2023",
+        "revista": "PACKAGING TECHNOLOGY AND SCIENCE",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10768"
+      },
+      {
+        "año": "2023",
+        "titulo": "DEVELOPMENT OF A BIOACTIVE SYNBIOTIC EDIBLE FILM BASED ON CASSAVA STARCH, INULIN, AND LACTOBACILLUS CASEI",
+        "issn": "0268-005X",
+        "revista": "FOOD HYDROCOLLOIDS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10768"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

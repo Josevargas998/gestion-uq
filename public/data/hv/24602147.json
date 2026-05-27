@@ -1,0 +1,61 @@
+{
+  "cedula": "24602147",
+  "tipoDoc": "CC",
+  "nombre": "CARVAJAL OROZCO NELLY",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION FINANCIERA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "carvajal@uniquindio.edu.co",
+  "puntosAsignados": 346.7,
+  "ptosProductividad": 113,
+  "topeMaximo": 52,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 306.7,
+    "2021": 316.7,
+    "2022": 326.7,
+    "2023": 336.7,
+    "2024": 346.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "33117.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION FINANCIERA",
+      "tituloSnies": "Maestria",
+      "fecha": "41586.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE MEDELLIN",
+      "tituloSnies": "Especialización01-12-2011",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Modelo de gesti󮠁dministrativo y Financiero para las Mipymes del sector agropecuario del departame",
+        "puntos": 11.3,
+        "resolucion": "8677"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

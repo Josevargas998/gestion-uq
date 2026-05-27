@@ -1,0 +1,73 @@
+{
+  "cedula": "41955076",
+  "tipoDoc": "CC",
+  "nombre": "RAMIREZ AGUDELO ANGELICA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "CIENCIAS DE LA INFORMACION Y LA DOCUMENTACION BIBLIOTECOLOGIA Y ARCHIVISTICA",
+  "email": "ramirez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-01-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RAMIREZ%20AGUDELO%20ANGELICA%20MARIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 301.4,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 261.4,
+    "2021": 271.4,
+    "2022": 281.4,
+    "2023": 291.4,
+    "2024": 301.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-04-2006",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-04-2006",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION DE EMPRESAS",
+      "tituloSnies": "Maestria",
+      "fecha": "14-10-2020",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especializaci󮼯td>21-06-2013",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA DE PROYECTOS"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especializaci󮼯td>27-06-2013",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GERENCIA DE PROYECTOS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

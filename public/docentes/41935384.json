@@ -1,0 +1,59 @@
+{
+  "cedula": "41935384",
+  "tipoDoc": "CC",
+  "nombre": "GUZMAN BEATRIZ ELENA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS PRESENCIAL",
+  "email": "guzman@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2013-11-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GUZMAN%20BEATRIZ%20ELENA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 526.7,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 486.70000000000005,
+    "2021": 496.70000000000005,
+    "2022": 506.70000000000005,
+    "2023": 516.7,
+    "2024": 526.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>16-05-2007",
+      "fecha": "20",
+      "puntos": 41460.999814814815,
+      "resolucion": "ESPECIALISTA EN PENSAMIENTO ESTRATEGICO Y PROSPECTIVA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION DE EMPRESAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-11-2010",
+      "puntos": 40,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR DE EMPRESAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "36780.999814814815",
+      "puntos": 178,
+      "resolucion": "41460.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

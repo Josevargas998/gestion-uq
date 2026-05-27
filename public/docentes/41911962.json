@@ -1,0 +1,59 @@
+{
+  "cedula": "41911962",
+  "tipoDoc": "CC",
+  "nombre": "RENDON GARCIA OLGA LUCIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SALUD OCUPACIONAL",
+  "email": "rendon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "31-07-2008",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RENDON%20GARCIA%20OLGA%20LUCIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 416.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 376.8,
+    "2021": 386.8,
+    "2022": 396.8,
+    "2023": 406.8,
+    "2024": 416.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>20-01-2003",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN SALUD OCUPACIONAL E HIGIENE DEL TRABAJO"
+    },
+    {
+      "tituloNacional": "INGENIERO AGROINDUSTRIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-09-1997",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>20-01-2003",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN SALUD OCUPACIONAL E HIGIENE DEL TRABAJO"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

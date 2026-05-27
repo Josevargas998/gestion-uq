@@ -1,0 +1,59 @@
+{
+  "cedula": "10098597",
+  "tipoDoc": "CC",
+  "nombre": "CELADES HERNANDEZ JOSE FERNANDO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "celades@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CELADES%20HERNANDEZ%20JOSE%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 294.8,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 254.8,
+    "2021": 264.8,
+    "2022": 274.8,
+    "2023": 284.8,
+    "2024": 294.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD SANTO TOMAS",
+      "tituloSnies": "Especializaci󮼯td>19-05-2005",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DERECHO ADMINISTRATIVO"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "31757.999814814815",
+      "puntos": 183,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especializaci󮼯td>31-07-1992",
+      "fecha": "40",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GINECOLOGIA Y OBSTETRICIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

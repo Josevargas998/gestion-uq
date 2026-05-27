@@ -1,0 +1,78 @@
+{
+  "cedula": "14231147",
+  "tipoDoc": "CC",
+  "nombre": "CARMONA SUAREZ EDGAR JAVIER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "26-07-1993",
+  "estado": "ACTIVO",
+  "email": "carmona@uniquindio.edu.co",
+  "puntosAsignados": 944.5,
+  "ptosProductividad": 260,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 904.5,
+    "2021": 914.5,
+    "2022": 924.5,
+    "2023": 934.5,
+    "2024": 944.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-1993",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN TECNOLOGIAS DE LA INFORMACIӎ",
+      "tituloSnies": "Doctorado",
+      "fecha": "18-01-2008",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA COMPUTACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "30-08-1999",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2021",
+        "titulo": "APLICACIONES DE LA INTEGRAL",
+        "puntos": 7.9,
+        "resolucion": "8679"
+      },
+      {
+        "año": "2026",
+        "titulo": "GENDOCSOFT",
+        "puntos": 8.4,
+        "resolucion": "125"
+      },
+      {
+        "año": "2026",
+        "titulo": "GENTEX 24",
+        "puntos": 8.8,
+        "resolucion": "125"
+      },
+      {
+        "año": "2026",
+        "titulo": "RESOLUCIӎ DE TRINGULOS",
+        "puntos": 9,
+        "resolucion": "125"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

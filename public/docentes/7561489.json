@@ -1,0 +1,59 @@
+{
+  "cedula": "7561489",
+  "tipoDoc": "CC",
+  "nombre": "CALDERON BENAVIDES JHON JAIRO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "calderon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CALDERON%20BENAVIDES%20JHON%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 339.8,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 299.8,
+    "2021": 309.8,
+    "2022": 319.8,
+    "2023": 329.8,
+    "2024": 339.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ITT TECHNICAL INSTITUTE",
+      "tituloSnies": "Tecnolog\ud87c/td>20-09-1985",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGIA EN ELECTRONICS ENGIEERING TECHNOLOGY"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 178,
+      "resolucion": "31-07-2008"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "38725.999814814815",
+      "puntos": 40,
+      "resolucion": "31-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

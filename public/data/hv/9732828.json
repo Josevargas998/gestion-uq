@@ -1,0 +1,249 @@
+{
+  "cedula": "9732828",
+  "tipoDoc": "CC",
+  "nombre": "AGUIRRE OBANDO OSCAR ALEXANDER",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "18-02-2020",
+  "estado": "ACTIVO",
+  "email": "aguirre@uniquindio.edu.co",
+  "puntosAsignados": 608.7,
+  "ptosProductividad": 389,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 568.7,
+    "2021": 578.7,
+    "2022": 588.7,
+    "2023": 598.7,
+    "2024": 608.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "37752.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "37752.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOLOGICAS ENTOMOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "25-04-2017",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGICAS ENTOMOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "25-04-2017",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "FIRST REPORT OF THE PHE1534CYS KDR MUTATION IN NATURAL POPULATIONS OF AEDES ALBOPICTUS FROM BRAZIL",
+        "issn": "1756-3305",
+        "revista": "PARASITE AND VECTORS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2020",
+        "titulo": "Insecticide resistance and genetic variability in natural populations of Aedes (Stegomyia) aegypti (Diptera: Culicidae) from Colombia",
+        "issn": "1984-4689",
+        "revista": "ZOOLOGIA",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2020",
+        "titulo": "CONTRANTING PATTERNS OF INSECTICIDE RESISTANCE AND KNOCKDOWN RESISTANCE (KDR) IN AEDES AEGYPTI POPULATIONS FROM JACAREZINHO (BRAZIL) AFTER A DENGUE OUTBREAK",
+        "issn": "0085-5626",
+        "revista": "ENTOMOLOGIA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2020",
+        "titulo": "CAMBIOS EN LAS PROPIEDADES QU͍ICAS DEL SUELO CON LA UTILIZACIӎ DE DICHOTOMIUS SATANAS (HAROLD, 1867) (COLEOPTERA: SCARABAEIDAE: SCARABAEINAE) EN CONDICIONES DE INVERNADERO",
+        "issn": "1794-631X",
+        "revista": "REVISTA DE INVESTIGACIONES UNIVERSIDAD DEL QUINDIO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2020",
+        "titulo": "HOW MUCH IS KNOWM ABOUT THE GENETIC DIVERSITY OF THE ASIAN TIGER MOSQUITO? A SYSTEMIC REVIEW",
+        "issn": "0121-0807",
+        "revista": "SALUD UIS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2020",
+        "titulo": "ESTUDIO DEMOGRFICO DE EMILIA SONCHIFOLIA (ASTERACEAE) EN UNA FINCA CAFETERA DE ARMENIA, QUINDLO, COLOMBIA",
+        "issn": "0120-548X",
+        "revista": "ACTA BIOLԇICA COLOMBIANA",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2020",
+        "titulo": "CONTROL DEL VECTOR DEL DENGUE UTILIZANDO FRACCIONES ETɒEAS DE DOS PLANTAS (ASTERACEAE) COMO LARVICIDAS",
+        "issn": "0124-0064",
+        "revista": "REVISTA DE SALUD PUBLICA",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2020",
+        "titulo": "EVALUACIӎ DEL POTENCIAL BIOINSECTICIDA DE EXTRACTOS ACUOSOS DE NICOTIANA TABACUM (TABACO), MENAT PIPERITA (HIERBABUENA O YERBABUENA),SAMCUBUS NIGRA (SAUCO), PTEDIRIUM AQUILINIUM",
+        "issn": "0120-4173",
+        "revista": "REVISTA DE LA ASOCIACION COLOMBIANA DE CIENCIAS BIOLOGICAS",
+        "categoria": "C",
+        "puntos": 5,
+        "resolucion": "7015"
+      },
+      {
+        "año": "2021",
+        "titulo": "EFFECT OF ALTITUDE ON WING METRIC VARIATION OF AEDES AEGYPTI (DIPTERA: CULICIDAE) IN A REGION OF THE COLOMBIAN CENTRAL ANDES",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2021",
+        "titulo": "URBANIZATION LEVELS ARE ASSOCIATED WITH THE START OF THE DAWN CHORUS IN VERMILION FLYCATCHERS IN COLOMBIA",
+        "issn": "1828-7131",
+        "revista": "ETHOLOGY ECOLOGY & EVOLUTION",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2021",
+        "titulo": "CONTROL OF AEDES (STEGOMYIA) AEGYPTI USING BACILLUS THURINGIENSIS VAR. ISRAELENSIS IN ARMENIA, QUIND͏, COLOMBIA",
+        "issn": "2619-2551",
+        "revista": "U.D.C.A ACTUALIDAD & DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2021",
+        "titulo": "THE MAYARO VIRUS AND ITS POTENTIAL EPIDEMIOLOGICAL CONSEQUENCES IN COLOMBIA: AN EXPLORATORY BIOMATHEMATICS ANALYSIS",
+        "issn": "1756-3305",
+        "revista": "PARASITES & VECTORS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2022",
+        "titulo": "POTENTIAL GEOGRAPHIC DISTRIBUTION OF THE TIGER MOSQUITO AEDES ALBOPICTUS (SKUSE, 1894) (DIPTERA: CULICIDAE) IN CURRENT AND FUTURE CONDITIONS FOR COLOMBIA",
+        "issn": "1935-2727",
+        "revista": "PLOS NEGLECTED TROPICAL DISEASES",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "9842"
+      },
+      {
+        "año": "2023",
+        "titulo": "GLOBAL PHYLOGEOGRAPHY OF THE FLOOD MOSQUITO, AEDES VEXANS (DIPTERA: CULICIDAE), FROM MITOCHONDRIAL DNA",
+        "issn": "1984-4689",
+        "revista": "ZOOLOGIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2023",
+        "titulo": "GENE FLOW PATTERNS OF THE AEDES AEGYPTI (DIPTERA: CULICIDAE) MOSQUITO IN COLOMBIA: A CONTINENTAL COMPARISON SUGGESTS MULTIPLE INVASION ROUTES AND GENE EXCHANGE",
+        "issn": "0085-5626",
+        "revista": "REVISTA BRASILEIRA DE ENTOMOLOGIA",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2023",
+        "titulo": "DISPERSION ROUTES OF THE MAIN VECTORS OF HUMAN MALARIA IN THE AMERICAS: GENETIC EVIDENCE FROM THE MITOCHONDRIAL COI GENE",
+        "issn": "0972-9062",
+        "revista": "JOURNAL OF VECTOR BORNE DISEASES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2024",
+        "titulo": "GENETIC DIVERSITY AND KDR MUTATIONS OF NATURAL AEDES (STEGOMYIA) AEGYPTI (DIPTERA: CULICIDAE) POPULATIONS OF BRAZIL",
+        "issn": "0085-5626",
+        "revista": "REVISTA BRASILEIRA DE ENTOMOLOGIA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2025",
+        "titulo": "POTENTIAL CURRENT AND FUTURE DISTRIBUTION FOR AEDES AEGYPTI AND AEDES ALBOPICTUS IN COLOMBIA: IMPORTANT DISEASE VECTORS",
+        "issn": "1573-1464",
+        "revista": "BIOLOGICAL INVASIONS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1101"
+      },
+      {
+        "año": "2025",
+        "titulo": "DINMICA GENOT͐ICA Y DISPERSIӎ, EN BIOMAS COLOMBIANOS, DE MUTACIONES KDR ASOCIADAS CON RESISTENCIA A PIRETROIDES EN EL MOSQUITO AEDES AEGYPTI (DIPTERA: CULICIDAE)",
+        "issn": "2215-2075",
+        "revista": "REVISTA DE BIOLOǴ TROPICAL",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1101"
+      },
+      {
+        "año": "2025",
+        "titulo": "ASSESING PHYLOGROGRAPHIC: PATTERNS AND GENETIC DIVERSITY IN CULEX QUINQUEFACIATUS VIA MTDNA SEQUENCES FROM PUBLIC DATABASES",
+        "issn": "1810-522X",
+        "revista": "ZOOLOGICAL STUDIES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "A NEW VECTOR EMERGES? AEDES VITTATUS (DIPTERA: CULICIDAE): ECOLOGICAL DESCRIPTION AND CURRENT AND FUTURE POTENTIAL GLOBAL GEOGRAPHIC INVASION",
+        "issn": "2215-2075",
+        "revista": "REVISTA DE BIOLOǴ TROPICAL",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1101"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

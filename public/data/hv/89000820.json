@@ -1,0 +1,71 @@
+{
+  "cedula": "89000820",
+  "tipoDoc": "CC",
+  "nombre": "SERNA RESTREPO JHON ALEXANDER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "41828.999814814815",
+  "estado": "ACTIVO",
+  "email": "serna@uniquindio.edu.co",
+  "puntosAsignados": 319,
+  "ptosProductividad": 132,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 279,
+    "2021": 289,
+    "2022": 299,
+    "2023": 309,
+    "2024": 319
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-1995",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "30-07-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-1995",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2026",
+        "titulo": "HABILIDADES DEL SIGLO XXI Y ESTRATEGIAS COMUNICATIVAS: UNA OPORTUNIDAD PARA EL DESARROLLO DE LA COMPETENCIA COMUNICATIVA EN INGLɓ",
+        "issn": "2346-0806",
+        "revista": "SOPHIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "268"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Gamificaci󮮠Gamifying 21st Century Practices to Improve EFL LearnersԠOral Production",
+        "puntos": 12.4,
+        "resolucion": "13471"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

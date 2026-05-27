@@ -1,0 +1,95 @@
+{
+  "cedula": "9730805",
+  "tipoDoc": "CC",
+  "nombre": "ALDANA GUTIERREZ JORGE ALEJANDRO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "aldana@uniquindio.edu.co",
+  "puntosAsignados": 380.9,
+  "ptosProductividad": 124,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 340.9,
+    "2021": 350.9,
+    "2022": 360.9,
+    "2023": 370.9,
+    "2024": 380.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERIA ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especialización16-08-2006",
+      "fecha": "",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "PERFORMANCE EVALUAION OF DIFFERENT CLUSTERING ALGORITHMS FOR DATA STREAMS",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10771"
+      },
+      {
+        "año": "2023",
+        "titulo": "INMERSIӎ DE LAS OLAS DE INNOVACIӎ TECNOLӇICA EN EL PROGRAMA DE INGENIEŔ ELECTRӎICA DE LA UNIVERSIDAD DEL QUIND͏ (COLOMBIA)",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10771"
+      },
+      {
+        "año": "2023",
+        "titulo": "DESARROLLO DE UN CONJUNTO DE MӄILOS DIDCTICOS DE ELECTRӎICA BSICA BAJO ESTNDARES 5 Y 6 DEL CDIO",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10771"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡 la ingenier\ud860econ󭩣a",
+        "puntos": 10.4,
+        "resolucion": "10771"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

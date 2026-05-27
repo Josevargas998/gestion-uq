@@ -1,0 +1,66 @@
+{
+  "cedula": "7534741",
+  "tipoDoc": "CC",
+  "nombre": "AGUDELO HENAO CARLOS ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "agudelo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "20-04-1981",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=AGUDELO%20HENAO%20CARLOS%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 695.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 655.3,
+    "2021": 665.3,
+    "2022": 675.3,
+    "2023": 685.3,
+    "2024": 695.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>21-12-1988",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA APLICACIONES MATEMTICAS A CIENCIAS BIOLӇICAS"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOLOǴ SISTEMTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "29-07-1994",
+      "puntos": 40,
+      "resolucion": "22-02-1995"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACIӎ BIOLOǴ Y QU͍ICA AREA MAYOR BIOLOǴ",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-07-1983",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "39579.999814814815",
+      "puntos": 80,
+      "resolucion": "40062.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

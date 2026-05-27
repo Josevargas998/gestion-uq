@@ -1,0 +1,52 @@
+{
+  "cedula": "7557752",
+  "tipoDoc": "CC",
+  "nombre": "PARRA HERNNDEZ RAMIRO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS PRESENCIAL",
+  "email": "parra@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "16-01-2009",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PARRA%20HERNNDEZ%20RAMIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 499.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 459.3,
+    "2021": 469.3,
+    "2022": 479.3,
+    "2023": 489.3,
+    "2024": 499.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-12-1991",
+      "puntos": 178,
+      "resolucion": "31-07-2008"
+    },
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-03-2007",
+      "puntos": 40,
+      "resolucion": "31-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

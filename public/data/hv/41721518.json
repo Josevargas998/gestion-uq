@@ -1,0 +1,126 @@
+{
+  "cedula": "41721518",
+  "tipoDoc": "CC",
+  "nombre": "PINZON FANDIN MAGDA IVONNE",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "31809.999814814815",
+  "estado": "ACTIVO",
+  "email": "pinzon@uniquindio.edu.co",
+  "puntosAsignados": 769.5,
+  "ptosProductividad": 182,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 729.5,
+    "2021": 739.5,
+    "2022": 749.5,
+    "2023": 759.5,
+    "2024": 769.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE ALIMENTOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1986",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS",
+      "tituloSnies": "Doctorado",
+      "fecha": "25-07-2000",
+      "puntos": 120
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización15-09-1995",
+      "fecha": "20",
+      "puntos": 35014.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "INCREASING SHELF LIFE OF STRAWBERRIES (FARAGARIA SSP) BY USING A BANANA STRACH-CHITOSAN-ALOE VERA GEL COMPOSITE EDIBLE COATING",
+        "issn": "0950-5423",
+        "revista": "INTERNATIONAL JOURNAL OF FOOD SCIENCE AND TECHNOLOGY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2020",
+        "titulo": "ZNO AND ZNO/CAO NANOPARTICLES IN ALGINATE FILMS. SYNTHESIS, MECHANICAL CHARACTERIZATION, BARRIER PROPERTIES AND RELEASE KINETICS",
+        "issn": "0023-6438",
+        "revista": "LWT FOOD SCIENCE AND TECHNOLOGY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2020",
+        "titulo": "CHARACTERIZATION OF ALOE VERA-BANANA STARCH COMPOSITE FILMS REINFORCED WITH CURCUMIN-LOADED STARCH NANOPARTICLES",
+        "issn": "2213-3291",
+        "revista": "FOOD STRUCTURE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2020",
+        "titulo": "FOOD SAFETY ASSESSMENT AND RISK FOR TOXOPLASMOSIS IN SCHOOL RESTAURANTS IN ARMENIA, COLOMBIA",
+        "issn": "0932-0113",
+        "revista": "PARASITOLOGY RESEARCH",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2021",
+        "titulo": "ANALYSIS AND MODELING OF MECHANICAL AND BARRIER PROPERTIES OF ARRACACHA STARCH-CHITOSAN COMPOSITE BIODEGRADABLE FILMS",
+        "issn": "1566-2543",
+        "revista": "JOURNAL OF POLYMERS AND THE ENVIRONMENT",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2021",
+        "titulo": "CHEMICAL, STRUCTURAL, AND THERMAL CHARACTERIZATION OF STARCHES FROM FOUR YELLOW ARRACACHA (ARRACACIA XANTHORRIZA) ROOTS PRODUCED IN COLOMBIA",
+        "issn": "2405-8440",
+        "revista": "HELIYON",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2021",
+        "titulo": "SYNTHESIS AND CHARACTERIZATION OF STARCH STABILIZED AG NANOPARTICLES. EFFECT OF THE CRYSTALLINE STRUCTURE OF STARCH.",
+        "issn": "1742-6588",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 2.7,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2025",
+        "titulo": "DETERMINATION OF LIPIDS AND FATTY ACIDS IN GREEN COFFEE BEANS (COFFEA ARABICA L.) HARVESTED IN DIFFERENT AGROCLIMATIC ZONES OF THE DEPARTMENT OF QUIND͏, COLOMBIA",
+        "issn": "2073-4395",
+        "revista": "AGRONOMY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "69"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

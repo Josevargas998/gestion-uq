@@ -1,0 +1,70 @@
+{
+  "cedula": "16221041",
+  "tipoDoc": "CC",
+  "nombre": "HOYOS GUTIERREZ JOSE GABRIEL",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "18-05-1995",
+  "estado": "ACTIVO",
+  "email": "hoyos@uniquindio.edu.co",
+  "puntosAsignados": 550.8,
+  "ptosProductividad": 71,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 510.79999999999995,
+    "2021": 520.8,
+    "2022": 530.8,
+    "2023": 540.8,
+    "2024": 550.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA ELECTRICA",
+      "tituloSnies": "Maestria",
+      "fecha": "38057.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especialización12-02-1999",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRICISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-01-1993",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2024",
+        "titulo": "A SYSTEMATIC LITERATURE REVIEW ON RAPID CONTROL PROTOTYPING APPLICATIONS",
+        "issn": "1932-8540",
+        "revista": "REVISTA IBEROAMERICANA DE TECNOLOǴS DEL APRENDIZAJE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13478"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2023",
+        "titulo": "LABWEBUQ",
+        "puntos": 6.5,
+        "resolucion": "10946"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

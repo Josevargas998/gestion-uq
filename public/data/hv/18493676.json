@@ -1,0 +1,55 @@
+{
+  "cedula": "18493676",
+  "tipoDoc": "CC",
+  "nombre": "HERRERA MORALES JORGE ORLANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "herrera@uniquindio.edu.co",
+  "puntosAsignados": 370.7,
+  "ptosProductividad": 148,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 330.7,
+    "2021": 340.7,
+    "2022": 350.7,
+    "2023": 360.7,
+    "2024": 370.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-05-2022",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "FUNDACION UNIVERSIDAD AUTONOMA DE COLOMBIA",
+      "tituloSnies": "Especialización13-09-2002",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡 la Progamaci󮠥n C",
+        "puntos": 14.8,
+        "resolucion": "10692"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

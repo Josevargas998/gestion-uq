@@ -1,0 +1,192 @@
+{
+  "cedula": "89001416",
+  "tipoDoc": "CC",
+  "nombre": "PRIAS BARRAGAN JHON JAIRO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "39545.999814814815",
+  "estado": "ACTIVO",
+  "email": "prias@uniquindio.edu.co",
+  "puntosAsignados": 729.5,
+  "ptosProductividad": 501,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 689.5,
+    "2021": 699.5,
+    "2022": 709.5,
+    "2023": 719.5,
+    "2024": 729.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "27-02-2004",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "27-02-2004",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "ACTIVATED CARBON OBTAINED FROM BAMBOO: SYNTHESIS, MORPHOLOGICAL, VIBRATIONAL, AND ELECTRICAL PROPERTIES AND POSSIBLE TEMPERATURA SENSOR",
+        "issn": "1862-6319",
+        "revista": "PHYS. STATUS SOLIDI",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7413"
+      },
+      {
+        "año": "2020",
+        "titulo": "GRAPHENE OXIDE MULTILAYERS: SYNTHESIS, PROPERTIES AND POSSIBLE APPLICATIONS IN ELECTRONICS",
+        "issn": "0018-9219",
+        "revista": "IEEE 2019 (PROCEEDINGS OF THE IEEE)",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7413"
+      },
+      {
+        "año": "2021",
+        "titulo": "GRAPHENE OXIDE THIN FILMS: SYNTHESIS AND OPTICAL CHARACTERIZATION",
+        "issn": "2365-6549",
+        "revista": "CHEMISTRYSELECT",
+        "categoria": "A2",
+        "puntos": 3,
+        "resolucion": "8116"
+      },
+      {
+        "año": "2021",
+        "titulo": "COMPARISON BETWEEN ELECTRICAL AND OPTICAL PROPERTIES OF CARBON DOTS, SILVER NANOPARTICLES AND HYBRID CARBON/SILVER NANOPARTICLES: EXPERIMENTAL EVIDENCE OF THE INTERACTION OF CARBON DOTS ON SILVER NANOPARTICLES",
+        "issn": "2352-507X",
+        "revista": "NANO-STRUCTURES & NANO-OBJECTS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "8116"
+      },
+      {
+        "año": "2021",
+        "titulo": "STUDY AND IDENTIFICATION OF CONTAMINANT PHASES IN COMMERCIAL ACTIVATED CARBONS",
+        "issn": "2213-3437",
+        "revista": "JOURNAL OF ENVIRONMENTAL CHEMICAL ENGINEERING",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8116"
+      },
+      {
+        "año": "2022",
+        "titulo": "ROOM-TEMPERATURE FERROMAGNETISM IN OXIDIZED-GRAPHENIC NANOPLATELETS INDUCED BY TOPOGRAPHIC DEFECTS",
+        "issn": "0304-8853",
+        "revista": "JOURNAL OF MAGNETISM AND MAGNETIC MATERIALS",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "9832"
+      },
+      {
+        "año": "2023",
+        "titulo": "FORMATION OF A NANOPOROUS PBI2 LAYER FRAMEWORK VIA 4-TBP ADDITIVE TO IMPROVE THE PERFORMANCE AND STABILITY OF TWO-STEP PREPARED HYBRID PEROVSKITE SOLAR CELLS UNDER AMBIENT CONDITIONS",
+        "issn": "0363-907X",
+        "revista": "INTERNATIONAL JOURNAL OF ENERGY RESEARCH",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "11982"
+      },
+      {
+        "año": "2023",
+        "titulo": "EXPLORING MOLECULAR AND ELECTRONIC PROPERTY PREDICTIONS OF REDUCED GRAPHENE OXIDE NANOFLAKES VIA DENSITY FUNCTIONAL THEORY",
+        "issn": "2470-1343",
+        "revista": "ACS OMEGA",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "11982"
+      },
+      {
+        "año": "2023",
+        "titulo": "MAGNETISM IN GRAPHENE OXIDE NANOPLATELETS: THE ROLE OF HYDROXYL AND EPOXY BRIDGES",
+        "issn": "1873-4766",
+        "revista": "JOURNAL OF MAGNETISM AND MAGNETIC MATERIALS",
+        "categoria": "A2",
+        "puntos": 4,
+        "resolucion": "11982"
+      },
+      {
+        "año": "2024",
+        "titulo": "BASIC PHYSICAL PROPERTIES AND POTENTIAL APPLICATION OF GRAPHENE OXIDE FIBERS SYNTHESIZED FROM RICE HUSK",
+        "issn": "2045-2322",
+        "revista": "SCIENTIFIC REPORTS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "13478"
+      },
+      {
+        "año": "2024",
+        "titulo": "EXPLORING THE CAPTURE AND DESORPTION OF CO2 ON GRAPHENE OXIDE FOAMS SUPPORTED BY COMPUTATIONAL CALCULATIONS",
+        "issn": "2045-2322",
+        "revista": "SCIENTIFIC REPORTS",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "13478"
+      },
+      {
+        "año": "2024",
+        "titulo": "A DIRECT CORRELATION BETWEEN STRUCTURAL AND MORPHOLOGICAL DEFECTS OF TIO2 THIN FILMS ON FTO SUBSTRATES AND PHOTOVOLTAIC PERFORMANCE OF PLANAR PEROVSKITE SOLAR CELLS",
+        "issn": "1369-8001",
+        "revista": "MATERIALS SCIENCE IN SEMICONDUCTOR PROCESSING",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "13478"
+      },
+      {
+        "año": "2024",
+        "titulo": "GRAPHENE NANOSTRUCTURES FUNCTIONALIZATION: HYDROGEN BONDS AND OXIDE COVERAGE EFFECT",
+        "issn": "2352-4928",
+        "revista": "MATERIALS TODAY COMMUNICATIONS",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13478"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroEnsayo",
+        "titulo": "Graphene Oxide Multilayers Obtained from Bamboo: New Synthesis Method, Basic Properties, and Future",
+        "puntos": 7.4,
+        "resolucion": "7413"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Eco - Contabilidad: Caso: Ecosistema Rodal de Bamb򠭠Guadual",
+        "puntos": 6.9,
+        "resolucion": "77"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "cedula": "24675452",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO GARCIA ALEJANDRA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "giraldo@uniquindio.edu.co",
+  "puntosAsignados": 463.3,
+  "ptosProductividad": 70,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 423.3,
+    "2021": 433.3,
+    "2022": 443.3,
+    "2023": 453.3,
+    "2024": 463.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "17-06-2020",
+      "puntos": 20
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-07-2003",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-07-2003",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-04-2009",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "17-06-2020",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "EFFECTS OF FLAVIVIRUS CROSSREACTIVITY (ZIKA AND DENGUE) ON THE DEVELOPMENT OF VACCINES FOR USE IN PREGNANCY",
+        "issn": "2196-3045",
+        "revista": "CURRENT TROPICAL MEDICINE REPORTS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7402"
+      },
+      {
+        "año": "2020",
+        "titulo": "DEVELOPMENT OF A DENGUE VACCINE AND ITS USE IN PREGNANT WOMEN",
+        "issn": "2196-3045",
+        "revista": "CURRENT TROPICAL MEDICINE REPORTS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7402"
+      },
+      {
+        "año": "2020",
+        "titulo": "ENVIRONMENTAL SURVEILLANCE OF POLIOVIRUSES IN ARMENIA, COLOMBIA BEFORE TRIVALENT ORAL POLIO VACCINE CESSATION",
+        "issn": "2422-3794",
+        "revista": "INFECTIO",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7402"
+      },
+      {
+        "año": "2020",
+        "titulo": "ANTIPARASTIC PHYTOTHERAPY PERSPECTIVES, SCOPE AND CURRENT DEVELOPMENT",
+        "issn": "1999-4915",
+        "revista": "VIRUSES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7402"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

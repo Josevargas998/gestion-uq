@@ -1,0 +1,80 @@
+{
+  "cedula": "9739108",
+  "tipoDoc": "CC",
+  "nombre": "RODRIGUEZ LEON DANIEL MAURICIO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "rodriguez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RODRIGUEZ%20LEON%20DANIEL%20MAURICIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 461.9,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 421.9,
+    "2021": 431.9,
+    "2022": 441.9,
+    "2023": 451.9,
+    "2024": 461.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2012",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2012",
+      "puntos": 40,
+      "resolucion": "41699.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>19-04-2010",
+      "fecha": "20",
+      "puntos": 41699.999814814815,
+      "resolucion": "ESPECIALISTA EN ENSEсNZA DE LA LITERATURA"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ESPAÑL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-10-2008",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACIӎ ESPAÑL Y LITERARURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-10-2008",
+      "puntos": 178,
+      "resolucion": "41699.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>19-04-2010",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ENSEсNZA DE LA LITERATURA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "9770373",
+  "tipoDoc": "CC",
+  "nombre": "NAVARRO PEREZ ALVARO ANDRES",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "navarro@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=NAVARRO%20PEREZ%20ALVARO%20ANDRES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 441.5,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 401.5,
+    "2021": 411.5,
+    "2022": 421.5,
+    "2023": 431.5,
+    "2024": 441.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39793.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39793.999814814815",
+      "puntos": 178,
+      "resolucion": "43986.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN AUTOMATIZACION",
+      "tituloSnies": "Maestria",
+      "fecha": "42196.999814814815",
+      "puntos": 40,
+      "resolucion": "43986.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "cedula": "41959302",
+  "tipoDoc": "CC",
+  "nombre": "MORENO SERNA LINA MARIA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "moreno@uniquindio.edu.co",
+  "puntosAsignados": 474,
+  "ptosProductividad": 584,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 434,
+    "2021": 444,
+    "2022": 454,
+    "2023": 464,
+    "2024": 474
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DE LAS LENGUAS Y DE LAS CULTURAS",
+      "tituloSnies": "Maestria",
+      "fecha": "43291.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-02-2006",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "LA ARGUMENTACIӎ PERSUASIVA EN PRIMARIA DESDE LA SECUENCIA DIDCTICA CON ENFOQUE METACOGNITIVO",
+        "issn": "5393-804",
+        "revista": "LENGUAJE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10678"
+      },
+      {
+        "año": "2023",
+        "titulo": "EDUCACIӎ BILING܅ (ESPANL-INGLɓ) EN TRES INSTITUCIONES EDUCATIVAS PڂLICAS DEL QUIND͏, COLOMBIA: ESTUDIO DE CASO",
+        "issn": "0120-3479",
+        "revista": "LENGUAJE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10678"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Biling𩳭o, metacognici󮠹 argumentaci󮠰ersuasiva escrita en segunda lengua. Una experiencia de",
+        "puntos": 14.4,
+        "resolucion": "10678"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "La columna de opini󮠡rgumentativa persuasiva. Investigaci󮭡cci󮠥n formaci󮠩nicial de maestro",
+        "puntos": 13.8,
+        "resolucion": "10678"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "L'article dԯpinion persuasif en fran硩s langue 鴲ang貥",
+        "puntos": 6,
+        "resolucion": "1381"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Repensar el biling𩳭o individual",
+        "puntos": 14.6,
+        "resolucion": "1381"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Innovaci󮠰edag󧩣a y biling𩳭o",
+        "puntos": 14.4,
+        "resolucion": "1381"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

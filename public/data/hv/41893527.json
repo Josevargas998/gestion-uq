@@ -1,0 +1,95 @@
+{
+  "cedula": "41893527",
+  "tipoDoc": "CC",
+  "nombre": "NIETO CARDENAS OLGA ALICIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41061.999814814815",
+  "estado": "ACTIVO",
+  "email": "nieto@uniquindio.edu.co",
+  "puntosAsignados": 555.6,
+  "ptosProductividad": 169,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 515.6,
+    "2021": 525.6,
+    "2022": 535.6,
+    "2023": 545.6,
+    "2024": 555.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-12-1988",
+      "puntos": 183
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "41528.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-12-2009",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "MAGISTER EN SALUD PUBLICA",
+      "tituloSnies": "Maestria",
+      "fecha": "33643.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "OBESIDAD E INFLAMACIӎ EN ESTUDIANTES DE UNA UNIVERSIDAD PڂLICA COLOMBIANA",
+        "issn": "2539-3596",
+        "revista": "REVISTA DE SALUD PڂLICA",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2021",
+        "titulo": "NIVELES DE 25-HIDROXIVITAMINA D Y RIESGO CARDIOVASCULAR EN UNA POBLACIӎ ESTUDIANTIL UNIVERSITARIA DE ARMENIA-COLOMBIA",
+        "issn": "2011-7531",
+        "revista": "REVISTA CIENT͆ICA SALUD UNINORTE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2021",
+        "titulo": "COMPORTAMIENTO DEL INFARTO AGUDO DE MIOCARDIO EN UNA UNIDAD DE CUIDADO INTENSIVO DE UNA CIUDAD INTERMEDIA DURANTE UN AN",
+        "issn": "2248-6054",
+        "revista": "ACTA MɄICA COLOMBIANA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8121"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Aspectos moleculares del riesgo cardiovascular",
+        "puntos": 14.3,
+        "resolucion": "13475"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

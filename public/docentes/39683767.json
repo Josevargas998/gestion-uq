@@ -1,0 +1,52 @@
+{
+  "cedula": "39683767",
+  "tipoDoc": "CC",
+  "nombre": "RUIZ SOTO MARIA CLAUDIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "GERONTOLOGIA",
+  "email": "ruiz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "16-02-1994",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RUIZ%20SOTO%20MARIA%20CLAUDIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 0,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PSICOLOGA",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-06-1990",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAESTRIA EN PEDAGOGIAS ACTIVAS Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-06-2000",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

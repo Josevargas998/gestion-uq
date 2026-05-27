@@ -1,0 +1,52 @@
+{
+  "cedula": "7554040",
+  "tipoDoc": "CC",
+  "nombre": "HOYOS WALTEROS HERNAN",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "TECNOLOGIA EN GESTION FINANCIERA",
+  "email": "hoyos@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HOYOS%20WALTEROS%20HERNAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 599.2,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 559.2,
+    "2021": 569.2,
+    "2022": 579.2,
+    "2023": 589.2,
+    "2024": 599.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>10-12-2004",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGO EN GESTIӎ BANCARIA Y FINANCIERA"
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR FINANCIERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-09-2006",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

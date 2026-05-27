@@ -1,0 +1,59 @@
+{
+  "cedula": "24606935",
+  "tipoDoc": "CC",
+  "nombre": "BERMUDEZ RESTREPO CAROLINA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS DISTANCIA",
+  "email": "bermudez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BERMUDEZ%20RESTREPO%20CAROLINA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 295.1,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 255.10000000000002,
+    "2021": 265.1,
+    "2022": 275.1,
+    "2023": 285.1,
+    "2024": 295.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DESARROLLO SOSTENIBLE Y MEDIO AMBIENTE",
+      "tituloSnies": "Maestria",
+      "fecha": "40761.999814814815",
+      "puntos": 40,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR DE NEGOCIOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-04-2008",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR DE NEGOCIOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-04-2008",
+      "puntos": 178,
+      "resolucion": "43891.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

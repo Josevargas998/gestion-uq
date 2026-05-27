@@ -1,0 +1,71 @@
+{
+  "cedula": "7548119",
+  "tipoDoc": "CC",
+  "nombre": "MARMOLEJO CARDONA MARIO ALBERTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "35827.999814814815",
+  "estado": "ACTIVO",
+  "email": "marmolejo@uniquindio.edu.co",
+  "puntosAsignados": 497.2,
+  "ptosProductividad": 154,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 457.2,
+    "2021": 467.2,
+    "2022": 477.2,
+    "2023": 487.2,
+    "2024": 497.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización26-06-1998",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1988",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "39457.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "TIME-SCALE ANALYSIS BASED MODAL IDENTIFICATION USING MOBILE SENSORS",
+        "issn": "1886-158X",
+        "revista": "INTERNACIONAL DE MɔODOS NUMɒICOS PARA CLCULO Y DISEN EN INGENIEŔ",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7399"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡l Anᬩsis Matricial de Estructuras con IA",
+        "puntos": 14.2,
+        "resolucion": "1372"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

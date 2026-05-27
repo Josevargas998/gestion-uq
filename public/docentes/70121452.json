@@ -1,0 +1,52 @@
+{
+  "cedula": "70121452",
+  "tipoDoc": "CC",
+  "nombre": "CANO BETANCUR ALVARO EDUARDO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "cano@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CANO%20BETANCUR%20ALVARO%20EDUARDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 323.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 283.6,
+    "2021": 293.6,
+    "2022": 303.6,
+    "2023": 313.6,
+    "2024": 323.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN LINGUISTICA ESPAÑLA",
+      "tituloSnies": "Maestria",
+      "fecha": "26-11-1998",
+      "puntos": 40,
+      "resolucion": "20-01-2005"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECILAIDAD DE ESPAÑL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-08-1990",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

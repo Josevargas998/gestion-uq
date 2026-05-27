@@ -1,0 +1,133 @@
+{
+  "cedula": "7557752",
+  "tipoDoc": "CC",
+  "nombre": "PARRA HERNNDEZ RAMIRO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS PRESENCIAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "16-01-2009",
+  "estado": "ACTIVO",
+  "email": "parra@uniquindio.edu.co",
+  "puntosAsignados": 499.3,
+  "ptosProductividad": 328,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 459.3,
+    "2021": 469.3,
+    "2022": 479.3,
+    "2023": 489.3,
+    "2024": 499.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-12-1991",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "30-03-2007",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "IDENTIDAD Y MANIFESTACIONES CULTURALES DEL DEPARTAMENTO DEL QUIND͏ EN EL CONTEXTO DEL PAISAJE CULTURAL CAFETERO DE COLOMBIA",
+        "issn": "1139-7861",
+        "revista": "CUADERNOS DE TURISMO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7390"
+      },
+      {
+        "año": "2021",
+        "titulo": "SOCIAL NORMS AND ENTREPRENEURIAL INTENTION IN UNIVERSITY RESEARCHERS IN COLOMBIA",
+        "issn": "2256-5078",
+        "revista": "CUADERNOS DE ADMINISTRACIӎ",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8142"
+      },
+      {
+        "año": "2021",
+        "titulo": "INTEGRACIӎ PRODUCTIVA Y DESARROLLO DEL TURISMO CULTURAL",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8142"
+      },
+      {
+        "año": "2024",
+        "titulo": "DIRECCIONADORES DE FUTURO EN EL TURISMO DE NATURALEZA",
+        "issn": "2145-5147",
+        "revista": "DESARROLLO GERENCIAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13379"
+      },
+      {
+        "año": "2025",
+        "titulo": "ESTRATEGIA Y GENERACIӎ DE VALOR EN ATRACTIVOS TUR͓TICOS: CASO DE ESTUDIO",
+        "issn": "2422-3182",
+        "revista": "REVISTA CEA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1045"
+      },
+      {
+        "año": "2025",
+        "titulo": "ACTORES ESTRATɇICOS DEL TURISMO CULTURAL EN EL DEPARTAMENTO DEL QUIND͏ (COLOMBIA)",
+        "issn": "2619-4244",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1045"
+      },
+      {
+        "año": "2025",
+        "titulo": "ESTRATEGIA E INNOVACIӎ EN ATRACTIVOS TUR͓TICOS",
+        "issn": "0120-7555",
+        "revista": "TURISMO Y SOCIEDAD",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1045"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Turismo cultural en el Quindio ߕna iniciativa de cl򳴥r?",
+        "puntos": 14.3,
+        "resolucion": "8142"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Elementos de la valoraci󮠤e empresas",
+        "puntos": 12.4,
+        "resolucion": "12088"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2025",
+        "titulo": "PRIMER PUESTO EN LA CATEGOŔ DE INVESTIGACIӎ DE EVOLUCIӎ ORGANIZACIONAL EN EL MARCO DEL CAPITALIS",
+        "puntos": 15,
+        "resolucion": "1045"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

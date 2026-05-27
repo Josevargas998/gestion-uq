@@ -1,0 +1,52 @@
+{
+  "cedula": "7530943",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA LEAL JUAN CARLOS",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "22-01-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20LEAL%20JUAN%20CARLOS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 327,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 287,
+    "2021": 297,
+    "2022": 307,
+    "2023": 317,
+    "2024": 327
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA GEOTECNIA",
+      "tituloSnies": "Maestria",
+      "fecha": "37995.999814814815",
+      "puntos": 40,
+      "resolucion": "20-10-2004"
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-12-1980",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

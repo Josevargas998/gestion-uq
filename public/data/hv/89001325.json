@@ -1,0 +1,86 @@
+{
+  "cedula": "89001325",
+  "tipoDoc": "CC",
+  "nombre": "CARDENAS VALENCIA CARLOS ANDRES",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "cardenas@uniquindio.edu.co",
+  "puntosAsignados": 576.6,
+  "ptosProductividad": 368,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 536.6,
+    "2021": 546.6,
+    "2022": 556.6,
+    "2023": 566.6,
+    "2024": 576.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-1999",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "30-10-2005",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "ANLISIS DE SEсLES BIOELɃTRICAS COMO RESPUESTA A EST͍ULOS ASOCIADOS A LA MEDIACIӎ PEDAGӇICA: ESTUDIO PILOTO",
+        "issn": "2256-1536",
+        "revista": "REVISTA BOLET͎ REDIPE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8116"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "F\udce9ca M飡nica, conceptos fundamentales",
+        "puntos": 14,
+        "resolucion": "8685"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Prᣴicas Experimentales de f\udce9ca mecᮩca con materiales de la cotidianidad",
+        "puntos": 13.6,
+        "resolucion": "8685"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Cᬣulo vectorial",
+        "puntos": 9.7,
+        "resolucion": "1436"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Principios de Electromagnetismo",
+        "puntos": 11.8,
+        "resolucion": "1436"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

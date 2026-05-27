@@ -1,0 +1,88 @@
+{
+  "cedula": "89007514",
+  "tipoDoc": "CC",
+  "nombre": "MARIN HURTADO JORGE IVAN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "36900.999814814815",
+  "estado": "ACTIVO",
+  "email": "marin@uniquindio.edu.co",
+  "puntosAsignados": 574.1,
+  "ptosProductividad": 214,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 534.1,
+    "2021": 544.1,
+    "2022": 554.1,
+    "2023": 564.1,
+    "2024": 574.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "16-12-2004",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LOS MATERIALES",
+      "tituloSnies": "Maestria",
+      "fecha": "16-12-2004",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA ELECTRICA Y DE COMPUTADORES",
+      "tituloSnies": "Doctorado",
+      "fecha": "40975.999814814815",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1997",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "A CURRICULUM DESIGN APPROACH BY THE MEANS OF A GENERAL MORPHOLOGICAL",
+        "issn": "2248-4094",
+        "revista": "INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8115"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2021",
+        "titulo": "GMA - SOFTWARE PARA EL ANLISIS MORFOLӇICO GENERAL",
+        "puntos": 6.7,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2023",
+        "titulo": "SIMDSP PARA ANDROID",
+        "puntos": 14.3,
+        "resolucion": "10945"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

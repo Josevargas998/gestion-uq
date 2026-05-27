@@ -1,0 +1,61 @@
+{
+  "cedula": "33215449",
+  "tipoDoc": "CC",
+  "nombre": "MENDEZ PARRA ROSA MAŔ",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41122.999814814815",
+  "estado": "ACTIVO",
+  "email": "mendez@uniquindio.edu.co",
+  "puntosAsignados": 468.9,
+  "ptosProductividad": 119,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 428.9,
+    "2021": 438.9,
+    "2022": 448.9,
+    "2023": 458.9,
+    "2024": 468.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "30-09-2005",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-12-1999",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "30-09-2005",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "lgebra Lineal",
+        "puntos": 11.9,
+        "resolucion": "8123"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

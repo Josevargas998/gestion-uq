@@ -1,0 +1,72 @@
+{
+  "cedula": "24341881",
+  "tipoDoc": "CC",
+  "nombre": "LONDON BURITICA DIANA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "fechaIngreso": "24-02-2012",
+  "estado": "ACTIVO",
+  "email": "london@uniquindio.edu.co",
+  "puntosAsignados": 334.7,
+  "ptosProductividad": 19,
+  "topeMaximo": 52,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 294.7,
+    "2021": 304.7,
+    "2022": 314.7,
+    "2023": 324.7,
+    "2024": 334.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN SALUD PUBLICA",
+      "tituloSnies": "Maestria",
+      "fecha": "40673.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especialización22-12-2006",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-06-2003",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "PERCEPCIONES DE LAS MUJERES FRENTE AL PROCESO DE PADECER CNCER DE MAMA, ARMENIA, 2015",
+        "issn": "2538-9580",
+        "revista": "INVESTIGACIONES ANDINA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8674"
+      },
+      {
+        "año": "2023",
+        "titulo": "VIGILANCIA AMBIENTAL DE LA CIRCULACIӎ DE POLIOVIRUS EN TRES MUNICIPIOS CONSIDERADOS COMO PUNTO TRANSITORIO DE MIGRANTES EN COLOMBIA 2017-2019",
+        "issn": "0123-9392",
+        "revista": "INFECTIO",
+        "categoria": "B",
+        "puntos": 1.6,
+        "resolucion": "10816"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

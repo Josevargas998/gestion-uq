@@ -1,0 +1,93 @@
+{
+  "cedula": "9732960",
+  "tipoDoc": "CC",
+  "nombre": "QUINTERO CASTAN VICTOR DUMAR",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "quintero@uniquindio.edu.co",
+  "puntosAsignados": 808.5,
+  "ptosProductividad": 52,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 768.5,
+    "2021": 778.5,
+    "2022": 788.5,
+    "2023": 798.5,
+    "2024": 808.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-07-2011",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "28-07-2011",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especialización15-12-2005",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PHYSICO-CHEMICAL AND SENSORY EVALUATION OF A MANGO-BASED FRUIT BAR",
+        "issn": "0012-7353",
+        "revista": "DYNA",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2021",
+        "titulo": "FORMULACIӎ Y EVALUACIӎ FISICOQU͍ICA DE JUGO DE MORA (RUBUS GLAUCUS BENTH) ENRIQUECIDO CON CALCIO Y VITAMINA C",
+        "issn": "1909-9959",
+        "revista": "REVISTA BIOTECNOLOǴ EN EL SECTOR AGROPECUARIO Y AGROINDUSTRIAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2021",
+        "titulo": "STARCH FROM TWO UNRIPE PLANTAINS AND ESTERIFIED WITH OCTENYL SUCCINIC ANHYDRIDE (OSA): PARTIAL CHARACTERIZATION",
+        "issn": "0308-8146",
+        "revista": "FOOD CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 3.2,
+        "resolucion": "8130"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "94378416",
+  "tipoDoc": "CC",
+  "nombre": "VARGAS SALINAS FERNANDO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "vargas@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2013-11-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VARGAS%20SALINAS%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 865.9,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 825.9,
+    "2021": 835.9,
+    "2022": 845.9,
+    "2023": 855.9,
+    "2024": 865.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "BIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-05-1997",
+      "puntos": 178,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS BIOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "23-06-2005",
+      "puntos": 40,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-08-2013",
+      "puntos": 80,
+      "resolucion": "41405.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

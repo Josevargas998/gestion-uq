@@ -1,0 +1,90 @@
+{
+  "cedula": "41885800",
+  "tipoDoc": "CC",
+  "nombre": "SALAZAR ARBELAEZ CARMEN ALICIA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "15-06-2007",
+  "estado": "ACTIVO",
+  "email": "salazar@uniquindio.edu.co",
+  "puntosAsignados": 373.1,
+  "ptosProductividad": 188,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 333.1,
+    "2021": 343.1,
+    "2022": 353.1,
+    "2023": 363.1,
+    "2024": 373.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "PSICOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-04-1984",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "39274.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "EL IMPACTO DE LA LITERATURA EN EL DESARROLLO DEL VOCABULARIO COMPRENSIVO EN LA EDUCACIӎ INICIAL",
+        "issn": "0124-5821",
+        "revista": "VIRTUAL UNIVERSIDAD CATӌICA DEL NORTE",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7407"
+      },
+      {
+        "año": "2021",
+        "titulo": "ENSEсNZA Y APRENDIZAJE DEL RAZONAMIENTO DEDUCTIVO E INDUCTIVO MEDIANTE LAS CIENCIAS NATURALES",
+        "issn": "0124-2121",
+        "revista": "EDUCACIӎ Y HUMANISMO",
+        "categoria": "A1",
+        "puntos": 8,
+        "resolucion": "8122"
+      },
+      {
+        "año": "2022",
+        "titulo": "EL MEDIDOR Y LA COMPRENSIӎ DE TEXTOS LITERARIOS EN LA EDUCACIӎ INICIAL",
+        "issn": "0124-2121",
+        "revista": "EDUCACIӎ Y HUMANISMO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9826"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Desarrollo del Pensamiento Deductivo e Inductivo a Trav鳠de las Ciencias Naturales en el 5Рde la E",
+        "puntos": 9.6,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroInvestigacion",
+        "titulo": "El mediador y la comprensi󮠤e textos literarios en la educaci󮠩nicial",
+        "puntos": 6.8,
+        "resolucion": "10947"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

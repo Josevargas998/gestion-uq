@@ -1,0 +1,80 @@
+{
+  "cedula": "7551802",
+  "tipoDoc": "CC",
+  "nombre": "CASTAхDA PATIN JUAN CARLOS",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "ARTES VISUALES",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "30-04-2020",
+  "estado": "ACTIVO",
+  "email": "castaхda@uniquindio.edu.co",
+  "puntosAsignados": 436.1,
+  "ptosProductividad": 105,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 396.1,
+    "2021": 406.1,
+    "2022": 416.1,
+    "2023": 426.1,
+    "2024": 436.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "13-12-2013",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN TECNOLOGIA EDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34223.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "25-11-2016",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "ANLISIS DE SEсLES BIOELɃTRICAS COMO RESPUESTA A EST͍ULOS ASOCIADOS A LA MEDIACIӎ PEDAGӇICA: ESTUDIO PILOTO",
+        "issn": "2256-1536",
+        "revista": "REVISTA BOLET͎ REDIPE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8141"
+      },
+      {
+        "año": "2021",
+        "titulo": "MEDIACIӎ PEDAGӇICA: CLAVE DE UNA EDUCACIӎ HUMANIZANTE Y TRANSFORMADORA. UNA MIRADA DESDE LA ESTɔICA Y LA COMUNICACIӎ",
+        "issn": "1409-4258",
+        "revista": "REVISTA ELECTRӎICA EDUCARE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8141"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "La (s) Edu-comunicaci󮠨es) como posibilidades de tensi󮠹 rupturas Epist魩cas, compresnsiones so",
+        "puntos": 9.9,
+        "resolucion": "8141"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

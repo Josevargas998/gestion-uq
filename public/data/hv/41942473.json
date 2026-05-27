@@ -1,0 +1,78 @@
+{
+  "cedula": "41942473",
+  "tipoDoc": "CC",
+  "nombre": "GALVIS DIANA MILENA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "galvis@uniquindio.edu.co",
+  "puntosAsignados": 539.4,
+  "ptosProductividad": 90,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 499.4,
+    "2021": 509.4,
+    "2022": 519.4,
+    "2023": 529.4,
+    "2024": 539.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN ESTADISTICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "15-01-2015",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "MAGISTER EN ESTADISTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "38024.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-12-1999",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-12-1999",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2024",
+        "titulo": "HYBRID PREDICTION OF INFECTIONS AND DEATHS DUE TO COVID-19 IN TWO COLOMBIAN DATA SERIES",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "13473"
+      },
+      {
+        "año": "2024",
+        "titulo": "ESTIMATIONS OF THE NUMBER PEOPLE WITH MENTAL DISEASES ASSOCIATED WITH TOXOPLASMOSIS AND IDENTIFICATION OF RISK FACTORS BY CONTINENT",
+        "issn": "1872-7123",
+        "revista": "PSYCHIATRY RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "13473"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

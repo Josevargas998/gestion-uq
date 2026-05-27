@@ -1,0 +1,113 @@
+{
+  "cedula": "18401163",
+  "tipoDoc": "CC",
+  "nombre": "TRIVIN ARBELAEZ JORGE IVAN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "trivin@uniquindio.edu.co",
+  "puntosAsignados": 397.9,
+  "ptosProductividad": 677,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 357.9,
+    "2021": 367.9,
+    "2022": 377.9,
+    "2023": 387.9,
+    "2024": 397.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "42557.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PROCESO KDD COMO APOYO A LAS ESTRATEGIAS DEL PROYECTO SARA (SISTEMA DE ACOMPAсMIENTO PARA EL RENDIMIENTO ACADɍICO)",
+        "issn": "1900-8260",
+        "revista": "REVISTA EDUCACIӎ EN INGENIEŔ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "7128"
+      },
+      {
+        "año": "2021",
+        "titulo": "APPLICATION OF LEARNING ANALYTICS AND EDUCATIONAL DATA MINING IN AN INSTITUTION OF SUPERIOR EDUCATION IN COLOMBIA",
+        "issn": "2248-4094",
+        "revista": "REVISTA INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8129"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos de bases de datos - Casos Prᣴicos",
+        "puntos": 12.9,
+        "resolucion": "8668"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Oracle OL/SQL - Unenfoque Prᣴico",
+        "puntos": 12.5,
+        "resolucion": "8668"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Pensamiento computacional aplicado a l󧩣a de programaci󮠥n python",
+        "puntos": 13.9,
+        "resolucion": "1434"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "SISTEMAS DE DISTRIBUCIӎ PARA LA GESTIӎ DE LA CALIDAD ACADɍICA INSTITUCIONAL",
+        "puntos": 7.2,
+        "resolucion": "7128"
+      },
+      {
+        "año": "2020",
+        "titulo": "EDITOR DE MODELOS UML BASADO EN ECLIPSE",
+        "puntos": 8.4,
+        "resolucion": "7128"
+      },
+      {
+        "año": "2020",
+        "titulo": "PORTAL DE CONTENIDOS PARA EL SISTEMA DE CALIDAD ACADɍICA DE LA UNIVERSIDAD DEL QUIND͏",
+        "puntos": 4.9,
+        "resolucion": "7128"
+      },
+      {
+        "año": "2020",
+        "titulo": "PLATAFORMA WEB PARA ENCUESTAS DE AUTOEVALUACIӎ DIRIGIDAS A ESTUDIANTES",
+        "puntos": 5.8,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2022",
+        "titulo": "HERRAMIENTA DE MODELADO DE BLUEPRINT BASADO EN TAREAS DE INTERACCIӎ",
+        "puntos": 10,
+        "resolucion": "10472"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

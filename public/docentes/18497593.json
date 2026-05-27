@@ -1,0 +1,59 @@
+{
+  "cedula": "18497593",
+  "tipoDoc": "CC",
+  "nombre": "RODRIGUEZ ESPINOSA JHON ALEXANDER",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "rodriguez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RODRIGUEZ%20ESPINOSA%20JHON%20ALEXANDER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 459.7,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 419.7,
+    "2021": 429.7,
+    "2022": 439.7,
+    "2023": 449.7,
+    "2024": 459.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-08-1998",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "22-09-2014",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-08-1998",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

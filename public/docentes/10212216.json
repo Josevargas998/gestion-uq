@@ -1,0 +1,59 @@
+{
+  "cedula": "10212216",
+  "tipoDoc": "CC",
+  "nombre": "RAM͒EZ RESTREPO RUBIEL",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "ram͒ez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "15-03-1976",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RAM%CD%92EZ%20RESTREPO%20RUBIEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 860.7,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 820.7,
+    "2021": 830.7,
+    "2022": 840.7,
+    "2023": 850.7,
+    "2024": 860.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN FILOSOFIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "24-04-2009",
+      "puntos": 80,
+      "resolucion": "40062.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "33949.999814814815",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN FILOSOF́ Y LETRAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-10-1974",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

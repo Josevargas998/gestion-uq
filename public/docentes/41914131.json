@@ -1,0 +1,52 @@
+{
+  "cedula": "41914131",
+  "tipoDoc": "CC",
+  "nombre": "GUTIERREZ MORENO MILDRED EUGENIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "ARTES VISUALES",
+  "email": "gutierrez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GUTIERREZ%20MORENO%20MILDRED%20EUGENIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 324.2,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 284.2,
+    "2021": 294.2,
+    "2022": 304.2,
+    "2023": 314.2,
+    "2024": 324.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAESTRA EN ARTES PLASTICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-07-1990",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ESTETICA Y CREACION",
+      "tituloSnies": "Maestria",
+      "fecha": "41252.999814814815",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

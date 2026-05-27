@@ -1,0 +1,52 @@
+{
+  "cedula": "41885800",
+  "tipoDoc": "CC",
+  "nombre": "SALAZAR ARBELAEZ CARMEN ALICIA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "email": "salazar@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "15-06-2007",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SALAZAR%20ARBELAEZ%20CARMEN%20ALICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 373.1,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 333.1,
+    "2021": 343.1,
+    "2022": 353.1,
+    "2023": 363.1,
+    "2024": 373.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PSICOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-04-1984",
+      "puntos": 178,
+      "resolucion": "35377.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "39274.999814814815",
+      "puntos": 40,
+      "resolucion": "13-06-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

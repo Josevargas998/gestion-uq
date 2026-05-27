@@ -1,0 +1,45 @@
+{
+  "cedula": "18401163",
+  "tipoDoc": "CC",
+  "nombre": "TRIVIÑ ARBELAEZ JORGE IVAN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "triviñ@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TRIVI%C3%91%20ARBELAEZ%20JORGE%20IVAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 397.9,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 357.9,
+    "2021": 367.9,
+    "2022": 377.9,
+    "2023": 387.9,
+    "2024": 397.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "42557.999814814815",
+      "puntos": 40,
+      "resolucion": "43986.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

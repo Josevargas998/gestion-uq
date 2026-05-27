@@ -1,0 +1,74 @@
+{
+  "cedula": "18385247",
+  "tipoDoc": "CC",
+  "nombre": "RAM͒EZ LOZANO JAMES",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "38261.999814814815",
+  "estado": "ACTIVO",
+  "email": "ram͒ez@uniquindio.edu.co",
+  "puntosAsignados": 672.9,
+  "ptosProductividad": 286,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 632.9,
+    "2021": 642.9,
+    "2022": 652.9,
+    "2023": 662.9,
+    "2024": 672.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especialización15-12-2000",
+      "fecha": "20",
+      "puntos": 38139.999814814815
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "31-12-2002",
+      "puntos": 30
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE LA AMAZONIA",
+      "tituloSnies": "Especialización25-05-2001",
+      "fecha": "10",
+      "puntos": 38139.999814814815
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-06-1983",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "ɴica y legalidad, un dilema para el profesional contable",
+        "puntos": 14.3,
+        "resolucion": "10468"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Los sistemas de informaci󮠹 su importancia en la aplicaci󮠡dministrativa, financiera y contable.",
+        "puntos": 14.3,
+        "resolucion": "10468"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

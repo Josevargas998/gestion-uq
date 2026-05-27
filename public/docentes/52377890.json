@@ -1,0 +1,37 @@
+{
+  "cedula": "52377890",
+  "tipoDoc": "CC",
+  "nombre": "MOLANO NIÑ ALBA CAROLINA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "email": "molano@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MOLANO%20NI%C3%91%20ALBA%20CAROLINA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 441.9,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 401.9,
+    "2021": 411.9,
+    "2022": 421.9,
+    "2023": 431.9,
+    "2024": 441.9
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

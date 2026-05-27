@@ -1,0 +1,69 @@
+{
+  "cedula": "18497574",
+  "tipoDoc": "CC",
+  "nombre": "PADILLA BEJARANO JOSE BESTIER",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "28-02-2006",
+  "estado": "ACTIVO",
+  "email": "padilla@uniquindio.edu.co",
+  "puntosAsignados": 963.6,
+  "ptosProductividad": 52,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 923.6,
+    "2021": 933.6,
+    "2022": 943.6,
+    "2023": 953.6,
+    "2024": 963.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34526.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especialización28-05-1999",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA ELECTRICA",
+      "tituloSnies": "Maestria",
+      "fecha": "29-09-2011",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34526.999814814815",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "MERGER OF DESCRIPTORS FOR AUTOMATIC DETECTION OF FAILURES IN MANUFACTURING USING SUPPORT VECTOR MACHINE / EVALUACIӎ DE DESCRIPTORES PARA LA DETECCIӎ AUTOMTICA DE FALLAS EN FABRICACIӎ UTILIZANDO MQUINAS DE SOPORTE VECTORIAL",
+        "issn": "0122-1701",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "B",
+        "puntos": 5.2,
+        "resolucion": "7413"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

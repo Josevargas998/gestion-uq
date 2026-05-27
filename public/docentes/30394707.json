@@ -1,0 +1,52 @@
+{
+  "cedula": "30394707",
+  "tipoDoc": "CC",
+  "nombre": "MARIN ARANGO ZAIRA TATIANA",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "marin@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MARIN%20ARANGO%20ZAIRA%20TATIANA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 495.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 455.2,
+    "2021": 465.2,
+    "2022": 475.2,
+    "2023": 485.2,
+    "2024": 495.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE ALIMENTOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "37656.999814814815",
+      "puntos": 178,
+      "resolucion": "41699.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIA Y TECNOLOGIA DE ALIMENTOS",
+      "tituloSnies": "Maestria",
+      "fecha": "30-07-2009",
+      "puntos": 40,
+      "resolucion": "41699.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

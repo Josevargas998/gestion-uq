@@ -1,0 +1,77 @@
+{
+  "cedula": "7530842",
+  "tipoDoc": "CC",
+  "nombre": "HURTADO BEDOYA CARLOS ALBERTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "21-07-1993",
+  "estado": "ACTIVO",
+  "email": "hurtado@uniquindio.edu.co",
+  "puntosAsignados": 381.8,
+  "ptosProductividad": 136,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 341.8,
+    "2021": 351.8,
+    "2022": 361.8,
+    "2023": 371.8,
+    "2024": 381.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA ORGANIZACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "18-11-2005",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "TOPOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "29595.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización11-10-1995",
+      "fecha": "20",
+      "puntos": 35014.999814814815
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización11-10-1995",
+      "fecha": "",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PROYECTO ACADɍICO INGENIEŔ TOPOGRFICA Y GEOMTICA",
+        "issn": "1900-8260",
+        "revista": "EDUCACIӎ EN INGENIEŔ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "7412"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Estudios de movimiento de tierra",
+        "puntos": 13.3,
+        "resolucion": "9822"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

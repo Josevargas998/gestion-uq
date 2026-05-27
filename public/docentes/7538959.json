@@ -1,0 +1,66 @@
+{
+  "cedula": "7538959",
+  "tipoDoc": "CC",
+  "nombre": "CASTRILLON RAMIREZ CARLOS ALBERTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "castrillon@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CASTRILLON%20RAMIREZ%20CARLOS%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 522.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 482.20000000000005,
+    "2021": 492.20000000000005,
+    "2022": 502.20000000000005,
+    "2023": 512.2,
+    "2024": 522.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN LITERATURA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-12-2012",
+      "puntos": 40,
+      "resolucion": "15-04-2013"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE LINGUISTICA Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31449.999814814815",
+      "puntos": 178,
+      "resolucion": "38139.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>09-12-1993",
+      "fecha": "20",
+      "puntos": 38139.999814814815,
+      "resolucion": "ESPECIALISTA EN ENSEсNZA DE LA LITERATURA"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL TOLIMA",
+      "tituloSnies": "Tecnolog\ud87c/td>31-03-2000",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGO EN SISTEMAS"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

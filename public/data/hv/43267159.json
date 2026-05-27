@@ -1,0 +1,135 @@
+{
+  "cedula": "43267159",
+  "tipoDoc": "CC",
+  "nombre": "HOYOS RINCON ISABEL CRISTINA",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "hoyos@uniquindio.edu.co",
+  "puntosAsignados": 488.7,
+  "ptosProductividad": 344,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 448.7,
+    "2021": 458.7,
+    "2022": 468.7,
+    "2023": 478.7,
+    "2024": 488.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA AMBIENTAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "42980.999814814815",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39084.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "15-12-2011",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "VARIABILITY OF REGIONAL ATMOSPHERIC MOISTURE OVER NORTHERN SOUTH AMERICA: PATTERNS AND UNDERLYING PHENOMENA",
+        "issn": "0930-7575",
+        "revista": "DYNAMICS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "6986"
+      },
+      {
+        "año": "2020",
+        "titulo": "MOISTURE ORIGIN AND TRANSPORT PROCESSES IN COLOMBIA, NORTHERN SOUTH AMERICA",
+        "issn": "0930-7575",
+        "revista": "DYNAMICS",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "6986"
+      },
+      {
+        "año": "2020",
+        "titulo": "SCALING PROPERTIES REVEAL REGULATION OF RIVER FLOWS IN THE AMAZON THROUGH A \"FOREST RESERVOIR\"",
+        "issn": "1735-1748",
+        "revista": "HYDROLOGY AND EARTH SYSTEM SCIENCES",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "6986"
+      },
+      {
+        "año": "2020",
+        "titulo": "VARIABILITY OF EXTREME EVENTS IN THE COLOMBIAN PACIFIC AND CARIBBEAN CATCHMENT BASINS",
+        "issn": "0930-7575",
+        "revista": "DYNAMICS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "6986"
+      },
+      {
+        "año": "2020",
+        "titulo": "HOW ACCURATELY ARE CLIMATOLOGICAL CHARACTERISTICS AND SURFACE WATER AND ENERGY BALANCES REPRESENTED FOR THE COLOMBIAN CARIBBEAN CATCHMENT BASIN",
+        "issn": "0930-7575",
+        "revista": "DYNAMICS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "6986"
+      },
+      {
+        "año": "2020",
+        "titulo": "CLIMATE VARIABILITY AND HUMAN IMPACT IN SOUTH AMERICA DURING THE LAST 2000 YEARS: SYNTHESIS AND PERSPECTIVES FROM POLLEN RECORDS",
+        "issn": "4835-23",
+        "revista": "CLIMATE ON THE PAST",
+        "categoria": "A1",
+        "puntos": 2,
+        "resolucion": "6986"
+      },
+      {
+        "año": "2022",
+        "titulo": "SIMULACIӎ DE LA DINMICA DE LA BIOMASA EN PLANCTON DE UN EMBALSE COLOMBIANO TROPICAL ANDINO DE ALTA MONTAс",
+        "issn": "0120-548X",
+        "revista": "ACTA BIOLӇICA COLOMBIANA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "9837"
+      },
+      {
+        "año": "2022",
+        "titulo": "THE REMOVAL OF PM 2.5 BY TREES IN TROPICAL ANDEAN METROPOLITAN AREAS: AN ASSESSMENT OF ENVIRONMENTAL CHANGE SCENARIOS",
+        "issn": "0167-6369",
+        "revista": "ENVIRONMENTAL MONITORING AND ASSESSMENT",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9837"
+      },
+      {
+        "año": "2023",
+        "titulo": "THE IMPORTANCE OF CONTINENTAL EVAPORATION FOR PRECIPITATION IN COLOMBIA: A BASELINE COMBINING OBSERVATIONS FROM STABLE ISOTOPES AND MODELLING MOISTURE TRAJECTORIES",
+        "issn": "0885-6087",
+        "revista": "HYDROLOGICAL PROCESSES",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12025"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

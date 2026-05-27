@@ -1,0 +1,45 @@
+{
+  "cedula": "70066689",
+  "tipoDoc": "CC",
+  "nombre": "JARAMILLO FLOREZ SAMUEL ANGEL",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "jaramillo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-01-2005",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=JARAMILLO%20FLOREZ%20SAMUEL%20ANGEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 253.2,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 213.2,
+    "2021": 223.2,
+    "2022": 233.2,
+    "2023": 243.2,
+    "2024": 253.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-01-1987",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

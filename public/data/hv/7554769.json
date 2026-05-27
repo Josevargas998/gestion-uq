@@ -1,0 +1,88 @@
+{
+  "cedula": "7554769",
+  "tipoDoc": "CC",
+  "nombre": "MARIN RIOS LUIS FERNANDO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "18-09-1996",
+  "estado": "ACTIVO",
+  "email": "marin@uniquindio.edu.co",
+  "puntosAsignados": 551.7,
+  "ptosProductividad": 422,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 511.70000000000005,
+    "2021": 521.7,
+    "2022": 531.7,
+    "2023": 541.7,
+    "2024": 551.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN PEDAGOGIA REEDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-05-1993",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización18-12-1996",
+      "fecha": "20",
+      "puntos": 35704.999814814815
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "27-11-2008",
+      "puntos": 20
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización09-10-2001",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Evaluaci󮠤ocente y control",
+        "puntos": 13.8,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Reformas educativas y sus repercusiones en Colombia",
+        "puntos": 12,
+        "resolucion": "10475"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "La Experiencia art\udcf4ica en los procesos de subjetivaci󮠤e estudiantes y profesores de un programa",
+        "puntos": 12.9,
+        "resolucion": "10475"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Una mirada a la identidad docente",
+        "puntos": 14.3,
+        "resolucion": "13413"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

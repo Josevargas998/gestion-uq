@@ -1,0 +1,66 @@
+{
+  "cedula": "7530842",
+  "tipoDoc": "CC",
+  "nombre": "HURTADO BEDOYA CARLOS ALBERTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "hurtado@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-07-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HURTADO%20BEDOYA%20CARLOS%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 381.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 341.8,
+    "2021": 351.8,
+    "2022": 361.8,
+    "2023": 371.8,
+    "2024": 381.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA ORGANIZACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "18-11-2005",
+      "puntos": 40,
+      "resolucion": "21-12-2005"
+    },
+    {
+      "tituloNacional": "TOPOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "29595.999814814815",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>11-10-1995",
+      "fecha": "20",
+      "puntos": 35014.999814814815,
+      "resolucion": "ESPECIALISTA EN SISTEMAS DE LA INFORMACION TOPOGRAFICA"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>11-10-1995",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN SISTEMAS DE LA INFORMACION TOPOGRAFICA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

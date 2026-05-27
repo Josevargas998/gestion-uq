@@ -1,0 +1,66 @@
+{
+  "cedula": "8152735",
+  "tipoDoc": "CC",
+  "nombre": "CARO LOPERA MIGUEL ANGEL",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "caro@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARO%20LOPERA%20MIGUEL%20ANGEL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 580.7,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 540.7,
+    "2021": 550.7,
+    "2022": 560.7,
+    "2023": 570.7,
+    "2024": 580.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "27-08-2018",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECILAIDAD DE ESPAÑL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-07-1995",
+      "puntos": 178,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "MAGISTER EN LINGډSTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "13-10-2009",
+      "puntos": 40,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>09-10-2001",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ENSEсNZA DE LA LITERATURA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

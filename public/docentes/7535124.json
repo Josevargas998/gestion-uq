@@ -1,0 +1,52 @@
+{
+  "cedula": "7535124",
+  "tipoDoc": "CC",
+  "nombre": "SERNA FLOREZ JHON",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "serna@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1994-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SERNA%20FLOREZ%20JHON&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 443.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 403.4,
+    "2021": 413.4,
+    "2022": 423.4,
+    "2023": 433.4,
+    "2024": 443.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30874.999814814815",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD MILITAR\"NUEVA GRANADA\"",
+      "tituloSnies": "Especializaci󮼯td>23-02-1990",
+      "fecha": "75",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN MEDICINA INTERNA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

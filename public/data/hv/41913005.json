@@ -1,0 +1,131 @@
+{
+  "cedula": "41913005",
+  "tipoDoc": "CC",
+  "nombre": "MEJIA CASTELLANOS LUZ AMPARO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "mejia@uniquindio.edu.co",
+  "puntosAsignados": 494.7,
+  "ptosProductividad": 1214,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 454.7,
+    "2021": 464.7,
+    "2022": 474.7,
+    "2023": 484.7,
+    "2024": 494.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-07-1997",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2022",
+        "titulo": "BRECHAS ENTRE COMPETENCIAS PROFESIONALES, LABORALES DE CONTADUŔ PڂLICA, ADMINISTRACIӎ DE NEGOCIOS EN UNIVERSIDAD DEL QUIND͏",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10468"
+      },
+      {
+        "año": "2024",
+        "titulo": "LA EDUCACIӎ PUNTO INICIAL DE LA FORMACIӎ PARA EL DESARROLLO SOSTENIBLE Y SUSTENTABLE",
+        "issn": "2619-4244",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13407"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroEnsayo",
+        "titulo": "Los modelos de negocio Fintech y su aplicaci󮠡 la generaci󮠤e valor de las pymes?",
+        "puntos": 10.1,
+        "resolucion": "7394"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroEnsayo",
+        "titulo": "Dimensi󮠤e brechas laborales entre las competencias profesionales y laborales de egresados de los",
+        "puntos": 14.3,
+        "resolucion": "7394"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Los sistemas de informaci󮠹 su importancia en la aplicaci󮠡dministrativa, financiera y contable.",
+        "puntos": 14.3,
+        "resolucion": "10468"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Uso de herramientas tecnol󧩣as como apoyo a la soluci󮠤e problemas matemᴩcos para estudiantes",
+        "puntos": 12.9,
+        "resolucion": "12023"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Herramientas tecnol󧩣as abiertas para la econom\ud87a un enfoque prᴩco con cᬣulo diferencial",
+        "puntos": 12.9,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroEnsayo",
+        "titulo": "Dise񯠤e una herramienta prototipo para la evaluaci󮠤e las prᣴicas de gobierno corporativo y co",
+        "puntos": 13.2,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Auditor\ud860informᴩca para contadores mediante metodolog\ud873 y anᬩsis estad\udcf4icos aplicados a comp",
+        "puntos": 12.8,
+        "resolucion": "1433"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Excel como herramienta bᳩca para la ense񡮺a de estad\udcf4ica",
+        "puntos": 8.9,
+        "resolucion": "75"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Revisi󮠢ibliogrᦩca y anᬩsis estad\udcf4ico de la transformaci󮠴ecnol󧩣a en las profesiones ec",
+        "puntos": 9.9,
+        "resolucion": "1065"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Caracterizaci󮠤el marco normativo y las prᣴicas de gobernanza en entidades sin ᮩmo de lucro en",
+        "puntos": 11.5,
+        "resolucion": "1065"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

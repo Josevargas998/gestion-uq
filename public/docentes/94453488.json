@@ -1,0 +1,52 @@
+{
+  "cedula": "94453488",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA ARISTIZABAL JAIBER EVELIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "cardona@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-01-2005",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARDONA%20ARISTIZABAL%20JAIBER%20EVELIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 520.5,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 480.5,
+    "2021": 490.5,
+    "2022": 500.5,
+    "2023": 510.5,
+    "2024": 520.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN AUTOMATICA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-02-2004",
+      "puntos": 40,
+      "resolucion": "20-01-2005"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-10-1998",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

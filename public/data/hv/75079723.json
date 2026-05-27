@@ -1,0 +1,103 @@
+{
+  "cedula": "75079723",
+  "tipoDoc": "CC",
+  "nombre": "AYALA ZULUAGA JOSE ENVER",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "39545.999814814815",
+  "estado": "ACTIVO",
+  "email": "ayala@uniquindio.edu.co",
+  "puntosAsignados": 589.3,
+  "ptosProductividad": 296,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 549.3,
+    "2021": 559.3,
+    "2022": 569.3,
+    "2023": 579.3,
+    "2024": 589.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-10-2006",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "17-12-2007",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y RECREACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-01-2000",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "QUALITATIVE RESEARCH IN NURSING: BIBLIOMETRIC STUDY",
+        "issn": "1052-0147",
+        "revista": "QUALITATIVE REPORT",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "12306"
+      },
+      {
+        "año": "2023",
+        "titulo": "THE MEANING OF HIPPOCRATIC OATH FOR GERMAN AND COLOMBIAN MEDICAL STUDENTS",
+        "issn": "1612-3174",
+        "revista": "GMS GERMAN MEDICAL SCIENCE",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "11213"
+      },
+      {
+        "año": "2023",
+        "titulo": "TOWARDS A PEDAGOGICAL PERSPECTIVE IN THE EXTRACURRICULAR TRAINING THROUGH SPORTS SCHOOLS AND THE KNOWLEDGE OF THE ?PROFE?",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "11213"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "El saber del \"profe\" en las escuelas de formaci󮠤eportiva. Construcci󮠤e una didᣴica sist魩co",
+        "puntos": 13.7,
+        "resolucion": "74"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Educaci󮠆\udce9ca Comprensiva. Aproximaciones desde la didᣴica",
+        "puntos": 13.7,
+        "resolucion": "74"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2025",
+        "titulo": "TERCER LUGAR DE LA CATEGOŔ DE MAESTŔ: PONENCIA EN MODALIDAD DE VIDEO",
+        "puntos": 10,
+        "resolucion": "1382"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

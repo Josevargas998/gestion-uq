@@ -1,0 +1,52 @@
+{
+  "cedula": "1118537774",
+  "tipoDoc": "CC",
+  "nombre": "CAMACHO ROZO CɓAR AUGUSTO",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "ZOOTECNIA",
+  "email": "camacho@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CAMACHO%20ROZO%20C%C9%93AR%20AUGUSTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 483.5,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 443.5,
+    "2021": 453.5,
+    "2022": 463.5,
+    "2023": 473.5,
+    "2024": 483.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO VETERINARIO ZOOTECNISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-04-2010",
+      "puntos": 178,
+      "resolucion": "44958.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA UNAD",
+      "tituloSnies": "Especializaci󮼯td>30-08-2012",
+      "fecha": "20",
+      "puntos": 44958.999814814815,
+      "resolucion": "ESPECIALISTA EN MEJORAMIENTO GENETICO"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

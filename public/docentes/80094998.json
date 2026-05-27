@@ -1,0 +1,52 @@
+{
+  "cedula": "80094998",
+  "tipoDoc": "CC",
+  "nombre": "CAMPOS VARGAS DAVID ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "campos@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CAMPOS%20VARGAS%20DAVID%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 299.3,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 259.3,
+    "2021": 269.3,
+    "2022": 279.3,
+    "2023": 289.3,
+    "2024": 299.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especializaci󮼯td>17-03-2011",
+      "fecha": "45",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PSIQUIATRIA GENERAL"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "38241.999814814815",
+      "puntos": 183,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

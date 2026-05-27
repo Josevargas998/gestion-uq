@@ -1,0 +1,83 @@
+{
+  "cedula": "94501347",
+  "tipoDoc": "CC",
+  "nombre": "ACEVEDO CARVAJAL JUAN MANUEL",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41699.999814814815",
+  "estado": "ACTIVO",
+  "email": "acevedo@uniquindio.edu.co",
+  "puntosAsignados": 494.2,
+  "ptosProductividad": 159,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 454.2,
+    "2021": 464.2,
+    "2022": 474.2,
+    "2023": 484.2,
+    "2024": 494.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN FILOSOF́ Y LETRAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "37966.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN LITERATURA",
+      "tituloSnies": "Maestria",
+      "fecha": "17-12-2008",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "LECTURAS CR͔ICAS DE LA OBRA POɔICA DE BAUDILIO",
+        "issn": "2346-0806",
+        "revista": "SOPHIA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8124"
+      },
+      {
+        "año": "2022",
+        "titulo": "PAISAJE Y TRANCE EN TRES OBRAS DE LA NARRATIVA LATINOAMERICANA CONTEMPORNEA",
+        "issn": "2422-3174",
+        "revista": "LING܍STICA Y LITERATURA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "9845"
+      },
+      {
+        "año": "2023",
+        "titulo": "TRANSMEDIA Y NUEVAS NARRATIVAS EN LA FORMACIӎ EN HUMANIDADES",
+        "issn": "2346-0806",
+        "revista": "SOPHIA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "12107"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "La est鴩ca de lo grotesco",
+        "puntos": 14.9,
+        "resolucion": "1377"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

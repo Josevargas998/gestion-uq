@@ -1,0 +1,59 @@
+{
+  "cedula": "7526520",
+  "tipoDoc": "CC",
+  "nombre": "ECHEVERRY MURILLO JOSE FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "echeverry@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "18-09-1996",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ECHEVERRY%20MURILLO%20JOSE%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 507.3,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 467.3,
+    "2021": 477.3,
+    "2022": 487.3,
+    "2023": 497.3,
+    "2024": 507.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>30-09-1994",
+      "fecha": "20",
+      "puntos": 35407.999814814815,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACIӎ FINANCIERA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "30-07-2004",
+      "puntos": 40,
+      "resolucion": "35407.999814814815"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-12-1990",
+      "puntos": 178,
+      "resolucion": "35407.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

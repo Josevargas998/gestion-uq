@@ -1,0 +1,157 @@
+{
+  "cedula": "9736170",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO VELASQUEZ FABER DANILO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "20-02-2012",
+  "estado": "ACTIVO",
+  "email": "giraldo@uniquindio.edu.co",
+  "puntosAsignados": 706.75,
+  "ptosProductividad": 877,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 666.75,
+    "2021": 676.75,
+    "2022": 686.75,
+    "2023": 696.75,
+    "2024": 706.75
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2004",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2004",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "40643.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PROPUESTA DE MEJORA DE PROCESOS SOFTWARE BASADA EN PSP PARA CONTEXTOS DE TELETRABAJO",
+        "issn": "2248-4094",
+        "revista": "REVISTA INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2020",
+        "titulo": "A METHOD TO EVALUATE QUALITY OF MODELLING LANGUAGES BASED ON THE ZACHMAN REFERENCE TAXONOMY",
+        "issn": "1573-1367",
+        "revista": "SOFTWARE QUALITY JOURNAL",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2021",
+        "titulo": "ELECTRONIC VOTING USING BLOCKCHAIN AND SMART CONTRACTS: PROOF OF CONCEPT",
+        "issn": "1548-0992",
+        "revista": "IEEE LATIN AMERICA TRANSACTIONS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "8669"
+      },
+      {
+        "año": "2021",
+        "titulo": "PRECISION TECHNIQUES AND AGRICULTURE 4.0 TECHNOLOGIES TO PROMOTE SUSTAINABILITY IN THE COFFEE SECTOR: STATE OF THE ART, CHALLENGES AND FUTURE TRENDS",
+        "issn": "2169-3536",
+        "revista": "IEEE ACCESS",
+        "categoria": "A1",
+        "puntos": 3.3,
+        "resolucion": "8668"
+      },
+      {
+        "año": "2022",
+        "titulo": "EMPIRICAL VALIDATION OF A QUALITY FRAMEWORK FOR EVALUATING MODELLING LANGUAGES IN MDE ENVIRONMENTS",
+        "issn": "1573-1367",
+        "revista": "SOFTWARE QUALITY JOURNAL",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10472"
+      },
+      {
+        "año": "2022",
+        "titulo": "PROCESS MODELING FOR SMART FACTORIES: USING SCIENCE MAPPING TO UNDERSTAND THE STRATEGIC THEMES, MAIN CHALLENGES AND FUTURE TRENDS",
+        "issn": "1463-7154",
+        "revista": "BUSINESS PROCESS MANAGEMENT JOURNAL",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "10472"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "PLUGIN PARA LA DERIVACIӎ DE TEXTO A MODELOS PARA LA GENERACIӎ DE DATAFORMS",
+        "puntos": 13.4,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2020",
+        "titulo": "SOFTCIALES",
+        "puntos": 13.4,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2020",
+        "titulo": "TEMPORADA DE GRIPE",
+        "puntos": 6.5,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2020",
+        "titulo": "UQ RESEARCH SCRAPER",
+        "puntos": 6.8,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2020",
+        "titulo": "HERRAMIENTA PARA LA INFORMACIӎ DE INTERFACES DE USUARIO DESDE BALSAMIQ",
+        "puntos": 12.7,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2020",
+        "titulo": "EXPLORA SALENTO",
+        "puntos": 13.1,
+        "resolucion": "7548"
+      },
+      {
+        "año": "2021",
+        "titulo": "PLATAFORMAS WEB PARA ENCUESTAS DE AUTOEVALUACIӎ DIRIGIDAS A ESTUDIANTES",
+        "puntos": 5.9,
+        "resolucion": "8129"
+      },
+      {
+        "año": "2023",
+        "titulo": "GENERADOR AUTOMATICO DE CODIGO PARA PLICACIONES EN FLUTTER",
+        "puntos": 5.1,
+        "resolucion": "10951"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

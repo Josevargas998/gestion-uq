@@ -1,0 +1,152 @@
+{
+  "cedula": "41948811",
+  "tipoDoc": "CC",
+  "nombre": "RUIZ GAONA ALEXANDRA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "25-01-2010",
+  "estado": "ACTIVO",
+  "email": "ruiz@uniquindio.edu.co",
+  "puntosAsignados": 713.3,
+  "ptosProductividad": 1464,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 673.3,
+    "2021": 683.3,
+    "2022": 693.3,
+    "2023": 703.3,
+    "2024": 713.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAESTRO EN COMERCIO ELECTRONICO",
+      "tituloSnies": "Maestria",
+      "fecha": "20-08-2008",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA TELEMATICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "43778.999814814815",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "CARACTERIZACIӎ DE LINEAMIENTOS DE ACCESIBILIDAD PARA PLATAFORMAS EDUCATIVAS CON ɎFASIS EN CONTENIDO DE VIDEO",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8668"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Oracle OL/SQL - Unenfoque Prᣴico",
+        "puntos": 12.5,
+        "resolucion": "8668"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos de bases de datos - Casos Prᣴicos",
+        "puntos": 12.9,
+        "resolucion": "8668"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Pensamiento computacional aplicado a l󧩣a de programaci󮠥n python",
+        "puntos": 13.9,
+        "resolucion": "1434"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "PLUGIN PARA LA DERIVACIӎ DE TEXTO A MODELOS PARA LA GENERACIӎ DE DATAMODELS",
+        "puntos": 10.9,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2020",
+        "titulo": "HERRAMIENTA PARA LA INFORMACIӎ DE INTERFACES DE USUARIO DESDE BALSAMIQ",
+        "puntos": 12.7,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2020",
+        "titulo": "PLUGIN PARA LA DERIVACIӎ DE TEXTO A MODELOS PARA LA GENERACIӎ DE DATAMODELS",
+        "puntos": 10.9,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2023",
+        "titulo": "HERRAMIENTA DE PROTOTIPADO DE IU PARA APPS DE TIENDAS VIRTUALES",
+        "puntos": 11.9,
+        "resolucion": "10951"
+      },
+      {
+        "año": "2025",
+        "titulo": "VOTOOL",
+        "puntos": 11.1,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "titulo": "MMTOOL",
+        "puntos": 12.7,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "titulo": "HERRAMIENTA DE GESTIӎ Y CREACIӎ DE REQUISITOS DE SOFTWARE (RQM_TOOL)",
+        "puntos": 13.4,
+        "resolucion": "72"
+      },
+      {
+        "año": "2025",
+        "titulo": "GROUPTOOL",
+        "puntos": 11,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "titulo": "HERRAMIENTA PARA LA GESTIӎ DE TESIS MEDIANTE DIFERENTES VISTAS (REPORTS_MANAGEMENT_TOOL)",
+        "puntos": 8.4,
+        "resolucion": "72"
+      },
+      {
+        "año": "2025",
+        "titulo": "HERRAMIENTA PARA LA CREACIӎ DE MODELOS ENTIDAD RELACIӎ (ER_TOOL)",
+        "puntos": 13.2,
+        "resolucion": "72"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

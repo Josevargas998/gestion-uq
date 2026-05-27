@@ -1,0 +1,59 @@
+{
+  "cedula": "42086140",
+  "tipoDoc": "CC",
+  "nombre": "RIOS VASQUEZ EUNICE",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "rios@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2007-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RIOS%20VASQUEZ%20EUNICE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 484.6,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 444.6,
+    "2021": 454.6,
+    "2022": 464.6,
+    "2023": 474.6,
+    "2024": 484.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS QUIMICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "41951.999814814815",
+      "puntos": 80,
+      "resolucion": "31-08-2015"
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-02-2004",
+      "puntos": 40,
+      "resolucion": "28-02-2007"
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "35650.999814814815",
+      "puntos": 178,
+      "resolucion": "28-02-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

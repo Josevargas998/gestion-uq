@@ -1,0 +1,144 @@
+{
+  "cedula": "41943583",
+  "tipoDoc": "CC",
+  "nombre": "VALENCIA LEGUIZAMӎ LINA MARIANA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "valencia@uniquindio.edu.co",
+  "puntosAsignados": 482.8,
+  "ptosProductividad": 181,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 442.8,
+    "2021": 452.8,
+    "2022": 462.8,
+    "2023": 472.8,
+    "2024": 482.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2012",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización19-04-2010",
+      "fecha": "",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD EL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>22-10-1999",
+      "fecha": "",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ESPANL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-10-2008",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ESPANL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-10-2008",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "LA ARGUMENTACIӎ ORAL EN CONTEXTOS UNIVERSITARIOS ߍIRADA CR͔ICA AL DEBATE SOBRE LA INFIDELIDAD",
+        "issn": "2216-1473",
+        "revista": "REVISTA INVESTIGIUM IRE: CIENCIAS SOCIALES Y HUMANAS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10667"
+      },
+      {
+        "año": "2023",
+        "titulo": "ANLISIS PRAGMA-DIALɃTICO EN LA ARGUMENTACIӎ ORAL FORMAL DE ESTUDIANTES UNIVERSITARIOS",
+        "issn": "1794-8932",
+        "revista": "SOPHIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10667"
+      },
+      {
+        "año": "2023",
+        "titulo": "REVISION CRITICA DE IA OBRA POɔICA DE JULIO ALFONSO CCERES",
+        "issn": "0123-4412",
+        "revista": "ESTUDIO DE LITERATURA COLOMBIANA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10667"
+      },
+      {
+        "año": "2023",
+        "titulo": "LA LECTURA INTERTEXTUAL EN LA UNIVERSIDAD.APUNTES DIDACTICOS SOBRE LA RELACION LITERATURA-COMIC",
+        "issn": "0122-6339",
+        "revista": "ENUNCIACION",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10667"
+      },
+      {
+        "año": "2023",
+        "titulo": "COLOMBIA Y LA EDUCACIӎ DEL SIGLO XXI ߕNA ESCUELA POSTMODERNA?",
+        "issn": "1794-8932",
+        "revista": "SOPHIA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10667"
+      },
+      {
+        "año": "2023",
+        "titulo": "PRCTICA DOCENTE Y LIBRO LBUM, UN APORTE A LA EDUCACIӎ LITERARIA",
+        "issn": "1657-9089",
+        "revista": "INFANCIA IMAGENES",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10667"
+      },
+      {
+        "año": "2024",
+        "titulo": "LITERATURA INFANTIL Y MEDIACIӎ LECTORA. CONCEPCIONES Y CREENCIAS DEL PROFESORADO EN FORMACIӎ",
+        "issn": "0122-6339",
+        "revista": "ENUNCIACIӎ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13474"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "CUENTOS HETERӃLITOS",
+        "puntos": 7,
+        "resolucion": "10667"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Obra Po鴩capoes\ud860Julio Alfonso Cᣥres",
+        "puntos": 14.3,
+        "resolucion": "10667"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

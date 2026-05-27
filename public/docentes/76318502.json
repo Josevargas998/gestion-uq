@@ -1,0 +1,59 @@
+{
+  "cedula": "76318502",
+  "tipoDoc": "CC",
+  "nombre": "ASTAIZA EVELIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "astaiza@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ASTAIZA%20EVELIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 829.9,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 789.9,
+    "2021": 799.9,
+    "2022": 809.9,
+    "2023": 819.9,
+    "2024": 829.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>06-12-2001",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DOCENCIA UNIVERSITARIA"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-05-1998",
+      "puntos": 178,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA AREA ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Maestria",
+      "fecha": "39694.999814814815",
+      "puntos": 40,
+      "resolucion": "19-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

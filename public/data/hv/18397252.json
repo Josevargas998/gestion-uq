@@ -1,0 +1,93 @@
+{
+  "cedula": "18397252",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA USUGA JORGE MARIO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "31-07-2008",
+  "estado": "ACTIVO",
+  "email": "garcia@uniquindio.edu.co",
+  "puntosAsignados": 582.7,
+  "ptosProductividad": 110,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 542.7,
+    "2021": 552.7,
+    "2022": 562.7,
+    "2023": 572.7,
+    "2024": 582.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAG͓TER EN ENSEсNZA DE LA MATEMTICA",
+      "tituloSnies": "Maestria",
+      "fecha": "38054.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-1999",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "APLICACIӎ DE LA TEOŔ DE REDES PARA EL MODELADO DE UNA RED DE DRENAJE DE UNA CUENCA: CASO DE ESTUDIO DEPARTAMENTO DEL QUIND͏ COLOMBIA",
+        "issn": "2448-7333",
+        "revista": "HIDROBIOLӇICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8123"
+      },
+      {
+        "año": "2021",
+        "titulo": "USE OF NETWORK THEORY TO MODEL WATER QUALITY PARAMETERS IN A HYDROLOGICAL NETWORK",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8123"
+      },
+      {
+        "año": "2021",
+        "titulo": "GENETIC ALGORITHMS FOR MATHEMATICAL OPTIMIZATION",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS: CONFERENCE SERIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8123"
+      },
+      {
+        "año": "2022",
+        "titulo": "MODELING THE DYNAMICS OF TOTAL SUSPENDED SOLIDS IN A MOUNTAIN BASIN USING NETWORK THEORY",
+        "issn": "1535-1467",
+        "revista": "RIVER RESEARCH AND APPLICATIONS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "9827"
+      },
+      {
+        "año": "2025",
+        "titulo": "APPLYING KRIGING GEOSTASTICAL TECHNIQUE TO MODEL PARAMETERS OF WTHER CUALITY, TSS, AND PH IN A SECTION OF THE QUINDIO RIVER, COLOMBIA",
+        "issn": "2216-0353",
+        "revista": "MUNDO FESC",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "100"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

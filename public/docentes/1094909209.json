@@ -1,0 +1,52 @@
+{
+  "cedula": "1094909209",
+  "tipoDoc": "CC",
+  "nombre": "LEAL ANDREIA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "leal@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LEAL%20ANDREIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 314.6,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 274.6,
+    "2021": 284.6,
+    "2022": 294.6,
+    "2023": 304.6,
+    "2024": 314.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "35410.999814814815",
+      "puntos": 178,
+      "resolucion": "41672.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "38725.999814814815",
+      "puntos": 40,
+      "resolucion": "41672.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

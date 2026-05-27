@@ -1,0 +1,59 @@
+{
+  "cedula": "16215234",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA ARIAS JAIR ASDRUBAL",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "garcia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GARCIA%20ARIAS%20JAIR%20ASDRUBAL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 737.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 697.3,
+    "2021": 707.3,
+    "2022": 717.3,
+    "2023": 727.3,
+    "2024": 737.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-02-1986",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especializaci󮼯td>11-08-1995",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN INSTRUMENTACIӎ FISICA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INSTRUMENTACION FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "39362.999814814815",
+      "puntos": 40,
+      "resolucion": "13-12-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

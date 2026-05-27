@@ -1,0 +1,59 @@
+{
+  "cedula": "14896480",
+  "tipoDoc": "CC",
+  "nombre": "GUTIERREZ POSADA JULIAN ESTEBAN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "gutierrez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2001-01-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GUTIERREZ%20POSADA%20JULIAN%20ESTEBAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 649.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 609.3,
+    "2021": 619.3,
+    "2022": 629.3,
+    "2023": 639.3,
+    "2024": 649.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>07-07-2003",
+      "fecha": "20",
+      "puntos": 37721.999814814815,
+      "resolucion": "ESPECIALISTA EN INFORMTICA EDUCATIVA"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "36444.999814814815",
+      "puntos": 178,
+      "resolucion": "26-09-2001"
+    },
+    {
+      "tituloNacional": "MAGISTER EN E LEARNING",
+      "tituloSnies": "Maestria",
+      "fecha": "16-04-2010",
+      "puntos": 40,
+      "resolucion": "40521.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

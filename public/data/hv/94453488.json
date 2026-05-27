@@ -1,0 +1,87 @@
+{
+  "cedula": "94453488",
+  "tipoDoc": "CC",
+  "nombre": "CARDONA ARISTIZABAL JAIBER EVELIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "24-01-2005",
+  "estado": "ACTIVO",
+  "email": "cardona@uniquindio.edu.co",
+  "puntosAsignados": 520.5,
+  "ptosProductividad": 246,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 480.5,
+    "2021": 490.5,
+    "2022": 500.5,
+    "2023": 510.5,
+    "2024": 520.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN AUTOMATICA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-02-2004",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-10-1998",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "A CURRICULUM DESIGN APPROACH BY THE MEANS OF A GENERAL MORPHOLOGICAL",
+        "issn": "2248-4094",
+        "revista": "INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2024",
+        "titulo": "A SYSTEMATIC LITERATURE REVIEW ON RAPID CONTROL PROTOTYPING APPLICATIONS",
+        "issn": "1932-8540",
+        "revista": "REVISTA IBEROAMERICANA DE TECNOLOǴS DEL APRENDIZAJE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13411"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡 la ingenier\ud860econ󭩣a",
+        "puntos": 10.4,
+        "resolucion": "8115"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2021",
+        "titulo": "GMA - SOFTWARE PARA EL ANLISIS MORFOLӇICO GENERAL",
+        "puntos": 6.7,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2023",
+        "titulo": "LABWEBUQ",
+        "puntos": 6.5,
+        "resolucion": "10945"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

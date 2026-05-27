@@ -1,0 +1,66 @@
+{
+  "cedula": "10110620",
+  "tipoDoc": "CC",
+  "nombre": "MOSQUERA MOSQUERA JULIO CESAR",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "mosquera@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MOSQUERA%20MOSQUERA%20JULIO%20CESAR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 664,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 624,
+    "2021": 634,
+    "2022": 644,
+    "2023": 654,
+    "2024": 664
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-01-1991",
+      "puntos": 178,
+      "resolucion": "31-07-2008"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>30-12-2001",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DOCENCIA UNIVERSITARIA"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS FISICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "39755.999814814815",
+      "puntos": 80,
+      "resolucion": "40062.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "31-12-2001",
+      "puntos": 40,
+      "resolucion": "31-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

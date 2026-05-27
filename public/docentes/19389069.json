@@ -1,0 +1,52 @@
+{
+  "cedula": "19389069",
+  "tipoDoc": "CC",
+  "nombre": "CARVAJAL IRIARTE RUBEN DARIO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "carvajal@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CARVAJAL%20IRIARTE%20RUBEN%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 420.5,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 380.5,
+    "2021": 390.5,
+    "2022": 400.5,
+    "2023": 410.5,
+    "2024": 420.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-01-1984",
+      "puntos": 183,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especializaci󮼯td>14-10-1992",
+      "fecha": "60",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ORTOPEDIA Y TRAUMATOLOGIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "89009806",
+  "tipoDoc": "CC",
+  "nombre": "VEJARANO BOLIVAR RICARDO ALONSO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "vejarano@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2010-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VEJARANO%20BOLIVAR%20RICARDO%20ALONSO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 318.6,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 278.6,
+    "2021": 288.6,
+    "2022": 298.6,
+    "2023": 308.6,
+    "2024": 318.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>19-04-2002",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "LICENCIADO EN TECNOLOGIA EDUCATIVA"
+    },
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACIӎ EDUCATIVA",
+      "tituloSnies": "Maestria",
+      "fecha": "39853.999814814815",
+      "puntos": 40,
+      "resolucion": "40216.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN TECNOLOGIA EDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 178,
+      "resolucion": "40216.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

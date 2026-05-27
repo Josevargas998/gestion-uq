@@ -1,0 +1,66 @@
+{
+  "cedula": "41897201",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO CARDENAS LUZ STELLA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "email": "giraldo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GIRALDO%20CARDENAS%20LUZ%20STELLA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 494.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 454.4,
+    "2021": 464.4,
+    "2022": 474.4,
+    "2023": 484.4,
+    "2024": 494.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "27-11-2008",
+      "puntos": 20,
+      "resolucion": "39579.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE CIENCIAS SOCIALES AREA MAYOR GEOGRAFIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-06-1987",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>25-08-2000",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>07-06-1991",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN COMPUTACIӎ PARA LA DOCENCIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

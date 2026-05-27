@@ -1,0 +1,59 @@
+{
+  "cedula": "4374317",
+  "tipoDoc": "CC",
+  "nombre": "ALVAREZ MEJIA DARIO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "alvarez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ALVAREZ%20MEJIA%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 482.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 442.1,
+    "2021": 452.1,
+    "2022": 462.1,
+    "2023": 472.1,
+    "2024": 482.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>31-07-1997",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN BIOMATEMATICAS"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "31477.999814814815",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "15-04-2005",
+      "puntos": 40,
+      "resolucion": "38570.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

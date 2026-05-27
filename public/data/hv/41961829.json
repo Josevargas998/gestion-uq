@@ -1,0 +1,147 @@
+{
+  "cedula": "41961829",
+  "tipoDoc": "CC",
+  "nombre": "BLACH VARGAS DIANA",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "blach@uniquindio.edu.co",
+  "puntosAsignados": 477.96,
+  "ptosProductividad": 253,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 437.96,
+    "2021": 447.96,
+    "2022": 457.96,
+    "2023": 467.96,
+    "2024": 477.96
+  },
+  "titulos": [
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-09-2007",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-09-2007",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "CONJUGATED ANISOTROPIC GOLD NANOPARTICLES THROUGH PTERIN DERIVATIVES FOR A SELECTIVE PLASMONIC PHOTOTHERMAL THERAPY: IN VITRO STUDIES IN HELA AND NORMAL HUMAN ENDOCERVICAL CELLS",
+        "issn": "2364-821X",
+        "revista": "GOLD BULLETIN",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "DETERMINACIӎ DE RESIDUOS DE PLAGUICIDAS EN TRABAJADORES AGR̓OLAS DEL MUNICIPIO DE BARCELONA, QUIND͏, COLOMBIA",
+        "issn": "0717-3652",
+        "revista": "REVISTA CHILENA DE SALUD PڂLICA",
+        "categoria": "A1",
+        "puntos": 1.6,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "INTERFACIAL WATER WITH SPECIAL ELECTRON DONOR PROPERTIE: EFFECT OF WATER-SURFACTANT INTERACTION IN CONFINED REVERSED MICELLAR ENVIRONMENTS AND ITS INFLUENCE ON THE COORDINATION CHEMISTRY OF A COPPER COMPLEX",
+        "issn": "0021-9797",
+        "revista": "JOURNAL OF COLLOID AND INTERFACE SCIENCE",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "ELECTRON DONOR IONIC LIQUIDS ENTRAPPED IN ANIONIC AND CATIONIC REVERSE MICELLES. EFFECTS OF THE INTERFACE ON THE IONIC LIQUID?SURFACTANT INTERACTIONS",
+        "issn": "1463-9076",
+        "revista": "PHYSICAL CHEMISTRY CHEMICAL PHYSICS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "IONIC LIQUIDS ENTRAPPED IN REVERSE MICELLES AS NANOREACTORS FOR BIMOLECULAR NUCLEOPHILIC SUBSTITUTION REACTION. EFFECT OF THE CONFINEMENT ON THE CHLORIDE ION AVAILABILITY",
+        "issn": "0743-7463",
+        "revista": "LANGMUIR",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "HOW THE TYPE OF INTERFACE CAN ALTER THE BEHAVIOR OF AN APROTIC IONIC LIQUID-WATER MIXTURE ENTRAPPED IN DIFFERENT REVERSE MICELLES: AN EXPLORATORY STUDY USING AN ENZYMATIC REACTION AS A SENSOR",
+        "issn": "1873-4359",
+        "revista": "COLLOIDS AND SURFACES A: PHYSICOCHEMICAL AND ENGINEERING ASPECTS",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "GOLD NANOPARTICLES OPTICAL PROPERTIES INDUCED BY WATER AND AN IONIC LIQUID (BMIMBF4) INSIDE CATIONIC REVERSE MICELLES",
+        "issn": "1144-0546",
+        "revista": "NEW JOURNAL OF CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "INFLUENCE OF THE ACID PROPERTIES OF THE SUPPORT ON AU-BASED CATALYSTS FOR GLYCEROL OXIDATION IN AQUEOUS MEDIUM",
+        "issn": "2365-6549",
+        "revista": "CHEMISTRYSELECT",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "GOLD NANOPARTICLE-MEDIATED GENERATION OF REACTIVE OXYGEN SPECIES DURING PLASMONIC PHOTOTHERMAL THERAPY: A COMPARATIVE STUDY FOR DIFFERENT PARTICLE SIZES, SHAPES, AND SURFACE CONJUGATIONS",
+        "issn": "2050-7518",
+        "revista": "JOURNAL OF MATERIALS CHEMISTRY B",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2023",
+        "titulo": "NONPOLAR INTERFACE COMPOSITION IN CETYLTRIMETHYLAMMONIUM BROMIDE REVERSE MICELLAR ENVIRONMENTS TO CONTROL SIZE AND INDUCE ANISOTROPY ON GOLD NANOPARTICLES",
+        "issn": "2365-6549",
+        "revista": "CHEMISTRYSELECT",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10772"
+      },
+      {
+        "año": "2024",
+        "titulo": "CURCUMIN CAPPED MAGNETIC NANOPARTICLES. SYNTHESIS, CHARACTERIZATION AND PHOTOINACTIVATION ACTIVITY AGAINST S. AUREUS",
+        "issn": "2211-7156",
+        "revista": "RESULTS IN CHEMISTRY",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "13477"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

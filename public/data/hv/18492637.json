@@ -1,0 +1,96 @@
+{
+  "cedula": "18492637",
+  "tipoDoc": "CC",
+  "nombre": "TORO ZAPATA HERNAN DARIO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "toro@uniquindio.edu.co",
+  "puntosAsignados": 581.9,
+  "ptosProductividad": 107,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 541.9,
+    "2021": 551.9,
+    "2022": 561.9,
+    "2023": 571.9,
+    "2024": 581.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "24-09-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-02-2005",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOMATEMATICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "24-09-2010",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-02-2005",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "MODELO PARA EL ACCESO EFECTIVO AL TRATAMIENTO ANTIRRETROVIRAL EN RELACIӎ CON EL FRACASO TERAPɕTICO DE LA INFECCIӎ POR VIH",
+        "issn": "1794-1237",
+        "revista": "EIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7406"
+      },
+      {
+        "año": "2021",
+        "titulo": "MATHEMATICAL MODEL DESCRIBING HIV INFECTION WITH TIME-DELAYED CD4 T-CELL ACTIVATION",
+        "issn": "2227-9717",
+        "revista": "PROCESSES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "8123"
+      },
+      {
+        "año": "2022",
+        "titulo": "COFFEE BERRY BORER (HYPOTHENEMUS HAMPEI) AND ITS ROLE IN THE EVOLUTIONARY DIVERSIFICATION OF THE COFFEE MARKET",
+        "issn": "0936-9937",
+        "revista": "JOURNAL OF EVOLUTIONARY ECONOMICS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "9827"
+      },
+      {
+        "año": "2022",
+        "titulo": "A MULTI-SCALE MODEL FOR THE SPREAD OF HIV IN A POPULATION CONSIDERING THE IMMUNE STATUS OF PEOPLE",
+        "issn": "2227-9717",
+        "revista": "PROCESSES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9827"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

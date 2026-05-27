@@ -1,0 +1,59 @@
+{
+  "cedula": "328307",
+  "tipoDoc": "CC",
+  "nombre": "SIERRA PRIETO REINALDO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "sierra@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SIERRA%20PRIETO%20REINALDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 444.6,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 404.6,
+    "2021": 414.6,
+    "2022": 424.6,
+    "2023": 434.6,
+    "2024": 444.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>29-03-2001",
+      "fecha": "20",
+      "puntos": 37199.999814814815,
+      "resolucion": "ESPECIALISTA EN AUDITORIA DE SISTEMAS"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA DE SISTEMAS",
+      "tituloSnies": "Maestria",
+      "fecha": "25-03-2008",
+      "puntos": 40,
+      "resolucion": "13-06-2008"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "34006.999814814815",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

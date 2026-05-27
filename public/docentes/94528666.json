@@ -1,0 +1,52 @@
+{
+  "cedula": "94528666",
+  "tipoDoc": "CC",
+  "nombre": "VERA TASAMA ALEXANDER",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "vera@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "14-02-2006",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VERA%20TASAMA%20ALEXANDER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 522.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 482.1,
+    "2021": 492.1,
+    "2022": 502.1,
+    "2023": 512.1,
+    "2024": 522.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>29-02-2008",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN RADIOCOMUNICACIONES"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-11-2003",
+      "puntos": 178,
+      "resolucion": "38777.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

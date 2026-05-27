@@ -1,0 +1,59 @@
+{
+  "cedula": "70081587",
+  "tipoDoc": "CC",
+  "nombre": "GRANADOS MORENO WILSON HORACIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "granados@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-07-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GRANADOS%20MORENO%20WILSON%20HORACIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 472.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 432.6,
+    "2021": 442.6,
+    "2022": 452.6,
+    "2023": 462.6,
+    "2024": 472.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "SOCIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1982",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACIӎ EDUCATIVA",
+      "tituloSnies": "Maestria",
+      "fecha": "13-03-1998",
+      "puntos": 40,
+      "resolucion": "24-03-1998"
+    },
+    {
+      "tituloNacional": "DOCTOR EN COMUNICACION CAMBIO SOCIAL Y DESARROLLO",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-05-2013",
+      "puntos": 80,
+      "resolucion": "41946.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

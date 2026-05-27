@@ -1,0 +1,37 @@
+{
+  "cedula": "41948404",
+  "tipoDoc": "CC",
+  "nombre": "CASTRO BENAVIDES ALBA LUĆ",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "castro@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CASTRO%20BENAVIDES%20ALBA%20LUC%CD%81&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 300.4,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 260.4,
+    "2021": 270.4,
+    "2022": 280.4,
+    "2023": 290.4,
+    "2024": 300.4
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

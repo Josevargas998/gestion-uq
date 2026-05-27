@@ -1,0 +1,45 @@
+{
+  "cedula": "9774849",
+  "tipoDoc": "CC",
+  "nombre": "VILLADA URIBE PEDRO ANTONIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "villada@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "27-04-2011",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VILLADA%20URIBE%20PEDRO%20ANTONIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 37,
+  "topeMaximo": 52,
+  "puntosDisponibles": 15,
+  "historial": {
+    "2020": 0,
+    "2021": 7,
+    "2022": 17,
+    "2023": 27,
+    "2024": 37
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-04-2009",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

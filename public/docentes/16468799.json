@@ -1,0 +1,52 @@
+{
+  "cedula": "16468799",
+  "tipoDoc": "CC",
+  "nombre": "RUIZ GAMBOA JOSE DEL CARMEN",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "ruiz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "30-01-1984",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RUIZ%20GAMBOA%20JOSE%20DEL%20CARMEN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 392.4,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 352.4,
+    "2021": 362.4,
+    "2022": 372.4,
+    "2023": 382.4,
+    "2024": 392.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN MORFOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "21-03-1997",
+      "puntos": 40,
+      "resolucion": "35586.999814814815"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR BIOLOGIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-05-1980",
+      "puntos": 178,
+      "resolucion": "35377.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "cedula": "79567036",
+  "tipoDoc": "CC",
+  "nombre": "QUINTANA URREA LEONARDO IVAN",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "quintana@uniquindio.edu.co",
+  "puntosAsignados": 444.3,
+  "ptosProductividad": 118,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 404.3,
+    "2021": 414.3,
+    "2022": 424.3,
+    "2023": 434.3,
+    "2024": 444.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAESTRIA EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "39274.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "39274.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "ANTROPOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36230.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "ANTROPOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36221.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especialización29-11-2012",
+      "fecha": "20",
+      "puntos": 43891.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "LAS IMPLICACIONES DEL ENFOQUE PEDAGӇICO INSTITUCIONAL EN LA FORMACIӎ DEMOCRTICA DE LOS ESTUDIANTES DE LA UNIVERSIDAD LA GRAN COLOMBIA",
+        "issn": "1794-8932",
+        "revista": "SOPHIA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6983"
+      },
+      {
+        "año": "2020",
+        "titulo": "ESTRUCTURA DE LAS REDES SOCIALES DE LA POBLACIӎ MAYOR DE 60 ANS EN CONTEXTOS URBANOS DE POBREZA, DEL DEPARTAMENTO DEL QUIND͏",
+        "issn": "1794-631X",
+        "revista": "REVISTA DE INVESTIGACIONES UNIVERSIDAD DEL QUINDIO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6983"
+      },
+      {
+        "año": "2020",
+        "titulo": "REDES SOCIALES, VEJEZ Y POBREZA EN EL DEPARTAMENTO DEL QUIND͏: EL FUNCIONAMIENTO DE LAS REDES SOCIALES DE PERSONAS MAYORES DE 60 ANS EN CONDICIӎ DE POBREZA",
+        "issn": "1794-631X",
+        "revista": "REVISTA INVESTIGACIӎ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6983"
+      },
+      {
+        "año": "2020",
+        "titulo": "SENTIDOS Y PRAXIS QUE RESIGNIFICAN LA DEMOCRACIA Y LA EDUCACIӎ DEL SUJETO POL͔ICO EN HITOS HISTӒICOS Y SU DEVENIR EN TIEMPOS PRESENTES",
+        "issn": "0121-067X",
+        "revista": "REVISTA DE INVESTIGACIONES",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6983"
+      },
+      {
+        "año": "2025",
+        "titulo": "PARTICIPATORY AND COLLABORATIVE ETHNOGRAPHIES: RESEARCH HORIZONS TO DEMOCRATIZE KNOWLEDGE",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1438"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Disonancias del paisaje: anᬩsis socioecosist魩co del paisaje cultural cafetero",
+        "puntos": 9.4,
+        "resolucion": "928"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

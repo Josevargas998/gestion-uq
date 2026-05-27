@@ -1,0 +1,59 @@
+{
+  "cedula": "79326473",
+  "tipoDoc": "CC",
+  "nombre": "LUNA RAMIREZ JULIO CESAR",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "luna@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LUNA%20RAMIREZ%20JULIO%20CESAR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 805.4,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 765.4,
+    "2021": 775.4,
+    "2022": 785.4,
+    "2023": 795.4,
+    "2024": 805.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE ALIMENTOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "20-02-1992",
+      "puntos": 178,
+      "resolucion": "41699.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD SANTO TOMAS",
+      "tituloSnies": "Especializaci󮼯td>15-09-2006",
+      "fecha": "20",
+      "puntos": 41699.999814814815,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACION Y GERENCIA DE SISTEMAS DE CALIDAD"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CALIDAD Y GESTION INTEGRAL",
+      "tituloSnies": "Maestria",
+      "fecha": "39853.999814814815",
+      "puntos": 40,
+      "resolucion": "41699.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "7559351",
+  "tipoDoc": "CC",
+  "nombre": "LUCAS AGUIRRE JUAN CARLOS",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "lucas@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-02-2012",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LUCAS%20AGUIRRE%20JUAN%20CARLOS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 793.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 753.6,
+    "2021": 763.6,
+    "2022": 773.6,
+    "2023": 783.6,
+    "2024": 793.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA DE ALIMENTOS",
+      "tituloSnies": "Maestria",
+      "fecha": "24-04-2010",
+      "puntos": 40,
+      "resolucion": "20-02-2012"
+    },
+    {
+      "tituloNacional": "INGENIERO AGROINDUSTRIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "35279.999814814815",
+      "puntos": 178,
+      "resolucion": "20-02-2012"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

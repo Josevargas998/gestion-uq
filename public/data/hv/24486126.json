@@ -1,0 +1,68 @@
+{
+  "cedula": "24486126",
+  "tipoDoc": "CC",
+  "nombre": "BERNAL GONZALEZ LUZ DARY",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "35827.999814814815",
+  "estado": "ACTIVO",
+  "email": "bernal@uniquindio.edu.co",
+  "puntosAsignados": 428.4,
+  "ptosProductividad": 240,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 388.4,
+    "2021": 398.4,
+    "2022": 408.4,
+    "2023": 418.4,
+    "2024": 428.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIN",
+      "tituloSnies": "Especialización07-12-1995",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN PEDAGOGIA REEDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-06-1990",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "31-05-2002",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Perspectiva Sensoperceptual. Un camino hacia la madurez cognitiva del infante",
+        "puntos": 12.9,
+        "resolucion": "8122"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Proceso Atencional. Un camino hacia la madurez cognitiva del infante",
+        "puntos": 11.1,
+        "resolucion": "8122"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

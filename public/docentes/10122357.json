@@ -1,0 +1,59 @@
+{
+  "cedula": "10122357",
+  "tipoDoc": "CC",
+  "nombre": "MONTOYA GOMEZ OSCAR HERNAN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "montoya@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "23-02-2004",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MONTOYA%20GOMEZ%20OSCAR%20HERNAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 356.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 316.9,
+    "2021": 326.9,
+    "2022": 336.9,
+    "2023": 346.9,
+    "2024": 356.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "28-07-2000",
+      "puntos": 40,
+      "resolucion": "20-02-2004"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "30-11-2009",
+      "puntos": 20,
+      "resolucion": "13-09-2011"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ESPAÑL Y LENGUAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-1993",
+      "puntos": 178,
+      "resolucion": "20-02-2004"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

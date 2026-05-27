@@ -1,0 +1,66 @@
+{
+  "cedula": "41922237",
+  "tipoDoc": "CC",
+  "nombre": "SEPULVEDA NIETO MARIA DEL PILAR",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "sepulveda@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SEPULVEDA%20NIETO%20MARIA%20DEL%20PILAR&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 353.9,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 313.9,
+    "2021": 323.9,
+    "2022": 333.9,
+    "2023": 343.9,
+    "2024": 353.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-06-1997",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-06-1997",
+      "puntos": 178,
+      "resolucion": "22-01-2010"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>18-04-2001",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN EDUCACION AMBIENTAL"
+    },
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA VEGETAL",
+      "tituloSnies": "Maestria",
+      "fecha": "39943.999814814815",
+      "puntos": 40,
+      "resolucion": "22-01-2010"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "75079420",
+  "tipoDoc": "CC",
+  "nombre": "POSADA RAMIREZ JORGE GREGORIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "FILOSOFIA",
+  "email": "posada@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=POSADA%20RAMIREZ%20JORGE%20GREGORIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 591,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 551,
+    "2021": 561,
+    "2022": 571,
+    "2023": 581,
+    "2024": 591
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN FILOSOF́",
+      "tituloSnies": "Maestria",
+      "fecha": "26-10-2006",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN FILOSOF́ Y LETRAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-03-2001",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

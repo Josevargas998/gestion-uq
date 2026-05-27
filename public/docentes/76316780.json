@@ -1,0 +1,52 @@
+{
+  "cedula": "76316780",
+  "tipoDoc": "CC",
+  "nombre": "BERMUDEZ OROZCO HECTOR FABIO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "bermudez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "24-01-2005",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BERMUDEZ%20OROZCO%20HECTOR%20FABIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 785.4,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 745.4,
+    "2021": 755.4,
+    "2022": 765.4,
+    "2023": 775.4,
+    "2024": 785.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Maestria",
+      "fecha": "21-07-2010",
+      "puntos": 40,
+      "resolucion": "40521.999814814815"
+    },
+    {
+      "tituloNacional": "INGENIERO EN ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-02-2000",
+      "puntos": 178,
+      "resolucion": "20-01-2005"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cedula": "43876871",
+  "tipoDoc": "CC",
+  "nombre": "AGUDELO LAVERDE LINA MARCELA",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "email": "agudelo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "20-11-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=AGUDELO%20LAVERDE%20LINA%20MARCELA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 600.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 560.6,
+    "2021": 570.6,
+    "2022": 580.6,
+    "2023": 590.6,
+    "2024": 600.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE ALIMENTOS",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-2004",
+      "puntos": 178,
+      "resolucion": "20-11-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

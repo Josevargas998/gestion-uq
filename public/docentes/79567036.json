@@ -1,0 +1,73 @@
+{
+  "cedula": "79567036",
+  "tipoDoc": "CC",
+  "nombre": "QUINTANA URREA LEONARDO IVAN",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "quintana@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=QUINTANA%20URREA%20LEONARDO%20IVAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 444.3,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 404.3,
+    "2021": 414.3,
+    "2022": 424.3,
+    "2023": 434.3,
+    "2024": 444.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAESTRIA EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "39274.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION",
+      "tituloSnies": "Maestria",
+      "fecha": "39274.999814814815",
+      "puntos": 40,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "ANTROPOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36230.999814814815",
+      "puntos": 178,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "ANTROPOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36221.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD LA GRAN COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>29-11-2012",
+      "fecha": "20",
+      "puntos": 43891.999814814815,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA Y DOCENCIA UNIVERSITARIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

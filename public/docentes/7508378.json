@@ -1,0 +1,59 @@
+{
+  "cedula": "7508378",
+  "tipoDoc": "CC",
+  "nombre": "DIAZ JURADO JAIRO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "email": "diaz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "20-10-1970",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DIAZ%20JURADO%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 497,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 457,
+    "2021": 467,
+    "2022": 477,
+    "2023": 487,
+    "2024": 497
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>16-06-1995",
+      "fecha": "20",
+      "puntos": 35014.999814814815,
+      "resolucion": "ESPECIALISTA EN SISTEMAS DE LA INFORMACION TOPOGRAFICA"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>11-10-1995",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN SISTEMAS DE LA INFORMACION TOPOGRAFICA"
+    },
+    {
+      "tituloNacional": "TOPOGRAFO GEODESTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "26490.999814814815",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

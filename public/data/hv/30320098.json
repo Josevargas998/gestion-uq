@@ -1,0 +1,152 @@
+{
+  "cedula": "30320098",
+  "tipoDoc": "CC",
+  "nombre": "ESCOBAR ESCOBAR MARIA BEATRIZ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "escobar@uniquindio.edu.co",
+  "puntosAsignados": 438.6,
+  "ptosProductividad": 193,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 398.6,
+    "2021": 408.6,
+    "2022": 418.6,
+    "2023": 428.6,
+    "2024": 438.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1994",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN ENFERMERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "26-03-1999",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD CATOLICA DE MANIZALES",
+      "tituloSnies": "Especialización25-06-2010",
+      "fecha": "20",
+      "puntos": 43891.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "EL PENSAMIENTO TRANSDISCIPLINAR EN LA ENSEсNZA DE LA ADMINISTRACIӎ UNA PESQUISA POR SU ESTADO DEL ARTE ENTRE EL AN 2000 Y 2015",
+        "issn": "2215-7794",
+        "revista": "SINAPSIS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6982"
+      },
+      {
+        "año": "2020",
+        "titulo": "LA RELACIӎ ENTRE EL PENSAMIENTO COMPLEJO, LA EDUCACIӎ Y LA PEDAGOǴ",
+        "issn": "0120-3754",
+        "revista": "ADMINISTRACIӎ Y DESARROLLO",
+        "categoria": "A1",
+        "puntos": 3,
+        "resolucion": "6982"
+      },
+      {
+        "año": "2020",
+        "titulo": "LA COMPLEJIDAD EN LAS CIENCIAS DE LA SALUD Y DEL PENSAMIENTO ENFERMERO",
+        "issn": "0121-8670",
+        "revista": "REVISTA CRITERIOS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6982"
+      },
+      {
+        "año": "2020",
+        "titulo": "ESTADO DEL ARTE PARA ESTUDIAR LAADMINISTRACION. APORTE EN LA PROFESIONALIZACIӎ",
+        "issn": "1657-2815",
+        "revista": "LIBRE EMPRESA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6982"
+      },
+      {
+        "año": "2020",
+        "titulo": "MARCO HISTӒICO DE LA ENFERMEŔ RELACIONADO CON EL DESARROLLO DE LA PROFESIӎ",
+        "issn": "0120-4327",
+        "revista": "UNIMAR",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "6982"
+      },
+      {
+        "año": "2021",
+        "titulo": "CONOCIMIENTOS SOBRE LA COVID-19 Y EL LAVADO DE MANOS",
+        "issn": "2539-3596",
+        "revista": "REVISTA DE SALUD PڂLICA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8135"
+      },
+      {
+        "año": "2024",
+        "titulo": "LOS SIGNIFICADOS DE LA MENOPAUSIA, UNA MIRADA DESDE LA TEOŔ DE LAS TRANSICIONES",
+        "issn": "0121-0807",
+        "revista": "SALUD UIS",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "13492"
+      },
+      {
+        "año": "2024",
+        "titulo": "IMPACTO DE UNA INTERVENCIӎ EDUCATIVA EN EL CONOCIMIENTO DE LA PREVENCIӎ DE LA NEOPLASIA DEL CUELLO UTERINO EN ESTUDIANTES DE ENFERMEŔ Y SUS FAMILIAS",
+        "issn": "1668-7027",
+        "revista": "INTERDISCIPLINARIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13492"
+      },
+      {
+        "año": "2025",
+        "titulo": "DESAF͏S Y CR͔ICAS AL MODELO EXTRACTIVO EN AMɒICA LATINA",
+        "issn": "2389-7864",
+        "revista": "INTROPICA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1437"
+      },
+      {
+        "año": "2025",
+        "titulo": "CUIDADO ENFERMERO Y CALIDAD DE ATENCIӎ INTEGRAL A LA POBLACIӎ LGBTI/OSIGD",
+        "issn": "1909-7700",
+        "revista": "MED",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1108"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Propuesta pedag󧩣a transdisciplinar en la ense񡮺a de los posgrados de la Escuela Superior de Adm",
+        "puntos": 15.7,
+        "resolucion": "12296"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

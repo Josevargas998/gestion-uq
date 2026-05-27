@@ -1,0 +1,74 @@
+{
+  "cedula": "18390106",
+  "tipoDoc": "CC",
+  "nombre": "CATAN CASTRO FRANKLIN",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "catan@uniquindio.edu.co",
+  "puntosAsignados": 345.7,
+  "ptosProductividad": 229,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 305.7,
+    "2021": 315.7,
+    "2022": 325.7,
+    "2023": 335.7,
+    "2024": 345.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "OTRA UNIVERSIDAD",
+      "tituloSnies": "Especialización10-11-1995",
+      "fecha": "20",
+      "puntos": 43891.999814814815
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "22-06-2015",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y COMPUTACION",
+      "tituloSnies": "Universitaria",
+      "fecha": "35856.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "22-06-2018",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Capital Humano - Evaluaci󮠹 medici󮮠Un caso prᣴico",
+        "puntos": 11.6,
+        "resolucion": "6987"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Excel como herramienta bᳩca para la ense񡮺a de estad\udcf4ica",
+        "puntos": 11.3,
+        "resolucion": "75"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "7532303",
+  "tipoDoc": "CC",
+  "nombre": "BUSTAMANTE GUTIERREZ CARLOS ALFONSO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "email": "bustamante@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BUSTAMANTE%20GUTIERREZ%20CARLOS%20ALFONSO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 735.8,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 695.8,
+    "2021": 705.8,
+    "2022": 715.8,
+    "2023": 725.8,
+    "2024": 735.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "29-08-2003",
+      "puntos": 40,
+      "resolucion": "37721.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>18-12-1996",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA"
+    },
+    {
+      "tituloNacional": "PSICOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-03-1988",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

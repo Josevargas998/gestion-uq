@@ -1,0 +1,66 @@
+{
+  "cedula": "41943016",
+  "tipoDoc": "CC",
+  "nombre": "CABAL CLAUDIA CONSTANZA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "cabal@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2007-04-08",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CABAL%20CLAUDIA%20CONSTANZA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 602,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 562,
+    "2021": 572,
+    "2022": 582,
+    "2023": 592,
+    "2024": 602
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN ECONOMIA SOCIAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "41487.999814814815",
+      "puntos": 80,
+      "resolucion": "41893.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION ECONOMICA Y FINANCIERA",
+      "tituloSnies": "Maestria",
+      "fecha": "15-04-2005",
+      "puntos": 40,
+      "resolucion": "30-08-2007"
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-09-2001",
+      "puntos": 178,
+      "resolucion": "30-08-2007"
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-09-2001",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

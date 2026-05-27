@@ -1,0 +1,63 @@
+{
+  "cedula": "89008169",
+  "tipoDoc": "CC",
+  "nombre": "CUELLAR REYES ALVARO JAVIER",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "cuellar@uniquindio.edu.co",
+  "puntosAsignados": 310.1,
+  "ptosProductividad": 75,
+  "topeMaximo": 52,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 270.1,
+    "2021": 280.1,
+    "2022": 290.1,
+    "2023": 300.1,
+    "2024": 310.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "40821.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-2003",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-2003",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "KNOWLEDGE MANAGEMENT IN THE CONSTRUCTION INDUSTRY: STATE OF THE ART AND TRENDS IN RESEARCH",
+        "issn": "0717-7925",
+        "revista": "REVISTA DE LA CONSTRUCCIӎ",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10656"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

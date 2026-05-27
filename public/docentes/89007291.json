@@ -1,0 +1,52 @@
+{
+  "cedula": "89007291",
+  "tipoDoc": "CC",
+  "nombre": "MUÑZ GUTIERREZ PABLO ANDRES",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "muñz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2007-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MU%C3%91Z%20GUTIERREZ%20PABLO%20ANDRES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 529.8,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 489.79999999999995,
+    "2021": 499.79999999999995,
+    "2022": 509.79999999999995,
+    "2023": 519.8,
+    "2024": 529.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA ELECTRICA",
+      "tituloSnies": "Maestria",
+      "fecha": "20-02-2006",
+      "puntos": 40,
+      "resolucion": "28-02-2007"
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-07-2000",
+      "puntos": 178,
+      "resolucion": "28-02-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

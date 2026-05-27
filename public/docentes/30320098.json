@@ -1,0 +1,59 @@
+{
+  "cedula": "30320098",
+  "tipoDoc": "CC",
+  "nombre": "ESCOBAR ESCOBAR MARIA BEATRIZ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "ENFERMERIA",
+  "email": "escobar@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ESCOBAR%20ESCOBAR%20MARIA%20BEATRIZ&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 438.6,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 398.6,
+    "2021": 408.6,
+    "2022": 418.6,
+    "2023": 428.6,
+    "2024": 438.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-1994",
+      "puntos": 178,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ENFERMERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "26-03-1999",
+      "puntos": 40,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD CATOLICA DE MANIZALES",
+      "tituloSnies": "Especializaci󮼯td>25-06-2010",
+      "fecha": "20",
+      "puntos": 43891.999814814815,
+      "resolucion": "ESPECIALISTA EN ADMINISTRACION DE LA SALUD"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

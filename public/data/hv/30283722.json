@@ -1,0 +1,69 @@
+{
+  "cedula": "30283722",
+  "tipoDoc": "CC",
+  "nombre": "LONDON FRANCO ANGELA LILIANA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "34335.999814814815",
+  "estado": "ACTIVO",
+  "email": "london@uniquindio.edu.co",
+  "puntosAsignados": 585.4,
+  "ptosProductividad": 37,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 545.4,
+    "2021": 555.4,
+    "2022": 565.4,
+    "2023": 575.4,
+    "2024": 585.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN MEDICINA PREVENTIVA Y SALUD PUBLICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "18-06-2003",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "DISLIPIDEMIA Y RELACIӎ CON ENFERMEDAD TIROIDEA EN AGRICULTORES DE LA ZONA CAFETERA",
+        "issn": "2248-6054",
+        "revista": "ACTA MɄICA COLOMBIANA",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2021",
+        "titulo": "OCULAR TOXOCARIASIS IN PARASITOLOGY CONSULTATION IN QUIND͏, COLOMBIA: DESCRIPTION OF CASES AND CONTACT STUDIES",
+        "issn": "1465-3664",
+        "revista": "JOURNAL OF TROPICAL PEDIATRICS",
+        "categoria": "A2",
+        "puntos": 1.8,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2021",
+        "titulo": "DETERMINATION OF ORGANOCHLORINE AND ORGANOPHOSPHORUS RESIDUES IN SURFACE WATERS FROM THE COFFEE ZONE IN QUIND͏, COLOMBIA",
+        "issn": "0360-1234",
+        "revista": "JOURNAL OF ENVIRONMENTAL SCIENCE AND HEALTH, PART B PESTICIDES, FOOD CONTAMINANTS, AND AGRICULTURAL WASTES",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8121"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

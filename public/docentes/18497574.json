@@ -1,0 +1,66 @@
+{
+  "cedula": "18497574",
+  "tipoDoc": "CC",
+  "nombre": "PADILLA BEJARANO JOSE BESTIER",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "email": "padilla@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "28-02-2006",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PADILLA%20BEJARANO%20JOSE%20BESTIER&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 963.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 923.6,
+    "2021": 933.6,
+    "2022": 943.6,
+    "2023": 953.6,
+    "2024": 963.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34526.999814814815",
+      "puntos": 178,
+      "resolucion": "23-02-2006"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especializaci󮼯td>28-05-1999",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN REDES DE COMUNICACIӎ"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA ELECTRICA",
+      "tituloSnies": "Maestria",
+      "fecha": "29-09-2011",
+      "puntos": 40,
+      "resolucion": "23-11-2011"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ELECTRICIDAD Y ELECTRONICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34526.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

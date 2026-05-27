@@ -1,0 +1,74 @@
+{
+  "cedula": "18470142",
+  "tipoDoc": "CC",
+  "nombre": "LONDON PINILLA DARIO FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "london@uniquindio.edu.co",
+  "puntosAsignados": 374,
+  "ptosProductividad": 151,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 334,
+    "2021": 344,
+    "2022": 354,
+    "2023": 364,
+    "2024": 374
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-08-2015",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "24-08-2015",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "INFLUENCIA DE INTERPOLADORES Y MODELOS MATEMTICOS DE CLCULO EN LA EXACTITUD DE VOLڍENES DE TIERRA",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10690"
+      },
+      {
+        "año": "2024",
+        "titulo": "EVALUACIӎ COMPARATIVA DE LOS ALGORITMOS DE APRENDIZAJE AUTOMTICO SUPPORT VECTOR MACHINE Y RANDOM FOREST: EFECTOS DEL TAMAN DEL CONJUNTO DE ENTRENAMIENTO",
+        "issn": "0124-8170",
+        "revista": "CIENCIA E INGENIEŔ NEOGRANADINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13402"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Anᬩsis y control de deformaciones",
+        "puntos": 13.5,
+        "resolucion": "1383"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

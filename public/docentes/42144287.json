@@ -1,0 +1,52 @@
+{
+  "cedula": "42144287",
+  "tipoDoc": "CC",
+  "nombre": "GIL RIOS ANA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "gil@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2014-08-08",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GIL%20RIOS%20ANA%20MARIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 385.9,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 345.9,
+    "2021": 355.9,
+    "2022": 365.9,
+    "2023": 375.9,
+    "2024": 385.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "24-09-2010",
+      "puntos": 40,
+      "resolucion": "41859.999814814815"
+    },
+    {
+      "tituloNacional": "TRABAJADOR SOCIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2005",
+      "puntos": 178,
+      "resolucion": "41859.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

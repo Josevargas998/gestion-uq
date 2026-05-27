@@ -1,0 +1,52 @@
+{
+  "cedula": "7520093",
+  "tipoDoc": "CC",
+  "nombre": "ARIZA HURTADO JAIRO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "email": "ariza@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ARIZA%20HURTADO%20JAIRO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 337.7,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 297.7,
+    "2021": 307.7,
+    "2022": 317.7,
+    "2023": 327.7,
+    "2024": 337.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especializaci󮼯td>26-06-2006",
+      "fecha": "40",
+      "puntos": 39027.999814814815,
+      "resolucion": "MAGISTER EN INGENIERIA AREA NUEVOS MATERIALES"
+    },
+    {
+      "tituloNacional": "INGENIERO QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "29163.999814814815",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

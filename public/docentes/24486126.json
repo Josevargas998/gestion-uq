@@ -1,0 +1,59 @@
+{
+  "cedula": "24486126",
+  "tipoDoc": "CC",
+  "nombre": "BERNAL GONZALEZ LUZ DARY",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "PEDAGOGIA REEDUCATIVA",
+  "email": "bernal@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BERNAL%20GONZALEZ%20LUZ%20DARY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 428.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 388.4,
+    "2021": 398.4,
+    "2022": 408.4,
+    "2023": 418.4,
+    "2024": 428.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>07-12-1995",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN EDUCACION SEXUAL"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN PEDAGOGIA REEDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-06-1990",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "31-05-2002",
+      "puntos": 40,
+      "resolucion": "37352.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

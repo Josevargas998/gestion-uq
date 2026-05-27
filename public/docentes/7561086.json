@@ -1,0 +1,66 @@
+{
+  "cedula": "7561086",
+  "tipoDoc": "CC",
+  "nombre": "CASTRO ROJAS LUIS FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "email": "castro@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "18-07-2005",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CASTRO%20ROJAS%20LUIS%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 582.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 542.6,
+    "2021": 552.6,
+    "2022": 562.6,
+    "2023": 572.6,
+    "2024": 582.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INSTRUMENTACION FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "29-05-2009",
+      "puntos": 40,
+      "resolucion": "40062.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especializaci󮼯td>29-06-2001",
+      "fecha": "20",
+      "puntos": 38570.999814814815,
+      "resolucion": "ESPECIALISTA EN INSTRUMENTACIӎ FISICA"
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "23-11-2015",
+      "puntos": 80,
+      "resolucion": "15-12-2015"
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-1996",
+      "puntos": 178,
+      "resolucion": "38570.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

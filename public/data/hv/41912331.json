@@ -1,0 +1,111 @@
+{
+  "cedula": "41912331",
+  "tipoDoc": "CC",
+  "nombre": "GOMEZ YEPES MILENA ELIZABETH",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SALUD OCUPACIONAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "24-02-2004",
+  "estado": "ACTIVO",
+  "email": "gomez@uniquindio.edu.co",
+  "puntosAsignados": 462,
+  "ptosProductividad": 219,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 422,
+    "2021": 432,
+    "2022": 442,
+    "2023": 452,
+    "2024": 462
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD LIBRE",
+      "tituloSnies": "Especialización01-12-2000",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "36197.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-06-1999",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA INDUSTRIAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "40219.999814814815",
+      "puntos": 120
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "CHARACTERIZATION OF ULTRAFINE PARTICLES GENERATED IN CHARCOAL STREET GRILLS IN THE CITY OF ARMENIA (COLOMBIA). CASE STUDY",
+        "issn": "2619-2551",
+        "revista": "U.D.C.A ACTUALIDAD & DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8119"
+      },
+      {
+        "año": "2023",
+        "titulo": "EXPOSICIӎ DE LOS TRABAJADORES DE CURTIEMBRES, OBRAS DE CONSTRUCCIӎ Y SALONES DE BELLEZA DE ARMENIA A CONTAMINACIӎ AMBIENTAL LABORAL. CASO DE ESTUDIO",
+        "issn": "0123-4226",
+        "revista": "REVISTA U.D.C.A ACTUALIDAD & DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "12028"
+      },
+      {
+        "año": "2023",
+        "titulo": "EVALUACIӎ DE LAS CONDICIONES DE TRABAJO EN FINCAS CAFETERAS DEL DEPARTAMENTO DEL QUIND͏ (COLOMBIA)",
+        "issn": "0123-4226",
+        "revista": "REVISTA U.D.C.A ACTUALIDAD & DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12028"
+      },
+      {
+        "año": "2025",
+        "titulo": "PROPOSED INDEX FOR ASSIGNING AN ENVIRONMENTAL LABEL TO PASSENGER CARS",
+        "issn": "2071-1050",
+        "revista": "SUSTAINABILITY",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1385"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Evaluaci󮠤e los riesgos qu\udb69cos en seguridad y salud en el trabajo",
+        "puntos": 13.2,
+        "resolucion": "7410"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Exposici󮠤e material particulado en ambientes laborales",
+        "puntos": 5.2,
+        "resolucion": "8683"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

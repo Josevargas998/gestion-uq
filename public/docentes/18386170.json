@@ -1,0 +1,45 @@
+{
+  "cedula": "18386170",
+  "tipoDoc": "CC",
+  "nombre": "HURTADO VILLEGAS JAIME",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "ZOOTECNIA",
+  "email": "hurtado@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HURTADO%20VILLEGAS%20JAIME&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 391.2,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 351.2,
+    "2021": 361.2,
+    "2022": 371.2,
+    "2023": 381.2,
+    "2024": 391.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ZOOTECNISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-10-1992",
+      "puntos": 178,
+      "resolucion": "42801.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

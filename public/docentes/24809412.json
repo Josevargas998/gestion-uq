@@ -1,0 +1,37 @@
+{
+  "cedula": "24809412",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO CORREA MARIA PATRICIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS DISTANCIA",
+  "email": "giraldo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GIRALDO%20CORREA%20MARIA%20PATRICIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 532.3,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 492.29999999999995,
+    "2021": 502.29999999999995,
+    "2022": 512.3,
+    "2023": 522.3,
+    "2024": 532.3
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

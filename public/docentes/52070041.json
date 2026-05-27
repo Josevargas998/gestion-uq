@@ -1,0 +1,59 @@
+{
+  "cedula": "52070041",
+  "tipoDoc": "CC",
+  "nombre": "LEAL LARRARTE SANDRA ADRIANA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "leal@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "27-03-2006",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LEAL%20LARRARTE%20SANDRA%20ADRIANA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 580.4,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 540.4,
+    "2021": 550.4,
+    "2022": 560.4,
+    "2023": 570.4,
+    "2024": 580.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL PERIODISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "34648.999814814815",
+      "puntos": 178,
+      "resolucion": "24-03-2006"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DISTRITAL\"FRANCISCO JOSE DE CALDAS\"",
+      "tituloSnies": "Especializaci󮼯td>11-04-2003",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDAGOǴ DE LA COMUNICACIӎ Y MEDIOS INTERACTIVOS"
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA COMUNICACION",
+      "tituloSnies": "Maestria",
+      "fecha": "16-05-2008",
+      "puntos": 40,
+      "resolucion": "16-12-2013"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

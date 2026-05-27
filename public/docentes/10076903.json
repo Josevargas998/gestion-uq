@@ -1,0 +1,59 @@
+{
+  "cedula": "10076903",
+  "tipoDoc": "CC",
+  "nombre": "HOYOS SALCEDO EFRAIN ALBERTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "hoyos@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1982-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HOYOS%20SALCEDO%20EFRAIN%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 1076.4,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 1036.4,
+    "2021": 1046.4,
+    "2022": 1056.4,
+    "2023": 1066.4,
+    "2024": 1076.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "30205.999814814815",
+      "puntos": 40,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-03-1976",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>31-12-1981",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN COMPUTACIӎ PARA LA DOCENCIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

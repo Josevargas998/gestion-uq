@@ -1,0 +1,52 @@
+{
+  "cedula": "75064983",
+  "tipoDoc": "CC",
+  "nombre": "DIAZ ARENAS PEDRO FELIPE",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "diaz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "26-07-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DIAZ%20ARENAS%20PEDRO%20FELIPE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 578,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 538,
+    "2021": 548,
+    "2022": 558,
+    "2023": 568,
+    "2024": 578
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACIӎ EDUCATIVA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2007",
+      "puntos": 40,
+      "resolucion": "40216.999814814815"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN COMUNICACIӎ EN RADIO Y TELEVISIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-2003",
+      "puntos": 178,
+      "resolucion": "40216.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

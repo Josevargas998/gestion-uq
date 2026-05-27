@@ -1,0 +1,52 @@
+{
+  "cedula": "79275108",
+  "tipoDoc": "CC",
+  "nombre": "DIAZ PERDOMO JUAN CARLOS",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "diaz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "2012-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DIAZ%20PERDOMO%20JUAN%20CARLOS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 321.4,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 281.4,
+    "2021": 291.4,
+    "2022": 301.4,
+    "2023": 311.4,
+    "2024": 321.4
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "COLEGIO MAYOR DE NUESTRA SEÑRA DEL ROSARIO",
+      "tituloSnies": "Especializaci󮼯td>02-05-2008",
+      "fecha": "60",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN UROLOGIA"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-06-1988",
+      "puntos": 183,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

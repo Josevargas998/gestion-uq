@@ -1,0 +1,91 @@
+{
+  "cedula": "29226257",
+  "tipoDoc": "CC",
+  "nombre": "CAICEDO GONZALEZ IVONNE",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CICLO PROFESIONAL DE ADMINISTRACION FINANCIERA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "caicedo@uniquindio.edu.co",
+  "puntosAsignados": 429.7,
+  "ptosProductividad": 347,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 389.7,
+    "2021": 399.7,
+    "2022": 409.7,
+    "2023": 419.7,
+    "2024": 429.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37083.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "COMPREHENSIVE MANAGEMENT MODEL FOR MSMES INTHE AGRICULTURAL ESCTOR OF THE DEPARTMENT OF QUINDIO COLOMBIA",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10663"
+      },
+      {
+        "año": "2023",
+        "titulo": "THEORETICAL PERSPECTIVE OF INTERNATIONAL FINANCIAL ADMINISTRATION",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10663"
+      },
+      {
+        "año": "2025",
+        "titulo": "DESIGN OF A STRATEGIC MODEL FOR MITIGATION OF ADMINISTRATIVE AND FINANCIAL RISKS IN HEALTH SMES FOR COLOMBIA",
+        "issn": "1841-2394",
+        "revista": "LINGUISTIC AND PHILOSOPHICAL INVESTIGATIONS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1110"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Modelo de gesti󮠁dministrativo y Financiero para las Mipymes del sector agropecuario del departame",
+        "puntos": 11.3,
+        "resolucion": "10663"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Beneficios en materia tributaria y factores claves del orden territorial en cinco municipios del dep",
+        "puntos": 12.6,
+        "resolucion": "1110"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Excel financiero. Aplicaciones prᣴicas desde lo bᳩco y para la toma de decisiones",
+        "puntos": 8.7,
+        "resolucion": "1110"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

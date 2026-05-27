@@ -1,0 +1,52 @@
+{
+  "cedula": "7529349",
+  "tipoDoc": "CC",
+  "nombre": "MORALES ECHEVERRI JULIAN",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "morales@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1986-01-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MORALES%20ECHEVERRI%20JULIAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 360,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 320,
+    "2021": 330,
+    "2022": 340,
+    "2023": 350,
+    "2024": 360
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "tituloSnies": "Especializaci󮼯td>17-02-1984",
+      "fecha": "45",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN CIRUGIA GENERAL"
+    },
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30386.999814814815",
+      "puntos": 183,
+      "resolucion": "29-08-1994"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

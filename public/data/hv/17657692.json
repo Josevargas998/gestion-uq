@@ -1,0 +1,88 @@
+{
+  "cedula": "17657692",
+  "tipoDoc": "CC",
+  "nombre": "BUITRAGO JAIME ALBERTO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "41122.999814814815",
+  "estado": "ACTIVO",
+  "email": "buitrago@uniquindio.edu.co",
+  "puntosAsignados": 575.2,
+  "ptosProductividad": 102,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 535.2,
+    "2021": 545.2,
+    "2022": 555.2,
+    "2023": 565.2,
+    "2024": 575.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37931.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "40487.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "MOTOR LEARNING THERAPEUTIC INTERVENTION FOR A CHILD WITH CEREBRAL PALSY THROUGH A SOCIAL ASSISTIVE ROBOT",
+        "issn": "1748-3115",
+        "revista": "MOTOR LEARNING THERAPEUTIC INTERVENTION FOR A CHILD WITH CEREBRAL PALSY THROUGH A SOCIAL ASSISTIVE ROBOT",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2021",
+        "titulo": "EVALUATION OF CLUSTERS BASED ON SYSTEMS ON A CHIP FOR HIGH-PERFORMANCE COMPUTING: A REVIEW",
+        "issn": "2248-4094",
+        "revista": "INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2021",
+        "titulo": "NAOMOBBY, DEVELOPMENT OF A COMPUTER VISION AND ROBOTICS-BASED SOFTWARE TOOL TO SUPPORT REHABILITATION IN UPPER LIMB PHYSICAL THERAPIES",
+        "issn": "2344-7214",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8115"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [
+      {
+        "año": "2023",
+        "titulo": "",
+        "puntos": 7.8,
+        "resolucion": "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES A UNOS DOCENTES DE CARRERA, ADSCRITOS AL PROGRAMA DE INGENIEŔ ELECTRӎICA, CONFORME AL DECRETO 1279 DEL AN 2002"
+      }
+    ]
+  }
+}

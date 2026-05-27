@@ -1,0 +1,52 @@
+{
+  "cedula": "89006235",
+  "tipoDoc": "CC",
+  "nombre": "GOMEZ MARIN GERMAN DARIO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "email": "gomez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-12-03",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GOMEZ%20MARIN%20GERMAN%20DARIO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 380.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 340.9,
+    "2021": 350.9,
+    "2022": 360.9,
+    "2023": 370.9,
+    "2024": 380.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA VEGETAL",
+      "tituloSnies": "Maestria",
+      "fecha": "30-11-2007",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-08-2000",
+      "puntos": 178,
+      "resolucion": "45139.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

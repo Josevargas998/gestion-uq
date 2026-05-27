@@ -1,0 +1,147 @@
+{
+  "cedula": "1118537774",
+  "tipoDoc": "CC",
+  "nombre": "CAMACHO ROZO CɓAR AUGUSTO",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "ZOOTECNIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "camacho@uniquindio.edu.co",
+  "puntosAsignados": 483.5,
+  "ptosProductividad": 254,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 443.5,
+    "2021": 453.5,
+    "2022": 463.5,
+    "2023": 473.5,
+    "2024": 483.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO VETERINARIO ZOOTECNISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-04-2010",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA UNAD",
+      "tituloSnies": "Especialización30-08-2012",
+      "fecha": "20",
+      "puntos": 44958.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "EFFECT OF DONOR STATUS, EMBRYO GRADES AND RECIPIENT MANAGEMENT ON PREGNANCY RATES IN A COMMERCIAL EQUINE EMBRYO TRANSFER PROGRAM IN THE TROPICS",
+        "issn": "1542-7412",
+        "revista": "JOURNAL OF EQUINE VETERINARY SCIENCE",
+        "categoria": "A1",
+        "puntos": 12,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "HISTOMORPHOMETRIC AND VASCULAR CHANGES IN EQUINE ENDOMETRIUM AFTER THE INFUSION OF CONCEPTUS FRAGMENTS",
+        "issn": "1806-9614",
+        "revista": "ANIMAL REPRODUCTION",
+        "categoria": "B",
+        "puntos": 2.3,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "COMPARISON OF TWO SPERM FREEZING PROTOCOLS OF COLOMBIAN CRIOLLO HORSES: PRELIMINARY RESULTS",
+        "issn": "1311-1477",
+        "revista": "BULGARIAN JOURNAL OF VETERINARY MEDICINE",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "ULTRASTRUCTURAL AND HISTOLOGICAL CHARACTERISTICS OF THE EQUINE ENDOMETRIUM AT DAY 5 POST OVULATION",
+        "issn": "0093-691X",
+        "revista": "THERIOGENOLOGY",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "SUDDEN DEATH BY OVARIAN HEMORRHAGE AND HEMOPERITONEUM IN A PREGNANT MINIATURE MARE",
+        "issn": "1542-7412",
+        "revista": "JOURNAL OF EQUINE VETERINARY SCIENCE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "CAN THE TRAINING REGIMEN INFLUENCE NIGHT TIME PHYSICAL ACTIVITY IN RACEHORSES?",
+        "issn": "2451-943X",
+        "revista": "VETERINARY AND ANIMAL SCIENCE",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "UTERINE INFUSION OF CONCEPTUS FRAGMENTS CHANGES THE PROTEIN PROFILE FROM CYCLIC MARES",
+        "issn": "1806-9614",
+        "revista": "ANIMAL REPRODUCTION",
+        "categoria": "B",
+        "puntos": 1.7,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "ALTERNATIVE METHOD TO GENERATE THREE-DIMENSIONAL (3D) ULTRASONOGRAPHIC IMAGES IN VETERINARY MEDICINE",
+        "issn": "1542-7412",
+        "revista": "JOURNAL OF EQUINE VETERINARY SCIENCE",
+        "categoria": "A1",
+        "puntos": 12,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2023",
+        "titulo": "CERULOPLASMIN, SEROTRANSFERRIN AND ALBUMIN PRESENTED DIFFERENT ABUNDANCE IN MARES? UTERINE FLUID FIVE DAYS AFTER INSEMINATION",
+        "issn": "0093-691X",
+        "revista": "THERIOGENOLOGY",
+        "categoria": "A1",
+        "puntos": 2.7,
+        "resolucion": "10769"
+      },
+      {
+        "año": "2024",
+        "titulo": "PHYSICAL ACTIVITY MEASURED WITH AN ACCELEROMETER IN DOGS FOLLOWING EXTRACAPSULAR STABILISATION TO TREAT CRANIAL CRUCIATE LIGAMENT RUPTURE",
+        "issn": "1748-5827",
+        "revista": "JOURNAL OF SMALL ANIMAL PRACTICE",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "13472"
+      },
+      {
+        "año": "2024",
+        "titulo": "MINIMALLY INVASIVE ARTHRODESIS OF THE EQUINE PROXIMAL INTERPHALANGEAL JOINT: A BIOMECHANICAL COMPARISON OF THREE 5.5-MM CORTICAL SCREWS INSERTED IN LAG FASHION AND TWO 7.0-MM HEADLESS CANNULATED DUAL-PITCH COMPRESSION SCREWS",
+        "issn": "0932-0814",
+        "revista": "VETERINARY AND COMPARATIVE ORTHOPAEDICS AND TRAUMATOLOGY",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "13472"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

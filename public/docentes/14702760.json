@@ -1,0 +1,59 @@
+{
+  "cedula": "14702760",
+  "tipoDoc": "CC",
+  "nombre": "PEREZ PENAGOS JOHN JAMES",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SEGURIDAD Y SALUD EN EL TRABAJO",
+  "email": "perez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "30-06-2023",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=PEREZ%20PENAGOS%20JOHN%20JAMES&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 289,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 249,
+    "2021": 259,
+    "2022": 269,
+    "2023": 279,
+    "2024": 289
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-2010",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "ENFERMERO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-07-2010",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    },
+    {
+      "tituloNacional": "MAGISTER EN SALUD OCUPACIONAL",
+      "tituloSnies": "Maestria",
+      "fecha": "22-07-2016",
+      "puntos": 40,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

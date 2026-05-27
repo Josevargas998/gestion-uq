@@ -1,0 +1,66 @@
+{
+  "cedula": "24488507",
+  "tipoDoc": "CC",
+  "nombre": "RESTREPO CORTES BEATRIZ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "restrepo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-07-1993",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RESTREPO%20CORTES%20BEATRIZ&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 531.2,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 491.20000000000005,
+    "2021": 501.20000000000005,
+    "2022": 511.20000000000005,
+    "2023": 521.2,
+    "2024": 531.2
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE BIOLOGIA Y QUIMICA AREA MAYOR QUIMICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-02-1979",
+      "puntos": 178,
+      "resolucion": "22-02-1995"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "13-08-2003",
+      "puntos": 40,
+      "resolucion": "22-02-1995"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "39758.999814814815",
+      "puntos": 80,
+      "resolucion": "41251.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especializaci󮼯td>30-08-2002",
+      "fecha": "20",
+      "puntos": 37569.999814814815,
+      "resolucion": "ESPECIALISTA EN BIOLOGIA MOLECULAR Y BIOTECOLOGIA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

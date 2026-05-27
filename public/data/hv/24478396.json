@@ -1,0 +1,71 @@
+{
+  "cedula": "24478396",
+  "tipoDoc": "CC",
+  "nombre": "ROMERO RESTREPO MIRYAM",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "35827.999814814815",
+  "estado": "ACTIVO",
+  "email": "romero@uniquindio.edu.co",
+  "puntosAsignados": 438.2,
+  "ptosProductividad": 146,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 398.2,
+    "2021": 408.2,
+    "2022": 418.2,
+    "2023": 428.2,
+    "2024": 438.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "tituloSnies": "Especialización16-03-1999",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización09-06-2000",
+      "fecha": "20",
+      "puntos": 36837.999814814815
+    },
+    {
+      "tituloNacional": "ABOGADO",
+      "tituloSnies": "Universitaria",
+      "fecha": "35041.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "FUNDACIӎ UNIVERSITARIA COMPENSAR",
+        "issn": "0124-0099",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8137"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "ɴica y legalidad, un dilema para el profesional contable",
+        "puntos": 14.3,
+        "resolucion": "10468"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

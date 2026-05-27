@@ -1,0 +1,87 @@
+{
+  "cedula": "7523648",
+  "tipoDoc": "CC",
+  "nombre": "CORREA VALENCIA CARLOS IVAN",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "40216.999814814815",
+  "estado": "ACTIVO",
+  "email": "correa@uniquindio.edu.co",
+  "puntosAsignados": 546.7,
+  "ptosProductividad": 214,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 506.70000000000005,
+    "2021": 516.7,
+    "2022": 526.7,
+    "2023": 536.7,
+    "2024": 546.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "38355.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-09-1991",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIN",
+      "tituloSnies": "Especialización29-11-2000",
+      "fecha": "20",
+      "puntos": 40216.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "LA SOSTENIBILIDAD TERRITORIAL: UNA APUESTA DESDE LA GESTIӎ EMPRESARIAL EN EL DEPARTAMENTO DEL QUIND͏",
+        "issn": "2248-4345",
+        "revista": "SEMESTRE ECONӍICO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "11757"
+      },
+      {
+        "año": "2023",
+        "titulo": "EL PAPEL DE LA PROPIEDAD EN EL DESARROLLO DEPARTAMENTAL EVIDENCIAS PARA EL CASO COLOMBIANO",
+        "issn": "1900-3803",
+        "revista": "ENTRAMADO",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "11757"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "La propiedad en las tendencias y din᭩cas del desarrollo en los departamentos de Colombia",
+        "puntos": 7.2,
+        "resolucion": "11757"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Ensayos uniquindianos sobre econom\ud860y sociedad. Efectos del narcotrᦩco en la econom\ud860y en la soc",
+        "puntos": 13.5,
+        "resolucion": "71"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "18387759",
+  "tipoDoc": "CC",
+  "nombre": "HERRERA PINEDA JORGE HERNAN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "herrera@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HERRERA%20PINEDA%20JORGE%20HERNAN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 319,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 279,
+    "2021": 289,
+    "2022": 299,
+    "2023": 309,
+    "2024": 319
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL FRANCES LENGUA EXTRANJERA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-04-1993",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD EL BOSQUE",
+      "tituloSnies": "Especializaci󮼯td>31-12-1992",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALISTA Y FILOSOFIA DE LA CIENCIA"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-07-1985",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

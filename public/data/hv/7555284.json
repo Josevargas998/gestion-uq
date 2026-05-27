@@ -1,0 +1,62 @@
+{
+  "cedula": "7555284",
+  "tipoDoc": "CC",
+  "nombre": "GARĆ OCAMPO CARLOS ARTURO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "25-01-2010",
+  "estado": "ACTIVO",
+  "email": "garć@uniquindio.edu.co",
+  "puntosAsignados": 338.6,
+  "ptosProductividad": 273,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 298.6,
+    "2021": 308.6,
+    "2022": 318.6,
+    "2023": 328.6,
+    "2024": 338.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "35676.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA CIVIL",
+      "tituloSnies": "Maestria",
+      "fecha": "18-09-1999",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "ͮdice de Seguridad en Instalaciones Universitarias",
+        "puntos": 14.8,
+        "resolucion": "8131"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Comprendiendo la Sismolog\ud860Bᳩca",
+        "puntos": 12.5,
+        "resolucion": "8131"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

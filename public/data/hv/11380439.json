@@ -1,0 +1,105 @@
+{
+  "cedula": "11380439",
+  "tipoDoc": "CC",
+  "nombre": "VILLAMIZAR VARGAS RAFAEL HUMBERTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SEGURIDAD Y SALUD EN EL TRABAJO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "villamizar@uniquindio.edu.co",
+  "puntosAsignados": 459.5,
+  "ptosProductividad": 215,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 419.5,
+    "2021": 429.5,
+    "2022": 439.5,
+    "2023": 449.5,
+    "2024": 459.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD LIBRE",
+      "tituloSnies": "Especialización27-03-2001",
+      "fecha": "20",
+      "puntos": 42801.999814814815
+    },
+    {
+      "tituloNacional": "INGENIERO QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-11-1989",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "25-05-2012",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "CAMBIOS FISICOQU͍ICOS DURANTE LA MADURACIӎ DEL MANGO TOMMY ATKINS EN LA POSCOSECHA?",
+        "issn": "0123-4226",
+        "revista": "U.D.C.A ACTUALIDAD Y DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7410"
+      },
+      {
+        "año": "2021",
+        "titulo": "CHARACTERIZATION OF ULTRAFINE PARTICLES GENERATED IN CHARCOAL STREET GRILLS IN THE CITY OF ARMENIA (COLOMBIA). CASE STUDY",
+        "issn": "2619-2551",
+        "revista": "U.D.C.A ACTUALIDAD & DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8119"
+      },
+      {
+        "año": "2023",
+        "titulo": "EXPOSICIӎ DE LOS TRABAJADORES DE CURTIEMBRES, OBRAS DE CONSTRUCCIӎ Y SALONES DE BELLEZA DE ARMENIA A CONTAMINACIӎ AMBIENTAL LABORAL. CASO DE ESTUDIO",
+        "issn": "0123-4226",
+        "revista": "REVISTA U.D.C.A ACTUALIDAD & DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "12028"
+      },
+      {
+        "año": "2023",
+        "titulo": "EVALUACIӎ DE LAS CONDICIONES DE TRABAJO EN FINCAS CAFETERAS DEL DEPARTAMENTO DEL QUIND͏ (COLOMBIA)",
+        "issn": "0123-4226",
+        "revista": "REVISTA U.D.C.A ACTUALIDAD & DIVULGACIӎ CIENT͆ICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12028"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Exposici󮠤e material particulado en ambientes laborales",
+        "puntos": 5.2,
+        "resolucion": "8683"
+      },
+      {
+        "año": "2024",
+        "tipo": "LibroTexto",
+        "titulo": "Riesgos Qu\udb69cos. Una mirada didᣴica para la ense񡮺a",
+        "puntos": 13.5,
+        "resolucion": "13476"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

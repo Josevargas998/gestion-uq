@@ -1,0 +1,429 @@
+{
+  "cedula": "76323234",
+  "tipoDoc": "CC",
+  "nombre": "CAMPO MUNZ WILMAR YESID",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "campo@uniquindio.edu.co",
+  "puntosAsignados": 951.4,
+  "ptosProductividad": 547,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 911.4,
+    "2021": 921.4,
+    "2022": 931.4,
+    "2023": 941.4,
+    "2024": 951.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA AREA TELEMATICA",
+      "tituloSnies": "Maestria",
+      "fecha": "31-07-2009",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA TELEMATICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-05-2014",
+      "puntos": 80
+    },
+    {
+      "tituloNacional": "INGENIERO EN ELECTRONICA Y TELECOMUNICACIONES",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-09-1998",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "CONSTRUCCIӎ DE RECURSOS EDUCATIVOS PARA LA TEMTICA DE ACCESIBILIDAD EN EL CURSO DE INTERACCIӎ HUMANO COMPUTADOR",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "ANLISIS DE TRFICO DEL SERVICIO DE VIDEOSTREAMING SOBRE UNA RED WIFI",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "HERRAMIENTA AUTOMATIZADA PARA EL ANLISIS DE LA SATISFACCIӎ",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "HERRAMIENTA PARA EL SEGUIMIENTO DEL ESTRɓ MENTAL EN PRUEBAS DE USABLIDAD",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "CONSTRUCCIӎ DE UNA RED WIFI 5 DEFINIDA POR SOFTWARE PARA EL ANLISIS DE CALIDAD DEL SERVICIO",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "ESTIMACIӎ DE LA CALIDAD DE LA EXPERIENCIA DEL VIDEOSTREAMING DESPLEGADO SOBRE REDES WIFI 5 DEFINIDAS POR SOFTWARE",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "PROPUESTA DE UN VIDEOJUEGO EDUCATIVO PARA LA ENSEсNZA-APRENDIZAJE DE LA CLASIFICACIӎ DE REQUISITOS EN INGENIEŔ DE SOFTWARE",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "ANLISIS DEL SERVICIO IPTV SOPORTADO POR UNA RED WIFI",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "EVALUACIӎ DEL DESEMPEN DE UNA RED LTE MEDIANTE PARMETROS DE QOS",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "AN APPROACH BASED ON KNOWLEGDE-DEFINED NETWORKING FOR IDENTIFYING HEAVY-HITTER FLOWS IN DATA CENTER NETWORKS",
+        "issn": "2076-3417",
+        "revista": "APPLIED SCIENCES",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "ANLISIS DEL SERVICIO DE VIDEO STREAMING BASADO EN EL ALGORITMO FDASH SOBRE LTE",
+        "issn": "0124-8170",
+        "revista": "CIENCIA E INGENIEŔ NEOGRANADINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2020",
+        "titulo": "ESTUDIO DEL ATRIBUTO SATISFACCIӎ EN PRUEBAS DE USABILIDAD, MEDIANTE TɃNICAS DE ANLISIS DE SENTIMIENTOS",
+        "issn": "1646-9895",
+        "revista": "IBɒICA DE SISTEMAS ETECNOLOǴS DE INFORMACAO IBERIAN JOURNAL OF INFORMATION SYSTEMS AND TECHNOLOGIES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7400"
+      },
+      {
+        "año": "2021",
+        "titulo": "PROPUESTA DE UNA HERRAMIENTA DE INSPECCIӎ SEGڎ LOS ATRIBUTOS DE USABILIDAD DE NIELSEN",
+        "issn": "1646-9895",
+        "revista": "RISTI REVISTA IBɒICA DE SISTEMAS E TECNOLOGIAS DE INFORMAǃO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2021",
+        "titulo": "CRITERIOS DE USABILIDAD PARA EL DISEN E IMPLEMENTACIӎ DE VIDEOJUEGOS",
+        "issn": "1646-9895",
+        "revista": "RISTI REVISTA IBɒICA DE SISTEMAS E TECNOLOGIAS DE INFORMAǃO",
+        "categoria": "B",
+        "puntos": 12,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2022",
+        "titulo": "TECHNOSTRESS ANALYSIS IN EDUCATIONAL INSTITUTIONS DURING THE COVID-19 CONFINEMENT",
+        "issn": "2217-8309",
+        "revista": "TEM JOURNAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "DEFINICIӎ DE CRITERIOS DE ACCESIBILIDAD M͎IMA PARA LA CONSTRUCCIӎ DE APLICACIONES WEB",
+        "issn": "1646-9895",
+        "revista": "RISTI REVISTA IBɒICA DE SISTEMAS E TECNOLOGIAS DE INFORMAǃO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "CHARACTERIZATION OF TRAFFIC FOR LIVE VIDEO STREAMING SERVICES ON DASH IN 4G NETWORKS BASED ON SYNTACTIC ANALYZERS",
+        "issn": "0121-750X",
+        "revista": "INGENIEŔ",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "AUTOMATED TOOL FOR THE DEVELOPMENT OF NOISE LEVEL INSPECTION STUDIES",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "HEURISTIC EVALUATION OF VIDEO GAMES IN SMART TV ENVIRONMENTS",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "PROPOSAL OF AN AUTOMATED TOOL FOR CONDUCTING USABILITY INSPECTIONS BASED ON NIELSEN HEURISTICS",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "CONSTRUCTION OF A CLIENT-SERVER SCENARIO FOR THE SIMULATION OF INTERACTIVE VIDEO STREAMING SERVICES",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "AN APPROACH BASED ON KNOWLEDGE-DEFINED NETWORKING FOR IDENTIFYING VIDEO STREAMING FLOWS IN 5G NETWORKS",
+        "issn": "1548-0992",
+        "revista": "IEEE LATIN AMERICA TRANSACTIONS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "VIDEO STREAMING SERVICE IDENTIFICATION ON SOFTWARE-DEFINED NETWORKING",
+        "issn": "1841-9844",
+        "revista": "INTERNATIONAL JOURNAL OF COMPUTERS COMMUNICATIONS & CONTROL",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "QOE ESTIMATION FOR DIFFERENT ADAPTIVE STREAMING TECHNIQUES IN MOBILE NETWORKS",
+        "issn": "0122-1701",
+        "revista": "SCIENTIA ET TECHNICA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "DELAY AND THROUGHPUT ANALYSIS ON A CABLE NETWORK FOR VIDEO STREAMING SERVICES",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "APLICACIӎ DE LA LӇICA DIFUSA EN LA IMPLEMENTACIӎ DE RڂRICAS DE EVALUACIӎ EN EL CONTEXTO UNIVERSITARIO",
+        "issn": "1646-9895",
+        "revista": "RISTI REVISTA IBɒICA DE SISTEMAS E TECNOLOGIAS DE INFORMAǃO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "PROPOSAL FOR AN IOT SYSTEM FOR THE MONITORING AND ANALYSIS OF ULTRAVIOLET RADIATION",
+        "issn": "0974-3154",
+        "revista": "INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "SISTEMA LOT PARA LA MONITORIZACIӎ DE NIVELES DE RUIDO EN ZONAS ALEDAсS AL AEROPUERTO DE CARTAGENA DE INDIA",
+        "issn": "1646-9895",
+        "revista": "RISTI REVISTA IBɒICA DE SISTEMAS E TECNOLOǴS DE INFORMACAO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "CONSTRUCCIӎ DE UN BANCO DE PRUEBAS PARA REDES 5G BASADO EN SDN Y SDR",
+        "issn": "1646-9895",
+        "revista": "RISTI REVISTA IBɒICA DE SISTEMAS E TECNOLOǴS DE INFORMACAO",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2022",
+        "titulo": "IOT ARCHITECTURE FOR MONITORING VARIABLES OF INTEREST IN INDOOR PLANTS",
+        "issn": "1405-5546",
+        "revista": "COMPUTACION Y SISTEMAS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10473"
+      },
+      {
+        "año": "2023",
+        "titulo": "PROPOSAL OF A TOOL FOR THE AUTOMATIC ESTIMATION OF QUALITY OF EXPERIENCE IN MPEG-DASH SCENARIOS",
+        "issn": "0033-2097",
+        "revista": "PRZEGLAD ELEKTROTECHNICZNY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2023",
+        "titulo": "PROPOSAL FOR A FUZZY LOGIC-BASED SYSTEM TO DETERMINE CARDIOVASCULAR RISK",
+        "issn": "2088-8708",
+        "revista": "INTERNATIONAL JOURNAL OF ELECTRICAL AND COMPUTER ENGINEERING",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2023",
+        "titulo": "PROPOSAL OF AN AUTOMATED TOOL FOR THE ANALYSIS OF USABILITY TESTS",
+        "issn": "1819-6608",
+        "revista": "ARPN JOURNAL OF ENGINEERING AND APPLIED SCIENCES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2023",
+        "titulo": "APPLICATION OF CLUSTERING TECHNIQUES IN THE ANALYSIS OF MOUSE TRACKING TEST",
+        "issn": "1819-6608",
+        "revista": "ARPN JOURNAL OF ENGINEERING AND APPLIED SCIENCES",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2023",
+        "titulo": "FUZZY LOGIC-BASED SYSTEM FOR THE ESTIMATION OF THE USABILITY LEVEL IN USER TESTS",
+        "issn": "1841-9844",
+        "revista": "INTERNATIONAL JOURNAL OF COMPUTERS, COMMUNICATIONS AND CONTROL",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2023",
+        "titulo": "VIDEO STREAMING SERVICE IDENTIFICATION USING INCREMENTAL LEARNING ON SOFTWARE-DEFINED NETWORK",
+        "issn": "0033-2097",
+        "revista": "PRZEGLAD ELEKTROTECHNICZNY",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2023",
+        "titulo": "PROPOSAL OF AN AUTOMATED TOOL FOR THE APPLICATION OF SENTIMENT ANALYSIS TECHNIQUES IN THE CONTEXT OF MARKETING",
+        "issn": "2156-5570",
+        "revista": "INTERNATIONAL JOURNAL OF ADVANCED COMPUTER SCIENCE AND APPLICATIONS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2023",
+        "titulo": "PROPUESTA DE UNA HERRAMIENTA PARA EL ANLISIS DE EVALUACIONES HEUR͓TICAS DE USABILIDAD MEDIANTE LӇICA DIFUSA",
+        "issn": "0123-3033",
+        "revista": "INGENIEŔ Y COMPETITIVIDAD",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12089"
+      },
+      {
+        "año": "2024",
+        "titulo": "ALGORITMO AAASH PARA EL SERVICIO DE VIDEOSTREAMING SOBRE REDES MӖILES",
+        "issn": "1692-7257",
+        "revista": "REVISTA COLOMBIANA DE TECNOLOǴS DE AVANZADA (RCTA)",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13411"
+      },
+      {
+        "año": "2024",
+        "titulo": "ARQUITECTURA PARA IMPLEMENTACIӎ DE SERVICIOS DE VIDEO SOBRE REDES MӖILES MEDIANTE REDES DEFINIDAS POR SOFTWARE Y SEGMENTACIӎ DE RED",
+        "issn": "1692-7257",
+        "revista": "REVISTA COLOMBIANA DE TECNOLOǴS DE AVANZADA (RCTA)",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13411"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Despliegue de servicios sobre redes de datos implementadas con protocolos de enrutamiento de gateway",
+        "puntos": 13.1,
+        "resolucion": "10945"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroInvestigacion",
+        "titulo": "Modelado de trᦩco: Un enfoque desde la calidad de la Experiencia",
+        "puntos": 2.9,
+        "resolucion": "67"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

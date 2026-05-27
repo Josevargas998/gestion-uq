@@ -1,0 +1,52 @@
+{
+  "cedula": "39789083",
+  "tipoDoc": "CC",
+  "nombre": "CABEZA ACEVEDO NANCY YOMARA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "cabeza@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "25-01-2010",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CABEZA%20ACEVEDO%20NANCY%20YOMARA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 361.7,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 321.7,
+    "2021": 331.7,
+    "2022": 341.7,
+    "2023": 351.7,
+    "2024": 361.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-12-1994",
+      "puntos": 183,
+      "resolucion": "19-01-2010"
+    },
+    {
+      "tituloNacional": "COLEGIO MAYOR DE NUESTRA SEÑRA DEL ROSARIO",
+      "tituloSnies": "Especializaci󮼯td>09-02-2000",
+      "fecha": "40",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN PEDIATŔ"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

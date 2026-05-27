@@ -1,0 +1,60 @@
+{
+  "cedula": "91499439",
+  "tipoDoc": "CC",
+  "nombre": "BASTO GONZLEZ V̓TOR SAUL",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "basto@uniquindio.edu.co",
+  "puntosAsignados": 357.3,
+  "ptosProductividad": 87,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 317.3,
+    "2021": 327.3,
+    "2022": 337.3,
+    "2023": 347.3,
+    "2024": 357.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "38899.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "SHORT-BASELINE OSCILLATION SCENARIOS AT JUNO AND TAO",
+        "issn": "2470-0029",
+        "revista": "PHYSICAL REVIEW D",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10675"
+      },
+      {
+        "año": "2023",
+        "titulo": "KINEMATICAL TEST OF LARGE EXTRA DIMENSION IN BETA DECAY EXPERIMENTS",
+        "issn": "1793-6640",
+        "revista": "PHYSICS LETTERS B",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "10675"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

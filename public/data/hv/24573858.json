@@ -1,0 +1,156 @@
+{
+  "cedula": "24573858",
+  "tipoDoc": "CC",
+  "nombre": "FAJARDO CALDERON CONSTANZA LORETH",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "34608.999814814815",
+  "estado": "ACTIVO",
+  "email": "fajardo@uniquindio.edu.co",
+  "puntosAsignados": 900.1,
+  "ptosProductividad": 1111,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 860.1,
+    "2021": 870.1,
+    "2022": 880.1,
+    "2023": 890.1,
+    "2024": 900.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización12-12-2001",
+      "fecha": "20",
+      "puntos": 36837.999814814815
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "31-03-2006",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "30899.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización28-03-1996",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "ANLISIS DE LA APLICABILIDAD DE LOS BENEFICIOS TRIBUTARIOS TERRITORIALES Y SU INCIDENCIA FINANCIERA EN LAS PYMES DEL MUNICIPIO DE CIRCASIA, DEPARTAMENTO DEL QUIND͏, ENTRE LOS ANS GRAVABLES 2015 Y 2020",
+        "issn": "2323-0886",
+        "revista": "CRITERIO LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "12023"
+      },
+      {
+        "año": "2025",
+        "titulo": "RɇIMEN TRIBUTARIO ESPECIAL EN ORGANIZACIONES DEL SECTOR SOCIAL COLOMBIANO: ANLISIS PARA SU ARTICULACIӎ AL ENFOQUE DE ECONOḾ CIRCULAR",
+        "issn": "1315-9984",
+        "revista": "REVISTA VENEZOLANA DE GERENCIA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1065"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "El impuesto a las ventas (IVA) en Colombia",
+        "puntos": 14,
+        "resolucion": "8675"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Informaci󮠥x󧥮a. A񯠧ravable 2022 a presentar en el 2023",
+        "puntos": 14.3,
+        "resolucion": "12300"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "R駩men sancionatorio tributario aplicable en Colombia",
+        "puntos": 14.3,
+        "resolucion": "10950"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "R駩men simple de tributaci󮠳imple en Colombia",
+        "puntos": 7,
+        "resolucion": "12300"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Impuesto a las ganancias para personas jur\ud929cas en Colombia",
+        "puntos": 13.7,
+        "resolucion": "12300"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Tributaci󮠳obre la renta y el patrimonio para personas naturales en Colombia",
+        "puntos": 12.9,
+        "resolucion": "10950"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "R駩men de precios de transferencia. Declaraci󮠩nformativa formato 120",
+        "puntos": 13.5,
+        "resolucion": "1433"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Fundamentos tributarios de los impuestos de carᣴer municipal en Colombia",
+        "puntos": 13.5,
+        "resolucion": "75"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Tributaci󮠶erde en Colombia",
+        "puntos": 13.4,
+        "resolucion": "1433"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Anᬩsis del aprovechamiento de los beneficios tributarios aplicados pr las empresas PYMES del depar",
+        "puntos": 10.8,
+        "resolucion": "75"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2021",
+        "titulo": "PRIMER PUESTO EN EL TEMA DE INVESTIGACIӎ: ?SUSTENTABILIDAD Y RESPONSABILIDAD SOCIAL EMPRESARIAL?",
+        "puntos": 15,
+        "resolucion": "8675"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

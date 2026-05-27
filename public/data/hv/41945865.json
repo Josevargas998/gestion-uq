@@ -1,0 +1,55 @@
+{
+  "cedula": "41945865",
+  "tipoDoc": "CC",
+  "nombre": "CUARTAS VARON LUISA FERNANDA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "cuartas@uniquindio.edu.co",
+  "puntosAsignados": 339.4,
+  "ptosProductividad": 146,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 299.4,
+    "2021": 309.4,
+    "2022": 319.4,
+    "2023": 329.4,
+    "2024": 339.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "39427.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO CIVIL",
+      "tituloSnies": "Universitaria",
+      "fecha": "39427.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Administraci󮠰ara todos",
+        "puntos": 14.6,
+        "resolucion": "10685"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

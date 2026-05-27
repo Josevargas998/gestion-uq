@@ -1,0 +1,52 @@
+{
+  "cedula": "24476788",
+  "tipoDoc": "CC",
+  "nombre": "SALAZAR ALVAREZ LUZ DARY",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "GERONTOLOGIA",
+  "email": "salazar@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "29-09-1977",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SALAZAR%20ALVAREZ%20LUZ%20DARY&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 257.8,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 217.8,
+    "2021": 227.8,
+    "2022": 237.8,
+    "2023": 247.8,
+    "2024": 257.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION EDUCACIONAL",
+      "tituloSnies": "Maestria",
+      "fecha": "25-06-1977",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADA EN EDUCACIӎ EN LA ESPECIALIDAD DE PEDAGOGIA Y ADMINISTRACIӎ EDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-1974",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

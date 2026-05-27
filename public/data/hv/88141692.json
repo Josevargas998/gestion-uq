@@ -1,0 +1,91 @@
+{
+  "cedula": "88141692",
+  "tipoDoc": "CC",
+  "nombre": "VILA ORTEGA JOSE JOAQUIN",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "15-05-1995",
+  "estado": "ACTIVO",
+  "email": "vila@uniquindio.edu.co",
+  "puntosAsignados": 503.4,
+  "ptosProductividad": 115,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 463.4,
+    "2021": 473.4,
+    "2022": 483.4,
+    "2023": 493.4,
+    "2024": 503.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MOSCOW STATE UNIVERSITY OF GEODESY AND CARTOGRAPHY",
+      "tituloSnies": "Especialización11-03-2005",
+      "fecha": "120",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO CARTOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "33913.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "ENVIRONMENTAL SURVEILLANCE OF POLIOVIRUSES IN ARMENIA, COLOMBIA BEFORE TRIVALENT ORAL POLIO VACCINE CESSATION",
+        "issn": "1999-4915",
+        "revista": "VIRUSES",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7412"
+      },
+      {
+        "año": "2022",
+        "titulo": "VULNERABILITY AND SITE EFFECTS IN EARTHQUAKE DISASTERS IN ARMENIA (COLOMBIA) ? PART 2 : OBSERVED DAMAGE AND VULNERABILITY",
+        "issn": "1684-9981",
+        "revista": "NATURAL HAZARDS AND EARTH SYSTEM SCIENCES",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "9822"
+      },
+      {
+        "año": "2023",
+        "titulo": "VIGILANCIA AMBIENTAL DE LA CIRCULACIӎ DE POLIOVIRUS EN TRES MUNICIPIOS CONSIDERADOS COMO PUNTO TRANSITORIO DE MIGRANTES EN COLOMBIA 2017-2019",
+        "issn": "0123-9392",
+        "revista": "INFECTIO",
+        "categoria": "B",
+        "puntos": 1.6,
+        "resolucion": "10838"
+      },
+      {
+        "año": "2024",
+        "titulo": "ESTRUCTURA DEL SUBSUELO DE LA SABANA DE BOGOTn ANLISIS DE DISPERSIӎ DE ONDAS SUPERFICIALES A PARTIR DE SISMOS Y RUIDO S͓MICOS",
+        "issn": "0016-7169",
+        "revista": "GEOF͓ICA INTERNACIONAL",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13402"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2021",
+        "titulo": "GESTOR DE INFORMACIӎ ESPACIAL DEL CATLOGO DE SISMOS DEL OBSERVATORIO SISMOLӇICO DE LA UNIVERSIDAD",
+        "puntos": 4.3,
+        "resolucion": "8117"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

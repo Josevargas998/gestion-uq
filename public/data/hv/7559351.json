@@ -1,0 +1,147 @@
+{
+  "cedula": "7559351",
+  "tipoDoc": "CC",
+  "nombre": "LUCAS AGUIRRE JUAN CARLOS",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "24-02-2012",
+  "estado": "ACTIVO",
+  "email": "lucas@uniquindio.edu.co",
+  "puntosAsignados": 793.6,
+  "ptosProductividad": 232,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 753.6,
+    "2021": 763.6,
+    "2022": 773.6,
+    "2023": 783.6,
+    "2024": 793.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA DE ALIMENTOS",
+      "tituloSnies": "Maestria",
+      "fecha": "24-04-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "INGENIERO AGROINDUSTRIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "35279.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "STARCH FROM TWO UNRIPE PLANTAINS AND ESTERIFIED WITH OCTENYL SUCCINIC ANHYDRIDE (OSA): PARTIAL CHARACTERIZATION",
+        "issn": "0308-8146",
+        "revista": "FOOD CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2021",
+        "titulo": "DEGRADATION KINETICS DURING STORAGE OF VITAMINS AND ANTIOXIDANTS IN COCONUT POWDER",
+        "issn": "0012-7353",
+        "revista": "DYNA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8130"
+      },
+      {
+        "año": "2024",
+        "titulo": "INDUCTION AND MULTIPLICATION OF THORNLESS RUBUS GLAUCUS CALLOGENESIS FROM LEAVES",
+        "issn": "1674-2974",
+        "revista": "HUNAN DAXUE XUEBAO/JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "EVALUACIӎ FISICOQU͍ICA Y FUNCIONAL DE HARINAS Y ALMIDONES DEL GERMOPLASMA DE MUSA SPP. EN COLOMBIA",
+        "issn": "0719-3882",
+        "revista": "CHILEAN JOURNAL OF AGRICULTURAL AND ANIMAL SCIENCES",
+        "categoria": "C",
+        "puntos": 9,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "THE EVALUATION OF THE DRYING KINETICS OF CASSAVA SLICES (MANIHOT ESCULENTA CRANTZ) VARIETY ICA CATUMARE",
+        "issn": "1674-2974",
+        "revista": "HUNAN DAXUE XUEBAO/JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "MORPHOLOGICAL, STRUCTURAL, CHEMICAL, VIBRATIONAL, THERMAL, PASTING, AND FUNCTIONAL CHANGES IN PEA STARCH DURING GERMINATION PROCESS",
+        "issn": "2046-1402",
+        "revista": "F1000RESEARCH",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2024",
+        "titulo": "DETERMINATION OF KINETIC PARAMETERS IN THE CONVECTIVE DRYING OF BANANA SLICES AAAEA (MUSA SAPIENTUM L.)",
+        "issn": "1674-2974",
+        "revista": "HUNAN DAXUE XUEBAO/JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2025",
+        "titulo": "INFLUENCE OF GERMINATION TIME ON THE MORPHOLOGICAL, STRUCTURAL, VIBRATIONAL, THERMAL AND PASTING PROPERTIES OF POTATO STARCH FROM SOLANUM TUBEROSUM PHUREJA GROUP",
+        "issn": "1871-4528",
+        "revista": "POTATO RESEARCH",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "1374"
+      },
+      {
+        "año": "2025",
+        "titulo": "STUDY OF THE CHANGES ON THE PHYSICOCHEMICAL PROPERTIES OF ISOLATED LENTIL STARCH DURING GERMINATION",
+        "issn": "1879-0003",
+        "revista": "INTERNATIONAL JOURNAL OF BIOLOGICAL MACROMOLECULES",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1103"
+      },
+      {
+        "año": "2025",
+        "titulo": "EVALUATION OF THE PERFORMANCE OF LOW-FAT (OIL-FAT) DRESSINGS BASED ON CHEMICALLY MODIFIED GUAYABO PLANTAIN STARCH (MUSA PARADISIACA L.)",
+        "issn": "1532-1738",
+        "revista": "FOOD SCIENCIE AND TECHNOLOGY INTERNATIONAL",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "1374"
+      },
+      {
+        "año": "2025",
+        "titulo": "EFFECTS OF FERTILIZATION AND PLANTING DISTANCE ON GROWTH PARAMETERS OF MUSA AAB SIMMONDS",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1374"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

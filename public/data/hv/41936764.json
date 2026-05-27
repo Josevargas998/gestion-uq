@@ -1,0 +1,105 @@
+{
+  "cedula": "41936764",
+  "tipoDoc": "CC",
+  "nombre": "BOTERO RESTREPO MARGARITA ALEXANDRA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "botero@uniquindio.edu.co",
+  "puntosAsignados": 462.6,
+  "ptosProductividad": 375,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 422.6,
+    "2021": 432.6,
+    "2022": 442.6,
+    "2023": 452.6,
+    "2024": 462.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ENSEсNZA DE LENGUAS EXTRANJERAS",
+      "tituloSnies": "Maestria",
+      "fecha": "41821.999814814815",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-09-2008",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "LICENCIADO EN LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-09-2008",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "COMPLEMENTING IN-CLASS LANGUAGE LEARNING WITH VOLUNTARY OUT-OF-CLASS MALL. DOES TRAINING IN SELF-REGULATION AND SCAFFOLDING MAKE A DIFFERENCE??",
+        "issn": "0958-8221",
+        "revista": "COMPUTER ASSISTED LANGUAGE LEARNING",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7404"
+      },
+      {
+        "año": "2021",
+        "titulo": "DOS VISIONES DEL CURR̓ULO EN LA FORMACIӎ BILING܅",
+        "issn": "2256-1536",
+        "revista": "BOLET͎ REDIPE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "8125"
+      },
+      {
+        "año": "2022",
+        "titulo": "Promoting autonomous learning through the EDMODO platform, flipped classroom and learning styles",
+        "issn": "2256-1536",
+        "revista": "REVISTA BOLET͎ REDIPE",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9830"
+      },
+      {
+        "año": "2022",
+        "titulo": "ASPECTOS PSICOSOCIALES Y CONDICIONES EDUCATIVAS DE DOCENTES DE LENGUA EN FORMACIӎ DURANTE EL CONFINAMIENTO POR LA PANDEMIA DE COVID-19",
+        "issn": "0123-3432",
+        "revista": "͋ALA, REVISTA DE LENGUAJE Y CULTURA",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9830"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Fundamentos epistemol󧩣os de la competencia comunicativa intercultural",
+        "puntos": 13.5,
+        "resolucion": "1381"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Teor\ud86c investigaci󮠹 aplicaciones de la conciencia metaling𭳴ica en procesos de formaci󮠢ilin",
+        "puntos": 14.2,
+        "resolucion": "1381"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

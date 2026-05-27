@@ -1,0 +1,127 @@
+{
+  "cedula": "41931649",
+  "tipoDoc": "CC",
+  "nombre": "JIMɎEZ ROJAS ANGELA MAŔ",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN PEDAGOGIA INFANTIL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "jimɏez@uniquindio.edu.co",
+  "puntosAsignados": 625.4,
+  "ptosProductividad": 1242,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 585.4,
+    "2021": 595.4,
+    "2022": 605.4,
+    "2023": 615.4,
+    "2024": 625.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "PSICOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-1997",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION Y DESARROLLO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "31-05-2002",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización26-03-1999",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "REVISIӎ SISTEMTICA EXPLORATORIA: UNA PERSPECTIVA DE LA EDUCACIӎ A DISTANCIA DESDE LA EDUCACIӎ SUPERIOR A DISTANCIA DESDE LA INVESTIGACIӎ HISTӒICA",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8122"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Perspectiva Sensoperceptual. Un camino hacia la madurez cognitiva del infante",
+        "puntos": 12.9,
+        "resolucion": "8122"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "El Proceso de la Memoria, Un Camino Hacia la Madurez Cognitiva del infante",
+        "puntos": 13.7,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Las emociones, Un Camino Hacia la Madurez Cognitiva del infante",
+        "puntos": 12.8,
+        "resolucion": "8680"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Proceso Atencional. Un camino hacia la madurez cognitiva del infante",
+        "puntos": 11.1,
+        "resolucion": "8122"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "El acto motivacional: Un camino hacia la madurez cognitiva del infante",
+        "puntos": 14.4,
+        "resolucion": "10475"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Manifestaciones del yo: Un camino hacia la madurez cognitiva del infante",
+        "puntos": 14.6,
+        "resolucion": "10475"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Familias e infancias",
+        "puntos": 14.9,
+        "resolucion": "12109"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Una mirada al sentido del desarrollo moral en las infancias",
+        "puntos": 14.4,
+        "resolucion": "98"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Una apuesta al neurodesarrollo en las infancias",
+        "puntos": 14.6,
+        "resolucion": "98"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

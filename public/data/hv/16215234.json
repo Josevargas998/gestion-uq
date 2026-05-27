@@ -1,0 +1,61 @@
+{
+  "cedula": "16215234",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA ARIAS JAIR ASDRUBAL",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "TECNOLOGIA EN INSTRUMENTACION ELECTRONICA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "35827.999814814815",
+  "estado": "ACTIVO",
+  "email": "garcia@uniquindio.edu.co",
+  "puntosAsignados": 737.3,
+  "ptosProductividad": 138,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 697.3,
+    "2021": 707.3,
+    "2022": 717.3,
+    "2023": 727.3,
+    "2024": 737.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS Y FISICA",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-02-1986",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD TECNOLOGICA DE PEREIRA",
+      "tituloSnies": "Especialización11-08-1995",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN INSTRUMENTACION FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "39362.999814814815",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Biofisica II: Fluidos y Ondas Aplicados a las Ciencias Biol󧩣as",
+        "puntos": 13.8,
+        "resolucion": "8116"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

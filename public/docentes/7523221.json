@@ -1,0 +1,45 @@
+{
+  "cedula": "7523221",
+  "tipoDoc": "CC",
+  "nombre": "BLANCO ABRIL GUNDIZALBO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "CIENCIAS DE LA INFORMACION Y LA DOCUMENTACION BIBLIOTECOLOGIA Y ARCHIVISTICA",
+  "email": "blanco@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2005-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BLANCO%20ABRIL%20GUNDIZALBO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 248.7,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 208.7,
+    "2021": 218.7,
+    "2022": 228.7,
+    "2023": 238.7,
+    "2024": 248.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE TECNOLOGIA EDUCATIVA",
+      "tituloSnies": "Universitaria",
+      "fecha": "21-07-1978",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

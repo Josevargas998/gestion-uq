@@ -1,0 +1,90 @@
+{
+  "cedula": "94528666",
+  "tipoDoc": "CC",
+  "nombre": "VERA TASAMA ALEXANDER",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "14-02-2006",
+  "estado": "ACTIVO",
+  "email": "vera@uniquindio.edu.co",
+  "puntosAsignados": 522.1,
+  "ptosProductividad": 187,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 482.1,
+    "2021": 492.1,
+    "2022": 502.1,
+    "2023": 512.1,
+    "2024": 522.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización29-02-2008",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "INGENIERO ELECTRONICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "14-11-2003",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "INMERSIӎ DE LAS OLAS DE INNOVACIӎ TECNOLӇICA EN EL PROGRAMA DE INGENIEŔ ELECTRӎICA DE LA UNIVERSIDAD DEL QUIND͏ (COLOMBIA)",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7649"
+      },
+      {
+        "año": "2021",
+        "titulo": "TESTBED FOR SUB-NYQUIST WIDEBAND SPECTRUM MONITORING",
+        "issn": "2248-4094",
+        "revista": "INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8115"
+      },
+      {
+        "año": "2021",
+        "titulo": "A CURRICULUM DESIGN APPROACH BY THE MEANS OF A GENERAL MORPHOLOGICAL ANALYSIS",
+        "issn": "2248-4094",
+        "revista": "INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "8115"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡 la ingenier\ud860econ󭩣a",
+        "puntos": 10.4,
+        "resolucion": "8115"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2021",
+        "titulo": "GMA - SOFTWARE PARA EL ANLISIS MORFOLӇICO GENERAL",
+        "puntos": 6.7,
+        "resolucion": "8115"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

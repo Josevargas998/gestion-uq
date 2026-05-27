@@ -1,0 +1,136 @@
+{
+  "cedula": "41935619",
+  "tipoDoc": "CC",
+  "nombre": "LORA SUAREZ FABIANA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "lora@uniquindio.edu.co",
+  "puntosAsignados": 575,
+  "ptosProductividad": 319,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 535,
+    "2021": 545,
+    "2022": 555,
+    "2023": 565,
+    "2024": 575
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "42771.999814814815",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "14-07-2008",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-04-2002",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "FOOD PROTOZOA SAFETY ASSESSMENT AND RISK IN SCHOOL RESTAURANTS IN ARMENIA, COLOMBIA",
+        "issn": "1745-4565",
+        "revista": "JOURNAL FOOD SAFETY",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "DETECTION OF GIARDIA SPP. WITH FORMALIN/ETHER CONCENTRATION IN BRASSICA OLERACEA (CABBAGE) AND LACTUCA SATIVA (LETTUCE)",
+        "issn": "2405-8440",
+        "revista": "HELIYON JOURNAL",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "FOOD SAFETY ASSESSMENT AND RISK FOR TOXOPLASMOSIS IN SCHOOL RESTAURANTS IN ARMENIA, COLOMBIA",
+        "issn": "0932-0113",
+        "revista": "PARASITOLOGY RESEARCH",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2021",
+        "titulo": "DETECTION AND GENOTYPES OF TOXOPLASMA GONDII DNA IN FECES OF DOMESTIC CATS IN COLOMBIA",
+        "issn": "1776-1042",
+        "revista": "PARASITE JOURNAL",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2022",
+        "titulo": "BLASTOCYSTIS SUBTYPES AND CULTURE CHARACTERISTICS OF ISOLATES FROM HUMAN STOOLS RELATED WITH THE PRESENCE OF GASTROINTESTINAL SYMPTOMS: A CASE-CONTROL STUDY",
+        "issn": "1896-1851",
+        "revista": "ACTA PARASITOLOGICA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "9842"
+      },
+      {
+        "año": "2023",
+        "titulo": "DETECTION OF GIARDIA DUODENALIS AND TOXOPLASMA GONDII IN SOIL AND WATER SAMPLES IN THE QUIND͏ RIVER BASIN, COLOMBIA",
+        "issn": "2405-6766",
+        "revista": "FOOD AND WATERBORNE PARASITOLOGY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2023",
+        "titulo": "RECIPE INGREDIENTS FOR RE EMERGENT PROTOZOA: CLIMATIC CHANGE, RAIN ZOONOSIS, MOUNTAIN AND FOOD",
+        "issn": "0123-9392",
+        "revista": "INFECTIO",
+        "categoria": "C",
+        "puntos": 5,
+        "resolucion": "12039"
+      }
+    ],
+    "libros": [],
+    "premios": [
+      {
+        "año": "2020",
+        "titulo": "PREMIO NACIONAL AL MEJOR POSTER EN TODAS LAS REAS",
+        "puntos": 15,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2021",
+        "titulo": "MEJOR POSTER DE TODAS LAS REAS ACADɍICAS DEL CONGRESO (MICROBIOLOǴ Y BIOTECNOLOǴ, GENɔICA Y C",
+        "puntos": 15,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2024",
+        "titulo": "PREMIO NACIONAL \"MEJOR POSTER\" EN TODAS LAS REAS",
+        "puntos": 5.3,
+        "resolucion": "13404"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

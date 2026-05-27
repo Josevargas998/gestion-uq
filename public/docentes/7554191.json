@@ -1,0 +1,52 @@
+{
+  "cedula": "7554191",
+  "tipoDoc": "CC",
+  "nombre": "CASTAÑ OSORIO JHON CARLOS",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "castañ@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1995-01-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CASTA%C3%91%20OSORIO%20JHON%20CARLOS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 992.9,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 952.9,
+    "2021": 962.9,
+    "2022": 972.9,
+    "2023": 982.9,
+    "2024": 992.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-1993",
+      "puntos": 183,
+      "resolucion": "34976.999814814815"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BSICAS MɄICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-10-2001",
+      "puntos": 120,
+      "resolucion": "18-12-2002"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

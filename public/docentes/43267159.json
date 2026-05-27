@@ -1,0 +1,59 @@
+{
+  "cedula": "43267159",
+  "tipoDoc": "CC",
+  "nombre": "HOYOS RINCON ISABEL CRISTINA",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "FISICA",
+  "email": "hoyos@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2020-03-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HOYOS%20RINCON%20ISABEL%20CRISTINA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 488.7,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 448.7,
+    "2021": 458.7,
+    "2022": 468.7,
+    "2023": 478.7,
+    "2024": 488.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA AMBIENTAL",
+      "tituloSnies": "Doctorado",
+      "fecha": "42980.999814814815",
+      "puntos": 80,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "FISICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "39084.999814814815",
+      "puntos": 178,
+      "resolucion": "43891.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN FISICA",
+      "tituloSnies": "Maestria",
+      "fecha": "15-12-2011",
+      "puntos": 40,
+      "resolucion": "43891.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

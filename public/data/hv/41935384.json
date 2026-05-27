@@ -1,0 +1,161 @@
+{
+  "cedula": "41935384",
+  "tipoDoc": "CC",
+  "nombre": "GUZMAN BEATRIZ ELENA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS PRESENCIAL",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41583.999814814815",
+  "estado": "ACTIVO",
+  "email": "guzman@uniquindio.edu.co",
+  "puntosAsignados": 526.7,
+  "ptosProductividad": 485,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 486.70000000000005,
+    "2021": 496.70000000000005,
+    "2022": 506.70000000000005,
+    "2023": 516.7,
+    "2024": 526.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "tituloSnies": "Especialización16-05-2007",
+      "fecha": "20",
+      "puntos": 41460.999814814815
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACION DE EMPRESAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-11-2010",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "ADMINISTRADOR DE EMPRESAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "36780.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "IDENTIDAD Y MANIFESTACIONES CULTURALES DEL DEPARTAMENTO DEL QUIND͏ EN EL CONTEXTO DEL PAISAJE CULTURAL CAFETERO DE COLOMBIA",
+        "issn": "1139-7861",
+        "revista": "CUADERNOS DE TURISMO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7390"
+      },
+      {
+        "año": "2021",
+        "titulo": "INSTITUCIONES E INTENCIӎ EMPRENDEDORA",
+        "issn": "2145-5147",
+        "revista": "DESARROLLO GERENCIAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8142"
+      },
+      {
+        "año": "2021",
+        "titulo": "INTEGRACIӎ PRODUCTIVA Y DESARROLLO DEL TURISMO CULTURAL",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8142"
+      },
+      {
+        "año": "2022",
+        "titulo": "APPLICATION OF A FUZZY SYSTEM TO THE ANALYSIS OF ENTREPRENEURIAL INTENTION IN COLOMBIA",
+        "issn": "2067-4082",
+        "revista": "JOURNAL OF URBAN AND REGIONAL ANALYSIS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9843"
+      },
+      {
+        "año": "2023",
+        "titulo": "LA INTENCIӎ EMPRENDEDORA D ELOS CIENT͆ICOS UNIVERSITARIOS EN COLOMBIA",
+        "issn": "2422-3182",
+        "revista": "REVISTA CEA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12088"
+      },
+      {
+        "año": "2024",
+        "titulo": "DIRECCIONADORES DE FUTURO EN EL TURISMO DE NATURALEZA",
+        "issn": "2145-5147",
+        "revista": "DESARROLLO GERENCIAL",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "13379"
+      },
+      {
+        "año": "2025",
+        "titulo": "ESCENARIOS FUTUROS DEL TURISMO DE NATURALEZA EN EL DEPARTAMENTO DEL QUIND͏, COLOMBIA",
+        "issn": "2145-941X",
+        "revista": "PENSAMIENTO & GESTIӎ",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1045"
+      },
+      {
+        "año": "2025",
+        "titulo": "ESTRATEGIA Y GENERACIӎ DE VALOR EN ATRACTIVOS TUR͓TICOS: CASO DE ESTUDIO",
+        "issn": "2422-3182",
+        "revista": "REVISTA CEA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "1045"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Turismo cultural en el Quindio ߕna iniciativa de cl򳴥r?",
+        "puntos": 14.3,
+        "resolucion": "8142"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Turismo Quindiano e identidad cultural",
+        "puntos": 12.5,
+        "resolucion": "10470"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroEnsayo",
+        "titulo": "Visi󮠰rospectiva del turismo de naturaleza. Quind\udbe02035",
+        "puntos": 11.9,
+        "resolucion": "12088"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2021",
+        "titulo": "PRIMER PUESTO EN EL TEMA DE INVESTIGACIӎ: ?COMPETITIVIDAD Y ESTRATEGIA ORGANIZACIONAL?",
+        "puntos": 15,
+        "resolucion": "8142"
+      },
+      {
+        "año": "2025",
+        "titulo": "PRIMER PUESTO EN LA CATEGOŔ DE INVESTIGACIӎ DE EVOLUCIӎ ORGANIZACIONAL EN EL MARCO DEL CAPITALIS",
+        "puntos": 15,
+        "resolucion": "1045"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cedula": "16185584",
+  "tipoDoc": "CC",
+  "nombre": "SNCHEZ MUÑZ OSCAR EDUARDO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN EDUCACION FISICA Y DEPORTES",
+  "email": "snchez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2013-11-06",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SNCHEZ%20MU%C3%91Z%20OSCAR%20EDUARDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 517.5,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 477.5,
+    "2021": 487.5,
+    "2022": 497.5,
+    "2023": 507.5,
+    "2024": 517.5
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION FISICA Y DEPORTES",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-2002",
+      "puntos": 178,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EDUCACION DOCENCIA",
+      "tituloSnies": "Maestria",
+      "fecha": "24-09-2010",
+      "puntos": 40,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CUNDINAMARCA",
+      "tituloSnies": "Especializaci󮼯td>03-03-2008",
+      "fecha": "20",
+      "puntos": 41460.999814814815,
+      "resolucion": "ESPECIALISTA EN PROCESOS PEGAGӇICOS DEL ENTRENAMIENTO DEPORTIVO"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

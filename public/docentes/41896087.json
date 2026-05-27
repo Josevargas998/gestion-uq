@@ -1,0 +1,59 @@
+{
+  "cedula": "41896087",
+  "tipoDoc": "CC",
+  "nombre": "ZULUAGA JARAMILLO LUZ STELLA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "zuluaga@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-02-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=ZULUAGA%20JARAMILLO%20LUZ%20STELLA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 360.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 320.6,
+    "2021": 330.6,
+    "2022": 340.6,
+    "2023": 350.6,
+    "2024": 360.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DE LOS ANDES",
+      "tituloSnies": "Especializaci󮼯td>05-03-1988",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN TRADUCCIӎ INGLES ESPAÑL INGLES"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "31477.999814814815",
+      "puntos": 178,
+      "resolucion": "19-01-1998"
+    },
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL INGLES",
+      "tituloSnies": "Maestria",
+      "fecha": "39176.999814814815",
+      "puntos": 40,
+      "resolucion": "23-07-2007"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

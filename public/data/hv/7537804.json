@@ -1,0 +1,103 @@
+{
+  "cedula": "7537804",
+  "tipoDoc": "CC",
+  "nombre": "RAMIREZ OSORIO JORGE HUMBERTO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "31-07-2008",
+  "estado": "ACTIVO",
+  "email": "ramirez@uniquindio.edu.co",
+  "puntosAsignados": 686,
+  "ptosProductividad": 419,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 646,
+    "2021": 656,
+    "2022": 666,
+    "2023": 676,
+    "2024": 686
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN GERENCIA DEL TALENTO HUMANO",
+      "tituloSnies": "Maestria",
+      "fecha": "25-05-2007",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA",
+      "tituloSnies": "Especialización13-07-1995",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "32878.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2024",
+        "titulo": "LA EDUCACIӎ PUNTO INICIAL DE LA FORMACIӎ PARA EL DESARROLLO SOSTENIBLE Y SUSTENTABLE",
+        "issn": "2619-4244",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13407"
+      },
+      {
+        "año": "2025",
+        "titulo": "ECOSOCIALISM AND EMERGING ACCOUNTING THEORIES",
+        "issn": "2471-0881",
+        "revista": "LINGUISTIC AND PHILOSOPHICAL INVESTIGATIONS",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1433"
+      },
+      {
+        "año": "2025",
+        "titulo": "THE INTEGRAL MANAGEMENT OF THE TERRITORY. NECESSARY CONDITION FOR SUSTAINABLE DEVELOPMENT",
+        "issn": "1464-2859",
+        "revista": "FUEL CELLS BULLETIN",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1065"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Valoraci󮠹 cuantificaci󮠤el capital humano en las universidades, como una forma de gesti󮠤el c",
+        "puntos": 13.4,
+        "resolucion": "8137"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Marketing internacional para principiantes",
+        "puntos": 12.9,
+        "resolucion": "8675"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Contraposici󮠥ntre los intereses de las organizaciones, la sociedad y los prop󳩴os de la sustent",
+        "puntos": 12.3,
+        "resolucion": "75"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

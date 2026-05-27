@@ -1,0 +1,37 @@
+{
+  "cedula": "18388816",
+  "tipoDoc": "CC",
+  "nombre": "JARAMILLO PATIÑ DIEGO FERNANDO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA ELECTRONICA",
+  "email": "jaramillo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=JARAMILLO%20PATI%C3%91%20DIEGO%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 420.9,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 380.9,
+    "2021": 390.9,
+    "2022": 400.9,
+    "2023": 410.9,
+    "2024": 420.9
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

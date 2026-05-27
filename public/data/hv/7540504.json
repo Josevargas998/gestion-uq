@@ -1,0 +1,137 @@
+{
+  "cedula": "7540504",
+  "tipoDoc": "CC",
+  "nombre": "JIMENEZ CLEVES GONZALO",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "TECNOLOGIA EN TOPOGRAFIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "21-07-1993",
+  "estado": "ACTIVO",
+  "email": "jimenez@uniquindio.edu.co",
+  "puntosAsignados": 633.5,
+  "ptosProductividad": 463,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 593.5,
+    "2021": 603.5,
+    "2022": 613.5,
+    "2023": 623.5,
+    "2024": 633.5
+  },
+  "titulos": [
+    {
+      "tituloNacional": "TOPOGRAFO",
+      "tituloSnies": "Universitaria",
+      "fecha": "18-12-1985",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especialización02-11-1989",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA DE SISTEMAS",
+      "tituloSnies": "Maestria",
+      "fecha": "28-05-2004",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PROYECTO ACADɍICO INGENIEŔ TOPOGRFICA Y GEOMTICA",
+        "issn": "1900-8260",
+        "revista": "EDUCACIӎ EN INGENIEŔ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "7412"
+      },
+      {
+        "año": "2020",
+        "titulo": "EARTH MOVEMENT OPTIMIZATION MODEL IN URBANISTIC PROJECTS",
+        "issn": "1742-6596",
+        "revista": "JOURNAL OF PHYSICS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7412"
+      },
+      {
+        "año": "2021",
+        "titulo": "ESTIMACIӎ DE LA CAPTURA DE CARBONO EN UN RELICTO DE BOSQUE URBANO MEDIANTE TɃNICAS DE TELEDETECCIӎ",
+        "issn": "2248-4094",
+        "revista": "INGENIEŔS UNIVERSIDAD DE MEDELL͎",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8117"
+      },
+      {
+        "año": "2021",
+        "titulo": "INFLUENCIA DE INTERPOLADORES Y MODELOS MATEMTICOS DE CLCULO EN LA EXACTITUD DE VOLڍENES DE TIERRA",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8117"
+      },
+      {
+        "año": "2021",
+        "titulo": "ANLISIS DE ISLAS DE CALOR URBANO USANDO IMGENES LANDSAT: CASO DE ESTUDIO ARMENIA-COLOMBIA 1996-2018",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8117"
+      },
+      {
+        "año": "2022",
+        "titulo": "QUANTIFYING THE EFFECT OF LIDAR DATA DENSITY ON DEM QUALITY",
+        "issn": "0124-8170",
+        "revista": "CIENCIA E INGENIEŔ NEOGRANADINA",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "9822"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Topograf\ud860Bᳩca",
+        "puntos": 13.7,
+        "resolucion": "7654"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Estudios de movimiento de tierra",
+        "puntos": 13.3,
+        "resolucion": "9822"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Anᬩsis y control de deformaciones",
+        "puntos": 13.5,
+        "resolucion": "1383"
+      }
+    ],
+    "premios": [
+      {
+        "año": "2021",
+        "titulo": "PREMIO ACOFI 2019, ENSEсNZA A LA INGENIEŔ",
+        "puntos": 15,
+        "resolucion": "8684"
+      }
+    ],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cedula": "18593326",
+  "tipoDoc": "CC",
+  "nombre": "SANCHEZ VALLEJO JAIME",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "sanchez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "2010-02-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=SANCHEZ%20VALLEJO%20JAIME&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 317.1,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 277.1,
+    "2021": 287.1,
+    "2022": 297.1,
+    "2023": 307.1,
+    "2024": 317.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "22-03-1991",
+      "puntos": 183,
+      "resolucion": "40216.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>03-03-1997",
+      "fecha": "40",
+      "puntos": 40216.999814814815,
+      "resolucion": "ESPECIALISTA EN NEUMOLOGIA CLINICA"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "cedula": "91493800",
+  "tipoDoc": "CC",
+  "nombre": "SANCHEZ LOPEZ ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "QUIMICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "39545.999814814815",
+  "estado": "ACTIVO",
+  "email": "sanchez@uniquindio.edu.co",
+  "puntosAsignados": 349.6,
+  "ptosProductividad": 75,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 309.6,
+    "2021": 319.6,
+    "2022": 329.6,
+    "2023": 339.6,
+    "2024": 349.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN QUIMICA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-03-2007",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-10-2002",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "EXPLORING MOLECULAR AND ELECTRONIC PROPERTY PREDICTIONS OF REDUCED GRAPHENE OXIDE NANOFLAKES VIA DENSITY FUNCTIONAL THEORY",
+        "issn": "2470-1343",
+        "revista": "ACS OMEGA",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12027"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

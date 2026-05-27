@@ -1,0 +1,45 @@
+{
+  "cedula": "29226257",
+  "tipoDoc": "CC",
+  "nombre": "CAICEDO GONZALEZ IVONNE",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CICLO PROFESIONAL DE ADMINISTRACION FINANCIERA",
+  "email": "caicedo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=CAICEDO%20GONZALEZ%20IVONNE&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 429.7,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 389.7,
+    "2021": 399.7,
+    "2022": 409.7,
+    "2023": 419.7,
+    "2024": 429.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "37083.999814814815",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

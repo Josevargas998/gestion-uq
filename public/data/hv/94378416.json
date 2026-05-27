@@ -1,0 +1,377 @@
+{
+  "cedula": "94378416",
+  "tipoDoc": "CC",
+  "nombre": "VARGAS SALINAS FERNANDO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41583.999814814815",
+  "estado": "ACTIVO",
+  "email": "vargas@uniquindio.edu.co",
+  "puntosAsignados": 865.9,
+  "ptosProductividad": 1090,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 825.9,
+    "2021": 835.9,
+    "2022": 845.9,
+    "2023": 855.9,
+    "2024": 865.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "BIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "23-05-1997",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAG͓TER EN CIENCIAS BIOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "23-06-2005",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOLOGIA",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-08-2013",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "BIRDS VS BRICKS: PATTERNS OF SPECIES DIVERSITY IN RESPONSE TO URBANIZATION IN A NEOTROPICAL",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "TEMPORAL PATTERNS, BENEFITS, AND DEFENSIVE BEHAVIORS ASSOCIATED WITH MALE PARENTAL CARE IN THE GLASSFROG CENTROLENE SAVAGEI",
+        "issn": "1828-7131",
+        "revista": "ETHOLOGY ECOLOGY & EVOLUTION",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2020",
+        "titulo": "THE POVERTY OF ADULT MORPHOLOGY: BIOACOUSTICS, GENETICS, AND INTERNAL TADPOLE MORPHOLOGY REVEAL A NEW SPECIES OF GLASSFROG (ANURA: CENTROLENIDAE: IKAKOGI) FROM THE SIERRA NEVADA DE SANTA MARTA, COLOMBIA",
+        "issn": "1932-6203",
+        "revista": "PLOS ONE",
+        "categoria": "A1",
+        "puntos": 3.3,
+        "resolucion": "7391"
+      },
+      {
+        "año": "2021",
+        "titulo": "MUCH MORE THAN A CLASP: EVOLUTIONARY PATTERNS OF AMPLEXUS DIVERSITY IN ANURANS",
+        "issn": "0024-4066",
+        "revista": "BIOLOGICAL JOURNAL OF THE LINNEAN SOCIETY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2021",
+        "titulo": "ACOUSTIC SIGNAL DIVERSITY IN THE HARLEQUIN TOAD ATELOPUS LAETISSIMUS (ANURA: BUFONIDAE)",
+        "issn": "1938-5110",
+        "revista": "ACOUSTIC SIGNAL DIVERSITY IN THE HARLEQUIN TOAD ATELOPUS LAETISSIMUS (ANURA: BUFONIDAE)",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2021",
+        "titulo": "HOMING IN THE RUB͐OISON FROG ANDINOBATES BOMBETES (DENDROBATIDAE)",
+        "issn": "1938-5110",
+        "revista": "COPEIA",
+        "categoria": "A1",
+        "puntos": 2.9,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2021",
+        "titulo": "PERSISTENCE OF SNAKE CARCASSES ON ROADS AND ITS POTENTIAL EFFECT ON ESTIMATING ROADKILLS IN A MEGADIVERSE COUNTRY",
+        "issn": "1525-9153",
+        "revista": "AMPHIBIAN AND REPTILE CONSERVATION",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "8140"
+      },
+      {
+        "año": "2022",
+        "titulo": "ESTADO, DESARROLLO Y TENDENCIAS DE LOS ESTUDIOS EN ACړTICA DE LA FAUNA EN COLOMBIA",
+        "issn": "2539-200X",
+        "revista": "BIOTA COLOMBIANA",
+        "categoria": "B",
+        "puntos": 15,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2022",
+        "titulo": "ADVERTISEMENT CALL, TADPOLE MORPHOLOGY, AND OTHER NATURAL HISTORY ASPECTS OF THE THREATENED POISON FROG ANDINOBATES DALESWANSONI (DENDROBATIDAE)",
+        "issn": "0022-2933",
+        "revista": "JOURNAL OF NATURAL HISTORY",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2022",
+        "titulo": "DOES ANTHROPOGENIC NOISE PROMOTES ADVERTISEMENT CALL ADJUSTMENTS IN THE RUB͠POISON FROG ANDINOBATES BOMBETES?",
+        "issn": "1568-539X",
+        "revista": "BEHAVIOUR",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2022",
+        "titulo": "DOES ABIOTIC NOISE PROMOTE SEGREGATION OF FUNCTIONAL DIVERSITY IN NEOTROPICAL ANURAN ASSEMBLAGES?",
+        "issn": "0024-4066",
+        "revista": "BIOLOGICAL JOURNAL OF THE LINNEAN SOCIETY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2022",
+        "titulo": "APOSEMATISM FACILITATES THE DIVERSIFICATION OF PARENTAL CARE STRATEGIES IN POISON FROGS",
+        "issn": "2045-2322",
+        "revista": "SCIENTIFIC REPORTS",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2022",
+        "titulo": "URBANIZATION IS ASSOCIATED TO A LOSS OF PHYLOGENETIC DIVERSITY OF BIRDS IN A MEDIUM SIZE CITY ON THE ANDES OF COLOMBIA, SOUTH AMERICA",
+        "issn": "0165-0521",
+        "revista": "STUDIES ON NEOTROPICAL FAUNA AND ENVIRONMENT",
+        "categoria": "A2",
+        "puntos": 3,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2022",
+        "titulo": "CANTOS DE LAS RANAS Y LOS SAPOS DE COLOMBIA: ESTADO ACTUAL DEL CONOCIMIENTO Y PERSPECTIVAS DE INVESTIGACIӎ EN ECOACړTICA",
+        "issn": "2376-6808",
+        "revista": "NEOTROPICAL BIODIVERSITY",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2022",
+        "titulo": "PARENTAL STATUS IS RELATED TO HOMING MOTIVATION IN MALES OF THE GLASSFROG CENTROLENE SAVAGEI",
+        "issn": "0394-9370",
+        "revista": "ETHOLOGY ECOLOGY & EVOLUTION",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10465"
+      },
+      {
+        "año": "2023",
+        "titulo": "EXPERIMENTAL EVIDENCE IN A POISON FROG MODEL SUGGESTS THAT TADPOLE TRANSPORT ON THE DORSUM MAY AFFECTS WARNING SIGNAL EFFECTIVENESS IN POISON FROGS",
+        "issn": "0269-7653",
+        "revista": "EVOLUTIONARY ECOLOGY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2023",
+        "titulo": "TIC, TII AND TRII CALLS: ADVERTISEMENT CALL DESCRIPTIONS FOR EIGHT GLASS FROGS FROM COLOMBIA AND ANALYSIS OF THE STRUCTURE OF AUDITORY SIGNALS IN CENTROLENIDAE",
+        "issn": "2165-0586",
+        "revista": "BIOACOUSTICS",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2023",
+        "titulo": "SEX DIFFERENCE IN HOMING: MALES BUT NOT FEMALES RETURN HOME DESPITE OFFSPRING MORTALITY IN IKAKOGI TAYRONA, A GLASSFROG WITH PROLONGED MATERNAL CARE",
+        "issn": "1432-0762",
+        "revista": "BEHAVIORAL ECOLOGY AND SOCIOBIOLOGY",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2023",
+        "titulo": "MATE-GUARDING BEHAVIOUR IN ANURANS: INTRASEXUAL SELECTION AND THE EVOLUTION OF PROLONGED AMPLEXUS IN THE HARLEQUIN TOAD ATELOPUS LAETISSIMUS",
+        "issn": "1095-8282",
+        "revista": "ANIMAL BEHAVIOUR",
+        "categoria": "A1",
+        "puntos": 4.3,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2024",
+        "titulo": "EXTENSIONES DE DISTRIBUCIӎ DE ALOPOGLOSSUS VALLENSIS(SQUAMATA: ALOPOGLOSSIDAE) EN LOS ANDES CENTRALES DE COLOMBIA",
+        "issn": "0366-5232",
+        "revista": "CALDASIA",
+        "categoria": "B",
+        "puntos": 2.4,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2024",
+        "titulo": "A MULTIDISCIPLINARY APPROACH REVEALS A NEW SPECIES OF GLASSFROG FROM COLOMBIA (ANURA: CENTROLENIDAE: NYMPHARGUS)",
+        "issn": "1175-5334",
+        "revista": "ZOOTAXA",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2024",
+        "titulo": "LIVING WITH THE ENEMY? PREDATION ON THE FROG TACHIRAMANTIS TAYRONA BY A THERAPHOSIDAE SPIDER",
+        "issn": "2071-5773",
+        "revista": "HERPETOLOGY NOTES",
+        "categoria": "B",
+        "puntos": 12,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2024",
+        "titulo": "ADVERTISEMENT CALL OF THE COLOMBIAN HORNED FROG CERATOPHRYS CALCARATA (ANURA, CERATOPHRYIDAE)",
+        "issn": "1175-5334",
+        "revista": "ZOOTAXA",
+        "categoria": "A2",
+        "puntos": 3.6,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2024",
+        "titulo": "NOTHING LIKE HOME: MOST MALES OF ESPADARANA PROSOBLEPON (ANURA CENTROLENIDAE) EXHIBIT HOMING TO CALLING SITE DESPITE THE AVAILABILITY OF ALTERNATIVE SUITABLE SITES FOR CALLING AND MATING",
+        "issn": "1828-7131",
+        "revista": "ETHOLOGY ECOLOGY & EVOLUTION",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2024",
+        "titulo": "VARIATION IN THE ADVERTISEMENT CALL OF THE POISON FROG ANDINOBATES BOMBETES RELATES TO GEOGRAPHIC DISTANCE BETWEEN POPULATIONS, BUT NOT TO DIVERGENCE IN WARNING COLORATION",
+        "issn": "0165-0521",
+        "revista": "STUDIES ON NEOTROPICAL FAUNA AND ENVIRONMENT",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2024",
+        "titulo": "RIGHT OR LEFT-HANDED: ARE LOCOMOTION TYPE, BODY SIZE, AND MICROHABITAT RELATED TO FORELIMB LATERALITY IN ANURANS?",
+        "issn": "0269-7653",
+        "revista": "EVOLUTIONARY ECOLOGY",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "13404"
+      },
+      {
+        "año": "2025",
+        "titulo": "DEVELOPMENTS IN THE STUDY OF POISON FROG EVOLUTIONARY ECOLOGY I: SOCIAL INTERACTIONS, LIFE HISTORY AND HABITAT USE ACROSS SPACE AND ONTOGENY",
+        "issn": "1573-8477",
+        "revista": "EVOLUTIONARY ECOLOGY",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1101"
+      },
+      {
+        "año": "2025",
+        "titulo": "SEXY FINGERS: PHEROMONES IN THE GLANDS OF MALE DENDROBATID FROGS",
+        "issn": "1365-294X",
+        "revista": "MOLECULAR ECOLOGY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "REPERTORIO DE SEсLES ACړTICAS EN LA RANA DE CRISTAL HYALINOBATRACHIUM TATAYOI (ANURA: CENTROLENIDAE)",
+        "issn": "2594-2158",
+        "revista": "LATINOAMERICANA DE HERPETOLOǴ",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "1101"
+      },
+      {
+        "año": "2025",
+        "titulo": "THE ADVERTISEMENT CALL OF ESPADARANA PROSOBLEPON (ANURA: CENTROLENIDAE) FROM A POPULATION IN THE CENTRAL ANDES OF COLOMBIA",
+        "issn": "2316-9079",
+        "revista": "PHYLLOMEDUSA",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "DEVELOPMENTS IN THE STUDY OF POISON FROG EVOLUTIONARY ECOLOGY II: DECODING HIDDEN MESSAGES IN THEIR COLORATION AND UNIQUE BEHAVIOURS",
+        "issn": "1573-8477",
+        "revista": "EVOLUTIONARY ECOLOGY",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "LIVING ON THE EDGE: FROM THE EVOLUTIONARY UNIQUENESS TO THE CONSERVATION STATUS OF THE COLOMBIAN ELAPIDS AND VIPERIDS",
+        "issn": "0268-0130",
+        "revista": "HERPETOLOGICAL JOURNAL",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "1101"
+      },
+      {
+        "año": "2025",
+        "titulo": "ߍOLECULAR PHYLOGENETICS UNCOVERS TWO NEW SPECIES IN THE GENUS PHYLLOBATES (ANURA, DENDROBATIDAE): THE TERRIBLE FROG GETS TWO NEW SISTERS",
+        "issn": "1313-2989",
+        "revista": "ZOOKEYS",
+        "categoria": "A1",
+        "puntos": 3.3,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "COMPORTAMIENTO REPRODUCTIVO DE LA RANA DE CRISTAL HYALINOBATRACHIUM TATAYOI (ANURA: CENTROLENIDAE) EN UNA POBLACIӎ DE LOS ANDES COLOMBIANOS",
+        "issn": "2594-2158",
+        "revista": "LATINOAMERICANA DE HERPETOLOǴ",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "1439"
+      },
+      {
+        "año": "2025",
+        "titulo": "UNCOUPLED EVOLUTIONARY PATTERNS IN SPECTRAL AND TEMPORAL COMPONENTS OF ACOUSTIC SIGNALS IN ANURANS ASSOCIATED WITH STREAMS",
+        "issn": "1439-0310",
+        "revista": "ETHOLOGY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "1439"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Gu\ud860de anfibios y reptiles en la universidad del Quind\udbe0- Serie Universidad Jard\udba0Volumen 2",
+        "puntos": 13.4,
+        "resolucion": "76"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

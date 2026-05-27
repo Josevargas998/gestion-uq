@@ -1,0 +1,37 @@
+{
+  "cedula": "42086202",
+  "tipoDoc": "CC",
+  "nombre": "TORRES CASTAÑ ANA GLADYS",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "torres@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TORRES%20CASTA%C3%91%20ANA%20GLADYS&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 613.2,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 573.2,
+    "2021": 583.2,
+    "2022": 593.2,
+    "2023": 603.2,
+    "2024": 613.2
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

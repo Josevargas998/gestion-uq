@@ -1,0 +1,92 @@
+{
+  "cedula": "18462122",
+  "tipoDoc": "CC",
+  "nombre": "GALINDO MARTINEZ ANGELMIRO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "23-07-1993",
+  "estado": "ACTIVO",
+  "email": "galindo@uniquindio.edu.co",
+  "puntosAsignados": 640.3,
+  "ptosProductividad": 597,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 600.3,
+    "2021": 610.3,
+    "2022": 620.3,
+    "2023": 630.3,
+    "2024": 640.3
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL FRANCES LENGUA EXTRANJERA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-01-1992",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "LICENCIADO EN EDUCACION EN LA ESPECIALIDAD DE LENGUAS MODERNAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-12-1986",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN LINGUISTICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-12-2002",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "EDUCACIӎ BILING܅ (ESPANL- INGLɓ) EN TRES INSTITUCIONES EDUCATIVAS DEL QUIND͏, COLOMBIA: ESTUDIO DE CASO",
+        "issn": "2539-3804",
+        "revista": "LENGUAJE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "7404"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "La columna de opini󮠡rgumentativa persuasiva. Investigaci󮭡cci󮠥n formaci󮠩nicial de maestro",
+        "puntos": 13.8,
+        "resolucion": "8664"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Biling𩳭o, metacognici󮠹 argumentaci󮠰ersuasiva escrita en segunda lengua. Una experiencia de",
+        "puntos": 14.4,
+        "resolucion": "8664"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroInvestigacion",
+        "titulo": "La argumentaci󮠰ersuasiva electoral: Impacto de secuencia didᣴica metacognitiva en educaci󮠰ri",
+        "puntos": 16.8,
+        "resolucion": "10476"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Planning content and languaje integrated learning / Planificaci󮠤el aprendizaje integrado de conte",
+        "puntos": 14.4,
+        "resolucion": "11980"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

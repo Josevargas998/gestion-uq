@@ -1,0 +1,97 @@
+{
+  "cedula": "7558022",
+  "tipoDoc": "CC",
+  "nombre": "PULGARIN GIRALDO ROBINSON",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "36900.999814814815",
+  "estado": "ACTIVO",
+  "email": "pulgarin@uniquindio.edu.co",
+  "puntosAsignados": 545.49,
+  "ptosProductividad": 640,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 505.49,
+    "2021": 515.49,
+    "2022": 525.49,
+    "2023": 535.49,
+    "2024": 545.49
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "29-05-1996",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD ANTONIO NARIN",
+      "tituloSnies": "Especialización16-10-2008",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD MILITAR\"NUEVA GRANADA\"",
+      "tituloSnies": "Especialización29-03-2001",
+      "fecha": "20",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2021",
+        "titulo": "SISTEMA DE RECUPERACIӎ DE INFORMACIӎ APOYADO EN WEB SEMNTICA",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "8129"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Fundamentos de estructura de datos en java",
+        "puntos": 14.1,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2020",
+        "tipo": "LibroTexto",
+        "titulo": "Introducci󮠡 la Programaci󮠥n Python",
+        "puntos": 14.1,
+        "resolucion": "7420"
+      }
+    ],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "ANALIZADOR DE SENTIMIENTOS",
+        "puntos": 14.3,
+        "resolucion": "7650"
+      },
+      {
+        "año": "2021",
+        "titulo": "O-CLUSTERING",
+        "puntos": 14.3,
+        "resolucion": "8129"
+      },
+      {
+        "año": "2021",
+        "titulo": "O-SEARCH",
+        "puntos": 6.4,
+        "resolucion": "8129"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

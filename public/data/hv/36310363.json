@@ -1,0 +1,52 @@
+{
+  "cedula": "36310363",
+  "tipoDoc": "CC",
+  "nombre": "FLOREZ LAISECA ADRIANA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "florez@uniquindio.edu.co",
+  "puntosAsignados": 379.4,
+  "ptosProductividad": 124,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 339.4,
+    "2021": 349.4,
+    "2022": 359.4,
+    "2023": 369.4,
+    "2024": 379.4
+  },
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "INTENCIӎ EMPRENDEDORA EN COLOMBIA: EL CASO DE LOS ESTUDIANTES DE MAESTŔ EN ADMINISTRACIӎ",
+        "issn": "0120-8160",
+        "revista": "ESCUELA DE ADMINISTRACIӎ DE NEGOCIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7415"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroEnsayo",
+        "titulo": "Los Embera Cham\ud824el Quind\udbe0entre La Madre Tierra y la ciudad",
+        "puntos": 11.6,
+        "resolucion": "8136"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

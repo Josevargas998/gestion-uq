@@ -1,0 +1,120 @@
+{
+  "cedula": "41922558",
+  "tipoDoc": "CC",
+  "nombre": "TORRES VARGAS OLGA LUCIA",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "INGENIERIA DE ALIMENTOS",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "25-01-2010",
+  "estado": "ACTIVO",
+  "email": "torres@uniquindio.edu.co",
+  "puntosAsignados": 785.9,
+  "ptosProductividad": 165,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 745.9,
+    "2021": 755.9,
+    "2022": 765.9,
+    "2023": 775.9,
+    "2024": 785.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-04-2003",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN TECNOLOGIA DE ALIMENTOS",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-01-2008",
+      "puntos": 120
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "PHYSICOCHEMICAL CHARACTERIZATION OF QUINOA (CHENOPODIUM QUINOA) FLOUR AND ISOLATED STARCH",
+        "issn": "0308-8146",
+        "revista": "FOOD CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "7398"
+      },
+      {
+        "año": "2022",
+        "titulo": "OPTIMIZATION STUDY OF PASTA EXTRUDER WITH QUINOA FLOUR (CHENOPODIUM QUINOA WILLD)",
+        "issn": "1947-6337",
+        "revista": "CYTA - JOURNAL OF FOOD",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9835"
+      },
+      {
+        "año": "2022",
+        "titulo": "EFFECT OF INCORPORATING EXTRACTS FROM NATURAL PIGMENTS IN ALGINATE/STARCH FILMS",
+        "issn": "2214-0697",
+        "revista": "JOURNAL OF MATERIALS RESEARCH AND TECHNOLOGY JMR & T",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "9835"
+      },
+      {
+        "año": "2022",
+        "titulo": "EFFECT OF USING QUINOA FLOUR ( CHENOPODIUM QUINOA WILLD.) ON THE PHYSICOCHEMICAL CHARACTERISTICS OF AN EXTRUDED PASTA",
+        "issn": "2314-5765",
+        "revista": "INTERNATIONAL JOURNAL OF FOOD SCIENCE",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "9835"
+      },
+      {
+        "año": "2022",
+        "titulo": "PHYSICOCHEMICAL CHARACTERIZATION OF UNRIPE AND RIPE CHONTADURO (BACTRIS GASIPAES KUNTH) FRUIT FLOURS AND STARCHES",
+        "issn": "0038-9056",
+        "revista": "STARCH- STARKE",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "9835"
+      },
+      {
+        "año": "2024",
+        "titulo": "CHANGES IN THE PHYSICOCHEMICAL PROPERTIES OF ISOLATED STARCH AND PLANTAIN (MUSA AAB SIMMONDS) FLOURS FOR EARLY MATURITY STAGE",
+        "issn": "2405-8440",
+        "revista": "HELIYON",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "13405"
+      },
+      {
+        "año": "2025",
+        "titulo": "DEVELOPMENT AND CHARACTERISATION OF STARCH/ALGINATE ACTIVE FILMS INCORPORATED WITH LEMONGRASS ESSENTIAL OIL (CYMBOPOGON CITRATUS)",
+        "issn": "2633-5409",
+        "revista": "MATERIALS ADVANCES",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1374"
+      },
+      {
+        "año": "2025",
+        "titulo": "EFFECT OF INCORPORATING WHITE PEPPER (PIPER NIGRUM L.) OLEORESIN ON STARCH/ALGINATE FILMS",
+        "issn": "2046-2069",
+        "revista": "RSC ADVANCES",
+        "categoria": "A1",
+        "puntos": 15,
+        "resolucion": "1103"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

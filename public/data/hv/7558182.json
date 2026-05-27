@@ -1,0 +1,88 @@
+{
+  "cedula": "7558182",
+  "tipoDoc": "CC",
+  "nombre": "JARAMILLO LOTERO RAFAEL ALEXANDER",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ADMINISTRACION DE NEGOCIOS DISTANCIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "43891.999814814815",
+  "estado": "ACTIVO",
+  "email": "jaramillo@uniquindio.edu.co",
+  "puntosAsignados": 322.4,
+  "ptosProductividad": 384,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 282.4,
+    "2021": 292.4,
+    "2022": 302.4,
+    "2023": 312.4,
+    "2024": 322.4
+  },
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "19-09-2000",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "43080.999814814815",
+      "puntos": 0
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "LOS INGRESOS DE LAS FAMILIAS DE LOS ESTRATOS 1 Y 2 DE LA COMUNA DIEZ DEL MUNICIPIO DE ARMENIA Y SU IMPACTO EN EL CONSUMO DE LOS ALIMENTOS DE LA CANASTA BSICA FAMILIAR",
+        "issn": "1900-0642",
+        "revista": "CRITERIO LIBRE",
+        "categoria": "A1",
+        "puntos": 3,
+        "resolucion": "6991"
+      },
+      {
+        "año": "2024",
+        "titulo": "ߑUɠENSEс EL MɔODO DE LAS CIENCIAS SOCIALES DE CARL MENGER A LA CONTABILIDAD EMERGENTE?",
+        "issn": "2619-4244",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13379"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Didᣴica para la ense񡮺a de la admnistraci󮠹 las finanzas en la educaci󮠳uperior",
+        "puntos": 13.1,
+        "resolucion": "79"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Competencias de la educaci󮠳uperior y la relaci󮠣on el paradigma de la complejidad",
+        "puntos": 14.8,
+        "resolucion": "79"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Revisi󮠢ibliogrᦩca y anᬩsis estad\udcf4ico de la transformaci󮠴ecnol󧩣a en las profesiones ec",
+        "puntos": 9.9,
+        "resolucion": "1045"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "cedula": "10276247",
+  "tipoDoc": "CC",
+  "nombre": "REYES PINEDA HENRY",
+  "facultad": "FACULTAD DE CIENCIAS AGROINDUSTRIALES",
+  "programa": "ZOOTECNIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "40179.999814814815",
+  "estado": "ACTIVO",
+  "email": "reyes@uniquindio.edu.co",
+  "puntosAsignados": 954.1,
+  "ptosProductividad": 246,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 914.1,
+    "2021": 924.1,
+    "2022": 934.1,
+    "2023": 944.1,
+    "2024": 954.1
+  },
+  "titulos": [
+    {
+      "tituloNacional": "DOCTOR EN INGENIERIA QUIMICA",
+      "tituloSnies": "Doctorado",
+      "fecha": "20-12-2007",
+      "puntos": 120
+    },
+    {
+      "tituloNacional": "INGENIERO QUIMICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-10-1994",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD EL BOSQUE",
+      "tituloSnies": "Especialización17-04-1998",
+      "fecha": "20",
+      "puntos": 40179.999814814815
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD POLITECNICA DE VALENCIA",
+      "tituloSnies": "Especialización27-09-2005",
+      "fecha": "10",
+      "puntos": 40179.999814814815
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "REDUCTION OF ORGANIC POLLUTANTS PRESENT IN WASTEWATER FROM THE TANNERIES OF LA MAŔ IN THE DEPARTMENT OF QUIND͏ USING PHOTO-FENTON",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "11664"
+      },
+      {
+        "año": "2023",
+        "titulo": "ANLISIS ENVOLVENTE DE DATOS PARA OPTIMIZAR EL PROCESO DE ACREDITACIӎ DE ALTA CALIDAD DEL PROGRAMA TRABAJO SOCIAL DE LA UNIVERSIDAD DEL QUIND͏, COLOMBIA",
+        "issn": "0798-1015",
+        "revista": "ESPACIOS",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "11664"
+      },
+      {
+        "año": "2023",
+        "titulo": "AGRI-FOOD SAFETY OPTIMIZED BY BLOCKCHAIN TECHNOLOGY: REVIEW",
+        "issn": "0304-2847",
+        "revista": "REVISTA FACULTAD NACIONAL DE AGRONOḾ MEDELL͎",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "12294"
+      },
+      {
+        "año": "2023",
+        "titulo": "ELECTROCHEMICAL REDUCTION OF HEXAVALENT CHROMIUM IN THE TANNERY EFFLUENTS IN THE QUIND͏ DEPARTMENT, COLOMBIA",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12294"
+      },
+      {
+        "año": "2023",
+        "titulo": "COMPARISON OF FENTON AND PHOTO-FENTON PROCESSES FOR REMOVAL OF ORGANIC POLLUTANTS FROM TANNERIES, DEPARTMENT OF QUIND͏, COLOMBIA",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12294"
+      },
+      {
+        "año": "2023",
+        "titulo": "IMPLEMENTATION OF ENVIRONMENTAL MONITORING PROGRAMS IN FOOD PROCESSING PLANTS IN COLOMBIA",
+        "issn": "1674-2974",
+        "revista": "HUNAN DAXUE XUEBAO/JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "12294"
+      },
+      {
+        "año": "2023",
+        "titulo": "THE LIGNIN OF THE ANGUSTIFOLIA KUNTH GUADUA INCORPORATED INTO THE SUBSTRATE OF THE FUNGUS PLEUROTUS OSTREATUS",
+        "issn": "1909-8367",
+        "revista": "ENTRE CIENCIA E INGENIEŔ",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "11664"
+      },
+      {
+        "año": "2023",
+        "titulo": "APPLICATION OF TECHNOLOGICAL TOOL FOR THE DEVELOPMENT AND COMPETITIVENESS OF THE LIVESTOCK SECTOR IN QUIND͏, COLOMBIA",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "11664"
+      },
+      {
+        "año": "2023",
+        "titulo": "DEGRADATION OF DYES IN REAL TEXTILE INDUSTRY WASTEWATER SAMPLES BY FENTON PROCESS",
+        "issn": "1674-2974",
+        "revista": "JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "12294"
+      },
+      {
+        "año": "2024",
+        "titulo": "STRUCTURAL DISORDER OF CUO, ZNO, AND CUO/ZNO NANOWIRES AND THEIR EFFECT ON THERMAL CONDUCTIVITY",
+        "issn": "2073-4352",
+        "revista": "CRYSTALS",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13472"
+      },
+      {
+        "año": "2024",
+        "titulo": "REMOVAL OF HEXAVALENT CHROMIUM AND SOME ORGANIC COMPOUNDS USING TWO COMBINED PHOTO-FENTON AND ELECTROCHEMICAL TECHNIQUES",
+        "issn": "1674-2974",
+        "revista": "HUNAN DAXUE XUEBAO/JOURNAL OF HUNAN UNIVERSITY NATURAL SCIENCES",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13472"
+      },
+      {
+        "año": "2024",
+        "titulo": "COMPARATIVE STUDY OF SURFACE DISORDER IN GOLD AND SILVER NANOPARTICLES OBTAINED BY MOLECULAR DYNAMICS IN COOLING PROCESSES",
+        "issn": "1402-4896",
+        "revista": "PHYSICA SCRIPTA",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "13472"
+      },
+      {
+        "año": "2024",
+        "titulo": "STRUCTURAL ANALYSIS OF NI NANOPARTICLES IN THERMAL COOLING BY MOLECULAR DYNAMICS",
+        "issn": "0973-7669",
+        "revista": "BULLETIN OF MATERIALS SCIENCE",
+        "categoria": "B",
+        "puntos": 4,
+        "resolucion": "13472"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [
+      {
+        "año": "2023",
+        "titulo": "",
+        "puntos": 13.9,
+        "resolucion": "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES AL DOCENTE DE CARRERA HENRY REYES PINEDA, ADSCRITO A AL PROGRAMA DE ZOOTECNIA, CONFORME EL CONTENIDO DEL DECRETO 1279 DEL AN 2002"
+      }
+    ]
+  }
+}

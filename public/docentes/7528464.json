@@ -1,0 +1,59 @@
+{
+  "cedula": "7528464",
+  "tipoDoc": "CC",
+  "nombre": "DONNEYS BELTRAN OMAR ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "donneys@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1995-02-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=DONNEYS%20BELTRAN%20OMAR%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 608.6,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 568.6,
+    "2021": 578.6,
+    "2022": 588.6,
+    "2023": 598.6,
+    "2024": 608.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS FINANCIERAS Y DE SISTEMAS",
+      "tituloSnies": "Maestria",
+      "fecha": "33858.999814814815",
+      "puntos": 40,
+      "resolucion": "26-09-1995"
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "30358.999814814815",
+      "puntos": 178,
+      "resolucion": "26-09-1995"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "30-07-2004",
+      "puntos": 20,
+      "resolucion": "16-12-2004"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

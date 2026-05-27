@@ -1,0 +1,82 @@
+{
+  "cedula": "93357542",
+  "tipoDoc": "CC",
+  "nombre": "LOZANO BOTACHE JORGE PRUDENCIO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "41699.999814814815",
+  "estado": "ACTIVO",
+  "email": "lozano@uniquindio.edu.co",
+  "puntosAsignados": 508,
+  "ptosProductividad": 308,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 468,
+    "2021": 478,
+    "2022": 488,
+    "2023": 498,
+    "2024": 508
+  },
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL TOLIMA",
+      "tituloSnies": "Especialización30-03-2001",
+      "fecha": "20",
+      "puntos": 41699.999814814815
+    },
+    {
+      "tituloNacional": "COMUNICADOR SOCIAL CON ENFASIS EN COMUNICACION COMUNITARIA",
+      "tituloSnies": "Universitaria",
+      "fecha": "37966.999814814815",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "31-05-2013",
+      "puntos": 120
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Lo intercultural como problema social /educativo en Am鲩ca Latina",
+        "puntos": 12,
+        "resolucion": "9841"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroEnsayo",
+        "titulo": "Debates contemporᮥos: Resistencia al patriarcado, Paz y Econom\ud873 para la vida",
+        "puntos": 2.1,
+        "resolucion": "9841"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Virtualidad y narraciones de ciudad",
+        "puntos": 13.4,
+        "resolucion": "10467"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "La comedia en el cine colombiano",
+        "puntos": 14.1,
+        "resolucion": "1375"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

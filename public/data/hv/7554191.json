@@ -1,0 +1,134 @@
+{
+  "cedula": "7554191",
+  "tipoDoc": "CC",
+  "nombre": "CASTAN OSORIO JHON CARLOS",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "34704.999814814815",
+  "estado": "ACTIVO",
+  "email": "castan@uniquindio.edu.co",
+  "puntosAsignados": 992.9,
+  "ptosProductividad": 340,
+  "topeMaximo": 96,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 952.9,
+    "2021": 962.9,
+    "2022": 972.9,
+    "2023": 982.9,
+    "2024": 992.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "26-07-1993",
+      "puntos": 183
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BSICAS MɄICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "30-10-2001",
+      "puntos": 120
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "ENVIRONMENTAL SURVEILLANCE OF POLIOVIRUSES IN ARMENIA, COLOMBIA BEFORE TRIVALENT ORAL POLIO VACCINE CESSATION",
+        "issn": "1999-4915",
+        "revista": "VIRUSES",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2020",
+        "titulo": "DEVELOPMENT OF A DENGUE VACCINE AND ITS USE IN PREGNANT WOMEN",
+        "issn": "2196-3045",
+        "revista": "CURRENT TROPICAL MEDICINE REPORTS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2020",
+        "titulo": "EFFECTS OF FLAVIVIRUS CROSSREACTIVITY (ZIKA AND DENGUE) ON THE DEVELOPMENT OF VACCINES FOR USE IN PREGNANCY",
+        "issn": "2196-3045",
+        "revista": "CURRENT TROPICAL MEDICINE REPORTS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2020",
+        "titulo": "ANTIPARASTIC PHYTOTHERAPY PERSPECTIVES, SCOPE AND CURRENT DEVELOPMENT",
+        "issn": "2422-3794",
+        "revista": "INFECTIO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2021",
+        "titulo": "OBESIDAD E INFLAMACIӎ EN ESTUDIANTES DE UNA UNIVERSIDAD PڂLICA COLOMBIANA",
+        "issn": "2539-3596",
+        "revista": "REVISTA DE SALUD PڂLICA",
+        "categoria": "C",
+        "puntos": 15,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2022",
+        "titulo": "NEW INSECT HOST DEFENSE PEPTIDES (HDP) FROM DUNG BEETLE (COLEOPTERA: SCARABAEIDAE) TRANSCRIPTOMES",
+        "issn": "1536-2442",
+        "revista": "JOURNAL OF INSECT SCIENCE",
+        "categoria": "A2",
+        "puntos": 3.4,
+        "resolucion": "9828"
+      },
+      {
+        "año": "2022",
+        "titulo": "NOVEL ANTIMICROBIAL CECROPINS DERIVED FROM O. CURVICORNIS AND D. SATANAS DUNG BEETLES",
+        "issn": "0196-9781",
+        "revista": "PEPTIDES",
+        "categoria": "A2",
+        "puntos": 2.4,
+        "resolucion": "9828"
+      },
+      {
+        "año": "2022",
+        "titulo": "DESIGN OF INHIBITORY PEPTIDES OF THE INTERACTION BETWEEN THE RBD DOMAIN OF THE S1 PROTEIN OF SARS-COV-2 AND THE ANGIOTENSIN -CONVERTING ENZYME 2( ACE2)RECEPTOR",
+        "issn": "1875-628X",
+        "revista": "LETTERS IN DRUG DESIGN & DISCOVERY",
+        "categoria": "A2",
+        "puntos": 11.7,
+        "resolucion": "9828"
+      }
+    ],
+    "libros": [],
+    "premios": [
+      {
+        "año": "2021",
+        "titulo": "SEGUNDO LUGAR CONCURSO TRABAJOS COMPLETOS XII ENCUENTRO NACIONAL EN ENFERMEDADES INFECCIOSAS Y II",
+        "puntos": 15,
+        "resolucion": "8121"
+      }
+    ],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "TEMPORADA DE GRIPE",
+        "puntos": 6.5,
+        "resolucion": "7408"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

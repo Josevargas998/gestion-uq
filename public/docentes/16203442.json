@@ -1,0 +1,59 @@
+{
+  "cedula": "16203442",
+  "tipoDoc": "CC",
+  "nombre": "HERNANDEZ GARCIA FERNANDO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "hernandez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1982-01-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=HERNANDEZ%20GARCIA%20FERNANDO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 613.9,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 573.9,
+    "2021": 583.9,
+    "2022": 593.9,
+    "2023": 603.9,
+    "2024": 613.9
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN ESPAÑL Y COMUNICACIӎ AUDIOVISUAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-03-1978",
+      "puntos": 178,
+      "resolucion": "29-08-1994"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>17-04-1997",
+      "fecha": "20",
+      "puntos": 35745.999814814815,
+      "resolucion": "ESPECIALISTA EN PEDAGOGIA DE LA LECTOESCRITURA LENGUA MATERNA Y MATEMATICAS"
+    },
+    {
+      "tituloNacional": "MAGISTER EN ENSEсNZA Y APRENDIZAJES ABIERTOS A DISTANCIA Y VIRTUALES",
+      "tituloSnies": "Maestria",
+      "fecha": "22-09-2003",
+      "puntos": 40,
+      "resolucion": "38570.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

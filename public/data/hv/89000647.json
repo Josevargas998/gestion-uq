@@ -1,0 +1,79 @@
+{
+  "cedula": "89000647",
+  "tipoDoc": "CC",
+  "nombre": "CASTRO DIAZ ALEXANDER",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "castro@uniquindio.edu.co",
+  "puntosAsignados": 328.2,
+  "ptosProductividad": 389,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 288.2,
+    "2021": 298.2,
+    "2022": 308.2,
+    "2023": 318.2,
+    "2024": 328.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "26-08-2015",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "17-12-2003",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2024",
+        "titulo": "ߑUɠENSEс EL MɔODO DE LAS CIENCIAS SOCIALES DE CARL MENGER A LA CONTABILIDAD EMERGENTE?",
+        "issn": "2619-4244",
+        "revista": "DICTAMEN LIBRE",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "13406"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Ensayos uniquindianos sobre econom\ud860y sociedad. Efectos del narcotrᦩco en la econom\ud860y en la soc",
+        "puntos": 13.5,
+        "resolucion": "71"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Impulsando la innovaci󮠯rganizacional a trav鳠de la gesti󮠤el conocimiento",
+        "puntos": 13.4,
+        "resolucion": "1107"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Aplicaciones financieras y estructura del sistema financiero colombiano. Observaciones para Colombia",
+        "puntos": 11.7,
+        "resolucion": "71"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

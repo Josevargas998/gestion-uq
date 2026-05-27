@@ -1,0 +1,101 @@
+{
+  "cedula": "89006235",
+  "tipoDoc": "CC",
+  "nombre": "GOMEZ MARIN GERMAN DARIO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45263.999814814815",
+  "estado": "ACTIVO",
+  "email": "gomez@uniquindio.edu.co",
+  "puntosAsignados": 380.9,
+  "ptosProductividad": 94,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 340.9,
+    "2021": 350.9,
+    "2022": 360.9,
+    "2023": 370.9,
+    "2024": 380.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA VEGETAL",
+      "tituloSnies": "Maestria",
+      "fecha": "30-11-2007",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-08-2000",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "PROCESO DE FRAGMENTACIӎ DE LAS COBERTURAS VEGETALES EN LA RESERVA NATURAL LA MONTAс DEL OCASO Y LAS ZONAS ALEDAсS, ENTRE LOS AN 1954 A 2009",
+        "issn": "0120-4173",
+        "revista": "REVISTA DE LA ASOCIACIӎ COLOMBIANA DE CIENCIAS BIOLӇICAS",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10796"
+      },
+      {
+        "año": "2023",
+        "titulo": "ARVENSES ASOCIADAS A SISTEMAS DE PASTURAS EN LA ZONA BAJA DEL DEPARTAMENTO DEL QUIND͏",
+        "issn": "1794-631X",
+        "revista": "REVISTA DE INVESTIGACIONES UNIVERSIDAD DEL QUIND͏",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "10796"
+      },
+      {
+        "año": "2023",
+        "titulo": "ASCOMICETOS DE LOS GUADUALES EN LA RESERVA NATURAL LA MONTAс DEL OCASO, DEPARTAMENTO DEL QUIND͏, COLOMBIA",
+        "issn": "0370-3908",
+        "revista": "REVISTA DE LA ACADEMIA COLOMBIANA DE CIENCIAS EXACTAS, F͓ICAS Y NATURALES",
+        "categoria": "A2",
+        "puntos": 6,
+        "resolucion": "10796"
+      },
+      {
+        "año": "2023",
+        "titulo": "ASPECTOS FENOLӇICOS DE GUADUA ANGUSTIFOLIA",
+        "issn": "1794-631X",
+        "revista": "REVISTA DE INVESTIGACIONES UNIVERSIDAD DEL QUINDIO",
+        "categoria": "A1",
+        "puntos": 3,
+        "resolucion": "10796"
+      },
+      {
+        "año": "2025",
+        "titulo": "COMPOSICIӎ Y DIVERSIDAD DE LA FLORA VASCULAR EN TRES COBERTURAS VEGETALES DE LA RESERVA MIRADOR-RECREO, ZONA OCCIDENTAL DE LA CORDILLERA CENTRAL, ANDES DE COLOMBIA",
+        "issn": "2462-8190",
+        "revista": "BOLET͎ CIENT͆ICO CENTRO DE MUSEOS MUSEO DE HISTORIA NATURAL",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "1439"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "La Flora de las Monta񡳠del Quind\udbe0- PᲡmos",
+        "puntos": 6.7,
+        "resolucion": "1101"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "cedula": "34536538",
+  "tipoDoc": "CC",
+  "nombre": "LӐEZ CARDOZO LILIA INɓ",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "GERONTOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "42954.999814814815",
+  "estado": "ACTIVO",
+  "email": "lӑez@uniquindio.edu.co",
+  "puntosAsignados": 449.8,
+  "ptosProductividad": 722,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 409.8,
+    "2021": 419.8,
+    "2022": 429.8,
+    "2023": 439.8,
+    "2024": 449.8
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS DE LA EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "28-02-1997",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Personas adultas mayores frente a la inclusi󮠤igital en Am鲩ca Latina",
+        "puntos": 14,
+        "resolucion": "8672"
+      },
+      {
+        "año": "2021",
+        "tipo": "LibroTexto",
+        "titulo": "Las TIC y los adultos mayores: un asunto de inclusi󮠳ocial",
+        "puntos": 15,
+        "resolucion": "8672"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Lo intercultural como problema social /educativo en Am鲩ca Latina",
+        "puntos": 11,
+        "resolucion": "9836"
+      },
+      {
+        "año": "2022",
+        "tipo": "LibroTexto",
+        "titulo": "Salud y Vejez: Una reflexi󮠥xistencial",
+        "puntos": 13.9,
+        "resolucion": "10469"
+      },
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "El cuerpo oculto de los maniquis",
+        "puntos": 13.5,
+        "resolucion": "10955"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Persona mayor. Apoyo social percibido y calidad de vida",
+        "puntos": 13.8,
+        "resolucion": "1104"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "El retrato del envejecimiento",
+        "puntos": 13.8,
+        "resolucion": "78"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroEnsayo",
+        "titulo": "Percepciones sociales y culturales de la vejeces en personas mayores",
+        "puntos": 13.2,
+        "resolucion": "78"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

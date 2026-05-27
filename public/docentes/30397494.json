@@ -1,0 +1,37 @@
+{
+  "cedula": "30397494",
+  "tipoDoc": "CC",
+  "nombre": "VALENZUELA BOTERO CAROLINA",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA CIVIL",
+  "email": "valenzuela@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VALENZUELA%20BOTERO%20CAROLINA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 340.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 300.1,
+    "2021": 310.1,
+    "2022": 320.1,
+    "2023": 330.1,
+    "2024": 340.1
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

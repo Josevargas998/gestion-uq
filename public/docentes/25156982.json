@@ -1,0 +1,59 @@
+{
+  "cedula": "25156982",
+  "tipoDoc": "CC",
+  "nombre": "GIRALDO MAR͎ LUCERO",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "COMUNICACION SOCIAL PERIODISMO",
+  "email": "giraldo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2008-04-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=GIRALDO%20MAR%CD%8E%20LUCERO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 434.6,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 394.6,
+    "2021": 404.6,
+    "2022": 414.6,
+    "2023": 424.6,
+    "2024": 434.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN CIENCIAS SOCIALES",
+      "tituloSnies": "Universitaria",
+      "fecha": "28-11-1986",
+      "puntos": 178,
+      "resolucion": "25-07-2008"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>27-04-1995",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN EDUCACION AMBIENTAL"
+    },
+    {
+      "tituloNacional": "MAGISTER EN COMUNICACIӎ EDUCATIVA",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2007",
+      "puntos": 40,
+      "resolucion": "25-07-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

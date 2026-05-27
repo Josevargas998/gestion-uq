@@ -1,0 +1,144 @@
+{
+  "cedula": "18394854",
+  "tipoDoc": "CC",
+  "nombre": "PADILLA SANABRIA LEONARDO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "21-08-2014",
+  "estado": "ACTIVO",
+  "email": "padilla@uniquindio.edu.co",
+  "puntosAsignados": 549.7,
+  "ptosProductividad": 190,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 509.70000000000005,
+    "2021": 519.7,
+    "2022": 529.7,
+    "2023": 539.7,
+    "2024": 549.7
+  },
+  "titulos": [
+    {
+      "tituloNacional": "BACTERIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-08-1995",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "28-02-2014",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-06-2005",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especialización15-08-1999",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Maestria",
+      "fecha": "17-06-2005",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS BIOMEDICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "28-02-2014",
+      "puntos": 80
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "ENVIRONMENTAL SURVEILLANCE OF POLIOVIRUSES IN ARMENIA, COLOMBIA BEFORE TRIVALENT ORAL POLIO VACCINE CESSATION",
+        "issn": "1999-4915",
+        "revista": "VIRUSES",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "7408"
+      },
+      {
+        "año": "2021",
+        "titulo": "IN SILICO SELECTION AND IN VITRO EVALUATION OF NEW MOLECULES THAT INHIBIT THE ADHESION OF STREPTOCOCCUS MUTANTS THROUGH ANTIGEN I/II",
+        "issn": "1422-0067",
+        "revista": "INTERNATIONAL JOURNAL OF MOLECULAR SCIENCES",
+        "categoria": "A1",
+        "puntos": 3.8,
+        "resolucion": "8121"
+      },
+      {
+        "año": "2022",
+        "titulo": "VIGILANCIA AMBIENTAL DE LA CIRCULACIӎ DE POLIOVIRUS EN TRES MUNICIPIOS CONSIDERADOS COMO PUNTO TRANSITORIO DE MIGRANTES EN COLOMBIA 2017-2019",
+        "issn": "0123-9392",
+        "revista": "INFECTIO",
+        "categoria": "B",
+        "puntos": 1.6,
+        "resolucion": "10471"
+      },
+      {
+        "año": "2022",
+        "titulo": "HEPATITIS E VIRUS: A REVIEW OF THE CURRENT STATUS AND PERSPECTIVES",
+        "issn": "0123-9392",
+        "revista": "INFECTIO",
+        "categoria": "B",
+        "puntos": 8,
+        "resolucion": "10471"
+      },
+      {
+        "año": "2023",
+        "titulo": "IN VITRO INHIBITION OF REPLICATION OF DENGUE VIRUS SEROTYPES 1-4 BY SIRNAS BOUND TO NON-TOXIC LIPOSOMES",
+        "issn": "1999-4915",
+        "revista": "VIRUSES",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "12110"
+      },
+      {
+        "año": "2023",
+        "titulo": "VIRTUAL SCREENING OF DRUG-LIKE COMPOUNDS AS POTENTIAL INHIBITORS OF THE DENGUE VIRUS NS5 PROTEIN",
+        "issn": "2296-2646",
+        "revista": "FRONTIERS IN CHEMISTRY",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12110"
+      },
+      {
+        "año": "2024",
+        "titulo": "ANTIVIRAL ACTIVITY OF AN INDOLE-TYPE COMPOUND DERIVED FROM NATURAL PRODUCTS, IDENTIFIED BY VIRTUAL SCREENING BY INTERACTION ON DENGUE VIRUS NS5 PROTEIN",
+        "issn": "1999-4915",
+        "revista": "VIRUSES",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "13475"
+      },
+      {
+        "año": "2025",
+        "titulo": "ASSESSMENT OF ANTIMICROBIAL AND CYTOTOXIC ACTIVITIES OF LIPOSOMES LOADED WITH CURCUMIN AND LIPPIA ORIGANOIDES ESSENTIAL OIL",
+        "issn": "2218-273X",
+        "revista": "BIOMOLECULES",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "1376"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

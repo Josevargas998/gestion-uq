@@ -1,0 +1,52 @@
+{
+  "cedula": "52353956",
+  "tipoDoc": "CC",
+  "nombre": "TRUJILLO OSORIO CATALINA",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "ECONOMIA DIURNA",
+  "email": "trujillo@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "21-08-2014",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TRUJILLO%20OSORIO%20CATALINA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 377.3,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 337.3,
+    "2021": 347.3,
+    "2022": 357.3,
+    "2023": 367.3,
+    "2024": 377.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ESTUDIOS AMAZONICOS",
+      "tituloSnies": "Maestria",
+      "fecha": "26-07-2008",
+      "puntos": 40,
+      "resolucion": "20-08-2014"
+    },
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-09-2005",
+      "puntos": 178,
+      "resolucion": "20-08-2014"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

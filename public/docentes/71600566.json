@@ -1,0 +1,52 @@
+{
+  "cedula": "71600566",
+  "tipoDoc": "CC",
+  "nombre": "COLONIA GUTIERREZ OSCAR ALBERTO",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "MEDICINA",
+  "email": "colonia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "MEDIO TIEMPO",
+  "fechaIngreso": "1995-02-09",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=COLONIA%20GUTIERREZ%20OSCAR%20ALBERTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 420.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 380.1,
+    "2021": 390.1,
+    "2022": 400.1,
+    "2023": 410.1,
+    "2024": 420.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MEDICO CIRUJANO",
+      "tituloSnies": "Universitaria",
+      "fecha": "13-11-1985",
+      "puntos": 183,
+      "resolucion": "26-09-1995"
+    },
+    {
+      "tituloNacional": "MAGISTER EN EPIDEMIOLOǴ",
+      "tituloSnies": "Maestria",
+      "fecha": "16-09-1994",
+      "puntos": 40,
+      "resolucion": "26-09-1995"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cedula": "7527404",
+  "tipoDoc": "CC",
+  "nombre": "MUNOZ LOAIZA ANIBAL",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN MATEMATICAS",
+  "email": "munoz@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "1998-11-08",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MUNOZ%20LOAIZA%20ANIBAL&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 990.3,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 950.3,
+    "2021": 960.3,
+    "2022": 970.3,
+    "2023": 980.3,
+    "2024": 990.3
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>16-09-1994",
+      "fecha": "20",
+      "puntos": 36107.999814814815,
+      "resolucion": "ESPECIALISTA EN BIOMATEMATICAS"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS MATEMTICAS",
+      "tituloSnies": "Doctorado",
+      "fecha": "18-05-2010",
+      "puntos": 120,
+      "resolucion": "13-09-2011"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>19-08-1994",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN BIOMATEMATICAS"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN MATEMATICAS",
+      "tituloSnies": "Universitaria",
+      "fecha": "30-03-1984",
+      "puntos": 178,
+      "resolucion": "36107.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

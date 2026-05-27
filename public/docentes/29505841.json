@@ -1,0 +1,52 @@
+{
+  "cedula": "29505841",
+  "tipoDoc": "CC",
+  "nombre": "RODRIGUEZ IDROBO NASLY CRISTINA",
+  "facultad": "FACULTAD DE CIENCIAS DE LA SALUD",
+  "programa": "SEGURIDAD Y SALUD EN EL TRABAJO",
+  "email": "rodriguez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR AUXILIAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RODRIGUEZ%20IDROBO%20NASLY%20CRISTINA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 290.6,
+  "topeMaximo": 52,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 250.60000000000002,
+    "2021": 260.6,
+    "2022": 270.6,
+    "2023": 280.6,
+    "2024": 290.6
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-07-2010",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN SALUD OCUPACIONAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-07-2010",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

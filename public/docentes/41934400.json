@@ -1,0 +1,59 @@
+{
+  "cedula": "41934400",
+  "tipoDoc": "CC",
+  "nombre": "MARTINEZ GONZALEZ LINA MARIA",
+  "facultad": "FACULTAD DE CIENCIAS HUMANAS Y BELLAS ARTES",
+  "programa": "TRABAJO SOCIAL",
+  "email": "martinez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2012-08-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=MARTINEZ%20GONZALEZ%20LINA%20MARIA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 428.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 388.1,
+    "2021": 398.1,
+    "2022": 408.1,
+    "2023": 418.1,
+    "2024": 428.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN ESTUDIOS DE FAMILIA Y DESARROLLO",
+      "tituloSnies": "Maestria",
+      "fecha": "26-07-2011",
+      "puntos": 40,
+      "resolucion": "41061.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE CALDAS",
+      "tituloSnies": "Especializaci󮼯td>18-06-2010",
+      "fecha": "20",
+      "puntos": 41061.999814814815,
+      "resolucion": "ESPECIALISTA EN INTERVENCION EN RELACIONES FAMILIARES"
+    },
+    {
+      "tituloNacional": "TRABAJADOR SOCIAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-06-2003",
+      "puntos": 178,
+      "resolucion": "41061.999814814815"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

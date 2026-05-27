@@ -1,0 +1,59 @@
+{
+  "cedula": "98380743",
+  "tipoDoc": "CC",
+  "nombre": "TARAPUEZ CHAMORRO EDWIN",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "email": "tarapuez@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2006-03-02",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=TARAPUEZ%20CHAMORRO%20EDWIN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 976.1,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 936.1,
+    "2021": 946.1,
+    "2022": 956.1,
+    "2023": 966.1,
+    "2024": 976.1
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "ECONOMISTA",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-06-1996",
+      "puntos": 178,
+      "resolucion": "23-02-2006"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
+      "tituloSnies": "Especializaci󮼯td>30-09-1999",
+      "fecha": "10",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN DOCENCIA UNIVERSITARIA"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DE NARIÑ",
+      "tituloSnies": "Especializaci󮼯td>08-03-2000",
+      "fecha": "20",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN GESTIӎ Y PLANIFICACIӎ DEL DESARROLLO URBANO Y REGIONAL"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

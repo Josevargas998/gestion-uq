@@ -1,0 +1,66 @@
+{
+  "cedula": "66920157",
+  "tipoDoc": "CC",
+  "nombre": "GARCIA CARDENAS DELLY ROCIO",
+  "facultad": "FACULTAD DE CIENCIAS BASICAS Y TECNOLOGIAS",
+  "programa": "BIOLOGIA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "fechaIngreso": "39545.999814814815",
+  "estado": "ACTIVO",
+  "email": "garcia@uniquindio.edu.co",
+  "puntosAsignados": 454.6,
+  "ptosProductividad": 80,
+  "topeMaximo": 74,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 414.6,
+    "2021": 424.6,
+    "2022": 434.6,
+    "2023": 444.6,
+    "2024": 454.6
+  },
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN BIOLOGIA",
+      "tituloSnies": "Maestria",
+      "fecha": "21-10-2005",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "BIOLOGO",
+      "tituloSnies": "Universitaria",
+      "fecha": "36110.999814814815",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2023",
+        "titulo": "FUNCTIONAL SIGNIFICANCE OF THE LEAF-CUTTING ANT ATTA CEPHALOTES (FORMICIDAE) IN COFFEE PLANTATIONS: AN ENEMY OR AN ALLY?",
+        "issn": "0031-4056",
+        "revista": "PEDOBIOLOGIA",
+        "categoria": "A1",
+        "puntos": 7.5,
+        "resolucion": "12039"
+      },
+      {
+        "año": "2025",
+        "titulo": "THE ANTS OF THE GENUS RHOPALOTHRIX MAYR, 1870 (HYMENOPTERA, FORMICIDAE, MYRMICINAE) IN COLOMBIA",
+        "issn": "1313-2989",
+        "revista": "ZOOKEYS",
+        "categoria": "A1",
+        "puntos": 5,
+        "resolucion": "1101"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "cedula": "7542144",
+  "tipoDoc": "CC",
+  "nombre": "BOTERO VILLA JUAN JOSɼ/td>28-06-1965",
+  "facultad": 38232.999814814815,
+  "programa": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "email": "botero@uniquindio.edu.co",
+  "categoriaActual": 16,
+  "dedicacion": "MAESTRIA",
+  "fechaIngreso": "TIEMPO COMPLETO",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BOTERO%20VILLA%20JUAN%20JOS%C9%BC%2Ftd%3E28-06-1965&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 0,
+  "topeMaximo": "Sin límite (Régimen Antiguo)",
+  "puntosDisponibles": "∞",
+  "historial": {
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

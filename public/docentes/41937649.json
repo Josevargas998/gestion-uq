@@ -1,0 +1,37 @@
+{
+  "cedula": "41937649",
+  "tipoDoc": "CC",
+  "nombre": "RICO BUITRAGO LARISSA TATIANA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "rico@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2017-08-07",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=RICO%20BUITRAGO%20LARISSA%20TATIANA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 333.1,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 293.1,
+    "2021": 303.1,
+    "2022": 313.1,
+    "2023": 323.1,
+    "2024": 333.1
+  },
+  "escalafon": [],
+  "titulos": [],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

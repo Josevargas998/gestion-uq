@@ -1,0 +1,97 @@
+{
+  "cedula": "9728326",
+  "tipoDoc": "CC",
+  "nombre": "VELEZ RAMIREZ RUBEN ANTONIO",
+  "facultad": "FACULTAD DE CIENCIAS ECONOMICAS Y ADMINISTRATIVAS",
+  "programa": "CONTADURIA PUBLICA",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "fechaIngreso": "45078.999814814815",
+  "estado": "ACTIVO",
+  "email": "velez@uniquindio.edu.co",
+  "puntosAsignados": 388.9,
+  "ptosProductividad": 414,
+  "topeMaximo": 58,
+  "puntosDisponibles": "0",
+  "historial": {
+    "2020": 348.9,
+    "2021": 358.9,
+    "2022": 368.9,
+    "2023": 378.9,
+    "2024": 388.9
+  },
+  "titulos": [
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-2005",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "ESCUELA DE ADMINISTRACION DE NEGOCIOS",
+      "tituloSnies": "Especialización02-11-2007",
+      "fecha": "20",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "21-03-2018",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN ADMINISTRACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "21-03-2018",
+      "puntos": 40
+    },
+    {
+      "tituloNacional": "CONTADOR PUBLICO",
+      "tituloSnies": "Universitaria",
+      "fecha": "15-09-2005",
+      "puntos": 178
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2025",
+        "titulo": "EL REPORTE INTEGRADO COMO INSTRUMENTO COMUNICADOR DE LA RSE EN AMɒICA LATINA",
+        "issn": "0120-4203",
+        "revista": "CONTADUŔ UNIVERSIDAD DE ANTIOQUIA",
+        "categoria": "C",
+        "puntos": 3,
+        "resolucion": "1065"
+      }
+    ],
+    "libros": [
+      {
+        "año": "2023",
+        "tipo": "LibroTexto",
+        "titulo": "Tributaci󮠳obre la renta y el patrimonio para personas naturales en Colombia",
+        "puntos": 12.9,
+        "resolucion": "10674"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "Generalidades del impuesto de renta de personas naturales en Colombia",
+        "puntos": 14.5,
+        "resolucion": "1065"
+      },
+      {
+        "año": "2025",
+        "tipo": "LibroTexto",
+        "titulo": "R駩men Tributario Especial en Colombia",
+        "puntos": 13.7,
+        "resolucion": "1065"
+      }
+    ],
+    "premios": [],
+    "software": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}

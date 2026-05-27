@@ -1,0 +1,73 @@
+{
+  "cedula": "41943583",
+  "tipoDoc": "CC",
+  "nombre": "VALENCIA LEGUIZAMӎ LINA MARIANA",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN ESPANOL Y LITERATURA",
+  "email": "valencia@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASISTENTE",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2023-06-01",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=VALENCIA%20LEGUIZAM%D3%8E%20LINA%20MARIANA&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 482.8,
+  "topeMaximo": 58,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 442.8,
+    "2021": 452.8,
+    "2022": 462.8,
+    "2023": 472.8,
+    "2024": 482.8
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN EDUCACIӎ",
+      "tituloSnies": "Maestria",
+      "fecha": "14-12-2012",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL QUINDIO",
+      "tituloSnies": "Especializaci󮼯td>19-04-2010",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "ESPECIALISTA EN ENSEсNZA DE LA LITERATURA"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD EL QUINDIO",
+      "tituloSnies": "Tecnolog\ud87c/td>22-10-1999",
+      "fecha": "Sin fecha",
+      "puntos": 0,
+      "resolucion": "TECNOLOGIA EN TOPOGRAFIA"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ESPAÑL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-10-2008",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN ESPAÑL Y LITERATURA",
+      "tituloSnies": "Universitaria",
+      "fecha": "31-10-2008",
+      "puntos": 178,
+      "resolucion": "20-01-2023"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

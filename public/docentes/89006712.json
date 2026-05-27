@@ -1,0 +1,66 @@
+{
+  "cedula": "89006712",
+  "tipoDoc": "CC",
+  "nombre": "BUSTAMANTE TORO CESAR AUGUSTO",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN BIOLOGIA Y EDUCACION AMBIENTAL",
+  "email": "bustamante@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR ASOCIADO",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "2013-11-05",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=BUSTAMANTE%20TORO%20CESAR%20AUGUSTO&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 593,
+  "topeMaximo": 74,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 553,
+    "2021": 563,
+    "2022": 573,
+    "2023": 583,
+    "2024": 593
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-1999",
+      "puntos": 178,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA AMBIENTAL",
+      "tituloSnies": "Maestria",
+      "fecha": "27-05-2005",
+      "puntos": 40,
+      "resolucion": "41460.999814814815"
+    },
+    {
+      "tituloNacional": "UNIVERSIDAD DEL VALLE",
+      "tituloSnies": "Especializaci󮼯td>23-05-2003",
+      "fecha": "20",
+      "puntos": 41460.999814814815,
+      "resolucion": "ESPECIALISTA EN INGENIERIA SANITARIA Y AMBIENTAL"
+    },
+    {
+      "tituloNacional": "LICENCIADO EN BIOLOGIA Y EDUCACION AMBIENTAL",
+      "tituloSnies": "Universitaria",
+      "fecha": "27-08-1999",
+      "puntos": 0,
+      "resolucion": "S/R"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

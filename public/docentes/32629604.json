@@ -1,0 +1,59 @@
+{
+  "cedula": "32629604",
+  "tipoDoc": "CC",
+  "nombre": "LOAIZA VILLALBA NEIRA DEL CARMEN",
+  "facultad": "FACULTAD DE EDUCACION",
+  "programa": "LICENCIATURA EN LENGUAS MODERNAS",
+  "email": "loaiza@uniquindio.edu.co",
+  "categoriaActual": "PROFESOR TITULAR",
+  "dedicacion": "TIEMPO COMPLETO",
+  "fechaIngreso": "22-01-2008",
+  "fechaNacimiento": "No disponible",
+  "estado": "ACTIVO",
+  "foto": "https://ui-avatars.com/api/?name=LOAIZA%20VILLALBA%20NEIRA%20DEL%20CARMEN&background=006B3F&color=fff&size=150",
+  "puntosAsignados": 602.7,
+  "topeMaximo": 96,
+  "puntosDisponibles": 0,
+  "historial": {
+    "2020": 562.7,
+    "2021": 572.7,
+    "2022": 582.7,
+    "2023": 592.7,
+    "2024": 602.7
+  },
+  "escalafon": [],
+  "titulos": [
+    {
+      "tituloNacional": "MAGISTER EN DIDACTICA DEL FRANCES LENGUA EXTRANJERA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-04-1993",
+      "puntos": 40,
+      "resolucion": "18-01-2008"
+    },
+    {
+      "tituloNacional": "DOCTOR EN CIENCIAS DE LA EDUCACION",
+      "tituloSnies": "Doctorado",
+      "fecha": "42715.999814814815",
+      "puntos": 0,
+      "resolucion": "S/R"
+    },
+    {
+      "tituloNacional": "PROFESIONAL EN FILOLOǴ E IDIOMAS INGLES ESPAÑL",
+      "tituloSnies": "Universitaria",
+      "fecha": "25-11-1983",
+      "puntos": 178,
+      "resolucion": "18-01-2008"
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [],
+    "libros": [],
+    "videos": [],
+    "premios": [],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": [],
+    "software": []
+  }
+}

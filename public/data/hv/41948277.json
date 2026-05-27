@@ -1,0 +1,136 @@
+{
+  "cedula": "41948277",
+  "tipoDoc": "CC",
+  "nombre": "VILLEGAS RAMIREZ MARIA LILI",
+  "facultad": "FACULTAD DE INGENIERIA",
+  "programa": "INGENIERIA DE SISTEMAS Y COMPUTACION",
+  "dedicacion": "TIEMPO COMPLETO",
+  "categoriaActual": "PROFESOR TITULAR",
+  "fechaIngreso": "18-07-2005",
+  "estado": "ACTIVO",
+  "email": "villegas@uniquindio.edu.co",
+  "puntosAsignados": 727.2,
+  "ptosProductividad": 1180,
+  "topeMaximo": "Sin limite (Regimen Antiguo)",
+  "puntosDisponibles": "Ilimitado",
+  "historial": {
+    "2020": 687.2,
+    "2021": 697.2,
+    "2022": 707.2,
+    "2023": 717.2,
+    "2024": 727.2
+  },
+  "titulos": [
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 178
+    },
+    {
+      "tituloNacional": "INGENIERO DE SISTEMAS Y COMPUTACIӎ",
+      "tituloSnies": "Universitaria",
+      "fecha": "16-12-2002",
+      "puntos": 0
+    },
+    {
+      "tituloNacional": "MAGISTER EN INGENIERIA",
+      "tituloSnies": "Maestria",
+      "fecha": "27-07-2012",
+      "puntos": 40
+    }
+  ],
+  "experiencias": [],
+  "productividad": {
+    "revistas": [
+      {
+        "año": "2020",
+        "titulo": "MODELING INTERACTIVE SYSTEMS AT THE BUSINES LEVEL: INTER-ACTION DIAGRAM",
+        "issn": "1548-0992",
+        "revista": "IEEE LATIN AMɒICA TRANSACTIONS",
+        "categoria": "A2",
+        "puntos": 12,
+        "resolucion": "7420"
+      }
+    ],
+    "libros": [],
+    "premios": [],
+    "software": [
+      {
+        "año": "2020",
+        "titulo": "PLUGIN PARA LA DERIVACIӎ DE TEXTO A MODELOS PARA LA GENERACIӎ DE DATAMODELS",
+        "puntos": 10.9,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2020",
+        "titulo": "PLUGIN PARA LA DERIVACIӎ DE TEXTO A MODELOS PARA LA GENERACIӎ DE DATAFORMS",
+        "puntos": 13.4,
+        "resolucion": "7420"
+      },
+      {
+        "año": "2022",
+        "titulo": "HERRAMIENTA DE MODELADO DE BLUEPRINT BASADO EN TAREAS DE INTERACCIӎ",
+        "puntos": 10,
+        "resolucion": "10472"
+      },
+      {
+        "año": "2023",
+        "titulo": "HERRAMIENTA DE PROTOTIPADO DE IU PARA APPS DE TIENDAS VIRTUALES",
+        "puntos": 11.9,
+        "resolucion": "10951"
+      },
+      {
+        "año": "2023",
+        "titulo": "HERRAMIENTA PARA LA GENERACIӎ DE VIEWMODELS A PARTIR DE MODELOS INDEPENDIENTES DE LA COMPUTACIӎ",
+        "puntos": 8.6,
+        "resolucion": "12297"
+      },
+      {
+        "año": "2023",
+        "titulo": "GENERADOR AUTOMATICO DE CODIGO PARA PLICACIONES EN FLUTTER",
+        "puntos": 11.1,
+        "resolucion": "10951"
+      },
+      {
+        "año": "2025",
+        "titulo": "VOTOOL",
+        "puntos": 11.1,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "titulo": "MMTOOL",
+        "puntos": 12.7,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "titulo": "HERRAMIENTA PARA LA GESTIӎ DE TESIS MEDIANTE DIFERENTES VISTAS (REPORTS_MANAGEMENT_TOOL)",
+        "puntos": 8.4,
+        "resolucion": "72"
+      },
+      {
+        "año": "2025",
+        "titulo": "GROUPTOOL",
+        "puntos": 11,
+        "resolucion": "1434"
+      },
+      {
+        "año": "2025",
+        "titulo": "HERRAMIENTA DE GESTIӎ Y CREACIӎ DE REQUISITOS DE SOFTWARE (RQM_TOOL)",
+        "puntos": 13.4,
+        "resolucion": "72"
+      },
+      {
+        "año": "2025",
+        "titulo": "HERRAMIENTA PARA LA CREACIӎ DE MODELOS ENTIDAD RELACIӎ (ER_TOOL)",
+        "puntos": 13.2,
+        "resolucion": "72"
+      }
+    ],
+    "patentes": [],
+    "obrasArtisticas": [],
+    "produccionTecnica": []
+  }
+}
