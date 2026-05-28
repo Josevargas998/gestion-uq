@@ -1085,7 +1085,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
       )}
 
       {/* PANEL DE AJUSTE para etapas ciarp y proyectar_resoluciones (sin pares) */}
-      {sol.estado !== 'aprobado' && isTecnico && ['ciarp','proyectar_resoluciones'].includes(sol.etapa) && (
+      {sol.estado !== 'aprobado' && isTecnico && (['ciarp','proyectar_resoluciones'].includes(sol.etapa) || (sol.tipo === 'ascenso' && sol.estado === 'aprobado_cei')) && (
         <>
           <DatosProductoPanel 
             tipo={sol.tipo} 
@@ -1134,7 +1134,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
 
           <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
             <button className="btn btn-o" type="button" onClick={handleGuardarPuntaje}>💾 Guardar Borrador</button>
-            {sol.etapa === 'informe' && <button className="btn btn-p" type="button" onClick={() => {
+            {(sol.etapa === 'informe' || (sol.tipo === 'ascenso' && sol.estado === 'aprobado_cei')) && <button className="btn btn-p" type="button" onClick={() => {
               const finalNotas = (() => {
                 let res = obsEdit;
                 if (sol.notas) {
