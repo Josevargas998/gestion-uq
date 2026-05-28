@@ -73,7 +73,7 @@ function verifyToken(req, res, next) {
 }
 
 function requireAdminOrTecnico(req, res, next) {
-  if (!req.user || (req.user.rol !== 'admin' && req.user.rol !== 'tecnico')) {
+  if (!req.user || (req.user.rol !== 'admin' && req.user.rol !== 'tecnico' && req.user.rol !== 'asistente')) {
     return res.status(403).json({ error: 'No tienes permisos para realizar esta acción' });
   }
   next();
@@ -901,6 +901,16 @@ app.post('/api/sesiones-ciarp/:id/cerrar-y-abrir', verifyToken, requireAdminOrTe
   } catch (err) { next(err); }
 });
 
+// DELETE /api/sesiones-ciarp/:id
+app.delete('/api/sesiones-ciarp/:id', verifyToken, requireAdminOrTecnico, async (req, res, next) => {
+  try {
+    const { rows } = await query('DELETE FROM sesiones_ciarp WHERE id = $1 RETURNING id', [req.params.id]);
+    if (!rows.length) return res.status(404).json({ error: 'Sesión no encontrada' });
+    await registrarAuditoria(req, 'ELIMINAR_SESION_CIARP', { id: req.params.id });
+    res.json({ success: true, message: 'Sesión eliminada correctamente' });
+  } catch (err) { next(err); }
+});
+
 // ─────────────────────────────────────────────────────────────
 // SESIONES CEI — CRUD y descarga de informe
 // ─────────────────────────────────────────────────────────────
@@ -1024,6 +1034,21 @@ app.post('/api/sesiones-cei/:id/cerrar-y-abrir', verifyToken, requireAdminOrTecn
     await registrarAuditoria(req, 'CERRAR_Y_ABRIR_CEI', { closed: id, opened: newId });
     res.json({ closed: curSes, opened: newRows[0] });
   } catch (err) { next(err); }
+});
+
+// DELETE /api/sesiones-cei/:id
+app.delete('/api/sesiones-cei/:id', verifyToken, requireAdminOrTecnico, async (req, res, next) => {
+  try {
+    console.log('[DELETE CEI] ID solicitado:', req.params.id);
+    const { rows } = await query('DELETE FROM sesiones_cei WHERE id = $1 RETURNING id', [req.params.id]);
+    console.log('[DELETE CEI] Filas eliminadas:', rows);
+    if (!rows.length) return res.status(404).json({ error: 'Sesión no encontrada' });
+    await registrarAuditoria(req, 'ELIMINAR_SESION_CEI', { id: req.params.id });
+    res.json({ success: true, message: 'Sesión eliminada correctamente' });
+  } catch (err) { 
+    console.error('[DELETE CEI] Error:', err);
+    next(err); 
+  }
 });
 
 // ─────────────────────────────────────────────────────────────

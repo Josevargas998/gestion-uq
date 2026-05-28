@@ -31,6 +31,7 @@ const CATEGORIAS_D1279 = [
   { key: 'daa',           label: 'DAA — Desempeño Acad.-Admvo.',  icon: <Landmark size={16}/>, tipos: ['daa'] },
   { key: 'ddd',           label: 'DDD — Desempeño Destacado',     icon: <Star size={16}/>,    tipos: ['ddd'] },
   { key: 'exp_calificada',label: 'Experiencia Calificada',        icon: <Briefcase size={16}/>, tipos: ['exp_calificada'] },
+  { key: 'ascensos',      label: 'Ascensos CEI',                  icon: <GraduationCap size={16}/>, tipos: ['ascenso'] },
 ];
 
 function getCategoriaKey(tipo) {

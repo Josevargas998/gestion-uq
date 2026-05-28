@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import {
   fetchSesionesCei, createSesionCei, getSiguienteNumeroCei,
-  getInformeSesionCei, cerrarYAbrirSesionCei
+  getInformeSesionCei, cerrarYAbrirSesionCei, deleteSesionCei
 } from '../utils/api.js';
 import { exportarCIARP } from '../utils/exportCiarp.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
@@ -770,6 +770,18 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
     finally { setDescargando(prev => ({ ...prev, [sesion.id]: false })); }
   }
 
+  async function handleEliminarSesion(sesion) {
+    if (!window.confirm(`¿Estás seguro de eliminar permanentemente la sesión ${sesion.acta_label}? Esta acción no se puede deshacer.`)) return;
+    try {
+      await deleteSesionCei(sesion.id);
+      success('Sesión eliminada correctamente');
+      cargarSesiones();
+    } catch (err) {
+      alert(err.message || 'Error al eliminar la sesión');
+    }
+  }
+
+
   async function handleCrear(e) {
     e.preventDefault();
     if (!form.numero) { setFormError('El número es obligatorio'); return; }
@@ -781,7 +793,7 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
     finally { setFormLoading(false); }
   }
 
-  const puedeCrear = user?.rol === 'admin' || user?.rol === 'tecnico';
+  const puedeCrear = user?.rol === 'admin' || user?.rol === 'tecnico' || user?.rol === 'asistente';
 
   return (
     <div>
@@ -865,22 +877,30 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
                     <div style={{ color:'var(--muted)', fontWeight: 500 }}>Puntos</div>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+                <div style={{ display: 'flex', gap: 8, flexShrink:0 }}>
                   {s.estado === 'abierta' && user?.rol !== 'lectura' && (
                     <button onClick={() => handleCerrarYAbrir(s)} disabled={isLoad}
                       title="Cerrar esta sesión y abrir la siguiente automáticamente"
-                      style={{ padding:'8px 16px', borderRadius:10, border:'none', background:'var(--p)', color: '#fff',
-                               fontSize:13, cursor:'pointer', fontWeight:600, display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}>
+                      style={{ padding:'8px 16px', borderRadius:8, border:'none', background:'var(--p)', color: '#fff',
+                               fontSize:13, cursor:'pointer', fontWeight:600, display: 'flex', alignItems: 'center', gap: 6 }}>
                       🔄 Cerrar CEI
                     </button>
                   )}
                   <button onClick={() => descargarInforme(s)} disabled={isLoad}
-                    style={{ padding:'8px 16px', borderRadius:10, border:'1px solid var(--border)', background:'var(--bg)', color: 'var(--text)',
-                             fontSize:13, cursor:'pointer', fontWeight:600, display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
-                    onMouseEnter={e => e.currentTarget.style.background = 'var(--surface)'}
-                    onMouseLeave={e => e.currentTarget.style.background = 'var(--bg)'}>
-                    {isLoad ? '⏳ Generando...' : '📥 Descargar Excel'}
+                    style={{ padding:'8px 16px', borderRadius:8, border:'1px solid var(--border)', background:'var(--surface)', cursor:isLoad?'not-allowed':'pointer', fontSize:13, fontWeight:600, color: 'var(--text2)', display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
+                    onMouseEnter={e => !isLoad && (e.currentTarget.style.background = 'var(--bg)')}
+                    onMouseLeave={e => !isLoad && (e.currentTarget.style.background = 'var(--surface)')}>
+                    {isLoad ? <Hourglass size={14} style={{ animation: 'spin 2s linear infinite' }} /> : <Download size={14}/>}
+                    {isLoad ? 'Generando...' : 'Descargar Excel'}
                   </button>
+                  {puedeCrear && (
+                    <button onClick={() => handleEliminarSesion(s)} title="Eliminar Sesión"
+                      style={{ padding:'8px 12px', borderRadius:8, border:'1px solid #fee2e2', background:'#fef2f2', cursor:'pointer', color:'#ef4444', transition: 'background .2s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                      onMouseEnter={e => (e.currentTarget.style.background = '#fee2e2')}
+                      onMouseLeave={e => (e.currentTarget.style.background = '#fef2f2')}>
+                      <Trash2 size={16}/>
+                    </button>
+                  )}
                 </div>
               </div>
             );

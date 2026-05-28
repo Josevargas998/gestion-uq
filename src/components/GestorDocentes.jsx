@@ -397,9 +397,13 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
         if (hvRes.ok) {
           const hvData = await hvRes.json();
           if (hvData.productividad) {
+            const dbTitulos = new Set(filtered.map(s => (s.titulo || '').toLowerCase().trim()));
             Object.entries(hvData.productividad).forEach(([cat, items]) => {
               if (Array.isArray(items)) {
                 items.forEach(item => {
+                  const tit = cleanText(item.titulo);
+                  if (tit && dbTitulos.has(tit.toLowerCase().trim())) return; // Deduplicar con la BD
+
                   filtered.push({
                     id: `hist_${Math.random()}`,
                     fecha: item.año ? `${item.año}-01-01` : '',
@@ -435,15 +439,21 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
     return true; // históricos
   };
 
-  // Topes de subcategoría calculados dinámicamente desde detalles
+  // Topes de subcategoría calculados por año (regla 35 puntos MAX por año)
+  const currentYear = new Date().getFullYear().toString();
+  
   const topeLibrosCalc = useMemo(
-    () => detalles.filter(d => isRealAprobado(d) && ['libro_texto','libro_ensayo','libro_investigacion'].includes(d.tipo))
+    () => detalles
+          .filter(d => isRealAprobado(d) && ['libro_texto','libro_ensayo','libro_investigacion'].includes(d.tipo) && (d.fecha || d.created_at || '').startsWith(currentYear))
           .reduce((s, d) => s + (d.pts_asig || 0), 0),
-    [detalles]
+    [detalles, currentYear]
   );
+  
   const topeSoftwareCalc = useMemo(
-    () => detalles.filter(d => isRealAprobado(d) && d.tipo === 'software').reduce((s, d) => s + (d.pts_asig || 0), 0),
-    [detalles]
+    () => detalles
+          .filter(d => isRealAprobado(d) && d.tipo === 'software' && (d.fecha || d.created_at || '').startsWith(currentYear))
+          .reduce((s, d) => s + (d.pts_asig || 0), 0),
+    [detalles, currentYear]
   );
 
   // Agrupar aprobaciones por sesión CIARP
@@ -607,14 +617,14 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
         </div>
         {/* Topes subcategoría libros */}
         <div style={{ background: '#f9fafb', borderRadius: 10, padding: '12px 16px', border: '1px solid #e5e7eb' }}>
-          <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Libros (máx 35)</div>
+          <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Libros {currentYear} (máx 35)</div>
           <div style={{ fontSize: 20, fontWeight: 900, color: topeLibrosCalc > 35 ? '#dc2626' : topeLibrosCalc > 0 ? '#6366f1' : '#aaa' }}>
             {topeLibrosCalc > 0 ? `${topeLibrosCalc.toFixed(1)} pts` : '—'}
           </div>
         </div>
         {/* Topes subcategoría software */}
         <div style={{ background: '#f9fafb', borderRadius: 10, padding: '12px 16px', border: '1px solid #e5e7eb' }}>
-          <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Software (máx 35)</div>
+          <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Software {currentYear} (máx 35)</div>
           <div style={{ fontSize: 20, fontWeight: 900, color: topeSoftwareCalc > 35 ? '#dc2626' : topeSoftwareCalc > 0 ? '#f59e0b' : '#aaa' }}>
             {topeSoftwareCalc > 0 ? `${topeSoftwareCalc.toFixed(1)} pts` : '—'}
           </div>

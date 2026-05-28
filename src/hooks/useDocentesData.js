@@ -82,8 +82,18 @@ export function useDocentesConNuevos() {
   const data = useMemo(() =>
     DOCENTES_PLANTA.map(d => {
       const nuevos           = solNuevosMap[String(d.cedula)] || 0;
-      const ptsAcumulados    = d.ptsAcumulados + nuevos;
-      const ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + nuevos;
+      let ptsAcumulados    = d.ptsAcumulados + nuevos;
+      let ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + nuevos;
+
+      // Si existe un tope de productividad y lo sobrepasa, se trunca estrictamente (no hay banco de puntos)
+      if (d.tope > 0 && ptsAcumulados > d.tope) {
+         const limiteNuevos = Math.max(0, d.tope - d.ptsAcumulados); // Cuántos puntos le faltaban antes
+         const nuevosReales = Math.min(nuevos, limiteNuevos);
+         
+         ptsAcumulados = d.tope;
+         ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + nuevosReales;
+      }
+
       return {
         ...d,
         ptsAcumulados,

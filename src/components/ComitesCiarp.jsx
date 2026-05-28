@@ -4,7 +4,7 @@ import { TIPOS } from '../data.js';
 import { badgeEtapa, labelEtapa, normalizeActaKey } from '../helpers.js';
 import {
   fetchSesionesCiarp, createSesionCiarp, getSiguienteNumeroCiarp,
-  getInformeSesionCiarp, cerrarYAbrirSesionCiarp
+  getInformeSesionCiarp, cerrarYAbrirSesionCiarp, deleteSesionCiarp
 } from '../utils/api.js';
 
 // ── Constantes del Decreto 1279 ─────────────────────────────────────────────
@@ -238,7 +238,17 @@ function PanelSesionesCiarp({ user }) {
     }
   }
 
-  const puedeCrear = user?.rol === 'admin' || user?.rol === 'tecnico';
+  async function handleEliminarSesion(sesion) {
+    if (!window.confirm(`¿Estás seguro de eliminar permanentemente la sesión ${sesion.acta_label}? Esta acción no se puede deshacer.`)) return;
+    try {
+      await deleteSesionCiarp(sesion.id);
+      cargarSesiones();
+    } catch (err) {
+      alert(err.message || 'Error al eliminar la sesión');
+    }
+  }
+
+  const puedeCrear = user?.rol === 'admin' || user?.rol === 'tecnico' || user?.rol === 'asistente';
 
   return (
     <div>
@@ -319,6 +329,12 @@ function PanelSesionesCiarp({ user }) {
                     title={`Descargar informe Excel de ${s.acta_label}`} style={{ padding: '6px 12px', fontSize: 12 }}>
                     {isLoad ? '⏳' : '📥'} Excel
                   </button>
+                  {puedeCrear && (
+                    <button className="btn" onClick={() => handleEliminarSesion(s)} title="Eliminar Sesión"
+                      style={{ padding:'6px 10px', background:'#fef2f2', border:'1px solid #fee2e2', color:'#ef4444', fontSize:12, borderRadius:8, cursor:'pointer' }}>
+                      🗑️
+                    </button>
+                  )}
                 </div>
               </div>
             );

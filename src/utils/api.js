@@ -281,6 +281,13 @@ export async function updateSesionCiarp(id, datos) {
   });
 }
 
+/** Elimina una sesión CIARP */
+export async function deleteSesionCiarp(id) {
+  return apiFetch(`/api/sesiones-ciarp/${encodeURIComponent(id)}`, {
+    method: 'DELETE'
+  });
+}
+
 // ─────────────────────────────────────────────
 // SESIONES CEI
 // ─────────────────────────────────────────────
@@ -322,5 +329,12 @@ export async function updateSesionCei(id, datos) {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(datos),
+  });
+}
+
+/** Elimina una sesión CEI */
+export async function deleteSesionCei(id) {
+  return apiFetch(`/api/sesiones-cei/${encodeURIComponent(id)}`, {
+    method: 'DELETE'
   });
 }
