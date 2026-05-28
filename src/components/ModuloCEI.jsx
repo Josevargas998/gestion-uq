@@ -901,10 +901,15 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
     newPares[idx][field] = val;
     setParesExtEdit(newPares);
   }
+
   function handleCvlacUpload(idx, result) {
     const newPares = [...paresExtEdit];
-    newPares[idx].cvlac_url    = result.url    || result.fileUrl || '';
-    newPares[idx].cvlac_nombre = result.nombre || result.fileName || '';
+    newPares[idx] = {
+      ...newPares[idx],
+      cvlac_url:    result.publicUrl,
+      cvlac_nombre: result.fileName,
+      cvlac_path:   result.storagePath,
+    };
     setParesExtEdit(newPares);
   }
 
