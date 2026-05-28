@@ -1143,7 +1143,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
                           </label>
                           <PdfUploader
                             key={p.cvlac_nombre || `cvlac-cei-${i}`}
-                            customName={`CVLAC_CEI_${(p.nombre || `Par${i+1}`).replace(/\s+/g,'_')}_${sol.id}`}
+                            customName={`CVLAC_CEI_${(p.nombre || `Par${i+1}`).replace(/\s+/g,'_')}_${solicitudSel?.id}`}
                             folder="cvlac"
                             initialFile={p.cvlac_url ? { nombre: p.cvlac_nombre || 'CVLAC.pdf', url: p.cvlac_url } : null}
                             onUploadSuccess={(res) => handleCvlacUpload(i, res)}
