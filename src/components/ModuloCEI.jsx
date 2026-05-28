@@ -315,7 +315,7 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
         <div style={{ flex: 1 }} />
 
         {/* Botón Nueva Solicitud de Ascenso */}
-        {(user?.rol === 'admin' || user?.rol === 'asistente' || user?.rol === 'lectura' || user?.rol === 'tecnico') && (
+        {(user?.rol === 'admin' || user?.rol === 'asistente' || user?.rol === 'tecnico') && (
           <button
             onClick={() => setShowNuevaModal(true)}
             style={{ padding: '10px 18px', borderRadius: 10, background: 'var(--uq-blue)', color: '#fff', border: 'none', fontWeight: 600, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
@@ -1201,7 +1201,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
 
   const isAdmin     = user?.rol === 'admin';
   const isTecnico   = user?.rol === 'tecnico';
-  const isAsistente = user?.rol === 'asistente' || user?.rol === 'lectura';
+  const isAsistente = user?.rol === 'asistente';
   const canEdit     = isAdmin || isTecnico || isAsistente;
   const [showMetaEdit, setShowMetaEdit] = useState(false);
 
@@ -1338,7 +1338,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
             <form id="cei-save-form" onSubmit={handleSave} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
               
               {/* 1. ── Editar metadatos (colapsable, solo admin/asistente) ── */}
-              {(isAdmin || isAsistente) && (
+              {canEdit && (
                 <div style={{ background: 'var(--bg)', borderRadius: 12, padding: 16, border: '1px solid var(--border)' }}>
                   <button type="button" onClick={() => setShowMetaEdit(v => !v)}
                     style={{ background: 'none', border: 'none', color: 'var(--uq-blue)', fontSize: 13, cursor: 'pointer', fontWeight: 700, padding: 0, display: 'flex', alignItems: 'center', gap: 6, width: '100%', justifyContent: 'space-between' }}>
@@ -1463,7 +1463,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
               </div>
 
               {/* 3. ── PANEL DE PARES (Asistente/Admin edita, Técnico ve) ── */}
-              {(isAdmin || isAsistente) && (
+              {canEdit && (
                 <div className="card" style={{ padding: '16px 20px', border: '2px solid var(--warning)', margin: '8px 0' }}>
                   <div style={{ fontWeight: 700, fontSize: 14, color: 'var(--warning)', marginBottom: 10 }}>
                     <span style={{display:"inline-flex", alignItems:"center", gap: 6}}><AlertTriangle size={16} style={{display:"inline-block", verticalAlign:"middle"}}/></span> Evaluaciones {isPlanta ? 'Externas' : 'Internas'}
@@ -1557,7 +1557,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
               )}
 
               {/* 3b. ── Enviar a Técnico (Solo Asistente/Admin) ── */}
-              {(isAdmin || isAsistente) && (etapa === 'pares_externos' || etapa === 'pares_internos') && (
+              {canEdit && (etapa === 'pares_externos' || etapa === 'pares_internos') && (
                 <div style={{ background: '#f0fdf4', border: '1px dashed #22c55e', padding: 16, borderRadius: 12, textAlign: 'center' }}>
                   <div style={{ fontSize: 13, color: '#166534', marginBottom: 10 }}>¿Se recibieron todas las evaluaciones?</div>
                   <button type="button" onClick={() => { setEtapa('informe'); }}
@@ -1696,7 +1696,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
               </div>
 
               {/* 8. ── Eliminar Solicitud ── */}
-              {(isAdmin || isAsistente) && (
+              {canEdit && (
                 <div style={{ marginTop: 4, textAlign: 'center' }}>
                   <button type="button" onClick={onEliminar}
                     style={{

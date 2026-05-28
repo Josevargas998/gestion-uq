@@ -64,16 +64,20 @@ function verifyToken(req, res, next) {
   if (!token) return res.status(401).json({ error: 'Acceso denegado: Token inválido' });
 
   try {
+    console.log('[JWT Debug] Verifying token:', token.substring(0, 20) + '...', 'Secret length:', process.env.API_SECRET ? process.env.API_SECRET.length : 'undefined');
     const payload = jwt.verify(token, process.env.API_SECRET);
+    console.log('[JWT Debug] Payload verified successfully for:', payload.cedula);
     req.user = payload;
     next();
   } catch (err) {
+    console.error('[JWT Debug] Verification failed:', err.message);
     return res.status(401).json({ error: 'Token expirado o inválido' });
   }
 }
 
 function requireAdminOrTecnico(req, res, next) {
-  if (!req.user || (req.user.rol !== 'admin' && req.user.rol !== 'tecnico' && req.user.rol !== 'asistente')) {
+  const rol = req.user?.rol ? String(req.user.rol).trim().toLowerCase() : '';
+  if (rol !== 'admin' && rol !== 'tecnico' && rol !== 'asistente') {
     return res.status(403).json({ error: 'No tienes permisos para realizar esta acción' });
   }
   next();
@@ -194,12 +198,13 @@ app.post('/api/auth/login', async (req, res, next) => {
       const valid = await bcrypt.compare(String(password), usuarios[0].password_hash);
       if (!valid) return res.status(401).json({ error: 'Contraseña incorrecta' });
 
+      const userRol = usuarios[0].rol ? String(usuarios[0].rol).trim().toLowerCase() : '';
       const token = jwt.sign(
-        { cedula: usuarios[0].cedula, nombre: usuarios[0].nombre, rol: usuarios[0].rol },
+        { cedula: usuarios[0].cedula, nombre: usuarios[0].nombre, rol: userRol },
         process.env.API_SECRET,
         { expiresIn: '12h' }
       );
-      return res.json({ cedula: usuarios[0].cedula, nombre: usuarios[0].nombre, rol: usuarios[0].rol, token });
+      return res.json({ cedula: usuarios[0].cedula, nombre: usuarios[0].nombre, rol: userRol, token });
     }
 
     res.status(401).json({ error: 'Usuario no registrado' });

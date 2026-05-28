@@ -51,9 +51,10 @@ export function AuthProvider({ children }) {
       // Guardar el JWT en sessionStorage para que apiFetch lo use
       if (userData?.token) setAuthToken(userData.token);
 
-      const info = ROL_INFO[userData.rol] || ROL_INFO.lectura;
+      const userRol = userData.rol ? String(userData.rol).trim().toLowerCase() : 'lectura';
+      const info = ROL_INFO[userRol] || ROL_INFO.lectura;
       setUser({
-        rol:       userData.rol,
+        rol:       userRol,
         nombre:    userData.nombre,
         cedula:    userData.cedula,
         rolLabel:  info.label,
