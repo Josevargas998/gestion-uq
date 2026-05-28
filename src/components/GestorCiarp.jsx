@@ -42,7 +42,7 @@ function getCategoriaKey(tipo) {
 }
 
 function agruparPorActa(solicitudes) {
-  const conActa = solicitudes.filter(s => s.acta_ciarp && s.tipo !== 'ascenso');
+  const conActa = solicitudes.filter(s => s.acta_ciarp);
   const grupos = {}; // key = canonical "NUM/YEAR"
   conActa.forEach(s => {
     const key = normalizeActaKey(s.acta_ciarp);
@@ -303,7 +303,7 @@ function VistaSesionCiarp({ acta, productos, onSelect, onEliminar, user }) {
 ───────────────────────────────────────────────────────────────── */
 function VistaProximoCiarp({ solicitudes, onSelect, onEliminar, user }) {
   const listos  = solicitudes.filter(s => (s.etapa === 'informe' || (s.tipo === 'ascenso' && (s.estado === 'aprobado_cei' || s.estado === 'aprobado'))) && !s.acta_ciarp);
-  const enciarp = solicitudes.filter(s => s.etapa === 'ciarp' && s.tipo !== 'ascenso' && !s.acta_ciarp);
+  const enciarp = solicitudes.filter(s => s.etapa === 'ciarp' && !s.acta_ciarp);
   const [sub, setSub] = useState('listos');
 
   const total = listos.length + enciarp.length;
