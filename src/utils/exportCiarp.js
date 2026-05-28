@@ -40,14 +40,14 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
   solicitudes.forEach(s => {
     let dp = {};
     if (typeof s.datos_prod === 'string') {
-      try { dp = JSON.parse(s.datos_prod); } catch(e) {}
+      try { dp = JSON.parse(s.datos_prod); } catch(_e) { /* ignore malformed JSON */ }
     } else if (s.datos_prod) {
       dp = s.datos_prod;
     }
 
     let nt = {};
     if (typeof s.notas === 'string') {
-      try { nt = JSON.parse(s.notas); } catch(e) {}
+      try { nt = JSON.parse(s.notas); } catch(_e) { /* ignore malformed JSON */ }
     } else if (s.notas && typeof s.notas === 'object') {
       nt = s.notas;
     }

@@ -39,7 +39,7 @@ function getTipoTabs(solicitudes) {
 
 export default function ListaSolicitudes({ solicitudes, onSelect, user, setNav, titulo = 'Solicitudes' }) {
   const { solicitudesProductividad, eliminar } = useSolicitudes();
-  const { success, error: showError } = useNotification ? useNotification() : { success: console.log, error: console.error }; // fallback if needed, but App handles notifications
+  const { success, error: showError } = useNotification();
   const [filtro,      setFiltro]      = useState('');
   const [filtroEtapa, setFiltroEtapa] = useState('');
   const [tabTipo,     setTabTipo]     = useState('');   // '' = all

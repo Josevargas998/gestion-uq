@@ -191,6 +191,8 @@ export function normalizeRow(row) {
     memoReciboInt:  row.memo_recibo_int || row.memoReciboInt || '',
     fechaReciboInt: row.fecha_recibo_int|| row.fechaReciboInt|| '',
     memoEnvioExt:   row.memo_envio_ext  || row.memoEnvioExt  || '',
+    sesion_ciarp_id:row.sesion_ciarp_id || null,
+    sesion_cei_id:  row.sesion_cei_id   || null,
     created_at:     row.created_at,
     updated_at:     row.updated_at,
   };

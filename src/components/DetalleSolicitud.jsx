@@ -183,7 +183,7 @@ function renderObservaciones(notas) {
         );
       }
     }
-  } catch (e) {}
+  } catch (_e) { /* ignore */ }
   return (
     <div style={{ fontSize: 13, color: 'var(--text)', whiteSpace: 'pre-wrap', lineHeight: 1.5, marginTop: 8 }}>
       {notas}
@@ -226,7 +226,7 @@ function renderReadOnlyJsonFields(notas) {
         );
       }
     }
-  } catch (e) {}
+  } catch (_e) { /* ignore */ }
   return null;
 }
 
@@ -264,7 +264,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
         const catDestino = info.categoria_destino || info.categoria_actual || '';
         const ptsAscenso = { Asistente: 21, Asociado: 16, Titular: 22 };
         if (ptsAscenso[catDestino]) return ptsAscenso[catDestino];
-      } catch (e) {}
+      } catch (_e) { /* ignore */ }
     }
     return 0;
   };
@@ -281,7 +281,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
       if (data && typeof data === 'object' && 'observaciones' in data) {
         return data.observaciones || '';
       }
-    } catch (e) {}
+    } catch (_e) { /* ignore */ }
     return sol.notas || '';
   });
   const [saved, setSaved] = React.useState(false);
@@ -486,7 +486,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
               data.observaciones = obsEdit;
               return JSON.stringify(data);
             }
-          } catch (e) {}
+          } catch (_e) { /* ignore */ }
         }
         return finalNotas;
       })(),
@@ -1071,7 +1071,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
                       try {
                         const data = JSON.parse(sol.notas);
                         if (data && typeof data === 'object') { data.observaciones = obsEdit; return JSON.stringify(data); }
-                      } catch (e) {}
+                      } catch (_e) { /* ignore */ }
                     }
                     return res;
                   })();
@@ -1144,7 +1144,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
                       data.observaciones = obsEdit;
                       return JSON.stringify(data);
                     }
-                  } catch (e) {}
+                  } catch (_e) { /* ignore */ }
                 }
                 return res;
               })();
@@ -1308,3 +1308,4 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
     </div>
   );
 }
+
