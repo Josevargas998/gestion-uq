@@ -302,8 +302,20 @@ function VistaSesionCiarp({ acta, productos, onSelect, onEliminar, user }) {
    VISTA: PRÓXIMO CIARP
 ───────────────────────────────────────────────────────────────── */
 function VistaProximoCiarp({ solicitudes, onSelect, onEliminar, user }) {
-  const listos  = solicitudes.filter(s => (s.etapa === 'informe' || (s.tipo === 'ascenso' && (s.estado === 'aprobado_cei' || s.estado === 'aprobado'))) && !s.acta_ciarp);
+  // Productos de productividad con informe listo (sin acta CIARP aún)
+  const listosProductividad = solicitudes.filter(s =>
+    s.tipo !== 'ascenso' && s.etapa === 'informe' && !s.acta_ciarp
+  );
+  // Solicitudes de ascenso ya aprobadas por el CEI (pendientes de puntos en CIARP)
+  const ascensosAprobadosCEI = solicitudes.filter(s =>
+    s.tipo === 'ascenso' &&
+    (s.estado === 'aprobado_cei' || s.estado === 'aprobado') &&
+    !s.acta_ciarp
+  );
+  // En sesión CIARP activa (etapa ciarp, sin acta todavía)
   const enciarp = solicitudes.filter(s => s.etapa === 'ciarp' && !s.acta_ciarp);
+
+  const listos = [...listosProductividad, ...ascensosAprobadosCEI];
   const [sub, setSub] = useState('listos');
 
   const total = listos.length + enciarp.length;
@@ -315,7 +327,7 @@ function VistaProximoCiarp({ solicitudes, onSelect, onEliminar, user }) {
       <div style={{ background: 'linear-gradient(135deg,#1a5fa8,#0d3d6e)', borderRadius: 16, padding: '24px 32px', color: '#fff', marginBottom: 24, boxShadow: 'var(--shadow-md)' }}>
         <div style={{ fontSize: 22, fontWeight: 700, display: 'flex', alignItems: 'center', gap: 10 }}><ClipboardList size={24} /> Productos en cola para el Próximo CIARP</div>
         <div style={{ fontSize: 13, opacity: 0.9, marginTop: 6, fontWeight: 500 }}>
-          Productos con evaluación completa, sin acta asignada aún · Decreto 1279 de 2002
+          Productividad con informe listo + Ascensos aprobados por CEI · Decreto 1279 de 2002
         </div>
         <div style={{ display: 'flex', gap: 32, marginTop: 16 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
@@ -323,8 +335,12 @@ function VistaProximoCiarp({ solicitudes, onSelect, onEliminar, user }) {
             <span style={{ fontSize: 12, opacity: 0.9, fontWeight: 500, lineHeight: 1.2 }}>Total en<br/>cola</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span style={{ fontSize: 28, fontWeight: 700, color: '#86efac' }}>{listos.length}</span>
-            <span style={{ fontSize: 12, opacity: 0.9, fontWeight: 500, lineHeight: 1.2 }}>Con informe<br/>listo</span>
+            <span style={{ fontSize: 28, fontWeight: 700, color: '#86efac' }}>{listosProductividad.length}</span>
+            <span style={{ fontSize: 12, opacity: 0.9, fontWeight: 500, lineHeight: 1.2 }}>Productividad<br/>lista</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <span style={{ fontSize: 28, fontWeight: 700, color: '#fbbf24' }}>{ascensosAprobadosCEI.length}</span>
+            <span style={{ fontSize: 12, opacity: 0.9, fontWeight: 500, lineHeight: 1.2 }}>Ascensos<br/>aprobados CEI</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <span style={{ fontSize: 28, fontWeight: 700, color: '#fde68a' }}>{enciarp.length}</span>
@@ -343,8 +359,8 @@ function VistaProximoCiarp({ solicitudes, onSelect, onEliminar, user }) {
         <div style={{ background: 'var(--surface)', borderRadius: 16, border: '1px solid var(--border)', overflow: 'hidden', boxShadow: 'var(--shadow-xs)' }}>
           <div style={{ display: 'flex', borderBottom: '1px solid var(--border)', background: 'var(--bg)' }}>
             {[
-              { key: 'listos',  label: `Informe CIARP (${listos.length})`,  color: '#006B3F', icon: <Landmark size={16}/> },
-              { key: 'enciarp', label: `En sesión CIARP (${enciarp.length})`, color: '#b45309', icon: <Scale size={16}/> },
+              { key: 'listos',  label: `Listos para CIARP (${listos.length})`,    color: '#006B3F', icon: <Landmark size={16}/> },
+              { key: 'enciarp', label: `En sesión CIARP (${enciarp.length})`,       color: '#b45309', icon: <Scale size={16}/> },
             ].map(t => (
               <button key={t.key} onClick={() => setSub(t.key)} style={{
                 padding: '12px 24px', border: 'none',
@@ -358,6 +374,12 @@ function VistaProximoCiarp({ solicitudes, onSelect, onEliminar, user }) {
               </button>
             ))}
           </div>
+          {/* Si hay ascensos CEI en la lista, mostrar un aviso visual */}
+          {sub === 'listos' && ascensosAprobadosCEI.length > 0 && (
+            <div style={{ padding: '10px 20px', background: '#fefce8', borderBottom: '1px solid #fde68a', fontSize: 12, color: '#92400e', display: 'flex', alignItems: 'center', gap: 8, fontWeight: 600 }}>
+              <GraduationCap size={14} /> {ascensosAprobadosCEI.length} ascenso{ascensosAprobadosCEI.length !== 1 ? 's' : ''} aprobado{ascensosAprobadosCEI.length !== 1 ? 's' : ''} por el CEI esperando aprobación de puntos en el CIARP
+            </div>
+          )}
           <TablaProductos lista={current} onSelect={onSelect} onEliminar={onEliminar} user={user} />
         </div>
       )}

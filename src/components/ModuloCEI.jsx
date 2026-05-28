@@ -935,7 +935,16 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
 
                 {/* ── Panel expandido: solicitudes de esta sesión ── */}
                 {isExpanded && (() => {
-                  const solDeSesion = solicitudes.filter(r => r.sesion_cei_id === s.id);
+                  // Buscar por sesion_cei_id (con conversión de tipo) O por acta_cei en notas (fallback)
+                  const solDeSesion = solicitudes.filter(r => {
+                    // Comparación numérica para evitar mismatch string vs number
+                    if (r.sesion_cei_id != null && Number(r.sesion_cei_id) === Number(s.id)) return true;
+                    // Fallback: comparar por acta_cei guardada en notas JSON
+                    try {
+                      const info = JSON.parse(r.notas || '{}');
+                      return info.acta_cei && info.acta_cei.trim() === (s.acta_label || '').trim();
+                    } catch (_e) { return false; }
+                  });
                   return (
                     <div style={{ borderTop:'1px solid var(--border)', background:'#f8fafc', padding:'16px 24px 20px 24px' }}>
                       <div style={{ fontSize:13, fontWeight:700, color:'var(--text)', marginBottom:12 }}>
@@ -1194,24 +1203,27 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
     fetchSesionesCei()
       .then(data => {
         setSesiones(data || []);
-        if (!sesionCeiId) {
+        // Auto-asignar la sesión abierta SOLO si la solicitud no tiene ya una sesión asignada
+        if (!sol.sesion_cei_id) {
           const abierta = data?.find(s => s.estado === 'abierta');
           if (abierta) {
-            setSesionCeiId(abierta.id);
+            setSesionCeiId(abierta.id);  // number del DB
             setActaCei(abierta.acta_label);
           }
         }
       })
       .catch(console.error);
-  }, [sesionCeiId]);
+  }, []); // Solo al montar — evita re-renders infinitos
 
-  // Sync acta_cei when session changes
+  // Sync acta_cei cuando cambia la sesión seleccionada
   const handleSesionChange = (id) => {
-    setSesionCeiId(id);
-    if (!id) {
+    const numId = id ? Number(id) : null;
+    setSesionCeiId(numId);
+    if (!numId) {
       setActaCei('');
     } else {
-      const selectedSes = sesiones.find(s => s.id === id);
+      // Comparar como número para evitar mismatch string vs number
+      const selectedSes = sesiones.find(s => Number(s.id) === numId);
       if (selectedSes) {
         setActaCei(selectedSes.acta_label);
       }
@@ -1259,7 +1271,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
       etapa: nextEtapa,
       estado,
       pts_asig: ptsAsig !== '' ? Number(ptsAsig) : null,
-      sesion_cei_id: sesionCeiId || null,
+      sesion_cei_id: sesionCeiId ? Number(sesionCeiId) : null,
       acta_cei: actaCei,
       notas: nuevasNotas,
       docente,
