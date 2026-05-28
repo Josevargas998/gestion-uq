@@ -44,9 +44,16 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
     } else if (s.datos_prod) {
       dp = s.datos_prod;
     }
+
+    let nt = {};
+    if (typeof s.notas === 'string') {
+      try { nt = JSON.parse(s.notas); } catch(e) {}
+    } else if (s.notas && typeof s.notas === 'object') {
+      nt = s.notas;
+    }
     
     // El autor principal
-    procSolicitudes.push({ ...s, ...dp });
+    procSolicitudes.push({ ...s, ...dp, ...nt });
     
     // Co-autores UQ (duplicar fila para que CIARP asigne los puntos)
     if (dp.coautores_uq && Array.isArray(dp.coautores_uq)) {
@@ -353,7 +360,7 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
       v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
       v(s.cedula), v(s.docente, '').toUpperCase(),
       v(s.programa), v(s.facultad), v(s.dedicacion),
-      v(s.categoria), v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
+      v(s.categoria_destino || s.categoria), v(s.pts_asig, 0), v(s.acta_ciarp), typeof s.notas === 'string' ? v(s.notas) : '',
     ]),
   ]);
 

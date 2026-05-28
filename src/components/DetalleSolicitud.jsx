@@ -256,7 +256,20 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
   // pts_sug: si viene 0 de Sheets, usar el del tipo
   const ptsSugReal = (sol.pts_sug && sol.pts_sug > 0) ? sol.pts_sug : (t.pts || 0);
 
-  const [ptsEdit, setPtsEdit] = React.useState(sol.pts_asig ?? 0);
+  const getInitialPts = (s) => {
+    if (s.pts_asig != null) return s.pts_asig;
+    if (s.tipo === 'ascenso') {
+      try {
+        const info = JSON.parse(s.notas || '{}');
+        const catDestino = info.categoria_destino || info.categoria_actual || '';
+        const ptsAscenso = { Asistente: 21, Asociado: 16, Titular: 22 };
+        if (ptsAscenso[catDestino]) return ptsAscenso[catDestino];
+      } catch (e) {}
+    }
+    return 0;
+  };
+
+  const [ptsEdit, setPtsEdit] = React.useState(getInitialPts(sol));
   const [actaCiarp, setActaCiarp] = React.useState(sol.acta_ciarp || '');
   const [datosProd, setDatosProd] = React.useState(() => {
     try { return typeof sol.datos_prod === 'string' ? JSON.parse(sol.datos_prod) : (sol.datos_prod || {}); } catch { return {}; }
@@ -288,7 +301,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
   const [fechaReciboInt, setFechaReciboInt] = React.useState(sol.fechaReciboInt || '');
 
   React.useEffect(() => {
-    setPtsEdit(sol.pts_asig ?? 0);
+    setPtsEdit(getInitialPts(sol));
     setActaCiarp(sol.acta_ciarp || '');
     setMemoEnvioInt(sol.memoEnvioInt || '');
     setFechaEnvioInt(sol.fechaEnvioInt || '');
@@ -1020,6 +1033,11 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
                   {showDecretoPanel ? '▲ Ocultar' : <><FileCheck size={14}/> Ver Tabla Decreto 1279</>}
                 </button>
               </div>
+              {sol.tipo === 'ascenso' && sol.pts_asig == null && (
+                <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', padding:'8px 12px', borderRadius:8, marginBottom:16, fontSize:12, color:'#166534'}}>
+                  💡 <strong>Puntaje pre-llenado automáticamente</strong> (Art. 19 D.1279). Puede ajustarlo si es necesario.
+                </div>
+              )}
               {showDecretoPanel && <Decreto1279Panel onClose={() => setShowDecretoPanel(false)} />}
               <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:16,marginBottom:16}}>
                 <div>

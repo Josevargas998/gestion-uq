@@ -7,15 +7,25 @@ import {
   getInformeSesionCiarp, cerrarYAbrirSesionCiarp
 } from '../utils/api.js';
 
+// ── Constantes del Decreto 1279 ─────────────────────────────────────────────
+/** Puntos otorgados por el CIARP al docente que asciende de categoría (Art. 19 D. 1279) */
+export const PUNTOS_POR_ASCENSO = {
+  Asistente: 21,
+  Asociado:  16,
+  Titular:   22,
+};
+
 // ── Helpers ─────────────────────────────────────────────────────────────────
 
 function agruparPorCAP(solicitudes) {
   const capEtapas = ['informe','ciarp','proyectar_resoluciones','archivada'];
   // En etapa 'informe', solo se muestran en CIARP si ya tienen acta_ciarp asignada
-  const candidatos = solicitudes.filter(s =>
-    capEtapas.includes(s.etapa) &&
-    (s.etapa !== 'informe' || (s.acta_ciarp && s.acta_ciarp.trim()))
-  );
+  // Los ascensos con estado aprobado_cei pasan directamente sin restricción de acta
+  const candidatos = solicitudes.filter(s => {
+    if (s.tipo === 'ascenso' && (s.estado === 'aprobado_cei' || s.estado === 'aprobado')) return true;
+    return capEtapas.includes(s.etapa) &&
+      (s.etapa !== 'informe' || (s.acta_ciarp && s.acta_ciarp.trim()));
+  });
   const grupos = {};
   candidatos.forEach(s => {
     const rawActa = (s.acta_ciarp || '').trim();
@@ -54,13 +64,23 @@ function agruparPorCAP(solicitudes) {
 
 function CapRow({ s, onSelect }) {
   const t = TIPOS[s.tipo] || {};
+  const esAscenso = s.tipo === 'ascenso';
+  // Determinar puntos auto para ascenso
+  const infoAscenso = esAscenso ? (() => {
+    try { const n = s.notas ? JSON.parse(s.notas) : {}; return n; } catch { return {}; }
+  })() : null;
+  const catDestino = infoAscenso?.categoria_destino || infoAscenso?.categoria_actual || '';
+  const ptsAutoAscenso = esAscenso ? (PUNTOS_POR_ASCENSO[catDestino] ?? null) : null;
+
   return (
     <div
       onClick={() => onSelect(s)}
       style={{ padding: '10px 20px', display: 'flex', alignItems: 'center', gap: 16,
-        borderBottom: '1px solid #f0f0f0', cursor: 'pointer', transition: 'background .15s' }}
-      onMouseOver={e => e.currentTarget.style.background = '#fafafa'}
-      onMouseOut={e  => e.currentTarget.style.background = 'transparent'}
+        borderBottom: '1px solid #f0f0f0', cursor: 'pointer', transition: 'background .15s',
+        borderLeft: esAscenso ? '4px solid #7c3aed' : 'none',
+        background: esAscenso ? '#faf5ff' : 'transparent' }}
+      onMouseOver={e => e.currentTarget.style.background = esAscenso ? '#f3e8ff' : '#fafafa'}
+      onMouseOut={e  => e.currentTarget.style.background = esAscenso ? '#faf5ff' : 'transparent'}
     >
       <div style={{ width: 8, height: 8, borderRadius: '50%', flexShrink: 0,
                     background: s.pts_asig != null ? 'var(--g)' : 'var(--warning)' }}

@@ -127,7 +127,7 @@ export function SolicitudesProvider({ children }) {
     [solicitudes]
   );
   const solicitudesCiarp = useMemo(
-    () => solicitudes.filter(s => s.tipo !== 'ascenso'),
+    () => solicitudes.filter(s => s.tipo !== 'ascenso' || s.estado === 'aprobado_cei' || s.estado === 'aprobado'),
     [solicitudes]
   );
 

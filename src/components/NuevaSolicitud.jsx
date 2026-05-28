@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { TIPOS, PROGRAMAS, FACULTADES } from '../data.js';
 import { rutaLabel, buildTimeline, formatName, matchDropdownOption } from '../helpers.js';
-import { useDocentesIndex } from '../hooks/useDocentesData.js';
+import { useDocentesIndex, fetchDocenteDetalle } from '../hooks/useDocentesData.js';
 import { Search, CheckCircle, MapPin, Landmark, CircleDollarSign, User, AlertTriangle, Route, Mail, Save, Check } from 'lucide-react';
 
 // ── Docente autocomplete suggestion ─────────────────────────────────────────
@@ -36,6 +36,7 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
   const [query,       setQuery]       = useState('');
   const [showSuggest, setShowSuggest] = useState(false);
   const [docenteCargado, setDocenteCargado] = useState(false);
+  const [docenteLimite, setDocenteLimite] = useState(null);
 
   const set = (k, v) => setForm(f => ({ ...f, [k]: v }));
   const tipo = TIPOS[form.tipo];
@@ -62,7 +63,7 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
       ).slice(0, 8)
     : [];
 
-  function pickDocente(d) {
+  async function pickDocente(d) {
     setForm(f => ({
       ...f,
       docente:  formatName(d.nombre),
@@ -74,12 +75,20 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
     setQuery(formatName(d.nombre));
     setShowSuggest(false);
     setDocenteCargado(true);
+    setDocenteLimite(null);
+    try {
+      const deta = await fetchDocenteDetalle(d.cedula);
+      setDocenteLimite(deta);
+    } catch (e) {
+      console.error('Error fetching docente detalle:', e);
+    }
   }
 
   function clearDocente() {
     setForm(f => ({ ...f, docente: '', cedula: '', programa: '', facultad: '', correo: '' }));
     setQuery('');
     setDocenteCargado(false);
+    setDocenteLimite(null);
   }
 
   function handleGuardar() {
@@ -170,6 +179,11 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
               {docenteCargado && (
                 <div style={{ marginTop: 8, padding: '10px 14px', background: 'var(--gp)', border: '1px solid var(--g)', borderRadius: 10, fontSize: 13, color: 'var(--g)', display: 'flex', alignItems: 'center', gap: 8, fontWeight: 500 }}>
                   <CheckCircle size={16} /> Datos del docente cargados automáticamente desde la base de datos
+                </div>
+              )}
+              {docenteLimite && docenteLimite.diferencia <= 0 && (
+                <div style={{ marginTop: 8, padding: '10px 14px', background: '#fef2f2', border: '1px solid #fecaca', borderRadius: 10, fontSize: 13, color: '#991b1b', display: 'flex', alignItems: 'center', gap: 8, fontWeight: 500 }}>
+                  <AlertTriangle size={16} /> ⚠️ Advertencia: El docente ha alcanzado su tope máximo de productividad académica ({docenteLimite.tope} pts). Puede continuar con la radicación, pero este producto no sumará puntos adicionales en el CIARP.
                 </div>
               )}
               {query.length >= 2 && suggestions.length === 0 && !docenteCargado && (

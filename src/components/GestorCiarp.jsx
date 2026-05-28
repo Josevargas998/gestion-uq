@@ -301,8 +301,8 @@ function VistaSesionCiarp({ acta, productos, onSelect, onEliminar, user }) {
    VISTA: PRÓXIMO CIARP
 ───────────────────────────────────────────────────────────────── */
 function VistaProximoCiarp({ solicitudes, onSelect, onEliminar, user }) {
-  const listos  = solicitudes.filter(s => s.etapa === 'informe' && !s.acta_ciarp);
-  const enciarp = solicitudes.filter(s => s.etapa === 'ciarp' && !s.acta_ciarp);
+  const listos  = solicitudes.filter(s => (s.etapa === 'informe' || (s.tipo === 'ascenso' && (s.estado === 'aprobado_cei' || s.estado === 'aprobado'))) && !s.acta_ciarp);
+  const enciarp = solicitudes.filter(s => s.etapa === 'ciarp' && s.tipo !== 'ascenso' && !s.acta_ciarp);
   const [sub, setSub] = useState('listos');
 
   const total = listos.length + enciarp.length;
@@ -457,9 +457,10 @@ export default function GestorCiarp({ user, solicitudes, onSelect, setNav }) {
   const [activeTab, setActiveTab] = useState('proximo');
   const [solicitudAEliminar, setSolicitudAEliminar] = useState(null);
 
-  const solProd = useMemo(() => solicitudes.filter(s => s.tipo !== 'ascenso'), [solicitudes]);
+  // Usar las solicitudes directamente (el contexto ya filtra los ascensos no aprobados)
+  const solProd = solicitudes;
 
-  const proximoCount = solProd.filter(s => ['informe','ciarp'].includes(s.etapa) && !s.acta_ciarp).length;
+  const proximoCount = solProd.filter(s => (['informe','ciarp'].includes(s.etapa) || (s.tipo === 'ascenso' && (s.estado === 'aprobado_cei' || s.estado === 'aprobado'))) && !s.acta_ciarp).length;
   const histCount    = solProd.filter(s => s.acta_ciarp).length;
 
   const TABS = [

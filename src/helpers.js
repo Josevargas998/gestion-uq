@@ -203,8 +203,18 @@ export function normalizeRow(row) {
  */
 export function normalizeDocente(row) {
   if (!row) return null;
-  const tope       = Number(row.tope)       || 0;
-  const diferencia = Number(row.diferencia) || 0;
+  const categoria = cleanText(row.categoria || '');
+  let tope = Number(row.tope) || 0;
+  
+  // Calcular tope según Decreto 1279
+  const catUpper = categoria.toUpperCase();
+  if (catUpper.includes('TITULAR')) tope = 540;
+  else if (catUpper.includes('ASOCIADO')) tope = 320;
+  else if (catUpper.includes('ASISTENTE')) tope = 160;
+  else if (catUpper.includes('AUXILIAR')) tope = 80;
+
+  const ptsAcumulados = Number(row.pts_acumulados) || 0;
+  const diferencia = tope > 0 ? tope - ptsAcumulados : 0;
   const historial  = row.historial || {};
 
   const especializacion = cleanText(row.especializacion || '');
@@ -229,7 +239,7 @@ export function normalizeDocente(row) {
     titulosAcademicos: titulos,
     dedicacion:        row.dedicacion     || '',
     fechaIngreso:      row.fecha_ingreso  || '',
-    ptsAcumulados:     Number(row.pts_acumulados)     || 0,
+    ptsAcumulados,
     tope,
     diferencia,
     ptsFavor:          Number(row.pts_favor)          || 0,
