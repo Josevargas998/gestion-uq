@@ -13,7 +13,7 @@ import { Paperclip, Save } from 'lucide-react';
 import { 
   CheckCircle, XCircle, AlertTriangle, Landmark, Hourglass, 
   ClipboardList, Inbox, GraduationCap, Briefcase, FileText, 
-  Search, User, FolderOpen, Scale, Download, Plus, X, Calendar, Edit3, Trash2
+  Search, User, FolderOpen, Scale, Download, Plus, X, Calendar, Edit3, Trash2, ChevronRight
 } from 'lucide-react';
 
 /* ── Helpers ─────────────────────────────────── */
@@ -717,6 +717,7 @@ function CeiRow({ s, onSelect }) {
 
 /* ── Panel Sesiones CEI ─────────────────────── */
 function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
+  const { success } = useNotification();
   const [tab, setTab] = useState('sesiones');
   const [sesiones, setSesiones]       = useState([]);
   const [loading, setLoading]         = useState(true);
@@ -727,6 +728,7 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
   const [formLoading, setFormLoading] = useState(false);
   const [formError, setFormError]     = useState('');
   const [cargandoSig, setCargandoSig] = useState(false);
+  const [expandedSesion, setExpandedSesion] = useState(null);
 
   const cargarSesiones = useCallback(() => {
     setLoading(true);
@@ -842,66 +844,141 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
               ? new Date(s.fecha).toLocaleDateString('es-CO', { day:'2-digit', month:'long', year:'numeric', timeZone:'UTC' })
               : 'Fecha no registrada';
             const isLoad = descargando[s.id];
+            const isExpanded = expandedSesion === s.id;
             return (
-              <div key={s.id} style={{ background:'var(--surface)', borderRadius:16, border:'1px solid var(--border)',
-                padding:'20px 24px', display:'flex', alignItems:'center', gap:20, flexWrap:'wrap',
-                boxShadow:'var(--shadow-xs)', transition: 'box-shadow .2s' }}
-                onMouseEnter={e => e.currentTarget.style.boxShadow = 'var(--shadow-sm)'}
-                onMouseLeave={e => e.currentTarget.style.boxShadow = 'var(--shadow-xs)'}>
-                <div style={{ width:48, height:48, borderRadius:12, background:'var(--uq-blue-lt)', color: 'var(--uq-blue)',
-                              display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
-                  <Landmark size={24}/>
-                </div>
-                <div style={{ flex:1, minWidth:200 }}>
-                  <div style={{ fontWeight:700, fontSize:16, color: 'var(--text)', display: 'flex', alignItems: 'center', gap: 10 }}>
-                    CEI {s.numero} — {s.anio}
-                    <span style={{ fontSize:11, fontWeight:600,
-                      color: s.estado === 'abierta' ? '#15803d' : 'var(--muted)',
-                      background: s.estado === 'abierta' ? '#dcfce7' : 'var(--bg)', border: `1px solid ${s.estado === 'abierta' ? '#bbf7d0' : 'var(--border)'}`,
-                      padding:'2px 8px', borderRadius:20 }}>
-                      {s.estado}
-                    </span>
+              <div key={s.id} style={{
+                display:'flex', flexDirection:'column',
+                background:'var(--surface)', borderRadius:16,
+                border: isExpanded ? '1px solid var(--uq-blue)' : '1px solid var(--border)',
+                boxShadow: isExpanded ? 'var(--shadow-sm)' : 'var(--shadow-xs)',
+                transition: 'all .2s', overflow:'hidden'
+              }}>
+
+                {/* ── Header clickeable ── */}
+                <div
+                  onClick={() => setExpandedSesion(isExpanded ? null : s.id)}
+                  style={{ padding:'20px 24px', display:'flex', alignItems:'center', gap:20, flexWrap:'wrap', cursor:'pointer' }}
+                >
+                  {/* Icono */}
+                  <div style={{ width:48, height:48, borderRadius:12,
+                    background: isExpanded ? 'var(--uq-blue)' : 'var(--uq-blue-lt)',
+                    color: isExpanded ? '#fff' : 'var(--uq-blue)',
+                    display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0, transition:'all .2s' }}>
+                    <Landmark size={24}/>
                   </div>
-                  <div style={{ fontSize:13, color:'var(--muted)', marginTop:4, display: 'flex', alignItems: 'center', gap: 6 }}>
-                    <Calendar size={14}/> {fechaStr} · Acta: {s.acta_label}
+
+                  {/* Info */}
+                  <div style={{ flex:1, minWidth:200 }}>
+                    <div style={{ fontWeight:700, fontSize:16, color:'var(--text)', display:'flex', alignItems:'center', gap:10 }}>
+                      CEI {s.numero} — {s.anio}
+                      <span style={{ fontSize:11, fontWeight:600,
+                        color: s.estado === 'abierta' ? '#15803d' : 'var(--muted)',
+                        background: s.estado === 'abierta' ? '#dcfce7' : 'var(--bg)',
+                        border: `1px solid ${s.estado === 'abierta' ? '#bbf7d0' : 'var(--border)'}`,
+                        padding:'2px 8px', borderRadius:20 }}>
+                        {s.estado}
+                      </span>
+                    </div>
+                    <div style={{ fontSize:13, color:'var(--muted)', marginTop:4, display:'flex', alignItems:'center', gap:6 }}>
+                      <Calendar size={14}/> {fechaStr} · Acta: {s.acta_label}
+                    </div>
+                    {s.notas && <div style={{ fontSize:12, color:'var(--muted)', marginTop:6, fontStyle:'italic' }}>{s.notas}</div>}
                   </div>
-                  {s.notas && <div style={{ fontSize:12, color:'var(--muted)', marginTop:6, fontStyle:'italic' }}>{s.notas}</div>}
-                </div>
-                <div style={{ display:'flex', gap:24, textAlign:'center', fontSize:12 }}>
-                  <div>
-                    <div style={{ fontWeight:700, fontSize:20, color:'#15803d' }}>{s.aprobadas || 0}</div>
-                    <div style={{ color:'var(--muted)', fontWeight: 500 }}>Aprobadas</div>
+
+                  {/* Stats */}
+                  <div style={{ display:'flex', gap:24, textAlign:'center', fontSize:12 }}>
+                    <div>
+                      <div style={{ fontWeight:700, fontSize:20, color:'#15803d' }}>{s.aprobadas || 0}</div>
+                      <div style={{ color:'var(--muted)', fontWeight:500 }}>Aprobadas</div>
+                    </div>
+                    <div>
+                      <div style={{ fontWeight:700, fontSize:20, color:'var(--uq-blue)' }}>{parseFloat(s.pts_totales || 0).toFixed(1)}</div>
+                      <div style={{ color:'var(--muted)', fontWeight:500 }}>Puntos</div>
+                    </div>
                   </div>
-                  <div>
-                    <div style={{ fontWeight:700, fontSize:20, color:'var(--uq-blue)' }}>{parseFloat(s.pts_totales || 0).toFixed(1)}</div>
-                    <div style={{ color:'var(--muted)', fontWeight: 500 }}>Puntos</div>
-                  </div>
-                </div>
-                <div style={{ display: 'flex', gap: 8, flexShrink:0 }}>
-                  {s.estado === 'abierta' && user?.rol !== 'lectura' && (
-                    <button onClick={() => handleCerrarYAbrir(s)} disabled={isLoad}
-                      title="Cerrar esta sesión y abrir la siguiente automáticamente"
-                      style={{ padding:'8px 16px', borderRadius:8, border:'none', background:'var(--p)', color: '#fff',
-                               fontSize:13, cursor:'pointer', fontWeight:600, display: 'flex', alignItems: 'center', gap: 6 }}>
-                      🔄 Cerrar CEI
+
+                  {/* Botones — stopPropagation para no colapsar la card */}
+                  <div style={{ display:'flex', gap:8, flexShrink:0 }} onClick={e => e.stopPropagation()}>
+                    {s.estado === 'abierta' && user?.rol !== 'lectura' && (
+                      <button onClick={() => handleCerrarYAbrir(s)} disabled={isLoad}
+                        title="Cerrar esta sesión y abrir la siguiente automáticamente"
+                        style={{ padding:'8px 16px', borderRadius:8, border:'none', background:'var(--p)', color:'#fff',
+                                 fontSize:13, cursor:'pointer', fontWeight:600, display:'flex', alignItems:'center', gap:6 }}>
+                        🔄 Cerrar CEI
+                      </button>
+                    )}
+                    <button onClick={() => descargarInforme(s)} disabled={isLoad}
+                      style={{ padding:'8px 16px', borderRadius:8, border:'1px solid var(--border)', background:'var(--surface)',
+                               cursor:isLoad?'not-allowed':'pointer', fontSize:13, fontWeight:600, color:'var(--text2)',
+                               display:'flex', alignItems:'center', gap:6, transition:'background .2s' }}
+                      onMouseEnter={e => !isLoad && (e.currentTarget.style.background = 'var(--bg)')}
+                      onMouseLeave={e => !isLoad && (e.currentTarget.style.background = 'var(--surface)')}>
+                      {isLoad ? <Hourglass size={14} style={{ animation:'spin 2s linear infinite' }}/> : <Download size={14}/>}
+                      {isLoad ? 'Generando...' : 'Descargar Excel'}
                     </button>
-                  )}
-                  <button onClick={() => descargarInforme(s)} disabled={isLoad}
-                    style={{ padding:'8px 16px', borderRadius:8, border:'1px solid var(--border)', background:'var(--surface)', cursor:isLoad?'not-allowed':'pointer', fontSize:13, fontWeight:600, color: 'var(--text2)', display: 'flex', alignItems: 'center', gap: 6, transition: 'background .2s' }}
-                    onMouseEnter={e => !isLoad && (e.currentTarget.style.background = 'var(--bg)')}
-                    onMouseLeave={e => !isLoad && (e.currentTarget.style.background = 'var(--surface)')}>
-                    {isLoad ? <Hourglass size={14} style={{ animation: 'spin 2s linear infinite' }} /> : <Download size={14}/>}
-                    {isLoad ? 'Generando...' : 'Descargar Excel'}
-                  </button>
-                  {puedeCrear && (
-                    <button onClick={() => handleEliminarSesion(s)} title="Eliminar Sesión"
-                      style={{ padding:'8px 12px', borderRadius:8, border:'1px solid #fee2e2', background:'#fef2f2', cursor:'pointer', color:'#ef4444', transition: 'background .2s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                      onMouseEnter={e => (e.currentTarget.style.background = '#fee2e2')}
-                      onMouseLeave={e => (e.currentTarget.style.background = '#fef2f2')}>
-                      <Trash2 size={16}/>
-                    </button>
-                  )}
+                    {puedeCrear && (
+                      <button onClick={() => handleEliminarSesion(s)} title="Eliminar Sesión"
+                        style={{ padding:'8px 12px', borderRadius:8, border:'1px solid #fee2e2', background:'#fef2f2',
+                                 cursor:'pointer', color:'#ef4444', transition:'background .2s',
+                                 display:'flex', alignItems:'center', justifyContent:'center' }}
+                        onMouseEnter={e => (e.currentTarget.style.background = '#fee2e2')}
+                        onMouseLeave={e => (e.currentTarget.style.background = '#fef2f2')}>
+                        <Trash2 size={16}/>
+                      </button>
+                    )}
+                    {/* Indicador acordeón */}
+                    <div style={{ display:'flex', alignItems:'center', color:'var(--muted)' }}>
+                      <ChevronRight size={18} style={{ transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)', transition:'transform .2s' }}/>
+                    </div>
+                  </div>
                 </div>
+
+                {/* ── Panel expandido: solicitudes de esta sesión ── */}
+                {isExpanded && (() => {
+                  const solDeSesion = solicitudes.filter(r => r.sesion_cei_id === s.id);
+                  return (
+                    <div style={{ borderTop:'1px solid var(--border)', background:'#f8fafc', padding:'16px 24px 20px 24px' }}>
+                      <div style={{ fontSize:13, fontWeight:700, color:'var(--text)', marginBottom:12 }}>
+                        🎓 Solicitudes de ascenso en esta sesión
+                        <span style={{ marginLeft:8, fontSize:12, fontWeight:500, color:'var(--muted)' }}>({solDeSesion.length})</span>
+                      </div>
+                      {solDeSesion.length === 0 ? (
+                        <div style={{ fontSize:13, color:'var(--muted)', fontStyle:'italic', padding:'8px 0' }}>No hay solicitudes vinculadas a esta sesión.</div>
+                      ) : (
+                        <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
+                          {solDeSesion.map(sol => {
+                            const aprobado = sol.estado === 'aprobado' || sol.estado === 'aprobado_cei';
+                            return (
+                              <div key={sol.id}
+                                onClick={() => onSelect(sol)}
+                                style={{ display:'flex', alignItems:'center', justifyContent:'space-between',
+                                         padding:'12px 16px', background:'#fff', border:'1px solid var(--border)',
+                                         borderRadius:10, cursor:'pointer', transition:'all .2s' }}
+                                onMouseEnter={e => { e.currentTarget.style.background='#f0f7ff'; e.currentTarget.style.borderColor='var(--uq-blue)'; }}
+                                onMouseLeave={e => { e.currentTarget.style.background='#fff'; e.currentTarget.style.borderColor='var(--border)'; }}>
+                                <div>
+                                  <div style={{ fontWeight:600, fontSize:13, color:'var(--uq-blue)' }}>{sol.docente}</div>
+                                  <div style={{ fontSize:12, color:'var(--text2)', marginTop:2 }}>{sol.titulo || 'Sin título'} · {sol.cedula_docente || ''}</div>
+                                </div>
+                                <div style={{ display:'flex', alignItems:'center', gap:10 }}>
+                                  {sol.pts_asig > 0 && (
+                                    <span style={{ fontSize:12, fontWeight:700, color:'var(--uq-blue)' }}>{sol.pts_asig} pts</span>
+                                  )}
+                                  <span style={{ fontSize:11, fontWeight:600, padding:'2px 8px', borderRadius:20,
+                                    color: aprobado ? '#15803d' : '#92400e',
+                                    background: aprobado ? '#dcfce7' : '#fef3c7' }}>
+                                    {aprobado ? '✓ Aprobado CEI' : 'En proceso'}
+                                  </span>
+                                  <ChevronRight size={14} color="var(--muted)"/>
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })()}
               </div>
             );
           })}

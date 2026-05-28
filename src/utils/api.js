@@ -39,9 +39,11 @@ export function registerSessionExpiredCallback(cb) {
 async function apiFetch(path, options = {}) {
   const token = getAuthToken();
   const authHeader = token ? { Authorization: `Bearer ${token}` } : {};
+  // Extraer headers de options para no sobreescribirlos con el spread de ...options
+  const { headers: extraHeaders, ...restOptions } = options;
   const res = await fetch(`${BASE}${path}`, {
-    headers: { 'Content-Type': 'application/json', ...authHeader, ...options.headers },
-    ...options,
+    ...restOptions,
+    headers: { 'Content-Type': 'application/json', ...authHeader, ...extraHeaders },
   });
   if (!res.ok) {
     if (res.status === 401) {
@@ -54,6 +56,7 @@ async function apiFetch(path, options = {}) {
   }
   return res.json();
 }
+
 
 // ─────────────────────────────────────────────
 // SOLICITUDES

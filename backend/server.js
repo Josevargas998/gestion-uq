@@ -58,19 +58,23 @@ if (helmet) {
 // ─────────────────────────────────────────────────────────────
 function verifyToken(req, res, next) {
   const authHeader = req.headers['authorization'];
-  if (!authHeader) return res.status(401).json({ error: 'Acceso denegado: Token requerido' });
+  if (!authHeader) {
+    console.error(`[AUTH] 401 - Token requerido para ${req.method} ${req.originalUrl}`);
+    return res.status(401).json({ error: 'Acceso denegado: Token requerido' });
+  }
 
   const token = authHeader.split(' ')[1];
-  if (!token) return res.status(401).json({ error: 'Acceso denegado: Token inválido' });
+  if (!token) {
+    console.error(`[AUTH] 401 - Token inválido para ${req.method} ${req.originalUrl}`);
+    return res.status(401).json({ error: 'Acceso denegado: Token inválido' });
+  }
 
   try {
-    console.log('[JWT Debug] Verifying token:', token.substring(0, 20) + '...', 'Secret length:', process.env.API_SECRET ? process.env.API_SECRET.length : 'undefined');
     const payload = jwt.verify(token, process.env.API_SECRET);
-    console.log('[JWT Debug] Payload verified successfully for:', payload.cedula);
     req.user = payload;
     next();
   } catch (err) {
-    console.error('[JWT Debug] Verification failed:', err.message);
+    console.error(`[AUTH] 401 - Token expirado o inválido para ${req.method} ${req.originalUrl}. Error:`, err.message);
     return res.status(401).json({ error: 'Token expirado o inválido' });
   }
 }
@@ -78,6 +82,7 @@ function verifyToken(req, res, next) {
 function requireAdminOrTecnico(req, res, next) {
   const rol = req.user?.rol ? String(req.user.rol).trim().toLowerCase() : '';
   if (rol !== 'admin' && rol !== 'tecnico' && rol !== 'asistente') {
+    console.error(`[AUTH] 403 - Rol insuficiente '${rol}' para ${req.method} ${req.originalUrl}`);
     return res.status(403).json({ error: 'No tienes permisos para realizar esta acción' });
   }
   next();
@@ -926,7 +931,7 @@ app.get('/api/sesiones-cei', async (req, res, next) => {
     const { rows } = await query(`
       SELECT sc.*,
              COUNT(s.id)                                              AS total_solicitudes,
-             COUNT(s.id) FILTER (WHERE s.estado = 'aprobado')        AS aprobadas,
+             COUNT(s.id) FILTER (WHERE s.estado = 'aprobado_cei' OR s.estado = 'aprobado') AS aprobadas,
              COALESCE(SUM(s.pts_asig) FILTER (WHERE s.estado = 'aprobado'), 0) AS pts_totales
       FROM sesiones_cei sc
       LEFT JOIN solicitudes s ON s.sesion_cei_id = sc.id
