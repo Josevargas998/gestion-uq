@@ -67,16 +67,22 @@ export default function PdfUploader({
       formData.append('folder', folder);
 
       const apiBase = import.meta.env.VITE_API_URL || '';
-      const headers = {
-        'X-API-Key': import.meta.env.VITE_API_SECRET || '',
-      };
+      // En desarrollo (localhost) usamos ruta relativa para que el proxy de Vite
+      // intercepte el request y lo reenvíe a localhost:3001 sin problemas CORS.
+      // En producción, el frontend y backend son el mismo servidor.
+      const uploadUrl = (apiBase && !window.location.hostname.includes('localhost'))
+        ? `${apiBase}/api/v1/upload-pdf`
+        : `/api/v1/upload-pdf`;
+
       const token = getAuthToken();
+      const headers = {};
       if (token) {
         headers['Authorization'] = `Bearer ${token}`;
       }
-      const response = await fetch(`${apiBase}/api/v1/upload-pdf`, {
+
+      const response = await fetch(uploadUrl, {
         method: 'POST',
-        headers: headers,
+        headers,
         body: formData,
       });
 
@@ -89,8 +95,9 @@ export default function PdfUploader({
       const resData = await response.json();
       setProgress(100);
 
-      // El backend retorna webViewLink como url completa al archivo subido
-      const publicUrl = resData.webViewLink || `${apiBase}/uploads/${resData.fileName}`;
+      // webViewLink = URL completa al archivo en el servidor local
+      const serverBase = apiBase || window.location.origin;
+      const publicUrl = resData.webViewLink || `${serverBase}/uploads/${resData.fileName}`;
 
       const result = {
         fileName:    resData.fileName || baseName,
