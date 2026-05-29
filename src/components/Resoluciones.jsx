@@ -74,37 +74,59 @@ function buildProgramaGroups(solicitudes, anioFiltro, tabMode) {
     }));
 }
 
-/** Build groups for CEI ascensos */
-function buildAscensoGroups(solicitudes, anioFiltro) {
+/** Build groups for CEI ascensos — agrupados por sesión CEI, sin filtro rígido de año */
+function buildAscensoGroups(solicitudes) {
+  // Todos los ascensos aprobados por CEI (el año de la sesión no coincide con el año
+  // del ID/fecha del solicitante, por eso no filtramos por anioFiltro aquí)
   const elegibles = solicitudes.filter(s => {
     if (s.tipo !== 'ascenso') return false;
     if (s.estado !== 'aprobado_cei' && s.estado !== 'aprobado') return false;
     if (s.id && s.id.startsWith('HIST-')) return false;
-    const info = (() => { try { return JSON.parse(s.notas || '{}'); } catch { return {}; } })();
-    const actaCeiStr = String(s.acta_cei || info.acta_cei || '');
-    const fechaStr = String(s.fecha || '');
-    const idStr = String(s.id || '');
-    return actaCeiStr.includes(anioFiltro) || fechaStr.startsWith(anioFiltro) || idStr.includes(anioFiltro);
+    return true;
   });
 
   const groups = {};
   elegibles.forEach(s => {
-    const prog = cleanProgramaName(s.programa);
     const info = (() => { try { return JSON.parse(s.notas || '{}'); } catch { return {}; } })();
-    const acta = (s.acta_cei || info.acta_cei || '').trim();
-    if (!groups[prog]) groups[prog] = { programa: prog, actas: new Set(), solicitudes: [] };
-    groups[prog].solicitudes.push(s);
-    if (acta) groups[prog].actas.add(acta);
+    // sesion_cei_id es la clave real en BD; si no tiene, agrupamos como "sin sesión"
+    const sessionKey = s.sesion_cei_id ? String(s.sesion_cei_id) : 'sin_sesion';
+    const actaLabel  = info.acta_cei || s.acta_cei || '';
+    if (!groups[sessionKey]) {
+      groups[sessionKey] = {
+        key: sessionKey,
+        sesion_id: s.sesion_cei_id || null,
+        acta_label: actaLabel,
+        solicitudes: []
+      };
+    }
+    // Actualizar el acta_label si ahora tenemos uno mejor
+    if (!groups[sessionKey].acta_label && actaLabel) {
+      groups[sessionKey].acta_label = actaLabel;
+    }
+    groups[sessionKey].solicitudes.push(s);
   });
 
   return Object.values(groups)
-    .sort((a, b) => a.programa.localeCompare(b.programa))
-    .map(g => ({
-      key: g.programa,
-      programa: g.programa,
-      actas: Array.from(g.actas).join(', '),
-      solicitudes: g.solicitudes.sort((a, b) => (a.docente || '').localeCompare(b.docente || ''))
-    }));
+    .sort((a, b) => {
+      // Ordenar: primero los que tienen sesión (por ID desc), luego sin sesión
+      if (!a.sesion_id && b.sesion_id) return 1;
+      if (a.sesion_id && !b.sesion_id) return -1;
+      return Number(b.sesion_id) - Number(a.sesion_id);
+    })
+    .map(g => {
+      const label = g.acta_label
+        ? `CEI — Acta ${g.acta_label}`
+        : g.sesion_id
+          ? `CEI Sesión #${g.sesion_id}`
+          : 'Sin sesión CEI asignada';
+      return {
+        key: g.key,
+        programa: label,         // reutilizamos campo "programa" como título del grupo
+        actas: g.acta_label,
+        sesion_id: g.sesion_id,
+        solicitudes: g.solicitudes.sort((a, b) => (a.docente || '').localeCompare(b.docente || ''))
+      };
+    });
 }
 
 // ── Programa accordion ───────────────────────────────────────────────────────
@@ -228,7 +250,7 @@ export default function Resoluciones({ solicitudes, onSelect }) {
   const [tab, setTab] = useState('productividad'); // 'productividad' | 'experiencia' | 'ascensos'
   
   const programaGroups = tab === 'ascensos'
-    ? buildAscensoGroups(solicitudes, anioFiltro)
+    ? buildAscensoGroups(solicitudes)
     : buildProgramaGroups(solicitudes, anioFiltro, tab);
   const [buscar, setBuscar] = useState('');
 
@@ -260,7 +282,11 @@ export default function Resoluciones({ solicitudes, onSelect }) {
             🏛️ Resoluciones Semestrales
           </h2>
           <p style={{ color: '#555', fontSize: 13, margin: 0 }}>
-            Agrupadas por <strong>Programa Académico</strong> · {totalElegibles} productos en {anioFiltro}
+            {tab === 'ascensos' ? (
+              <>Agrupadas por <strong>Sesión de Comité Evaluador Institucional (CEI)</strong> · {totalElegibles} ascensos totales (histórico)</>
+            ) : (
+              <>Agrupadas por <strong>Programa Académico</strong> · {totalElegibles} productos en {anioFiltro}</>
+            )}
           </p>
         </div>
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
