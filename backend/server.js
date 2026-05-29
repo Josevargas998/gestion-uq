@@ -823,14 +823,16 @@ app.get('/api/sesiones-ciarp/:id/informe', async (req, res, next) => {
   try {
     const { rows: sesRows } = await query('SELECT * FROM sesiones_ciarp WHERE id = $1', [req.params.id]);
     if (!sesRows.length) return res.status(404).json({ error: 'Sesión no encontrada' });
+    const acta = sesRows[0].acta_label;
     const { rows } = await query(`
       SELECT s.*, COALESCE(d.nombre, s.docente) AS nombre_docente,
              d.programa, d.facultad
       FROM solicitudes s
       LEFT JOIN docentes d ON s.cedula = d.cedula
       WHERE s.sesion_ciarp_id = $1
+         OR (s.acta_ciarp IS NOT NULL AND s.acta_ciarp = $2)
       ORDER BY s.tipo, s.docente
-    `, [req.params.id]);
+    `, [req.params.id, acta]);
     res.json({ sesion: sesRows[0], solicitudes: rows });
   } catch (err) { next(err); }
 });
@@ -963,9 +965,10 @@ app.get('/api/sesiones-cei/:id/informe', async (req, res, next) => {
              d.programa, d.facultad, d.categoria
       FROM solicitudes s
       LEFT JOIN docentes d ON s.cedula = d.cedula
-      WHERE s.sesion_cei_id = $1
+      WHERE s.sesion_cei_id = $1 
+         OR (s.notas IS NOT NULL AND s.notas::text LIKE '%"acta_cei":%' AND (s.notas::jsonb ->> 'acta_cei') = $2)
       ORDER BY s.docente
-    `, [req.params.id]);
+    `, [req.params.id, sesRows[0].acta_label]);
     res.json({ sesion: sesRows[0], solicitudes: rows });
   } catch (err) { next(err); }
 });

@@ -3,7 +3,7 @@ import {
   fetchSesionesCei, createSesionCei, getSiguienteNumeroCei,
   getInformeSesionCei, cerrarYAbrirSesionCei, deleteSesionCei
 } from '../utils/api.js';
-import { exportarCIARP } from '../utils/exportCiarp.js';
+import { exportarSesionCEI } from '../utils/exportCiarp.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
 import { useNotification } from '../context/NotificationContext.jsx';
 import ConfirmDialog from './ConfirmDialog.jsx';
@@ -766,9 +766,9 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
     setDescargando(prev => ({ ...prev, [sesion.id]: true }));
     try {
       const data = await getInformeSesionCei(sesion.id);
-      if (!data?.solicitudes?.length) { alert('Esta sesión no tiene solicitudes.'); return; }
-      exportarCIARP(data.solicitudes, `CEI ${sesion.acta_label}`);
-    } catch (err) { alert('Error: ' + err.message); }
+      if (!data?.solicitudes?.length) { alert('Esta sesión no tiene solicitudes vinculadas.'); return; }
+      exportarSesionCEI(data.solicitudes, data.sesion, `CEI_${sesion.acta_label}`);
+    } catch (err) { alert('Error al generar Excel: ' + err.message); }
     finally { setDescargando(prev => ({ ...prev, [sesion.id]: false })); }
   }
 
@@ -937,8 +937,7 @@ function PanelSesionesCei({ user, solicitudes = [], onSelect }) {
                 {isExpanded && (() => {
                   // Buscar por sesion_cei_id (con conversión de tipo) O por acta_cei en notas (fallback)
                   const solDeSesion = solicitudes.filter(r => {
-                    // Comparación numérica para evitar mismatch string vs number
-                    if (r.sesion_cei_id != null && Number(r.sesion_cei_id) === Number(s.id)) return true;
+                    if (r.sesion_cei_id != null && String(r.sesion_cei_id) === String(s.id)) return true;
                     // Fallback: comparar por acta_cei guardada en notas JSON
                     try {
                       const info = JSON.parse(r.notas || '{}');
@@ -1217,13 +1216,11 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
 
   // Sync acta_cei cuando cambia la sesión seleccionada
   const handleSesionChange = (id) => {
-    const numId = id ? Number(id) : null;
-    setSesionCeiId(numId);
-    if (!numId) {
+    setSesionCeiId(id || null);
+    if (!id) {
       setActaCei('');
     } else {
-      // Comparar como número para evitar mismatch string vs number
-      const selectedSes = sesiones.find(s => Number(s.id) === numId);
+      const selectedSes = sesiones.find(s => String(s.id) === String(id));
       if (selectedSes) {
         setActaCei(selectedSes.acta_label);
       }
@@ -1271,7 +1268,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
       etapa: nextEtapa,
       estado,
       pts_asig: ptsAsig !== '' ? Number(ptsAsig) : null,
-      sesion_cei_id: sesionCeiId ? Number(sesionCeiId) : null,
+      sesion_cei_id: sesionCeiId || null,
       acta_cei: actaCei,
       notas: nuevasNotas,
       docente,

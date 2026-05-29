@@ -416,3 +416,95 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
   const safeName = nombreActa.replace(/[^a-z0-9]/gi, '_').replace(/_+/g, '_');
   XLSX.writeFile(wb, `Informe_CIARP_${safeName}_${hoy}.xlsx`);
 }
+
+/**
+ * Exporta el Excel específico de una sesión CEI (Comité de Evaluación Institucional)
+ * con las solicitudes de ascenso vinculadas.
+ * @param {Array}  solicitudes  Lista de solicitudes de ascenso
+ * @param {Object} sesion       Datos de la sesión CEI
+ * @param {string} nombreActa   Ej: "CEI 3- 31/05/2026"
+ */
+export function exportarSesionCEI(solicitudes, sesion, nombreActa = '') {
+  const wb  = XLSX.utils.book_new();
+  const hoy = new Date().toISOString().slice(0, 10);
+  const v   = (val, fallback = '') => (val !== null && val !== undefined && val !== '') ? val : fallback;
+
+  const parsarNotas = (notas) => {
+    if (!notas) return {};
+    if (typeof notas === 'object') return notas;
+    try { return JSON.parse(notas); } catch { return {}; }
+  };
+
+  // ── HOJA 1: Resumen de la Sesión ───────────────────────────────────────────
+  const headerResumen = [
+    'NO', 'DOCUMENTO_IDENTIFICACIÓN', 'NOMBRE_DOCENTE', 'PROGRAMA_ACADÉMICO',
+    'FACULTAD', 'TIPO_CONTRATO', 'DEDICACIÓN', 'ESCOLARIDAD',
+    'CATEGORÍA_ACTUAL', 'CATEGORÍA_DESTINO',
+    'TIPO_TRABAJO', 'TÍTULO_TRABAJO',
+    'PAR_EVALUADOR_1', 'PAR_EVALUADOR_2',
+    'ESTADO', 'PUNTOS_ASIGNADOS',
+    'ACTA_CEI', 'RESOLUCIÓN_ASCENSO', 'OBSERVACIONES'
+  ];
+
+  const filasResumen = solicitudes.map((s, i) => {
+    const nt = parsarNotas(s.notas);
+    const pares = s.pares_ext ? (typeof s.pares_ext === 'string' ? (() => { try { return JSON.parse(s.pares_ext); } catch { return []; } })() : s.pares_ext) : [];
+    const par1 = pares[0]?.nombre || '';
+    const par2 = pares[1]?.nombre || '';
+    const estadoLabel = s.estado === 'aprobado_cei' || s.estado === 'aprobado' ? 'APROBADO'
+                      : s.estado === 'rechazado_cei' || s.estado === 'rechazado' ? 'NEGADO'
+                      : 'EN PROCESO';
+    return [
+      i + 1,
+      v(s.cedula),
+      v(s.docente, '').toUpperCase(),
+      v(s.programa || nt.programa),
+      v(s.facultad || nt.facultad),
+      v(nt.tipo_contrato),
+      v(nt.dedicacion),
+      v(nt.escolaridad),
+      v(nt.categoria_actual),
+      v(nt.categoria_destino),
+      v(nt.tipo_trabajo),
+      v(s.titulo),
+      par1,
+      par2,
+      estadoLabel,
+      v(s.pts_asig, ''),
+      v(s.acta_cei || nt.acta_cei || sesion?.acta_label),
+      v(nt.res_ascenso_cei),
+      v(nt.alertas),
+    ];
+  });
+
+  const wsResumen = XLSX.utils.aoa_to_sheet([headerResumen, ...filasResumen]);
+  wsResumen['!cols'] = headerResumen.map(() => ({ wch: 22 }));
+  XLSX.utils.book_append_sheet(wb, wsResumen, 'Sesión CEI');
+
+  // ── HOJA 2: Solo Aprobados ─────────────────────────────────────────────────
+  const aprobados = solicitudes.filter(s =>
+    s.estado === 'aprobado_cei' || s.estado === 'aprobado'
+  );
+  if (aprobados.length > 0) {
+    const wsApro = XLSX.utils.aoa_to_sheet([headerResumen, ...aprobados.map((s, i) => {
+      const nt = parsarNotas(s.notas);
+      const pares = s.pares_ext ? (typeof s.pares_ext === 'string' ? (() => { try { return JSON.parse(s.pares_ext); } catch { return []; } })() : s.pares_ext) : [];
+      return [
+        i + 1, v(s.cedula), v(s.docente, '').toUpperCase(),
+        v(s.programa || nt.programa), v(s.facultad || nt.facultad),
+        v(nt.tipo_contrato), v(nt.dedicacion), v(nt.escolaridad),
+        v(nt.categoria_actual), v(nt.categoria_destino),
+        v(nt.tipo_trabajo), v(s.titulo),
+        pares[0]?.nombre || '', pares[1]?.nombre || '',
+        'APROBADO', v(s.pts_asig, ''),
+        v(s.acta_cei || nt.acta_cei || sesion?.acta_label),
+        v(nt.res_ascenso_cei), v(nt.alertas),
+      ];
+    })]);
+    wsApro['!cols'] = headerResumen.map(() => ({ wch: 22 }));
+    XLSX.utils.book_append_sheet(wb, wsApro, 'Aprobados');
+  }
+
+  const safeName = nombreActa.replace(/[^a-z0-9]/gi, '_').replace(/_+/g, '_');
+  XLSX.writeFile(wb, `Informe_CEI_${safeName}_${hoy}.xlsx`);
+}
