@@ -147,7 +147,7 @@ export function normalizeRow(row) {
   if (!row) return null;
   return {
     id:             row.id,
-    docente:        cleanText(row.docente || 'Sin autor'),
+    docente:        formatName(cleanText(row.docente || 'Sin autor')),
     coautor:        cleanText(row.coautor || ''),
     cedula:         row.cedula          || '',
     programa:       cleanText(row.programa || 'Sin programa'),
@@ -230,7 +230,7 @@ export function normalizeDocente(row) {
   return {
     no:                row.no             || 0,
     cedula:            row.cedula         || '',
-    nombre:            cleanText(row.nombre || ''),
+    nombre:            formatName(cleanText(row.nombre || '')),
     facultad:          cleanText(row.facultad || ''),
     programa:          cleanText(row.programa || ''),
     categoria:         cleanText(row.categoria || ''),
@@ -331,7 +331,11 @@ export function cleanProgramaName(prog) {
 export function formatName(fullname) {
   if (!fullname) return '';
   const words = fullname.trim().split(' ').filter(w => w);
-  if (words.length <= 2) return fullname; // Ej: "Perez Juan"
+  if (words.length <= 1) return fullname;
+  
+  if (words.length === 2) {
+    return `${words[1]} ${words[0]}`;
+  }
   
   // Asumimos que los dos primeros son apellidos (común en BD de nómina)
   const surnames = words.slice(0, 2).join(' ');
