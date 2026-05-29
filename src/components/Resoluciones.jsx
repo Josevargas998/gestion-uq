@@ -14,14 +14,14 @@ function buildProgramaGroups(solicitudes, anioFiltro, tabMode) {
   const elegibles = solicitudes.filter(s => {
     if (!ETAPAS_RESOLUCION.includes(s.etapa)) return false;
     
-    // Solo solicitudes aprobadas van a resolución
-    if (s.estado !== 'aprobado') return false;
+    // Solo solicitudes aprobadas van a resolución (los ascensos pueden ser aprobado o aprobado_cei)
+    if (s.estado !== 'aprobado' && !(s.tipo === 'ascenso' && (s.estado === 'aprobado_cei' || s.estado === 'aprobado'))) return false;
 
     // Excluir importaciones históricas (las que ya tienen resolución previa)
     if (s.id && s.id.startsWith('HIST-')) return false;
 
     const isExperiencia = ['daa', 'ddd', 'exp_calificada'].includes(s.tipo);
-    if (tabMode === 'productividad' && isExperiencia) return false;
+    if (tabMode === 'productividad' && (isExperiencia || (s.tipo === 'ascenso' && !s.acta_ciarp))) return false;
     if (tabMode === 'experiencia' && !isExperiencia) return false;
 
     // Check if the approval or request year matches the filter
@@ -162,13 +162,21 @@ function ProgramaSection({ grupo, onSelect, isAscenso }) {
             {total} {isAscenso ? 'ascenso' : 'producto'}{total !== 1 ? 's' : ''} aprobado{total !== 1 ? 's' : ''}{!isAscenso ? ` · ${totalPts.toFixed(1)} puntos asignados en total` : ''}
           </div>
         </div>
-        {!isAscenso && (
+        {!isAscenso ? (
           <button
             className="btn btn-p btn-sm"
             onClick={e => { e.stopPropagation(); generarDocumento(grupo.tipoResolucion, [grupo]); }}
             style={{ fontSize: 12, padding: '8px 16px', background: '#1a5fa8' }}
           >
             📄 Exportar Resolución Consolidada
+          </button>
+        ) : (
+          <button
+            className="btn btn-p btn-sm"
+            onClick={e => { e.stopPropagation(); generarDocumento('resolucion_ascenso_cei', grupo.solicitudes); }}
+            style={{ fontSize: 12, padding: '8px 16px', background: '#0d3d6e' }}
+          >
+            📜 Res. Ascenso CEI
           </button>
         )}
       </div>
@@ -208,31 +216,12 @@ function ProgramaSection({ grupo, onSelect, isAscenso }) {
                   </div>
                 </div>
                 <div style={{ textAlign: 'right', flexShrink: 0 }}>
-                  {isAscenso ? (
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                      <button
-                        onClick={e => { e.stopPropagation(); generarDocumento('resolucion_ascenso_cei', s); }}
-                        style={{ padding: '6px 10px', borderRadius: 7, background: '#0d3d6e', color: '#fff', border: 'none', fontWeight: 700, fontSize: 11, cursor: 'pointer', whiteSpace: 'nowrap' }}
-                      >
-                        📜 Res. Ascenso CEI
-                      </button>
-                      <button
-                        onClick={e => { e.stopPropagation(); generarDocumento('resolucion_ciarp_ascenso', s); }}
-                        style={{ padding: '6px 10px', borderRadius: 7, background: '#166534', color: '#fff', border: 'none', fontWeight: 700, fontSize: 11, cursor: 'pointer', whiteSpace: 'nowrap' }}
-                      >
-                        📊 Res. CIARP Puntos
-                      </button>
-                    </div>
-                  ) : (
-                    <>
-                      <div style={{ fontWeight: 900, color: '#15803d', fontSize: 18 }}>
-                        {s.pts_asig != null ? `+${Number(s.pts_asig).toFixed(1)} pts` : '—'}
-                      </div>
-                      <span style={{ fontSize: 10, background: '#f3f4f6', color: '#4b5563', padding: '3px 8px', borderRadius: 99, fontWeight: 700, marginTop: 4, display: 'inline-block' }}>
-                        {labelEtapa(s.etapa)}
-                      </span>
-                    </>
-                  )}
+                  <div style={{ fontWeight: 900, color: '#15803d', fontSize: 18 }}>
+                    {s.pts_asig != null ? `+${Number(s.pts_asig).toFixed(1)} pts` : (isAscenso ? '—' : '—')}
+                  </div>
+                  <span style={{ fontSize: 10, background: '#f3f4f6', color: '#4b5563', padding: '3px 8px', borderRadius: 99, fontWeight: 700, marginTop: 4, display: 'inline-block' }}>
+                    {labelEtapa(s.etapa)}
+                  </span>
                 </div>
               </div>
             );

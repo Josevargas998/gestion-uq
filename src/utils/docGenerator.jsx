@@ -378,20 +378,13 @@ export function generarDocumento(tipo, sol) {
       `;
     }).join('');
   } else if (tipo === 'resolucion_ascenso_cei') {
-    // ── Resolución de Ascenso CEI ──────────────────────────────────────────────
-    // Solo habla del ascenso: de categoría X a categoría Y. Sin puntos.
-    const info = (() => { try { return JSON.parse(sol.notas || '{}'); } catch { return {}; } })();
-    const catActual  = (info.categoria_actual || 'ASISTENTE').toUpperCase();
-    const catNueva   = (info.categoria_nueva   || '').toUpperCase() || (() => {
-      const mapa = { AUXILIAR: 'ASISTENTE', ASISTENTE: 'ASOCIADO', ASOCIADO: 'TITULAR' };
-      return mapa[catActual] || '[NUEVA CATEGORÍA]';
-    })();
-    const dedicacion = info.dedicacion || 'tiempo completo';
-    const escolaridad = info.escolaridad || '';
-    const actaCei = (sol.acta_ciarp || info.acta_cei || '[NÚMERO ACTA CEI]').trim();
-    const esMujer = /a$/i.test((sol.docente || '').split(' ')[0]) || /a$/i.test(sol.docente || '');
+    // ── Resolución de Ascenso CEI (Múltiples docentes) ──────────────────────
+    const ascensos = Array.isArray(sol) ? sol : [sol];
+    const firstInfo = ascensos.length > 0 ? (() => { try { return JSON.parse(ascensos[0].notas || '{}'); } catch { return {}; } })() : {};
+    const actaCei = ascensos.length > 0 ? (ascensos[0].acta_ciarp || firstInfo.acta_cei || '[NÚMERO ACTA CEI]').trim() : '[NÚMERO ACTA CEI]';
+    const n2w = ['CERO', 'PRIMERO', 'SEGUNDO', 'TERCERO', 'CUARTO', 'QUINTO', 'SEXTO', 'SÉPTIMO', 'OCTAVO', 'NOVENO', 'DÉCIMO', 'UNDÉCIMO', 'DUODÉCIMO', 'DECIMOTERCERO', 'DECIMOCUARTO', 'DECIMOQUINTO'];
 
-    titulo = 'Resolución Rectoral de Ascenso en el Escalafón (CEI)';
+    titulo = 'Resolución Rectoral de Ascensos en el Escalafón (CEI)';
     contenido = `
       <div style="font-family: Arial, sans-serif;">
         <div class="header" style="text-align: center; margin-bottom: 30px;">
@@ -399,7 +392,7 @@ export function generarDocumento(tipo, sol) {
           <h3 style="margin-bottom: 5px; font-size: 16px;">RESOLUCIÓN No. _________</h3>
           <p style="margin-top: 0; font-size: 14px;">( ____________ )</p>
           <p style="font-weight: bold; margin-top: 20px; font-size: 14px; text-align: center; text-transform: uppercase;">
-            "POR MEDIO DE LA CUAL SE RECONOCE EL ASCENSO EN EL ESCALAFÓN DOCENTE DE ${(sol.docente || '').toUpperCase()} DEL PROGRAMA DE ${cleanProgramaName(sol.programa).toUpperCase()}"
+            "POR MEDIO DE LA CUAL SE RECONOCEN ASCENSOS EN EL ESCALAFÓN DE DOCENTES DE LA UNIVERSIDAD DEL QUINDÍO"
           </p>
         </div>
         <div class="body-text" style="text-align: justify; font-size: 12px; line-height: 1.5;">
@@ -412,15 +405,29 @@ export function generarDocumento(tipo, sol) {
           <p style="margin-bottom: 10px;"><strong>C.</strong> Que el Decreto No. 1279 de 2002, establece el régimen salarial y prestacional de los docentes de las universidades estatales, y en sus artículos 6°, 12°, 17° y 18°, consagra los factores que deben tenerse en cuenta para determinar los puntos salariales que constituyen la base de la remuneración mensual de los docentes asimilados a tal norma.</p>
           <p style="margin-bottom: 10px;"><strong>D.</strong> Que el Consejo Superior de la Universidad del Quindío mediante Acuerdo No. 121 del 28 de septiembre de 2021 estableció el Comité de Evaluación Institucional (C.E.I.), órgano encargado de estudiar, evaluar y recomendar la aprobación de los ascensos en el escalafón de los docentes de planta de la Universidad del Quindío, de conformidad con lo establecido en el Decreto 1279 de 2002.</p>
           <p style="margin-bottom: 10px;"><strong>E.</strong> Que el artículo 70 del Decreto 1279 de 2002 señala los requisitos para el ascenso en el escalafón docente, indicando los títulos, la experiencia y la producción académica o artística requeridos para pasar de una categoría a otra.</p>
-          <p style="margin-bottom: 10px;"><strong>F.</strong> Que el Comité de Evaluación Institucional (C.E.I.), conforme lo dispuesto en el Acuerdo del Consejo Superior No. 121 del 28 de septiembre de 2021, en sesión del <strong>[FECHA DE SESIÓN CEI]</strong> según consta en Acta No. <strong>${actaCei}</strong>, aprobó el ascenso en el escalafón docente de <strong>${(sol.docente || '').toUpperCase()}</strong>, de la categoría <strong>${catActual}</strong> a la categoría <strong>${catNueva}</strong>.</p>
-          <p style="margin-bottom: 10px;"><strong>G.</strong> Que se hace necesario la expedición del correspondiente acto administrativo por medio del cual se reconozca el ascenso en el escalafón docente.</p>
+          <p style="margin-bottom: 10px;"><strong>F.</strong> Que el Comité de Evaluación Institucional (C.E.I.), conforme lo dispuesto en el Acuerdo del Consejo Superior No. 121 del 28 de septiembre de 2021, en sesión del <strong>[FECHA DE SESIÓN CEI]</strong> según consta en Acta No. <strong>${actaCei}</strong>, aprobó el ascenso en el escalafón docente de los profesores relacionados en la parte resolutiva del presente acto administrativo.</p>
+          <p style="margin-bottom: 10px;"><strong>G.</strong> Que se hace necesario la expedición del correspondiente acto administrativo por medio del cual se reconozcan dichos ascensos en el escalafón docente.</p>
           <p style="margin-bottom: 10px;"><strong>H.</strong> Que, en mérito de lo expuesto, el Rector,</p>
 
           <h3 style="text-align: center; margin-top: 20px; font-size: 14px;">RESUELVE</h3>
 
-          <p style="margin-top: 15px;"><strong>ARTÍCULO PRIMERO:</strong> Reconocer el ascenso en el escalafón docente de l${esMujer ? 'a profesora' : 'el profesor'} <strong>${(sol.docente || '').toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${sol.cedula || '_________'} de _________; con dedicación de ${dedicacion.toLowerCase()}${escolaridad ? `, con título de ${escolaridad}` : ''}, de la categoría de Profesor <strong>${catActual}</strong> a la categoría de Profesor <strong>${catNueva}</strong>, de conformidad con lo establecido en el Decreto 1279 de 2002 y el trabajo presentado denominado: <em>"${sol.titulo || '[TÍTULO DEL TRABAJO]'}"</em>.</p>
-          <p><strong>ARTÍCULO SEGUNDO:</strong> Autorícese a la Vicerrectoría Administrativa y a la Dirección de Gestión Humana, para que tomen las medidas administrativas y financieras necesarias, que permitan el cumplimiento del presente acto administrativo, una vez quede ejecutoriado.</p>
-          <p><strong>ARTÍCULO TERCERO:</strong> La presente resolución rige a partir de la fecha de su expedición y contra ella procede el Recurso de Reposición, el cual deberá ser presentado dentro de los diez (10) días hábiles siguientes al acto de su notificación.</p>
+          ${ascensos.map((s, index) => {
+            const info = (() => { try { return JSON.parse(s.notas || '{}'); } catch { return {}; } })();
+            const catActual  = (info.categoria_actual || 'ASISTENTE').toUpperCase();
+            const catNueva   = (info.categoria_nueva   || '').toUpperCase() || (() => {
+              const mapa = { AUXILIAR: 'ASISTENTE', ASISTENTE: 'ASOCIADO', ASOCIADO: 'TITULAR' };
+              return mapa[catActual] || '[NUEVA CATEGORÍA]';
+            })();
+            const dedicacion = info.dedicacion || 'tiempo completo';
+            const escolaridad = info.escolaridad || '';
+            const esMujer = /a$/i.test((s.docente || '').split(' ')[0]) || /a$/i.test(s.docente || '');
+            const ordinal = index + 1 < n2w.length ? n2w[index + 1] : `VIGÉSIMO`;
+
+            return `<p style="margin-top: 15px;"><strong>ARTÍCULO ${ordinal}:</strong> Reconocer el ascenso en el escalafón docente de l${esMujer ? 'a profesora' : 'el profesor'} <strong>${(s.docente || '').toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${s.cedula || '_________'} de _________; con dedicación de ${dedicacion.toLowerCase()}${escolaridad ? `, con título de ${escolaridad}` : ''}, del Programa de ${cleanProgramaName(s.programa).toUpperCase()}, de la categoría de Profesor <strong>${catActual}</strong> a la categoría de Profesor <strong>${catNueva}</strong>, de conformidad con lo establecido en el Decreto 1279 de 2002 y el trabajo presentado denominado: <em>"${s.titulo || '[TÍTULO DEL TRABAJO]'}"</em>.</p>`;
+          }).join('')}
+
+          <p><strong>ARTÍCULO ${ascensos.length + 1 < n2w.length ? n2w[ascensos.length + 1] : 'SIGUIENTE'}:</strong> Autorícese a la Vicerrectoría Administrativa y a la Dirección de Gestión Humana, para que tomen las medidas administrativas y financieras necesarias, que permitan el cumplimiento del presente acto administrativo, una vez quede ejecutoriado.</p>
+          <p><strong>ARTÍCULO ${ascensos.length + 2 < n2w.length ? n2w[ascensos.length + 2] : 'SIGUIENTE_DOS'}:</strong> La presente resolución rige a partir de la fecha de su expedición y contra ella procede el Recurso de Reposición, el cual deberá ser presentado dentro de los diez (10) días hábiles siguientes al acto de su notificación.</p>
 
           <h3 style="text-align: center; margin-top: 30px; font-size: 14px;">NOTIFÍQUESE, COMUNÍQUESE Y CÚMPLASE</h3>
           <p style="margin-top: 20px;">Dada en Armenia (Quindío) a los _______________________.</p>
@@ -460,105 +467,7 @@ export function generarDocumento(tipo, sol) {
       </div>
     `;
 
-  } else if (tipo === 'resolucion_ciarp_ascenso') {
-    // ── Resolución CIARP que aprueba puntos por el ascenso ─────────────────────
-    // Menciona el ascenso Y los puntos obtenidos (título académico de la nueva categoría).
-    const info = (() => { try { return JSON.parse(sol.notas || '{}'); } catch { return {}; } })();
-    const catActual  = (info.categoria_actual || 'ASISTENTE').toUpperCase();
-    const catNueva   = (info.categoria_nueva   || '').toUpperCase() || (() => {
-      const mapa = { AUXILIAR: 'ASISTENTE', ASISTENTE: 'ASOCIADO', ASOCIADO: 'TITULAR' };
-      return mapa[catActual] || '[NUEVA CATEGORÍA]';
-    })();
-    const dedicacion = info.dedicacion || 'tiempo completo';
-    const ptsAsig = sol.pts_asig != null ? Number(sol.pts_asig) : (Number(sol.pts_sug) || 0);
-    const ptsBase = Math.max(0, (sol.docente_pts_acumulados != null ? Number(sol.docente_pts_acumulados) : 0) - ptsAsig);
-    const actaCei = (sol.acta_ciarp || info.acta_cei || '[NÚMERO ACTA CEI]').trim();
-    const actaCiarp = (info.acta_ciarp_puntos || '[NÚMERO ACTA CIARP]').trim();
-    const esMujer = /a$/i.test((sol.docente || '').split(' ')[0]) || /a$/i.test(sol.docente || '');
-    const year = new Date().getFullYear();
 
-    titulo = 'Resolución CIARP — Puntos por Ascenso en el Escalafón';
-    contenido = `
-      <div style="font-family: Arial, sans-serif;">
-        <div class="header" style="text-align: center; margin-bottom: 30px;">
-          <h3 style="margin-bottom: 5px; font-size: 16px;">RECTORÍA</h3>
-          <h3 style="margin-bottom: 5px; font-size: 16px;">RESOLUCIÓN No. _________</h3>
-          <p style="margin-top: 0; font-size: 14px;">( ____________ )</p>
-          <p style="font-weight: bold; margin-top: 20px; font-size: 14px; text-align: center; text-transform: uppercase;">
-            "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES AL DOCENTE ${(sol.docente || '').toUpperCase()} DEL PROGRAMA DE ${cleanProgramaName(sol.programa).toUpperCase()}, POR ASCENSO EN EL ESCALAFÓN DOCENTE, CONFORME AL DECRETO 1279 DE 2002"
-          </p>
-        </div>
-        <div class="body-text" style="text-align: justify; font-size: 12px; line-height: 1.5;">
-          <p>El Rector de la Universidad del Quindío, de conformidad con sus facultades legales y estatutarias, especialmente las conferidas en los Acuerdos del Consejo Superior Nos. 121 del 28 de septiembre de 2021, 005 del 28 de febrero de 2005, 012 del 28 de agosto de 2009, modificado por el acuerdo 104 del 9 de diciembre del 2020 y 133 del 14 de junio del año 2022, y,</p>
-
-          <h3 style="text-align: center; margin-top: 20px; font-size: 14px;">CONSIDERANDO:</h3>
-
-          <p style="margin-bottom: 10px;"><strong>A.</strong> Que la Autonomía Universitaria es una facultad reconocida mediante la Constitución Política, que se traduce en el reconocimiento que el Constituyente hizo de la libertad jurídica que tienen las instituciones de Educación Superior reconocidas como Universidades, para autogobernarse y auto determinarse, en el marco de las limitaciones que el mismo ordenamiento superior y la Ley les señalen.</p>
-          <p style="margin-bottom: 10px;"><strong>B.</strong> Que, con fundamento en el Derecho Universitario, el sentido de la autonomía no es otro que brindar a las universidades la discrecionalidad necesaria para desarrollar el contenido académico, administrativo y financiero de acuerdo con las múltiples capacidades creativas de aquellas, con el límite que encuentra dicha autonomía en el orden público, el interés general y el bien común.</p>
-          <p style="margin-bottom: 10px;"><strong>C.</strong> Que el Decreto No. 1279 de 2002, establece el régimen salarial y prestacional de los docentes de las universidades estatales, y en sus artículos 6°, 12°, 17° y 18°, consagra los factores que deben tenerse en cuenta para determinar los puntos salariales que constituyen la base de la remuneración mensual de los docentes asimilados a tal norma.</p>
-          <p style="margin-bottom: 10px;"><strong>D.</strong> Que el Consejo Superior de la Universidad del Quindío mediante Acuerdo No. 012 del 28 de agosto del 2009 derogó el Acuerdo del Consejo Superior No. 019 de 2002 norma que preceptuó en su artículo primero lo siguiente: "para la asignación y reconocimiento de bonificaciones de puntos salariales por títulos, categorías, experiencia calificada, cargos académico-administrativos, desempeño en docencia y extensión y el reconocimiento de los puntos salariales asignados a la producción académica por los pares externos, en cumplimiento de lo dispuesto en el Decreto 1279 de 2002; se establece un Comité Interno de Asignación y Reconocimiento de Puntaje (…)", el cual fue adicionado mediante el artículo primero del Acuerdo del Consejo Superior No. 104 del 9 de diciembre del 2020.</p>
-          <p style="margin-bottom: 10px;"><strong>E.</strong> Que el Comité de Evaluación Institucional (C.E.I.), conforme lo dispuesto en el Acuerdo del Consejo Superior No. 121 del 28 de septiembre de 2021, en sesión del <strong>[FECHA DE SESIÓN CEI]</strong> según consta en Acta No. <strong>${actaCei}</strong>, aprobó el ascenso en el escalafón docente de <strong>${(sol.docente || '').toUpperCase()}</strong>, de la categoría <strong>${catActual}</strong> a la categoría <strong>${catNueva}</strong>.</p>
-          <p style="margin-bottom: 10px;"><strong>F.</strong> Que el Comité Interno de Asignación y Reconocimiento de Puntaje (C.I.A.R.P), conforme lo dispuesto en el Acuerdo del Consejo Superior No. 012 de 2009, y Acuerdo del Consejo Superior No. 104 del 9 de diciembre del 2020, en sesión del <strong>[FECHA DE SESIÓN CIARP]</strong> según consta en Acta No. <strong>${actaCiarp}</strong>, aprobó la asignación y reconocimiento de puntos salariales a <strong>${(sol.docente || '').toUpperCase()}</strong>, por el ascenso en el escalafón docente de la categoría ${catActual} a la categoría ${catNueva}.</p>
-          <p style="margin-bottom: 10px;"><strong>G.</strong> Que el parágrafo III del Artículo 12 del Decreto 1279 del año 2002, establece que: "Las modificaciones salariales tienen efecto a partir de la fecha en que el Comité Interno de Asignación y Reconocimiento de Puntaje, o el órgano que haga sus veces en cada una de las universidades, expida el acto formal de reconocimiento, de los puntos salariales asignados en el marco del presente Decreto".</p>
-          <p style="margin-bottom: 10px;"><strong>H.</strong> Que se hace necesario la expedición del correspondiente acto administrativo por medio del cual se asignen y reconozcan los correspondientes puntos salariales.</p>
-          <p style="margin-bottom: 10px;"><strong>I.</strong> Que, en mérito de lo expuesto, el Rector,</p>
-
-          <h3 style="text-align: center; margin-top: 20px; font-size: 14px;">RESUELVE</h3>
-
-          <p style="margin-top: 15px; margin-bottom: 20px;"><strong>ARTÍCULO PRIMERO:</strong> Asignar y reconocer puntos salariales con fundamento en el contenido de la parte considerativa del presente acto administrativo, a l${esMujer ? 'a profesora' : 'el profesor'} <strong>${(sol.docente || '').toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${sol.cedula || '_________'} de _________; con dedicación de ${dedicacion.toLowerCase()}, <strong>${((ptsBase) + ptsAsig).toFixed(1)} puntos</strong> a partir del 1º de enero del año ${year}, distribuidos así:</p>
-
-          <table style="margin-left: 0; width: 70%; font-size: 12px; border-collapse: collapse; margin-bottom: 10px;">
-            <tr>
-              <td style="padding: 2px 0;">Puntaje Res. [RES_ANTERIOR] / [FECHA_RES_ANTERIOR]</td>
-              <td style="padding: 2px 0; text-align: right;">${ptsBase.toFixed(1)} Puntos</td>
-            </tr>
-            <tr>
-              <td style="padding: 2px 0;">Categoría Docente — Ascenso de ${catActual} a ${catNueva}</td>
-              <td style="padding: 2px 0; text-align: right;">${ptsAsig.toFixed(1)} Puntos</td>
-            </tr>
-          </table>
-
-          <p><strong>ARTÍCULO SEGUNDO:</strong> Autorícese a la Vicerrectoría Administrativa y a la Dirección de Gestión Humana, para que tomen las medidas administrativas y financieras necesarias, que permitan el cumplimiento del presente acto administrativo, una vez quede ejecutoriado.</p>
-          <p><strong>ARTÍCULO TERCERO:</strong> La presente resolución rige a partir de la fecha de su expedición y produce efectos fiscales desde el primero (1) de enero del año dos mil veinticinco (${year}).</p>
-          <p><strong>ARTÍCULO CUARTO:</strong> Contra el presente acto administrativo, procede el recurso de reposición, el cual deberá ser presentado dentro de los diez (10) días hábiles siguientes al acto de su notificación.</p>
-
-          <h3 style="text-align: center; margin-top: 30px; font-size: 14px;">NOTIFÍQUESE, COMUNÍQUESE Y CÚMPLASE</h3>
-          <p style="margin-top: 20px;">Dada en Armenia (Quindío) a los _______________________.</p>
-        </div>
-
-        <div class="firma" style="margin-top: 50px; font-family: Arial, sans-serif;">
-          __________________________________<br/>
-          <strong>LUIS FERNANDO POLANÍA OBANDO</strong><br/>
-          Rector
-        </div>
-
-        <div style="margin-top: 50px; font-family: Arial, sans-serif; font-size: 10px;">
-          <table style="width: 100%; border-collapse: collapse;">
-            <tr style="border: 1px solid #000; background: #f9f9f9;">
-              <th style="border: 1px solid #000; padding: 5px; width: 15%;">ROLES</th>
-              <th style="border: 1px solid #000; padding: 5px; width: 45%;">NOMBRES Y APELLIDOS</th>
-              <th style="border: 1px solid #000; padding: 5px; width: 40%;">FIRMA</th>
-            </tr>
-            <tr style="border: 1px solid #000;">
-              <td style="border: 1px solid #000; padding: 5px; font-weight: bold;">PROYECTÓ<br/>ELABORÓ</td>
-              <td style="border: 1px solid #000; padding: 5px;">Lina Marcela Cruz Calderón / Técnico Oficina de Asuntos Profesorales</td>
-              <td style="border: 1px solid #000; padding: 5px;"></td>
-            </tr>
-            <tr style="border: 1px solid #000;">
-              <td style="border: 1px solid #000; padding: 5px; font-weight: bold;">REVISÓ<br/>Jurídica</td>
-              <td style="border: 1px solid #000; padding: 5px;">Víctor Alfonso Vélez Muñoz / Jefe Oficina Asesora Jurídica</td>
-              <td style="border: 1px solid #000; padding: 5px;"></td>
-            </tr>
-            <tr style="border: 1px solid #000;">
-              <td style="border: 1px solid #000; padding: 5px; font-weight: bold;">APROBÓ</td>
-              <td style="border: 1px solid #000; padding: 5px;">Luz Amparo Celis Buriticá / Jefe Oficina de Asuntos Profesorales</td>
-              <td style="border: 1px solid #000; padding: 5px;"></td>
-            </tr>
-          </table>
-          <p style="text-align: justify; margin-top: 8px; font-style: italic; color: #555;">Los arriba firmantes declaramos que hemos revisado el presente documento y soportes y lo encontramos ajustado en términos técnicos y administrativos; así como a las normas y disposiciones legales vigentes y por lo tanto, bajo nuestra responsabilidad, lo presentamos para la firma del Rector de la institución.</p>
-        </div>
-      </div>
-    `;
 
   } else if (tipo === 'resolucion_pares') {
     titulo = 'Resolución Designación de Pares';
