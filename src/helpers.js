@@ -138,6 +138,12 @@ export function cleanText(str) {
     .replace(/Semiolog\ud860/g, 'Semiología ');
 }
 
+export function formatProgramaName(prog) {
+  let p = cleanText(prog || 'Sin programa');
+  if (p === 'Sin programa') return p;
+  return p.replace(/^DIRECCI[OÓ]N\s+(DEL\s+)?PROGRAMA\s+(DE\s+)?/i, 'PROGRAMA DE ');
+}
+
 /**
  * Normaliza los datos de una solicitud/fila provenientes de la BD para la app.
  * @param {Object} row - Objeto crudo de la base de datos.
@@ -150,7 +156,7 @@ export function normalizeRow(row) {
     docente:        formatName(cleanText(row.docente || 'Sin autor')),
     coautor:        cleanText(row.coautor || ''),
     cedula:         row.cedula          || '',
-    programa:       cleanText(row.programa || 'Sin programa'),
+    programa:       formatProgramaName(row.programa),
     facultad:       cleanText(row.facultad || 'Sin facultad'),
     docente_pts_acumulados: row.docente_pts_acumulados !== undefined ? Number(row.docente_pts_acumulados) : null,
     docente_pts_titulos_exp: row.docente_pts_titulos_exp !== undefined ? Number(row.docente_pts_titulos_exp) : null,
@@ -232,7 +238,7 @@ export function normalizeDocente(row) {
     cedula:            row.cedula         || '',
     nombre:            formatName(cleanText(row.nombre || '')),
     facultad:          cleanText(row.facultad || ''),
-    programa:          cleanText(row.programa || ''),
+    programa:          formatProgramaName(row.programa),
     categoria:         cleanText(row.categoria || ''),
     escolaridad,
     especializacion,

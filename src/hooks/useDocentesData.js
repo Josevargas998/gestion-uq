@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { fetchDocentes, fetchDocentePorCedula } from '../utils/api.js';
-import { normalizeDocente, formatName } from '../helpers.js';
+import { normalizeDocente, formatName, formatProgramaName } from '../helpers.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
 import { TIPOS } from '../data.js';
 
@@ -25,6 +25,7 @@ export function useDocentesIndex() {
         const mapped = (rows || []).map(r => ({
           ...r,
           nombre: formatName(r.nombre || ''),
+          programa: formatProgramaName(r.programa),
           categoriaActual: r.categoria || '',
           tipoDoc: 'CC',
           fechaIngreso: r.fecha_ingreso || '',
