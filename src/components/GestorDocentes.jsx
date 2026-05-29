@@ -456,6 +456,22 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
     [detalles, currentYear]
   );
 
+  const topeVideosCount = useMemo(
+    () => detalles.filter(d => isRealAprobado(d) && d.tipo === 'video' && (d.fecha || d.created_at || '').startsWith(currentYear)).length,
+    [detalles, currentYear]
+  );
+
+  const topePonenciasCount = useMemo(
+    () => detalles.filter(d => isRealAprobado(d) && d.tipo === 'ponencia' && (d.fecha || d.created_at || '').startsWith(currentYear)).length,
+    [detalles, currentYear]
+  );
+
+  const topeArtNICount = useMemo(
+    () => detalles.filter(d => isRealAprobado(d) && d.tipo === 'articulo_no_indexado' && (d.fecha || d.created_at || '').startsWith(currentYear)).length,
+    [detalles, currentYear]
+  );
+
+
   // Agrupar aprobaciones por sesión CIARP
   const porCiarp = useMemo(() => {
     const groups = {};
@@ -618,15 +634,36 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
         {/* Topes subcategoría libros */}
         <div style={{ background: '#f9fafb', borderRadius: 10, padding: '12px 16px', border: '1px solid #e5e7eb' }}>
           <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Libros {currentYear} (máx 35)</div>
-          <div style={{ fontSize: 20, fontWeight: 900, color: topeLibrosCalc > 35 ? '#dc2626' : topeLibrosCalc > 0 ? '#6366f1' : '#aaa' }}>
-            {topeLibrosCalc > 0 ? `${topeLibrosCalc.toFixed(1)} pts` : '—'}
+          <div style={{ fontSize: 20, fontWeight: 900, color: topeLibrosCalc >= 35 ? '#dc2626' : topeLibrosCalc > 0 ? '#6366f1' : '#aaa' }}>
+            {topeLibrosCalc > 0 ? `${topeLibrosCalc.toFixed(1)} pts` : '0 pts'}
           </div>
         </div>
         {/* Topes subcategoría software */}
         <div style={{ background: '#f9fafb', borderRadius: 10, padding: '12px 16px', border: '1px solid #e5e7eb' }}>
           <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Software {currentYear} (máx 35)</div>
-          <div style={{ fontSize: 20, fontWeight: 900, color: topeSoftwareCalc > 35 ? '#dc2626' : topeSoftwareCalc > 0 ? '#f59e0b' : '#aaa' }}>
-            {topeSoftwareCalc > 0 ? `${topeSoftwareCalc.toFixed(1)} pts` : '—'}
+          <div style={{ fontSize: 20, fontWeight: 900, color: topeSoftwareCalc >= 35 ? '#dc2626' : topeSoftwareCalc > 0 ? '#f59e0b' : '#aaa' }}>
+            {topeSoftwareCalc > 0 ? `${topeSoftwareCalc.toFixed(1)} pts` : '0 pts'}
+          </div>
+        </div>
+        {/* Topes Audiovisuales */}
+        <div style={{ background: '#f9fafb', borderRadius: 10, padding: '12px 16px', border: '1px solid #e5e7eb' }}>
+          <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Videos {currentYear} (máx 5)</div>
+          <div style={{ fontSize: 20, fontWeight: 900, color: topeVideosCount >= 5 ? '#dc2626' : topeVideosCount > 0 ? '#10b981' : '#aaa' }}>
+            {topeVideosCount} un.
+          </div>
+        </div>
+        {/* Topes Ponencias */}
+        <div style={{ background: '#f9fafb', borderRadius: 10, padding: '12px 16px', border: '1px solid #e5e7eb' }}>
+          <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Ponencias {currentYear} (máx 3)</div>
+          <div style={{ fontSize: 20, fontWeight: 900, color: topePonenciasCount >= 3 ? '#dc2626' : topePonenciasCount > 0 ? '#8b5cf6' : '#aaa' }}>
+            {topePonenciasCount} un.
+          </div>
+        </div>
+        {/* Topes Art. No Index */}
+        <div style={{ background: '#f9fafb', borderRadius: 10, padding: '12px 16px', border: '1px solid #e5e7eb' }}>
+          <div style={{ fontSize: 10, color: '#888', fontWeight: 600, textTransform: 'uppercase', marginBottom: 4 }}>Art. No Index. {currentYear} (máx 5)</div>
+          <div style={{ fontSize: 20, fontWeight: 900, color: topeArtNICount >= 5 ? '#dc2626' : topeArtNICount > 0 ? '#ec4899' : '#aaa' }}>
+            {topeArtNICount} un.
           </div>
         </div>
       </div>

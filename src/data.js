@@ -18,32 +18,39 @@ export const ROL_COLORS = {
   docente:   { bg: '#15803d', light: '#f0fdf4', text: '#fff', label: 'Docente' },
 };
 
+// ── Clasificación según Decreto 1279 ──────────────────────────────────────────
+// esBonificacion: pago único, NO suma al salario permanente ni al tope de productividad
+//   (ponencias: máx 3/año | artículos no indexados: máx 5/año | tesis, posdoctorado: sin límite)
+// esExcepcion: SÍ suma al salario total pero NO al tope de productividad (DAA, DDD, Exp. Calificada)
+// grupoLimite: 'libros' — el límite de 35 pts/año es combinado entre todos los tipos de libro
+// limitePtsAnual: límite de puntos por año para ese tipo/grupo
+// limiteAnualCount: límite de cantidad de productos por año
 export const TIPOS = {
-  articulo_indexado:    { label: 'Artículos Indexados',      pts: 0, ruta: 'directo',         icon: '📰', desc: 'Categoría evaluada en Informe CIARP' },
-  articulo_no_indexado: { label: 'Artículos No Indexados',   pts: 0, ruta: 'directo',         icon: '📰', desc: 'Sin indexar o divulgación' },
-  libro_texto:          { label: 'Libro de Texto',            pts: 15, ruta: 'internos',        icon: '📘', consejo: 'Consejo Curricular', desc: 'Con evaluación interna' },
-  libro_ensayo:         { label: 'Libro de Ensayo',           pts: 15, ruta: 'internos',        icon: '📙', consejo: 'Consejo de Facultad', desc: 'Con evaluación interna' },
-  libro_investigacion:  { label: 'Libro de Investigación',   pts: 20, ruta: 'externos',        icon: '📗', desc: 'Solo pares externos' },
-  software:             { label: 'Producción de Software',    pts: 15, ruta: 'internos',        icon: '💻', consejo: 'Consejo Técnico Software', desc: 'Con evaluación interna' },
-  produccion_tecnica:   { label: 'Producción Técnica',        pts: 15, ruta: 'externos',        icon: '🔧', desc: 'Solo pares externos' },
-  obra_artistica:       { label: 'Obra Artística',            pts: 20, ruta: 'externos',        icon: '🎨', desc: 'Solo pares externos' },
-  video:                { label: 'Producción Audiovisual',    pts: 12, ruta: 'externos',        icon: '🎥', desc: 'Solo pares externos' },
-  traduccion:           { label: 'Traducción de Libro',       pts: 15, ruta: 'externos',        icon: '💬', desc: 'Solo pares externos' },
-  patente:              { label: 'Patentes',                  pts: 25, ruta: 'directo',         icon: '💡', desc: 'Directo a CIARP' },
-  premio:               { label: 'Premios',                   pts: 15, ruta: 'informe_directo', icon: '🏆', desc: 'Directo a informe' },
-  ponencia:             { label: 'Ponencias',                 pts:  0, ruta: 'directo',         icon: '🎤', desc: 'Presentación en evento académico' },
-  direccion_tesis:      { label: 'Dirección de Tesis',        pts:  0, ruta: 'directo',         icon: '🎓', desc: 'Tesis de maestría/doctorado' },
+  articulo_indexado:    { label: 'Artículos Indexados',          pts: 0,  ruta: 'directo',         icon: '📰', desc: 'Categoría evaluada en Informe CIARP' },
+  articulo_no_indexado: { label: 'Artículos No Indexados',       pts: 0,  ruta: 'directo',         icon: '📰', desc: 'Sin indexar o divulgación',              esBonificacion: true, limiteAnualCount: 5 },
+  libro_texto:          { label: 'Libro de Texto',                pts: 15, ruta: 'internos',        icon: '📘', consejo: 'Consejo Curricular',  desc: 'Con evaluación interna',  grupoLimite: 'libros', limitePtsAnual: 35 },
+  libro_ensayo:         { label: 'Libro de Ensayo',               pts: 15, ruta: 'internos',        icon: '📙', consejo: 'Consejo de Facultad', desc: 'Con evaluación interna',  grupoLimite: 'libros', limitePtsAnual: 35 },
+  libro_investigacion:  { label: 'Libro de Investigación',       pts: 20, ruta: 'externos',        icon: '📗', desc: 'Solo pares externos',                      grupoLimite: 'libros', limitePtsAnual: 35 },
+  software:             { label: 'Producción de Software',        pts: 15, ruta: 'internos',        icon: '💻', consejo: 'Consejo Técnico Software', desc: 'Con evaluación interna', limitePtsAnual: 35 },
+  produccion_tecnica:   { label: 'Producción Técnica',            pts: 15, ruta: 'externos',        icon: '🔧', desc: 'Solo pares externos' },
+  obra_artistica:       { label: 'Obra Artística',                pts: 20, ruta: 'externos',        icon: '🎨', desc: 'Solo pares externos — categoría independiente de Audiovisual' },
+  video:                { label: 'Producción Audiovisual',        pts: 12, ruta: 'externos',        icon: '🎥', desc: 'Solo pares externos — máx 5 por año',     limiteAnualCount: 5 },
+  traduccion:           { label: 'Traducción de Libro',           pts: 15, ruta: 'externos',        icon: '💬', desc: 'Solo pares externos' },
+  patente:              { label: 'Patentes',                      pts: 25, ruta: 'directo',         icon: '💡', desc: 'Directo a CIARP' },
+  premio:               { label: 'Premios',                       pts: 15, ruta: 'informe_directo', icon: '🏆', desc: 'Directo a informe' },
+  ponencia:             { label: 'Ponencias',                     pts:  0, ruta: 'directo',         icon: '🎤', desc: 'Presentación en evento académico',         esBonificacion: true, limiteAnualCount: 3 },
+  direccion_tesis:      { label: 'Dirección de Tesis',            pts:  0, ruta: 'directo',         icon: '🎓', desc: 'Tesis de maestría/doctorado',              esBonificacion: true },
   // Alias de BD: 'tesis' = 'direccion_tesis'
-  tesis:                { label: 'Dirección de Tesis',        pts:  0, ruta: 'directo',         icon: '🎓', desc: 'Tesis de maestría/doctorado' },
+  tesis:                { label: 'Dirección de Tesis',            pts:  0, ruta: 'directo',         icon: '🎓', desc: 'Tesis de maestría/doctorado',              esBonificacion: true },
   // Títulos académicos: la BD usa 'titulo_academico' y 'titulo' (ambos iguales)
-  titulo_academico:     { label: 'Títulos Académicos',       pts:  0, ruta: 'directo',         icon: '🏅', desc: 'Reconocimiento de título académico' },
-  titulo:               { label: 'Títulos Académicos',       pts:  0, ruta: 'directo',         icon: '🏅', desc: 'Reconocimiento de título académico' },
-  posdoctorado:         { label: 'Postdoctorados',            pts:  0, ruta: 'directo',         icon: '🔬', desc: 'Postdoctorado o estadía de investigación' },
-  ascenso:              { label: 'Ascenso en el Escalaفón',   pts:  0, ruta: 'cei', icon: '⬆️', desc: 'Comité de Escalaفón Interno' },
-  // ── Reconocimientos CIARP Decreto 1279 ──
-  daa:                  { label: 'Desempeño Acad.-Admvo. (DAA)',  pts: 0, ruta: 'directo', icon: '🏩', desc: 'Art. 10 D.1279 — Cargo académico-administrativo' },
-  ddd:                  { label: 'Desempeño Destacado (DDD)',     pts: 0, ruta: 'directo', icon: '⭐', desc: 'Art. 10 D.1279 — Evaluación docente sobresaliente' },
-  exp_calificada:       { label: 'Experiencia Calificada',        pts: 0, ruta: 'directo', icon: '💼', desc: 'Art. 12 D.1279 — Experiencia profesional externa' },
+  titulo_academico:     { label: 'Títulos Académicos',           pts:  0, ruta: 'directo',         icon: '🏅', desc: 'Reconocimiento de título académico' },
+  titulo:               { label: 'Títulos Académicos',           pts:  0, ruta: 'directo',         icon: '🏅', desc: 'Reconocimiento de título académico' },
+  posdoctorado:         { label: 'Postdoctorados',                pts:  0, ruta: 'directo',         icon: '🔬', desc: 'Postdoctorado o estadía de investigación', esBonificacion: true },
+  ascenso:              { label: 'Ascenso en el Escalafón',       pts:  0, ruta: 'cei',             icon: '⬆️', desc: 'Comité de Escalafón Interno' },
+  // ── Excepciones al tope — SÍ suman al salario total pero NO al tope de productividad ──
+  daa:                  { label: 'Desempeño Acad.-Admvo. (DAA)',  pts: 0,  ruta: 'directo',         icon: '🏩', desc: 'Art. 10 D.1279 — Cargo académico-administrativo',    esExcepcion: true },
+  ddd:                  { label: 'Desempeño Destacado (DDD)',      pts: 0,  ruta: 'directo',         icon: '⭐', desc: 'Art. 10 D.1279 — Evaluación docente sobresaliente', esExcepcion: true },
+  exp_calificada:       { label: 'Experiencia Calificada',         pts: 0,  ruta: 'directo',         icon: '💼', desc: 'Art. 12 D.1279 — Experiencia profesional externa',   esExcepcion: true },
 };
 
 export const ETAPAS = [

@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { fetchDocentes, fetchDocentePorCedula } from '../utils/api.js';
 import { normalizeDocente } from '../helpers.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
+import { TIPOS } from '../data.js';
 
 // Cache en memoria para la sesión actual
 const cache = {};
@@ -71,35 +72,50 @@ export function useDocentesConNuevos() {
   const solNuevosMap = useMemo(() => {
     const map = {};
     const etapasValidas = ['ciarp', 'acta', 'rectoria', 'juridica', 'resolucion', 'archivada'];
+    // TIPOS ya está importado al top del archivo
+    
     solicitudes
       .filter(s => s.estado === 'aprobado' && etapasValidas.includes(s.etapa) && Number(s.pts_asig) > 0 && s.id?.startsWith('SOL-'))
       .forEach(s => {
-        map[String(s.cedula)] = (map[String(s.cedula)] || 0) + (Number(s.pts_asig) || 0);
+        const c = String(s.cedula);
+        if (!map[c]) map[c] = { prod: 0, exc: 0 };
+        
+        const pts = Number(s.pts_asig) || 0;
+        const infoTipo = TIPOS[s.tipo] || {};
+        
+        if (infoTipo.esExcepcion) {
+           map[c].exc += pts;
+        } else if (infoTipo.esBonificacion || s.tipo === 'ascenso') {
+           // Bonificaciones o ascensos: no suman ni al acumulado ni al salarial mensual
+        } else {
+           map[c].prod += pts;
+        }
       });
     return map;
   }, [solicitudes]);
 
   const data = useMemo(() =>
     DOCENTES_PLANTA.map(d => {
-      const nuevos           = solNuevosMap[String(d.cedula)] || 0;
-      let ptsAcumulados    = d.ptsAcumulados + nuevos;
-      let ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + nuevos;
+      const { prod = 0, exc = 0 } = solNuevosMap[String(d.cedula)] || {};
+      
+      let ptsAcumulados = d.ptsAcumulados + prod;
+      let puntosRealesSumados = prod;
 
       // Si existe un tope de productividad y lo sobrepasa, se trunca estrictamente (no hay banco de puntos)
       if (d.tope > 0 && ptsAcumulados > d.tope) {
-         const limiteNuevos = Math.max(0, d.tope - d.ptsAcumulados); // Cuántos puntos le faltaban antes
-         const nuevosReales = Math.min(nuevos, limiteNuevos);
-         
+         puntosRealesSumados = Math.max(0, d.tope - d.ptsAcumulados); // Cuántos puntos de prod le faltaban antes
          ptsAcumulados = d.tope;
-         ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + nuevosReales;
       }
+
+      // El salario se forma de: base salarial + puntos prod nuevos reales + excepciones (que no tienen tope)
+      const ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + puntosRealesSumados + exc;
 
       return {
         ...d,
         ptsAcumulados,
         ptsTotalSalarial,
-        diferencia:   d.tope > 0 ? d.tope - ptsAcumulados : 0,
-        ptsSolNuevos: nuevos,
+        diferencia: d.tope > 0 ? d.tope - ptsAcumulados : 0,
+        ptsSolNuevos: puntosRealesSumados + exc, // Total real que impactó salario
       };
     }), [DOCENTES_PLANTA, solNuevosMap]);
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { TIPOS, PROGRAMAS, FACULTADES } from '../data.js';
 import { rutaLabel, buildTimeline, formatName, matchDropdownOption } from '../helpers.js';
 import { useDocentesIndex, fetchDocenteDetalle } from '../hooks/useDocentesData.js';
@@ -42,6 +42,47 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
   const tipo = TIPOS[form.tipo];
 
   const { data: docentesDB } = useDocentesIndex();
+
+  // Cálculo de consumos anuales para validar reglas
+  const limitStatus = useMemo(() => {
+    if (!form.cedula) return null;
+    const year = new Date().getFullYear().toString();
+    const reqs = solicitudesExistentes.filter(s => s.cedula === form.cedula && (s.fecha || s.created_at || '').startsWith(year) && s.estado !== 'rechazado');
+    
+    let librosPts = 0, softwarePts = 0, videoCount = 0, ponenciasCount = 0, artNICount = 0;
+    reqs.forEach(s => {
+      const t = TIPOS[s.tipo];
+      if (!t) return;
+      const pts = Number(s.pts_asig || s.pts_sug) || 0;
+      if (t.grupoLimite === 'libros') librosPts += pts;
+      if (s.tipo === 'software') softwarePts += pts;
+      if (s.tipo === 'video') videoCount++;
+      if (s.tipo === 'ponencia') ponenciasCount++;
+      if (s.tipo === 'articulo_no_indexado') artNICount++;
+    });
+
+    let limitWarning = null;
+    if (tipo) {
+      if (tipo.grupoLimite === 'libros' && librosPts >= tipo.limitePtsAnual) {
+        limitWarning = `El docente ha alcanzado el límite anual de ${tipo.limitePtsAnual} pts para Libros (actual: ${librosPts} pts).`;
+      } else if (form.tipo === 'software' && softwarePts >= tipo.limitePtsAnual) {
+        limitWarning = `El docente ha alcanzado el límite anual de ${tipo.limitePtsAnual} pts para Software (actual: ${softwarePts} pts).`;
+      } else if (form.tipo === 'video' && videoCount >= tipo.limiteAnualCount) {
+        limitWarning = `El docente ha alcanzado el límite anual de ${tipo.limiteAnualCount} videos (actual: ${videoCount}).`;
+      } else if (form.tipo === 'ponencia' && ponenciasCount >= tipo.limiteAnualCount) {
+        limitWarning = `El docente ha alcanzado el límite anual de ${tipo.limiteAnualCount} ponencias (actual: ${ponenciasCount}).`;
+      } else if (form.tipo === 'articulo_no_indexado' && artNICount >= tipo.limiteAnualCount) {
+        limitWarning = `El docente ha alcanzado el límite anual de ${tipo.limiteAnualCount} artículos no indexados (actual: ${artNICount}).`;
+      }
+    }
+
+    let isTopeWarning = false;
+    if (tipo && docenteLimite && docenteLimite.diferencia <= 0 && !tipo.esBonificacion && !tipo.esExcepcion && form.tipo !== 'ascenso') {
+      isTopeWarning = true;
+    }
+
+    return { limitWarning, isTopeWarning };
+  }, [form.cedula, form.tipo, tipo, solicitudesExistentes, docenteLimite]);
 
   // Ref para cerrar el dropdown al hacer clic fuera
   const suggestRef = useRef(null);
@@ -274,7 +315,32 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
                 <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)', display: 'flex', alignItems: 'center', gap: 8 }}>{tipo.icon && <span style={{fontSize: 18}}>{tipo.icon}</span>} {tipo.label}</div>
                 <div style={{ fontSize: 13, color: 'var(--text)', marginTop: 8, display: 'flex', alignItems: 'center', gap: 6 }}><MapPin size={14} color="var(--g)"/> {rutaLabel(tipo.ruta)}</div>
                 {tipo.consejo && <div style={{ fontSize: 13, color: 'var(--text)', marginTop: 4, display: 'flex', alignItems: 'center', gap: 6 }}><Landmark size={14} color="var(--g)"/> Memorando para: <strong>{tipo.consejo}</strong></div>}
-                <div style={{ fontSize: 13, color: 'var(--text)', marginTop: 4, display: 'flex', alignItems: 'center', gap: 6 }}><CircleDollarSign size={14} color="var(--g)"/> Puntos Decreto 1279: <strong>{tipo.pts} puntos</strong></div>
+                <div style={{ fontSize: 13, color: 'var(--text)', marginTop: 4, display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <CircleDollarSign size={14} color="var(--g)"/> 
+                  Puntos Decreto 1279: <strong>{tipo.pts} puntos</strong> 
+                  {tipo.esBonificacion && <span style={{ fontSize: 11, background: '#e0e7ff', color: '#3730a3', padding: '2px 6px', borderRadius: 4, marginLeft: 4 }}>Pago único (Bonificación)</span>}
+                  {tipo.esExcepcion && <span style={{ fontSize: 11, background: '#fce7f3', color: '#9d174d', padding: '2px 6px', borderRadius: 4, marginLeft: 4 }}>Excepción al tope</span>}
+                </div>
+              </div>
+            )}
+
+            {limitStatus?.limitWarning && (
+              <div style={{ marginBottom: 20, padding: '14px 18px', background: '#fef2f2', border: '1px solid #ef4444', borderRadius: 12, color: '#991b1b', display: 'flex', alignItems: 'flex-start', gap: 10 }}>
+                <AlertTriangle size={20} color="#dc2626" style={{ marginTop: 2 }} />
+                <div>
+                  <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 4 }}>Límite anual alcanzado</div>
+                  <div style={{ fontSize: 13 }}>{limitStatus.limitWarning} <br/><strong>Advertencia:</strong> El sistema permite continuar el trámite, pero es probable que el CIARP no otorgue los puntos.</div>
+                </div>
+              </div>
+            )}
+
+            {limitStatus?.isTopeWarning && (
+              <div style={{ marginBottom: 20, padding: '14px 18px', background: '#fffbeb', border: '1px solid #f59e0b', borderRadius: 12, color: '#92400e', display: 'flex', alignItems: 'flex-start', gap: 10 }}>
+                <AlertTriangle size={20} color="#d97706" style={{ marginTop: 2 }} />
+                <div>
+                  <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 4 }}>Docente en tope salarial</div>
+                  <div style={{ fontSize: 13 }}>Este docente ya alcanzó su tope máximo ({docenteLimite.tope} pts). <strong>Los puntos de esta solicitud se perderán</strong>. Si aplica, el docente debería solicitar un ascenso en el escalafón primero.</div>
+                </div>
               </div>
             )}
 
