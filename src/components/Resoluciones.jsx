@@ -76,24 +76,32 @@ function buildProgramaGroups(solicitudes, anioFiltro, tabMode) {
 
 /** Build groups for CEI ascensos — agrupados por sesión CEI */
 function buildAscensoGroups(solicitudes) {
-  // Solo ascensos aprobados por el CEI. Los que ya pasaron por CIARP (estado='aprobado'
-  // con acta_ciarp) van en la tab de Productividad, no aquí.
+  // Ascensos que pasaron por el CEI (tienen sesion_cei_id) en cualquier estado aprobado.
+  // También incluimos aprobado_cei sin sesión (pendientes de asignar).
   const elegibles = solicitudes.filter(s => {
     if (s.tipo !== 'ascenso') return false;
-    if (s.estado !== 'aprobado_cei') return false;   // solo los del CEI, no CIARP
+    if (s.estado !== 'aprobado_cei' && s.estado !== 'aprobado') return false;
     if (s.id && s.id.startsWith('HIST-')) return false;
-    return true;
+    // Debe tener sesion_cei_id O estar en estado aprobado_cei
+    return !!(s.sesion_cei_id || s.estado === 'aprobado_cei');
   });
 
-  // Deduplicar por cédula dentro de cada sesión: conservar el más reciente
-  const dedupKey = s => `${s.sesion_cei_id || 'sin'}__${s.cedula || s.id}`;
-  const seen = new Set();
-  const unique = elegibles.filter(s => {
-    const k = dedupKey(s);
-    if (seen.has(k)) return false;
-    seen.add(k);
-    return true;
+  // Deduplicar por cédula + sesión.
+  // Preferimos el registro SIN acta_ciarp (el ascenso puro del CEI),
+  // no la solicitud de productividad CIARP que pueda compartir cédula.
+  const dedupMap = {};
+  elegibles.forEach(s => {
+    const k = `${s.sesion_cei_id || 'sin'}__${s.cedula || s.id}`;
+    if (!dedupMap[k]) {
+      dedupMap[k] = s;
+    } else {
+      const curr = dedupMap[k];
+      // Si el actual tiene acta_ciarp y el nuevo no → preferimos el nuevo (puro CEI)
+      if (curr.acta_ciarp && !s.acta_ciarp) dedupMap[k] = s;
+    }
   });
+  const unique = Object.values(dedupMap);
+
 
   const groups = {};
   unique.forEach(s => {
