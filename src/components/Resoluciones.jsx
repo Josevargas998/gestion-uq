@@ -5,6 +5,7 @@ import { badgeEtapa, labelEtapa, normalizeActaKey, cleanProgramaName } from '../
 
 // Etapas that qualify for Resoluciones view
 const ETAPAS_RESOLUCION = ['acta','resolucion','juridica','rectoria','archivada'];
+const ETAPAS_RESOLUCION_CEI = ['resolucion','archivada','cei','informe'];
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -73,13 +74,47 @@ function buildProgramaGroups(solicitudes, anioFiltro, tabMode) {
     }));
 }
 
+/** Build groups for CEI ascensos */
+function buildAscensoGroups(solicitudes, anioFiltro) {
+  const elegibles = solicitudes.filter(s => {
+    if (s.tipo !== 'ascenso') return false;
+    if (s.estado !== 'aprobado_cei' && s.estado !== 'aprobado') return false;
+    if (s.id && s.id.startsWith('HIST-')) return false;
+    const actaStr = String(s.acta_ciarp || '');
+    const fechaStr = String(s.fecha || '');
+    const idStr = String(s.id || '');
+    return actaStr.includes(anioFiltro) || fechaStr.startsWith(anioFiltro) || idStr.includes(anioFiltro);
+  });
+
+  const groups = {};
+  elegibles.forEach(s => {
+    const prog = cleanProgramaName(s.programa);
+    const acta = (s.acta_ciarp || '').trim();
+    if (!groups[prog]) groups[prog] = { programa: prog, actas: new Set(), solicitudes: [] };
+    groups[prog].solicitudes.push(s);
+    if (acta) groups[prog].actas.add(acta);
+  });
+
+  return Object.values(groups)
+    .sort((a, b) => a.programa.localeCompare(b.programa))
+    .map(g => ({
+      key: g.programa,
+      programa: g.programa,
+      actas: Array.from(g.actas).join(', '),
+      solicitudes: g.solicitudes.sort((a, b) => (a.docente || '').localeCompare(b.docente || ''))
+    }));
+}
+
 // ── Programa accordion ───────────────────────────────────────────────────────
 
-function ProgramaSection({ grupo, onSelect }) {
+function ProgramaSection({ grupo, onSelect, isAscenso }) {
   const { programa, actas, solicitudes } = grupo;
   const [open, setOpen] = useState(false);
   const total = solicitudes.length;
   const totalPts = solicitudes.reduce((s, x) => s + (x.pts_asig || 0), 0);
+
+  const headerBg    = isAscenso ? '#f5f3ff' : '#f0fdf4';
+  const headerColor = isAscenso ? '#6d28d9' : '#166534';
 
   return (
     <div style={{ borderBottom: '1px solid var(--border)' }}>
@@ -88,28 +123,30 @@ function ProgramaSection({ grupo, onSelect }) {
         onClick={() => setOpen(o => !o)}
         style={{
           padding: '16px 20px', display: 'flex', alignItems: 'center', gap: 12,
-          cursor: 'pointer', background: open ? '#f0fdf4' : '#fff',
+          cursor: 'pointer', background: open ? headerBg : '#fff',
           transition: 'background .15s',
         }}
         onMouseOver={e => { if (!open) e.currentTarget.style.background = '#f9f9f9'; }}
         onMouseOut={e  => { if (!open) e.currentTarget.style.background = '#fff'; }}
       >
-        <span style={{ fontSize: 16, transition: 'transform .2s', transform: open ? 'rotate(90deg)' : 'rotate(0deg)', color: open ? '#166534' : '#555' }}>▶</span>
+        <span style={{ fontSize: 16, transition: 'transform .2s', transform: open ? 'rotate(90deg)' : 'rotate(0deg)', color: open ? headerColor : '#555' }}>▶</span>
         <div style={{ flex: 1 }}>
-          <div style={{ fontWeight: 800, fontSize: 15, color: open ? '#166534' : '#333' }}>
+          <div style={{ fontWeight: 800, fontSize: 15, color: open ? headerColor : '#333' }}>
             {programa} <span style={{ color: '#64748b', fontWeight: 600, fontSize: 13, marginLeft: 8 }}>({actas ? `Actas: ${actas}` : 'Sin actas'})</span>
           </div>
           <div style={{ fontSize: 12, color: 'var(--muted)', marginTop: 4 }}>
-            {total} producto{total !== 1 ? 's' : ''} aprobado{total !== 1 ? 's' : ''} · {totalPts.toFixed(1)} puntos asignados en total
+            {total} {isAscenso ? 'ascenso' : 'producto'}{total !== 1 ? 's' : ''} aprobado{total !== 1 ? 's' : ''}{!isAscenso ? ` · ${totalPts.toFixed(1)} puntos asignados en total` : ''}
           </div>
         </div>
-        <button
-          className="btn btn-p btn-sm"
-          onClick={e => { e.stopPropagation(); generarDocumento(grupo.tipoResolucion, [grupo]); }}
-          style={{ fontSize: 12, padding: '8px 16px', background: '#1a5fa8' }}
-        >
-          📄 Exportar Resolución Consolidada
-        </button>
+        {!isAscenso && (
+          <button
+            className="btn btn-p btn-sm"
+            onClick={e => { e.stopPropagation(); generarDocumento(grupo.tipoResolucion, [grupo]); }}
+            style={{ fontSize: 12, padding: '8px 16px', background: '#1a5fa8' }}
+          >
+            📄 Exportar Resolución Consolidada
+          </button>
+        )}
       </div>
 
       {/* Accordion body */}
@@ -117,37 +154,61 @@ function ProgramaSection({ grupo, onSelect }) {
         <div style={{ padding: '12px 20px 20px 48px', background: '#fcfcfc' }}>
           {solicitudes.map(s => {
             const t = TIPOS[s.tipo] || {};
+            const info = (() => { try { return JSON.parse(s.notas || '{}'); } catch { return {}; } })();
+            const catActual = (info.categoria_actual || '').toUpperCase();
+            const catNueva  = (info.categoria_nueva  || '').toUpperCase();
             return (
               <div
                 key={s.id}
-                onClick={() => onSelect(s)}
                 style={{
                   display: 'flex', alignItems: 'center', gap: 12, padding: '12px 16px',
                   marginBottom: 8, borderRadius: 8, border: '1px solid #e5e7eb',
-                  cursor: 'pointer', background: '#fff', transition: 'background .15s, box-shadow .15s',
+                  background: '#fff',
                 }}
-                onMouseOver={e => { e.currentTarget.style.background = '#f9fafb'; e.currentTarget.style.boxShadow = '0 2px 6px rgba(0,0,0,.04)'; }}
-                onMouseOut={e  => { e.currentTarget.style.background = '#fff'; e.currentTarget.style.boxShadow = 'none'; }}
               >
-                <div style={{ width: 40, height: 40, borderRadius: '50%', background: '#e0f2fe', color: '#0369a1', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 20, flexShrink: 0 }}>
-                  {t.icon || '📄'}
+                <div style={{ width: 40, height: 40, borderRadius: '50%', background: isAscenso ? '#f5f3ff' : '#e0f2fe', color: isAscenso ? '#7c3aed' : '#0369a1', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 20, flexShrink: 0 }}>
+                  {isAscenso ? '🎓' : (t.icon || '📄')}
                 </div>
-                <div style={{ flex: 1, minWidth: 0 }}>
+                <div
+                  style={{ flex: 1, minWidth: 0, cursor: 'pointer' }}
+                  onClick={() => onSelect(s)}
+                >
                   <div style={{ fontWeight: 800, fontSize: 14, color: '#333' }}>{s.docente}</div>
                   <div style={{ fontSize: 12, color: '#555', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 2 }}>
                     {s.titulo}
                   </div>
                   <div style={{ fontSize: 11, color: '#888', marginTop: 4 }}>
-                    {t.label || s.tipo} · Cédula: {s.cedula || '—'} · <strong style={{ color: '#006B3F' }}>Acta: {s.acta_ciarp || s.sesion_ciarp_id || '—'}</strong>
+                    {isAscenso
+                      ? <><strong style={{ color: '#7c3aed' }}>{catActual}</strong>{catNueva ? <> → <strong style={{ color: '#166534' }}>{catNueva}</strong></> : null} · Cédula: {s.cedula || '—'} · <strong style={{ color: '#6d28d9' }}>Acta CEI: {s.acta_ciarp || '—'}</strong></>
+                      : <>{t.label || s.tipo} · Cédula: {s.cedula || '—'} · <strong style={{ color: '#006B3F' }}>Acta: {s.acta_ciarp || s.sesion_ciarp_id || '—'}</strong></>}
                   </div>
                 </div>
                 <div style={{ textAlign: 'right', flexShrink: 0 }}>
-                  <div style={{ fontWeight: 900, color: '#15803d', fontSize: 18 }}>
-                    {s.pts_asig != null ? `+${Number(s.pts_asig).toFixed(1)} pts` : '—'}
-                  </div>
-                  <span style={{ fontSize: 10, background: '#f3f4f6', color: '#4b5563', padding: '3px 8px', borderRadius: 99, fontWeight: 700, marginTop: 4, display: 'inline-block' }}>
-                    {labelEtapa(s.etapa)}
-                  </span>
+                  {isAscenso ? (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                      <button
+                        onClick={e => { e.stopPropagation(); generarDocumento('resolucion_ascenso_cei', s); }}
+                        style={{ padding: '6px 10px', borderRadius: 7, background: '#0d3d6e', color: '#fff', border: 'none', fontWeight: 700, fontSize: 11, cursor: 'pointer', whiteSpace: 'nowrap' }}
+                      >
+                        📜 Res. Ascenso CEI
+                      </button>
+                      <button
+                        onClick={e => { e.stopPropagation(); generarDocumento('resolucion_ciarp_ascenso', s); }}
+                        style={{ padding: '6px 10px', borderRadius: 7, background: '#166534', color: '#fff', border: 'none', fontWeight: 700, fontSize: 11, cursor: 'pointer', whiteSpace: 'nowrap' }}
+                      >
+                        📊 Res. CIARP Puntos
+                      </button>
+                    </div>
+                  ) : (
+                    <>
+                      <div style={{ fontWeight: 900, color: '#15803d', fontSize: 18 }}>
+                        {s.pts_asig != null ? `+${Number(s.pts_asig).toFixed(1)} pts` : '—'}
+                      </div>
+                      <span style={{ fontSize: 10, background: '#f3f4f6', color: '#4b5563', padding: '3px 8px', borderRadius: 99, fontWeight: 700, marginTop: 4, display: 'inline-block' }}>
+                        {labelEtapa(s.etapa)}
+                      </span>
+                    </>
+                  )}
                 </div>
               </div>
             );
@@ -162,9 +223,11 @@ function ProgramaSection({ grupo, onSelect }) {
 
 export default function Resoluciones({ solicitudes, onSelect }) {
   const [anioFiltro, setAnioFiltro] = useState(new Date().getFullYear().toString());
-  const [tab, setTab] = useState('productividad'); // 'productividad' o 'experiencia'
+  const [tab, setTab] = useState('productividad'); // 'productividad' | 'experiencia' | 'ascensos'
   
-  const programaGroups = buildProgramaGroups(solicitudes, anioFiltro, tab);
+  const programaGroups = tab === 'ascensos'
+    ? buildAscensoGroups(solicitudes, anioFiltro)
+    : buildProgramaGroups(solicitudes, anioFiltro, tab);
   const [buscar, setBuscar] = useState('');
 
   const totalElegibles = programaGroups.reduce((acc, g) => acc + g.solicitudes.length, 0);
@@ -219,14 +282,16 @@ export default function Resoluciones({ solicitudes, onSelect }) {
             onChange={e => setBuscar(e.target.value)}
             style={{ padding: '10px 16px', borderRadius: 8, border: '1.5px solid #d1d5db', fontSize: 13, minWidth: 260 }}
           />
-          <button
-            onClick={() => {
-              generarDocumento(tab === 'productividad' ? 'resolucion_productividad' : 'resolucion_experiencia', gruposFiltrados);
-            }}
-            style={{ padding: '10px 18px', borderRadius: 8, background: '#006B3F', color: '#fff', border: 'none', fontWeight: 800, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6 }}
-          >
-            📥 Exportar Vista a Word
-          </button>
+          {tab !== 'ascensos' && (
+            <button
+              onClick={() => {
+                generarDocumento(tab === 'productividad' ? 'resolucion_productividad' : 'resolucion_experiencia', gruposFiltrados);
+              }}
+              style={{ padding: '10px 18px', borderRadius: 8, background: '#006B3F', color: '#fff', border: 'none', fontWeight: 800, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6 }}
+            >
+              📥 Exportar Vista a Word
+            </button>
+          )}
         </div>
       </div>
 
@@ -243,6 +308,12 @@ export default function Resoluciones({ solicitudes, onSelect }) {
           style={{ padding: '8px 16px', background: tab === 'experiencia' ? '#0d3d6e' : '#f3f4f6', color: tab === 'experiencia' ? '#fff' : '#4b5563', borderRadius: 8, fontWeight: 700, border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}
         >
           💼 Experiencia Calificada y Desempeño
+        </button>
+        <button 
+          onClick={() => setTab('ascensos')}
+          style={{ padding: '8px 16px', background: tab === 'ascensos' ? '#7c3aed' : '#f3f4f6', color: tab === 'ascensos' ? '#fff' : '#4b5563', borderRadius: 8, fontWeight: 700, border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}
+        >
+          🎓 Ascensos en el Escalafón (CEI)
         </button>
       </div>
 
@@ -263,7 +334,7 @@ export default function Resoluciones({ solicitudes, onSelect }) {
             Programas Académicos con Novedades ({gruposFiltrados.length})
           </div>
           {gruposFiltrados.map((grupo) => (
-            <ProgramaSection key={grupo.key} grupo={grupo} onSelect={onSelect} />
+            <ProgramaSection key={grupo.key} grupo={grupo} onSelect={onSelect} isAscenso={tab === 'ascensos'} />
           ))}
         </div>
       )}

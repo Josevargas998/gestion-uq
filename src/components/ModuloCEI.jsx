@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
+import { generarDocumento } from '../utils/docGenerator.jsx';
 import {
   fetchSesionesCei, createSesionCei, getSiguienteNumeroCei,
   getInformeSesionCei, cerrarYAbrirSesionCei, deleteSesionCei
@@ -1139,6 +1140,8 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
   const [actaCei, setActaCei] = useState(info.acta_cei || '');
 
   // Resolution & Tracking Fields
+  const [categoriaNueva, setCategoriaNueva] = useState(info.categoria_nueva || '');
+  const [actaCiarpPuntos, setActaCiarpPuntos] = useState(info.acta_ciarp_puntos || '');
   const [resPago, setResPago] = useState(info.res_pago || '');
   const [resAscenso, setResAscenso] = useState(info.res_ascenso_cei || '');
   const [resPuntos, setResPuntos] = useState(info.res_puntos_ciarp || '');
@@ -1257,6 +1260,8 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
       dedicacion,
       escolaridad,
       categoria_actual: categoriaActual,
+      categoria_nueva: categoriaNueva,
+      acta_ciarp_puntos: actaCiarpPuntos,
       tipo_trabajo: tipoTrabajo,
       cargo,
       tipo_contrato: tipoContrato,
@@ -1737,13 +1742,65 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
                 <div style={{ borderTop: '1px dashed var(--border)', paddingTop: 12 }}>
                   <h4 style={{ margin: '0 0 10px 0', fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>Proyección de Resoluciones</h4>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+
+                    {/* ── Nueva Categoría (target del ascenso) ── */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
+                      <div>
+                        <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Nueva Categoría (ascenso a)</label>
+                        <select value={categoriaNueva} onChange={e => setCategoriaNueva(e.target.value)}
+                          style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }}>
+                          <option value="">— Sin definir —</option>
+                          <option value="ASISTENTE">ASISTENTE</option>
+                          <option value="ASOCIADO">ASOCIADO</option>
+                          <option value="TITULAR">TITULAR</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Acta CIARP (puntos)</label>
+                        <input value={actaCiarpPuntos} onChange={e => setActaCiarpPuntos(e.target.value)} placeholder="Ej: 1/2025"
+                          style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
+                      </div>
+                    </div>
+
+                    {/* ── Botones de generación de documentos ── */}
+                    <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          const solParaDoc = {
+                            ...sol,
+                            docente, cedula, correo, facultad, programa, titulo,
+                            notas: JSON.stringify({ ...info, categoria_actual: categoriaActual, categoria_nueva: categoriaNueva, dedicacion, escolaridad, acta_ciarp_puntos: actaCiarpPuntos }),
+                          };
+                          generarDocumento('resolucion_ascenso_cei', solParaDoc);
+                        }}
+                        style={{ flex: 1, padding: '9px 12px', borderRadius: 8, background: '#0d3d6e', color: '#fff', border: 'none', fontWeight: 700, fontSize: 12, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}
+                      >
+                        📜 Res. Ascenso CEI
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          const solParaDoc = {
+                            ...sol,
+                            docente, cedula, correo, facultad, programa, titulo,
+                            notas: JSON.stringify({ ...info, categoria_actual: categoriaActual, categoria_nueva: categoriaNueva, dedicacion, escolaridad, acta_ciarp_puntos: actaCiarpPuntos }),
+                          };
+                          generarDocumento('resolucion_ciarp_ascenso', solParaDoc);
+                        }}
+                        style={{ flex: 1, padding: '9px 12px', borderRadius: 8, background: '#166534', color: '#fff', border: 'none', fontWeight: 700, fontSize: 12, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}
+                      >
+                        📊 Res. CIARP (Puntos)
+                      </button>
+                    </div>
+
                     <div>
-                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Ascenso CEI</label>
+                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Ascenso CEI (número final)</label>
                       <input value={resAscenso} onChange={e => setResAscenso(e.target.value)} placeholder="Ej: Res. 4520 de 2026"
                         style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                     <div>
-                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Puntos CIARP</label>
+                      <label style={{ display: 'block', fontSize: 11, fontWeight: 600, color: 'var(--muted)', marginBottom: 4 }}>Res. de Puntos CIARP (número final)</label>
                       <input value={resPuntos} onChange={e => setResPuntos(e.target.value)} placeholder="Ej: Res. 4521 de 2026"
                         style={{ width: '100%', padding: '8px 10px', borderRadius: 6, border: '1px solid var(--border)', fontSize: 12, background: 'var(--bg)', color: 'var(--text)', outline: 'none' }} />
                     </div>
