@@ -80,16 +80,18 @@ function buildAscensoGroups(solicitudes, anioFiltro) {
     if (s.tipo !== 'ascenso') return false;
     if (s.estado !== 'aprobado_cei' && s.estado !== 'aprobado') return false;
     if (s.id && s.id.startsWith('HIST-')) return false;
-    const actaStr = String(s.acta_ciarp || '');
+    const info = (() => { try { return JSON.parse(s.notas || '{}'); } catch { return {}; } })();
+    const actaCeiStr = String(s.acta_cei || info.acta_cei || '');
     const fechaStr = String(s.fecha || '');
     const idStr = String(s.id || '');
-    return actaStr.includes(anioFiltro) || fechaStr.startsWith(anioFiltro) || idStr.includes(anioFiltro);
+    return actaCeiStr.includes(anioFiltro) || fechaStr.startsWith(anioFiltro) || idStr.includes(anioFiltro);
   });
 
   const groups = {};
   elegibles.forEach(s => {
     const prog = cleanProgramaName(s.programa);
-    const acta = (s.acta_ciarp || '').trim();
+    const info = (() => { try { return JSON.parse(s.notas || '{}'); } catch { return {}; } })();
+    const acta = (s.acta_cei || info.acta_cei || '').trim();
     if (!groups[prog]) groups[prog] = { programa: prog, actas: new Set(), solicitudes: [] };
     groups[prog].solicitudes.push(s);
     if (acta) groups[prog].actas.add(acta);
@@ -179,7 +181,7 @@ function ProgramaSection({ grupo, onSelect, isAscenso }) {
                   </div>
                   <div style={{ fontSize: 11, color: '#888', marginTop: 4 }}>
                     {isAscenso
-                      ? <><strong style={{ color: '#7c3aed' }}>{catActual}</strong>{catNueva ? <> → <strong style={{ color: '#166534' }}>{catNueva}</strong></> : null} · Cédula: {s.cedula || '—'} · <strong style={{ color: '#6d28d9' }}>Acta CEI: {s.acta_ciarp || '—'}</strong></>
+                      ? <><strong style={{ color: '#7c3aed' }}>{catActual}</strong>{catNueva ? <> → <strong style={{ color: '#166534' }}>{catNueva}</strong></> : null} · Cédula: {s.cedula || '—'} · <strong style={{ color: '#6d28d9' }}>Acta CEI: {s.acta_cei || info.acta_cei || '—'}</strong></>
                       : <>{t.label || s.tipo} · Cédula: {s.cedula || '—'} · <strong style={{ color: '#006B3F' }}>Acta: {s.acta_ciarp || s.sesion_ciarp_id || '—'}</strong></>}
                   </div>
                 </div>
