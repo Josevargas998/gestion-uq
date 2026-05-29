@@ -9,7 +9,7 @@ import { exportarSesionCEI } from '../utils/exportCiarp.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
 import { useNotification } from '../context/NotificationContext.jsx';
 import ConfirmDialog from './ConfirmDialog.jsx';
-import { useDocentesIndex } from '../hooks/useDocentesData.js';
+import { useDocentesIndex, clearDocentesCache } from '../hooks/useDocentesData.js';
 import PdfUploader from './PdfUploader.jsx';
 import { Paperclip, Save } from 'lucide-react';
 import { 
@@ -202,10 +202,11 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
             // Si el nuevo estado es aprobado_cei y antes no lo estaba, actualizar la categoría
             if (updatedSol.estado === 'aprobado_cei' && selected.estado !== 'aprobado_cei') {
                const notas = parseCeiInfo(updatedSol.notas);
-               if (notas.categoria_nueva) {
+               if (notas.categoria_nueva && updatedSol.cedula) {
                  const upRes = await updateDocente(updatedSol.cedula, { categoria: notas.categoria_nueva });
                  if (upRes.success) {
-                   success(`La categoría del docente se actualizó automáticamente a ${notas.categoria_nueva}`);
+                   clearDocentesCache(); // invalida caché para que GestorDocentes vea la nueva categoría
+                   success(`Categoría actualizada automáticamente a ${notas.categoria_nueva}`);
                  }
                }
             }
@@ -1790,20 +1791,7 @@ function DetalleCEI({ sol, onBack, onUpdate, onEliminar, user }) {
                       >
                         📜 Res. Ascenso CEI
                       </button>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          const solParaDoc = {
-                            ...sol,
-                            docente, cedula, correo, facultad, programa, titulo,
-                            notas: JSON.stringify({ ...info, categoria_actual: categoriaActual, categoria_nueva: categoriaNueva, dedicacion, escolaridad, acta_ciarp_puntos: actaCiarpPuntos }),
-                          };
-                          generarDocumento('resolucion_ciarp_ascenso', solParaDoc);
-                        }}
-                        style={{ flex: 1, padding: '9px 12px', borderRadius: 8, background: '#166534', color: '#fff', border: 'none', fontWeight: 700, fontSize: 12, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}
-                      >
-                        📊 Res. CIARP (Puntos)
-                      </button>
+{/* Botón Res. CIARP (Puntos) eliminado: los puntos de ascenso se incluyen en la resolución de Productividad Académica del CIARP */}
                     </div>
 
                     <div>
