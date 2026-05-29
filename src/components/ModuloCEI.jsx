@@ -2,7 +2,8 @@ import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { generarDocumento } from '../utils/docGenerator.jsx';
 import {
   fetchSesionesCei, createSesionCei, getSiguienteNumeroCei,
-  getInformeSesionCei, cerrarYAbrirSesionCei, deleteSesionCei
+  getInformeSesionCei, cerrarYAbrirSesionCei, deleteSesionCei,
+  updateDocente
 } from '../utils/api.js';
 import { exportarSesionCEI } from '../utils/exportCiarp.js';
 import { useSolicitudes } from '../context/SolicitudesContext.jsx';
@@ -197,10 +198,21 @@ export default function ModuloCEI({ user, solicitudesAscenso = [], onSelect }) {
           if (res.success) {
             setSelected(res.sol);
             success('Solicitud CEI actualizada con éxito');
+            
+            // Si el nuevo estado es aprobado_cei y antes no lo estaba, actualizar la categoría
+            if (updatedSol.estado === 'aprobado_cei' && selected.estado !== 'aprobado_cei') {
+               const notas = parseCeiInfo(updatedSol.notas);
+               if (notas.categoria_nueva) {
+                 const upRes = await updateDocente(updatedSol.cedula, { categoria: notas.categoria_nueva });
+                 if (upRes.success) {
+                   success(`La categoría del docente se actualizó automáticamente a ${notas.categoria_nueva}`);
+                 }
+               }
+            }
           } else {
             showError('Error al actualizar la solicitud CEI');
           }
-        }} 
+        }}
         onEliminar={() => setSolicitudAEliminar(selected)}
         user={user}
       />
