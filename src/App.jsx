@@ -184,7 +184,7 @@ export default function App() {
         return W(GestorCiarp, { user, solicitudes: solicitudesCiarp, onSelect: handleSelect, setNav });
 
       case 'resoluciones':
-        return W(Resoluciones, { solicitudes: solicitudesProductividad, onSelect: handleSelect });
+        return W(Resoluciones, { solicitudes: solicitudes, onSelect: handleSelect });
 
       case 'reportes':
         return W(Reportes, { solicitudes });
