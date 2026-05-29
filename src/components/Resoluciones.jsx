@@ -74,59 +74,61 @@ function buildProgramaGroups(solicitudes, anioFiltro, tabMode) {
     }));
 }
 
-/** Build groups for CEI ascensos — agrupados por sesión CEI, sin filtro rígido de año */
+/** Build groups for CEI ascensos — agrupados por sesión CEI */
 function buildAscensoGroups(solicitudes) {
-  // Todos los ascensos aprobados por CEI (el año de la sesión no coincide con el año
-  // del ID/fecha del solicitante, por eso no filtramos por anioFiltro aquí)
+  // Solo ascensos aprobados por el CEI. Los que ya pasaron por CIARP (estado='aprobado'
+  // con acta_ciarp) van en la tab de Productividad, no aquí.
   const elegibles = solicitudes.filter(s => {
     if (s.tipo !== 'ascenso') return false;
-    if (s.estado !== 'aprobado_cei' && s.estado !== 'aprobado') return false;
+    if (s.estado !== 'aprobado_cei') return false;   // solo los del CEI, no CIARP
     if (s.id && s.id.startsWith('HIST-')) return false;
     return true;
   });
 
+  // Deduplicar por cédula dentro de cada sesión: conservar el más reciente
+  const dedupKey = s => `${s.sesion_cei_id || 'sin'}__${s.cedula || s.id}`;
+  const seen = new Set();
+  const unique = elegibles.filter(s => {
+    const k = dedupKey(s);
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+
   const groups = {};
-  elegibles.forEach(s => {
+  unique.forEach(s => {
     const info = (() => { try { return JSON.parse(s.notas || '{}'); } catch { return {}; } })();
-    // sesion_cei_id es la clave real en BD; si no tiene, agrupamos como "sin sesión"
     const sessionKey = s.sesion_cei_id ? String(s.sesion_cei_id) : 'sin_sesion';
     const actaLabel  = info.acta_cei || s.acta_cei || '';
     if (!groups[sessionKey]) {
-      groups[sessionKey] = {
-        key: sessionKey,
-        sesion_id: s.sesion_cei_id || null,
-        acta_label: actaLabel,
-        solicitudes: []
-      };
+      groups[sessionKey] = { key: sessionKey, sesion_id: s.sesion_cei_id || null, acta_label: actaLabel, solicitudes: [] };
     }
-    // Actualizar el acta_label si ahora tenemos uno mejor
-    if (!groups[sessionKey].acta_label && actaLabel) {
-      groups[sessionKey].acta_label = actaLabel;
-    }
+    if (!groups[sessionKey].acta_label && actaLabel) groups[sessionKey].acta_label = actaLabel;
     groups[sessionKey].solicitudes.push(s);
   });
 
+  /** Convierte "CEI-2026-01" → "Sesión CEI 01 — 2026" */
+  const parseSessionLabel = (id) => {
+    if (!id || id === 'sin_sesion') return 'Sin sesión CEI asignada';
+    // Formato esperado: CEI-{anio}-{numero}
+    const m = String(id).match(/CEI[-_](\d{4})[-_](\d+)/i);
+    if (m) return `CEI ${parseInt(m[2], 10)} — ${m[1]}`;
+    return `CEI Sesión ${id}`;
+  };
+
   return Object.values(groups)
     .sort((a, b) => {
-      // Ordenar: primero los que tienen sesión (por ID desc), luego sin sesión
       if (!a.sesion_id && b.sesion_id) return 1;
       if (a.sesion_id && !b.sesion_id) return -1;
-      return Number(b.sesion_id) - Number(a.sesion_id);
+      return String(a.sesion_id).localeCompare(String(b.sesion_id));
     })
-    .map(g => {
-      const label = g.acta_label
-        ? `CEI — Acta ${g.acta_label}`
-        : g.sesion_id
-          ? `CEI Sesión #${g.sesion_id}`
-          : 'Sin sesión CEI asignada';
-      return {
-        key: g.key,
-        programa: label,         // reutilizamos campo "programa" como título del grupo
-        actas: g.acta_label,
-        sesion_id: g.sesion_id,
-        solicitudes: g.solicitudes.sort((a, b) => (a.docente || '').localeCompare(b.docente || ''))
-      };
-    });
+    .map(g => ({
+      key: g.key,
+      programa: parseSessionLabel(g.sesion_id),
+      actas: g.acta_label || null,
+      sesion_id: g.sesion_id,
+      solicitudes: g.solicitudes.sort((a, b) => (a.docente || '').localeCompare(b.docente || ''))
+    }));
 }
 
 // ── Programa accordion ───────────────────────────────────────────────────────
