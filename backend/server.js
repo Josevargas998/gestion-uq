@@ -751,7 +751,7 @@ app.get('/api/productividad-historica/buscar', async (req, res, next) => {
     let p = 1;
     if (q) {
       if (/^\d+$/.test(q)) { conds.push(`cedula ILIKE $${p}`); params.push(`%${q}%`); p++; }
-      else                  { conds.push(`docente ILIKE $${p}`); params.push(`%${q}%`); p++; }
+      else                  { conds.push(`(docente ILIKE $${p} OR titulo ILIKE $${p})`); params.push(`%${q}%`); p++; }
     }
     if (categoria) { conds.push(`categoria = $${p}`); params.push(categoria); p++; }
     if (programa)  { conds.push(`programa ILIKE $${p}`); params.push(`%${programa}%`); p++; }

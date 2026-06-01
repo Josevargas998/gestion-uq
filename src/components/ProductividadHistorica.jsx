@@ -232,10 +232,10 @@ export default function ProductividadHistorica({ user }) {
         <form onSubmit={handleBuscar} className="ph-filtros-form">
           <div className="ph-filtros-row">
             <div className="ph-filtro-group ph-filtro-search">
-              <label>🔍 Buscar docente</label>
+              <label>🔍 Buscar</label>
               <input
                 type="text"
-                placeholder="Nombre o cédula..."
+                placeholder="Nombre, cédula o título..."
                 value={busqueda}
                 onChange={e => setBusqueda(e.target.value)}
                 className="ph-input"
