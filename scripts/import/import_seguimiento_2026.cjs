@@ -40,6 +40,18 @@ function cleanText(str) {
   return str ? str.toString().trim() : '';
 }
 
+function parseExcelDate(val) {
+  if (!val) return null;
+  if (typeof val === 'number') {
+    // Excel serial date to JS Date
+    const d = new Date(Math.round((val - 25569) * 86400 * 1000));
+    return d.toISOString().split('T')[0];
+  }
+  const str = cleanText(val);
+  if (/^\\d{4}-\\d{2}-\\d{2}/.test(str)) return str.substring(0, 10);
+  return null;
+}
+
 async function getOrCreateDocente(client, cedula, docente, facultad, programa) {
   const res = await client.query('SELECT cedula FROM docentes WHERE cedula = $1', [cedula]);
   if (res.rows.length === 0) {
@@ -109,11 +121,22 @@ async function run() {
     const facultadIdx= headers.findIndex(h => h === 'FACULTAD');
     const progIdx    = headers.findIndex(h => h === 'DEPENDENCIA');
     const evaluadorIdx = headers.findIndex(h => h.includes('EVALUADORES') || h.includes('EVALUADOR') || h === 'PAR EVALUADOR');
+    
+    const enviFacIdx = headers.findIndex(h => h.includes('ENVIADO FACULTAD'));
+    const memoEnvIntIdx = enviFacIdx !== -1 ? headers.indexOf('RADICADO', enviFacIdx) : -1;
+
+    const recFacIdx = headers.findIndex(h => h.includes('RECIBIDO FACULTAD'));
+    const memoRecIntIdx = recFacIdx !== -1 ? headers.indexOf('RADICADO', recFacIdx) : -1;
+
+    const invExtIdx = headers.findIndex(h => h.includes('FECHA INVITACIÓN') || h.includes('FECHA INVITACION'));
+    const memoEnvExtIdx = invExtIdx !== -1 ? headers.indexOf('RADICADO', invExtIdx) : -1;
+
+    const parEntregoIdx = headers.findIndex(h => h.includes('EL PAR ENTREGO') || h.includes('PAR ENTREGÓ'));
 
     if (cedulaIdx === -1) continue;
 
     // Aplicar fill-down en todas las columnas clave para resolver celdas combinadas
-    const keyCols = [cedulaIdx, tituloIdx, autorIdx, estadoIdx, actaIdx, ptsIdx, facultadIdx, progIdx, evaluadorIdx].filter(c => c !== -1);
+    const keyCols = [cedulaIdx, tituloIdx, autorIdx, estadoIdx, actaIdx, ptsIdx, facultadIdx, progIdx, evaluadorIdx, enviFacIdx, memoEnvIntIdx, recFacIdx, memoRecIntIdx, invExtIdx, memoEnvExtIdx, parEntregoIdx].filter(c => c !== -1);
     const filledRows = fillDown(rawData.slice(headerRowIndex + 1), keyCols);
 
     for (const row of filledRows) {
@@ -132,6 +155,14 @@ async function run() {
       const programa   = progIdx !== -1    ? cleanText(row[progIdx])                  : '';
       const evaluadores = evaluadorIdx !== -1 ? cleanText(row[evaluadorIdx]) : '';
 
+      const fEnvInt = enviFacIdx !== -1 ? parseExcelDate(row[enviFacIdx]) : '';
+      const mEnvInt = memoEnvIntIdx !== -1 ? cleanText(row[memoEnvIntIdx]) : '';
+      const fRecInt = recFacIdx !== -1 ? parseExcelDate(row[recFacIdx]) : '';
+      const mRecInt = memoRecIntIdx !== -1 ? cleanText(row[memoRecIntIdx]) : '';
+      const fEnvExt = invExtIdx !== -1 ? parseExcelDate(row[invExtIdx]) : '';
+      const mEnvExt = memoEnvExtIdx !== -1 ? cleanText(row[memoEnvExtIdx]) : '';
+      const parEntrego = parEntregoIdx !== -1 ? cleanText(row[parEntregoIdx]).toUpperCase() : '';
+
       let estado = 'recibida';
       if      (estadoStr.includes('APROBADO'))  estado = 'aprobado';
       else if (estadoStr.includes('NEGADO') || estadoStr.includes('RECHAZADO')) estado = 'rechazado';
@@ -146,31 +177,72 @@ async function run() {
           estado = 'pares_externos';
       }
 
+      let newPar = null;
+      if (evaluadores && evaluadores.trim().length > 3) {
+          const statusVal = (parEntrego.includes('SI') || parEntrego.includes('ENTREGÓ') || parEntrego.includes('ENTREGO')) && !parEntrego.includes('NO ENTREGO') ? 'recibido' : 'pendiente';
+          newPar = {
+              nombre: evaluadores.trim().toUpperCase(),
+              univ: '',
+              estado: statusVal,
+              vence: ''
+          };
+      }
+      
+      let paresInt = null;
+      if (mRecInt || fRecInt) {
+          paresInt = {
+             estado: 'aprobado',
+             consejo: 'Consejo de Facultad',
+             fecha: fRecInt || ''
+          };
+      }
+
       await getOrCreateDocente(client, cedula, docente, facultad, programa);
 
       const check = await client.query(
-        `SELECT id, estado FROM solicitudes WHERE cedula = $1 AND LOWER(titulo) = LOWER($2) LIMIT 1`,
+        `SELECT id, etapa, pares_ext FROM solicitudes WHERE cedula = $1 AND LOWER(titulo) = LOWER($2) LIMIT 1`,
         [cedula, titulo]
       );
 
       if (check.rows.length > 0) {
+        let existingPares = check.rows[0].pares_ext;
+        if (typeof existingPares === 'string') {
+            try { existingPares = JSON.parse(existingPares); } catch(e) { existingPares = []; }
+        }
+        if (!Array.isArray(existingPares)) existingPares = [];
+        
+        if (newPar) {
+            const exists = existingPares.some(p => p.nombre.toUpperCase() === newPar.nombre);
+            if (!exists) {
+                existingPares.push(newPar);
+            }
+        }
+
         await client.query(
           `UPDATE solicitudes SET
              acta_ciarp = COALESCE($1, acta_ciarp),
              pts_asig   = COALESCE($2, pts_asig),
              etapa      = $3,
              estado     = $4,
+             pares_ext  = $5,
+             pares_int  = COALESCE($6, pares_int),
+             memo_envio_int = COALESCE($7, memo_envio_int),
+             fecha_envio_int = COALESCE($8, fecha_envio_int),
+             memo_recibo_int = COALESCE($9, memo_recibo_int),
+             fecha_recibo_int = COALESCE($10, fecha_recibo_int),
+             memo_envio_ext = COALESCE($11, memo_envio_ext),
              updated_at = NOW()
-           WHERE id = $5`,
-          [acta_ciarp || null, pts, estado !== 'recibida' ? estado : check.rows[0].etapa, ['aprobado', 'rechazado'].includes(estado) ? estado : 'en_proceso', check.rows[0].id]
+           WHERE id = $12`,
+          [acta_ciarp || null, pts, estado !== 'recibida' ? estado : check.rows[0].etapa, ['aprobado', 'rechazado'].includes(estado) ? estado : 'en_proceso', JSON.stringify(existingPares), paresInt ? JSON.stringify(paresInt) : null, mEnvInt || null, fEnvInt || null, mRecInt || null, fRecInt || null, mEnvExt || null, check.rows[0].id]
         );
         updated++;
       } else {
         const id = 'SOL-2026-PROD-' + crypto.randomUUID().split('-')[0];
+        const paresExtInit = newPar ? [newPar] : [];
         await client.query(
-          `INSERT INTO solicitudes (id, docente, cedula, tipo, titulo, etapa, estado, facultad, programa, acta_ciarp, pts_sug, pts_asig, created_at, updated_at)
-           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,NOW(),NOW())`,
-          [id, docente, cedula, tipo, titulo, estado, ['aprobado', 'rechazado'].includes(estado) ? estado : 'en_proceso', facultad, programa, acta_ciarp, pts, pts]
+          `INSERT INTO solicitudes (id, docente, cedula, tipo, titulo, etapa, estado, facultad, programa, acta_ciarp, pts_sug, pts_asig, pares_ext, pares_int, memo_envio_int, fecha_envio_int, memo_recibo_int, fecha_recibo_int, memo_envio_ext, created_at, updated_at)
+           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,NOW(),NOW())`,
+          [id, docente, cedula, tipo, titulo, estado, ['aprobado', 'rechazado'].includes(estado) ? estado : 'en_proceso', facultad, programa, acta_ciarp, pts, pts, JSON.stringify(paresExtInit), paresInt ? JSON.stringify(paresInt) : null, mEnvInt || null, fEnvInt || null, mRecInt || null, fRecInt || null, mEnvExt || null]
         );
         inserted++;
       }
