@@ -46,7 +46,7 @@ export default function MiPerfil() {
     
     setLoading(true);
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/foto`, {
+      const response = await fetch(`/api/auth/foto`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${sessionStorage.getItem('gestion_uq_token')}`
@@ -110,7 +110,8 @@ export default function MiPerfil() {
     }
   };
 
-  const fotoUrl = user?.foto_url ? `${import.meta.env.VITE_API_URL}${user.foto_url}` : null;
+  const apiBase = import.meta.env.VITE_API_URL || '';
+  const fotoUrl = user?.foto_url ? `${apiBase}${user.foto_url}` : null;
   const initials = user?.nombre?.split(' ').filter(Boolean).slice(0, 2).map(n => n[0].toUpperCase()).join('');
 
   return (

@@ -45,6 +45,7 @@ export default function TopBar({ currentPage, setNav }) {
   const initials = user ? getInitials(user.nombre) : '?';
   const hora    = new Date().getHours();
   const saludo  = hora < 12 ? 'Buenos días' : hora < 18 ? 'Buenas tardes' : 'Buenas noches';
+  const apiBase = import.meta.env.VITE_API_URL || '';
 
   const handleFileChange = async (e) => {
     const file = e.target.files[0];
@@ -146,7 +147,7 @@ export default function TopBar({ currentPage, setNav }) {
             <div style={{
               width: 32, height: 32, borderRadius: '50%',
               background: user?.foto_url ? 'transparent' : rc.bg, color: '#fff',
-              backgroundImage: user?.foto_url ? `url(${import.meta.env.VITE_API_URL}${user.foto_url})` : 'none',
+              backgroundImage: user?.foto_url ? `url(${apiBase}${user.foto_url})` : 'none',
               backgroundSize: 'cover', backgroundPosition: 'center',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               fontSize: 12, fontWeight: 700, flexShrink: 0,
@@ -176,7 +177,7 @@ export default function TopBar({ currentPage, setNav }) {
                 <div style={{
                   width: 56, height: 56, borderRadius: '50%',
                   background: user?.foto_url ? 'transparent' : 'rgba(255,255,255,.2)', border: '2px solid rgba(255,255,255,.4)',
-                  backgroundImage: user?.foto_url ? `url(${import.meta.env.VITE_API_URL}${user.foto_url})` : 'none',
+                  backgroundImage: user?.foto_url ? `url(${apiBase}${user.foto_url})` : 'none',
                   backgroundSize: 'cover', backgroundPosition: 'center',
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   fontSize: 22, fontWeight: 700, color: '#fff', marginBottom: 12,
