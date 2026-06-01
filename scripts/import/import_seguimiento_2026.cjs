@@ -135,15 +135,15 @@ async function run() {
       let estado = 'recibida';
       if      (estadoStr.includes('APROBADO'))  estado = 'aprobado';
       else if (estadoStr.includes('NEGADO') || estadoStr.includes('RECHAZADO')) estado = 'rechazado';
-      else if (estadoStr.includes('PARES EXTERNOS') || estadoStr.includes('EVALUACIÓN EXTERNA') || estadoStr.includes('EVALUACION EXTERNA')) estado = 'evaluacion_externa';
-      else if (estadoStr.includes('PARES INTERNOS') || estadoStr.includes('EVALUACIÓN INTERNA') || estadoStr.includes('EVALUACION INTERNA') || estadoStr.includes('PENDIENTE') || estadoStr.includes('ARTICULO')) estado = 'evaluacion_interna';
+      else if (estadoStr.includes('PARES EXTERNOS') || estadoStr.includes('EVALUACIÓN EXTERNA') || estadoStr.includes('EVALUACION EXTERNA')) estado = 'pares_externos';
+      else if (estadoStr.includes('PARES INTERNOS') || estadoStr.includes('EVALUACIÓN INTERNA') || estadoStr.includes('EVALUACION INTERNA') || estadoStr.includes('PENDIENTE') || estadoStr.includes('ARTICULO')) estado = 'pares_internos';
       else if (estadoStr.includes('EVALUADO') || estadoStr.includes('INFORME')) estado = 'informe';
       else if (estadoStr.includes('CLASIFICADA')) estado = 'clasificada';
       
       // Si el estado no define explícitamente evaluación externa, pero tiene asignado un par evaluador externo (o evaluadores en general),
       // avanzamos la etapa a evaluación externa como mínimo.
       if ((estado === 'recibida' || estado === 'clasificada') && evaluadores.trim().length > 3) {
-          estado = 'evaluacion_externa';
+          estado = 'pares_externos';
       }
 
       await getOrCreateDocente(client, cedula, docente, facultad, programa);
@@ -158,18 +158,19 @@ async function run() {
           `UPDATE solicitudes SET
              acta_ciarp = COALESCE($1, acta_ciarp),
              pts_asig   = COALESCE($2, pts_asig),
-             estado     = $3,
+             etapa      = $3,
+             estado     = $4,
              updated_at = NOW()
-           WHERE id = $4`,
-          [acta_ciarp || null, pts, estado !== 'recibida' ? estado : check.rows[0].estado, check.rows[0].id]
+           WHERE id = $5`,
+          [acta_ciarp || null, pts, estado !== 'recibida' ? estado : check.rows[0].etapa, ['aprobado', 'rechazado'].includes(estado) ? estado : 'en_proceso', check.rows[0].id]
         );
         updated++;
       } else {
         const id = 'SOL-2026-PROD-' + crypto.randomUUID().split('-')[0];
         await client.query(
-          `INSERT INTO solicitudes (id, docente, cedula, tipo, titulo, estado, facultad, programa, acta_ciarp, pts_sug, pts_asig, created_at, updated_at)
-           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,NOW(),NOW())`,
-          [id, docente, cedula, tipo, titulo, estado, facultad, programa, acta_ciarp, pts, pts]
+          `INSERT INTO solicitudes (id, docente, cedula, tipo, titulo, etapa, estado, facultad, programa, acta_ciarp, pts_sug, pts_asig, created_at, updated_at)
+           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,NOW(),NOW())`,
+          [id, docente, cedula, tipo, titulo, estado, ['aprobado', 'rechazado'].includes(estado) ? estado : 'en_proceso', facultad, programa, acta_ciarp, pts, pts]
         );
         inserted++;
       }

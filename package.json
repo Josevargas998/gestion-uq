@@ -19,6 +19,7 @@
     "express-rate-limit": "^7.4.0",
     "helmet": "^7.1.0",
     "lucide-react": "^1.16.0",
+    "pg": "^8.21.0",
     "playwright": "^1.60.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
