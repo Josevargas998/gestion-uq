@@ -70,7 +70,10 @@ export default function MiPerfil() {
     e.preventDefault();
     setLoading(true);
     try {
-      const data = await apiFetch('/api/auth/profile', 'PUT', { correo, privacidad });
+      const data = await apiFetch('/api/auth/profile', {
+        method: 'PUT',
+        body: JSON.stringify({ correo, privacidad })
+      });
       updateUserContext({ correo: data.correo, privacidad: data.privacidad });
       success('Perfil actualizado correctamente');
     } catch (err) {
@@ -91,9 +94,12 @@ export default function MiPerfil() {
 
     setLoading(true);
     try {
-      await apiFetch('/api/auth/password', 'PUT', {
-        currentPassword: passwords.current,
-        newPassword: passwords.new
+      await apiFetch('/api/auth/password', {
+        method: 'PUT',
+        body: JSON.stringify({
+          currentPassword: passwords.current,
+          newPassword: passwords.new
+        })
       });
       success('Contraseña actualizada correctamente');
       setPasswords({ current: '', new: '', confirm: '' });
