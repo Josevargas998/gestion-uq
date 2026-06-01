@@ -108,11 +108,12 @@ async function run() {
     const ptsIdx     = headers.findIndex(h => h.includes('PUNTAJE AUTOR'));
     const facultadIdx= headers.findIndex(h => h === 'FACULTAD');
     const progIdx    = headers.findIndex(h => h === 'DEPENDENCIA');
+    const evaluadorIdx = headers.findIndex(h => h.includes('EVALUADORES') || h.includes('EVALUADOR') || h === 'PAR EVALUADOR');
 
     if (cedulaIdx === -1) continue;
 
     // Aplicar fill-down en todas las columnas clave para resolver celdas combinadas
-    const keyCols = [cedulaIdx, tituloIdx, autorIdx, estadoIdx, actaIdx, ptsIdx, facultadIdx, progIdx].filter(c => c !== -1);
+    const keyCols = [cedulaIdx, tituloIdx, autorIdx, estadoIdx, actaIdx, ptsIdx, facultadIdx, progIdx, evaluadorIdx].filter(c => c !== -1);
     const filledRows = fillDown(rawData.slice(headerRowIndex + 1), keyCols);
 
     for (const row of filledRows) {
@@ -129,12 +130,21 @@ async function run() {
       const pts        = ptsIdx !== -1     ? parseFloat(String(row[ptsIdx]).replace(/,/g, '.')) || null : null;
       const facultad   = facultadIdx !== -1 ? cleanText(row[facultadIdx])            : '';
       const programa   = progIdx !== -1    ? cleanText(row[progIdx])                  : '';
+      const evaluadores = evaluadorIdx !== -1 ? cleanText(row[evaluadorIdx]) : '';
 
       let estado = 'recibida';
       if      (estadoStr.includes('APROBADO'))  estado = 'aprobado';
-      else if (estadoStr.includes('NEGADO'))    estado = 'rechazado';
-      else if (estadoStr.includes('PENDIENTE')) estado = 'evaluacion_interna';
-      else if (estadoStr.includes('ARTICULO'))  estado = 'evaluacion_interna'; // Ascensos tipo artículo
+      else if (estadoStr.includes('NEGADO') || estadoStr.includes('RECHAZADO')) estado = 'rechazado';
+      else if (estadoStr.includes('PARES EXTERNOS') || estadoStr.includes('EVALUACIÓN EXTERNA') || estadoStr.includes('EVALUACION EXTERNA')) estado = 'evaluacion_externa';
+      else if (estadoStr.includes('PARES INTERNOS') || estadoStr.includes('EVALUACIÓN INTERNA') || estadoStr.includes('EVALUACION INTERNA') || estadoStr.includes('PENDIENTE') || estadoStr.includes('ARTICULO')) estado = 'evaluacion_interna';
+      else if (estadoStr.includes('EVALUADO') || estadoStr.includes('INFORME')) estado = 'informe';
+      else if (estadoStr.includes('CLASIFICADA')) estado = 'clasificada';
+      
+      // Si el estado no define explícitamente evaluación externa, pero tiene asignado un par evaluador externo (o evaluadores en general),
+      // avanzamos la etapa a evaluación externa como mínimo.
+      if ((estado === 'recibida' || estado === 'clasificada') && evaluadores.trim().length > 3) {
+          estado = 'evaluacion_externa';
+      }
 
       await getOrCreateDocente(client, cedula, docente, facultad, programa);
 
