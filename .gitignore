@@ -25,3 +25,6 @@ backend/*.pem
 
 # Temporary scratch files
 scratch/
+
+logs/
+monitor.log
