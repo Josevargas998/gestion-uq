@@ -7,7 +7,7 @@ import { exportarCIARP } from '../utils/exportCiarp.js';
 import { ROL_COLORS } from '../data';
 import { 
   Download, Upload, ChevronDown, ChevronUp, LogOut, CheckCircle, 
-  Loader, ClipboardList, Landmark, Eye, Scale, FileText
+  Loader, ClipboardList, Landmark, Eye, Scale, FileText, User
 } from 'lucide-react';
 
 function getInitials(nombre = '') {
@@ -19,7 +19,7 @@ function maskCedula(ced = '') {
   return '*'.repeat(ced.length - 4) + ced.slice(-4);
 }
 
-export default function TopBar({ currentPage }) {
+export default function TopBar({ currentPage, setNav }) {
   const { user, logout } = useAuth();
   const { solicitudes, saving, saveMsg, importar } = useSolicitudes();
   const { success, error: showError } = useNotification();
@@ -145,10 +145,13 @@ export default function TopBar({ currentPage }) {
           >
             <div style={{
               width: 32, height: 32, borderRadius: '50%',
-              background: rc.bg, color: '#fff',
+              background: user?.foto_url ? 'transparent' : rc.bg, color: '#fff',
+              backgroundImage: user?.foto_url ? `url(${import.meta.env.VITE_API_URL}${user.foto_url})` : 'none',
+              backgroundSize: 'cover', backgroundPosition: 'center',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               fontSize: 12, fontWeight: 700, flexShrink: 0,
-            }}>{initials}</div>
+              boxShadow: user?.foto_url ? 'inset 0 0 0 1px rgba(0,0,0,0.1)' : 'none'
+            }}>{!user?.foto_url && initials}</div>
             <div style={{ textAlign: 'left', lineHeight: 1.2 }}>
               <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)', maxWidth: 160, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                 {user?.nombre?.split(' ')[0]}
@@ -172,10 +175,12 @@ export default function TopBar({ currentPage }) {
               <div style={{ background: `linear-gradient(135deg, ${rc.bg} 0%, ${rc.bg}cc 100%)`, padding: '24px 20px 20px' }}>
                 <div style={{
                   width: 56, height: 56, borderRadius: '50%',
-                  background: 'rgba(255,255,255,.2)', border: '2px solid rgba(255,255,255,.4)',
+                  background: user?.foto_url ? 'transparent' : 'rgba(255,255,255,.2)', border: '2px solid rgba(255,255,255,.4)',
+                  backgroundImage: user?.foto_url ? `url(${import.meta.env.VITE_API_URL}${user.foto_url})` : 'none',
+                  backgroundSize: 'cover', backgroundPosition: 'center',
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   fontSize: 22, fontWeight: 700, color: '#fff', marginBottom: 12,
-                }}>{initials}</div>
+                }}>{!user?.foto_url && initials}</div>
                 <div style={{ fontWeight: 700, fontSize: 16, color: '#fff', lineHeight: 1.2, letterSpacing: '-0.01em' }}>{user?.nombre}</div>
                 <div style={{
                   display: 'inline-flex', alignItems: 'center', gap: 6, marginTop: 8,
@@ -203,8 +208,23 @@ export default function TopBar({ currentPage }) {
                 </div>
               </div>
 
-              {/* Cerrar sesión */}
-              <div style={{ padding: '12px' }}>
+              {/* Botones de acción */}
+              <div style={{ padding: '12px', display: 'flex', flexDirection: 'column', gap: 4 }}>
+                {setNav && (
+                  <button
+                    onClick={() => { setProfileOpen(false); setNav('perfil'); }}
+                    style={{
+                      width: '100%', padding: '10px', borderRadius: 10,
+                      background: 'transparent', border: '1px solid transparent',
+                      color: 'var(--text)', fontSize: 13, fontWeight: 600,
+                      cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8, transition: 'all .15s',
+                    }}
+                    onMouseEnter={e => { e.currentTarget.style.background = 'var(--bg)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; }}
+                  >
+                    <User size={16} /> Mi Perfil
+                  </button>
+                )}
                 <button
                   onClick={() => { setProfileOpen(false); logout(); }}
                   style={{

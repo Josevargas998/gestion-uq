@@ -196,7 +196,7 @@ app.post('/api/auth/login', async (req, res, next) => {
 
     // 2. Intentar login como USUARIO DE OFICINA (con password)
     const { rows: usuarios } = await query(
-      'SELECT cedula, nombre, rol, password_hash FROM usuarios WHERE cedula = $1 AND activo = true LIMIT 1',
+      'SELECT cedula, nombre, rol, password_hash, correo, foto_url, privacidad FROM usuarios WHERE cedula = $1 AND activo = true LIMIT 1',
       [String(cedula).trim()]
     );
     if (usuarios.length > 0) {
@@ -209,10 +209,75 @@ app.post('/api/auth/login', async (req, res, next) => {
         process.env.API_SECRET,
         { expiresIn: '12h' }
       );
-      return res.json({ cedula: usuarios[0].cedula, nombre: usuarios[0].nombre, rol: userRol, token });
+      return res.json({ 
+        cedula: usuarios[0].cedula, 
+        nombre: usuarios[0].nombre, 
+        rol: userRol, 
+        correo: usuarios[0].correo, 
+        foto_url: usuarios[0].foto_url,
+        privacidad: usuarios[0].privacidad,
+        token 
+      });
     }
 
     res.status(401).json({ error: 'Usuario no registrado' });
+  } catch (err) { next(err); }
+});
+
+// GET Perfil de usuario actual
+app.get('/api/auth/me', verifyToken, async (req, res, next) => {
+  try {
+    const { rows } = await query(
+      'SELECT cedula, nombre, rol, correo, foto_url, privacidad FROM usuarios WHERE cedula = $1 LIMIT 1',
+      [req.user.cedula]
+    );
+    if (!rows.length) return res.status(404).json({ error: 'Usuario no encontrado' });
+    res.json(rows[0]);
+  } catch (err) { next(err); }
+});
+
+// PUT Actualizar perfil
+app.put('/api/auth/profile', verifyToken, async (req, res, next) => {
+  try {
+    const { correo, privacidad } = req.body;
+    const { rows } = await query(
+      'UPDATE usuarios SET correo = $1, privacidad = $2 WHERE cedula = $3 RETURNING cedula, nombre, rol, correo, foto_url, privacidad',
+      [correo || null, privacidad || { mostrar_correo: true }, req.user.cedula]
+    );
+    res.json(rows[0]);
+  } catch (err) { next(err); }
+});
+
+// PUT Cambiar contraseña
+app.put('/api/auth/password', verifyToken, async (req, res, next) => {
+  try {
+    const { currentPassword, newPassword } = req.body;
+    if (!currentPassword || !newPassword) return res.status(400).json({ error: 'Faltan datos' });
+
+    const { rows } = await query('SELECT password_hash FROM usuarios WHERE cedula = $1 LIMIT 1', [req.user.cedula]);
+    if (!rows.length) return res.status(404).json({ error: 'Usuario no encontrado' });
+
+    const valid = await bcrypt.compare(String(currentPassword), rows[0].password_hash);
+    if (!valid) return res.status(401).json({ error: 'La contraseña actual es incorrecta' });
+
+    const hash = await bcrypt.hash(String(newPassword), 12);
+    await query('UPDATE usuarios SET password_hash = $1 WHERE cedula = $2', [hash, req.user.cedula]);
+    
+    res.json({ success: true });
+  } catch (err) { next(err); }
+});
+
+// POST Subir foto de perfil
+app.post('/api/auth/foto', verifyToken, upload.single('file'), async (req, res, next) => {
+  try {
+    if (!req.file) return res.status(400).json({ error: 'No se envió ningún archivo' });
+    const localUrl = `/uploads/${req.file.filename}`;
+    
+    const { rows } = await query(
+      'UPDATE usuarios SET foto_url = $1 WHERE cedula = $2 RETURNING cedula, nombre, rol, correo, foto_url, privacidad',
+      [localUrl, req.user.cedula]
+    );
+    res.json(rows[0]);
   } catch (err) { next(err); }
 });
 

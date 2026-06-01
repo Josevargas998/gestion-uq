@@ -29,6 +29,7 @@ const ModuloReconocimientos  = lazy(() => import('./components/ModuloReconocimie
 const PortalParEvaluador   = lazy(() => import('./components/PortalParEvaluador.jsx'));
 const PortalDocente        = lazy(() => import('./components/PortalDocente.jsx'));
 const RastreoSolicitud     = lazy(() => import('./components/RastreoSolicitud.jsx'));
+const MiPerfil             = lazy(() => import('./components/MiPerfil.jsx'));
 
 // ── Metadatos de páginas ──────────────────────────────────────
 const PAGE_TITLES = {
@@ -45,6 +46,7 @@ const PAGE_TITLES = {
   cei:           { title: 'Módulo CEI — Escalafón',   icon: <Landmark size={18} /> },
   historico:         { title: 'Productividad Histórica',        icon: <BarChart2 size={18} /> },
   reconocimientos:   { title: 'Reconocimientos Anuales (DAA·DDD·Exp.)', icon: <Award size={18} /> },
+  perfil:            { title: 'Mi Perfil',                      icon: <Users size={18} /> },
 };
 
 /** Spinner de carga para Suspense */
@@ -153,7 +155,7 @@ export default function App() {
   // Wrapper: ErrorBoundary + TopBar + Suspense para cada página
   const W = (C, props = {}) => (
     <ErrorBoundary>
-      <TopBar currentPage={currentPage} />
+      <TopBar currentPage={currentPage} setNav={setNav} />
       <Suspense fallback={<PageLoader />}>
         <C {...props} />
       </Suspense>
@@ -205,10 +207,13 @@ export default function App() {
       case 'reconocimientos':
         return W(ModuloReconocimientos, { user });
 
+      case 'perfil':
+        return W(MiPerfil, { user });
+
       case 'detalle':
         return selectedSol ? (
           <ErrorBoundary>
-            <TopBar currentPage={currentPage} />
+            <TopBar currentPage={currentPage} setNav={setNav} />
             <Suspense fallback={<PageLoader />}>
               <DetalleSolicitud
                 sol={selectedSol}

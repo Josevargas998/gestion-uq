@@ -54,12 +54,15 @@ export function AuthProvider({ children }) {
       const userRol = userData.rol ? String(userData.rol).trim().toLowerCase() : 'lectura';
       const info = ROL_INFO[userRol] || ROL_INFO.lectura;
       setUser({
-        rol:       userRol,
-        nombre:    userData.nombre,
-        cedula:    userData.cedula,
-        rolLabel:  info.label,
-        rolColor:  info.color,
-        rolIcon:   info.icon,
+        rol:        userRol,
+        nombre:     userData.nombre,
+        cedula:     userData.cedula,
+        correo:     userData.correo,
+        foto_url:   userData.foto_url,
+        privacidad: userData.privacidad,
+        rolLabel:   info.label,
+        rolColor:   info.color,
+        rolIcon:    info.icon,
       });
       return true;
     } catch (err) {
@@ -93,11 +96,15 @@ export function AuthProvider({ children }) {
     };
   }, [logout]);
 
+  const updateUserContext = useCallback((newData) => {
+    setUser(prev => prev ? { ...prev, ...newData } : null);
+  }, []);
+
   const isAdmin = user?.rol === 'admin';
   const canEdit = user?.rol === 'admin' || user?.rol === 'tecnico' || user?.rol === 'asistente';
 
   return (
-    <AuthContext.Provider value={{ user, loading, error, login, logout, isAdmin, canEdit }}>
+    <AuthContext.Provider value={{ user, loading, error, login, logout, updateUserContext, isAdmin, canEdit }}>
       {children}
     </AuthContext.Provider>
   );
