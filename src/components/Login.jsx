@@ -140,7 +140,7 @@ export default function Login() {
         </form>
 
         <div style={{ marginTop: 18, fontSize: 12, color: '#666' }}>
-          Si no recuerda su contraseña haga click <a href="#" style={{ color: '#428bca', textDecoration: 'none' }}>Aquí</a>
+          Si no recuerda su contraseña haga click <a href="#" onClick={(e) => { e.preventDefault(); alert('Si olvidó su contraseña, por favor envíe un correo a asuntosprofesorales@uniquindio.edu.co o acérquese a la oficina administrativa para restablecerla.'); }} style={{ color: '#428bca', textDecoration: 'none' }}>Aquí</a>
         </div>
 
         {/* --- TRACKING SECTION --- */}
@@ -175,13 +175,26 @@ export default function Login() {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
             {[
-              { color: '#ffc107', icon: '💬', title: 'Crear o consultar PQRSDF', desc: 'Ingrese aquí para crear y consultar PQRSDF.' },
-              { color: '#dc3545', icon: '📖', title: 'Guía para gestionar sus PQRSDF', desc: '¿Cómo gestionar tus solicitudes de PQRSDF? Consulte aquí.' },
-              { color: '#28a745', icon: '👤', title: 'Registrarse', desc: 'Regístrese como ciudadano para crear y hacer seguimiento de sus PQRSDF.' },
-              { color: '#007bff', icon: '🏛️', title: 'Procuraduría General de la Nación', desc: 'Acceso al sistema de la Procuraduría.' },
+              { 
+                color: '#ffc107', icon: '💬', title: 'Crear o consultar PQRSDF', desc: 'Ingrese aquí para crear y consultar PQRSDF.',
+                onClick: () => window.open('https://www.uniquindio.edu.co/pqrsdf', '_blank')
+              },
+              { 
+                color: '#dc3545', icon: '📖', title: 'Guía para gestionar sus PQRSDF', desc: '¿Cómo gestionar tus solicitudes de PQRSDF? Consulte aquí.',
+                onClick: () => window.open('https://www.uniquindio.edu.co/documentos/guia-pqrsdf', '_blank')
+              },
+              { 
+                color: '#28a745', icon: '👤', title: 'Registrarse', desc: 'Regístrese como ciudadano para crear y hacer seguimiento de sus PQRSDF.',
+                onClick: () => alert('⚠️ El registro directo está deshabilitado.\n\nEl acceso a este sistema es gestionado por la Oficina de Asuntos Profesorales. Si es docente de planta y no tiene credenciales, por favor contacte a la administración.')
+              },
+              { 
+                color: '#007bff', icon: '🏛️', title: 'Universidad del Quindío', desc: 'Acceso a la página web oficial de la institución.',
+                onClick: () => window.open('https://www.uniquindio.edu.co', '_blank')
+              },
             ].map((item, i) => (
               <div
                 key={i}
+                onClick={item.onClick}
                 style={{
                   display: 'flex', alignItems: 'center', gap: 14,
                   padding: '12px 14px',
