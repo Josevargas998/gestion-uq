@@ -10,7 +10,7 @@
 | Estado global | Context API: `AuthContext`, `SolicitudesContext`, `NotificationContext` |
 | Backend | Express (backend/server.js) — subida de PDFs a Google Drive (puerto 3001) |
 | Base de datos | PostgreSQL Local — tablas: solicitudes, usuarios, docentes |
-| Auth | Login por cédula contra tabla `usuarios` (password = cédula) |
+| Auth | Login por cédula contra tabla `usuarios` (password = `profesorlaes@2026`) |
 | Deploy | Vercel SPA — `vercel.json` reescribe todas las rutas a `/index.html` |
 
 ## Comandos de desarrollo
@@ -128,7 +128,7 @@ PORT=3001
 | Backend `/api/upload-pdf` | Protegido con `requireApiKey` (header `X-API-Key`) |
 | Validación de archivos | MIME + extensión + 50 MB límite en multer |
 | Sanitización de nombres | `path.basename()` + regex en `sanitizeFileName()` |
-| Password = cédula | ⚠️ Autenticación simple (sin autenticación avanzada) |
+| Cifrado contraseñas | ✅ **Bcrypt** (salt: 12) |
 | Drive permisos | `anyone/reader` — pendiente restringir a `@uniquindio.edu.co` |
 
 ## Usuarios
