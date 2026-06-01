@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNotification } from '../context/NotificationContext';
-import { Camera, Lock, User, Mail, Shield, CheckCircle, Loader } from 'lucide-react';
+import { Camera, Lock, User, Mail, Shield, CheckCircle, Loader, Trash2 } from 'lucide-react';
 import { apiFetch } from '../utils/api';
 
 export default function MiPerfil() {
@@ -66,6 +66,28 @@ export default function MiPerfil() {
     }
   };
 
+  const handleRemoveFoto = async () => {
+    if (!window.confirm('¿Estás seguro de que deseas quitar tu foto de perfil?')) return;
+    setLoading(true);
+    try {
+      const response = await fetch(`/api/auth/foto`, {
+        method: 'DELETE',
+        headers: {
+          'Authorization': `Bearer ${sessionStorage.getItem('gestion_uq_token')}`
+        }
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || 'Error al quitar foto');
+      
+      updateUserContext({ foto_url: null });
+      success('Foto de perfil quitada correctamente');
+    } catch (err) {
+      showError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const handleSaveProfile = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -121,26 +143,43 @@ export default function MiPerfil() {
       <div style={{ background: '#fff', borderRadius: 16, padding: 32, display: 'flex', alignItems: 'center', gap: 24, boxShadow: '0 2px 8px rgba(0,0,0,0.05)', marginBottom: 24 }}>
         <div style={{ position: 'relative' }}>
           <div style={{ 
-            width: 100, height: 100, borderRadius: '50%', background: 'var(--uq-green)', color: '#fff', 
+            width: 100, height: 100, borderRadius: '50%', backgroundColor: 'var(--uq-green)', color: '#fff', 
             display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 36, fontWeight: 700,
-            backgroundImage: fotoUrl ? `url(${fotoUrl})` : 'none', backgroundSize: 'cover', backgroundPosition: 'center',
+            backgroundImage: fotoUrl ? `url("${fotoUrl}")` : 'none', backgroundSize: 'cover', backgroundPosition: 'center',
             boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.1)'
           }}>
             {!fotoUrl && initials}
           </div>
-          <button 
-            onClick={handleFotoClick}
-            style={{ 
-              position: 'absolute', bottom: 0, right: 0, background: '#fff', border: '1px solid #ddd', 
-              borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center',
-              cursor: 'pointer', color: '#555', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', transition: 'all 0.2s'
-            }}
-            onMouseEnter={e => e.currentTarget.style.color = 'var(--uq-green)'}
-            onMouseLeave={e => e.currentTarget.style.color = '#555'}
-            title="Cambiar foto de perfil"
-          >
-            {loading ? <Loader size={18} className="spin" /> : <Camera size={18} />}
-          </button>
+          <div style={{ position: 'absolute', bottom: -5, right: -15, display: 'flex', gap: 6 }}>
+            <button 
+              onClick={handleFotoClick}
+              style={{ 
+                background: '#fff', border: '1px solid #ddd', 
+                borderRadius: '50%', width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                cursor: 'pointer', color: '#555', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', transition: 'all 0.2s'
+              }}
+              onMouseEnter={e => e.currentTarget.style.color = 'var(--uq-green)'}
+              onMouseLeave={e => e.currentTarget.style.color = '#555'}
+              title={fotoUrl ? "Cambiar foto" : "Subir foto"}
+            >
+              {loading ? <Loader size={16} className="spin" /> : <Camera size={16} />}
+            </button>
+            {fotoUrl && (
+              <button 
+                onClick={handleRemoveFoto}
+                style={{ 
+                  background: '#fff', border: '1px solid #ddd', 
+                  borderRadius: '50%', width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  cursor: 'pointer', color: '#f44336', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', transition: 'all 0.2s'
+                }}
+                onMouseEnter={e => e.currentTarget.style.color = '#d32f2f'}
+                onMouseLeave={e => e.currentTarget.style.color = '#f44336'}
+                title="Quitar foto"
+              >
+                {loading ? <Loader size={16} className="spin" /> : <Trash2 size={16} />}
+              </button>
+            )}
+          </div>
           <input type="file" ref={fileInputRef} onChange={handleFotoChange} accept="image/png, image/jpeg, image/jpg" style={{ display: 'none' }} />
         </div>
         

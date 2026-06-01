@@ -146,8 +146,8 @@ export default function TopBar({ currentPage, setNav }) {
           >
             <div style={{
               width: 32, height: 32, borderRadius: '50%',
-              background: user?.foto_url ? 'transparent' : rc.bg, color: '#fff',
-              backgroundImage: user?.foto_url ? `url(${apiBase}${user.foto_url})` : 'none',
+              backgroundColor: user?.foto_url ? 'transparent' : rc.bg, color: '#fff',
+              backgroundImage: user?.foto_url ? `url("${apiBase}${user.foto_url}")` : 'none',
               backgroundSize: 'cover', backgroundPosition: 'center',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               fontSize: 12, fontWeight: 700, flexShrink: 0,
@@ -176,8 +176,8 @@ export default function TopBar({ currentPage, setNav }) {
               <div style={{ background: `linear-gradient(135deg, ${rc.bg} 0%, ${rc.bg}cc 100%)`, padding: '24px 20px 20px' }}>
                 <div style={{
                   width: 56, height: 56, borderRadius: '50%',
-                  background: user?.foto_url ? 'transparent' : 'rgba(255,255,255,.2)', border: '2px solid rgba(255,255,255,.4)',
-                  backgroundImage: user?.foto_url ? `url(${apiBase}${user.foto_url})` : 'none',
+                  backgroundColor: user?.foto_url ? 'transparent' : 'rgba(255,255,255,.2)', border: '2px solid rgba(255,255,255,.4)',
+                  backgroundImage: user?.foto_url ? `url("${apiBase}${user.foto_url}")` : 'none',
                   backgroundSize: 'cover', backgroundPosition: 'center',
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   fontSize: 22, fontWeight: 700, color: '#fff', marginBottom: 12,

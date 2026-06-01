@@ -281,6 +281,17 @@ app.post('/api/auth/foto', verifyToken, upload.single('file'), async (req, res, 
   } catch (err) { next(err); }
 });
 
+// DELETE Quitar foto de perfil
+app.delete('/api/auth/foto', verifyToken, async (req, res, next) => {
+  try {
+    const { rows } = await query(
+      'UPDATE usuarios SET foto_url = NULL WHERE cedula = $1 RETURNING cedula, nombre, rol, correo, foto_url, privacidad',
+      [req.user.cedula]
+    );
+    res.json(rows[0]);
+  } catch (err) { next(err); }
+});
+
 // ─────────────────────────────────────────────────────────────
 // SOLICITUDES — CRUD completo
 // ─────────────────────────────────────────────────────────────
