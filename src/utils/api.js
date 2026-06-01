@@ -36,7 +36,7 @@ export function registerSessionExpiredCallback(cb) {
   onSessionExpiredCallback = cb;
 }
 
-async function apiFetch(path, options = {}) {
+export async function apiFetch(path, options = {}) {
   const token = getAuthToken();
   const authHeader = token ? { Authorization: `Bearer ${token}` } : {};
   // Extraer headers de options para no sobreescribirlos con el spread de ...options
