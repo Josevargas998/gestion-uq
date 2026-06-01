@@ -10,7 +10,7 @@
 | Estado global | Context API: `AuthContext`, `SolicitudesContext`, `NotificationContext` |
 | Backend | Express (backend/server.js) — subida de PDFs a Google Drive (puerto 3001) |
 | Base de datos | PostgreSQL Local — tablas: solicitudes, usuarios, docentes |
-| Auth | Login por cédula contra tabla `usuarios` (password = `profesorlaes@2026`) |
+| Auth | Login por cédula contra tabla `usuarios` (password = `profesorales@2026`) |
 | Deploy | Vercel SPA — `vercel.json` reescribe todas las rutas a `/index.html` |
 
 ## Comandos de desarrollo
