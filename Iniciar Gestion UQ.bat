@@ -65,11 +65,6 @@ echo  ║   el sistema. Ciérrela para detener todo.           ║
 echo  ╚══════════════════════════════════════════════════════╝
 echo.
 
-:: Iniciar monitor de salud en segundo plano
-start "GestionUQ-Monitor" /min cmd /c ""%~dp0monitor.bat""
-
-echo  [Monitor] Vigilando servidores automaticamente...
-echo.
 echo  Presione cualquier tecla para DETENER todos los servidores.
 pause >nul
 
@@ -78,7 +73,6 @@ echo.
 echo  Deteniendo servidores...
 taskkill /FI "WINDOWTITLE eq GestionUQ-Backend*" /F >nul 2>&1
 taskkill /FI "WINDOWTITLE eq GestionUQ-Frontend*" /F >nul 2>&1
-taskkill /FI "WINDOWTITLE eq GestionUQ-Monitor*" /F >nul 2>&1
 
 :: Liberar los puertos
 for /f "tokens=5" %%a in ('netstat -ano ^| find ":3001" ^| find "LISTENING"') do taskkill /pid %%a /F >nul 2>&1
