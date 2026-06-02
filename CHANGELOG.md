@@ -5,42 +5,82 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
-## [Unreleased]
+## [0.6.0] — 2026-06-02
+
+### 🏛️ Separación de Puntos Salariales y Bonificaciones
+
+| Archivo | Descripción |
+|---------|-------------|
+| `src/components/ListaSolicitudes.jsx` | **Macro-tabs superiores**: nuevo filtro segmentado (Todas / Puntos Salariales / Bonificaciones). Los sub-tabs de tipo de producto se actualizan dinámicamente según la categoría seleccionada. Desempeño/Excepciones removido del panel de Solicitudes (no son solicitudes radicadas). |
+| `src/components/Resoluciones.jsx` | **Pestaña Bonificaciones**: nueva tab independiente para resoluciones de bonificaciones (ponencias, tesis, postdoctorados, artículos no indexados). Filtro por `esBonificacion` en `buildProgramaGroups`. |
+| `src/utils/docGenerator.jsx` | **Soporte `resolucion_bonificacion`**: título del documento generado cambia a "POR MEDIO DE LA CUAL SE RECONOCEN BONIFICACIONES ACADÉMICAS..." cuando corresponde. |
+
+### 👨‍🏫 Filtro Exclusivo Planta Docente
+
+| Archivo | Descripción |
+|---------|-------------|
+| `src/hooks/useDocentesData.js` | **Filtro planta en hooks**: `useDocentesPlanta` y `useDocentesIndex` ahora descartan docentes INACTIVOS y sin categoría escalafonaria. Solo llegan al UI los docentes con `estado = ACTIVO` y categoría Titular/Asociado/Asistente/Auxiliar. |
+| `src/components/Dashboard.jsx` | **Fix categorías case-insensitive**: el conteo de Titulares, Asociados, etc. ahora usa `.toUpperCase()` para que no falle con registros en mayúsculas mezcladas (`"Titular"` vs `"TITULAR"`). |
+
+### 🧹 Limpieza General
+
+| Archivo | Descripción |
+|---------|-------------|
+| `vercel.json` | **Eliminado** — deploy a Vercel ya no aplica. |
+| `DEPLOY_LOCAL.md` | **Eliminado** — documento de migración desde Supabase ya completada. |
+| `scripts/migrate_from_supabase.cjs` | **Eliminado** — migración completada, script innecesario. |
+| `index.html` | **CSP limpiada**: removidos dominios `*.supabase.co` y `wss://*.supabase.co`. |
+| `AGENTS.md` | **Actualizado** al estado real del 2026-06-02: No Supabase, No Vercel, distinción bonificaciones/salariales, restricción planta. |
+
+### 📦 Excel CIARP — Co-autores
+
+| Archivo | Descripción |
+|---------|-------------|
+| `src/utils/exportCiarp.js` | **Co-autores sin metadatos ni puntos**: las filas adicionales de co-autores en el Excel exportado tienen `pts_asig = 0` y no llevan metadatos (ISBN, evento, etc.). Solo el docente principal lleva puntos y metadatos. |
+
+### 🔄 Sesiones CIARP múltiples
+
+| Archivo | Descripción |
+|---------|-------------|
+| `src/components/DetalleSolicitud.jsx` | **Selección de sesión al avanzar a CIARP**: cuando una solicitud llega a la etapa `ciarp`, el técnico escoge a cuál sesión abierta asignarla. Al retroceder se limpian tanto `acta_ciarp` como `sesion_ciarp_id`. |
+
+---
+
+## [0.5.0] — 2026-06-01
+
+### 🗄️ Migración completa a PostgreSQL Local
+
+| Archivo | Descripción |
+|---------|-------------|
+| `backend/server.js` | Backend Express con endpoints `/api/solicitudes`, `/api/docentes`, `/api/login`, `/api/upload-pdf`. Base de datos PostgreSQL local (`gestion_uq_db`). |
+| `src/utils/api.js` | Cliente HTTP con JWT, manejo de errores, retry y polling de 30 s (reemplaza `supabaseApi.js`). |
+| `src/context/AuthContext.jsx` | Login por cédula contra la tabla `usuarios` con bcrypt (salt 12). |
+| `src/context/SolicitudesContext.jsx` | Polling silencioso cada 30 s — reemplaza Supabase Realtime. |
+
+> ⚠️ `supabaseApi.js` fue eliminado en esta versión. No recrear.
 
 ---
 
 ## [0.4.0] — 2026-05-20
 
-### 🔒 Seguridad — ISO 25010 §4.6
+### 🔒 Seguridad
 
 | Archivo | Descripción |
 |---------|-------------|
-| `src/utils/validate.js` | **[NUEVO] Utilidad de validación de entradas**: funciones `validateCedula`, `validateCorreo`, `validateText`, `validatePuntos`, `sanitizeText`, `cleanText` y `validateSolicitud`. Previene datos malformados antes de llegar a Supabase y mitiga XSS básico con `sanitizeText`. |
+| `src/utils/validate.js` | **Utilidad de validación**: `validateCedula`, `validateCorreo`, `validateText`, `validatePuntos`, `sanitizeText`, `cleanText`, `validateSolicitud`. |
 
-### ⚡ Rendimiento — ISO 25010 §4.8
-
-| Archivo | Descripción |
-|---------|-------------|
-| `src/context/SolicitudesContext.jsx` | **`useMemo` en listas filtradas**: `solicitudesProductividad` y `solicitudesAscenso` ahora se recalculan únicamente cuando cambia el array `solicitudes`, eliminando dos `.filter()` en cada render no relacionado. |
-| `src/hooks/useDebounce.js` | **[NUEVO] Hook `useDebounce`**: retrasa la propagación de valores de búsqueda (default 300 ms), reduciendo llamadas a filtros/Supabase mientras el usuario escribe. |
-
-### 🔄 Fiabilidad — ISO 25010 §4.4
+### ⚡ Rendimiento
 
 | Archivo | Descripción |
 |---------|-------------|
-| `src/utils/supabaseApi.js` | **`withRetry()` — retroceso exponencial**: nuevo helper interno que reintenta peticiones a Supabase hasta 3 veces con espera 500 ms → 1 s → 2 s ante fallos de red (HTTP 5xx o sin respuesta). Los errores de lógica (4xx, RLS) no se reintentan. `fetchSolicitudes` usa `withRetry` en cada página del bucle de auto-paginación. |
+| `src/context/SolicitudesContext.jsx` | **`useMemo` en listas filtradas**: `solicitudesProductividad` y `solicitudesAscenso` solo se recalculan cuando cambia `solicitudes`. |
+| `src/hooks/useDebounce.js` | **Hook `useDebounce`**: retrasa búsquedas 300 ms para reducir renders innecesarios. |
 
-### 🎨 Usabilidad — ISO 25010 §4.2
-
-| Archivo | Descripción |
-|---------|-------------|
-| `src/components/EmptyState.jsx` | **[NUEVO] Componente `EmptyState`**: estado vacío accesible (`role="status"`) y reutilizable con icono, título, descripción y acción opcional. Prop `compact` para tablas con poco espacio. |
-
-### 🧪 Mantenibilidad — ISO 25010 §4.9
+### 🎨 Usabilidad
 
 | Archivo | Descripción |
 |---------|-------------|
-| `src/tests/validate.test.js` | **[NUEVO] 35 tests para `validate.js`**: cubre todos los validadores con casos felices, límites exactos, valores nulos, y escenarios multi-error en `validateSolicitud`. |
+| `src/components/EmptyState.jsx` | **Componente `EmptyState`**: estado vacío accesible y reutilizable con icono, título, descripción y acción opcional. |
 
 ---
 
@@ -50,97 +90,34 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 | Archivo | Descripción |
 |---------|-------------|
-| `src/data.js` | **Crash para rol `asistente`**: `ROL_COLORS` no tenía entrada para ese rol. Al iniciar sesión un usuario con `rol='asistente'`, `rc` era `undefined` y el acceso a `rc.bg` / `rc.light` causaba pantalla blanca. Agregada entrada `asistente: { bg: '#7b3fa8', ... }`. |
-| `src/components/NuevaSolicitud.jsx` | **Dropdown de docente sin click-outside**: el dropdown de sugerencias permanecía abierto indefinidamente al hacer clic fuera del input. Agregado `useRef` + `useEffect` con `mousedown` listener. |
-| `src/components/NuevaSolicitud.jsx` | **Prop `solicitudesExistentes` sin uso**: se recibía pero nunca se usaba. Ahora se utiliza en el paso 3 (Revisión) para detectar y advertir sobre posibles solicitudes duplicadas del mismo docente y tipo. |
-
----
+| `src/data.js` | **Crash rol `asistente`**: `ROL_COLORS` ahora incluye entrada `asistente: { bg: '#7b3fa8', ... }`. |
+| `src/components/NuevaSolicitud.jsx` | **Dropdown sin click-outside**: corregido con `useRef` + `useEffect` y listener `mousedown`. |
 
 ### ♻️ Refactorización
 
 | Archivo | Descripción |
 |---------|-------------|
-| `src/components/TopBar.jsx` | **Nuevo archivo**: `TopBar` extraido de `App.jsx`. Ahora es un componente autónomo que usa sus propios hooks (`useAuth`, `useSolicitudes`, `useNotification`) y gestiona su propio estado local (dropdowns de exportar/perfil) y refs. Elimina el anti-patrón de redefinir el componente dentro de `App` en cada render. |
-| `src/components/WelcomeToast.jsx` | **Nuevo archivo**: toast de bienvenida extraido de `App.jsx`. Componente puramente presentacional. Recibe `show` y `user` como props. |
-| `src/App.jsx` | **Simplificado**: de 346 a ~130 líneas. Eliminados refs, estado de UI de TopBar, `handleFileChange`, `getInitials`, `maskCedula`, `ROL_COLORS`, y los imports de `excelIO`. `App` ahora se enfoca únicamente en el routing por estado y la coordinación de páginas. |
-
----
-
-### 📝 Notas
-
-- `CHANGELOG` anterior decía límite de archivo = 20 MB; el backend tiene 50 MB desde el inicio. Corregido.
-- `googleSheetsApi.js` ya había sido eliminado del repositorio en el pull anterior (no se encontró al intentar `git rm`).
-
----
+| `src/components/TopBar.jsx` | Extraído de `App.jsx`. Componente autónomo con sus propios hooks. |
+| `src/components/WelcomeToast.jsx` | Extraído de `App.jsx`. Componente presentacional. |
+| `src/App.jsx` | Simplificado de 346 a ~130 líneas. |
 
 ### 🔒 Seguridad
 
 | Archivo | Descripción |
 |---------|-------------|
-| `backend/server.js` | **Validación de tipo MIME**: solo se aceptan `application/pdf`, `application/msword` y `.docx`. Archivos de otros tipos son rechazados con 400. |
-| `backend/server.js` | **Límite de tamaño**: `multer` configurado con `fileSize: 20 MB`. |
-| `backend/server.js` | **Autenticación del endpoint**: nuevo middleware `requireApiKey` que verifica el header `X-API-Key` contra la variable `API_SECRET` del `.env`. Sin configurar, pasa en modo dev. |
-| `backend/server.js` | **Sanitización de nombre de archivo**: `path.basename()` + regex elimina caracteres especiales para prevenir path traversal. |
-| `src/components/PdfUploader.jsx` | **API_BASE deja de ser hardcoded**: reemplazado por `import.meta.env.VITE_API_URL` (fallback `localhost:3001`). Añadido header `X-API-Key` cuando `VITE_API_SECRET` está definido. |
-| `supabase/migrations/002_rls_por_rol.sql` | **RLS abierto cerrado**: reemplazadas las políticas `FOR ALL USING (TRUE)` por políticas segmentadas: `anon` solo `SELECT`; `service_role` acceso completo. Índices añadidos en `usuarios.cedula` y `usuarios.activo`. |
-
----
-
-### 🧹 Limpieza de código
-
-| Archivo | Descripción |
-|---------|-------------|
-| `src/components/ComitesCiarp.jsx` | **Import muerto eliminado**: `import { updateSolicitud } from '../utils/googleSheetsApi.js'` nunca fue usado en el componente. Eliminado. |
-| `src/utils/emailNotificacion.js` | **Dependencia de googleSheetsApi desacoplada**: la constante `API_URL` fue movida inline como `GAS_MAIL_URL` en el mismo archivo. El `import` mid-file también violaba el orden ESM. |
-| `src/utils/googleSheetsApi.js` | **Archivo legacy aislado**: ya no es importado por ningún componente activo. Puede eliminarse de forma segura del repo (ver nota abajo). |
-
----
+| `backend/server.js` | Validación MIME, límite 50 MB en multer, `requireApiKey`, sanitización de nombres de archivo. |
+| `src/components/PdfUploader.jsx` | `VITE_API_URL` y `VITE_API_SECRET` desde variables de entorno. |
 
 ### ✨ Nuevas features
 
 | Archivo | Descripción |
 |---------|-------------|
-| `src/components/ErrorBoundary.jsx` | **ErrorBoundary global**: nuevo componente de clase que captura excepciones en el árbol de componentes. Muestra mensaje amigable con diseño UQ. En desarrollo muestra el stack trace en un `<details>` colapsado. Botones de "Intentar de nuevo" y "Recargar aplicación". |
-| `src/App.jsx` | **ErrorBoundary integrado en dos niveles**: (1) cada página en `W()` tiene su propio `ErrorBoundary` para aislar fallos por módulo; (2) el `<Shell>` completo también está envuelto. |
-| `.env.example` | **Plantilla de variables de entorno**: documenta `VITE_SUPABASE_URL`, `VITE_SUPABASE_KEY`, `VITE_API_URL`, `VITE_API_SECRET` con comentarios sobre dónde van frontend vs backend. |
+| `src/components/ErrorBoundary.jsx` | Captura excepciones por módulo. Stack trace visible en desarrollo. |
 
 ---
 
-### 📝 Notas de migración
+## Pendiente (próximas iteraciones)
 
-#### `supabase/migrations/002_rls_por_rol.sql`
-Ejecutar manualmente en **Supabase Dashboard → SQL Editor**:
-1. Elimina las políticas `USING (TRUE)` existentes
-2. Crea políticas separadas por rol (`anon` / `service_role`)
-3. Crea índices en `usuarios.cedula` y `usuarios.activo`
-
-#### Variables de entorno nuevas
-
-```env
-# Frontend (.env.local)
-VITE_API_URL=http://localhost:3001        # URL del backend Express
-VITE_API_SECRET=                          # Clave API (vacío en dev)
-
-# Backend (backend/.env)
-API_SECRET=clave_segura_min_32_chars
-```
-
-#### `googleSheetsApi.js` — ¿se puede borrar?
-
-**Sí, es seguro** tras ejecutar la migración. Verificación:
-- `ComitesCiarp.jsx` → import eliminado ✅
-- `emailNotificacion.js` → `API_URL` movida inline como `GAS_MAIL_URL` ✅
-- `supabaseApi.js` → solo lo menciona en un comentario, no importa ✅
-
-```sh
-git rm src/utils/googleSheetsApi.js
-```
-
----
-
-## Pendiente (próxima iteración)
-
-- [ ] Mover `updateSolicitud()` al backend con `service_role` key → eliminar `solicitudes_write_anon_temporal` de RLS
-- [ ] Migrar autenticación a Supabase Auth (OTP email) → eliminar login cédula=contraseña
 - [ ] Permisos de Drive restringidos al dominio `@uniquindio.edu.co`
-- [ ] Eliminar directorio `nextjs-drive/` (código muerto)
+- [ ] Módulo de reportes: exportar estadísticas por periodo/facultad
+- [ ] Notificaciones por correo para docentes al aprobar solicitud

@@ -22,14 +22,16 @@ export function useDocentesIndex() {
 
     fetchDocentes('cedula,nombre,correo,facultad,categoria,programa,dedicacion,fecha_ingreso,especializacion,maestria,doctorado')
       .then(rows => {
-        const mapped = (rows || []).map(r => ({
-          ...r,
-          nombre: formatName(r.nombre || ''),
-          programa: formatProgramaName(r.programa),
-          categoriaActual: r.categoria || '',
-          tipoDoc: 'CC',
-          fechaIngreso: r.fecha_ingreso || '',
-        }));
+        const mapped = (rows || [])
+          .filter(r => (r.estado || '').toUpperCase() === 'ACTIVO') // solo planta activa
+          .map(r => ({
+            ...r,
+            nombre: formatName(r.nombre || ''),
+            programa: formatProgramaName(r.programa),
+            categoriaActual: r.categoria || '',
+            tipoDoc: 'CC',
+            fechaIngreso: r.fecha_ingreso || '',
+          }));
         cache[key] = mapped;
         setData(mapped);
       })
@@ -53,7 +55,14 @@ export function useDocentesPlanta() {
 
     fetchDocentes()
       .then(rows => {
-        const normalized = (rows || []).map(normalizeDocente);
+        // Solo docentes de PLANTA (estado ACTIVO, con categoría escalafonaria)
+        const planta = (rows || []).filter(r => {
+          const estado = (r.estado || '').toUpperCase();
+          const cat = (r.categoria || '').toUpperCase();
+          const hasCategoria = cat.includes('TITULAR') || cat.includes('ASOCIADO') || cat.includes('ASISTENTE') || cat.includes('AUXILIAR');
+          return estado === 'ACTIVO' && hasCategoria;
+        });
+        const normalized = planta.map(normalizeDocente);
         cache[key] = normalized;
         setData(normalized);
       })
