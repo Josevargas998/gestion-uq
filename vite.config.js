@@ -13,6 +13,8 @@ export default defineConfig({
   plugins: [react()],
 
   server: {
+    host: true,   // Permite acceso desde otros equipos en la misma red
+    port: 5173,
     proxy: {
       '/api': {
         target: 'http://localhost:3001',
