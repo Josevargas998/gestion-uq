@@ -45,6 +45,13 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
       dp = s.datos_prod;
     }
 
+    let md = {};
+    if (typeof s.metadatos === 'string') {
+      try { md = JSON.parse(s.metadatos); } catch(_e) { /* ignore malformed JSON */ }
+    } else if (s.metadatos && typeof s.metadatos === 'object') {
+      md = s.metadatos;
+    }
+
     let nt = {};
     if (typeof s.notas === 'string') {
       try { nt = JSON.parse(s.notas); } catch(_e) { /* ignore malformed JSON */ }
@@ -53,18 +60,20 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
     }
     
     // El autor principal
-    procSolicitudes.push({ ...s, ...dp, ...nt });
+    procSolicitudes.push({ ...s, ...dp, ...md, ...nt });
     
     // Co-autores UQ (duplicar fila para que CIARP asigne los puntos)
-    if (dp.coautores_uq && Array.isArray(dp.coautores_uq)) {
-      dp.coautores_uq.forEach(co => {
-        if (co.cedula || co.nombre) {
+    const coautores = (dp.coautores_uq && Array.isArray(dp.coautores_uq)) ? dp.coautores_uq : ((md.coautores_uq && Array.isArray(md.coautores_uq)) ? md.coautores_uq : null);
+    if (coautores) {
+      coautores.forEach(co => {
+        if (co.nombre) {
           procSolicitudes.push({
-            ...s,
-            ...dp,
-            cedula: co.cedula || s.cedula,
-            docente: co.nombre || s.docente,
-            coautor: s.docente // el autor original ahora es coautor en esta nueva fila
+            ...s, ...nt, // Mantiene la info base de la solicitud, pero sin los metadatos (...dp, ...md)
+            cedula: co.cedula || '',
+            docente: co.nombre,
+            pts_asig: 0,
+            pts_sug: 0,
+            es_coautor: true // flag
           });
         }
       });
@@ -378,6 +387,72 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
       v(s.cedula), v(s.docente, '').toUpperCase(), v(s.dedicacion),
       v(s.programa), v(s.facultad), 'Universidad del Quindío',
       v(s.impacto), v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
+    ]),
+  ]);
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // NUEVAS HOJAS DE BONIFICACIONES (Ponencias, Rev_No_Index, Tesis, PosDoctorado)
+  // ─────────────────────────────────────────────────────────────────────────────
+  addSheet('Ponencias', [
+    ['AÑO','SEMESTRE','No.','DOCUMENTO DE IDENTIDAD','NOMBRE AUTORES',
+     'TIEMPO DE DEDICACIÓN','PROGRAMA','FACULTAD','NÚMERO ISBN/ISSN',
+     'TÍTULO DE LA PONENCIA','NOMBRE DEL EVENTO','LUGAR Y FECHA DEL EVENTO',
+     'TIPO DE EVENTO\r\n(nacional/\r\ninternacion.)','PUNTOS ASIGNADOS/ DOCENTE',
+     'ACTA/ FECHA','UNIVERSIDADES PARTICIPANTES EN LA PONENCIA','OBSERVACIONES'],
+    ...byTipo('ponencia').map((s, i) => [
+      v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
+      v(s.cedula), v(s.docente, '').toUpperCase(),
+      v(s.dedicacion), v(s.programa), v(s.facultad), v(s.isbn_issn),
+      v(s.titulo), v(s.nombre_evento), v(s.lugar_fecha_evento),
+      v(s.tipo_evento), v(s.pts_asig, 0), v(s.acta_ciarp),
+      v(s.universidades_participantes), v(s.notas),
+    ]),
+  ]);
+
+  addSheet('Rev_No_Index', [
+    ['AÑO','SEMESTRE','No.','DOCUMENTO DE \r\nIDENTIDAD','AUTORES',
+     'PROGRAMA','FACULTAD','TIEMPO DE \r\nDEDICACIÓN',
+     'NOMBRE DEL ARTÍCULO','ISSN','NOMBRE REVISTA','AÑO DE PUBLICACIÓN',
+     'PUNTOS ASIGNADOS','ACTA Y \r\nFECHA','OBSERVACIONES'],
+    ...byTipo('articulo_no_indexado').map((s, i) => [
+      v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
+      v(s.cedula), v(s.docente, '').toUpperCase(),
+      v(s.programa), v(s.facultad), v(s.dedicacion),
+      v(s.titulo), v(s.isbn_issn), v(s.revista), v(s.anio_publicacion),
+      v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
+    ]),
+  ]);
+
+  addSheet('Tesis_Posgrados', [
+    ['AÑO','SEMESTRE',' No.','DOC. IDENTIDAD ','DOCENTE DIRECTOR DE LA TESIS',
+     'TIEMPO DE\r\nDEDICACIÓN','PROGRAMA \r\nACADÉMICO','FACULTAD',
+     'NOMBRE DEL TRABAJO DIRIGIDO','ESTUDIANTE DIRIGIDO',
+     'TÍTULO OPTADO POR EL ESTUDIANTE ASESORADO ','PROGRAMA /UNIVERSIDAD ',
+     'FECHA SUSTENTACIÓN','PUNTOS ASIGNADOS','ACTA Y FECHA','OBSERVACIONES'],
+    ...byTipo('direccion_tesis').map((s, i) => [
+      v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
+      v(s.cedula), v(s.docente, '').toUpperCase(),
+      v(s.dedicacion), v(s.programa), v(s.facultad),
+      v(s.titulo), v(s.estudiante_dirigido), v(s.titulo_estudiante),
+      v(s.programa_universidad), v(s.fecha_sustentacion),
+      v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
+    ]),
+  ]);
+
+  addSheet('Pos_Doctorado', [
+    ['AÑO','SEMESTRE','No.','DOCUMENTO DE IDENTIDAD','NOMBRE DEL DOCENTE',
+     'ESCOLARIDAD ANTERIOR','CATEGORÍA','TIEMPO DE \r\nDEDICACIÓN',
+     'PROGRAMA ACADÉMICO','FACULTAD','TITULO DE DOCTORADO',
+     'ENTIDAD QUE CERTIFICA','PROYECTO DE INVESTIGACIÓN',
+     'PERIODO DE DURACIÓN (meses)','FECHA DE INICIO Y FINALIZACIÓN DEL PROYECTO',
+     'PUNTOS ASIGNADOS','ACTA Y \r\nFECHA','OBSERVACIONES'],
+    ...byTipo('postdoctorado').map((s, i) => [
+      v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
+      v(s.cedula), v(s.docente, '').toUpperCase(),
+      v(s.escolaridad_anterior), v(s.categoria_docente || s.categoria), v(s.dedicacion),
+      v(s.programa), v(s.facultad), v(s.titulo_doctorado),
+      v(s.entidad_certifica), v(s.titulo), v(s.duracion_meses),
+      v(s.fechas_proyecto), v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
     ]),
   ]);
 

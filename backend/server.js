@@ -502,8 +502,8 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
          (id, coautor, cedula, docente, tipo, titulo, revista,
           fecha, etapa, estado, pts_sug, pts_asig, correo, notas, acta_ciarp,
           pares_ext, pares_int, timeline, memo_envio_int, fecha_envio_int,
-          memo_recibo_int, fecha_recibo_int, memo_envio_ext, sesion_ciarp_id, sesion_cei_id)
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25)
+          memo_recibo_int, fecha_recibo_int, memo_envio_ext, sesion_ciarp_id, sesion_cei_id, metadatos)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25,$26)
        RETURNING *`,
       [
         id, sol.coautor || null, sol.cedula || null,
@@ -519,7 +519,8 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
         sol.memoEnvioInt  || null, sol.fechaEnvioInt  || null,
         sol.memoReciboInt || null, sol.fechaReciboInt || null,
         sol.memoEnvioExt  || null,
-        sol.sesion_ciarp_id || null, sol.sesion_cei_id || null
+        sol.sesion_ciarp_id || null, sol.sesion_cei_id || null,
+        sol.metadatos ? JSON.stringify(sol.metadatos) : '{}'
       ]
     );
 
@@ -558,6 +559,7 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
 app.put('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (req, res, next) => {
   try {
     const sol = req.body;
+    console.log('[PUT] metadatos recibidos:', JSON.stringify(sol.metadatos));
 
     // Validar tope del docente
     const ptsAsignados = sol.pts_asig !== undefined && sol.pts_asig !== null ? Number(sol.pts_asig) || 0 : 0;
@@ -588,7 +590,7 @@ app.put('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (req, 
          etapa=$9, estado=$10, pts_sug=$11, pts_asig=$12, correo=$13, notas=$14, 
          acta_ciarp=$15, pares_ext=$16, pares_int=$17, timeline=$18, 
          memo_envio_int=$19, fecha_envio_int=$20, memo_recibo_int=$21, 
-         fecha_recibo_int=$22, memo_envio_ext=$23, sesion_ciarp_id=$24, sesion_cei_id=$25
+         fecha_recibo_int=$22, memo_envio_ext=$23, sesion_ciarp_id=$24, sesion_cei_id=$25, metadatos=$26
        WHERE id=$1 RETURNING *`,
       [
         req.params.id, sol.coautor || null, sol.cedula || null,
@@ -604,7 +606,8 @@ app.put('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (req, 
         sol.memoEnvioInt  || null, sol.fechaEnvioInt  || null,
         sol.memoReciboInt || null, sol.fechaReciboInt || null,
         sol.memoEnvioExt  || null,
-        sol.sesion_ciarp_id || null, sol.sesion_cei_id || null
+        sol.sesion_ciarp_id || null, sol.sesion_cei_id || null,
+        sol.metadatos ? JSON.stringify(sol.metadatos) : '{}'
       ]
     );
     if (!rows.length) return res.status(404).json({ error: 'Solicitud no encontrada' });

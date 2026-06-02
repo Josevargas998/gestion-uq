@@ -42,14 +42,26 @@ export default function ListaSolicitudes({ solicitudes, onSelect, user, setNav, 
   const { success, error: showError } = useNotification();
   const [filtro,      setFiltro]      = useState('');
   const [filtroEtapa, setFiltroEtapa] = useState('');
+  const [macroCategoria, setMacroCategoria] = useState('todas'); // 'todas', 'salarial', 'bonificacion', 'excepcion'
   const [tabTipo,     setTabTipo]     = useState('');   // '' = all
   const [currentPage, setCurrentPage] = useState(1);
   const [solicitudAEliminar, setSolicitudAEliminar] = useState(null);
   const itemsPerPage = 50;
 
-  const tipoTabs = getTipoTabs(solicitudesProductividad && solicitudesProductividad.length > 0 ? solicitudesProductividad : solicitudes);
+  // 1. Filter by macroCategoria
+  const macroFiltered = solicitudes.filter(s => {
+    if (macroCategoria === 'todas') return true;
+    const t = TIPOS[normTipo(s.tipo)] || {};
+    if (macroCategoria === 'bonificacion') return t.esBonificacion;
+    if (macroCategoria === 'excepcion') return t.esExcepcion;
+    if (macroCategoria === 'salarial') return !t.esBonificacion && !t.esExcepcion && s.tipo !== 'ascenso';
+    return true;
+  });
 
-  const filtered = solicitudes.filter(s => {
+  const tipoTabs = getTipoTabs(macroFiltered);
+
+  // 2. Filter for display
+  const filtered = macroFiltered.filter(s => {
     const q = filtro.toLowerCase();
     // Filtro especial CIARP: archivadas aprobadas con acta de CIARP
     const matchEtapa = !filtroEtapa
@@ -117,6 +129,37 @@ export default function ListaSolicitudes({ solicitudes, onSelect, user, setNav, 
             <button className="btn btn-p" onClick={() => setNav('nueva')}>➕ Nueva Solicitud</button>
           )}
         </div>
+      </div>
+
+      {/* MACRO CATEGORY TABS */}
+      <div style={{ display: 'flex', gap: 8, marginBottom: 20, background: '#f3f4f6', padding: 4, borderRadius: 10, width: 'fit-content' }}>
+        {[
+          { id: 'todas', label: 'Todas las Solicitudes', icon: '📋' },
+          { id: 'salarial', label: 'Puntos Salariales', icon: '📈' },
+          { id: 'bonificacion', label: 'Bonificaciones', icon: '💰' }
+        ].map(cat => (
+          <button
+            key={cat.id}
+            onClick={() => { setMacroCategoria(cat.id); setTabTipo(''); setCurrentPage(1); }}
+            style={{
+              padding: '8px 16px',
+              border: 'none',
+              background: macroCategoria === cat.id ? '#fff' : 'transparent',
+              color: macroCategoria === cat.id ? '#0d3d6e' : '#555',
+              fontWeight: macroCategoria === cat.id ? 800 : 600,
+              borderRadius: 6,
+              cursor: 'pointer',
+              fontSize: 13,
+              boxShadow: macroCategoria === cat.id ? '0 2px 4px rgba(0,0,0,0.05)' : 'none',
+              transition: 'all 0.2s',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 6
+            }}
+          >
+            {cat.icon} {cat.label}
+          </button>
+        ))}
       </div>
 
       {/* TABS BY PRODUCT TYPE */}

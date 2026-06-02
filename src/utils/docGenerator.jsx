@@ -136,8 +136,8 @@ export function generarDocumento(tipo, sol) {
         </div>
       </div>
     `;
-  } else if (tipo === 'resolucion_productividad' || tipo === 'resolucion_experiencia' || tipo === 'resolucion_programa') {
-    const isProductividad = tipo === 'resolucion_productividad' || tipo === 'resolucion_programa';
+  } else if (tipo === 'resolucion_productividad' || tipo === 'resolucion_experiencia' || tipo === 'resolucion_programa' || tipo === 'resolucion_bonificacion') {
+    const isProductividad = tipo === 'resolucion_productividad' || tipo === 'resolucion_programa' || tipo === 'resolucion_bonificacion';
     titulo = isProductividad ? 'Resoluciones de Productividad' : 'Resoluciones de Experiencia';
     
     // Funciones Helper de limpieza
@@ -315,7 +315,7 @@ export function generarDocumento(tipo, sol) {
           <h3 style="margin-bottom: 5px; font-size: 16px;">RESOLUCIÓN No. _________</h3>
           <p style="margin-top: 0; font-size: 14px;">( ____________ )</p>
           <p style="font-weight: bold; margin-top: 20px; font-size: 14px; text-align: center; text-transform: uppercase;">
-            "POR MEDIO DE LA CUAL SE ASIGNAN Y RECONOCEN PUNTOS SALARIALES ${isProductividad ? 'A UNOS DOCENTES' : 'POR EXPERIENCIA CALIFICADA Y DESEMPEÑO A UNOS DOCENTES'} DE CARRERA DEL PROGRAMA DE ${programaStr}, CONFORME AL DECRETO 1279 DE 2002"
+            "POR MEDIO DE LA CUAL SE ${tipo === 'resolucion_bonificacion' ? 'RECONOCEN BONIFICACIONES ACADÉMICAS' : (isProductividad ? 'ASIGNAN Y RECONOCEN PUNTOS SALARIALES A UNOS DOCENTES' : 'RECONOCEN PUNTOS POR EXPERIENCIA CALIFICADA Y DESEMPEÑO A UNOS DOCENTES')} DE CARRERA DEL PROGRAMA DE ${programaStr}, CONFORME AL DECRETO 1279 DE 2002"
           </p>
         </div>
         <div class="body-text" style="text-align: justify; font-size: 12px; line-height: 1.5;">

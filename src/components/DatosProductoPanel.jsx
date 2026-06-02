@@ -6,6 +6,20 @@ import { BookOpen, FileText, Monitor, Lightbulb, Trophy, Star, PenTool, Database
  * Componente que renderiza formularios dinámicos según el tipo de producto
  * para recopilar todos los metadatos necesarios en la exportación al CIARP.
  */
+const InputField = ({ label, name, type = 'text', placeholder = '', datos, onChange }) => (
+  <div style={{ marginBottom: 12 }}>
+    <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: 'var(--muted)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.5 }}>{label}</label>
+    <input
+      type={type}
+      name={name}
+      value={datos[name] || ''}
+      onChange={onChange}
+      placeholder={placeholder}
+      style={{ width: '100%', padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13 }}
+    />
+  </div>
+);
+
 export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
   // Manejador para campos individuales
   const handleChange = (e) => {
@@ -29,19 +43,7 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
   };
 
   // Helper para renderizar un campo de texto genérico
-  const Input = ({ label, name, type = 'text', placeholder = '' }) => (
-    <div style={{ marginBottom: 12 }}>
-      <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: 'var(--muted)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.5 }}>{label}</label>
-      <input
-        type={type}
-        name={name}
-        value={datos[name] || ''}
-        onChange={handleChange}
-        placeholder={placeholder}
-        style={{ width: '100%', padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13 }}
-      />
-    </div>
-  );
+  
 
   const renderFormulario = () => {
     const cat = (tipo || '').toLowerCase();
@@ -50,19 +52,19 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     if (cat.includes('revista') || cat === 'articulo') {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <Input label="Título del Artículo" name="titulo_articulo" placeholder="Título exacto..." />
-          <Input label="Modalidad" name="modalidad" placeholder="Full paper, Short paper..." />
-          <Input label="Tipo" name="tipo_pub" placeholder="Nacional / Internacional" />
-          <Input label="País de la Revista" name="pais_revista" placeholder="País" />
-          <Input label="ISSN de la Revista" name="issn" placeholder="Ej: 1234-5678" />
-          <Input label="Nombre de la Revista" name="revista" placeholder="Nombre completo" />
-          <Input label="URL Publindex / Indexación" name="url_publindex" />
-          <Input label="Categoría de Revista" name="categoria_revista" placeholder="A1, A2, B, C, No Indexada" />
-          <Input label="Editorial o Institución" name="editorial" />
-          <Input label="Total Autores del Artículo" name="num_autores" type="number" />
-          <Input label="Fecha Recibido" name="fecha_recibido" type="date" />
-          <Input label="Fecha Aprobado" name="fecha_aprobado" type="date" />
-          <Input label="Fecha de Publicación" name="fecha_publicacion" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Título del Artículo" name="titulo_articulo" placeholder="Título exacto..." />
+          <InputField datos={datos} onChange={handleChange} label="Modalidad" name="modalidad" placeholder="Full paper, Short paper..." />
+          <InputField datos={datos} onChange={handleChange} label="Tipo" name="tipo_pub" placeholder="Nacional / Internacional" />
+          <InputField datos={datos} onChange={handleChange} label="País de la Revista" name="pais_revista" placeholder="País" />
+          <InputField datos={datos} onChange={handleChange} label="ISSN de la Revista" name="issn" placeholder="Ej: 1234-5678" />
+          <InputField datos={datos} onChange={handleChange} label="Nombre de la Revista" name="revista" placeholder="Nombre completo" />
+          <InputField datos={datos} onChange={handleChange} label="URL Publindex / Indexación" name="url_publindex" />
+          <InputField datos={datos} onChange={handleChange} label="Categoría de Revista" name="categoria_revista" placeholder="A1, A2, B, C, No Indexada" />
+          <InputField datos={datos} onChange={handleChange} label="Editorial o Institución" name="editorial" />
+          <InputField datos={datos} onChange={handleChange} label="Total Autores del Artículo" name="num_autores" type="number" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha Recibido" name="fecha_recibido" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha Aprobado" name="fecha_aprobado" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha de Publicación" name="fecha_publicacion" type="date" />
           <div style={{ marginBottom: 12 }}>
             <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: 'var(--muted)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.5 }}>Subtipo de Artículo (Para Cálculo)</label>
             <select
@@ -85,20 +87,20 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Título Exacto del Libro" name="titulo_libro" />
+            <InputField datos={datos} onChange={handleChange} label="Título Exacto del Libro" name="titulo_libro" />
           </div>
-          <Input label="ISBN" name="isbn" placeholder="Ej: 978-3-16-148410-0" />
-          <Input label="Editorial" name="editorial" />
-          <Input label="Fecha de Publicación" name="fecha_publicacion" type="date" />
-          <Input label="Total Autores" name="num_autores" type="number" />
+          <InputField datos={datos} onChange={handleChange} label="ISBN" name="isbn" placeholder="Ej: 978-3-16-148410-0" />
+          <InputField datos={datos} onChange={handleChange} label="Editorial" name="editorial" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha de Publicación" name="fecha_publicacion" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Total Autores" name="num_autores" type="number" />
           {cat === 'libro_texto' && (
             <div style={{ gridColumn: '1 / -1' }}>
-              <Input label="Espacio Académico (Asignatura)" name="espacio_academico" />
+              <InputField datos={datos} onChange={handleChange} label="Espacio Académico (Asignatura)" name="espacio_academico" />
             </div>
           )}
           {cat === 'libro_investigacion' && (
             <div style={{ gridColumn: '1 / -1' }}>
-              <Input label="Observaciones Adicionales" name="observaciones" placeholder="Ej. Puntos pendientes por comisión..." />
+              <InputField datos={datos} onChange={handleChange} label="Observaciones Adicionales" name="observaciones" placeholder="Ej. Puntos pendientes por comisión..." />
             </div>
           )}
         </div>
@@ -110,15 +112,15 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Nombre Exacto del Producto Patentado" name="nombre_producto" />
+            <InputField datos={datos} onChange={handleChange} label="Nombre Exacto del Producto Patentado" name="nombre_producto" />
           </div>
-          <Input label="Tipo de Producto" name="tipo_producto" placeholder="Patente de Invención, Modelo de Utilidad..." />
-          <Input label="Tipo de Patente" name="tipo_patente" placeholder="De producto / De proceso" />
-          <Input label="Número de Registro / Resolución" name="numero_registro" />
-          <Input label="Entidad Registradora (ej. SIC)" name="entidad_registro" />
-          <Input label="Fecha de Concesión / Aprobación" name="fecha_aprobacion" type="date" />
-          <Input label="Vigencia (Años)" name="vigencia_anios" type="number" />
-          <Input label="Total Inventores (Autores)" name="num_autores" type="number" />
+          <InputField datos={datos} onChange={handleChange} label="Tipo de Producto" name="tipo_producto" placeholder="Patente de Invención, Modelo de Utilidad..." />
+          <InputField datos={datos} onChange={handleChange} label="Tipo de Patente" name="tipo_patente" placeholder="De producto / De proceso" />
+          <InputField datos={datos} onChange={handleChange} label="Número de Registro / Resolución" name="numero_registro" />
+          <InputField datos={datos} onChange={handleChange} label="Entidad Registradora (ej. SIC)" name="entidad_registro" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha de Concesión / Aprobación" name="fecha_aprobacion" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Vigencia (Años)" name="vigencia_anios" type="number" />
+          <InputField datos={datos} onChange={handleChange} label="Total Inventores (Autores)" name="num_autores" type="number" />
         </div>
       );
     }
@@ -128,16 +130,16 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Título de la Obra" name="nombre_obra" />
+            <InputField datos={datos} onChange={handleChange} label="Título de la Obra" name="nombre_obra" />
           </div>
-          <Input label="Tipo de Obra" name="tipo_obra" placeholder="Artes plásticas, música, teatro..." />
-          <Input label="Reconocimiento" name="reconocimiento" placeholder="Creación original individual/colectiva..." />
-          <Input label="Impacto" name="impacto" placeholder="Local, regional, nacional, internacional" />
-          <Input label="Técnica o Medio Utilizado" name="tecnica" />
-          <Input label="Fecha de Creación" name="fecha_creacion" type="date" />
-          <Input label="Fecha de Exposición Pública" name="fecha_exposicion" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Tipo de Obra" name="tipo_obra" placeholder="Artes plásticas, música, teatro..." />
+          <InputField datos={datos} onChange={handleChange} label="Reconocimiento" name="reconocimiento" placeholder="Creación original individual/colectiva..." />
+          <InputField datos={datos} onChange={handleChange} label="Impacto" name="impacto" placeholder="Local, regional, nacional, internacional" />
+          <InputField datos={datos} onChange={handleChange} label="Técnica o Medio Utilizado" name="tecnica" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha de Creación" name="fecha_creacion" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha de Exposición Pública" name="fecha_exposicion" type="date" />
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Observaciones (Topes o Restricciones)" name="observaciones" />
+            <InputField datos={datos} onChange={handleChange} label="Observaciones (Topes o Restricciones)" name="observaciones" />
           </div>
         </div>
       );
@@ -148,12 +150,12 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Nombre Exacto de la Producción" name="nombre_produccion" />
+            <InputField datos={datos} onChange={handleChange} label="Nombre Exacto de la Producción" name="nombre_produccion" />
           </div>
-          <Input label="Tipo de Producción" name="tipo_produccion" placeholder="Adaptación tecnológica, diseño industrial..." />
-          <Input label="Año de Publicación o Registro" name="anio_publicacion" type="number" />
+          <InputField datos={datos} onChange={handleChange} label="Tipo de Producción" name="tipo_produccion" placeholder="Adaptación tecnológica, diseño industrial..." />
+          <InputField datos={datos} onChange={handleChange} label="Año de Publicación o Registro" name="anio_publicacion" type="number" />
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Observaciones Adicionales" name="observaciones" />
+            <InputField datos={datos} onChange={handleChange} label="Observaciones Adicionales" name="observaciones" />
           </div>
         </div>
       );
@@ -164,12 +166,12 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Nombre Exacto del Software" name="nombre_software" />
+            <InputField datos={datos} onChange={handleChange} label="Nombre Exacto del Software" name="nombre_software" />
           </div>
-          <Input label="Registro DNDA" name="numero_registro_dnda" placeholder="Número de registro de derechos de autor" />
-          <Input label="Año de Publicación/Registro" name="anio_publicacion" type="number" />
+          <InputField datos={datos} onChange={handleChange} label="Registro DNDA" name="numero_registro_dnda" placeholder="Número de registro de derechos de autor" />
+          <InputField datos={datos} onChange={handleChange} label="Año de Publicación/Registro" name="anio_publicacion" type="number" />
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Observaciones (Tipo de software)" name="observaciones" />
+            <InputField datos={datos} onChange={handleChange} label="Observaciones (Tipo de software)" name="observaciones" />
           </div>
         </div>
       );
@@ -180,13 +182,13 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Nombre del Trabajo Premiado" name="titulo_trabajo" />
+            <InputField datos={datos} onChange={handleChange} label="Nombre del Trabajo Premiado" name="titulo_trabajo" />
           </div>
-          <Input label="Nombre Exacto del Premio" name="nombre_premio" />
-          <Input label="Institución que Concedió el Premio" name="entidad_otorga" />
-          <Input label="Fecha del Premio" name="fecha_premio" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Nombre Exacto del Premio" name="nombre_premio" />
+          <InputField datos={datos} onChange={handleChange} label="Institución que Concedió el Premio" name="entidad_otorga" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha del Premio" name="fecha_premio" type="date" />
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Observaciones (Condiciones)" name="observaciones" />
+            <InputField datos={datos} onChange={handleChange} label="Observaciones (Condiciones)" name="observaciones" />
           </div>
         </div>
       );
@@ -197,9 +199,9 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <div style={{ gridColumn: '1 / -1' }}>
-            <Input label="Nombre del Producto Audiovisual" name="nombre_video" />
+            <InputField datos={datos} onChange={handleChange} label="Nombre del Producto Audiovisual" name="nombre_video" />
           </div>
-          <Input label="Impacto" name="impacto" placeholder="Local, regional, nacional, internacional" />
+          <InputField datos={datos} onChange={handleChange} label="Impacto" name="impacto" placeholder="Local, regional, nacional, internacional" />
         </div>
       );
     }
@@ -208,12 +210,12 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     if (['daa', 'ddd', 'exp_calificada'].includes(cat)) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <Input label="Calificación Última Evaluación" name="resultado_evaluacion" type="number" placeholder="Ej: 4.8" />
-          <Input label="Período Evaluado" name="fecha_ultima_evaluacion" placeholder="Ej: II/2025" />
-          <Input label="Estado" name="estado" placeholder="Activo / Académico-Administrativo" />
+          <InputField datos={datos} onChange={handleChange} label="Calificación Última Evaluación" name="resultado_evaluacion" type="number" placeholder="Ej: 4.8" />
+          <InputField datos={datos} onChange={handleChange} label="Período Evaluado" name="fecha_ultima_evaluacion" placeholder="Ej: II/2025" />
+          <InputField datos={datos} onChange={handleChange} label="Estado" name="estado" placeholder="Activo / Académico-Administrativo" />
           {['daa', 'exp_calificada'].includes(cat) && (
             <div style={{ gridColumn: '1 / -1' }}>
-              <Input label="Observaciones (Resolución, Fechas, Cargo)" name="observaciones" />
+              <InputField datos={datos} onChange={handleChange} label="Observaciones (Resolución, Fechas, Cargo)" name="observaciones" />
             </div>
           )}
         </div>
@@ -224,9 +226,9 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     if (cat === 'ascenso') {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <Input label="Resolución / Acta de Aprobación" name="res_aprobacion" />
-          <Input label="Fecha de Ascenso" name="fecha_ascenso" type="date" />
-          <Input label="Categoría Aprobada" name="categoria_aprobada" placeholder="Ej: Asociado, Titular" />
+          <InputField datos={datos} onChange={handleChange} label="Resolución / Acta de Aprobación" name="res_aprobacion" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha de Ascenso" name="fecha_ascenso" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Categoría Aprobada" name="categoria_aprobada" placeholder="Ej: Asociado, Titular" />
         </div>
       );
     }
@@ -235,10 +237,67 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     if (cat === 'titulo') {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <Input label="Escolaridad Anterior" name="escolaridad_anterior" placeholder="Nivel previo" />
-          <Input label="Universidad que Otorga" name="universidad_otorga" />
-          <Input label="Nombre Exacto del Título" name="titulo_otorgado" placeholder="Ej: Doctor en Educación" />
-          <Input label="Fecha de Grado" name="fecha_graduacion" type="date" />
+          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" placeholder="Nivel previo" />
+          <InputField datos={datos} onChange={handleChange} label="Universidad que Otorga" name="universidad_otorga" />
+          <InputField datos={datos} onChange={handleChange} label="Nombre Exacto del Título" name="titulo_otorgado" placeholder="Ej: Doctor en Educación" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha de Grado" name="fecha_graduacion" type="date" />
+        </div>
+      );
+    }
+
+    // ── PONENCIAS ──
+    if (cat === 'ponencia') {
+      return (
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
+          <InputField datos={datos} onChange={handleChange} label="Número ISBN/ISSN" name="isbn_issn" placeholder="Ej: 978-3-16" />
+          <InputField datos={datos} onChange={handleChange} label="Nombre del Evento" name="nombre_evento" />
+          <InputField datos={datos} onChange={handleChange} label="Lugar y Fecha del Evento" name="lugar_fecha_evento" placeholder="Ej: Bogotá, 15 de Mayo 2026" />
+          <div style={{ marginBottom: 12 }}>
+            <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: 'var(--muted)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.5 }}>Tipo de Evento</label>
+            <select
+              name="tipo_evento"
+              value={datos.tipo_evento || 'Nacional'}
+              onChange={handleChange}
+              style={{ width: '100%', padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, background: '#fff' }}
+            >
+              <option value="Nacional">Nacional</option>
+              <option value="Internacional">Internacional</option>
+            </select>
+          </div>
+          <div style={{ gridColumn: '1 / -1' }}>
+            <InputField datos={datos} onChange={handleChange} label="Universidades Participantes en la Ponencia" name="universidades_participantes" placeholder="Ej: U. Nacional, U. de Antioquia" />
+          </div>
+        </div>
+      );
+    }
+
+    // ── DIRECCIÓN DE TESIS ──
+    if (cat === 'direccion_tesis') {
+      return (
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
+          <div style={{ gridColumn: '1 / -1' }}>
+            <InputField datos={datos} onChange={handleChange} label="Nombre del Trabajo Dirigido" name="titulo_trabajo" />
+          </div>
+          <InputField datos={datos} onChange={handleChange} label="Estudiante Dirigido" name="estudiante_dirigido" />
+          <InputField datos={datos} onChange={handleChange} label="Título Optado por el Estudiante" name="titulo_estudiante" />
+          <InputField datos={datos} onChange={handleChange} label="Programa / Universidad" name="programa_universidad" />
+          <InputField datos={datos} onChange={handleChange} label="Fecha Sustentación" name="fecha_sustentacion" type="date" />
+        </div>
+      );
+    }
+
+    // ── ESTUDIOS POSDOCTORALES ──
+    if (cat === 'postdoctorado') {
+      return (
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
+          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" />
+          <InputField datos={datos} onChange={handleChange} label="Categoría" name="categoria_docente" placeholder="Ej: Asociado, Titular" />
+          <div style={{ gridColumn: '1 / -1' }}>
+            <InputField datos={datos} onChange={handleChange} label="Título de Doctorado" name="titulo_doctorado" />
+          </div>
+          <InputField datos={datos} onChange={handleChange} label="Entidad que Certifica" name="entidad_certifica" />
+          <InputField datos={datos} onChange={handleChange} label="Periodo de Duración (meses)" name="duracion_meses" type="number" />
+          <InputField datos={datos} onChange={handleChange} label="Fechas de Inicio y Finalización" name="fechas_proyecto" placeholder="Ej: Ene 2025 - Mar 2026" />
         </div>
       );
     }

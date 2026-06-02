@@ -20,8 +20,12 @@ function buildProgramaGroups(solicitudes, anioFiltro, tabMode) {
     // Excluir importaciones históricas (las que ya tienen resolución previa)
     if (s.id && s.id.startsWith('HIST-')) return false;
 
-    const isExperiencia = ['daa', 'ddd', 'exp_calificada'].includes(s.tipo);
-    if (tabMode === 'productividad' && (isExperiencia || (s.tipo === 'ascenso' && !s.acta_ciarp))) return false;
+    const t = TIPOS[s.tipo] || {};
+    const isExperiencia = t.esExcepcion || ['daa', 'ddd', 'exp_calificada'].includes(s.tipo);
+    const isBonificacion = t.esBonificacion;
+
+    if (tabMode === 'productividad' && (isExperiencia || isBonificacion || (s.tipo === 'ascenso' && !s.acta_ciarp))) return false;
+    if (tabMode === 'bonificaciones' && !isBonificacion) return false;
     if (tabMode === 'experiencia' && !isExperiencia) return false;
 
     // Check if the approval or request year matches the filter
@@ -69,7 +73,7 @@ function buildProgramaGroups(solicitudes, anioFiltro, tabMode) {
       key: g.programa,
       programa: g.programa,
       actas: Array.from(g.actas).join(', '),
-      tipoResolucion: tabMode === 'productividad' ? 'resolucion_productividad' : 'resolucion_experiencia',
+      tipoResolucion: tabMode === 'productividad' ? 'resolucion_productividad' : (tabMode === 'bonificaciones' ? 'resolucion_bonificacion' : 'resolucion_experiencia'),
       solicitudes: g.solicitudes.sort((a, b) => (a.docente || '').localeCompare(b.docente || ''))
     }));
 }
@@ -246,7 +250,7 @@ function ProgramaSection({ grupo, onSelect, isAscenso }) {
 
 export default function Resoluciones({ solicitudes, onSelect }) {
   const [anioFiltro, setAnioFiltro] = useState(new Date().getFullYear().toString());
-  const [tab, setTab] = useState('productividad'); // 'productividad' | 'experiencia' | 'ascensos'
+  const [tab, setTab] = useState('productividad'); // 'productividad' | 'bonificaciones' | 'experiencia' | 'ascensos'
   
   const programaGroups = tab === 'ascensos'
     ? buildAscensoGroups(solicitudes)
@@ -312,7 +316,8 @@ export default function Resoluciones({ solicitudes, onSelect }) {
           {tab !== 'ascensos' && (
             <button
               onClick={() => {
-                generarDocumento(tab === 'productividad' ? 'resolucion_productividad' : 'resolucion_experiencia', gruposFiltrados);
+                const docType = tab === 'productividad' ? 'resolucion_productividad' : (tab === 'bonificaciones' ? 'resolucion_bonificacion' : 'resolucion_experiencia');
+                generarDocumento(docType, gruposFiltrados);
               }}
               style={{ padding: '10px 18px', borderRadius: 8, background: '#006B3F', color: '#fff', border: 'none', fontWeight: 800, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6 }}
             >
@@ -329,6 +334,12 @@ export default function Resoluciones({ solicitudes, onSelect }) {
           style={{ padding: '8px 16px', background: tab === 'productividad' ? '#0d3d6e' : '#f3f4f6', color: tab === 'productividad' ? '#fff' : '#4b5563', borderRadius: 8, fontWeight: 700, border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}
         >
           📄 Productividad Académica
+        </button>
+        <button 
+          onClick={() => setTab('bonificaciones')}
+          style={{ padding: '8px 16px', background: tab === 'bonificaciones' ? '#059669' : '#f3f4f6', color: tab === 'bonificaciones' ? '#fff' : '#4b5563', borderRadius: 8, fontWeight: 700, border: 'none', cursor: 'pointer', transition: 'all 0.2s' }}
+        >
+          💰 Bonificaciones
         </button>
         <button 
           onClick={() => setTab('experiencia')}

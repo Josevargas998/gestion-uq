@@ -234,13 +234,13 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
   const ctx = useSolicitudes();
   const solicitudes = ctx?.solicitudes || [];
 
-  const [sesionAbierta, setSesionAbierta] = React.useState(null);
+  const [sesionesAbiertas, setSesionesAbiertas] = React.useState([]);
 
   React.useEffect(() => {
     fetchSesionesCiarp().then(data => {
       if (data && data.length > 0) {
-        const abierta = data.find(s => s.estado === 'abierta');
-        if (abierta) setSesionAbierta(abierta.acta_label);
+        const abiertas = data.filter(s => s.estado === 'abierta');
+        setSesionesAbiertas(abiertas.map(s => s.acta_label));
       }
     }).catch(console.error);
   }, []);
@@ -274,6 +274,9 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
   const [datosProd, setDatosProd] = React.useState(() => {
     try { return typeof sol.datos_prod === 'string' ? JSON.parse(sol.datos_prod) : (sol.datos_prod || {}); } catch { return {}; }
   });
+  const [metadatos, setMetadatos] = React.useState(() => {
+    try { return typeof sol.metadatos === 'string' ? JSON.parse(sol.metadatos) : (sol.metadatos || {}); } catch { return {}; }
+  });
   const [obsEdit, setObsEdit] = React.useState(() => {
     if (!sol.notas) return '';
     try {
@@ -285,6 +288,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
     return sol.notas || '';
   });
   const [saved, setSaved] = React.useState(false);
+  const [savedMeta, setSavedMeta] = React.useState(false);
   const [showDecretoPanel, setShowDecretoPanel] = React.useState(false);
   const [showConfirmDelete, setShowConfirmDelete] = React.useState(false);
 
@@ -464,9 +468,11 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
       ...sol,
       ...extra,
       datos_prod: datosProd,
+      metadatos: metadatos,
       etapa: nuevaEtapa,
       estado: extra.estado !== undefined ? extra.estado : resetEstado,
       acta_ciarp: clearActa ? null : (extra.acta_ciarp !== undefined ? extra.acta_ciarp : sol.acta_ciarp),
+      sesion_ciarp_id: clearActa ? null : sol.sesion_ciarp_id,
       timeline: [...sol.timeline, { f: 'Hoy', a: `Etapa actualizada: ${labelEtapa(nuevaEtapa)}`, p: user?.nombre || 'Sistema' }],
     });
   }
@@ -477,6 +483,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
       pts_asig: Number(ptsEdit),
       acta_ciarp: actaCiarp,
       datos_prod: datosProd,
+      metadatos: metadatos,
       notas: (() => {
         let finalNotas = obsEdit;
         if (sol.notas) {
@@ -500,6 +507,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
     onUpdate({
       ...sol,
       ...editData,
+      metadatos: metadatos,
       timeline: [...sol.timeline, { f: 'Hoy', a: `Información general modificada`, p: user.nombre }],
     });
     setIsEditing(false);
@@ -648,6 +656,37 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
           </div>
         </div>
       </div>
+
+      {/* ══════════════════════════════════════════════════════════════════
+          PANEL METADATOS — siempre visible para el técnico, en cualquier etapa
+          ══════════════════════════════════════════════════════════════════ */}
+      {isTecnico && (
+        <div style={{ marginBottom: 16 }}>
+          <DatosProductoPanel
+            tipo={sol.tipo}
+            datos={metadatos}
+            onChange={(nuevosDatos) => { setMetadatos(nuevosDatos); setSaved(false); }}
+          />
+          <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end', marginTop: -8, marginBottom: 8 }}>
+            {savedMeta && (
+              <span style={{ fontSize: 13, color: 'var(--g)', fontWeight: 700, alignSelf: 'center' }}>
+                ✓ Metadatos guardados
+              </span>
+            )}
+            <button
+              className="btn btn-blue btn-sm"
+              onClick={() => {
+                onUpdate({ ...sol, metadatos: metadatos });
+                setSavedMeta(true);
+                setTimeout(() => setSavedMeta(false), 3000);
+              }}
+              style={{ display: 'flex', alignItems: 'center', gap: 6 }}
+            >
+              💾 Guardar Metadatos
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* RUTA */}
       <div className="card" style={{ padding: '16px 20px', marginBottom: 16 }}>
@@ -954,14 +993,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
           <div style={{ fontSize: 13, color: '#c62828', fontWeight: 700, marginBottom: 16, background: '#ffebee', padding: '8px 12px', borderRadius: 6, border: '1px solid #ffcdd2' }}>
             <span style={{display:"inline-flex", alignItems:"center", gap: 6}}><ShieldAlert size={16} style={{display:"inline-block", verticalAlign:"middle"}}/></span> PASO PREVIO: Diligencie los metadatos y (si aplica) las notas de los pares antes de continuar.
           </div>
-          {/* ── Metadatos del producto (ISBN, ISSN, co-autores, etc.) ── */}
-          {isTecnico && (
-            <DatosProductoPanel
-              tipo={sol.tipo}
-              datos={datosProd}
-              onChange={(nuevosDatos) => { setDatosProd(nuevosDatos); setSaved(false); }}
-            />
-          )}
+          {/* ── Pares evaluadores (informe) ── */}
           {sol.pares_ext && sol.pares_ext.length > 0 && sol.pares_ext.map((par, i) => {
             const tieneNombre = !!par.nombre;
             const tienePdf   = !!par.concepto_nombre;
@@ -1050,11 +1082,13 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
                 <div>
                   <label style={{color:'var(--info)'}}>ACTA / AÑO CIARP</label>
                   <input value={actaCiarp} onChange={e => { setActaCiarp(e.target.value); setSaved(false); }} placeholder="Ej: 1/2026" />
-                  {sesionAbierta && (
-                    <div style={{marginTop:6, display:'flex', gap:6, flexWrap:'wrap'}}>
-                      <button type="button" onClick={() => {setActaCiarp(sesionAbierta); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Sugerido (Abierta): {sesionAbierta}</button>
-                    </div>
-                  )}
+              {sesionesAbiertas.length > 0 && (
+                <div style={{marginTop:6, display:'flex', gap:6, flexWrap:'wrap'}}>
+                  {sesionesAbiertas.map(sesion => (
+                    <button key={sesion} type="button" onClick={() => {setActaCiarp(sesion); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Sugerido (Abierta): {sesion}</button>
+                  ))}
+                </div>
+              )}
                   <div style={{marginTop:12}}>
                     <label style={{color:'var(--info)'}}>OBSERVACIONES / JUSTIFICACIÓN</label>
                     {renderReadOnlyJsonFields(sol.notas)}
@@ -1087,12 +1121,8 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
       {/* PANEL DE AJUSTE para etapas ciarp y proyectar_resoluciones (sin pares) */}
       {sol.estado !== 'aprobado' && isTecnico && (['ciarp','proyectar_resoluciones'].includes(sol.etapa) || (sol.tipo === 'ascenso' && sol.estado === 'aprobado_cei')) && (
         <>
-          <DatosProductoPanel 
-            tipo={sol.tipo} 
-            datos={datosProd} 
-            onChange={(nuevosDatos) => { setDatosProd(nuevosDatos); setSaved(false); }} 
-          />
-        <div className="card" style={{ padding: '20px 24px', marginBottom: 16, border: '2px solid var(--info)' }}>
+          {/* Panel de ajuste puntaje — sin DatosProductoPanel duplicado */}
+          <div className="card" style={{ padding: '20px 24px', marginBottom: 16, border: '2px solid var(--info)' }}>
           <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 4 }}>
             <div style={{ fontWeight: 700, fontSize: 15, color: 'var(--info)' }}>⚖️ Panel de Ajuste (Técnico / Jefe)</div>
             <button onClick={() => setShowDecretoPanel(v => !v)} style={{ fontSize:11, background:'#e3f0ff', border:'1px solid #1565c0', borderRadius:6, color:'#1565c0', cursor:'pointer', padding:'3px 10px', fontWeight:700 }}>
@@ -1119,9 +1149,11 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
             <div>
               <label style={{ color: 'var(--info)' }}>ACTA / AÑO CIARP</label>
               <input value={actaCiarp} onChange={e => { setActaCiarp(e.target.value); setSaved(false); }} placeholder="Ej: 1/2026" />
-              {sesionAbierta && (
+              {sesionesAbiertas.length > 0 && (
                 <div style={{marginTop:6, display:'flex', gap:6, flexWrap:'wrap'}}>
-                  <button type="button" onClick={() => {setActaCiarp(sesionAbierta); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Sugerido (Abierta): {sesionAbierta}</button>
+                  {sesionesAbiertas.map(sesion => (
+                    <button key={sesion} type="button" onClick={() => {setActaCiarp(sesion); setSaved(false);}} style={{fontSize:10, background:'#e8f5e9', color:'#1a6e2e', border:'1px solid #1a6e2e', borderRadius:4, padding:'2px 6px', cursor:'pointer'}}>Sugerido (Abierta): {sesion}</button>
+                  ))}
                 </div>
               )}
               <div style={{ marginTop: 12 }}>

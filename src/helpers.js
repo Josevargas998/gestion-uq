@@ -201,6 +201,12 @@ export function normalizeRow(row) {
     sesion_cei_id:  row.sesion_cei_id   || null,
     created_at:     row.created_at,
     updated_at:     row.updated_at,
+    // Metadatos específicos del producto (ISBN, evento, co-autores, etc.)
+    metadatos: (() => {
+      if (!row.metadatos) return {};
+      if (typeof row.metadatos === 'object') return row.metadatos;
+      try { return JSON.parse(row.metadatos); } catch { return {}; }
+    })(),
   };
 }
 

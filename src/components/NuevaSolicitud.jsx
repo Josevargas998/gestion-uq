@@ -32,6 +32,7 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
     docente: '', cedula: '', programa: '', facultad: '', correo: '',
     tipo: '', titulo: '', revista: '', notas: '',
     fecha: new Date().toISOString().split('T')[0],
+    metadatos: {}
   });
   const [query,       setQuery]       = useState('');
   const [showSuggest, setShowSuggest] = useState(false);
@@ -133,9 +134,8 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
   }
 
   function handleGuardar() {
-    const year = new Date().getFullYear();
     const uid  = (crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).slice(2)).replace(/-/g,'').slice(0, 8).toUpperCase();
-    const id   = `SOL-${year}-PROD-${uid}`;
+    const id   = `SOL-TEMP-${uid}`;
     const sol = {
       ...form, id,
       etapa:   'clasificada',

@@ -35,10 +35,10 @@ export default function Dashboard({ user, solicitudes, onSelectSol, setNav }) {
     total:    DOCENTES_PLANTA.length,
     enTope:   DOCENTES_PLANTA.filter(d => d.diferencia <= 0).length,
     cerca:    DOCENTES_PLANTA.filter(d => d.diferencia > 0 && d.diferencia <= 20).length,
-    titulares:  DOCENTES_PLANTA.filter(d => d.categoria?.includes('TITULAR')).length,
-    asociados:  DOCENTES_PLANTA.filter(d => d.categoria?.includes('ASOCIADO')).length,
-    asistentes: DOCENTES_PLANTA.filter(d => d.categoria?.includes('ASISTENTE')).length,
-    auxiliares: DOCENTES_PLANTA.filter(d => d.categoria?.includes('AUXILIAR')).length,
+    titulares:  DOCENTES_PLANTA.filter(d => d.categoria?.toUpperCase().includes('TITULAR')).length,
+    asociados:  DOCENTES_PLANTA.filter(d => d.categoria?.toUpperCase().includes('ASOCIADO')).length,
+    asistentes: DOCENTES_PLANTA.filter(d => d.categoria?.toUpperCase().includes('ASISTENTE')).length,
+    auxiliares: DOCENTES_PLANTA.filter(d => d.categoria?.toUpperCase().includes('AUXILIAR')).length,
   }), [DOCENTES_PLANTA]);
 
   // ── Distribución por tipo de producto
