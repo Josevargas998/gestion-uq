@@ -1,6 +1,6 @@
 import { cleanProgramaName } from '../helpers.js';
 
-export function generarDocumento(tipo, sol) {
+export function generarDocumento(tipo, sol, docentesMap = {}) {
   let titulo = '';
   let contenido = '';
   const fechaStr = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -144,10 +144,20 @@ export function generarDocumento(tipo, sol) {
     const stripEmojis = (str) => str ? String(str).replace(/[\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF]/g, '').trim() : '';
     
     const extractDate = (acta, fecha) => {
+      // Intenta extraer dd/mm/yyyy del string del acta
       const m = String(acta || '').match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
-      let d = m ? new Date(`${m[3]}-${m[2]}-${m[1]}T12:00:00`) : (fecha ? new Date(`${fecha}T12:00:00`) : new Date());
       const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-      return `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+      if (m) {
+        const d = new Date(`${m[3]}-${m[2].padStart(2,'0')}-${m[1].padStart(2,'0')}T12:00:00`);
+        if (!isNaN(d)) return `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+      }
+      if (fecha) {
+        const d = new Date(`${fecha}T12:00:00`);
+        if (!isNaN(d)) return `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+      }
+      // Fallback: fecha de hoy
+      const hoy = new Date();
+      return `${hoy.getDate()} de ${meses[hoy.getMonth()]} de ${hoy.getFullYear()}`;
     };
 
     const n2w = ['CERO', 'PRIMERO', 'SEGUNDO', 'TERCERO', 'CUARTO', 'QUINTO', 'SEXTO', 'SÉPTIMO', 'OCTAVO', 'NOVENO', 'DÉCIMO', 'UNDÉCIMO', 'DUODÉCIMO', 'DECIMOTERCERO', 'DECIMOCUARTO', 'DECIMOQUINTO'];
@@ -165,7 +175,9 @@ export function generarDocumento(tipo, sol) {
           // Leer historial del docente para extraer resolución anterior
           let historial = {};
           if (s.docente_historial) {
-            try { historial = typeof s.docente_historial === 'string' ? JSON.parse(s.docente_historial) : s.docente_historial; } catch(_e) {}
+            try { historial = typeof s.docente_historial === 'string' ? JSON.parse(s.docente_historial) : s.docente_historial; } catch(_e) { /* ignore error */ }
+          } else if (docentesMap[s.cedula] && docentesMap[s.cedula].historial) {
+            try { historial = typeof docentesMap[s.cedula].historial === 'string' ? JSON.parse(docentesMap[s.cedula].historial) : docentesMap[s.cedula].historial; } catch(_e) { /* ignore error */ }
           }
           const resAnterior = historial['RES_ANTERIOR'] || '';
           const fechaResAnterior = historial['FECHA_RES_ANTERIOR'] || '';

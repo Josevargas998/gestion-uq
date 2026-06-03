@@ -20,7 +20,7 @@ export function useDocentesIndex() {
     const key = 'docentes-index';
     if (cache[key]) { setData(cache[key]); setLoading(false); return; }
 
-    fetchDocentes('cedula,nombre,correo,facultad,categoria,programa,dedicacion,fecha_ingreso,especializacion,maestria,doctorado,estado')
+    fetchDocentes('cedula,nombre,correo,facultad,categoria,programa,dedicacion,fecha_ingreso,especializacion,maestria,doctorado,estado,historial')
       .then(rows => {
         const mapped = (rows || [])
           .filter(r => (r.estado || '').toUpperCase() === 'ACTIVO') // solo planta activa
@@ -39,7 +39,14 @@ export function useDocentesIndex() {
       .finally(() => setLoading(false));
   }, []);
 
-  return { data, loading };
+  // Mapa por cédula para acceso O(1)
+  const docentesMap = useMemo(() => {
+    const m = {};
+    data.forEach(d => { if (d.cedula) m[String(d.cedula).trim()] = d; });
+    return m;
+  }, [data]);
+
+  return { data, loading, docentesMap };
 }
 
 // ─────────────────────────────────────────────────────────────

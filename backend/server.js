@@ -665,6 +665,76 @@ app.delete('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (re
   } catch (err) { next(err); }
 });
 
+// POST registrar resolución firmada
+app.post('/api/resoluciones/registrar', verifyToken, requireAdminOrTecnico, async (req, res, next) => {
+  const { solicitudesIds, numeroResolucion, fechaResolucion } = req.body;
+  if (!Array.isArray(solicitudesIds) || !numeroResolucion || !fechaResolucion) {
+    return res.status(400).json({ error: 'Faltan parámetros requeridos.' });
+  }
+
+  const client = await pool.connect();
+  try {
+    await client.query('BEGIN');
+
+    // 1. Obtener las solicitudes
+    const { rows: solicitudes } = await client.query(
+      `SELECT id, cedula, pts_asig FROM solicitudes WHERE id = ANY($1)`,
+      [solicitudesIds]
+    );
+
+    // 2. Agrupar puntos por docente
+    const puntosPorDocente = {};
+    solicitudes.forEach(s => {
+      if (!s.cedula) return;
+      if (!puntosPorDocente[s.cedula]) puntosPorDocente[s.cedula] = 0;
+      puntosPorDocente[s.cedula] += (Number(s.pts_asig) || 0);
+    });
+
+    // 3. Actualizar docentes (puntos + historial)
+    for (const cedula of Object.keys(puntosPorDocente)) {
+      const { rows: docs } = await client.query(`SELECT historial, pts_acumulados FROM docentes WHERE cedula = $1`, [cedula]);
+      if (docs.length > 0) {
+        let historial = {};
+        if (docs[0].historial) {
+          try { historial = typeof docs[0].historial === 'string' ? JSON.parse(docs[0].historial) : docs[0].historial; } catch(e){}
+        }
+        historial['RES_ANTERIOR'] = numeroResolucion;
+        historial['FECHA_RES_ANTERIOR'] = fechaResolucion;
+        historial['ULTIMA_RESOLUCION'] = `Resolución ${numeroResolucion} del ${fechaResolucion}`;
+
+        const nuevosPuntos = (Number(docs[0].pts_acumulados) || 0) + puntosPorDocente[cedula];
+
+        await client.query(
+          `UPDATE docentes SET pts_acumulados = $1, historial = $2 WHERE cedula = $3`,
+          [nuevosPuntos, JSON.stringify(historial), cedula]
+        );
+      }
+    }
+
+    // 4. Archivar solicitudes
+    if (solicitudes.length > 0) {
+      await client.query(
+        `UPDATE solicitudes SET etapa = 'archivada' WHERE id = ANY($1)`,
+        [solicitudesIds]
+      );
+    }
+
+    await registrarAuditoria(req, 'REGISTRAR_RESOLUCION_FIRMADA', {
+      numeroResolucion,
+      fechaResolucion,
+      totalSolicitudes: solicitudes.length
+    });
+
+    await client.query('COMMIT');
+    res.json({ success: true, actualizadas: solicitudes.length });
+  } catch (err) {
+    await client.query('ROLLBACK');
+    next(err);
+  } finally {
+    client.release();
+  }
+});
+
 // ─────────────────────────────────────────────────────────────
 // DOCENTES — CRUD
 // ─────────────────────────────────────────────────────────────

@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { generarDocumento } from '../utils/docGenerator.jsx';
 import { TIPOS } from '../data.js';
 import { badgeEtapa, labelEtapa, normalizeActaKey, cleanProgramaName } from '../helpers.js';
+import { useDocentesIndex } from '../hooks/useDocentesData.js';
+import { useSolicitudes } from '../context/SolicitudesContext.jsx';
+import { registrarResolucionFirmada } from '../utils/api.js';
 
 // Etapas that qualify for Resoluciones view
 const ETAPAS_RESOLUCION = ['acta','resolucion','juridica','rectoria','archivada'];
@@ -145,9 +148,67 @@ function buildAscensoGroups(solicitudes) {
 
 // ── Programa accordion ───────────────────────────────────────────────────────
 
-function ProgramaSection({ grupo, onSelect, isAscenso }) {
+function FirmaModal({ grupo, onClose, onRegistrar }) {
+  const [numero, setNumero] = useState('');
+  const [fecha, setFecha] = useState('');
+  const [loading, setLoading] = useState(false);
+  const totalSols = grupo.solicitudes.length;
+  const totalPts = grupo.solicitudes.reduce((s, x) => s + (x.pts_asig || 0), 0);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!numero || !fecha) return;
+    setLoading(true);
+    await onRegistrar(grupo.solicitudes.map(s => s.id), numero, fecha);
+    setLoading(false);
+    onClose();
+  };
+
+  return (
+    <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ background: '#fff', padding: '30px', borderRadius: '16px', width: '400px', boxShadow: '0 10px 25px rgba(0,0,0,0.2)' }}>
+        <h3 style={{ margin: '0 0 16px 0', color: '#0d3d6e', fontSize: 20 }}>Registrar Resolución Firmada</h3>
+        <p style={{ fontSize: 14, color: '#555', marginBottom: 20 }}>
+          Se registrará la resolución para <strong>{totalSols} productos</strong> ({totalPts.toFixed(1)} pts) del programa <strong>{grupo.programa}</strong>.
+        </p>
+        <form onSubmit={handleSubmit}>
+          <div style={{ marginBottom: 16 }}>
+            <label style={{ display: 'block', fontSize: 13, fontWeight: 700, marginBottom: 8 }}>Número de Resolución Oficial</label>
+            <input 
+              type="text" 
+              required 
+              placeholder="Ej: 435"
+              value={numero} 
+              onChange={e => setNumero(e.target.value)} 
+              style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid #ccc', boxSizing: 'border-box' }}
+            />
+          </div>
+          <div style={{ marginBottom: 24 }}>
+            <label style={{ display: 'block', fontSize: 13, fontWeight: 700, marginBottom: 8 }}>Fecha de Firma</label>
+            <input 
+              type="date" 
+              required 
+              value={fecha} 
+              onChange={e => setFecha(e.target.value)} 
+              style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid #ccc', boxSizing: 'border-box' }}
+            />
+          </div>
+          <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end' }}>
+            <button type="button" onClick={onClose} disabled={loading} style={{ padding: '10px 16px', borderRadius: '8px', border: 'none', background: '#f1f5f9', cursor: 'pointer', fontWeight: 700 }}>Cancelar</button>
+            <button type="submit" disabled={loading} style={{ padding: '10px 16px', borderRadius: '8px', border: 'none', background: '#7c3aed', color: '#fff', cursor: 'pointer', fontWeight: 700 }}>
+              {loading ? 'Registrando...' : 'Confirmar y Archivar'}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}
+
+function ProgramaSection({ grupo, onSelect, isAscenso, docentesMap, onRegistrarFirma }) {
   const { programa, actas, solicitudes } = grupo;
   const [open, setOpen] = useState(false);
+  const [showFirmaModal, setShowFirmaModal] = useState(false);
   const total = solicitudes.length;
   const totalPts = solicitudes.reduce((s, x) => s + (x.pts_asig || 0), 0);
 
@@ -177,13 +238,22 @@ function ProgramaSection({ grupo, onSelect, isAscenso }) {
           </div>
         </div>
         {!isAscenso ? (
-          <button
-            className="btn btn-p btn-sm"
-            onClick={e => { e.stopPropagation(); generarDocumento(grupo.tipoResolucion, [grupo]); }}
-            style={{ fontSize: 12, padding: '8px 16px', background: '#1a5fa8' }}
-          >
-            📄 Exportar Resolución Consolidada
-          </button>
+          <div style={{ display: 'flex', gap: 8 }}>
+            <button
+              className="btn btn-p btn-sm"
+              onClick={e => { e.stopPropagation(); setShowFirmaModal(true); }}
+              style={{ fontSize: 12, padding: '8px 16px', background: '#7c3aed' }}
+            >
+              ✍️ Registrar Firma
+            </button>
+            <button
+              className="btn btn-p btn-sm"
+              onClick={e => { e.stopPropagation(); generarDocumento(grupo.tipoResolucion, [grupo], docentesMap); }}
+              style={{ fontSize: 12, padding: '8px 16px', background: '#1a5fa8' }}
+            >
+              📄 Exportar Resolución
+            </button>
+          </div>
         ) : (
           <button
             className="btn btn-p btn-sm"
@@ -242,6 +312,14 @@ function ProgramaSection({ grupo, onSelect, isAscenso }) {
           })}
         </div>
       )}
+
+      {showFirmaModal && (
+        <FirmaModal
+          grupo={grupo}
+          onClose={() => setShowFirmaModal(false)}
+          onRegistrar={onRegistrarFirma}
+        />
+      )}
     </div>
   );
 }
@@ -249,8 +327,10 @@ function ProgramaSection({ grupo, onSelect, isAscenso }) {
 // ── Main component ───────────────────────────────────────────────────────────
 
 export default function Resoluciones({ solicitudes, onSelect }) {
+  const { actualizar } = useSolicitudes();
   const [anioFiltro, setAnioFiltro] = useState(new Date().getFullYear().toString());
-  const [tab, setTab] = useState('productividad'); // 'productividad' | 'bonificaciones' | 'experiencia' | 'ascensos'
+  const [tab, setTab] = useState('productividad');
+  const { docentesMap } = useDocentesIndex();
   
   const programaGroups = tab === 'ascensos'
     ? buildAscensoGroups(solicitudes)
@@ -268,13 +348,27 @@ export default function Resoluciones({ solicitudes, onSelect }) {
       s.titulo.toLowerCase().includes(q) || 
       (s.cedula && String(s.cedula).includes(q))
     );
-    // Si el nombre del programa hace match, mostramos todos los del programa. 
-    // Si no, mostramos solo las solicitudes que hacen match.
     return {
       ...g,
       solicitudes: matchsPrograma ? g.solicitudes : solsFiltered
     };
   }).filter(g => g.solicitudes.length > 0);
+
+  const handleRegistrarFirma = async (ids, numero, fecha) => {
+    // Convertir a formato legible si se requiere
+    const partes = fecha.split('-'); // YYYY-MM-DD
+    const dateObj = new Date(partes[0], partes[1] - 1, partes[2]);
+    const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    const fechaFormateada = `${dateObj.getDate()} de ${meses[dateObj.getMonth()]} de ${dateObj.getFullYear()}`;
+
+    const res = await registrarResolucionFirmada(ids, numero, fechaFormateada);
+    if (res && res.success) {
+      alert(`¡Resolución ${numero} registrada exitosamente! ${res.actualizadas} productos archivados.`);
+      await actualizar(); // Recargar de BD
+    } else {
+      alert('Hubo un error al registrar la resolución. Verifique e intente nuevamente.');
+    }
+  };
 
   return (
     <div style={{ padding: '32px 28px', maxWidth: 1080, margin: '0 auto', fontFamily: "'Nunito', sans-serif" }}>
@@ -317,7 +411,7 @@ export default function Resoluciones({ solicitudes, onSelect }) {
             <button
               onClick={() => {
                 const docType = tab === 'productividad' ? 'resolucion_productividad' : (tab === 'bonificaciones' ? 'resolucion_bonificacion' : 'resolucion_experiencia');
-                generarDocumento(docType, gruposFiltrados);
+                generarDocumento(docType, gruposFiltrados, docentesMap);
               }}
               style={{ padding: '10px 18px', borderRadius: 8, background: '#006B3F', color: '#fff', border: 'none', fontWeight: 800, fontSize: 13, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 6 }}
             >
@@ -372,7 +466,14 @@ export default function Resoluciones({ solicitudes, onSelect }) {
             Programas Académicos con Novedades ({gruposFiltrados.length})
           </div>
           {gruposFiltrados.map((grupo) => (
-            <ProgramaSection key={grupo.key} grupo={grupo} onSelect={onSelect} isAscenso={tab === 'ascensos'} />
+            <ProgramaSection 
+              key={grupo.key} 
+              grupo={grupo} 
+              onSelect={onSelect} 
+              isAscenso={tab === 'ascensos'} 
+              docentesMap={docentesMap} 
+              onRegistrarFirma={handleRegistrarFirma}
+            />
           ))}
         </div>
       )}

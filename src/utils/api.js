@@ -116,6 +116,19 @@ export async function updateSolicitud(sol) {
   }
 }
 
+export async function registrarResolucionFirmada(solicitudesIds, numeroResolucion, fechaResolucion) {
+  try {
+    const data = await apiFetch('/api/resoluciones/registrar', {
+      method: 'POST',
+      body: JSON.stringify({ solicitudesIds, numeroResolucion, fechaResolucion }),
+    });
+    return data;
+  } catch (err) {
+    console.error('[API] Error registrando resolución:', err.message);
+    return { success: false };
+  }
+}
+
 export async function deleteSolicitud(id) {
   try {
     await apiFetch(`/api/solicitudes/${encodeURIComponent(id)}`, { method: 'DELETE' });
