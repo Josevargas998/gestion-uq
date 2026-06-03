@@ -424,13 +424,22 @@ app.get('/api/solicitudes/:id', async (req, res, next) => {
   } catch (err) { next(err); }
 });
 
+// Tipos que NO computan contra el tope de productividad (Decreto 1279 Arts. 10 y 12)
+// Un docente puede superar su tope de productividad y seguir acumulando puntos por estos factores.
+const TIPOS_SIN_TOPE = new Set(['ddd', 'daa', 'exp_calificada', 'ascenso', 'titulo']);
+
 // Helper para validar tope del docente
-async function validarTopeDocente(cedula, currentSolicitudId, nuevosPuntos, nuevoEstado) {
+async function validarTopeDocente(cedula, currentSolicitudId, nuevosPuntos, nuevoEstado, tipo) {
   if (nuevoEstado !== 'aprobado') {
     return { valid: true };
   }
 
-  // Reconocimientos sin puntos (DDD, DAA, Exp. Calificada) nunca superan el tope
+  // DAA, DDD, Exp. Calificada, Ascensos y Títulos son factores salariales independientes
+  // del tope de productividad académica — nunca se bloquean por tope.
+  if (tipo && TIPOS_SIN_TOPE.has(String(tipo).toLowerCase())) {
+    return { valid: true };
+  }
+
   if (!nuevosPuntos || Number(nuevosPuntos) <= 0) {
     return { valid: true };
   }
@@ -451,12 +460,13 @@ async function validarTopeDocente(cedula, currentSolicitudId, nuevosPuntos, nuev
 
   const baseAcumulados = Number(docentes[0].pts_acumulados) || 0;
 
-  // 2. Sumar puntos de otras solicitudes aprobadas (excluyendo la actual)
-  let queryText = "SELECT COALESCE(SUM(pts_asig), 0) AS suma FROM solicitudes WHERE cedula = $1 AND estado = 'aprobado' AND id LIKE 'SOL-%'";
-  const queryParams = [String(cedula || '').trim()];
+  // 2. Sumar puntos de otras solicitudes aprobadas de productividad (excluyendo la actual y tipos sin tope)
+  const tiposSinTopeArray = Array.from(TIPOS_SIN_TOPE);
+  let queryText = `SELECT COALESCE(SUM(pts_asig), 0) AS suma FROM solicitudes WHERE cedula = $1 AND estado = 'aprobado' AND id LIKE 'SOL-%' AND tipo NOT IN (${tiposSinTopeArray.map((_, i) => `$${i + 2}`).join(',')})`;
+  const queryParams = [String(cedula || '').trim(), ...tiposSinTopeArray];
 
   if (currentSolicitudId) {
-    queryText += ' AND id <> $2';
+    queryText += ` AND id <> $${queryParams.length + 1}`;
     queryParams.push(currentSolicitudId);
   }
 
@@ -468,7 +478,7 @@ async function validarTopeDocente(cedula, currentSolicitudId, nuevosPuntos, nuev
   if (totalProyectado > tope) {
     return {
       valid: false,
-      error: `La asignación de ${nuevosPuntos} puntos superaría el tope del docente (Tope: ${tope} pts, Puntos acumulados base: ${baseAcumulados} pts, Otras solicitudes aprobadas: ${otrosPuntosAprobados} pts, Total proyectado: ${totalProyectado} pts)`
+      error: `La asignación de ${nuevosPuntos} puntos superaría el tope de productividad del docente (Tope: ${tope} pts, Puntos acumulados base: ${baseAcumulados} pts, Otras solicitudes aprobadas: ${otrosPuntosAprobados} pts, Total proyectado: ${totalProyectado} pts)`
     };
   }
 
