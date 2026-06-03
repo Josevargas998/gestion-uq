@@ -74,3 +74,28 @@ if ($LASTEXITCODE -eq 0) {
     Write-Error "[$(Get-Date -Format 'HH:mm:ss')] ❌ Error en pg_dump (código: $LASTEXITCODE)"
     exit $LASTEXITCODE
 }
+
+# ── Copia de seguridad de PDFs (Carpeta uploads) ──
+$UPLOADS_DIR = "C:\Users\JHVEspinosa\.gemini\antigravity\scratch\gestion-uq\backend\uploads"
+$PdfFileName = "backup_pdfs_$Fecha.zip"
+$PdfFilePath = Join-Path $BACKUP_DIR $PdfFileName
+
+Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Iniciando backup de PDFs (uploads)..."
+if (Test-Path $UPLOADS_DIR) {
+    Compress-Archive -Path $UPLOADS_DIR -DestinationPath $PdfFilePath -Force
+    if (Test-Path $PdfFilePath) {
+        $PdfSizeKB = [math]::Round((Get-Item $PdfFilePath).Length / 1KB, 1)
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] ✅ Backup de PDFs guardado: $PdfFileName ($PdfSizeKB KB)"
+        
+        # Mantener solo los últimos 12 backups de PDFs
+        $todosPdf = Get-ChildItem $BACKUP_DIR -Filter "backup_pdfs_*.zip" | Sort-Object LastWriteTime -Descending
+        if ($todosPdf.Count -gt 12) {
+            $todosPdf | Select-Object -Skip 12 | ForEach-Object {
+                Remove-Item $_.FullName -Force
+                Write-Host "   Eliminado backup de PDF antiguo: $($_.Name)"
+            }
+        }
+    }
+} else {
+    Write-Host "[$(Get-Date -Format 'HH:mm:ss')] ⚠️ No se encontró la carpeta de uploads para respaldar."
+}

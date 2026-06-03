@@ -418,7 +418,7 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
       v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
       v(s.cedula), v(s.docente, '').toUpperCase(),
       v(s.programa), v(s.facultad), v(s.dedicacion),
-      v(s.titulo), v(s.isbn_issn), v(s.revista), v(s.anio_publicacion),
+      v(s.titulo, s.titulo_articulo), v(s.issn, s.isbn_issn), v(s.revista), v(s.fecha_publicacion, s.anio_publicacion),
       v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
     ]),
   ]);

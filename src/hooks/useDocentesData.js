@@ -20,7 +20,7 @@ export function useDocentesIndex() {
     const key = 'docentes-index';
     if (cache[key]) { setData(cache[key]); setLoading(false); return; }
 
-    fetchDocentes('cedula,nombre,correo,facultad,categoria,programa,dedicacion,fecha_ingreso,especializacion,maestria,doctorado')
+    fetchDocentes('cedula,nombre,correo,facultad,categoria,programa,dedicacion,fecha_ingreso,especializacion,maestria,doctorado,estado')
       .then(rows => {
         const mapped = (rows || [])
           .filter(r => (r.estado || '').toUpperCase() === 'ACTIVO') // solo planta activa

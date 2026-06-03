@@ -673,7 +673,7 @@ app.get('/api/docentes', async (req, res, next) => {
                      'fecha_ingreso','especializacion','maestria','doctorado','correo',
                      'pts_acumulados','tope','diferencia','historial','observacion',
                      'pts_titulos_exp','pts_total_salarial','pts_ciarp1_2026',
-                     'pts_favor','tope_libros','tope_software','no','id','comision','escolaridad'];
+                     'pts_favor','tope_libros','tope_software','no','id','comision','escolaridad','estado'];
     const safeSelect = campos === '*' ? '*' : campos.split(',').filter(c => allowed.includes(c.trim())).join(', ') || '*';
     const { rows } = await query(`SELECT ${safeSelect} FROM docentes ORDER BY nombre`);
     res.json(rows);

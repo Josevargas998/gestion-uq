@@ -348,7 +348,7 @@ export default function NuevaSolicitud({ onSave, onCancel, solicitudesExistentes
               <label>Título del producto *</label>
               <input value={form.titulo} onChange={e => set('titulo', e.target.value)} placeholder="Título completo del producto académico" />
             </div>
-            {['articulo_indexado'].includes(form.tipo) && (
+            {['articulo_indexado', 'articulo_no_indexado'].includes(form.tipo) && (
               <div style={{ marginBottom: 14 }}>
                 <label>Nombre de la revista / DOI</label>
                 <input value={form.revista} onChange={e => set('revista', e.target.value)} placeholder="Ej: Nature Ecology (Q1) / DOI: 10.xxxx" />

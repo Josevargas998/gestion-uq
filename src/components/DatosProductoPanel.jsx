@@ -49,15 +49,13 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     const cat = (tipo || '').toLowerCase();
 
     // ── ARTÍCULOS EN REVISTAS ──
-    if (cat.includes('revista') || cat === 'articulo') {
+    if (cat.includes('revista') || cat.includes('articulo')) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <InputField datos={datos} onChange={handleChange} label="Título del Artículo" name="titulo_articulo" placeholder="Título exacto..." />
           <InputField datos={datos} onChange={handleChange} label="Modalidad" name="modalidad" placeholder="Full paper, Short paper..." />
           <InputField datos={datos} onChange={handleChange} label="Tipo" name="tipo_pub" placeholder="Nacional / Internacional" />
           <InputField datos={datos} onChange={handleChange} label="País de la Revista" name="pais_revista" placeholder="País" />
           <InputField datos={datos} onChange={handleChange} label="ISSN de la Revista" name="issn" placeholder="Ej: 1234-5678" />
-          <InputField datos={datos} onChange={handleChange} label="Nombre de la Revista" name="revista" placeholder="Nombre completo" />
           <InputField datos={datos} onChange={handleChange} label="URL Publindex / Indexación" name="url_publindex" />
           <InputField datos={datos} onChange={handleChange} label="Categoría de Revista" name="categoria_revista" placeholder="A1, A2, B, C, No Indexada" />
           <InputField datos={datos} onChange={handleChange} label="Editorial o Institución" name="editorial" />
