@@ -430,6 +430,11 @@ async function validarTopeDocente(cedula, currentSolicitudId, nuevosPuntos, nuev
     return { valid: true };
   }
 
+  // Reconocimientos sin puntos (DDD, DAA, Exp. Calificada) nunca superan el tope
+  if (!nuevosPuntos || Number(nuevosPuntos) <= 0) {
+    return { valid: true };
+  }
+
   // 1. Obtener tope y base acumulada del docente
   const { rows: docentes } = await query(
     'SELECT tope, pts_acumulados FROM docentes WHERE cedula = $1 LIMIT 1',
