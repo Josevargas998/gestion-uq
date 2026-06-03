@@ -314,6 +314,7 @@ app.get('/api/solicitudes', async (req, res, next) => {
              COALESCE(d.pts_total_salarial, 0) AS docente_pts_total_salarial,
              COALESCE(d.lugar_expedicion, '________') AS docente_lugar_expedicion,
              COALESCE(d.dedicacion, 'Tiempo Completo') AS dedicacion,
+             d.historial AS docente_historial,
              COUNT(*) OVER() AS total_count
       FROM solicitudes s
       LEFT JOIN docentes d ON s.cedula = d.cedula
@@ -386,6 +387,7 @@ app.get('/api/solicitudes/buscar', async (req, res, next) => {
               COALESCE(d.pts_total_salarial, 0) AS docente_pts_total_salarial,
               COALESCE(d.lugar_expedicion, '________') AS docente_lugar_expedicion,
               COALESCE(d.dedicacion, 'Tiempo Completo') AS dedicacion,
+              d.historial AS docente_historial,
               COUNT(*) OVER() AS total_count 
        FROM solicitudes s
        LEFT JOIN docentes d ON s.cedula = d.cedula
@@ -407,7 +409,11 @@ app.get('/api/solicitudes/:id', async (req, res, next) => {
               COALESCE(d.programa, s.programa, 'Sin programa') AS programa,
               COALESCE(d.facultad, s.facultad, 'Sin facultad') AS facultad,
               COALESCE(d.pts_acumulados, 0) AS docente_pts_acumulados,
-              COALESCE(d.dedicacion, 'Tiempo Completo') AS dedicacion
+              COALESCE(d.pts_titulos_exp, 0) AS docente_pts_titulos_exp,
+              COALESCE(d.pts_total_salarial, 0) AS docente_pts_total_salarial,
+              COALESCE(d.lugar_expedicion, '________') AS docente_lugar_expedicion,
+              COALESCE(d.dedicacion, 'Tiempo Completo') AS dedicacion,
+              d.historial AS docente_historial
        FROM solicitudes s
        LEFT JOIN docentes d ON s.cedula = d.cedula
        WHERE s.id = $1`,

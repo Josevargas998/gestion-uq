@@ -162,6 +162,14 @@ export function generarDocumento(tipo, sol) {
       const porDocente = {};
       grupo.solicitudes.forEach(s => {
         if (!porDocente[s.cedula]) {
+          // Leer historial del docente para extraer resolución anterior
+          let historial = {};
+          if (s.docente_historial) {
+            try { historial = typeof s.docente_historial === 'string' ? JSON.parse(s.docente_historial) : s.docente_historial; } catch(_e) {}
+          }
+          const resAnterior = historial['RES_ANTERIOR'] || '';
+          const fechaResAnterior = historial['FECHA_RES_ANTERIOR'] || '';
+
           porDocente[s.cedula] = {
             docente: stripEmojis(s.docente),
             cedula: s.cedula,
@@ -170,6 +178,8 @@ export function generarDocumento(tipo, sol) {
             pts_acumulados: s.docente_pts_acumulados != null ? Number(s.docente_pts_acumulados) : 0,
             pts_titulos_exp: s.docente_pts_titulos_exp != null ? Number(s.docente_pts_titulos_exp) : 0,
             pts_total_salarial: s.docente_pts_total_salarial != null ? Number(s.docente_pts_total_salarial) : 0,
+            res_anterior: resAnterior,
+            fecha_res_anterior: fechaResAnterior,
             productos: []
           };
         }
@@ -207,7 +217,7 @@ export function generarDocumento(tipo, sol) {
             
             <table style="margin-left: 0; width: 70%; font-size: 12px; border-collapse: collapse; margin-bottom: 10px;">
               <tr>
-                <td style="padding: 2px 0;">Puntaje Res. [RES_ANTERIOR] [FECHA_RES_ANTERIOR]</td>
+                <td style="padding: 2px 0;">Puntaje Res. ${d.res_anterior || '[RES_ANTERIOR]'} ${d.fecha_res_anterior ? '/ ' + d.fecha_res_anterior : '[FECHA_RES_ANTERIOR]'}</td>
                 <td style="padding: 2px 0; text-align: right;">${puntosBase.toFixed(1)} Puntos</td>
               </tr>
               ${sumaProductividad > 0 ? `
@@ -273,7 +283,7 @@ export function generarDocumento(tipo, sol) {
               
               <table style="margin-left: 0; width: 70%; font-size: 12px; border-collapse: collapse; margin-bottom: 10px;">
                 <tr>
-                  <td style="padding: 2px 0;">Puntaje Res. [RES_ANTERIOR] / [FECHA_RES_ANTERIOR]</td>
+                  <td style="padding: 2px 0;">Puntaje Res. ${d.res_anterior || '[RES_ANTERIOR]'} / ${d.fecha_res_anterior || '[FECHA_RES_ANTERIOR]'}</td>
                   <td style="padding: 2px 0; text-align: right;">${puntosBase.toFixed(1)} Puntos</td>
                 </tr>
                 ${expPts > 0 ? `
