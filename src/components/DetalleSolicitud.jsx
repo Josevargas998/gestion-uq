@@ -618,6 +618,11 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
                     <span style={{display:"inline-flex", alignItems:"center", gap: 6}}><Mail size={14} style={{display:"inline-block", verticalAlign:"middle"}}/></span> <a href={`mailto:${sol.correo}`} style={{ color: 'var(--info)' }}>{sol.correo}</a>
                   </div>
                 )}
+                {sol.escolaridad && (
+                  <div style={{ fontSize: 12, color: 'var(--text2)', gridColumn: '1 / -1' }}>
+                    <span style={{display:"inline-flex", alignItems:"center", gap: 6}}><Award size={14} style={{display:"inline-block", verticalAlign:"middle"}}/></span> Escolaridad: <strong>{sol.escolaridad}</strong>
+                  </div>
+                )}
                 {sol.coautor && (
                   <div style={{ fontSize: 12, color: 'var(--text2)', gridColumn: '1 / -1' }}>
                     <span style={{display:"inline-flex", alignItems:"center", gap: 6}}><User size={14} style={{display:"inline-block", verticalAlign:"middle"}}/></span> Co-autor: <strong>{sol.coautor}</strong>
