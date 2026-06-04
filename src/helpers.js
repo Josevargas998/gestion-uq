@@ -163,6 +163,8 @@ export function normalizeRow(row) {
     docente_pts_total_salarial: row.docente_pts_total_salarial !== undefined ? Number(row.docente_pts_total_salarial) : null,
     docente_lugar_expedicion: cleanText(row.docente_lugar_expedicion || '________'),
     dedicacion:     row.dedicacion      || '',
+    escolaridad:    row.escolaridad     || '',
+    categoria:      row.categoria       || '',
     tipo:           (() => {
       const t = row.tipo || 'articulo_indexado';
       // Normaliza tipos viejos de BD al nuevo esquema unificado
