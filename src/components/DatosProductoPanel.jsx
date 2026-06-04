@@ -235,7 +235,6 @@ export default function DatosProductoPanel({ sol = {}, tipo, datos = {}, onChang
     if (cat.includes('titulo')) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" placeholder="Nivel previo" fallback={sol.escolaridad || ''} />
           <InputField datos={datos} onChange={handleChange} label="Universidad que Otorga" name="universidad_otorga" />
           <InputField datos={datos} onChange={handleChange} label="Nombre Exacto del Título" name="titulo_otorgado" placeholder="Ej: Doctor en Educación" />
           <InputField datos={datos} onChange={handleChange} label="Fecha de Grado" name="fecha_graduacion" type="date" />
@@ -291,7 +290,6 @@ export default function DatosProductoPanel({ sol = {}, tipo, datos = {}, onChang
     if (cat === 'postdoctorado') {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" fallback={sol.escolaridad || ''} />
           <InputField datos={datos} onChange={handleChange} label="Categoría" name="categoria_docente" placeholder="Ej: Asociado, Titular" />
           <div style={{ gridColumn: '1 / -1' }}>
             <InputField datos={datos} onChange={handleChange} label="Título de Doctorado" name="titulo_doctorado" />
