@@ -347,13 +347,16 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
   // HOJA 12: Titulos (Universitarios)
   // ─────────────────────────────────────────────────────────────────────────────
   addSheet('Titulos', [
-    ['AÑO','SEMESTRE','NO','DOCUMENTO_DE_IDENTIFICACION','NOMBRE_DEL_DOCENTE',
-     'PROGRAMA_ACADEMICO','FACULTAD','TITULO_OBTENIDO',
-     'PUNTOS_ASIGNADOS','ACTA_Y_FECHA_CIARP','OBSERVACIONES'],
-    ...byTipo('titulo').map((s, i) => [
+    ['AÑO','SEMESTRE','NO','DOCUMENTO_DE_IDENTIDAD','NOMBRE_DEL_DOCENTE',
+     'ESCOLARIDAD_ANTERIOR','CATEGORÍA','TIEMPO_DE_DEDICACIÓN','PROGRAMA_ACADÉMICO',
+     'FACULTAD','UNIVERSIDAD_QUE_OTORGA_EL_TÍTULO','TÍTULO_OTORGADO',
+     'ACTO_DE_CONVALIDACIÓN','FECHA_GRADUACIÓN','PUNTOS_ASIGNADOS','ACTA_Y_FECHA_CIARP','OBSERVACIONES'],
+    ...byTipo('titulo', 'titulo_academico').map((s, i) => [
       v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
       v(s.cedula), v(s.docente, '').toUpperCase(),
-      v(s.programa), v(s.facultad), v(s.titulo),
+      v(s.escolaridad_anterior), v(s.categoria), v(s.dedicacion), v(s.programa),
+      v(s.facultad), v(s.universidad_otorga), v(s.titulo_otorgado || s.titulo),
+      v(s.acto_convalidacion, 'N/A'), v(s.fecha_graduacion),
       v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
     ]),
   ]);

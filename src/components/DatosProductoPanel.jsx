@@ -232,13 +232,16 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     }
 
     // ── NUEVOS TÍTULOS ACADÉMICOS ──
-    if (cat === 'titulo') {
+    if (cat.includes('titulo')) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
           <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" placeholder="Nivel previo" />
           <InputField datos={datos} onChange={handleChange} label="Universidad que Otorga" name="universidad_otorga" />
           <InputField datos={datos} onChange={handleChange} label="Nombre Exacto del Título" name="titulo_otorgado" placeholder="Ej: Doctor en Educación" />
           <InputField datos={datos} onChange={handleChange} label="Fecha de Grado" name="fecha_graduacion" type="date" />
+          <div style={{ gridColumn: '1 / -1' }}>
+            <InputField datos={datos} onChange={handleChange} label="Acto de Convalidación (Para Univ. Extranjeras)" name="acto_convalidacion" placeholder="N/A o número de resolución" />
+          </div>
         </div>
       );
     }
