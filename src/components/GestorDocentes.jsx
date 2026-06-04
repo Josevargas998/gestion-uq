@@ -3,6 +3,8 @@ import { useDocentesConNuevos } from '../hooks/useDocentesData.js';
 import { fetchSolicitudes } from '../utils/api.js';
 import HojaVidaDocente from './HojaVidaDocente.jsx';
 import { getSemaforo, cleanText } from '../helpers.js';
+import * as XLSX from 'xlsx';
+import { useSolicitudes } from '../context/SolicitudesContext.jsx';
 
 const VALOR_PUNTO_2026 = 23924; // Valor del punto salarial 2026
 
@@ -25,6 +27,7 @@ export default function GestorDocentes({ user, setNav }) {
   // Hook enriquecido: ptsAcumulados, ptsTotalSalarial, diferencia ya incluyen
   // las nuevas aprobaciones SOL-* del sistema (no solo datos historicos)
   const { data: docentesConNuevos, loading } = useDocentesConNuevos();
+  const { solicitudes } = useSolicitudes();
   const [search,   setSearch]   = useState('');
   const [catFil,   setCatFil]   = useState('Todas');
   const [facFil,   setFacFil]   = useState('Todas');
@@ -130,6 +133,78 @@ export default function GestorDocentes({ user, setNav }) {
     </div>
   );
 
+  const exportarExcel = () => {
+    const data = filtered.map((d, i) => {
+      // Calcular topes por libros y software usando solicitudes activas de 2026 (solo del contexto)
+      const currentYear = new Date().getFullYear().toString();
+      const solAprobadasAll = solicitudes.filter(s => s.cedula === String(d.cedula) && s.estado === 'aprobado');
+      const solAprobadasYear = solAprobadasAll.filter(s => (s.fecha || s.created_at || '').startsWith(currentYear));
+      
+      const topeLibros = solAprobadasYear.filter(s => ['libro_texto','libro_ensayo','libro_investigacion'].includes(s.tipo)).reduce((acc, s) => acc + (Number(s.pts_asig)||0), 0);
+      const topeSoftware = solAprobadasYear.filter(s => s.tipo === 'software').reduce((acc, s) => acc + (Number(s.pts_asig)||0), 0);
+
+      // Calcular la escolaridad más alta incluyendo los títulos nuevos
+      const titulosNuevos = solAprobadasAll.filter(s => ['titulo', 'titulo_academico'].includes(s.tipo) && s.titulo).map(s => s.titulo);
+      const allTitulos = [...(d.titulosAcademicos || []), ...titulosNuevos];
+      let escolaridadCalc = d.escolaridad || '';
+      
+      if (allTitulos.length > 0) {
+        const joined = allTitulos.join(' ').toLowerCase();
+        if (joined.includes('doctor')) {
+          escolaridadCalc = allTitulos.find(t => t.toLowerCase().includes('doctor')) || escolaridadCalc;
+        } else if (joined.includes('maestr') || joined.includes('magister')) {
+          escolaridadCalc = allTitulos.find(t => t.toLowerCase().includes('maestr') || t.toLowerCase().includes('magister')) || escolaridadCalc;
+        } else if (joined.includes('especializa')) {
+          escolaridadCalc = allTitulos.find(t => t.toLowerCase().includes('especializa')) || escolaridadCalc;
+        }
+      }
+
+      // PUNTOS POR TÍTULOS ACADÉMICOS — suma TODAS las solicitudes aprobadas (históricas + nuevas)
+      // Para docentes sin solicitudes en el sistema, se usa ptsTitulosExp de la BD como fallback
+      const ptsTitulosEnSolicitudes = solAprobadasAll
+        .filter(s => ['titulo', 'titulo_academico'].includes(s.tipo))
+        .reduce((acc, s) => acc + (Number(s.pts_asig) || 0), 0);
+      // Si hay solicitudes de títulos en el sistema, usarlas; si no, caer al campo BD
+      const ptsTitulosTotal = ptsTitulosEnSolicitudes > 0
+        ? ptsTitulosEnSolicitudes
+        : Number(d.ptsTitulosExp || 0);
+
+      // PUNTOS POR EXPERIENCIA CALIFICADA (DDD, DAA) — suma TODAS las solicitudes aprobadas
+      const ptsExperiencia = solAprobadasAll
+        .filter(s => ['ddd', 'daa', 'exp_calificada'].includes(s.tipo))
+        .reduce((acc, s) => acc + (Number(s.pts_asig) || 0), 0);
+
+      return {
+        "No.": i + 1,
+        "APELLIDOS Y NOMBRE": d.nombre,
+        "CÉDULA DE CIUDADANÍA O EXTRANJERÍA": d.cedula,
+        "DEPENDENCIA DIRECTA": d.programa,
+        "FACULTAD": d.facultad,
+        "ESCOLARIDAD": escolaridadCalc,
+        "DEDICACIÓN": d.dedicacion || '',
+        "FECHA DE INGRESO": d.fechaIngreso || '',
+        "CATEGORÍA": d.categoria,
+        "TOPE": d.tope,
+        "DIFERENCIA ENTRE EL TOPE Y EL PUNTAJE ASIGNADO": d.diferencia >= 0 ? d.diferencia.toFixed(1) : d.diferencia.toFixed(1),
+        "CIARP 01 2026 18 Mar": d.ptsCiarp1_2026 || 0,
+        "CIARP 02 2026 04 Jun": d.ptsSolNuevos || 0,
+        "PUNTOS POR PRODUCTIVIDAD ACADÉMICA": Number(d.ptsAcumulados.toFixed(1)),
+        "PUNTOS POR TÍTULOS ACADÉMICOS": Number(ptsTitulosTotal.toFixed(1)),
+        "PUNTOS POR EXPERIENCIA CALIFICADA (DDD, DAA)": Number(ptsExperiencia.toFixed(1)),
+        "PUNTOS SALARIALES TOTALES": d.ptsTotalSalarial > 0 ? Number(d.ptsTotalSalarial.toFixed(1)) : Number((d.ptsAcumulados || 0).toFixed(1)),
+        "TOPE POR LIBROS (Max 35 Puntos)": topeLibros,
+        "TOPE POR SOFTWARE (Max 35 Puntos)": topeSoftware,
+        "COMISION ACADEMICO ADMINISTRATIVA": d.comision || '',
+        "OBSERVACION": d.observacion || ''
+      };
+    });
+
+    const ws = XLSX.utils.json_to_sheet(data);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Docentes");
+    XLSX.writeFile(wb, `Reporte_Planta_Docente_${new Date().toISOString().slice(0,10)}.xlsx`);
+  };
+
   return (
     <div style={{ padding: '24px 28px', fontFamily: "'Nunito',sans-serif", maxWidth: 1400, margin: '0 auto' }}>
 
@@ -143,7 +218,7 @@ export default function GestorDocentes({ user, setNav }) {
             Base de datos de planta docente · Control de topes por productividad académica (Decreto 1279/2002)
           </p>
         </div>
-        <div style={{ display: 'flex', background: '#f5f5f5', borderRadius: 8, padding: 4, border: '1px solid #e5e7eb' }}>
+        <div style={{ display: 'flex', background: '#f5f5f5', borderRadius: 8, padding: 4, border: '1px solid #e5e7eb', flexWrap: 'wrap', gap: 4 }}>
           <button onClick={() => setView('table')} style={{
             padding: '6px 16px', borderRadius: 6, border: 'none', fontSize: 13, fontWeight: 700, cursor: 'pointer', transition: 'all .2s',
             background: view === 'table' ? '#fff' : 'transparent', color: view === 'table' ? '#006B3F' : '#666',
@@ -154,6 +229,10 @@ export default function GestorDocentes({ user, setNav }) {
             background: view === 'dashboard' ? '#fff' : 'transparent', color: view === 'dashboard' ? '#006B3F' : '#666',
             boxShadow: view === 'dashboard' ? '0 1px 3px rgba(0,0,0,0.1)' : 'none'
           }}>📊 Panel Estadístico</button>
+          <button onClick={exportarExcel} style={{
+            padding: '6px 16px', borderRadius: 6, border: '1px solid #16a34a', fontSize: 13, fontWeight: 800, cursor: 'pointer', transition: 'all .2s',
+            background: '#dcfce7', color: '#16a34a', marginLeft: 'auto'
+          }}>⬇️ Exportar Excel</button>
         </div>
       </div>
 
@@ -471,6 +550,24 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
     [detalles, currentYear]
   );
 
+  // Títulos aprobados vía CIARP (tipo titulo o titulo_academico) — para mostrar en el perfil
+  const titulosAprobadosExtra = useMemo(() =>
+    detalles
+      .filter(d => isRealAprobado(d) && ['titulo', 'titulo_academico'].includes(d.tipo) && d.titulo)
+      .map(d => d.titulo),
+    [detalles]
+  );
+
+  // Combina los títulos históricos de la BD con los nuevos aprobados vía CIARP (sin duplicados)
+  const allTitulos = useMemo(() => {
+    const base = doc.titulosAcademicos ? [...doc.titulosAcademicos] : [];
+    titulosAprobadosExtra.forEach(t => {
+      if (!base.some(b => b.toLowerCase().trim() === t.toLowerCase().trim())) {
+        base.push(t);
+      }
+    });
+    return base;
+  }, [doc.titulosAcademicos, titulosAprobadosExtra]);
 
   // Agrupar aprobaciones por sesión CIARP
   const porCiarp = useMemo(() => {
@@ -522,14 +619,14 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
               <span style={{ background: 'rgba(255,255,255,.2)', borderRadius: 20, padding: '3px 12px', fontSize: 12, fontWeight: 700 }}>
                 {doc.categoria}
               </span>
-              {doc.titulosAcademicos && doc.titulosAcademicos.length > 0
-                ? doc.titulosAcademicos.map((t, i) => (
+              {allTitulos.length > 0
+                ? allTitulos.map((t, i) => (
                     <span key={i} style={{
-                      background: i === doc.titulosAcademicos.length - 1 ? 'rgba(255,215,0,.3)' : 'rgba(255,255,255,.12)',
+                      background: i === allTitulos.length - 1 ? 'rgba(255,215,0,.3)' : 'rgba(255,255,255,.12)',
                       borderRadius: 20, padding: '3px 12px', fontSize: 11, fontWeight: 600,
-                      border: i === doc.titulosAcademicos.length - 1 ? '1px solid rgba(255,215,0,.6)' : 'none'
+                      border: i === allTitulos.length - 1 ? '1px solid rgba(255,215,0,.6)' : 'none'
                     }}>
-                      {i === 0 && doc.especializacion ? '🎖️ ' : i === 1 && doc.maestria ? '🎓 ' : '🏆 '}{t}
+                      {t.toLowerCase().includes('doctor') ? '🏆 ' : t.toLowerCase().includes('maestr') ? '🎓 ' : '🎖️ '}{t}
                     </span>
                   ))
                 : <span style={{ background: 'rgba(255,255,255,.15)', borderRadius: 20, padding: '3px 12px', fontSize: 11, fontWeight: 600 }}>{doc.escolaridad}</span>
@@ -576,8 +673,8 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
         )}
       </div>
 
-      {/* Títulos Académicos detalle */}
-      {doc.titulosAcademicos && doc.titulosAcademicos.length > 0 && (
+      {/* Títulos Académicos detalle — combina BD base + nuevos aprobados vía CIARP */}
+      {(allTitulos.length > 0 || titulosAprobadosExtra.length > 0) && (
         <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #e5e7eb', padding: '16px 20px', marginBottom: 20 }}>
           <div style={{ fontSize: 13, fontWeight: 800, color: '#1a1a1a', marginBottom: 12 }}>🎓 Títulos Académicos</div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
@@ -599,6 +696,18 @@ function DetalleDocente({ doc, onBack, setNav, onVerHV }) {
                 <span style={{ fontSize: 13, color: '#333' }}>{doc.doctorado}</span>
               </div>
             )}
+            {/* Nuevos títulos aprobados vía CIARP que no estaban en la BD */}
+            {titulosAprobadosExtra
+              .filter(t => !doc.especializacion?.toLowerCase().includes(t.toLowerCase().slice(0,10))
+                        && !doc.maestria?.toLowerCase().includes(t.toLowerCase().slice(0,10))
+                        && !doc.doctorado?.toLowerCase().includes(t.toLowerCase().slice(0,10)))
+              .map((t, i) => (
+                <div key={`extra_${i}`} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                  <span style={{ background: '#faf5ff', border: '1.5px solid #d8b4fe', borderRadius: 8, padding: '4px 10px', fontSize: 11, fontWeight: 700, color: '#6b21a8', whiteSpace: 'nowrap' }}>✨ Nuevo (CIARP)</span>
+                  <span style={{ fontSize: 13, color: '#333', fontWeight: 700 }}>{t}</span>
+                </div>
+              ))
+            }
           </div>
         </div>
       )}

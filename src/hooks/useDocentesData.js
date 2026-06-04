@@ -93,7 +93,7 @@ export function useDocentesConNuevos() {
     // TIPOS ya está importado al top del archivo
     
     solicitudes
-      .filter(s => s.estado === 'aprobado' && etapasValidas.includes(s.etapa) && Number(s.pts_asig) > 0 && s.id?.startsWith('SOL-'))
+      .filter(s => s.estado === 'aprobado' && etapasValidas.includes(s.etapa) && Number(s.pts_asig) > 0)
       .forEach(s => {
         const c = String(s.cedula);
         if (!map[c]) map[c] = { prod: 0, exc: 0 };
@@ -101,16 +101,26 @@ export function useDocentesConNuevos() {
         const pts = Number(s.pts_asig) || 0;
         const infoTipo = TIPOS[s.tipo] || {};
         
-        if (infoTipo.esExcepcion) {
-           map[c].exc += pts;
+        if (infoTipo.esExcepcion || ['titulo', 'titulo_academico'].includes(s.tipo)) {
+           // Títulos académicos y excepciones (DAA, DDD, Exp. Calificada): suman al salario
+           // total pero NO consumen el tope de productividad académica
+           // Solo sumamos si el ID es SOL- (nuevos) para evitar duplicar los que ya están
+           // registrados en pts_titulos_exp de la BD
+           if (s.id?.startsWith('SOL-')) {
+             map[c].exc += pts;
+           }
         } else if (infoTipo.esBonificacion || s.tipo === 'ascenso') {
            // Bonificaciones o ascensos: no suman ni al acumulado ni al salarial mensual
         } else {
-           map[c].prod += pts;
+           // Productividad académica: solo sumas nuevas (SOL-*) para no duplicar con pts_acumulados de BD
+           if (s.id?.startsWith('SOL-')) {
+             map[c].prod += pts;
+           }
         }
       });
     return map;
   }, [solicitudes]);
+
 
   const data = useMemo(() =>
     DOCENTES_PLANTA.map(d => {

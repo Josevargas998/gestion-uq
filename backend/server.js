@@ -28,6 +28,13 @@ const app    = express();
 const PORT   = process.env.PORT || 3001;
 const isProd = process.env.NODE_ENV === 'production';
 
+process.on('uncaughtException', (err) => {
+  console.error('[CRASH] Uncaught Exception:', err);
+});
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('[CRASH] Unhandled Rejection at:', promise, 'reason:', reason);
+});
+
 // ─────────────────────────────────────────────────────────────
 // Directorios de archivos
 // ─────────────────────────────────────────────────────────────
