@@ -6,13 +6,13 @@ import { BookOpen, FileText, Monitor, Lightbulb, Trophy, Star, PenTool, Database
  * Componente que renderiza formularios dinámicos según el tipo de producto
  * para recopilar todos los metadatos necesarios en la exportación al CIARP.
  */
-const InputField = ({ label, name, type = 'text', placeholder = '', datos, onChange }) => (
+const InputField = ({ label, name, type = 'text', placeholder = '', datos, onChange, fallback = '' }) => (
   <div style={{ marginBottom: 12 }}>
     <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: 'var(--muted)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.5 }}>{label}</label>
     <input
       type={type}
       name={name}
-      value={datos[name] || ''}
+      value={datos[name] !== undefined ? datos[name] : fallback}
       onChange={onChange}
       placeholder={placeholder}
       style={{ width: '100%', padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13 }}
@@ -20,7 +20,7 @@ const InputField = ({ label, name, type = 'text', placeholder = '', datos, onCha
   </div>
 );
 
-export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
+export default function DatosProductoPanel({ sol = {}, tipo, datos = {}, onChange }) {
   // Manejador para campos individuales
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -235,7 +235,7 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     if (cat.includes('titulo')) {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" placeholder="Nivel previo" />
+          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" placeholder="Nivel previo" fallback={sol.escolaridad || ''} />
           <InputField datos={datos} onChange={handleChange} label="Universidad que Otorga" name="universidad_otorga" />
           <InputField datos={datos} onChange={handleChange} label="Nombre Exacto del Título" name="titulo_otorgado" placeholder="Ej: Doctor en Educación" />
           <InputField datos={datos} onChange={handleChange} label="Fecha de Grado" name="fecha_graduacion" type="date" />
@@ -291,7 +291,7 @@ export default function DatosProductoPanel({ tipo, datos = {}, onChange }) {
     if (cat === 'postdoctorado') {
       return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 16px' }}>
-          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" />
+          <InputField datos={datos} onChange={handleChange} label="Escolaridad Anterior" name="escolaridad_anterior" fallback={sol.escolaridad || ''} />
           <InputField datos={datos} onChange={handleChange} label="Categoría" name="categoria_docente" placeholder="Ej: Asociado, Titular" />
           <div style={{ gridColumn: '1 / -1' }}>
             <InputField datos={datos} onChange={handleChange} label="Título de Doctorado" name="titulo_doctorado" />

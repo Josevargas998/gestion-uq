@@ -663,6 +663,7 @@ export default function DetalleSolicitud({ sol, user, onBack, onUpdate, onElimin
       {isTecnico && (
         <div style={{ marginBottom: 16 }}>
           <DatosProductoPanel
+            sol={sol}
             tipo={sol.tipo}
             datos={metadatos}
             onChange={(nuevosDatos) => { setMetadatos(nuevosDatos); setSaved(false); }}

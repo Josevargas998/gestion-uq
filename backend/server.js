@@ -314,6 +314,8 @@ app.get('/api/solicitudes', async (req, res, next) => {
              COALESCE(d.pts_total_salarial, 0) AS docente_pts_total_salarial,
              COALESCE(d.lugar_expedicion, '________') AS docente_lugar_expedicion,
              COALESCE(d.dedicacion, 'Tiempo Completo') AS dedicacion,
+             COALESCE(d.escolaridad, '') AS escolaridad,
+             COALESCE(d.categoria, '') AS categoria,
              d.historial AS docente_historial,
              COUNT(*) OVER() AS total_count
       FROM solicitudes s

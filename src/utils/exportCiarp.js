@@ -354,7 +354,7 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
     ...byTipo('titulo', 'titulo_academico').map((s, i) => [
       v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
       v(s.cedula), v(s.docente, '').toUpperCase(),
-      v(s.escolaridad_anterior), v(s.categoria), v(s.dedicacion), v(s.programa),
+      v(s.escolaridad_anterior, s.escolaridad), v(s.categoria), v(s.dedicacion), v(s.programa),
       v(s.facultad), v(s.universidad_otorga), v(s.titulo_otorgado || s.titulo),
       v(s.acto_convalidacion, 'N/A'), v(s.fecha_graduacion),
       v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
@@ -452,7 +452,7 @@ export async function exportarCIARP(solicitudes, docentes = [], nombreActa = '')
     ...byTipo('postdoctorado').map((s, i) => [
       v(s.anio, anoActa), v(s.semestre, semestre), i + 1,
       v(s.cedula), v(s.docente, '').toUpperCase(),
-      v(s.escolaridad_anterior), v(s.categoria_docente || s.categoria), v(s.dedicacion),
+      v(s.escolaridad_anterior, s.escolaridad), v(s.categoria_docente || s.categoria), v(s.dedicacion),
       v(s.programa), v(s.facultad), v(s.titulo_doctorado),
       v(s.entidad_certifica), v(s.titulo), v(s.duracion_meses),
       v(s.fechas_proyecto), v(s.pts_asig, 0), v(s.acta_ciarp), v(s.notas),
