@@ -22,7 +22,9 @@ import {
 ───────────────────────────────────────────────────────────────── */
 const CATEGORIAS_D1279 = [
   { key: 'articulos',      label: 'Artículos Indexados',          icon: <FileText size={16}/>, tipos: ['articulo_indexado','articulo_no_indexado'] },
-  { key: 'libros',         label: 'Libros',                       icon: <BookOpen size={16}/>, tipos: ['libro_texto','libro_ensayo','libro_investigacion'] },
+  { key: 'libro_texto',    label: 'Libros de Texto',              icon: <BookOpen size={16}/>, tipos: ['libro_texto'] },
+  { key: 'libro_ensayo',   label: 'Libros de Ensayo',             icon: <BookOpen size={16}/>, tipos: ['libro_ensayo'] },
+  { key: 'libro_invest',   label: 'Libros de Investigación',      icon: <BookOpen size={16}/>, tipos: ['libro_investigacion'] },
   { key: 'software',       label: 'Software',                     icon: <Monitor size={16}/>,  tipos: ['software'] },
   { key: 'obras',          label: 'Obras / Prod. Técnica',        icon: <PenTool size={16}/>,  tipos: ['obra_artistica','produccion_tecnica','video','traduccion'] },
   { key: 'patentes',       label: 'Patentes',                     icon: <Lightbulb size={16}/>,tipos: ['patente'] },
