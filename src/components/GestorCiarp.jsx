@@ -31,7 +31,12 @@ const CATEGORIAS_D1279 = [
   { key: 'premios',        label: 'Premios',                      icon: <Trophy size={16}/>,   tipos: ['premio'] },
   { key: 'ponencias',      label: 'Ponencias',                    icon: <Mic size={16}/>,      tipos: ['ponencia'] },
   { key: 'tesis',          label: 'Dirección de Tesis',           icon: <GraduationCap size={16}/>, tipos: ['direccion_tesis'] },
+  { key: 'titulos',        label: 'Títulos Académicos',           icon: <GraduationCap size={16}/>, tipos: ['titulo','titulo_academico'] },
   { key: 'daa',            label: 'DAA — Desempeño Acad.-Admvo.',icon: <Landmark size={16}/>, tipos: ['daa'] },
+  { key: 'ddd_auxiliar',   label: 'DDD — Auxiliar',              icon: <Star size={16}/>,     tipos: ['ddd_auxiliar'] },
+  { key: 'ddd_asistente',  label: 'DDD — Asistente',             icon: <Star size={16}/>,     tipos: ['ddd_asistente'] },
+  { key: 'ddd_asociado',   label: 'DDD — Asociado',              icon: <Star size={16}/>,     tipos: ['ddd_asociado'] },
+  { key: 'ddd_titular',    label: 'DDD — Titular',               icon: <Star size={16}/>,     tipos: ['ddd_titular'] },
   { key: 'ddd',            label: 'DDD — Desempeño Destacado',   icon: <Star size={16}/>,     tipos: ['ddd'] },
   { key: 'exp_calificada', label: 'Experiencia Calificada',       icon: <Briefcase size={16}/>,tipos: ['exp_calificada'] },
   { key: 'ascensos',       label: 'Ascensos CEI',                 icon: <GraduationCap size={16}/>, tipos: ['ascenso'] },
@@ -51,7 +56,7 @@ function TablaProductos({ lista, onSelect, onEliminar, user }) {
       if (p.length > 0) result.push({ ...cat, label: `${cat.label} (${p.length})` });
     });
     const otros = lista.filter(s => !CATEGORIAS_D1279.some(c => c.tipos.includes(s.tipo)));
-    if (otros.length > 0) result.push({ key: 'otros', label: `Otros (${otros.length})`, icon: <FileText size={14}/> });
+    if (otros.length > 0) result.push({ key: 'otros', label: `Sin clasificar (${otros.length})`, icon: <FileText size={14}/> });
     return result;
   }, [lista]);
 

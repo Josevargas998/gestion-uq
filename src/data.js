@@ -50,6 +50,10 @@ export const TIPOS = {
   // ── Excepciones al tope — SÍ suman al salario total pero NO al tope de productividad ──
   daa:                  { label: 'Desempeño Acad.-Admvo. (DAA)',  pts: 0,  ruta: 'directo',         icon: '🏩', desc: 'Art. 10 D.1279 — Cargo académico-administrativo',    esExcepcion: true },
   ddd:                  { label: 'Desempeño Destacado (DDD)',      pts: 0,  ruta: 'directo',         icon: '⭐', desc: 'Art. 10 D.1279 — Evaluación docente sobresaliente', esExcepcion: true },
+  ddd_auxiliar:         { label: 'DDD — Auxiliar',                 pts: 0,  ruta: 'directo',         icon: '⭐', desc: 'Art. 10 D.1279 — DDD categoría Auxiliar (2 pts)',   esExcepcion: true },
+  ddd_asistente:        { label: 'DDD — Asistente',                pts: 0,  ruta: 'directo',         icon: '⭐', desc: 'Art. 10 D.1279 — DDD categoría Asistente (3 pts)',  esExcepcion: true },
+  ddd_asociado:         { label: 'DDD — Asociado',                 pts: 0,  ruta: 'directo',         icon: '⭐', desc: 'Art. 10 D.1279 — DDD categoría Asociado (4 pts)',   esExcepcion: true },
+  ddd_titular:          { label: 'DDD — Titular',                  pts: 0,  ruta: 'directo',         icon: '⭐', desc: 'Art. 10 D.1279 — DDD categoría Titular (5 pts)',    esExcepcion: true },
   exp_calificada:       { label: 'Experiencia Calificada',         pts: 0,  ruta: 'directo',         icon: '💼', desc: 'Art. 12 D.1279 — Experiencia profesional externa',   esExcepcion: true },
 };
 
