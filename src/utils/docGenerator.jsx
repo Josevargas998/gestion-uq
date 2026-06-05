@@ -220,12 +220,12 @@ export function generarDocumento(tipo, sol, docentesMap = {}) {
           });
 
           const totalNuevos = sumaProductividad + sumaTitulos;
-          // Si el trigger ya sumó en bd, lo restamos para ver la base; si no, asume base es bd. (Lo ideal en G_UQ es la suma de ambos total).
-          // Según el prompt, pts_acumulados es la base anterior o la base total. Asumiremos pts_acumulados (base + nuevos de productividad).
-          const puntosBase = Math.max(0, d.pts_acumulados - totalNuevos);
+          // pts_acumulados de la BD son los puntos base (Resolución anterior) antes de registrar esta nueva resolución.
+          const puntosBase = Math.max(0, Number(d.pts_acumulados) || 0);
+          const totalFinal = puntosBase + totalNuevos;
 
           return `
-            <p style="margin-top: 15px; margin-bottom: 20px;"><strong>ARTÍCULO ${ordinal}:</strong> Asignar y reconocer puntos salariales con fundamento en la parte considerativa del presente acto administrativo a l${esMujer ? 'a profesora' : 'el profesor'} <strong>${d.docente.toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${d.cedula || '_________'} de ${d.lugar_expedicion}; con dedicación de ${d.dedicacion.toLowerCase()}, ${d.pts_acumulados.toFixed(1)} puntos, así:</p>
+            <p style="margin-top: 15px; margin-bottom: 20px;"><strong>ARTÍCULO ${ordinal}:</strong> Asignar y reconocer puntos salariales con fundamento en la parte considerativa del presente acto administrativo a l${esMujer ? 'a profesora' : 'el profesor'} <strong>${d.docente.toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${d.cedula || '_________'} de ${d.lugar_expedicion}; con dedicación de ${d.dedicacion.toLowerCase()}, <strong>${totalFinal.toFixed(1)} puntos</strong>, así:</p>
             
             <table style="margin-left: 0; width: 70%; font-size: 12px; border-collapse: collapse; margin-bottom: 10px;">
               <tr>
@@ -285,12 +285,13 @@ export function generarDocumento(tipo, sol, docentesMap = {}) {
           });
 
           const totalNuevos = expPts + dddPts + daaPts;
-          const puntosBase = Math.max(0, d.pts_total_salarial - totalNuevos);
+          const puntosBase = Math.max(0, Number(d.pts_total_salarial) || 0);
+          const totalFinal = puntosBase + totalNuevos;
 
           return `
             <div style="margin-bottom: 25px;">
               <p style="margin-bottom: 10px; text-align: justify; line-height: 1.5;">
-                <strong>${d.docente.toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${d.cedula || '_________'} de ${d.lugar_expedicion}; con dedicación de ${d.dedicacion.toLowerCase()}, <strong>${d.pts_total_salarial.toFixed(1)} puntos</strong> a partir del 1º de enero del año ${year}, distribuidos así:
+                <strong>${d.docente.toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${d.cedula || '_________'} de ${d.lugar_expedicion}; con dedicación de ${d.dedicacion.toLowerCase()}, <strong>${totalFinal.toFixed(1)} puntos</strong> a partir del 1º de enero del año ${year}, distribuidos así:
               </p>
               
               <table style="margin-left: 0; width: 70%; font-size: 12px; border-collapse: collapse; margin-bottom: 10px;">
