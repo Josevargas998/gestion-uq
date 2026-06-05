@@ -579,6 +579,27 @@ app.post('/api/solicitudes', verifyToken, requireAdminOrTecnico, async (req, res
         titulo:  newSolicitud.titulo,
         pts_sug: newSolicitud.pts_sug
       });
+
+      // Lógica de automatización: si es un título aprobado, actualizar el perfil del docente
+      if (newSolicitud.estado === 'aprobado' && ['titulo', 'titulo_academico'].includes(newSolicitud.tipo)) {
+        const tituloLower = (newSolicitud.titulo || '').toLowerCase();
+        let campoUpdate = null;
+        if (tituloLower.includes('doctor')) campoUpdate = 'doctorado';
+        else if (tituloLower.includes('maestr') || tituloLower.includes('magister')) campoUpdate = 'maestria';
+        else if (tituloLower.includes('especializa')) campoUpdate = 'especializacion';
+
+        if (campoUpdate) {
+          try {
+            await query(
+              `UPDATE docentes SET ${campoUpdate} = $1, escolaridad = $1 WHERE cedula = $2`,
+              [newSolicitud.titulo, newSolicitud.cedula]
+            );
+            console.log(`[CIARP] Escolaridad de ${newSolicitud.cedula} actualizada a ${newSolicitud.titulo} (${campoUpdate}) [NUEVA]`);
+          } catch (e) {
+            console.error('[CIARP] Error actualizando escolaridad automática:', e);
+          }
+        }
+      }
     }
 
     res.status(201).json(newSolicitud);
@@ -668,6 +689,27 @@ app.put('/api/solicitudes/:id', verifyToken, requireAdminOrTecnico, async (req, 
         etapa:    updatedSolicitud.etapa,
         pts_asig: updatedSolicitud.pts_asig
       });
+
+      // Lógica de automatización: si es un título aprobado, actualizar el perfil del docente
+      if (updatedSolicitud.estado === 'aprobado' && ['titulo', 'titulo_academico'].includes(updatedSolicitud.tipo)) {
+        const tituloLower = (updatedSolicitud.titulo || '').toLowerCase();
+        let campoUpdate = null;
+        if (tituloLower.includes('doctor')) campoUpdate = 'doctorado';
+        else if (tituloLower.includes('maestr') || tituloLower.includes('magister')) campoUpdate = 'maestria';
+        else if (tituloLower.includes('especializa')) campoUpdate = 'especializacion';
+
+        if (campoUpdate) {
+          try {
+            await query(
+              `UPDATE docentes SET ${campoUpdate} = $1, escolaridad = $1 WHERE cedula = $2`,
+              [updatedSolicitud.titulo, updatedSolicitud.cedula]
+            );
+            console.log(`[CIARP] Escolaridad de ${updatedSolicitud.cedula} actualizada a ${updatedSolicitud.titulo} (${campoUpdate})`);
+          } catch (e) {
+            console.error('[CIARP] Error actualizando escolaridad automática:', e);
+          }
+        }
+      }
     }
 
     res.json(updatedSolicitud);
