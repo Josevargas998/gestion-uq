@@ -207,22 +207,24 @@ export function generarDocumento(tipo, sol, docentesMap = {}) {
           const esMujer = /a$/i.test(d.docente.split(' ')[0]) || /a$/i.test(d.docente);
           const ordinal = index + 1 < n2w.length ? n2w[index + 1] : `VIGÉSIMO`; 
           
-          let sumaProductividad = 0;
-          let sumaTitulos = 0;
+          // Nueva productividad de este CIARP (artículos, libros, software, etc.)
+          // NO incluye títulos — esos son acumulados históricos
+          let nuevaProductividad = 0;
           
           d.productos.forEach(s => {
             const val = s.pts_asig != null ? Number(s.pts_asig) : (Number(s.pts_sug) || 0);
-            if (s.tipo === 'titulo_academico' || s.tipo === 'titulo' || s.tipo === 'ascenso') {
-              sumaTitulos += val;
-            } else {
-              sumaProductividad += val;
+            // Los títulos NO se suman aquí — van en el campo acumulado pts_titulos_exp
+            if (!['titulo_academico', 'titulo', 'ascenso'].includes(s.tipo)) {
+              nuevaProductividad += val;
             }
           });
 
-          const totalNuevos = sumaProductividad + sumaTitulos;
-          // pts_acumulados de la BD son los puntos base (Resolución anterior) antes de registrar esta nueva resolución.
-          const puntosBase = Math.max(0, Number(d.pts_acumulados) || 0);
-          const totalFinal = puntosBase + totalNuevos;
+          // Puntos base de productividad (de Topes — lo que ya tenía antes de este CIARP)
+          const puntosBaseProductividad = Math.max(0, Number(d.pts_acumulados) || 0);
+          // Títulos académicos: ACUMULADO TOTAL de todos sus títulos (Academusoft col 24)
+          const puntajesTitulosAcum = Math.max(0, Number(d.pts_titulos_exp) || 0);
+          // Total final de la resolución
+          const totalFinal = puntosBaseProductividad + nuevaProductividad + puntajesTitulosAcum;
 
           return `
             <p style="margin-top: 15px; margin-bottom: 20px;"><strong>ARTÍCULO ${ordinal}:</strong> Asignar y reconocer puntos salariales con fundamento en la parte considerativa del presente acto administrativo a l${esMujer ? 'a profesora' : 'el profesor'} <strong>${d.docente.toUpperCase()}</strong>, identificad${esMujer ? 'a' : 'o'} con cédula de ciudadanía No. ${d.cedula || '_________'} de ${d.lugar_expedicion}; con dedicación de ${d.dedicacion.toLowerCase()}, <strong>${totalFinal.toFixed(1)} puntos</strong>, así:</p>
@@ -230,18 +232,18 @@ export function generarDocumento(tipo, sol, docentesMap = {}) {
             <table style="margin-left: 0; width: 70%; font-size: 12px; border-collapse: collapse; margin-bottom: 10px;">
               <tr>
                 <td style="padding: 2px 0;">Puntaje Res. ${d.res_anterior || '[RES_ANTERIOR]'} ${d.fecha_res_anterior ? '/ ' + d.fecha_res_anterior : '[FECHA_RES_ANTERIOR]'}</td>
-                <td style="padding: 2px 0; text-align: right;">${puntosBase.toFixed(1)} Puntos</td>
+                <td style="padding: 2px 0; text-align: right;">${puntosBaseProductividad.toFixed(1)} Puntos</td>
               </tr>
-              ${sumaProductividad > 0 ? `
+              ${nuevaProductividad > 0 ? `
               <tr>
                 <td style="padding: 2px 0;">Productividad Académica</td>
-                <td style="padding: 2px 0; text-align: right;">${sumaProductividad.toFixed(1)} Puntos</td>
+                <td style="padding: 2px 0; text-align: right;">${nuevaProductividad.toFixed(1)} Puntos</td>
               </tr>
               ` : ''}
-              ${sumaTitulos > 0 ? `
+              ${puntajesTitulosAcum > 0 ? `
               <tr>
-                <td style="padding: 2px 0;">Título Académico</td>
-                <td style="padding: 2px 0; text-align: right;">${sumaTitulos.toFixed(1)} Puntos</td>
+                <td style="padding: 2px 0;">Títulos Académicos</td>
+                <td style="padding: 2px 0; text-align: right;">${puntajesTitulosAcum.toFixed(1)} Puntos</td>
               </tr>
               ` : ''}
             </table>

@@ -186,28 +186,30 @@ async function main() {
 
     const add = (col, val) => { if (val !== undefined && val !== null) { sets.push(`${col} = $${p}`); vals.push(val); p++; } };
 
-    // De Academusoft — siempre actualizar escolaridad base, PERO
-    // respetar el doctorado si ya fue aprobado por CIARP (viene de BD)
+    // De Academusoft — perfil académico y escolaridad
     if (acad) {
       add('especializacion', acad.especializacion || null);
       add('maestria', acad.maestria || null);
-      // Solo sobreescribir doctorado con Academusoft si NO tenemos uno ya en BD de CIARP
-      // (verificamos consultando el campo actual)
+      if (acad.doctorado) add('doctorado', acad.doctorado);
       add('dedicacion', acad.dedicacion);
       add('fecha_ingreso', acad.fecha_ingreso);
       if (acad.pts_titulos_exp > 0) add('pts_titulos_exp', acad.pts_titulos_exp);
-      if (acad.pts_total_salarial_acad > 0) add('pts_total_salarial', acad.pts_total_salarial_acad);
       if (categoria) add('categoria', categoria);
-      // escolaridad: solo si Academusoft tiene algo y NO la queremos bajar (si ya tiene doctorado en BD por CIARP)
-      // La lógica: subir escolaridad con doctorado de Academusoft si existe, sino maestria, sino especializacion
-      if (acad.doctorado) add('doctorado', acad.doctorado);
       if (escolaridad) add('escolaridad', escolaridad);
+    }
+
+    // pts_total_salarial: FUENTE PRINCIPAL = Res Exp Cal (resolución firmada oficial)
+    // Academusoft solo como respaldo si no está en Res Exp Cal
+    if (res && res.pts_totales_resolucion > 0) {
+      add('pts_total_salarial', res.pts_totales_resolucion);
+    } else if (acad && acad.pts_total_salarial_acad > 0) {
+      add('pts_total_salarial', acad.pts_total_salarial_acad);
     }
 
     // De Topes — tope principal de productividad
     if (topes && topes.tope > 0) {
       add('tope', topes.tope);
-      // pts_acumulados = los puntos de productividad que lleva el docente
+      // pts_acumulados = los puntos de productividad acumulados hasta la última resolución
       if (topes.pts_productividad >= 0) add('pts_acumulados', topes.pts_productividad);
     }
 
