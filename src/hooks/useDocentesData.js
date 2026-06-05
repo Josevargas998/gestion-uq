@@ -90,31 +90,35 @@ export function useDocentesConNuevos() {
   const solNuevosMap = useMemo(() => {
     const map = {};
     const etapasValidas = ['ciarp', 'acta', 'rectoria', 'juridica', 'resolucion', 'archivada'];
-    // TIPOS ya está importado al top del archivo
     
     solicitudes
       .filter(s => s.estado === 'aprobado' && etapasValidas.includes(s.etapa) && Number(s.pts_asig) > 0)
       .forEach(s => {
         const c = String(s.cedula);
-        if (!map[c]) map[c] = { prod: 0, exc: 0 };
+        if (!map[c]) map[c] = { prod_total: 0, exc_total: 0, prod_c2: 0, exc_c2: 0, prod_c1: 0, exc_c1: 0 };
         
         const pts = Number(s.pts_asig) || 0;
         const infoTipo = TIPOS[s.tipo] || {};
+        const isC2 = (s.acta_ciarp || '').startsWith('2-');
+        const isC1 = (s.acta_ciarp || '').startsWith('1-') || (s.acta_ciarp || '').includes('2025');
         
         if (infoTipo.esExcepcion || ['titulo', 'titulo_academico'].includes(s.tipo)) {
-           // Títulos académicos y excepciones (DAA, DDD, Exp. Calificada): suman al salario
-           // total pero NO consumen el tope de productividad académica
-           // Solo sumamos si el ID es SOL- (nuevos) para evitar duplicar los que ya están
-           // registrados en pts_titulos_exp de la BD
            if (s.id?.startsWith('SOL-')) {
-             map[c].exc += pts;
+             if (isC2) {
+               map[c].exc_total += pts;
+               map[c].exc_c2 += pts;
+             }
+             if (isC1) map[c].exc_c1 += pts;
            }
         } else if (infoTipo.esBonificacion || s.tipo === 'ascenso') {
-           // Bonificaciones o ascensos: no suman ni al acumulado ni al salarial mensual
+           // nada
         } else {
-           // Productividad académica: solo sumas nuevas (SOL-*) para no duplicar con pts_acumulados de BD
            if (s.id?.startsWith('SOL-')) {
-             map[c].prod += pts;
+             if (isC2) {
+               map[c].prod_total += pts;
+               map[c].prod_c2 += pts;
+             }
+             if (isC1) map[c].prod_c1 += pts;
            }
         }
       });
@@ -124,26 +128,38 @@ export function useDocentesConNuevos() {
 
   const data = useMemo(() =>
     DOCENTES_PLANTA.map(d => {
-      const { prod = 0, exc = 0 } = solNuevosMap[String(d.cedula)] || {};
+      const sol = solNuevosMap[String(d.cedula)] || { prod_total: 0, exc_total: 0, prod_c2: 0, exc_c2: 0, prod_c1: 0, exc_c1: 0 };
       
-      let ptsAcumulados = d.ptsAcumulados + prod;
-      let puntosRealesSumados = prod;
+      let ptsAcumulados = Number(d.ptsAcumulados) + sol.prod_total;
+      let puntosRealesSumados = sol.prod_total;
+      let puntosRealesC2 = sol.prod_c2;
 
-      // Si existe un tope de productividad y lo sobrepasa, se trunca estrictamente (no hay banco de puntos)
+      // Calcular diferencia real (puede ser negativa)
+      let diferencia = d.tope > 0 ? d.tope - ptsAcumulados : 0;
+
+      // Si superó el tope, los puntos salariales efectivos no deben sumar más allá del tope
       if (d.tope > 0 && ptsAcumulados > d.tope) {
-         puntosRealesSumados = Math.max(0, d.tope - d.ptsAcumulados); // Cuántos puntos de prod le faltaban antes
-         ptsAcumulados = d.tope;
+         // Si d.ptsAcumulados base ya era mayor al tope, el incremento real en el salario es 0
+         puntosRealesSumados = Math.max(0, d.tope - Number(d.ptsAcumulados));
+         puntosRealesC2 = Math.min(sol.prod_c2, puntosRealesSumados);
       }
 
-      // El salario se forma de: base salarial + puntos prod nuevos reales + excepciones (que no tienen tope)
-      const ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + puntosRealesSumados + exc;
+      // El salario se forma de: base salarial + puntos prod nuevos reales + excepciones 
+      const ptsTotalSalarial = (d.ptsTotalSalarial || d.ptsAcumulados) + puntosRealesSumados + sol.exc_total;
+
+      // Para la columna CIARP 01: la base que ya estaba en BD + los títulos/excepciones/prod de CIARP 1 que estaban en UUIDs ignorados
+      // Nota: Si ya estaban contados en la BD (como los 8 pts de Cristian), sol.prod_c1 podría duplicarlos si no se filtra, 
+      // pero como los UUID de productividad que acabo de corregir (ej. Carlos Andrés) faltaban en la BD, sumamos sol.exc_c1 + sol.prod_c1.
+      // Para evitar duplicar los 8 pts de Cristian, sabemos que su id era C12026 (no SOL-), por lo que sol.prod_c1 no lo incluye.
+      const ptsCiarp1Total = Number(d.ptsCiarp1_2026 || 0) + sol.exc_c1 + sol.prod_c1;
 
       return {
         ...d,
         ptsAcumulados,
         ptsTotalSalarial,
-        diferencia: d.tope > 0 ? d.tope - ptsAcumulados : 0,
-        ptsSolNuevos: puntosRealesSumados + exc, // Total real que impactó salario
+        diferencia,
+        ptsSolNuevos: puntosRealesC2 + sol.exc_c2, // Total real EXCLUSIVO del CIARP 2
+        ptsCiarp1Total // Total real del CIARP 1 incluyendo títulos reparados
       };
     }), [DOCENTES_PLANTA, solNuevosMap]);
 

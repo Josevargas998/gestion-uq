@@ -159,15 +159,12 @@ export default function GestorDocentes({ user, setNav }) {
         }
       }
 
-      // PUNTOS POR TÍTULOS ACADÉMICOS — suma TODAS las solicitudes aprobadas (históricas + nuevas)
-      // Para docentes sin solicitudes en el sistema, se usa ptsTitulosExp de la BD como fallback
-      const ptsTitulosEnSolicitudes = solAprobadasAll
-        .filter(s => ['titulo', 'titulo_academico'].includes(s.tipo))
+      // PUNTOS POR TÍTULOS ACADÉMICOS — suma base de BD + NUEVOS títulos del CIARP 2
+      // La base de BD ya incluye el histórico hasta la resolución anterior (CIARP 1 incluido)
+      const ptsTitulosNuevos = solAprobadasAll
+        .filter(s => ['titulo', 'titulo_academico'].includes(s.tipo) && (s.acta_ciarp || '').startsWith('2-'))
         .reduce((acc, s) => acc + (Number(s.pts_asig) || 0), 0);
-      // Si hay solicitudes de títulos en el sistema, usarlas; si no, caer al campo BD
-      const ptsTitulosTotal = ptsTitulosEnSolicitudes > 0
-        ? ptsTitulosEnSolicitudes
-        : Number(d.ptsTitulosExp || 0);
+      const ptsTitulosTotal = Number(d.ptsTitulosExp || 0) + ptsTitulosNuevos;
 
       // PUNTOS POR EXPERIENCIA CALIFICADA (DDD, DAA) — suma TODAS las solicitudes aprobadas
       const ptsExperiencia = solAprobadasAll
@@ -186,7 +183,7 @@ export default function GestorDocentes({ user, setNav }) {
         "CATEGORÍA": d.categoria,
         "TOPE": d.tope,
         "DIFERENCIA ENTRE EL TOPE Y EL PUNTAJE ASIGNADO": d.diferencia >= 0 ? d.diferencia.toFixed(1) : d.diferencia.toFixed(1),
-        "CIARP 01 2026 18 Mar": d.ptsCiarp1_2026 || 0,
+        "CIARP 01 2026 18 Mar": Number((d.ptsCiarp1Total || 0).toFixed(2)),
         "CIARP 02 2026 04 Jun": d.ptsSolNuevos || 0,
         "PUNTOS POR PRODUCTIVIDAD ACADÉMICA": Number(d.ptsAcumulados.toFixed(1)),
         "PUNTOS POR TÍTULOS ACADÉMICOS": Number(ptsTitulosTotal.toFixed(1)),
