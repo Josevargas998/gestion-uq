@@ -280,7 +280,7 @@ export function generarDocumento(tipo, sol, docentesMap = {}) {
           d.productos.forEach(s => {
             const val = s.pts_asig != null ? Number(s.pts_asig) : (Number(s.pts_sug) || 0);
             if (s.tipo === 'exp_calificada') expPts += val;
-            if (s.tipo === 'ddd') dddPts += val;
+            if (['ddd','ddd_auxiliar','ddd_asistente','ddd_asociado','ddd_titular'].includes(s.tipo)) dddPts += val;
             if (s.tipo === 'daa') daaPts += val;
           });
 
