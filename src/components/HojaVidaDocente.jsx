@@ -5,9 +5,11 @@ import { cleanText } from '../helpers.js';
 /* ─── Estilos de impresión ─────────────────────────────────────────── */
 const PRINT_CSS = `
 @media print {
-  body > * { display: none !important; }
-  #hv-print-root { display: block !important; position: static !important; }
-  .hv-no-print { display: none !important; }
+  body { background: #fff; margin: 0; padding: 0; }
+  .hv-no-print, .sidebar, .topbar { display: none !important; }
+  .shell-layout { display: block !important; height: auto !important; }
+  .main-area { margin: 0 !important; padding: 0 !important; overflow: visible !important; height: auto !important; }
+  #root { overflow: visible !important; height: auto !important; }
   @page { margin: 15mm 20mm; size: A4; }
 }
 `;
