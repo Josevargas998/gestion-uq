@@ -3,6 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, PieChart, Pie, Cell, Legend, LineChart, Line,
 } from 'recharts';
+import ExploradorProductividad from './ExploradorProductividad';
 
 const COLORS = ['#2563eb','#10b981','#f59e0b','#ef4444','#8b5cf6','#06b6d4','#f97316','#ec4899','#14b8a6','#a855f7'];
 
@@ -332,6 +333,9 @@ export default function Reportes({ solicitudes }) {
               </div>
             )}
           </div>
+
+          {/* Fila 4: Explorador Programa × Producto × Año */}
+          <ExploradorProductividad rows={filtrado} catLabels={CAT_LABELS} />
         </>
       )}
     </div>
